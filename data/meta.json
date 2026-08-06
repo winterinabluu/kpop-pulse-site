@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "generated_at": "2026-08-06T09:07:58Z",
-  "site_data_version": "2026.06.17.fixture",
+  "site_data_version": "2026.08.06-alpha",
   "sources": {
     "youtube": {
       "ok": false,
       "status": "disabled",
-      "item_count": 4,
-      "last_success_at": "2026-06-17T00:00:00+08:00",
-      "message": "YouTube data source is not configured; keeping previous YouTube data."
+      "item_count": 0,
+      "last_success_at": null,
+      "message": "YouTube is not configured; no YouTube items are published."
     },
     "news": {
       "ok": true,
@@ -18,11 +18,11 @@
       "message": "Fetched RSS feeds."
     },
     "curated": {
-      "ok": true,
-      "status": "fixture",
-      "item_count": 2,
-      "last_success_at": "2026-06-17T00:00:00+08:00",
-      "message": "Manual fixture data loaded."
+      "ok": false,
+      "status": "manual_only",
+      "item_count": 0,
+      "last_success_at": null,
+      "message": "No verified manual items are currently published."
     },
     "bilibili": {
       "ok": false,
@@ -41,8 +41,8 @@
     "xiaohongshu": {
       "ok": false,
       "status": "manual_only",
-      "item_count": 1,
-      "last_success_at": "2026-06-17T00:00:00+08:00",
+      "item_count": 0,
+      "last_success_at": null,
       "message": "Use curated items instead of automated collection."
     }
   }

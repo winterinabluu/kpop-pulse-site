@@ -1,110 +1,13 @@
 {
   "schema_version": 1,
   "source": "curated",
-  "generated_at": "2026-06-17T00:00:00+08:00",
+  "generated_at": "2026-08-06T09:07:58Z",
   "status": {
-    "ok": true,
-    "code": "fixture",
-    "message": "Manual fixture items for community platforms that should not block MVP automation.",
-    "item_count": 2,
+    "ok": false,
+    "code": "manual_only",
+    "message": "No verified manual items are currently published.",
+    "item_count": 0,
     "previous_data_used": false
   },
-  "items": [
-    {
-      "id": "curated:xhs-aespa-look",
-      "platform": "xiaohongshu",
-      "platform_item_id": "xhs-aespa-look",
-      "source_type": "curated",
-      "content_kind": "post",
-      "title": "小红书精选：aespa 舞台造型讨论升温",
-      "description": "人工精选示例，用于覆盖暂不自动采集的小红书内容。",
-      "url": "https://www.xiaohongshu.com/search_result?keyword=aespa%20%E8%88%9E%E5%8F%B0%20%E9%80%A0%E5%9E%8B",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-06-16T21:00:00+08:00",
-      "collected_at": "2026-06-17T00:00:00+08:00",
-      "author": {
-        "name": "Manual Curator",
-        "handle": "",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 12800,
-        "comments": 640,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "zh",
-      "matched_groups": ["aespa"],
-      "matched_members": ["karina"],
-      "match_confidence": "manual",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "curator_note",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.92,
-        "views": 0,
-        "engagement": 11.1,
-        "source_weight": 0.8
-      },
-      "quality_flags": ["manual_reviewed"],
-      "hot_score": 14.18,
-      "available": true
-    },
-    {
-      "id": "curated:bili-gidle-cut",
-      "platform": "bilibili",
-      "platform_item_id": "bili-gidle-cut",
-      "source_type": "curated",
-      "content_kind": "fanclip",
-      "title": "Bilibili 精选：(G)I-DLE 综艺切片被集中转发",
-      "description": "人工精选示例，用于验证中文社区内容和 GIDLE 过滤。",
-      "url": "https://search.bilibili.com/all?keyword=%28G%29I-DLE%20%E7%BB%BC%E8%89%BA%20%E5%88%87%E7%89%87",
-      "thumbnail": "./public/placeholders/video.svg",
-      "published_at": "2026-06-15T20:15:00+08:00",
-      "collected_at": "2026-06-17T00:00:00+08:00",
-      "author": {
-        "name": "Manual Curator",
-        "handle": "",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 360000,
-        "likes": 27000,
-        "comments": 2200,
-        "shares": 0,
-        "danmaku": 6800
-      },
-      "duration": "PT5M42S",
-      "language": "zh",
-      "matched_groups": ["gidle"],
-      "matched_members": ["yuqi", "minnie"],
-      "match_confidence": "manual",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "(G)I-DLE",
-          "field": "curator_note",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.78,
-        "views": 12.79,
-        "engagement": 18.9,
-        "source_weight": 0.8
-      },
-      "quality_flags": ["manual_reviewed"],
-      "hot_score": 18.74,
-      "available": true
-    }
-  ]
+  "items": []
 }

@@ -1,8 +1,14 @@
 const DATA_FILES = {
   config: "./data/config.json",
   meta: "./data/meta.json",
-  feeds: ["./data/youtube.json", "./data/news.json", "./data/curated.json"]
+  feeds: [
+    ["youtube", "./data/youtube.json"],
+    ["news", "./data/news.json"],
+    ["curated", "./data/curated.json"]
+  ]
 };
+
+const CORE_SOURCES = ["news", "youtube", "curated"];
 
 const CONFIDENCE_ORDER = {
   manual: 4,
@@ -13,22 +19,29 @@ const CONFIDENCE_ORDER = {
 
 const PLATFORM_LABELS = {
   youtube: "YouTube",
-  news: "News",
+  news: "新闻",
   bilibili: "Bilibili",
-  xiaohongshu: "XHS",
-  curated: "Curated"
+  xiaohongshu: "小红书",
+  curated: "人工精选"
+};
+
+const SOURCE_LABELS = {
+  news: "新闻",
+  youtube: "YouTube",
+  curated: "人工精选"
 };
 
 const state = {
   config: null,
   meta: null,
   items: [],
+  feedErrors: {},
   filters: {
     groups: new Set(),
     members: new Set(),
     platforms: new Set(),
     q: "",
-    sort: "hot",
+    sort: "latest",
     quality: "featured"
   }
 };
@@ -43,8 +56,8 @@ const els = {
   sortSelect: document.querySelector("#sort-select"),
   statusBanner: document.querySelector("#status-banner"),
   summaryCount: document.querySelector("#summary-count"),
-  summaryHot: document.querySelector("#summary-hot"),
   summarySources: document.querySelector("#summary-sources"),
+  summaryLatest: document.querySelector("#summary-latest"),
   feed: document.querySelector("#feed"),
   emptyState: document.querySelector("#empty-state"),
   clearFilters: document.querySelector("#clear-filters")
@@ -64,15 +77,31 @@ async function fetchJson(path) {
 }
 
 async function loadAppData() {
-  const [config, meta, ...feeds] = await Promise.all([
+  const [config, meta] = await Promise.all([
     fetchJson(DATA_FILES.config),
-    fetchJson(DATA_FILES.meta),
-    ...DATA_FILES.feeds.map(fetchJson)
+    fetchJson(DATA_FILES.meta)
   ]);
+  const feeds = await Promise.all(
+    DATA_FILES.feeds.map(async ([source, path]) => {
+      try {
+        return { source, feed: await fetchJson(path) };
+      } catch (error) {
+        return { source, error };
+      }
+    })
+  );
 
   state.config = config;
   state.meta = meta;
-  state.items = feeds.flatMap((feed) => feed.items ?? []);
+  state.feedErrors = {};
+  state.items = [];
+  for (const result of feeds) {
+    if (result.feed) {
+      state.items.push(...(result.feed.items ?? []));
+    } else {
+      state.feedErrors[result.source] = result.error;
+    }
+  }
 }
 
 function parseUrlState() {
@@ -81,7 +110,7 @@ function parseUrlState() {
   state.filters.members = new Set(parseList(params.get("members")));
   state.filters.platforms = new Set(parseList(params.get("platforms")));
   state.filters.q = params.get("q") ?? "";
-  state.filters.sort = parseEnum(params.get("sort"), ["hot", "latest", "confidence"], "hot");
+  state.filters.sort = parseEnum(params.get("sort"), ["latest", "confidence"], "latest");
   state.filters.quality = parseEnum(params.get("quality"), ["featured", "all"], "featured");
 }
 
@@ -95,7 +124,7 @@ function syncUrlState() {
     params.set("q", state.filters.q);
   }
 
-  if (state.filters.sort !== "hot") {
+  if (state.filters.sort !== "latest") {
     params.set("sort", state.filters.sort);
   }
 
@@ -137,25 +166,65 @@ function render() {
 }
 
 function renderFreshness() {
-  const generatedAt = formatDateTime(state.meta.generated_at);
-  els.freshness.textContent = `数据版本 ${state.meta.site_data_version} · ${generatedAt}`;
+  els.freshness.textContent = CORE_SOURCES.map(sourceFreshnessText).join(" · ");
 }
 
 function renderStatusBanner() {
-  const sources = Object.entries(state.meta.sources);
-  const plannedStatuses = new Set(["disabled", "manual_only"]);
-  const degraded = sources.filter(([, source]) => !source.ok && !plannedStatuses.has(source.status));
+  const issues = CORE_SOURCES.map(sourceIssue).filter(Boolean);
 
-  if (degraded.length === 0) {
+  if (issues.length === 0) {
     els.statusBanner.className = "status-banner";
     els.statusBanner.textContent = "";
     return;
   }
 
-  els.statusBanner.className = "status-banner is-visible is-warning";
-  els.statusBanner.textContent = degraded
-    .map(([source, detail]) => `${source}: ${detail.message || detail.status}`)
-    .join(" · ");
+  const hasFailure = issues.some((issue) => issue.severity === "warning");
+  els.statusBanner.className = `status-banner is-visible ${hasFailure ? "is-warning" : "is-info"}`;
+  els.statusBanner.textContent = issues.map((issue) => issue.message).join(" · ");
+}
+
+function sourceFreshnessText(source) {
+  const label = SOURCE_LABELS[source] ?? source;
+  if (state.feedErrors[source]) {
+    return `${label}加载失败`;
+  }
+
+  const detail = state.meta.sources?.[source];
+  if (detail?.last_success_at) {
+    return `${label} ${formatRelativeDate(detail.last_success_at)}更新`;
+  }
+  if (detail?.status === "disabled") {
+    return `${label}未接入`;
+  }
+  if (detail?.status === "manual_only") {
+    return `${label}暂无内容`;
+  }
+  return `${label}状态未知`;
+}
+
+function sourceIssue(source) {
+  const label = SOURCE_LABELS[source] ?? source;
+  if (state.feedErrors[source]) {
+    return { severity: "warning", message: `${label}数据加载失败，其他来源仍可浏览` };
+  }
+
+  const detail = state.meta.sources?.[source];
+  if (!detail) {
+    return { severity: "warning", message: `${label}缺少状态信息` };
+  }
+  if (detail.status === "partial") {
+    return { severity: "warning", message: `${label}仅部分来源更新成功` };
+  }
+  if (detail.status === "disabled") {
+    return { severity: "info", message: `${label}尚未接入` };
+  }
+  if (detail.status === "manual_only" && detail.item_count === 0) {
+    return { severity: "info", message: `${label}暂无已验证内容` };
+  }
+  if (!detail.ok) {
+    return { severity: "warning", message: `${label}当前使用历史数据或暂不可用` };
+  }
+  return null;
 }
 
 function renderFilters() {
@@ -236,7 +305,7 @@ function renderPlatformFilters() {
 
 function renderQualityFilters() {
   const options = [
-    ["featured", "精选"],
+    ["featured", "高相关"],
     ["all", "全部"]
   ];
 
@@ -284,8 +353,10 @@ function pruneMembersForSelectedGroups() {
 function renderFeed() {
   const items = getVisibleItems();
   els.summaryCount.textContent = String(items.length);
-  els.summaryHot.textContent = items.length ? formatScore(Math.max(...items.map((item) => item.hot_score ?? 0))) : "0";
   els.summarySources.textContent = String(unique(items.map((item) => item.platform)).length);
+  els.summaryLatest.textContent = items.length
+    ? formatRelativeDate(Math.max(...items.map((item) => Date.parse(item.published_at))))
+    : "—";
   els.emptyState.hidden = items.length > 0;
   els.feed.replaceChildren(...items.map(renderCard));
 }
@@ -304,15 +375,12 @@ function getVisibleItems() {
 }
 
 function compareItems(a, b) {
-  if (state.filters.sort === "latest") {
-    return Date.parse(b.published_at) - Date.parse(a.published_at);
-  }
-
   if (state.filters.sort === "confidence") {
-    return confidenceScore(b.match_confidence) - confidenceScore(a.match_confidence) || b.hot_score - a.hot_score;
+    return confidenceScore(b.match_confidence) - confidenceScore(a.match_confidence)
+      || Date.parse(b.published_at) - Date.parse(a.published_at);
   }
 
-  return qualitySortScore(b) - qualitySortScore(a) || (b.hot_score ?? 0) - (a.hot_score ?? 0);
+  return Date.parse(b.published_at) - Date.parse(a.published_at);
 }
 
 function renderCard(item) {
@@ -351,11 +419,13 @@ function renderCard(item) {
 
   const metrics = document.createElement("div");
   metrics.className = "metrics";
-  metrics.append(
-    metricEl("热度", formatScore(item.hot_score)),
-    metricEl("播放/阅读", formatNumber(item.metrics?.views)),
-    metricEl("互动", formatNumber(totalEngagement(item.metrics)))
-  );
+  if ((item.metrics?.views ?? 0) > 0) {
+    metrics.append(metricEl("播放/阅读", formatNumber(item.metrics.views)));
+  }
+  const engagement = totalEngagement(item.metrics);
+  if (engagement > 0) {
+    metrics.append(metricEl("互动", formatNumber(engagement)));
+  }
 
   const tags = document.createElement("div");
   tags.className = "tag-row";
@@ -376,7 +446,7 @@ function renderCard(item) {
   const detailsId = `details-${safeDomId(item.id)}`;
   explainButton.className = "explain-button";
   explainButton.type = "button";
-  explainButton.textContent = "解释";
+  explainButton.textContent = "匹配说明";
   explainButton.setAttribute("aria-expanded", "false");
   explainButton.setAttribute("aria-controls", detailsId);
 
@@ -387,12 +457,16 @@ function renderCard(item) {
   explainButton.addEventListener("click", () => {
     const expanded = explainButton.getAttribute("aria-expanded") === "true";
     explainButton.setAttribute("aria-expanded", String(!expanded));
-    explainButton.textContent = expanded ? "解释" : "收起";
+    explainButton.textContent = expanded ? "匹配说明" : "收起";
     details.hidden = expanded;
   });
 
   actions.append(explainButton);
-  body.append(title, meta, metrics, tags, actions, details);
+  body.append(title, meta);
+  if (metrics.childElementCount > 0) {
+    body.append(metrics);
+  }
+  body.append(tags, actions, details);
   card.append(thumb, body);
   return card;
 }
@@ -411,15 +485,6 @@ function renderDetails(item) {
   const details = document.createElement("div");
   details.className = "explain-panel";
 
-  const scoreGrid = document.createElement("div");
-  scoreGrid.className = "explain-grid";
-  scoreGrid.append(
-    explainMetric("时效", formatScore(item.score_breakdown?.recency ?? 0)),
-    explainMetric("播放", formatScore(item.score_breakdown?.views ?? 0)),
-    explainMetric("互动", formatScore(item.score_breakdown?.engagement ?? 0)),
-    explainMetric("来源权重", formatScore(item.score_breakdown?.source_weight ?? 0)),
-  );
-
   const reasonList = document.createElement("ul");
   reasonList.className = "reason-list";
   const reasons = item.match_reason?.length ? item.match_reason : [];
@@ -436,22 +501,8 @@ function renderDetails(item) {
     }
   }
 
-  details.append(scoreGrid, reasonList);
+  details.append(reasonList);
   return details;
-}
-
-function explainMetric(label, value) {
-  const item = document.createElement("div");
-  item.className = "explain-metric";
-
-  const labelEl = document.createElement("span");
-  labelEl.textContent = label;
-
-  const valueEl = document.createElement("strong");
-  valueEl.textContent = value;
-
-  item.append(labelEl, valueEl);
-  return item;
 }
 
 function matchReasonText(reason) {
@@ -577,10 +628,6 @@ function isLowConfidence(item) {
   return item.match_confidence === "low";
 }
 
-function qualitySortScore(item) {
-  return confidenceScore(item.match_confidence) * 1000 + (item.source_type === "official" ? 100 : 0);
-}
-
 function unique(values) {
   return Array.from(new Set(values.filter(Boolean)));
 }
@@ -644,21 +691,8 @@ function formatNumber(value) {
   return new Intl.NumberFormat("zh-CN").format(number);
 }
 
-function formatScore(value) {
-  return Number(value ?? 0).toFixed(1);
-}
-
 function totalEngagement(metrics = {}) {
   return (metrics.likes ?? 0) + (metrics.comments ?? 0) + (metrics.shares ?? 0) + (metrics.danmaku ?? 0);
-}
-
-function formatDateTime(value) {
-  return new Intl.DateTimeFormat("zh-CN", {
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    minute: "2-digit"
-  }).format(new Date(value));
 }
 
 function formatRelativeDate(value) {
@@ -705,7 +739,7 @@ function bindEvents() {
     state.filters.members.clear();
     state.filters.platforms.clear();
     state.filters.q = "";
-    state.filters.sort = "hot";
+    state.filters.sort = "latest";
     state.filters.quality = "featured";
     commitState();
   });
