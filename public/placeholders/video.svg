@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Kpop Pulse video placeholder">
+  <rect width="640" height="360" fill="#eee8dc"/>
+  <rect x="40" y="40" width="560" height="280" rx="22" fill="#fffdf8" stroke="#ded8cc" stroke-width="4"/>
+  <circle cx="320" cy="180" r="52" fill="#d8f3ee"/>
+  <path d="M304 148v64l58-32-58-32z" fill="#0f766e"/>
+  <text x="320" y="284" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#63615c">Kpop Pulse</text>
+</svg>

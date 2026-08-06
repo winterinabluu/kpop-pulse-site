@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kpop Pulse 聚合 Kpop 女团视频、新闻和人工精选热点。"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <title>Kpop Pulse</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script type="module" src="./src/app.js?v=20260617d"></script>
+  </head>
+  <body>
+    <noscript>Kpop Pulse 需要启用 JavaScript 才能读取本地数据并渲染热点列表。</noscript>
+    <div id="app">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">Kpop Pulse</p>
+          <h1>女团热点雷达</h1>
+          <p class="lede">聚合视频、新闻和人工精选，解释谁正在升温以及为什么。</p>
+        </div>
+        <div id="freshness" class="freshness" aria-live="polite">读取数据中...</div>
+      </header>
+
+      <main>
+        <section class="toolbar" aria-label="筛选条件">
+          <div class="toolbar-row">
+            <label class="search-label" for="search-input">搜索</label>
+            <input id="search-input" type="search" placeholder="搜索标题、来源、组合或成员" />
+            <select id="sort-select" aria-label="排序">
+              <option value="hot">综合热度</option>
+              <option value="latest">最新发布</option>
+              <option value="confidence">匹配置信度</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <span class="filter-title">团体</span>
+            <div id="group-filters" class="chip-row" role="group" aria-label="团体筛选"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-title">成员</span>
+            <div id="member-filters" class="chip-row" role="group" aria-label="成员筛选"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-title">来源</span>
+            <div id="platform-filters" class="chip-row" role="group" aria-label="来源筛选"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-title">质量</span>
+            <div id="quality-filters" class="chip-row" role="group" aria-label="质量筛选"></div>
+          </div>
+        </section>
+
+        <section class="summary-grid" aria-label="数据摘要">
+          <article class="summary-card">
+            <span class="summary-label">当前结果</span>
+            <strong id="summary-count">0</strong>
+          </article>
+          <article class="summary-card">
+            <span class="summary-label">最高热度</span>
+            <strong id="summary-hot">0</strong>
+          </article>
+          <article class="summary-card">
+            <span class="summary-label">数据源</span>
+            <strong id="summary-sources">0</strong>
+          </article>
+        </section>
+
+        <section id="status-banner" class="status-banner" aria-live="polite"></section>
+
+        <section class="feed-section" aria-labelledby="feed-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Live Fixtures</p>
+              <h2 id="feed-title">热点列表</h2>
+            </div>
+            <button id="clear-filters" class="ghost-button" type="button">清空筛选</button>
+          </div>
+          <div id="feed" class="feed" aria-live="polite"></div>
+          <div id="empty-state" class="empty-state" hidden>
+            <h3>当前条件没有匹配内容</h3>
+            <p>换一个团体、成员、来源，或清空搜索词。</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

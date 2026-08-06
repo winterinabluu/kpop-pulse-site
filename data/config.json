@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-06-17T00:00:00+08:00",
+  "platform_weights": {
+    "youtube": 1.0,
+    "news": 0.55,
+    "curated": 0.8,
+    "bilibili": 0.9,
+    "xiaohongshu": 0.7
+  },
+  "groups": [
+    {
+      "id": "aespa",
+      "display_name": "aespa",
+      "native_name": "에스파",
+      "aliases": ["aespa", "에스파", "æspa"],
+      "order": 10,
+      "active": true,
+      "members": ["karina", "winter", "giselle", "ningning"],
+      "official_channels": ["aespa official"],
+      "query_terms": {
+        "youtube": ["aespa", "aespa official", "aespa stage"]
+      }
+    },
+    {
+      "id": "ive",
+      "display_name": "IVE",
+      "native_name": "아이브",
+      "aliases": ["IVE", "아이브"],
+      "order": 20,
+      "active": true,
+      "members": ["yujin", "gaeul", "rei", "wonyoung", "liz", "leeseo"],
+      "official_channels": ["IVE"],
+      "query_terms": {
+        "youtube": ["IVE kpop", "IVE official", "IVE stage"]
+      }
+    },
+    {
+      "id": "lesserafim",
+      "display_name": "LE SSERAFIM",
+      "native_name": "르세라핌",
+      "aliases": ["LE SSERAFIM", "르세라핌", "LSF"],
+      "order": 30,
+      "active": true,
+      "members": ["sakura", "chaewon", "yunjin", "kazuha", "eunchae"],
+      "official_channels": ["HYBE LABELS", "LE SSERAFIM"],
+      "query_terms": {
+        "youtube": ["LE SSERAFIM", "LE SSERAFIM official", "LE SSERAFIM stage"]
+      }
+    },
+    {
+      "id": "gidle",
+      "display_name": "(G)I-DLE",
+      "native_name": "여자아이들",
+      "aliases": ["(G)I-DLE", "GIDLE", "여자아이들"],
+      "order": 40,
+      "active": true,
+      "members": ["miyeon", "minnie", "soyeon", "yuqi", "shuhua"],
+      "official_channels": ["(G)I-DLE"],
+      "query_terms": {
+        "youtube": ["(G)I-DLE", "GIDLE official", "GIDLE stage"]
+      }
+    },
+    {
+      "id": "newjeans",
+      "display_name": "NewJeans",
+      "native_name": "뉴진스",
+      "aliases": ["NewJeans", "뉴진스", "NJZ"],
+      "order": 50,
+      "active": true,
+      "members": ["minji", "hanni", "danielle", "haerin", "hyein"],
+      "official_channels": ["NewJeans", "HYBE LABELS"],
+      "query_terms": {
+        "youtube": ["NewJeans", "NewJeans official", "NewJeans stage"]
+      }
+    },
+    {
+      "id": "illit",
+      "display_name": "ILLIT",
+      "native_name": "아일릿",
+      "aliases": ["ILLIT", "아일릿"],
+      "order": 60,
+      "active": true,
+      "members": ["yunah", "minju", "moka", "wonhee", "iroha"],
+      "official_channels": ["ILLIT", "HYBE LABELS"],
+      "query_terms": {
+        "youtube": ["ILLIT", "ILLIT official", "ILLIT stage"]
+      }
+    },
+    {
+      "id": "kissoflife",
+      "display_name": "KISS OF LIFE",
+      "native_name": "키스오브라이프",
+      "aliases": ["KISS OF LIFE", "KIOF", "키스오브라이프"],
+      "order": 70,
+      "active": true,
+      "members": ["julie", "natty", "belle", "haneul"],
+      "official_channels": ["KISS OF LIFE"],
+      "query_terms": {
+        "youtube": ["KISS OF LIFE kpop", "KISS OF LIFE official", "KISS OF LIFE stage"]
+      }
+    },
+    {
+      "id": "blackpink",
+      "display_name": "BLACKPINK",
+      "native_name": "블랙핑크",
+      "aliases": ["BLACKPINK", "블랙핑크", "BP"],
+      "order": 80,
+      "active": true,
+      "members": ["jisoo", "jennie", "rose", "lisa"],
+      "official_channels": ["BLACKPINK", "BLACKPINKOFFICIAL"],
+      "query_terms": {
+        "youtube": ["BLACKPINK", "BLACKPINK official", "BLACKPINK stage"]
+      }
+    },
+    {
+      "id": "twice",
+      "display_name": "TWICE",
+      "native_name": "트와이스",
+      "aliases": ["TWICE", "트와이스"],
+      "order": 90,
+      "active": true,
+      "members": ["nayeon", "jeongyeon", "momo", "sana", "jihyo", "mina", "dahyun", "chaeyoung", "tzuyu"],
+      "official_channels": ["TWICE", "JYP Entertainment"],
+      "query_terms": {
+        "youtube": ["TWICE kpop", "TWICE official", "TWICE stage"]
+      }
+    }
+  ],
+  "members": [
+    {
+      "id": "karina",
+      "group_id": "aespa",
+      "display_name": "Karina",
+      "native_name": "카리나",
+      "aliases": ["Karina", "카리나", "Yu Jimin"],
+      "active": true
+    },
+    {
+      "id": "winter",
+      "group_id": "aespa",
+      "display_name": "Winter",
+      "native_name": "윈터",
+      "aliases": ["Winter", "윈터", "Kim Minjeong"],
+      "active": true
+    },
+    {
+      "id": "giselle",
+      "group_id": "aespa",
+      "display_name": "Giselle",
+      "native_name": "지젤",
+      "aliases": ["Giselle", "지젤"],
+      "active": true
+    },
+    {
+      "id": "ningning",
+      "group_id": "aespa",
+      "display_name": "NingNing",
+      "native_name": "닝닝",
+      "aliases": ["NingNing", "닝닝"],
+      "active": true
+    },
+    {
+      "id": "yujin",
+      "group_id": "ive",
+      "display_name": "Yujin",
+      "native_name": "유진",
+      "aliases": ["Yujin", "An Yujin", "유진"],
+      "active": true
+    },
+    {
+      "id": "gaeul",
+      "group_id": "ive",
+      "display_name": "Gaeul",
+      "native_name": "가을",
+      "aliases": ["Gaeul", "가을", "Kim Gaeul"],
+      "active": true
+    },
+    {
+      "id": "rei",
+      "group_id": "ive",
+      "display_name": "Rei",
+      "native_name": "레이",
+      "aliases": ["Rei", "레이", "Naoi Rei"],
+      "active": true
+    },
+    {
+      "id": "wonyoung",
+      "group_id": "ive",
+      "display_name": "Wonyoung",
+      "native_name": "원영",
+      "aliases": ["Wonyoung", "Jang Wonyoung", "원영"],
+      "active": true
+    },
+    {
+      "id": "liz",
+      "group_id": "ive",
+      "display_name": "Liz",
+      "native_name": "리즈",
+      "aliases": ["Liz", "리즈"],
+      "active": true
+    },
+    {
+      "id": "leeseo",
+      "group_id": "ive",
+      "display_name": "Leeseo",
+      "native_name": "이서",
+      "aliases": ["Leeseo", "이서", "Lee Hyunseo"],
+      "active": true
+    },
+    {
+      "id": "sakura",
+      "group_id": "lesserafim",
+      "display_name": "Sakura",
+      "native_name": "사쿠라",
+      "aliases": ["Sakura", "사쿠라"],
+      "active": true
+    },
+    {
+      "id": "chaewon",
+      "group_id": "lesserafim",
+      "display_name": "Chaewon",
+      "native_name": "채원",
+      "aliases": ["Chaewon", "Kim Chaewon", "채원"],
+      "active": true
+    },
+    {
+      "id": "yunjin",
+      "group_id": "lesserafim",
+      "display_name": "Yunjin",
+      "native_name": "윤진",
+      "aliases": ["Yunjin", "Huh Yunjin", "윤진"],
+      "active": true
+    },
+    {
+      "id": "kazuha",
+      "group_id": "lesserafim",
+      "display_name": "Kazuha",
+      "native_name": "카즈하",
+      "aliases": ["Kazuha", "카즈하"],
+      "active": true
+    },
+    {
+      "id": "eunchae",
+      "group_id": "lesserafim",
+      "display_name": "Eunchae",
+      "native_name": "은채",
+      "aliases": ["Eunchae", "Hong Eunchae", "은채"],
+      "active": true
+    },
+    {
+      "id": "miyeon",
+      "group_id": "gidle",
+      "display_name": "Miyeon",
+      "native_name": "미연",
+      "aliases": ["Miyeon", "미연"],
+      "active": true
+    },
+    {
+      "id": "minnie",
+      "group_id": "gidle",
+      "display_name": "Minnie",
+      "native_name": "민니",
+      "aliases": ["Minnie", "민니"],
+      "active": true
+    },
+    {
+      "id": "soyeon",
+      "group_id": "gidle",
+      "display_name": "Soyeon",
+      "native_name": "소연",
+      "aliases": ["Soyeon", "Jeon Soyeon", "소연"],
+      "active": true
+    },
+    {
+      "id": "yuqi",
+      "group_id": "gidle",
+      "display_name": "Yuqi",
+      "native_name": "우기",
+      "aliases": ["Yuqi", "우기", "Song Yuqi"],
+      "active": true
+    },
+    {
+      "id": "shuhua",
+      "group_id": "gidle",
+      "display_name": "Shuhua",
+      "native_name": "슈화",
+      "aliases": ["Shuhua", "슈화"],
+      "active": true
+    },
+    {
+      "id": "minji",
+      "group_id": "newjeans",
+      "display_name": "Minji",
+      "native_name": "민지",
+      "aliases": ["Minji", "민지", "Kim Minji"],
+      "active": true
+    },
+    {
+      "id": "hanni",
+      "group_id": "newjeans",
+      "display_name": "Hanni",
+      "native_name": "하니",
+      "aliases": ["Hanni", "하니", "Pham Hanni"],
+      "active": true
+    },
+    {
+      "id": "danielle",
+      "group_id": "newjeans",
+      "display_name": "Danielle",
+      "native_name": "다니엘",
+      "aliases": ["Danielle", "다니엘", "Mo Jihye"],
+      "active": true
+    },
+    {
+      "id": "haerin",
+      "group_id": "newjeans",
+      "display_name": "Haerin",
+      "native_name": "해린",
+      "aliases": ["Haerin", "해린", "Kang Haerin"],
+      "active": true
+    },
+    {
+      "id": "hyein",
+      "group_id": "newjeans",
+      "display_name": "Hyein",
+      "native_name": "혜인",
+      "aliases": ["Hyein", "혜인", "Lee Hyein"],
+      "active": true
+    },
+    {
+      "id": "yunah",
+      "group_id": "illit",
+      "display_name": "Yunah",
+      "native_name": "윤아",
+      "aliases": ["Yunah", "Yoonah", "윤아", "Noh Yunah"],
+      "active": true
+    },
+    {
+      "id": "minju",
+      "group_id": "illit",
+      "display_name": "Minju",
+      "native_name": "민주",
+      "aliases": ["Minju", "민주", "Park Minju"],
+      "active": true
+    },
+    {
+      "id": "moka",
+      "group_id": "illit",
+      "display_name": "Moka",
+      "native_name": "모카",
+      "aliases": ["Moka", "모카"],
+      "active": true
+    },
+    {
+      "id": "wonhee",
+      "group_id": "illit",
+      "display_name": "Wonhee",
+      "native_name": "원희",
+      "aliases": ["Wonhee", "원희", "Lee Wonhee"],
+      "active": true
+    },
+    {
+      "id": "iroha",
+      "group_id": "illit",
+      "display_name": "Iroha",
+      "native_name": "이로하",
+      "aliases": ["Iroha", "이로하"],
+      "active": true
+    },
+    {
+      "id": "julie",
+      "group_id": "kissoflife",
+      "display_name": "Julie",
+      "native_name": "쥴리",
+      "aliases": ["Julie", "쥴리"],
+      "active": true
+    },
+    {
+      "id": "natty",
+      "group_id": "kissoflife",
+      "display_name": "Natty",
+      "native_name": "나띠",
+      "aliases": ["Natty", "나띠"],
+      "active": true
+    },
+    {
+      "id": "belle",
+      "group_id": "kissoflife",
+      "display_name": "Belle",
+      "native_name": "벨",
+      "aliases": ["Belle", "벨"],
+      "active": true
+    },
+    {
+      "id": "haneul",
+      "group_id": "kissoflife",
+      "display_name": "Haneul",
+      "native_name": "하늘",
+      "aliases": ["Haneul", "하늘"],
+      "active": true
+    },
+    {
+      "id": "jisoo",
+      "group_id": "blackpink",
+      "display_name": "Jisoo",
+      "native_name": "지수",
+      "aliases": ["Jisoo", "지수", "Kim Jisoo"],
+      "active": true
+    },
+    {
+      "id": "jennie",
+      "group_id": "blackpink",
+      "display_name": "Jennie",
+      "native_name": "제니",
+      "aliases": ["Jennie", "제니", "Jennie Kim"],
+      "active": true
+    },
+    {
+      "id": "rose",
+      "group_id": "blackpink",
+      "display_name": "Rosé",
+      "native_name": "로제",
+      "aliases": ["Rose", "Rosé", "로제", "Park Chaeyoung"],
+      "active": true
+    },
+    {
+      "id": "lisa",
+      "group_id": "blackpink",
+      "display_name": "Lisa",
+      "native_name": "리사",
+      "aliases": ["Lisa", "리사", "Lalisa"],
+      "active": true
+    },
+    {
+      "id": "nayeon",
+      "group_id": "twice",
+      "display_name": "Nayeon",
+      "native_name": "나연",
+      "aliases": ["Nayeon", "나연", "Im Nayeon"],
+      "active": true
+    },
+    {
+      "id": "jeongyeon",
+      "group_id": "twice",
+      "display_name": "Jeongyeon",
+      "native_name": "정연",
+      "aliases": ["Jeongyeon", "정연", "Yoo Jeongyeon"],
+      "active": true
+    },
+    {
+      "id": "momo",
+      "group_id": "twice",
+      "display_name": "Momo",
+      "native_name": "모모",
+      "aliases": ["Momo", "모모", "Hirai Momo"],
+      "active": true
+    },
+    {
+      "id": "sana",
+      "group_id": "twice",
+      "display_name": "Sana",
+      "native_name": "사나",
+      "aliases": ["Sana", "사나", "Minatozaki Sana"],
+      "active": true
+    },
+    {
+      "id": "jihyo",
+      "group_id": "twice",
+      "display_name": "Jihyo",
+      "native_name": "지효",
+      "aliases": ["Jihyo", "지효", "Park Jihyo"],
+      "active": true
+    },
+    {
+      "id": "mina",
+      "group_id": "twice",
+      "display_name": "Mina",
+      "native_name": "미나",
+      "aliases": ["Mina", "미나", "Myoui Mina"],
+      "active": true
+    },
+    {
+      "id": "dahyun",
+      "group_id": "twice",
+      "display_name": "Dahyun",
+      "native_name": "다현",
+      "aliases": ["Dahyun", "다현", "Kim Dahyun"],
+      "active": true
+    },
+    {
+      "id": "chaeyoung",
+      "group_id": "twice",
+      "display_name": "Chaeyoung",
+      "native_name": "채영",
+      "aliases": ["Chaeyoung", "채영", "Son Chaeyoung"],
+      "active": true
+    },
+    {
+      "id": "tzuyu",
+      "group_id": "twice",
+      "display_name": "Tzuyu",
+      "native_name": "쯔위",
+      "aliases": ["Tzuyu", "쯔위", "Chou Tzuyu"],
+      "active": true
+    }
+  ],
+  "source_types": ["official", "media", "fan", "community", "curated", "unknown"],
+  "news_include_terms": ["k-pop", "kpop", "idol", "girl group", "comeback", "music video", "album", "single"],
+  "news_exclude_terms": ["k-drama", "korean drama", "actor", "actress"],
+  "news_feeds": [
+    {
+      "id": "soompi",
+      "name": "Soompi",
+      "url": "https://www.soompi.com/feed",
+      "language": "en",
+      "active": true
+    },
+    {
+      "id": "nme-kpop",
+      "name": "NME K-pop",
+      "url": "https://www.nme.com/tag/k-pop/feed",
+      "language": "en",
+      "active": true
+    },
+    {
+      "id": "koreaboo",
+      "name": "Koreaboo",
+      "url": "https://www.koreaboo.com/feed/",
+      "language": "en",
+      "active": true
+    }
+  ],
+  "blacklist_terms": ["tutorial", "reaction compilation"]
+}
