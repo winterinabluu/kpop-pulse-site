@@ -1,27 +1,226 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-07T00:16:53Z",
+  "generated_at": "2026-08-07T03:20:45Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 30,
+    "item_count": 32,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:soompi:89a6e86104fcc456",
+      "id": "news:koreaboo:82deb6dcc2b67201",
       "platform": "news",
-      "platform_item_id": "89a6e86104fcc456",
+      "platform_item_id": "82deb6dcc2b67201",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Stray Kids’ Seungmin To Sit Out Certain Comeback Promotions Due To Health",
-      "description": "Stray Kids’ Seungmin will not be participating in some of the group’s upcoming comeback promotions. On August 7 KST, JYP Entertainment announced that Seungmin would be sitting out certain promotions for Stray Kids’ upcoming mini album “THIS & THAT,” which is due out later today, due to his rehabilitation treatment. Although Seungmin will be participating… Continue reading Stray Kids’ Seungmin To Sit Out Certain Comeback Promotions Due To Health The post Stray Kids’ Seungmin To Sit Out Certain Comeback Promotions Due To Health appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860773wpp/stray-kids-seungmin-to-sit-out-certain-comeback-promotions-due-to-health",
+      "title": "BLACKPINK Attending 10th Anniversary Event “Despite Busy Schedules” Sparks Huge Backlash",
+      "description": "\"Did they think they did us a favor?\"",
+      "url": "https://www.koreaboo.com/news/blackpink-despite-busy-schedules-10th-anniversary-fans-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-07T00:09:59Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "published_at": "2026-08-07T03:07:04Z",
+      "collected_at": "2026-08-07T03:20:45Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:d2e7d94b61924a3a",
+      "platform": "news",
+      "platform_item_id": "d2e7d94b61924a3a",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "YG Confirms How Many Members WIll Attend BLACKPINK’s 10th Anniversary Event",
+      "description": "They have shut down the rumors.",
+      "url": "https://www.koreaboo.com/news/yg-confirms-members-will-attend-10th-anniversary-meet-greet/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-07T02:18:25Z",
+      "collected_at": "2026-08-07T03:20:45Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9858,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8931,
+      "available": true
+    },
+    {
+      "id": "news:soompi:1ba32f551a7b55d3",
+      "platform": "news",
+      "platform_item_id": "1ba32f551a7b55d3",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "All 4 Members Of BLACKPINK Confirmed To Be Attending 10th-Anniversary Event",
+      "description": "It’s official: all four members of BLACKPINK will be participating in their upcoming 10th-anniversary event! On August 7 KST, YG Entertainment officially stated, “After checking with their labels, all four members have been confirmed to be participating.” The day before, YG Entertainment had announced that BLACKPINK would be holding a special meet-and-greet event on August… Continue reading All 4 Members Of BLACKPINK Confirmed To Be Attending 10th-Anniversary Event The post All 4 Members Of BLACKPINK Confirmed To Be Attending 10th-Anniversary Event appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1860790wpp/all-4-members-of-blackpink-confirmed-to-be-attending-10th-anniversary-event",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-07T01:47:32Z",
+      "collected_at": "2026-08-07T03:20:45Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9789,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8449,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:2104a12da3b9e5ac",
+      "platform": "news",
+      "platform_item_id": "2104a12da3b9e5ac",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Lesbians Pick Their Fave 4th And 5th Gen K-Pop Idols",
+      "description": "One group dominated the top ten.",
+      "url": "https://www.koreaboo.com/news/lesbians-pick-fave-4th-5th-gen-idols/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-07T01:37:55Z",
+      "collected_at": "2026-08-07T03:20:45Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [],
+      "matched_members": [],
+      "match_confidence": "low",
+      "match_reason": [],
+      "score_breakdown": {
+        "recency": 0.9767,
+        "views": 0,
+        "engagement": 2.5,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source",
+        "low_confidence"
+      ],
+      "hot_score": 5.384,
+      "available": true
+    },
+    {
+      "id": "news:soompi:e2a28fa586f5ad72",
+      "platform": "news",
+      "platform_item_id": "e2a28fa586f5ad72",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "2027 D Awards To Be Held In Paris, Making It 1st K-Pop Awards Ceremony To Take Place In Europe",
+      "description": "Mark your calendars for next year’s D Awards! On August 7 KST, the D Awards announced that its 2027 ceremony would take place in Paris, making it the first K-pop awards ceremony ever to be held in Europe. The 2027 D Awards will be held over two days on January 15 and 16, 2027 at… Continue reading 2027 D Awards To Be Held In Paris, Making It 1st K-Pop Awards Ceremony To Take Place In Europe The post 2027 D Awards To Be Held In Paris, Making It 1st K-Pop Awards Ceremony To Take Place In Europe appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1860780wpp/2027-d-awards-to-be-held-in-paris-making-it-1st-k-pop-awards-ceremony-to-take-place-in-europe",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-07T00:54:40Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -41,7 +240,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9673,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -50,7 +249,102 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 5.4366,
+      "hot_score": 5.3318,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:a184d7d1d2eaa910",
+      "platform": "news",
+      "platform_item_id": "a184d7d1d2eaa910",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Only 3 Members Will Reportedly Attend BLACKPINK’s 10th Anniversary Event",
+      "description": "Not all members will be there.",
+      "url": "https://www.koreaboo.com/news/3-members-will-reportedly-attend-blackpinks-10th-anniversary-event/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-07T00:14:45Z",
+      "collected_at": "2026-08-07T03:20:45Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9587,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.7039,
+      "available": true
+    },
+    {
+      "id": "news:soompi:89a6e86104fcc456",
+      "platform": "news",
+      "platform_item_id": "89a6e86104fcc456",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Stray Kids’ Seungmin To Sit Out Certain Comeback Promotions Due To Health",
+      "description": "Stray Kids’ Seungmin will not be participating in some of the group’s upcoming comeback promotions. On August 7 KST, JYP Entertainment announced that Seungmin would be sitting out certain promotions for Stray Kids’ upcoming mini album “THIS & THAT,” which is due out later today, due to his rehabilitation treatment. Although Seungmin will be participating… Continue reading Stray Kids’ Seungmin To Sit Out Certain Comeback Promotions Due To Health The post Stray Kids’ Seungmin To Sit Out Certain Comeback Promotions Due To Health appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1860773wpp/stray-kids-seungmin-to-sit-out-certain-comeback-promotions-due-to-health",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-07T00:09:59Z",
+      "collected_at": "2026-08-07T03:20:45Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [],
+      "matched_members": [],
+      "match_confidence": "low",
+      "match_reason": [],
+      "score_breakdown": {
+        "recency": 0.9577,
+        "views": 0,
+        "engagement": 2.5,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source",
+        "low_confidence"
+      ],
+      "hot_score": 5.279,
       "available": true
     },
     {
@@ -64,7 +358,7 @@
       "url": "https://www.soompi.com/article/1860764wpp/theblacklabel-clarifies-rumors-about-roses-participation-in-blackpinks-10th-anniversary-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T22:43:11Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +397,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9788,
+        "recency": 0.9396,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -111,7 +405,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1916,
+      "hot_score": 7.864,
       "available": true
     },
     {
@@ -125,7 +419,7 @@
       "url": "https://www.koreaboo.com/news/popular-kpop-idol-confesses-boyfriend-stolen-best-friend/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T17:56:35Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -145,7 +439,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.9191,
+        "recency": 0.8845,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -154,7 +448,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 5.0661,
+      "hot_score": 4.8754,
       "available": true
     },
     {
@@ -168,7 +462,7 @@
       "url": "https://www.koreaboo.com/news/top-kpop-idol-captivates-bikini-photos/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T17:40:14Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -188,7 +482,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.9159,
+        "recency": 0.8815,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -197,7 +491,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 5.0486,
+      "hot_score": 4.8592,
       "available": true
     },
     {
@@ -211,7 +505,7 @@
       "url": "https://www.koreaboo.com/news/og-kpop-idol-draws-attention-attitude-after-series-misfortunes/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T17:24:35Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -231,7 +525,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.9129,
+        "recency": 0.8787,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -240,50 +534,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 5.0319,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:682592499b794550",
-      "platform": "news",
-      "platform_item_id": "682592499b794550",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Girl Group Idol Shocks With Bare Face Look",
-      "description": "A K-Pop idol revealed her unchanging friendship with volleyball player Kim Yeon Koung, sharing a heartwarming update. In particular, her natural ‘on and off visuals,” different from her charismatic stage…",
-      "url": "https://www.koreaboo.com/news/girl-group-idol-shocks-bare-face-look/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-06T15:42:00Z",
-      "collected_at": "2026-08-07T00:16:53Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.8935,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 4.9251,
+      "hot_score": 4.8437,
       "available": true
     },
     {
@@ -297,7 +548,7 @@
       "url": "https://www.soompi.com/article/1860719wpp/watch-jennie-takes-2nd-win-for-less-than-a-lover-on-m-countdown-performances-by-red-velvet-dino-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T11:19:55Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -336,7 +587,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8476,
+        "recency": 0.8181,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -344,7 +595,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.0935,
+      "hot_score": 6.8465,
       "available": true
     },
     {
@@ -358,7 +609,7 @@
       "url": "https://www.soompi.com/article/1860541wpp/the-boyz-to-continue-as-9-members-under-new-label",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T01:57:40Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -378,7 +629,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.7634,
+        "recency": 0.7393,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -387,7 +638,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 4.2077,
+      "hot_score": 4.0753,
       "available": true
     },
     {
@@ -401,7 +652,7 @@
       "url": "https://www.soompi.com/article/1860260wpp/watch-82major-announces-september-comeback-with-exciting-1st-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-05T11:41:43Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -421,7 +672,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.6631,
+        "recency": 0.6449,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -430,7 +681,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.6549,
+      "hot_score": 3.5546,
       "available": true
     },
     {
@@ -444,7 +695,7 @@
       "url": "https://www.soompi.com/article/1860252wpp/watch-nouera-takes-tearful-1st-ever-win-on-show-champion-with-exe-performances-by-kard-pow-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-05T11:27:26Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -476,7 +727,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6616,
+        "recency": 0.6435,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -484,7 +735,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5372,
+      "hot_score": 5.3856,
       "available": true
     },
     {
@@ -498,7 +749,7 @@
       "url": "https://www.nme.com/news/film/kpop-demon-hunters-bumper-art-book-to-offer-a-deep-dive-on-the-hit-musical-3960914?utm_source=rss&utm_medium=rss&utm_campaign=kpop-demon-hunters-bumper-art-book-to-offer-a-deep-dive-on-the-hit-musical",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-05T10:02:45Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -518,7 +769,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.6531,
+        "recency": 0.6355,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -527,7 +778,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.6002,
+      "hot_score": 3.5029,
       "available": true
     },
     {
@@ -541,7 +792,7 @@
       "url": "https://www.soompi.com/article/1860159wpp/sm-announces-comeback-lineup-for-remainder-of-2026",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-05T07:27:43Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -561,7 +812,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.6382,
+        "recency": 0.6213,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -570,7 +821,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.5178,
+      "hot_score": 3.4248,
       "available": true
     },
     {
@@ -584,7 +835,7 @@
       "url": "https://www.soompi.com/article/1860128wpp/song-kang-jang-gyuri-and-lee-jun-young-showcase-striking-transformations-10-years-after-they-first-meet-in-four-hands-two-sonatas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-05T05:16:58Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -604,7 +855,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.6261,
+        "recency": 0.6098,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -613,7 +864,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.4511,
+      "hot_score": 3.3615,
       "available": true
     },
     {
@@ -627,7 +878,7 @@
       "url": "https://www.soompi.com/article/1860046wpp/nct-127s-kick-it-becomes-their-first-mv-to-surpass-200-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-05T02:02:23Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -647,7 +898,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.6089,
+        "recency": 0.5935,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -656,7 +907,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.3565,
+      "hot_score": 3.2717,
       "available": true
     },
     {
@@ -670,7 +921,7 @@
       "url": "https://www.soompi.com/article/1860015wpp/ists-new-boy-group-tunexx-to-make-1st-ever-comeback-in-september",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-05T00:13:19Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -690,7 +941,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.5997,
+        "recency": 0.5848,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -699,7 +950,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.3056,
+      "hot_score": 3.2234,
       "available": true
     },
     {
@@ -713,7 +964,7 @@
       "url": "https://www.soompi.com/article/1859999wpp/august-individual-rookie-idol-brand-reputation-rankings-announced-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T22:15:59Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -733,7 +984,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.5901,
+        "recency": 0.5756,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -742,7 +993,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.2527,
+      "hot_score": 3.173,
       "available": true
     },
     {
@@ -756,7 +1007,7 @@
       "url": "https://www.soompi.com/article/1859996wpp/jennie-breaks-top-10-of-billboards-summer-songs-chart-with-dracula-as-less-than-a-lover-debuts-on-global-200",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T20:45:14Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -795,7 +1046,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5829,
+        "recency": 0.5688,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -803,7 +1054,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8782,
+      "hot_score": 4.7601,
       "available": true
     },
     {
@@ -817,7 +1068,7 @@
       "url": "https://www.soompi.com/article/1859988wpp/day6s-young-k-quadruples-his-1st-week-sales-record-with-youngest",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T16:51:22Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -837,7 +1088,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.565,
+        "recency": 0.5518,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -846,7 +1097,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.1146,
+      "hot_score": 3.0414,
       "available": true
     },
     {
@@ -860,7 +1111,7 @@
       "url": "https://www.soompi.com/article/1859985wpp/red-velvet-tops-itunes-charts-all-over-the-world-with-velvet-summer",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T16:30:39Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -880,7 +1131,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.5635,
+        "recency": 0.5503,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -889,7 +1140,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.1061,
+      "hot_score": 3.0334,
       "available": true
     },
     {
@@ -903,7 +1154,7 @@
       "url": "https://www.soompi.com/article/1859978wpp/katseyes-animal-becomes-their-1st-top-10-hit-on-billboard-global-200-their-highest-debuting-single-on-hot-100",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T15:54:08Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -923,7 +1174,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.5608,
+        "recency": 0.5478,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -932,7 +1183,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.0914,
+      "hot_score": 3.0194,
       "available": true
     },
     {
@@ -946,7 +1197,7 @@
       "url": "https://www.soompi.com/article/1859927wpp/i-dles-nxde-becomes-their-2nd-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T14:25:52Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -966,7 +1217,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.5545,
+        "recency": 0.5417,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -975,7 +1226,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.0564,
+      "hot_score": 2.9859,
       "available": true
     },
     {
@@ -989,7 +1240,7 @@
       "url": "https://www.soompi.com/article/1859921wpp/sf9-announces-plans-for-10th-anniversary-comeback-concert-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T13:52:28Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -1009,7 +1260,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.5521,
+        "recency": 0.5394,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -1018,7 +1269,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.0434,
+      "hot_score": 2.9735,
       "available": true
     },
     {
@@ -1032,7 +1283,7 @@
       "url": "https://www.soompi.com/article/1859915wpp/august-rookie-idol-group-brand-reputation-rankings-announced-5",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T13:29:48Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -1052,7 +1303,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.5505,
+        "recency": 0.5379,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -1061,136 +1312,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 3.0346,
-      "available": true
-    },
-    {
-      "id": "news:soompi:7e3d2526fb32ff49",
-      "platform": "news",
-      "platform_item_id": "7e3d2526fb32ff49",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Song Kang And Lee Jun Young’s Harmony Is Torn Apart In “Four Hands, Two Sonatas”",
-      "description": "Upcoming tvN drama “Four Hands, Two Sonatas” has unveiled new posters featuring Song Kang and Lee Jun Young! “Four Hands” is a piano term that refers to a technique where two people play a single piano together. The drama “Four Hands, Two Sonatas” will depict the friendship, love, rivalry, and growth of youths who meet… Continue reading Song Kang And Lee Jun Young’s Harmony Is Torn Apart In “Four Hands, Two Sonatas” The post Song Kang And Lee Jun Young’s Harmony Is Torn Apart In “Four Hands, Two Sonatas” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859789wpp/song-kang-and-lee-jun-youngs-harmony-is-torn-apart-in-four-hands-two-sonatas",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T09:53:39Z",
-      "collected_at": "2026-08-07T00:16:53Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.5358,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 2.9532,
-      "available": true
-    },
-    {
-      "id": "news:soompi:548261d2a992d97a",
-      "platform": "news",
-      "platform_item_id": "548261d2a992d97a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: Dayoung And Jay Park Get “FLIRTY” In New Collab MV",
-      "description": "Dayoung and Jay Park’s new collab single is out! On August 4 at 6 p.m. KST, WJSN’s Dayoung released her new collaboration single “FLIRTY” featuring Jay Park. Marking her first-ever collaboration single, Dayoung also participated in writing and composing the track. “FLIRTY” is a pop track about the excitement and confidence that come with the… Continue reading Watch: Dayoung And Jay Park Get “FLIRTY” In New Collab MV The post Watch: Dayoung And Jay Park Get “FLIRTY” In New Collab MV appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859875wpp/watch-dayoung-and-jay-park-get-flirty-in-new-collab-mv",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T09:35:38Z",
-      "collected_at": "2026-08-07T00:16:53Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.5346,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 2.9466,
-      "available": true
-    },
-    {
-      "id": "news:soompi:396c319032e516ef",
-      "platform": "news",
-      "platform_item_id": "396c319032e516ef",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Kim Hye Jun Tries To Win Over Boss Kang Hoon To Get Closer To Bias Cha Woo Min In “My Bias, My Boss”",
-      "description": "Kim Hye Jun will launch a new plan to become CEO Kang Hoon’s favorite employee on “My Bias, My Boss”! Based on a webtoon, “My Bias, My Boss” tells the story of the romance between Nam Da Reum (Kim Hye Jun), who joins a company to meet her longtime idol bias Lee Chan (Cha Woo… Continue reading Kim Hye Jun Tries To Win Over Boss Kang Hoon To Get Closer To Bias Cha Woo Min In “My Bias, My Boss” The post Kim Hye Jun Tries To Win Over Boss Kang Hoon To Get Closer To Bias Cha Woo Min In “My Bias, My Boss” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859849wpp/kim-hye-jun-tries-to-win-over-boss-kang-hoon-to-get-closer-to-bias-cha-woo-min-in-my-bias-my-boss",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T08:20:28Z",
-      "collected_at": "2026-08-07T00:16:53Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.5296,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 2.9195,
+      "hot_score": 2.9651,
       "available": true
     },
     {
@@ -1204,7 +1326,7 @@
       "url": "https://www.nme.com/news/film/kpop-demon-hunters-is-still-one-of-netflixs-most-watched-films-3957633?utm_source=rss&utm_medium=rss&utm_campaign=kpop-demon-hunters-is-still-one-of-netflixs-most-watched-films",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-17T15:55:11Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -1224,7 +1346,7 @@
       "match_confidence": "low",
       "match_reason": [],
       "score_breakdown": {
-        "recency": 0.1285,
+        "recency": 0.1278,
         "views": 0,
         "engagement": 2.5,
         "source_weight": 0.55
@@ -1233,7 +1355,7 @@
         "media_source",
         "low_confidence"
       ],
-      "hot_score": 0.7082,
+      "hot_score": 0.7044,
       "available": true
     },
     {
@@ -1247,7 +1369,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -1279,7 +1401,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0987,
+        "recency": 0.0983,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -1287,7 +1409,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8263,
+      "hot_score": 0.8229,
       "available": true
     },
     {
@@ -1301,7 +1423,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -1333,7 +1455,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0843,
+        "recency": 0.084,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -1341,7 +1463,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7052,
+      "hot_score": 0.7027,
       "available": true
     },
     {
@@ -1355,7 +1477,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-07T00:16:53Z",
+      "collected_at": "2026-08-07T03:20:45Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -1387,7 +1509,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0831,
+        "recency": 0.0828,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -1395,7 +1517,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6953,
+      "hot_score": 0.6928,
       "available": true
     }
   ]
