@@ -352,11 +352,12 @@ function pruneMembersForSelectedGroups() {
 
 function renderFeed() {
   const items = getVisibleItems();
+  const publishedTimes = items.map(publishedTimestamp).filter(Number.isFinite);
   els.summaryCount.textContent = String(items.length);
   els.summarySources.textContent = String(unique(items.map((item) => item.platform)).length);
-  els.summaryLatest.textContent = items.length
-    ? formatRelativeDate(Math.max(...items.map((item) => Date.parse(item.published_at))))
-    : "—";
+  els.summaryLatest.textContent = publishedTimes.length
+    ? formatRelativeDate(Math.max(...publishedTimes))
+    : items.length ? "时间未知" : "—";
   els.emptyState.hidden = items.length > 0;
   els.feed.replaceChildren(...items.map(renderCard));
 }
@@ -377,10 +378,15 @@ function getVisibleItems() {
 function compareItems(a, b) {
   if (state.filters.sort === "confidence") {
     return confidenceScore(b.match_confidence) - confidenceScore(a.match_confidence)
-      || Date.parse(b.published_at) - Date.parse(a.published_at);
+      || publishedTimestamp(b) - publishedTimestamp(a);
   }
 
-  return Date.parse(b.published_at) - Date.parse(a.published_at);
+  return publishedTimestamp(b) - publishedTimestamp(a);
+}
+
+function publishedTimestamp(item) {
+  const timestamp = Date.parse(item.published_at);
+  return Number.isFinite(timestamp) ? timestamp : Number.NEGATIVE_INFINITY;
 }
 
 function renderCard(item) {
@@ -696,6 +702,9 @@ function totalEngagement(metrics = {}) {
 }
 
 function formatRelativeDate(value) {
+  if (value === null || value === undefined || value === "") {
+    return "时间未知";
+  }
   const published = new Date(value);
   const diffMs = Date.now() - published.getTime();
   const hours = Math.round(diffMs / 36e5);
