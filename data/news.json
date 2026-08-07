@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-07T04:15:42Z",
+  "generated_at": "2026-08-07T07:43:36Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 11,
+    "item_count": 10,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:82deb6dcc2b67201",
+      "id": "news:koreaboo:399972bf57a2b386",
       "platform": "news",
-      "platform_item_id": "82deb6dcc2b67201",
+      "platform_item_id": "399972bf57a2b386",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK Attending 10th Anniversary Event “Despite Busy Schedules” Sparks Huge Backlash",
-      "description": "\"Did they think they did us a favor?\"",
-      "url": "https://www.koreaboo.com/news/blackpink-despite-busy-schedules-10th-anniversary-fans-backlash/",
+      "title": "Dispatch Exposes YG Entertainment’s Last-Minute Rush To Prepare BLACKPINK’s 10th-Anniversary Event",
+      "description": "The last-minute plans are still being worked on.",
+      "url": "https://www.koreaboo.com/news/dispatch-exposes-yg-entertainment-last-minute-rush-prepare-blackpinks-10th-anniversary-event/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-07T03:07:04Z",
-      "collected_at": "2026-08-07T04:15:42Z",
+      "published_at": "2026-08-07T07:38:31Z",
+      "collected_at": "2026-08-07T07:43:36Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9843,
+        "recency": 0.9863,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,59 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8832,
+      "hot_score": 6.8968,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:82deb6dcc2b67201",
+      "platform": "news",
+      "platform_item_id": "82deb6dcc2b67201",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Attending 10th Anniversary Event “Despite Busy Schedules” Sparks Huge Backlash",
+      "description": "\"Did they think they did us a favor?\"",
+      "url": "https://www.koreaboo.com/news/blackpink-despite-busy-schedules-10th-anniversary-fans-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-07T03:07:04Z",
+      "collected_at": "2026-08-07T07:43:36Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9398,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5719,
       "available": true
     },
     {
@@ -73,7 +125,7 @@
       "url": "https://www.koreaboo.com/news/yg-confirms-members-will-attend-10th-anniversary-meet-greet/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T02:18:25Z",
-      "collected_at": "2026-08-07T04:15:42Z",
+      "collected_at": "2026-08-07T07:43:36Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -103,7 +155,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9736,
+        "recency": 0.93,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +163,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8077,
+      "hot_score": 6.5031,
       "available": true
     },
     {
@@ -125,7 +177,7 @@
       "url": "https://www.soompi.com/article/1860790wpp/all-4-members-of-blackpink-confirmed-to-be-attending-10th-anniversary-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T01:47:32Z",
-      "collected_at": "2026-08-07T04:15:42Z",
+      "collected_at": "2026-08-07T07:43:36Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -155,7 +207,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9668,
+        "recency": 0.9239,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -163,59 +215,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7607,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:a184d7d1d2eaa910",
-      "platform": "news",
-      "platform_item_id": "a184d7d1d2eaa910",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Only 3 Members Will Reportedly Attend BLACKPINK’s 10th Anniversary Event",
-      "description": "Not all members will be there.",
-      "url": "https://www.koreaboo.com/news/3-members-will-reportedly-attend-blackpinks-10th-anniversary-event/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-07T00:14:45Z",
-      "collected_at": "2026-08-07T04:15:42Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9472,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.6231,
+      "hot_score": 6.4601,
       "available": true
     },
     {
@@ -229,7 +229,7 @@
       "url": "https://www.soompi.com/article/1860764wpp/theblacklabel-clarifies-rumors-about-roses-participation-in-blackpinks-10th-anniversary-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T22:43:11Z",
-      "collected_at": "2026-08-07T04:15:42Z",
+      "collected_at": "2026-08-07T07:43:36Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -268,7 +268,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9285,
+        "recency": 0.8888,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -276,7 +276,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7711,
+      "hot_score": 7.4387,
       "available": true
     },
     {
@@ -290,7 +290,7 @@
       "url": "https://www.soompi.com/article/1860719wpp/watch-jennie-takes-2nd-win-for-less-than-a-lover-on-m-countdown-performances-by-red-velvet-dino-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T11:19:55Z",
-      "collected_at": "2026-08-07T04:15:42Z",
+      "collected_at": "2026-08-07T07:43:36Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -329,7 +329,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8096,
+        "recency": 0.7793,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -337,7 +337,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.776,
+      "hot_score": 6.5219,
       "available": true
     },
     {
@@ -351,7 +351,7 @@
       "url": "https://www.soompi.com/article/1859996wpp/jennie-breaks-top-10-of-billboards-summer-songs-chart-with-dracula-as-less-than-a-lover-debuts-on-global-200",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T20:45:14Z",
-      "collected_at": "2026-08-07T04:15:42Z",
+      "collected_at": "2026-08-07T07:43:36Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -390,7 +390,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5647,
+        "recency": 0.5497,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -398,59 +398,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7259,
-      "available": true
-    },
-    {
-      "id": "news:soompi:189b4f5e76bc76d2",
-      "platform": "news",
-      "platform_item_id": "189b4f5e76bc76d2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "i-dle’s “Nxde” Becomes Their 2nd MV To Hit 400 Million Views",
-      "description": "i-dle’s “Nxde” has just soared past the 400 million mark on YouTube! Shortly after 11:20 p.m. KST on August 4, i-dle’s music video for their 2022 hit “Nxde” surpassed 400 million views on YouTube, making it their second music video to reach the milestone after “Queencard.” i-dle first released the music video for “Nxde” on… Continue reading i-dle’s “Nxde” Becomes Their 2nd MV To Hit 400 Million Views The post i-dle’s “Nxde” Becomes Their 2nd MV To Hit 400 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859927wpp/i-dles-nxde-becomes-their-2nd-mv-to-hit-400-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T14:25:52Z",
-      "collected_at": "2026-08-07T04:15:42Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.538,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.762,
+      "hot_score": 4.6009,
       "available": true
     },
     {
@@ -464,7 +412,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-07T04:15:42Z",
+      "collected_at": "2026-08-07T07:43:36Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -496,7 +444,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0982,
+        "recency": 0.0977,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -504,7 +452,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8218,
+      "hot_score": 0.818,
       "available": true
     },
     {
@@ -518,7 +466,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-07T04:15:42Z",
+      "collected_at": "2026-08-07T07:43:36Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -550,7 +498,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0839,
+        "recency": 0.0835,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -558,7 +506,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7019,
+      "hot_score": 0.6991,
       "available": true
     },
     {
@@ -572,7 +520,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-07T04:15:42Z",
+      "collected_at": "2026-08-07T07:43:36Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -604,7 +552,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0827,
+        "recency": 0.0824,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -612,7 +560,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6921,
+      "hot_score": 0.6893,
       "available": true
     }
   ]
