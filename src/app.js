@@ -114,6 +114,22 @@ function parseUrlState() {
   state.filters.quality = parseEnum(params.get("quality"), ["featured", "all"], "featured");
 }
 
+function sanitizeUrlFilters() {
+  retainAllowed(state.filters.groups, state.config.groups.filter((group) => group.active).map((group) => group.id));
+  retainAllowed(state.filters.members, state.config.members.filter((member) => member.active).map((member) => member.id));
+  retainAllowed(state.filters.platforms, state.items.map((item) => item.platform));
+  pruneMembersForSelectedGroups();
+}
+
+function retainAllowed(values, allowedValues) {
+  const allowed = new Set(allowedValues);
+  for (const value of values) {
+    if (!allowed.has(value)) {
+      values.delete(value);
+    }
+  }
+}
+
 function syncUrlState() {
   const params = new URLSearchParams();
   writeList(params, "groups", state.filters.groups);
@@ -246,13 +262,13 @@ function renderGroupFilters() {
       state.filters.groups.clear();
       state.filters.members.clear();
       commitState();
-    }),
+    }, "group:all"),
     ...groups.map((group) =>
       makeChip(group.display_name, state.filters.groups.has(group.id), () => {
         toggleSet(state.filters.groups, group.id);
         pruneMembersForSelectedGroups();
         commitState();
-      })
+      }, `group:${group.id}`)
     )
   );
 }
@@ -261,14 +277,13 @@ function renderMemberFilters() {
   const selectedGroups = state.filters.groups;
   const members = state.config.members
     .filter((member) => member.active)
-    .filter((member) => selectedGroups.size === 0 || selectedGroups.has(member.group_id))
-    .slice(0, selectedGroups.size === 0 ? 12 : undefined);
+    .filter((member) => selectedGroups.size === 0 || selectedGroups.has(member.group_id));
 
   els.memberFilters.replaceChildren(
     makeChip("全部", state.filters.members.size === 0, () => {
       state.filters.members.clear();
       commitState();
-    }),
+    }, "member:all"),
     ...members.map((member) => {
       const group = findGroup(member.group_id);
       const label = selectedGroups.size === 0 ? `${member.display_name} · ${group.display_name}` : member.display_name;
@@ -281,7 +296,7 @@ function renderMemberFilters() {
         }
 
         commitState();
-      });
+      }, `member:${member.id}`);
     })
   );
 }
@@ -293,12 +308,12 @@ function renderPlatformFilters() {
     makeChip("全部", state.filters.platforms.size === 0, () => {
       state.filters.platforms.clear();
       commitState();
-    }),
+    }, "platform:all"),
     ...platforms.map((platform) =>
       makeChip(platformLabel(platform), state.filters.platforms.has(platform), () => {
         toggleSet(state.filters.platforms, platform);
         commitState();
-      })
+      }, `platform:${platform}`)
     )
   );
 }
@@ -314,16 +329,17 @@ function renderQualityFilters() {
       makeChip(label, state.filters.quality === value, () => {
         state.filters.quality = value;
         commitState();
-      })
+      }, `quality:${value}`)
     )
   );
 }
 
-function makeChip(label, pressed, onClick) {
+function makeChip(label, pressed, onClick, filterKey) {
   const button = document.createElement("button");
   button.className = "chip";
   button.type = "button";
   button.textContent = label;
+  button.dataset.filterKey = filterKey;
   button.setAttribute("aria-pressed", String(pressed));
   button.addEventListener("click", onClick);
   return button;
@@ -728,8 +744,20 @@ function formatRelativeDate(value) {
 }
 
 function commitState() {
+  const focusKey = document.activeElement?.dataset?.filterKey;
   syncUrlState();
   render();
+  restoreFilterFocus(focusKey);
+}
+
+function restoreFilterFocus(focusKey) {
+  if (!focusKey) {
+    return;
+  }
+
+  const nextFocus = Array.from(document.querySelectorAll("[data-filter-key]"))
+    .find((element) => element.dataset.filterKey === focusKey);
+  nextFocus?.focus({ preventScroll: true });
 }
 
 function bindEvents() {
@@ -755,6 +783,8 @@ function bindEvents() {
 
   window.addEventListener("popstate", () => {
     parseUrlState();
+    sanitizeUrlFilters();
+    syncUrlState();
     render();
   });
 }
@@ -763,6 +793,8 @@ async function init() {
   try {
     parseUrlState();
     await loadAppData();
+    sanitizeUrlFilters();
+    syncUrlState();
     bindEvents();
     render();
   } catch (error) {
