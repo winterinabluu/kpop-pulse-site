@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-07T03:45:45Z",
+  "generated_at": "2026-08-07T04:15:42Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 31,
+    "item_count": 11,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-despite-busy-schedules-10th-anniversary-fans-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T03:07:04Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9843,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8968,
+      "hot_score": 6.8832,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/yg-confirms-members-will-attend-10th-anniversary-meet-greet/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T02:18:25Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -103,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9802,
+        "recency": 0.9736,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.854,
+      "hot_score": 6.8077,
       "available": true
     },
     {
@@ -125,7 +125,7 @@
       "url": "https://www.soompi.com/article/1860790wpp/all-4-members-of-blackpink-confirmed-to-be-attending-10th-anniversary-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T01:47:32Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -155,7 +155,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9734,
+        "recency": 0.9668,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -163,93 +163,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8064,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:2104a12da3b9e5ac",
-      "platform": "news",
-      "platform_item_id": "2104a12da3b9e5ac",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Lesbians Pick Their Fave 4th And 5th Gen K-Pop Idols",
-      "description": "One group dominated the top ten.",
-      "url": "https://www.koreaboo.com/news/lesbians-pick-fave-4th-5th-gen-idols/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-07T01:37:55Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.9713,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 5.3537,
-      "available": true
-    },
-    {
-      "id": "news:soompi:e2a28fa586f5ad72",
-      "platform": "news",
-      "platform_item_id": "e2a28fa586f5ad72",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "2027 D Awards To Be Held In Paris, Making It 1st K-Pop Awards Ceremony To Take Place In Europe",
-      "description": "Mark your calendars for next year’s D Awards! On August 7 KST, the D Awards announced that its 2027 ceremony would take place in Paris, making it the first K-pop awards ceremony ever to be held in Europe. The 2027 D Awards will be held over two days on January 15 and 16, 2027 at… Continue reading 2027 D Awards To Be Held In Paris, Making It 1st K-Pop Awards Ceremony To Take Place In Europe The post 2027 D Awards To Be Held In Paris, Making It 1st K-Pop Awards Ceremony To Take Place In Europe appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860780wpp/2027-d-awards-to-be-held-in-paris-making-it-1st-k-pop-awards-ceremony-to-take-place-in-europe",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-07T00:54:40Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.9619,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 5.3022,
+      "hot_score": 6.7607,
       "available": true
     },
     {
@@ -263,7 +177,7 @@
       "url": "https://www.koreaboo.com/news/3-members-will-reportedly-attend-blackpinks-10th-anniversary-event/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T00:14:45Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -293,7 +207,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9534,
+        "recency": 0.9472,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -301,50 +215,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.667,
-      "available": true
-    },
-    {
-      "id": "news:soompi:89a6e86104fcc456",
-      "platform": "news",
-      "platform_item_id": "89a6e86104fcc456",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Stray Kids’ Seungmin To Sit Out Certain Comeback Promotions Due To Health",
-      "description": "Stray Kids’ Seungmin will not be participating in some of the group’s upcoming comeback promotions. On August 7 KST, JYP Entertainment announced that Seungmin would be sitting out certain promotions for Stray Kids’ upcoming mini album “THIS & THAT,” which is due out later today, due to his rehabilitation treatment. Although Seungmin will be participating… Continue reading Stray Kids’ Seungmin To Sit Out Certain Comeback Promotions Due To Health The post Stray Kids’ Seungmin To Sit Out Certain Comeback Promotions Due To Health appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860773wpp/stray-kids-seungmin-to-sit-out-certain-comeback-promotions-due-to-health",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-07T00:09:59Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.9524,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 5.2499,
+      "hot_score": 6.6231,
       "available": true
     },
     {
@@ -358,7 +229,7 @@
       "url": "https://www.soompi.com/article/1860764wpp/theblacklabel-clarifies-rumors-about-roses-participation-in-blackpinks-10th-anniversary-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T22:43:11Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -397,7 +268,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9345,
+        "recency": 0.9285,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -405,93 +276,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8215,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:4cfd0a4696fe6b12",
-      "platform": "news",
-      "platform_item_id": "4cfd0a4696fe6b12",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Popular K-Pop Idol Confesses She Had Her Boyfriend Stolen By Her Best Friend",
-      "description": "A popular K-Pop idol confessed that she had a man taken away by a close friend, evoking sympathy from netizens. On August 5th, the YouTube channel No Back Tak posted…",
-      "url": "https://www.koreaboo.com/news/popular-kpop-idol-confesses-boyfriend-stolen-best-friend/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-06T17:56:35Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.88,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 4.8506,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:8a4a248009afe69c",
-      "platform": "news",
-      "platform_item_id": "8a4a248009afe69c",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Top K-Pop Idol Captivates With Bikini Photos",
-      "description": "A K-Pop idol shared several photos of herself wearing a bikini on social media, drawing attention to her gorgeous figure and natural beauty. On August 4th, 2NE1’s Sandara Park shared…",
-      "url": "https://www.koreaboo.com/news/top-kpop-idol-captivates-bikini-photos/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-06T17:40:14Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.8771,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 4.8345,
+      "hot_score": 7.7711,
       "available": true
     },
     {
@@ -505,7 +290,7 @@
       "url": "https://www.soompi.com/article/1860719wpp/watch-jennie-takes-2nd-win-for-less-than-a-lover-on-m-countdown-performances-by-red-velvet-dino-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T11:19:55Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -528,163 +313,23 @@
       ],
       "match_confidence": "high",
       "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "description",
-          "score": 1.0
-        },
         {
           "target_type": "member",
           "target_id": "jennie",
           "alias": "Jennie",
           "field": "title",
           "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8142,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.8142,
-      "available": true
-    },
-    {
-      "id": "news:soompi:f3c4d9b188718378",
-      "platform": "news",
-      "platform_item_id": "f3c4d9b188718378",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "THE BOYZ To Continue As 9 Members Under New Label",
-      "description": "The idol group THE BOYZ will continue their group activities as a nine-member group. On August 6, THE BOYZ members Sangyeon, Jacob, Younghoon, Hyunjae, Juyeon, Kevin, Q, Sunwoo, and Eric announced, “We have all reached an agreement to continue our group activities as nine, and we have finalized the group contract to do so,” adding,… Continue reading THE BOYZ To Continue As 9 Members Under New Label The post THE BOYZ To Continue As 9 Members Under New Label appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860541wpp/the-boyz-to-continue-as-9-members-under-new-label",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-06T01:57:40Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.7362,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 4.058,
-      "available": true
-    },
-    {
-      "id": "news:soompi:5b757a53bacb291c",
-      "platform": "news",
-      "platform_item_id": "5b757a53bacb291c",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: 82MAJOR Announces September Comeback With Exciting 1st Teaser",
-      "description": "Get ready for 82MAJOR’s return! On August 5 at 8:02 p.m. KST, 82MAJOR dropped the first teaser for their upcoming comeback, which is set for September 1 at 6 p.m. KST. While little has been revealed about the comeback so far, 82MAJOR teased a bold, rebellious concept with a sports-themed teaser titled “82club.” Check out… Continue reading Watch: 82MAJOR Announces September Comeback With Exciting 1st Teaser The post Watch: 82MAJOR Announces September Comeback With Exciting 1st Teaser appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860260wpp/watch-82major-announces-september-comeback-with-exciting-1st-teaser",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-05T11:41:43Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.6425,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.5414,
-      "available": true
-    },
-    {
-      "id": "news:soompi:c8f7e3939db3e78b",
-      "platform": "news",
-      "platform_item_id": "c8f7e3939db3e78b",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: NouerA Takes Tearful 1st-Ever Win On “Show Champion” With “.exe”; Performances By KARD, POW, And More",
-      "description": "NouerA has won the very first music show trophy of their career! On the August 5 episode of “Show Champion,” the candidates for first place were KARD’s “Back To Life,” NouerA’s “.exe,” POW’s “Flavor,” Young K’s “Shut The Door,” and Jennie’s “Less than a Lover.” NouerA ultimately took the win, marking their first-ever win on a… Continue reading Watch: NouerA Takes Tearful 1st-Ever Win On “Show Champion” With “.exe”; Performances By KARD, POW, And More The post Watch: NouerA Takes Tearful 1st-Ever Win On “Show Champion” With “.exe”; Performances By KARD, POW, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860252wpp/watch-nouera-takes-tearful-1st-ever-win-on-show-champion-with-exe-performances-by-kard-pow-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-05T11:27:26Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
+        },
         {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "description",
-          "score": 0.9
+          "score": 0.3
         }
       ],
       "score_breakdown": {
-        "recency": 0.6411,
+        "recency": 0.8096,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -692,265 +337,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3656,
-      "available": true
-    },
-    {
-      "id": "news:nme-kpop:00aca4f6ecb4b3e9",
-      "platform": "news",
-      "platform_item_id": "00aca4f6ecb4b3e9",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "‘KPop Demon Hunters’ bumper art book to offer a deep-dive on the hit musical",
-      "description": "The latest tie-in to the Netflix phenomenon arrives in September The post ‘KPop Demon Hunters’ bumper art book to offer a deep-dive on the hit musical appeared first on NME .",
-      "url": "https://www.nme.com/news/film/kpop-demon-hunters-bumper-art-book-to-offer-a-deep-dive-on-the-hit-musical-3960914?utm_source=rss&utm_medium=rss&utm_campaign=kpop-demon-hunters-bumper-art-book-to-offer-a-deep-dive-on-the-hit-musical",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-05T10:02:45Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "NME K-pop",
-        "handle": "nme-kpop",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.6332,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.49,
-      "available": true
-    },
-    {
-      "id": "news:soompi:479e49d86a957005",
-      "platform": "news",
-      "platform_item_id": "479e49d86a957005",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "SM Announces Comeback Lineup For Remainder Of 2026",
-      "description": "SM Entertainment has announced its artist lineup for the second half of 2026! On August 5, SM Entertainment shared its business results for the second quarter of 2026, which includes a preview of upcoming music releases for the remainder of the year. Girls’ Generation unit Girls’ Generation-HRS (consisting of members Hyoyeon, Yuri, and Sooyoung) is… Continue reading SM Announces Comeback Lineup For Remainder Of 2026 The post SM Announces Comeback Lineup For Remainder Of 2026 appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860159wpp/sm-announces-comeback-lineup-for-remainder-of-2026",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-05T07:27:43Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.6191,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.4125,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6c8854f64b547c39",
-      "platform": "news",
-      "platform_item_id": "6c8854f64b547c39",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Song Kang, Jang Gyuri, And Lee Jun Young Showcase Striking Transformations 10 Years After They First Meet In “Four Hands, Two Sonatas”",
-      "description": "Upcoming tvN drama “Four Hands, Two Sonatas” has unveiled new stills featuring its cast! “Four Hands” is a piano term that refers to a technique where two people play a single piano together. The drama “Four Hands, Two Sonatas” will depict the friendship, love, rivalry, and growth of youths who meet at an arts high… Continue reading Song Kang, Jang Gyuri, And Lee Jun Young Showcase Striking Transformations 10 Years After They First Meet In “Four Hands, Two Sonatas” The post Song Kang, Jang Gyuri, And Lee Jun Young Showcase Striking Transformations 10 Years After They First Meet In “Four Hands, Two Sonatas” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860128wpp/song-kang-jang-gyuri-and-lee-jun-young-showcase-striking-transformations-10-years-after-they-first-meet-in-four-hands-two-sonatas",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-05T05:16:58Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.6077,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.3497,
-      "available": true
-    },
-    {
-      "id": "news:soompi:2288e6828112f6d5",
-      "platform": "news",
-      "platform_item_id": "2288e6828112f6d5",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "NCT 127’s “Kick It” Becomes Their First MV To Surpass 200 Million Views",
-      "description": "NCT 127 has reached another YouTube milestone! On August 5 at approximately 11:40 a.m. KST, the boy group’s music video for “Kick It” surpassed 200 million views, meaning that it took approximately six years, five months, and 12 hours to achieve this feat. Notably, “Kick It” is NCT 127’s first music video to surpass 200… Continue reading NCT 127’s “Kick It” Becomes Their First MV To Surpass 200 Million Views The post NCT 127’s “Kick It” Becomes Their First MV To Surpass 200 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860046wpp/nct-127s-kick-it-becomes-their-first-mv-to-surpass-200-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-05T02:02:23Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.5915,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.2605,
-      "available": true
-    },
-    {
-      "id": "news:soompi:c89d7b4580a30e0a",
-      "platform": "news",
-      "platform_item_id": "c89d7b4580a30e0a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "IST’s New Boy Group TUNEXX To Make 1st-Ever Comeback In September",
-      "description": "Get ready for TUNEXX’s first-ever comeback! On August 5, IST Entertainment officially announced, “TUNEXX will be making a comeback with a new album in September.” The agency added, “Please give lots of interest and anticipation to TUNEXX, who will be displaying a new level of growth as they embark on their first comeback promotions.” TUNEXX… Continue reading IST’s New Boy Group TUNEXX To Make 1st-Ever Comeback In September The post IST’s New Boy Group TUNEXX To Make 1st-Ever Comeback In September appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860015wpp/ists-new-boy-group-tunexx-to-make-1st-ever-comeback-in-september",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-05T00:13:19Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.5828,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.2125,
-      "available": true
-    },
-    {
-      "id": "news:soompi:d86daea9e686ad82",
-      "platform": "news",
-      "platform_item_id": "d86daea9e686ad82",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "August Individual Rookie Idol Brand Reputation Rankings Announced",
-      "description": "The Korean Business Research Institute has revealed this month’s brand reputation rankings for individual rookie idols! The rankings were determined through an analysis of the consumer participation, media coverage, interaction, and community awareness indexes of various rookie idols, using big data collected from July 5 to August 5. RESCENE once again dominated the list, with… Continue reading August Individual Rookie Idol Brand Reputation Rankings Announced The post August Individual Rookie Idol Brand Reputation Rankings Announced appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859999wpp/august-individual-rookie-idol-brand-reputation-rankings-announced-2",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T22:15:59Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.5737,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.1624,
+      "hot_score": 6.776,
       "available": true
     },
     {
@@ -964,7 +351,7 @@
       "url": "https://www.soompi.com/article/1859996wpp/jennie-breaks-top-10-of-billboards-summer-songs-chart-with-dracula-as-less-than-a-lover-debuts-on-global-200",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T20:45:14Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -988,22 +375,22 @@
       "match_confidence": "high",
       "match_reason": [
         {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "description",
-          "score": 1.0
-        },
-        {
           "target_type": "member",
           "target_id": "jennie",
           "alias": "Jennie",
           "field": "title",
           "score": 0.9
+        },
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "description",
+          "score": 0.3
         }
       ],
       "score_breakdown": {
-        "recency": 0.5669,
+        "recency": 0.5647,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -1011,136 +398,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7445,
-      "available": true
-    },
-    {
-      "id": "news:soompi:0ed83c0daeeca3cb",
-      "platform": "news",
-      "platform_item_id": "0ed83c0daeeca3cb",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "DAY6’s Young K Quadruples His 1st-Week Sales Record With “YOUNGEST”",
-      "description": "DAY6’s Young K is displaying impressive growth with his latest comeback! Last week, Young K made his long-awaited solo comeback with his second full-length solo album “YOUNGEST” on July 27. By the end of the day, “YOUNGEST” had already sold over 50,000 copies, breaking Young K’s previous first-week sales record of 40,189 copies (set by… Continue reading DAY6’s Young K Quadruples His 1st-Week Sales Record With “YOUNGEST” The post DAY6’s Young K Quadruples His 1st-Week Sales Record With “YOUNGEST” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859988wpp/day6s-young-k-quadruples-his-1st-week-sales-record-with-youngest",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T16:51:22Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.55,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.0317,
-      "available": true
-    },
-    {
-      "id": "news:soompi:8a4d0cf61cb8f446",
-      "platform": "news",
-      "platform_item_id": "8a4d0cf61cb8f446",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Red Velvet Tops iTunes Charts All Over The World With “Velvet Summer”",
-      "description": "Red Velvet’s latest comeback is off to a chart-topping start! On August 3 at 6 p.m. KST, Red Velvet made their long-awaited return with their new mini album “Velvet Summer” and its title track “Surfin’ Boy.” Immediately upon its release, the mini soared to the top of iTunes charts in various countries across the globe.… Continue reading Red Velvet Tops iTunes Charts All Over The World With “Velvet Summer” The post Red Velvet Tops iTunes Charts All Over The World With “Velvet Summer” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859985wpp/red-velvet-tops-itunes-charts-all-over-the-world-with-velvet-summer",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T16:30:39Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.5486,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.0238,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6b997e13b4f72993",
-      "platform": "news",
-      "platform_item_id": "6b997e13b4f72993",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "KATSEYE’s “Animal” Becomes Their 1st Top 10 Hit On Billboard Global 200 + Their Highest-Debuting Single On Hot 100",
-      "description": "KATSEYE has entered the top 10 of Billboard’s Global 200 for the very first time! This week, KATSEYE’s new single “Animal” set several personal records for the group on the Billboard charts. First, “Animal” debuted at No. 10 on the Global 200, making it KATSEYE’s first song ever to break the top 10 of the… Continue reading KATSEYE’s “Animal” Becomes Their 1st Top 10 Hit On Billboard Global 200 + Their Highest-Debuting Single On Hot 100 The post KATSEYE’s “Animal” Becomes Their 1st Top 10 Hit On Billboard Global 200 + Their Highest-Debuting Single On Hot 100 appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859978wpp/katseyes-animal-becomes-their-1st-top-10-hit-on-billboard-global-200-their-highest-debuting-single-on-hot-100",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T15:54:08Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.546,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 3.0098,
+      "hot_score": 4.7259,
       "available": true
     },
     {
@@ -1154,7 +412,7 @@
       "url": "https://www.soompi.com/article/1859927wpp/i-dles-nxde-becomes-their-2nd-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-04T14:25:52Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -1169,150 +427,30 @@
       },
       "duration": "",
       "language": "en",
-      "matched_groups": [],
+      "matched_groups": [
+        "gidle"
+      ],
       "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
       "score_breakdown": {
-        "recency": 0.54,
+        "recency": 0.538,
         "views": 0,
-        "engagement": 2.5,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
-        "media_source",
-        "low_confidence"
+        "media_source"
       ],
-      "hot_score": 2.9766,
-      "available": true
-    },
-    {
-      "id": "news:soompi:d8549e79203e8c45",
-      "platform": "news",
-      "platform_item_id": "d8549e79203e8c45",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "SF9 Announces Plans For 10th-Anniversary Comeback, Concert, And More",
-      "description": "Get ready: SF9 has big plans for the rest of 2026! On August 4, SF9 officially announced their plans for the upcoming 10th anniversary of their debut. First, SF9 will make a comeback with their second full-length album on August 26, when they will also be holding a showcase for the release. Then, after ringing… Continue reading SF9 Announces Plans For 10th-Anniversary Comeback, Concert, And More The post SF9 Announces Plans For 10th-Anniversary Comeback, Concert, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859921wpp/sf9-announces-plans-for-10th-anniversary-comeback-concert-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T13:52:28Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.5378,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 2.9642,
-      "available": true
-    },
-    {
-      "id": "news:soompi:5170bb56682e4b86",
-      "platform": "news",
-      "platform_item_id": "5170bb56682e4b86",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "August Rookie Idol Group Brand Reputation Rankings Announced",
-      "description": "The Korean Business Research Institute has revealed this month’s brand reputation rankings for rookie idol groups! The rankings were determined through an analysis of the consumer participation, media coverage, interaction, and community awareness indexes of various rookie idol groups, using big data collected from July 4 to August 4. RESCENE held onto their spot at… Continue reading August Rookie Idol Group Brand Reputation Rankings Announced The post August Rookie Idol Group Brand Reputation Rankings Announced appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1859915wpp/august-rookie-idol-group-brand-reputation-rankings-announced-5",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-04T13:29:48Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.5362,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 2.9559,
-      "available": true
-    },
-    {
-      "id": "news:nme-kpop:ce63ed2dcfc3530c",
-      "platform": "news",
-      "platform_item_id": "ce63ed2dcfc3530c",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "‘Kpop Demon Hunters’ is still one of Netflix’s most watched films, nearly one year on",
-      "description": "The hit film surpassed movies including ‘Apex’, ‘Office Romance’, ‘People We Meet On Vacation’ and more The post ‘Kpop Demon Hunters’ is still one of Netflix’s most watched films, nearly one year on appeared first on NME .",
-      "url": "https://www.nme.com/news/film/kpop-demon-hunters-is-still-one-of-netflixs-most-watched-films-3957633?utm_source=rss&utm_medium=rss&utm_campaign=kpop-demon-hunters-is-still-one-of-netflixs-most-watched-films",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-07-17T15:55:11Z",
-      "collected_at": "2026-08-07T03:45:45Z",
-      "author": {
-        "name": "NME K-pop",
-        "handle": "nme-kpop",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [],
-      "matched_members": [],
-      "match_confidence": "low",
-      "match_reason": [],
-      "score_breakdown": {
-        "recency": 0.1277,
-        "views": 0,
-        "engagement": 2.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source",
-        "low_confidence"
-      ],
-      "hot_score": 0.7039,
+      "hot_score": 3.762,
       "available": true
     },
     {
@@ -1326,7 +464,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -1358,7 +496,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0983,
+        "recency": 0.0982,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -1366,7 +504,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8224,
+      "hot_score": 0.8218,
       "available": true
     },
     {
@@ -1380,7 +518,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -1420,7 +558,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7023,
+      "hot_score": 0.7019,
       "available": true
     },
     {
@@ -1434,7 +572,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-07T03:45:45Z",
+      "collected_at": "2026-08-07T04:15:42Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -1474,7 +612,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6925,
+      "hot_score": 0.6921,
       "available": true
     }
   ]
