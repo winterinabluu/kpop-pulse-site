@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-07T13:41:04Z",
+  "generated_at": "2026-08-07T19:18:12Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,74 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:2a0e7ab70f8feb1b",
+      "platform": "news",
+      "platform_item_id": "2a0e7ab70f8feb1b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "IVE’s Jang Wonyoung Candidly Confesses Her Feelings On Getting Embroiled In Controversies",
+      "description": "On August 7th, Harper’s Bazaar’s official YouTube channel uploaded a video titled, “Dear DIVEs’ Worry Corner is OPEN♥ Wonyoung read your concerns…here’s what she had to say.” In the video,…",
+      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-candidly-confesses-feelings-getting-embroiled-controversies/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-07T16:34:53Z",
+      "collected_at": "2026-08-07T19:18:12Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Jang Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9636,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0643,
+      "available": true
+    },
     {
       "id": "news:soompi:a2946925d460b652",
       "platform": "news",
@@ -21,7 +89,7 @@
       "url": "https://www.soompi.com/article/1860969wpp/i-dles-tomboy-becomes-their-3rd-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T10:55:19Z",
-      "collected_at": "2026-08-07T13:41:04Z",
+      "collected_at": "2026-08-07T19:18:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +119,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.963,
+        "recency": 0.8957,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,59 +127,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7342,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:3b48242e1179b1c7",
-      "platform": "news",
-      "platform_item_id": "3b48242e1179b1c7",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "YG Allegedly Throws Shade At BLACKPINK, Sparks Major Backlash",
-      "description": "This sparked speculation.",
-      "url": "https://www.koreaboo.com/news/yg-allegedly-throws-blackpink-members-bus-sparks-major-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-07T10:26:27Z",
-      "collected_at": "2026-08-07T13:41:04Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9569,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.6912,
+      "hot_score": 6.2635,
       "available": true
     },
     {
@@ -125,7 +141,7 @@
       "url": "https://www.soompi.com/article/1860790wpp/all-4-members-of-blackpink-confirmed-to-be-attending-10th-anniversary-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T01:47:32Z",
-      "collected_at": "2026-08-07T13:41:04Z",
+      "collected_at": "2026-08-07T19:18:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -155,7 +171,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8582,
+        "recency": 0.8044,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -163,7 +179,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0014,
+      "hot_score": 5.6247,
       "available": true
     },
     {
@@ -177,7 +193,7 @@
       "url": "https://www.soompi.com/article/1860764wpp/theblacklabel-clarifies-rumors-about-roses-participation-in-blackpinks-10th-anniversary-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T22:43:11Z",
-      "collected_at": "2026-08-07T13:41:04Z",
+      "collected_at": "2026-08-07T19:18:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -216,7 +232,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8279,
+        "recency": 0.7777,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -224,7 +240,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.9291,
+      "hot_score": 6.5086,
       "available": true
     },
     {
@@ -238,7 +254,7 @@
       "url": "https://www.soompi.com/article/1860719wpp/watch-jennie-takes-2nd-win-for-less-than-a-lover-on-m-countdown-performances-by-red-velvet-dino-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T11:19:55Z",
-      "collected_at": "2026-08-07T13:41:04Z",
+      "collected_at": "2026-08-07T19:18:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -277,7 +293,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7321,
+        "recency": 0.6925,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -285,7 +301,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.1268,
+      "hot_score": 5.7957,
       "available": true
     },
     {
@@ -299,7 +315,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-07T13:41:04Z",
+      "collected_at": "2026-08-07T19:18:12Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -331,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.097,
+        "recency": 0.0962,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -339,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8114,
+      "hot_score": 0.8053,
       "available": true
     },
     {
@@ -353,7 +369,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-07T13:41:04Z",
+      "collected_at": "2026-08-07T19:18:12Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -385,7 +401,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.083,
+        "recency": 0.0824,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -393,7 +409,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6943,
+      "hot_score": 0.6899,
       "available": true
     },
     {
@@ -407,7 +423,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-07T13:41:04Z",
+      "collected_at": "2026-08-07T19:18:12Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -439,7 +455,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0818,
+        "recency": 0.0813,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -447,7 +463,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6847,
+      "hot_score": 0.6803,
       "available": true
     }
   ]
