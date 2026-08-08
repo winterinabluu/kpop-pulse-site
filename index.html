@@ -12,8 +12,8 @@
       content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'"
     />
     <title>Kpop Pulse</title>
-    <link rel="stylesheet" href="./src/styles.css?v=20260808a" />
-    <script type="module" src="./src/app.js?v=20260808a"></script>
+    <link rel="stylesheet" href="./src/styles.css?v=20260808b" />
+    <script type="module" src="./src/app.js?v=20260808b"></script>
   </head>
   <body>
     <noscript>Kpop Pulse 需要启用 JavaScript 才能读取本地数据并渲染内容列表。</noscript>
@@ -37,31 +37,40 @@
               <option value="confidence">匹配置信度</option>
             </select>
           </div>
-          <div class="filter-group">
-            <span class="filter-title">团体</span>
-            <div id="group-filters" class="chip-row" role="group" aria-label="团体筛选"></div>
-          </div>
-          <div class="filter-group">
-            <span class="filter-title">成员</span>
-            <div id="member-filter-panel" class="member-filter-panel">
-              <div class="member-mode-row">
-                <div class="mode-switch" role="group" aria-label="成员筛选模式">
-                  <button id="member-mode-include" class="mode-button" type="button" aria-pressed="true">只看</button>
-                  <button id="member-mode-mute" class="mode-button" type="button" aria-pressed="false">屏蔽</button>
-                </div>
-                <span id="muted-member-summary" class="filter-note" aria-live="polite">未屏蔽成员</span>
-                <button id="clear-muted-members" class="ghost-button compact-button" type="button" hidden>清除屏蔽</button>
-              </div>
-              <div id="member-filters" class="chip-row" role="group" aria-label="成员筛选"></div>
+          <button
+            id="advanced-filters-toggle"
+            class="advanced-filter-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="advanced-filters"
+          >筛选与偏好</button>
+          <div id="advanced-filters" class="advanced-filters is-collapsed">
+            <div class="filter-group">
+              <span class="filter-title">团体</span>
+              <div id="group-filters" class="chip-row" role="group" aria-label="团体筛选"></div>
             </div>
-          </div>
-          <div class="filter-group">
-            <span class="filter-title">来源</span>
-            <div id="platform-filters" class="chip-row" role="group" aria-label="来源筛选"></div>
-          </div>
-          <div class="filter-group">
-            <span class="filter-title">质量</span>
-            <div id="quality-filters" class="chip-row" role="group" aria-label="质量筛选"></div>
+            <div class="filter-group">
+              <span class="filter-title">成员</span>
+              <div id="member-filter-panel" class="member-filter-panel">
+                <div class="member-mode-row">
+                  <div class="mode-switch" role="group" aria-label="成员筛选模式">
+                    <button id="member-mode-include" class="mode-button" type="button" aria-pressed="true">只看</button>
+                    <button id="member-mode-mute" class="mode-button" type="button" aria-pressed="false">屏蔽</button>
+                  </div>
+                  <span id="muted-member-summary" class="filter-note" aria-live="polite">未屏蔽成员</span>
+                  <button id="clear-muted-members" class="ghost-button compact-button" type="button" hidden>清除屏蔽</button>
+                </div>
+                <div id="member-filters" class="chip-row" role="group" aria-label="成员筛选"></div>
+              </div>
+            </div>
+            <div class="filter-group">
+              <span class="filter-title">来源</span>
+              <div id="platform-filters" class="chip-row" role="group" aria-label="来源筛选"></div>
+            </div>
+            <div class="filter-group">
+              <span class="filter-title">质量</span>
+              <div id="quality-filters" class="chip-row" role="group" aria-label="质量筛选"></div>
+            </div>
           </div>
         </section>
 
@@ -91,6 +100,7 @@
             <button id="clear-filters" class="ghost-button" type="button">清空筛选</button>
           </div>
           <div id="feed" class="feed" aria-live="polite"></div>
+          <button id="load-more" class="load-more-button" type="button" aria-controls="feed" hidden>显示更多</button>
           <div id="empty-state" class="empty-state" hidden>
             <h3>当前条件没有匹配内容</h3>
             <p>换一个团体、成员、来源，或清空搜索词。</p>

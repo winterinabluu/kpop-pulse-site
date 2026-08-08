@@ -10,6 +10,9 @@ const DATA_FILES = {
 
 const CORE_SOURCES = ["news", "youtube", "curated"];
 const MUTED_MEMBERS_STORAGE_KEY = "kpop-pulse:muted-members:v1";
+const MOBILE_MEDIA_QUERY = "(max-width: 720px)";
+const MOBILE_PAGE_SIZE = 6;
+const DESKTOP_PAGE_SIZE = 12;
 
 const CONFIDENCE_ORDER = {
   manual: 4,
@@ -37,7 +40,9 @@ const state = {
   meta: null,
   items: [],
   feedErrors: {},
+  advancedFiltersOpen: false,
   memberMode: "include",
+  visibleLimit: 0,
   filters: {
     groups: new Set(),
     members: new Set(),
@@ -52,6 +57,8 @@ const state = {
 const els = {
   trackingCopy: document.querySelector("#tracking-copy"),
   freshness: document.querySelector("#freshness"),
+  advancedFiltersToggle: document.querySelector("#advanced-filters-toggle"),
+  advancedFilters: document.querySelector("#advanced-filters"),
   groupFilters: document.querySelector("#group-filters"),
   memberFilterPanel: document.querySelector("#member-filter-panel"),
   memberFilters: document.querySelector("#member-filters"),
@@ -69,6 +76,7 @@ const els = {
   summaryLatest: document.querySelector("#summary-latest"),
   feed: document.querySelector("#feed"),
   emptyState: document.querySelector("#empty-state"),
+  loadMore: document.querySelector("#load-more"),
   clearFilters: document.querySelector("#clear-filters")
 };
 
@@ -215,6 +223,26 @@ function parseEnum(value, allowed, fallback) {
   return allowed.includes(value) ? value : fallback;
 }
 
+function isMobileLayout() {
+  return window.matchMedia(MOBILE_MEDIA_QUERY).matches;
+}
+
+function pageSize() {
+  return isMobileLayout() ? MOBILE_PAGE_SIZE : DESKTOP_PAGE_SIZE;
+}
+
+function resetVisibleLimit() {
+  state.visibleLimit = pageSize();
+}
+
+function activeAdvancedFilterCount() {
+  return state.filters.groups.size
+    + state.filters.members.size
+    + state.filters.mutedMembers.size
+    + state.filters.platforms.size
+    + (state.filters.quality === "featured" ? 0 : 1);
+}
+
 function render() {
   renderTrackingCopy();
   renderFreshness();
@@ -291,12 +319,22 @@ function sourceIssue(source) {
 }
 
 function renderFilters() {
+  renderAdvancedFiltersToggle();
   renderGroupFilters();
   renderMemberFilters();
   renderPlatformFilters();
   renderQualityFilters();
   els.searchInput.value = state.filters.q;
   els.sortSelect.value = state.filters.sort;
+}
+
+function renderAdvancedFiltersToggle() {
+  const count = activeAdvancedFilterCount();
+  const expanded = !isMobileLayout() || state.advancedFiltersOpen;
+  const countText = count > 0 ? `（${count}）` : "";
+  els.advancedFiltersToggle.textContent = `筛选与偏好${countText} · ${expanded ? "收起" : "展开"}`;
+  els.advancedFiltersToggle.setAttribute("aria-expanded", String(expanded));
+  els.advancedFilters.classList.toggle("is-collapsed", !state.advancedFiltersOpen);
 }
 
 function renderGroupFilters() {
@@ -452,6 +490,8 @@ function pruneMembersForSelectedGroups() {
 
 function renderFeed() {
   const items = getVisibleItems();
+  const visibleItems = items.slice(0, state.visibleLimit || pageSize());
+  const remainingCount = Math.max(items.length - visibleItems.length, 0);
   const publishedTimes = items.map(publishedTimestamp).filter(Number.isFinite);
   els.summaryCount.textContent = String(items.length);
   els.summarySources.textContent = String(unique(items.map((item) => item.platform)).length);
@@ -459,7 +499,9 @@ function renderFeed() {
     ? formatRelativeDate(Math.max(...publishedTimes))
     : items.length ? "时间未知" : "—";
   els.emptyState.hidden = items.length > 0;
-  els.feed.replaceChildren(...items.map(renderCard));
+  els.feed.replaceChildren(...visibleItems.map(renderCard));
+  els.loadMore.hidden = remainingCount === 0;
+  els.loadMore.textContent = `显示更多（剩余 ${remainingCount} 条）`;
 }
 
 function getVisibleItems() {
@@ -828,8 +870,11 @@ function formatRelativeDate(value) {
   }).format(published);
 }
 
-function commitState() {
+function commitState({ resetPagination = true } = {}) {
   const focusKey = document.activeElement?.dataset?.filterKey;
+  if (resetPagination) {
+    resetVisibleLimit();
+  }
   persistMutedMembers();
   syncUrlState();
   render();
@@ -847,14 +892,24 @@ function restoreFilterFocus(focusKey) {
 }
 
 function bindEvents() {
+  els.advancedFiltersToggle.addEventListener("click", () => {
+    state.advancedFiltersOpen = !state.advancedFiltersOpen;
+    renderAdvancedFiltersToggle();
+  });
+
+  els.loadMore.addEventListener("click", () => {
+    state.visibleLimit += pageSize();
+    renderFeed();
+  });
+
   els.memberModeInclude.addEventListener("click", () => {
     state.memberMode = "include";
-    commitState();
+    commitState({ resetPagination: false });
   });
 
   els.memberModeMute.addEventListener("click", () => {
     state.memberMode = "mute";
-    commitState();
+    commitState({ resetPagination: false });
   });
 
   els.clearMutedMembers.addEventListener("click", () => {
@@ -886,9 +941,19 @@ function bindEvents() {
   window.addEventListener("popstate", () => {
     parseUrlState();
     sanitizeUrlFilters();
+    resetVisibleLimit();
     persistMutedMembers();
     syncUrlState();
     render();
+  });
+
+  window.matchMedia(MOBILE_MEDIA_QUERY).addEventListener("change", (event) => {
+    if (event.matches) {
+      state.advancedFiltersOpen = false;
+    }
+    resetVisibleLimit();
+    renderFilters();
+    renderFeed();
   });
 }
 
@@ -897,6 +962,7 @@ async function init() {
     parseUrlState();
     await loadAppData();
     sanitizeUrlFilters();
+    resetVisibleLimit();
     persistMutedMembers();
     syncUrlState();
     bindEvents();
