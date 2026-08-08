@@ -5,7 +5,7 @@
   --surface-raised: #ffffff;
   --ink: #171717;
   --ink-muted: #63615c;
-  --ink-faint: #8f8b82;
+  --ink-faint: #706d66;
   --line: #ded8cc;
   --primary: #0f766e;
   --primary-soft: #d8f3ee;
@@ -53,7 +53,8 @@ a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 select:focus-visible {
-  outline: none;
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
   box-shadow: var(--shadow-focus);
 }
 
@@ -256,7 +257,7 @@ select {
 }
 
 .compact-button {
-  min-height: 34px;
+  min-height: 36px;
   padding: 5px 10px;
 }
 
@@ -267,7 +268,7 @@ select {
 }
 
 .chip {
-  min-height: 34px;
+  min-height: 36px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface-raised);
@@ -452,6 +453,11 @@ select {
   height: 100%;
 }
 
+.cover-link:focus-visible {
+  outline-width: 3px;
+  outline-offset: -3px;
+}
+
 .generated-cover {
   display: flex;
   height: 100%;
@@ -554,6 +560,11 @@ select {
   color: var(--primary);
 }
 
+.title-link {
+  display: inline-block;
+  min-height: 36px;
+}
+
 .card-meta {
   display: flex;
   flex-wrap: wrap;
@@ -620,7 +631,7 @@ select {
 }
 
 .explain-button {
-  min-height: 34px;
+  min-height: 36px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface-raised);

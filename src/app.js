@@ -488,7 +488,7 @@ function pruneMembersForSelectedGroups() {
   }
 }
 
-function renderFeed() {
+function renderFeed({ focusItemIndex = null } = {}) {
   const items = getVisibleItems();
   const visibleItems = items.slice(0, state.visibleLimit || pageSize());
   const remainingCount = Math.max(items.length - visibleItems.length, 0);
@@ -502,6 +502,10 @@ function renderFeed() {
   els.feed.replaceChildren(...visibleItems.map(renderCard));
   els.loadMore.hidden = remainingCount === 0;
   els.loadMore.textContent = `显示更多（剩余 ${remainingCount} 条）`;
+
+  if (focusItemIndex !== null) {
+    els.feed.children[focusItemIndex]?.querySelector(".title-link")?.focus();
+  }
 }
 
 function getVisibleItems() {
@@ -898,8 +902,9 @@ function bindEvents() {
   });
 
   els.loadMore.addEventListener("click", () => {
+    const previousVisibleCount = els.feed.children.length;
     state.visibleLimit += pageSize();
-    renderFeed();
+    renderFeed({ focusItemIndex: previousVisibleCount });
   });
 
   els.memberModeInclude.addEventListener("click", () => {
