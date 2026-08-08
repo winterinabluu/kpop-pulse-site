@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-08T13:13:59Z",
+  "generated_at": "2026-08-08T19:00:30Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 11,
+    "item_count": 10,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-member-attitudes-10th-live-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-08T09:25:26Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9497,
+        "recency": 0.8825,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6412,
+      "hot_score": 6.1711,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jisoo-issues-written-apology-fans/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-08T07:31:07Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9265,
+        "recency": 0.8624,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7538,
+      "hot_score": 7.2175,
       "available": true
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.soompi.com/article/1861077wpp/twices-fancy-becomes-their-3rd-mv-to-hit-700-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-08T06:26:03Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9137,
+        "recency": 0.8513,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,59 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3893,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:84f39afc8c14db52",
-      "platform": "news",
-      "platform_item_id": "84f39afc8c14db52",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s “Whiplash” Sparks Controversy As Choreographers Fight Over Credit",
-      "description": "The award went to someone else.",
-      "url": "https://www.koreaboo.com/news/aespa-whiplash-controversy-choreographers-fight-credit/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-07T22:38:59Z",
-      "collected_at": "2026-08-08T13:13:59Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8316,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.8148,
+      "hot_score": 5.953,
       "available": true
     },
     {
@@ -238,7 +186,7 @@
       "url": "https://www.soompi.com/article/1860969wpp/i-dles-tomboy-becomes-their-3rd-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T10:55:19Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -268,7 +216,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7324,
+        "recency": 0.6917,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -276,7 +224,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1212,
+      "hot_score": 4.837,
       "available": true
     },
     {
@@ -290,7 +238,7 @@
       "url": "https://www.soompi.com/article/1860790wpp/all-4-members-of-blackpink-confirmed-to-be-attending-10th-anniversary-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T01:47:32Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -320,7 +268,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6701,
+        "recency": 0.636,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -328,7 +276,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.686,
+      "hot_score": 4.447,
       "available": true
     },
     {
@@ -342,7 +290,7 @@
       "url": "https://www.soompi.com/article/1860764wpp/theblacklabel-clarifies-rumors-about-roses-participation-in-blackpinks-10th-anniversary-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T22:43:11Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -381,7 +329,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6515,
+        "recency": 0.6191,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -389,7 +337,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4526,
+      "hot_score": 5.1818,
       "available": true
     },
     {
@@ -403,7 +351,7 @@
       "url": "https://www.soompi.com/article/1860719wpp/watch-jennie-takes-2nd-win-for-less-than-a-lover-on-m-countdown-performances-by-red-velvet-dino-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-06T11:19:55Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -442,7 +390,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5906,
+        "recency": 0.5639,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -450,7 +398,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9432,
+      "hot_score": 4.7196,
       "available": true
     },
     {
@@ -464,7 +412,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -496,7 +444,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.094,
+        "recency": 0.0933,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -504,7 +452,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7865,
+      "hot_score": 0.7806,
       "available": true
     },
     {
@@ -518,7 +466,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -550,7 +498,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0808,
+        "recency": 0.0802,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -558,7 +506,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.676,
+      "hot_score": 0.6716,
       "available": true
     },
     {
@@ -572,7 +520,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-08T13:13:59Z",
+      "collected_at": "2026-08-08T19:00:30Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -604,7 +552,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0797,
+        "recency": 0.0792,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -612,7 +560,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6668,
+      "hot_score": 0.6626,
       "available": true
     }
   ]
