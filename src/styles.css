@@ -179,6 +179,65 @@ select {
   margin-top: 14px;
 }
 
+.member-filter-panel {
+  min-width: 0;
+}
+
+.member-mode-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.mode-switch {
+  display: inline-flex;
+}
+
+.mode-button {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  background: var(--surface-raised);
+  color: var(--ink-muted);
+  cursor: pointer;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.mode-button:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+.mode-button:last-child {
+  margin-left: -1px;
+  border-radius: 0 8px 8px 0;
+}
+
+.mode-button:hover,
+.mode-button[aria-pressed="true"] {
+  position: relative;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+#member-mode-mute[aria-pressed="true"] {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.filter-note {
+  color: var(--ink-muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.compact-button {
+  min-height: 34px;
+  padding: 5px 10px;
+}
+
 .chip-row {
   display: flex;
   flex-wrap: wrap;
@@ -206,6 +265,18 @@ select {
   border-color: rgba(15, 118, 110, 0.35);
   background: var(--primary-soft);
   color: var(--primary);
+}
+
+.chip.is-muted,
+.member-filter-panel.is-mute-mode .chip[aria-pressed="true"] {
+  border-color: var(--danger);
+  background: var(--surface-raised);
+  color: var(--danger);
+}
+
+.member-filter-panel.is-mute-mode .chip:hover {
+  border-color: var(--danger);
+  color: var(--danger);
 }
 
 .summary-grid {

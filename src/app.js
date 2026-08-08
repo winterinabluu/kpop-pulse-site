@@ -9,6 +9,7 @@ const DATA_FILES = {
 };
 
 const CORE_SOURCES = ["news", "youtube", "curated"];
+const MUTED_MEMBERS_STORAGE_KEY = "kpop-pulse:muted-members:v1";
 
 const CONFIDENCE_ORDER = {
   manual: 4,
@@ -36,9 +37,11 @@ const state = {
   meta: null,
   items: [],
   feedErrors: {},
+  memberMode: "include",
   filters: {
     groups: new Set(),
     members: new Set(),
+    mutedMembers: new Set(),
     platforms: new Set(),
     q: "",
     sort: "latest",
@@ -47,9 +50,15 @@ const state = {
 };
 
 const els = {
+  trackingCopy: document.querySelector("#tracking-copy"),
   freshness: document.querySelector("#freshness"),
   groupFilters: document.querySelector("#group-filters"),
+  memberFilterPanel: document.querySelector("#member-filter-panel"),
   memberFilters: document.querySelector("#member-filters"),
+  memberModeInclude: document.querySelector("#member-mode-include"),
+  memberModeMute: document.querySelector("#member-mode-mute"),
+  mutedMemberSummary: document.querySelector("#muted-member-summary"),
+  clearMutedMembers: document.querySelector("#clear-muted-members"),
   platformFilters: document.querySelector("#platform-filters"),
   qualityFilters: document.querySelector("#quality-filters"),
   searchInput: document.querySelector("#search-input"),
@@ -108,6 +117,9 @@ function parseUrlState() {
   const params = new URLSearchParams(window.location.search);
   state.filters.groups = new Set(parseList(params.get("groups")));
   state.filters.members = new Set(parseList(params.get("members")));
+  state.filters.mutedMembers = new Set(
+    params.has("muted_members") ? parseList(params.get("muted_members")) : loadStoredMutedMembers()
+  );
   state.filters.platforms = new Set(parseList(params.get("platforms")));
   state.filters.q = params.get("q") ?? "";
   state.filters.sort = parseEnum(params.get("sort"), ["latest", "confidence"], "latest");
@@ -117,8 +129,36 @@ function parseUrlState() {
 function sanitizeUrlFilters() {
   retainAllowed(state.filters.groups, state.config.groups.filter((group) => group.active).map((group) => group.id));
   retainAllowed(state.filters.members, state.config.members.filter((member) => member.active).map((member) => member.id));
+  retainAllowed(state.filters.mutedMembers, state.config.members.filter((member) => member.active).map((member) => member.id));
   retainAllowed(state.filters.platforms, state.items.map((item) => item.platform));
+  for (const memberId of state.filters.mutedMembers) {
+    state.filters.members.delete(memberId);
+  }
   pruneMembersForSelectedGroups();
+}
+
+function loadStoredMutedMembers() {
+  try {
+    const stored = JSON.parse(window.localStorage.getItem(MUTED_MEMBERS_STORAGE_KEY) ?? "[]");
+    return Array.isArray(stored) ? stored.filter((value) => typeof value === "string") : [];
+  } catch {
+    return [];
+  }
+}
+
+function persistMutedMembers() {
+  try {
+    if (state.filters.mutedMembers.size === 0) {
+      window.localStorage.removeItem(MUTED_MEMBERS_STORAGE_KEY);
+      return;
+    }
+    window.localStorage.setItem(
+      MUTED_MEMBERS_STORAGE_KEY,
+      JSON.stringify(Array.from(state.filters.mutedMembers))
+    );
+  } catch {
+    // Storage can be unavailable in private or restricted browsing contexts.
+  }
 }
 
 function retainAllowed(values, allowedValues) {
@@ -134,6 +174,7 @@ function syncUrlState() {
   const params = new URLSearchParams();
   writeList(params, "groups", state.filters.groups);
   writeList(params, "members", state.filters.members);
+  writeList(params, "muted_members", state.filters.mutedMembers);
   writeList(params, "platforms", state.filters.platforms);
 
   if (state.filters.q) {
@@ -175,10 +216,16 @@ function parseEnum(value, allowed, fallback) {
 }
 
 function render() {
+  renderTrackingCopy();
   renderFreshness();
   renderStatusBanner();
   renderFilters();
   renderFeed();
+}
+
+function renderTrackingCopy() {
+  const activeGroupCount = state.config.groups.filter((group) => group.active).length;
+  els.trackingCopy.textContent = `追踪 ${activeGroupCount} 个女团的相关新闻和已验证链接，每条内容都标明来源与匹配依据。`;
 }
 
 function renderFreshness() {
@@ -275,28 +322,65 @@ function renderGroupFilters() {
 
 function renderMemberFilters() {
   const selectedGroups = state.filters.groups;
+  const isMuteMode = state.memberMode === "mute";
   const members = state.config.members
     .filter((member) => member.active)
     .filter((member) => selectedGroups.size === 0 || selectedGroups.has(member.group_id));
 
+  els.memberFilterPanel.classList.toggle("is-mute-mode", isMuteMode);
+  els.memberFilters.setAttribute("aria-label", isMuteMode ? "屏蔽成员" : "只看成员");
+  els.memberModeInclude.setAttribute("aria-pressed", String(!isMuteMode));
+  els.memberModeMute.setAttribute("aria-pressed", String(isMuteMode));
+  els.mutedMemberSummary.textContent = state.filters.mutedMembers.size === 0
+    ? "未屏蔽成员"
+    : `已屏蔽 ${state.filters.mutedMembers.size} 位成员`;
+  els.clearMutedMembers.hidden = state.filters.mutedMembers.size === 0;
+
+  const leadingChips = isMuteMode
+    ? []
+    : [
+        makeChip("全部", state.filters.members.size === 0, () => {
+          state.filters.members.clear();
+          commitState();
+        }, "member:all")
+      ];
+
   els.memberFilters.replaceChildren(
-    makeChip("全部", state.filters.members.size === 0, () => {
-      state.filters.members.clear();
-      commitState();
-    }, "member:all"),
+    ...leadingChips,
     ...members.map((member) => {
       const group = findGroup(member.group_id);
-      const label = selectedGroups.size === 0 ? `${member.display_name} · ${group.display_name}` : member.display_name;
+      const baseLabel = selectedGroups.size === 0 ? `${member.display_name} · ${group.display_name}` : member.display_name;
+      const isMuted = state.filters.mutedMembers.has(member.id);
+      const label = isMuted ? `${baseLabel} · 已屏蔽` : baseLabel;
 
-      return makeChip(label, state.filters.members.has(member.id), () => {
-        toggleSet(state.filters.members, member.id);
-
-        if (state.filters.members.has(member.id)) {
-          state.filters.groups.add(member.group_id);
+      const chip = makeChip(label, isMuteMode ? isMuted : state.filters.members.has(member.id), () => {
+        if (isMuteMode) {
+          toggleSet(state.filters.mutedMembers, member.id);
+          if (state.filters.mutedMembers.has(member.id)) {
+            state.filters.members.delete(member.id);
+          }
+        } else {
+          toggleSet(state.filters.members, member.id);
+          if (state.filters.members.has(member.id)) {
+            state.filters.mutedMembers.delete(member.id);
+            state.filters.groups.add(member.group_id);
+          }
         }
 
         commitState();
       }, `member:${member.id}`);
+
+      if (isMuted) {
+        chip.classList.add("is-muted");
+        chip.setAttribute(
+          "aria-label",
+          `${baseLabel}，已屏蔽；${isMuteMode ? "点击解除屏蔽" : "点击改为只看"}`
+        );
+      } else if (isMuteMode) {
+        chip.setAttribute("aria-label", `${baseLabel}，点击屏蔽`);
+      }
+
+      return chip;
     })
   );
 }
@@ -383,6 +467,7 @@ function getVisibleItems() {
 
   return state.items
     .filter((item) => item.available !== false)
+    .filter((item) => !hasAny(item.matched_members, state.filters.mutedMembers))
     .filter((item) => state.filters.platforms.size === 0 || state.filters.platforms.has(item.platform))
     .filter((item) => state.filters.groups.size === 0 || hasAny(item.matched_groups, state.filters.groups))
     .filter((item) => state.filters.members.size === 0 || hasAny(item.matched_members, state.filters.members))
@@ -745,6 +830,7 @@ function formatRelativeDate(value) {
 
 function commitState() {
   const focusKey = document.activeElement?.dataset?.filterKey;
+  persistMutedMembers();
   syncUrlState();
   render();
   restoreFilterFocus(focusKey);
@@ -761,6 +847,22 @@ function restoreFilterFocus(focusKey) {
 }
 
 function bindEvents() {
+  els.memberModeInclude.addEventListener("click", () => {
+    state.memberMode = "include";
+    commitState();
+  });
+
+  els.memberModeMute.addEventListener("click", () => {
+    state.memberMode = "mute";
+    commitState();
+  });
+
+  els.clearMutedMembers.addEventListener("click", () => {
+    state.filters.mutedMembers.clear();
+    commitState();
+    (state.memberMode === "mute" ? els.memberModeMute : els.memberModeInclude).focus();
+  });
+
   els.searchInput.addEventListener("input", () => {
     state.filters.q = els.searchInput.value.trim();
     commitState();
@@ -784,6 +886,7 @@ function bindEvents() {
   window.addEventListener("popstate", () => {
     parseUrlState();
     sanitizeUrlFilters();
+    persistMutedMembers();
     syncUrlState();
     render();
   });
@@ -794,6 +897,7 @@ async function init() {
     parseUrlState();
     await loadAppData();
     sanitizeUrlFilters();
+    persistMutedMembers();
     syncUrlState();
     bindEvents();
     render();

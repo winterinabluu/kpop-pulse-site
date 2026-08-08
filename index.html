@@ -12,8 +12,8 @@
       content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'"
     />
     <title>Kpop Pulse</title>
-    <link rel="stylesheet" href="./src/styles.css?v=20260806a" />
-    <script type="module" src="./src/app.js?v=20260807a"></script>
+    <link rel="stylesheet" href="./src/styles.css?v=20260808a" />
+    <script type="module" src="./src/app.js?v=20260808a"></script>
   </head>
   <body>
     <noscript>Kpop Pulse 需要启用 JavaScript 才能读取本地数据并渲染内容列表。</noscript>
@@ -22,7 +22,7 @@
         <div>
           <p class="eyebrow">Kpop Pulse · Alpha</p>
           <h1>女团更新追踪</h1>
-          <p class="lede">追踪 9 个女团的相关新闻和已验证链接，每条内容都标明来源与匹配依据。</p>
+          <p id="tracking-copy" class="lede">追踪已配置女团的相关新闻和已验证链接，每条内容都标明来源与匹配依据。</p>
         </div>
         <div id="freshness" class="freshness" aria-live="polite">读取数据中...</div>
       </header>
@@ -43,7 +43,17 @@
           </div>
           <div class="filter-group">
             <span class="filter-title">成员</span>
-            <div id="member-filters" class="chip-row" role="group" aria-label="成员筛选"></div>
+            <div id="member-filter-panel" class="member-filter-panel">
+              <div class="member-mode-row">
+                <div class="mode-switch" role="group" aria-label="成员筛选模式">
+                  <button id="member-mode-include" class="mode-button" type="button" aria-pressed="true">只看</button>
+                  <button id="member-mode-mute" class="mode-button" type="button" aria-pressed="false">屏蔽</button>
+                </div>
+                <span id="muted-member-summary" class="filter-note" aria-live="polite">未屏蔽成员</span>
+                <button id="clear-muted-members" class="ghost-button compact-button" type="button" hidden>清除屏蔽</button>
+              </div>
+              <div id="member-filters" class="chip-row" role="group" aria-label="成员筛选"></div>
+            </div>
           </div>
           <div class="filter-group">
             <span class="filter-title">来源</span>
