@@ -1,128 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-10T13:46:43Z",
+  "generated_at": "2026-08-10T19:18:31Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 9,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:8664c8c178265bb3",
-      "platform": "news",
-      "platform_item_id": "8664c8c178265bb3",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jennie’s Shocking Outfit Hit With Backlash At Controversial Anniversary Event",
-      "description": "Some thought it was a punishment.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-outfit-amid-anniversary-controversy-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-10T09:05:14Z",
-      "collected_at": "2026-08-10T13:46:43Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9388,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8573,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:d97e6263e493bde8",
-      "platform": "news",
-      "platform_item_id": "d97e6263e493bde8",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s Airport Departure Turns To Chaos, Sparks Backlash",
-      "description": "This was dangerous.",
-      "url": "https://www.koreaboo.com/news/aespa-airport-departure-video-goes-viral-fans-chaos/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-10T08:04:45Z",
-      "collected_at": "2026-08-10T13:46:43Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9266,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.4797,
-      "available": true
-    },
     {
       "id": "news:soompi:ccfb9db012fbc64c",
       "platform": "news",
@@ -134,7 +21,7 @@
       "url": "https://www.soompi.com/article/1861518wpp/twices-jeongyeon-personally-confirms-departure-from-jyp-signs-with-varo-entertainment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-10T04:36:42Z",
-      "collected_at": "2026-08-10T13:46:43Z",
+      "collected_at": "2026-08-10T19:18:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8871,
+        "recency": 0.8305,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.424,
+      "hot_score": 6.9505,
       "available": true
     },
     {
@@ -195,7 +82,7 @@
       "url": "https://www.soompi.com/article/1861374wpp/cortis-ateez-yeonjun-bts-le-sserafim-boynextdoor-aespa-stray-kids-and-more-rank-high-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-09T17:12:46Z",
-      "collected_at": "2026-08-10T13:46:43Z",
+      "collected_at": "2026-08-10T19:18:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -233,7 +120,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7778,
+        "recency": 0.734,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -241,7 +128,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2991,
+      "hot_score": 5.944,
       "available": true
     },
     {
@@ -255,7 +142,7 @@
       "url": "https://www.soompi.com/article/1861077wpp/twices-fancy-becomes-their-3rd-mv-to-hit-700-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-08T06:26:03Z",
-      "collected_at": "2026-08-10T13:46:43Z",
+      "collected_at": "2026-08-10T19:18:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -285,7 +172,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5654,
+        "recency": 0.5419,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -293,7 +180,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.9536,
+      "hot_score": 3.7891,
       "available": true
     },
     {
@@ -307,7 +194,7 @@
       "url": "https://www.soompi.com/article/1860969wpp/i-dles-tomboy-becomes-their-3rd-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T10:55:19Z",
-      "collected_at": "2026-08-10T13:46:43Z",
+      "collected_at": "2026-08-10T19:18:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -337,7 +224,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4903,
+        "recency": 0.4725,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -345,7 +232,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.4283,
+      "hot_score": 3.3039,
       "available": true
     },
     {
@@ -359,7 +246,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-10T13:46:43Z",
+      "collected_at": "2026-08-10T19:18:31Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -391,7 +278,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0884,
+        "recency": 0.0878,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -399,7 +286,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7396,
+      "hot_score": 0.7346,
       "available": true
     },
     {
@@ -413,7 +300,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-10T13:46:43Z",
+      "collected_at": "2026-08-10T19:18:31Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -445,7 +332,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0766,
+        "recency": 0.0761,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -453,7 +340,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6411,
+      "hot_score": 0.6373,
       "available": true
     },
     {
@@ -467,7 +354,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-10T13:46:43Z",
+      "collected_at": "2026-08-10T19:18:31Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -499,7 +386,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0756,
+        "recency": 0.0752,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -507,7 +394,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6328,
+      "hot_score": 0.6292,
       "available": true
     }
   ]
