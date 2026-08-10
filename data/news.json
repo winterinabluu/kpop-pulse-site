@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-10T08:06:30Z",
+  "generated_at": "2026-08-10T13:46:43Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 11,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:60a5dd9deb2980b6",
+      "id": "news:koreaboo:8664c8c178265bb3",
       "platform": "news",
-      "platform_item_id": "60a5dd9deb2980b6",
+      "platform_item_id": "8664c8c178265bb3",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK’s Jisoo Posts Honest Message to Fans Following Controversy",
-      "description": "She wanted to clarify.",
-      "url": "https://www.koreaboo.com/news/blackpink-jisoo-message-10th-anniversary-controversy/",
+      "title": "BLACKPINK Jennie’s Shocking Outfit Hit With Backlash At Controversial Anniversary Event",
+      "description": "Some thought it was a punishment.",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-outfit-amid-anniversary-controversy-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-10T06:11:57Z",
-      "collected_at": "2026-08-10T08:06:30Z",
+      "published_at": "2026-08-10T09:05:14Z",
+      "collected_at": "2026-08-10T13:46:43Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -40,7 +40,7 @@
         "blackpink"
       ],
       "matched_members": [
-        "jisoo"
+        "jennie"
       ],
       "match_confidence": "high",
       "match_reason": [
@@ -53,14 +53,14 @@
         },
         {
           "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
+          "target_id": "jennie",
+          "alias": "Jennie",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9742,
+        "recency": 0.9388,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,21 +68,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1531,
+      "hot_score": 7.8573,
       "available": true
     },
     {
-      "id": "news:koreaboo:ced31e282372e4d2",
+      "id": "news:koreaboo:d97e6263e493bde8",
       "platform": "news",
-      "platform_item_id": "ced31e282372e4d2",
+      "platform_item_id": "d97e6263e493bde8",
       "source_type": "media",
       "content_kind": "news",
-      "title": "TWICE’s Jeongyeon Pens Handwritten Letter After Leaving JYP",
-      "description": "We wish her the best of luck!",
-      "url": "https://www.koreaboo.com/news/twice-jeongyeon-handwritten-letter-leaves-jyp/",
+      "title": "aespa’s Airport Departure Turns To Chaos, Sparks Backlash",
+      "description": "This was dangerous.",
+      "url": "https://www.koreaboo.com/news/aespa-airport-departure-video-goes-viral-fans-chaos/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-10T04:54:13Z",
-      "collected_at": "2026-08-10T08:06:30Z",
+      "published_at": "2026-08-10T08:04:45Z",
+      "collected_at": "2026-08-10T13:46:43Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -98,38 +98,29 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "twice"
+        "aespa"
       ],
-      "matched_members": [
-        "jeongyeon"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
+          "target_id": "aespa",
+          "alias": "aespa",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jeongyeon",
-          "alias": "Jeongyeon",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9574,
+        "recency": 0.9266,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0126,
+      "hot_score": 6.4797,
       "available": true
     },
     {
@@ -143,7 +134,7 @@
       "url": "https://www.soompi.com/article/1861518wpp/twices-jeongyeon-personally-confirms-departure-from-jyp-signs-with-varo-entertainment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-10T04:36:42Z",
-      "collected_at": "2026-08-10T08:06:30Z",
+      "collected_at": "2026-08-10T13:46:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9537,
+        "recency": 0.8871,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,136 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9816,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:bc13d5d70fb798d8",
-      "platform": "news",
-      "platform_item_id": "bc13d5d70fb798d8",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s 10th Debut Anniversary Event Filed For Investigation, Sparks Backlash",
-      "description": "They received numerous citizen complaints.",
-      "url": "https://www.koreaboo.com/news/blackpinksmeet-greet-national-museum-korea-filed-investigation-complaints/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-10T03:21:25Z",
-      "collected_at": "2026-08-10T08:06:30Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9381,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.5597,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:7d6671a21b7a9a91",
-      "platform": "news",
-      "platform_item_id": "7d6671a21b7a9a91",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT And LE SSERAFIM Accused Of Encouraging Racism Against NewJeans’ Hanni",
-      "description": "The controversy was too big to be ignored.",
-      "url": "https://www.koreaboo.com/news/illit-le-sserafim-accusations-racism-insensitive-newjeans-hanni/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-09T23:01:32Z",
-      "collected_at": "2026-08-10T08:06:30Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit",
-        "lesserafim",
-        "newjeans"
-      ],
-      "matched_members": [
-        "hanni"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "hanni",
-          "alias": "Hanni",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.888,
-        "views": 0,
-        "engagement": 8.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.796,
+      "hot_score": 7.424,
       "available": true
     },
     {
@@ -333,7 +195,7 @@
       "url": "https://www.soompi.com/article/1861374wpp/cortis-ateez-yeonjun-bts-le-sserafim-boynextdoor-aespa-stray-kids-and-more-rank-high-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-09T17:12:46Z",
-      "collected_at": "2026-08-10T08:06:30Z",
+      "collected_at": "2026-08-10T13:46:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -371,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8286,
+        "recency": 0.7778,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -379,7 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7102,
+      "hot_score": 6.2991,
       "available": true
     },
     {
@@ -393,7 +255,7 @@
       "url": "https://www.soompi.com/article/1861077wpp/twices-fancy-becomes-their-3rd-mv-to-hit-700-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-08T06:26:03Z",
-      "collected_at": "2026-08-10T08:06:30Z",
+      "collected_at": "2026-08-10T13:46:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -423,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5917,
+        "recency": 0.5654,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -431,7 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1378,
+      "hot_score": 3.9536,
       "available": true
     },
     {
@@ -445,7 +307,7 @@
       "url": "https://www.soompi.com/article/1860969wpp/i-dles-tomboy-becomes-their-3rd-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-07T10:55:19Z",
-      "collected_at": "2026-08-10T08:06:30Z",
+      "collected_at": "2026-08-10T13:46:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -475,7 +337,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.51,
+        "recency": 0.4903,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -483,7 +345,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.566,
+      "hot_score": 3.4283,
       "available": true
     },
     {
@@ -497,7 +359,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-10T08:06:30Z",
+      "collected_at": "2026-08-10T13:46:43Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -529,7 +391,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.089,
+        "recency": 0.0884,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -537,7 +399,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7448,
+      "hot_score": 0.7396,
       "available": true
     },
     {
@@ -551,7 +413,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-10T08:06:30Z",
+      "collected_at": "2026-08-10T13:46:43Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -583,7 +445,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0771,
+        "recency": 0.0766,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -591,7 +453,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.645,
+      "hot_score": 0.6411,
       "available": true
     },
     {
@@ -605,7 +467,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-10T08:06:30Z",
+      "collected_at": "2026-08-10T13:46:43Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -637,7 +499,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0761,
+        "recency": 0.0756,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -645,7 +507,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6366,
+      "hot_score": 0.6328,
       "available": true
     }
   ]
