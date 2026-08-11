@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kpop Pulse 隐私说明与 YouTube API 数据使用计划。" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'none'; style-src 'self'; img-src 'self' https: data:; connect-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <title>隐私说明 · Kpop Pulse</title>
+    <link rel="stylesheet" href="./src/styles.css?v=20260811a" />
+  </head>
+  <body>
+    <div class="legal-shell">
+      <header class="legal-header">
+        <a class="legal-back-link" href="./index.html">返回 Kpop Pulse</a>
+        <p class="eyebrow">Kpop Pulse</p>
+        <h1>隐私说明</h1>
+        <p class="lede">更新日期：2026 年 8 月 11 日</p>
+      </header>
+
+      <main class="legal-content">
+        <section>
+          <h2>目前收集什么</h2>
+          <p>Kpop Pulse 没有账号系统，也不要求登录。网站读取公开的新闻摘要和原站链接，不接收姓名、邮箱或付款信息。</p>
+          <p>成员屏蔽偏好保存在当前浏览器的 <code>localStorage</code> 中，键名是 <code>kpop-pulse:muted-members:v1</code>。这些偏好不会上传到 Kpop Pulse。你可以使用页面上的“清除屏蔽”，也可以在浏览器设置中清除本站数据。</p>
+        </section>
+
+        <section>
+          <h2>YouTube API 状态</h2>
+          <p>当前未启用 YouTube API，也没有发布 YouTube API 数据。启用前，网站会先加入单独的政策同意步骤；未同意时不会展示依赖 YouTube API 的功能。</p>
+          <p>计划中的首版只使用服务端 API Key 获取公开的官方频道和视频资料，不使用 Google OAuth，也不访问用户的 YouTube 账号数据。</p>
+        </section>
+
+        <section>
+          <h2>计划保存的 YouTube 数据</h2>
+          <p>启用后只保存视频和频道 ID、标题、短摘要、缩略图 URL、发布时间及视频时长。原始 API 响应和影音内容不会保存，也不会请求播放量、点赞数或评论数来生成站内分数。</p>
+          <p>公开快照每 6 小时刷新，只保留最近 14 天的内容。视频被删除、设为私密或不再能通过 API 获取时，会在下一次成功刷新时移除。任何无法刷新的快照最迟在 30 天内清空。</p>
+        </section>
+
+        <section>
+          <h2>第三方服务</h2>
+          <p>本站托管在 GitHub Pages。GitHub 可能按照自己的政策处理标准访问日志。点击新闻或视频链接后，你会离开本站，后续数据处理由目标网站负责。</p>
+          <ul class="legal-link-list">
+            <li><a href="https://www.youtube.com/t/terms" target="_blank" rel="noreferrer">YouTube Terms of Service</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">Google Privacy Policy</a></li>
+            <li><a href="https://security.google.com/settings/security/permissions" target="_blank" rel="noreferrer">Google 第三方访问权限设置</a></li>
+          </ul>
+          <p>本站当前不请求 Google 授权。若以后加入 OAuth，用户可以在 Google 安全设置中撤销授权；相关 Authorized Data 将按官方政策尽快删除。</p>
+        </section>
+
+        <section>
+          <h2>问题与删除请求</h2>
+          <p>如果你发现页面仍展示已经删除或失效的 YouTube 内容，或对数据处理有疑问，可以在 <a href="https://github.com/winterinabluu/kpop-pulse-site/issues" target="_blank" rel="noreferrer">公开仓库的 Issues</a> 中说明链接和原因。</p>
+        </section>
+      </main>
+
+      <footer class="legal-footer">
+        <a href="./index.html">首页</a>
+        <a href="./terms.html">使用条款</a>
+      </footer>
+    </div>
+  </body>
+</html>
