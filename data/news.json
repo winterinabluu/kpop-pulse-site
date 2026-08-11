@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-11T07:39:37Z",
+  "generated_at": "2026-08-11T13:44:43Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,119 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:74d5552e3686b68f",
+      "platform": "news",
+      "platform_item_id": "74d5552e3686b68f",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: KISS OF LIFE Takes 1st Win For “SWEAT” On “The Show”",
+      "description": "KISS OF LIFE has won their first music show trophy for “SWEAT”! On the August 11 episode of “The Show,” the candidates for first place were ARTMS’s “Born Stunner,” KISS OF LIFE’s “SWEAT,” and POW’s “Flavor.” KISS OF LIFE ultimately took home the win with 8,868 points. Congratulations to KISS OF LIFE! Watch their win and… Continue reading Watch: KISS OF LIFE Takes 1st Win For “SWEAT” On “The Show” The post Watch: KISS OF LIFE Takes 1st Win For “SWEAT” On “The Show” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1862065wpp/watch-kiss-of-life-takes-1st-win-for-sweat-on-the-show",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-11T10:38:36Z",
+      "collected_at": "2026-08-11T13:44:43Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "kissoflife"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "kissoflife",
+          "alias": "KISS OF LIFE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9587,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.7038,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:8c8907c666f23f67",
+      "platform": "news",
+      "platform_item_id": "8c8907c666f23f67",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jennie Hit With Malicious Body Shaming In Recent Sexy Outfit",
+      "description": "Netizens were brutal.",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-body-shamed-video/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-11T07:40:17Z",
+      "collected_at": "2026-08-11T13:44:43Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9222,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7181,
+      "available": true
+    },
     {
       "id": "news:koreaboo:a43b806b33b043dc",
       "platform": "news",
@@ -21,7 +134,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-rose-drops-lengthy-messages-10th-debut-annviversary/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-11T06:41:07Z",
-      "collected_at": "2026-08-11T07:39:37Z",
+      "collected_at": "2026-08-11T13:44:43Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9107,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.6218,
       "available": true
     },
     {
@@ -82,7 +195,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisas-recent-whereabouts-linked-rumored-boyfriend-sparks-divided-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-11T06:20:19Z",
-      "collected_at": "2026-08-11T07:39:37Z",
+      "collected_at": "2026-08-11T13:44:43Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.982,
+        "recency": 0.9067,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2184,
+      "hot_score": 7.5886,
       "available": true
     },
     {
@@ -143,7 +256,7 @@
       "url": "https://www.koreaboo.com/news/twice-jeongyeon-seemingly-calls-jyp-after-contract-expiration/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-11T05:42:31Z",
-      "collected_at": "2026-08-11T07:39:37Z",
+      "collected_at": "2026-08-11T13:44:43Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -182,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9736,
+        "recency": 0.8996,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,59 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1483,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:77dca78c66ae11bb",
-      "platform": "news",
-      "platform_item_id": "77dca78c66ae11bb",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Gets Slammed Over Cheap Fan Tribute",
-      "description": "Netizens are baffled by the price tag.",
-      "url": "https://www.koreaboo.com/news/blackpink-slammed-cheap-fan-tribute/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-10T22:40:24Z",
-      "collected_at": "2026-08-11T07:39:37Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.889,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.2166,
+      "hot_score": 7.5288,
       "available": true
     },
     {
@@ -256,7 +317,7 @@
       "url": "https://www.soompi.com/article/1861518wpp/twices-jeongyeon-personally-confirms-departure-from-jyp-signs-with-varo-entertainment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-10T04:36:42Z",
-      "collected_at": "2026-08-11T07:39:37Z",
+      "collected_at": "2026-08-11T13:44:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -295,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7269,
+        "recency": 0.6848,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -303,7 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0837,
+      "hot_score": 5.7316,
       "available": true
     },
     {
@@ -317,7 +378,7 @@
       "url": "https://www.soompi.com/article/1861374wpp/cortis-ateez-yeonjun-bts-le-sserafim-boynextdoor-aespa-stray-kids-and-more-rank-high-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-09T17:12:46Z",
-      "collected_at": "2026-08-11T07:39:37Z",
+      "collected_at": "2026-08-11T13:44:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -355,7 +416,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6519,
+        "recency": 0.6179,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -363,59 +424,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2793,
-      "available": true
-    },
-    {
-      "id": "news:soompi:952cfc7598962cee",
-      "platform": "news",
-      "platform_item_id": "952cfc7598962cee",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s “FANCY” Becomes Their 3rd MV To Hit 700 Million Views",
-      "description": "TWICE’s music video for “FANCY” has soared past 700 million views on YouTube! According to JYP Entertainment, on August 8 at around 12 p.m, TWICE’s music video for their 2019 hit “FANCY” surpassed 700 million views on YouTube, making it the group’s third music video to achieve the feat after “What is Love?” and “TT.”… Continue reading TWICE’s “FANCY” Becomes Their 3rd MV To Hit 700 Million Views The post TWICE’s “FANCY” Becomes Their 3rd MV To Hit 700 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1861077wpp/twices-fancy-becomes-their-3rd-mv-to-hit-700-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-08T06:26:03Z",
-      "collected_at": "2026-08-11T07:39:37Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4958,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.4668,
+      "hot_score": 5.0036,
       "available": true
     },
     {
@@ -429,7 +438,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-11T07:39:37Z",
+      "collected_at": "2026-08-11T13:44:43Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -461,7 +470,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0865,
+        "recency": 0.0858,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -469,7 +478,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7237,
+      "hot_score": 0.7185,
       "available": true
     },
     {
@@ -483,7 +492,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-11T07:39:37Z",
+      "collected_at": "2026-08-11T13:44:43Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -515,7 +524,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0752,
+        "recency": 0.0747,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -523,7 +532,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6291,
+      "hot_score": 0.6251,
       "available": true
     },
     {
@@ -537,7 +546,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-11T07:39:37Z",
+      "collected_at": "2026-08-11T13:44:43Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -569,7 +578,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0742,
+        "recency": 0.0738,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -577,7 +586,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6212,
+      "hot_score": 0.6173,
       "available": true
     }
   ]
