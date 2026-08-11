@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-11T13:44:43Z",
+  "generated_at": "2026-08-11T19:27:42Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 10,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1862065wpp/watch-kiss-of-life-takes-1st-win-for-sweat-on-the-show",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-11T10:38:36Z",
-      "collected_at": "2026-08-11T13:44:43Z",
+      "collected_at": "2026-08-11T19:27:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9587,
+        "recency": 0.8909,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,251 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7038,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:8c8907c666f23f67",
-      "platform": "news",
-      "platform_item_id": "8c8907c666f23f67",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Jennie Hit With Malicious Body Shaming In Recent Sexy Outfit",
-      "description": "Netizens were brutal.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-body-shamed-video/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-11T07:40:17Z",
-      "collected_at": "2026-08-11T13:44:43Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9222,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7181,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:a43b806b33b043dc",
-      "platform": "news",
-      "platform_item_id": "a43b806b33b043dc",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Rosé Drops Lengthy Message, Sparks More Heated Debate",
-      "description": "She confessed her true feelings.",
-      "url": "https://www.koreaboo.com/news/blackpink-rose-drops-lengthy-messages-10th-debut-annviversary/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-11T06:41:07Z",
-      "collected_at": "2026-08-11T13:44:43Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "rose"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "rose",
-          "alias": "Rosé",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9107,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.6218,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:9dfaa09d1ab3fef1",
-      "platform": "news",
-      "platform_item_id": "9dfaa09d1ab3fef1",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa’s Alleged Recent Whereabouts Linked To Rumored Boyfriend Sparks Divided Reactions",
-      "description": "Netizens were divided.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisas-recent-whereabouts-linked-rumored-boyfriend-sparks-divided-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-11T06:20:19Z",
-      "collected_at": "2026-08-11T13:44:43Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9067,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5886,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:9d90ca48835884c0",
-      "platform": "news",
-      "platform_item_id": "9d90ca48835884c0",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Jeongyeon Seemingly Calls Out JYP Following Contract Expiration",
-      "description": "Her message felt like a breathe of fresh air.",
-      "url": "https://www.koreaboo.com/news/twice-jeongyeon-seemingly-calls-jyp-after-contract-expiration/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-11T05:42:31Z",
-      "collected_at": "2026-08-11T13:44:43Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jeongyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jeongyeon",
-          "alias": "Jeongyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8996,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5288,
+      "hot_score": 6.2296,
       "available": true
     },
     {
@@ -317,7 +73,7 @@
       "url": "https://www.soompi.com/article/1861518wpp/twices-jeongyeon-personally-confirms-departure-from-jyp-signs-with-varo-entertainment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-10T04:36:42Z",
-      "collected_at": "2026-08-11T13:44:43Z",
+      "collected_at": "2026-08-11T19:27:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -356,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6848,
+        "recency": 0.6495,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -364,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7316,
+      "hot_score": 5.4361,
       "available": true
     },
     {
@@ -378,7 +134,7 @@
       "url": "https://www.soompi.com/article/1861374wpp/cortis-ateez-yeonjun-bts-le-sserafim-boynextdoor-aespa-stray-kids-and-more-rank-high-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-09T17:12:46Z",
-      "collected_at": "2026-08-11T13:44:43Z",
+      "collected_at": "2026-08-11T19:27:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -416,7 +172,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6179,
+        "recency": 0.589,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -424,7 +180,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0036,
+      "hot_score": 4.7697,
       "available": true
     },
     {
@@ -438,7 +194,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-11T13:44:43Z",
+      "collected_at": "2026-08-11T19:27:42Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -470,7 +226,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0858,
+        "recency": 0.0853,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -478,7 +234,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7185,
+      "hot_score": 0.7136,
       "available": true
     },
     {
@@ -492,7 +248,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-11T13:44:43Z",
+      "collected_at": "2026-08-11T19:27:42Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -524,7 +280,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0747,
+        "recency": 0.0743,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -532,7 +288,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6251,
+      "hot_score": 0.6214,
       "available": true
     },
     {
@@ -546,7 +302,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-11T13:44:43Z",
+      "collected_at": "2026-08-11T19:27:42Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -578,7 +334,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0738,
+        "recency": 0.0733,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -586,7 +342,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6173,
+      "hot_score": 0.6137,
       "available": true
     }
   ]
