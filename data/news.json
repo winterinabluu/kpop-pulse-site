@@ -1,15 +1,198 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-11T02:29:34Z",
+  "generated_at": "2026-08-11T07:39:37Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 10,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:a43b806b33b043dc",
+      "platform": "news",
+      "platform_item_id": "a43b806b33b043dc",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Rosé Drops Lengthy Message, Sparks More Heated Debate",
+      "description": "She confessed her true feelings.",
+      "url": "https://www.koreaboo.com/news/blackpink-rose-drops-lengthy-messages-10th-debut-annviversary/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-11T06:41:07Z",
+      "collected_at": "2026-08-11T07:39:37Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "rose"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "rose",
+          "alias": "Rosé",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:9dfaa09d1ab3fef1",
+      "platform": "news",
+      "platform_item_id": "9dfaa09d1ab3fef1",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Lisa’s Alleged Recent Whereabouts Linked To Rumored Boyfriend Sparks Divided Reactions",
+      "description": "Netizens were divided.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisas-recent-whereabouts-linked-rumored-boyfriend-sparks-divided-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-11T06:20:19Z",
+      "collected_at": "2026-08-11T07:39:37Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.982,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2184,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:9d90ca48835884c0",
+      "platform": "news",
+      "platform_item_id": "9d90ca48835884c0",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Jeongyeon Seemingly Calls Out JYP Following Contract Expiration",
+      "description": "Her message felt like a breathe of fresh air.",
+      "url": "https://www.koreaboo.com/news/twice-jeongyeon-seemingly-calls-jyp-after-contract-expiration/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-11T05:42:31Z",
+      "collected_at": "2026-08-11T07:39:37Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jeongyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jeongyeon",
+          "alias": "Jeongyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9736,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1483,
+      "available": true
+    },
     {
       "id": "news:koreaboo:77dca78c66ae11bb",
       "platform": "news",
@@ -21,7 +204,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-slammed-cheap-fan-tribute/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-10T22:40:24Z",
-      "collected_at": "2026-08-11T02:29:34Z",
+      "collected_at": "2026-08-11T07:39:37Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9496,
+        "recency": 0.889,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6403,
+      "hot_score": 6.2166,
       "available": true
     },
     {
@@ -73,7 +256,7 @@
       "url": "https://www.soompi.com/article/1861518wpp/twices-jeongyeon-personally-confirms-departure-from-jyp-signs-with-varo-entertainment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-10T04:36:42Z",
-      "collected_at": "2026-08-11T02:29:34Z",
+      "collected_at": "2026-08-11T07:39:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7669,
+        "recency": 0.7269,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4186,
+      "hot_score": 6.0837,
       "available": true
     },
     {
@@ -134,7 +317,7 @@
       "url": "https://www.soompi.com/article/1861374wpp/cortis-ateez-yeonjun-bts-le-sserafim-boynextdoor-aespa-stray-kids-and-more-rank-high-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-09T17:12:46Z",
-      "collected_at": "2026-08-11T02:29:34Z",
+      "collected_at": "2026-08-11T07:39:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -172,7 +355,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6839,
+        "recency": 0.6519,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -180,7 +363,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5384,
+      "hot_score": 5.2793,
       "available": true
     },
     {
@@ -194,7 +377,7 @@
       "url": "https://www.soompi.com/article/1861077wpp/twices-fancy-becomes-their-3rd-mv-to-hit-700-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-08T06:26:03Z",
-      "collected_at": "2026-08-11T02:29:34Z",
+      "collected_at": "2026-08-11T07:39:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -224,7 +407,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5141,
+        "recency": 0.4958,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -232,59 +415,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.5947,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a2946925d460b652",
-      "platform": "news",
-      "platform_item_id": "a2946925d460b652",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "i-dle’s “Tomboy” Becomes Their 3rd MV To Hit 400 Million Views",
-      "description": "i-dle has hit the 400 million mark with yet another music video on YouTube! On August 7 at approximately 5:16 p.m. KST, i-dle’s music video for their 2022 hit “Tomboy” surpassed 400 million views on YouTube, making it their third music video to reach the milestone after “Queencard” and “Nxde.” i-dle originally released the music… Continue reading i-dle’s “Tomboy” Becomes Their 3rd MV To Hit 400 Million Views The post i-dle’s “Tomboy” Becomes Their 3rd MV To Hit 400 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1860969wpp/i-dles-tomboy-becomes-their-3rd-mv-to-hit-400-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-07T10:55:19Z",
-      "collected_at": "2026-08-11T02:29:34Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4512,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.1551,
+      "hot_score": 3.4668,
       "available": true
     },
     {
@@ -298,7 +429,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-11T02:29:34Z",
+      "collected_at": "2026-08-11T07:39:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -330,7 +461,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.087,
+        "recency": 0.0865,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -338,7 +469,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7282,
+      "hot_score": 0.7237,
       "available": true
     },
     {
@@ -352,7 +483,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-11T02:29:34Z",
+      "collected_at": "2026-08-11T07:39:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -384,7 +515,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0756,
+        "recency": 0.0752,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -392,7 +523,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6325,
+      "hot_score": 0.6291,
       "available": true
     },
     {
@@ -406,7 +537,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-11T02:29:34Z",
+      "collected_at": "2026-08-11T07:39:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -438,7 +569,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0746,
+        "recency": 0.0742,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -446,7 +577,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6245,
+      "hot_score": 0.6212,
       "available": true
     }
   ]
