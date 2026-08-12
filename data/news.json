@@ -1,15 +1,128 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-12T07:54:27Z",
+  "generated_at": "2026-08-12T13:50:17Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:b29dad1c197dec0b",
+      "platform": "news",
+      "platform_item_id": "b29dad1c197dec0b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Popular SM Idol Group Allegedly Plagiarizes IVE’s Signature Pose, Triggers Heated Debate",
+      "description": "Fans were divided.",
+      "url": "https://www.koreaboo.com/news/sm-rookie-hearts2hearts-allegedly-plagiarizes-ive-signature-pose/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-12T10:26:23Z",
+      "collected_at": "2026-08-12T13:50:17Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9549,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.6774,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:2f0ec107edc2c267",
+      "platform": "news",
+      "platform_item_id": "2f0ec107edc2c267",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Jennie’s New Video Hit With Wave Of Brutal Backlash",
+      "description": "\"Doing nothing as always...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-performance-video-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-12T08:50:22Z",
+      "collected_at": "2026-08-12T13:50:17Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9351,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8259,
+      "available": true
+    },
     {
       "id": "news:soompi:74d5552e3686b68f",
       "platform": "news",
@@ -21,7 +134,7 @@
       "url": "https://www.soompi.com/article/1862065wpp/watch-kiss-of-life-takes-1st-win-for-sweat-on-the-show",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-11T10:38:36Z",
-      "collected_at": "2026-08-12T07:54:27Z",
+      "collected_at": "2026-08-12T13:50:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.772,
+        "recency": 0.7258,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3983,
+      "hot_score": 5.0756,
       "available": true
     },
     {
@@ -73,7 +186,7 @@
       "url": "https://www.soompi.com/article/1861518wpp/twices-jeongyeon-personally-confirms-departure-from-jyp-signs-with-varo-entertainment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-10T04:36:42Z",
-      "collected_at": "2026-08-12T07:54:27Z",
+      "collected_at": "2026-08-12T13:50:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.584,
+        "recency": 0.5572,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8873,
+      "hot_score": 4.663,
       "available": true
     },
     {
@@ -134,7 +247,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-12T07:54:27Z",
+      "collected_at": "2026-08-12T13:50:17Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -166,7 +279,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.084,
+        "recency": 0.0834,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -174,7 +287,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7032,
+      "hot_score": 0.6984,
       "available": true
     },
     {
@@ -188,7 +301,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-12T07:54:27Z",
+      "collected_at": "2026-08-12T13:50:17Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -220,7 +333,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0733,
+        "recency": 0.0729,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -228,7 +341,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6136,
+      "hot_score": 0.6099,
       "available": true
     },
     {
@@ -242,7 +355,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-12T07:54:27Z",
+      "collected_at": "2026-08-12T13:50:17Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -274,7 +387,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0724,
+        "recency": 0.072,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -282,7 +395,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.606,
+      "hot_score": 0.6024,
       "available": true
     }
   ]
