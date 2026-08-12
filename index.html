@@ -12,8 +12,8 @@
       content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'"
     />
     <title>Kpop Pulse</title>
-    <link rel="stylesheet" href="./src/styles.css?v=20260811a" />
-    <script type="module" src="./src/app.js?v=20260808c"></script>
+    <link rel="stylesheet" href="./src/styles.css?v=20260812a" />
+    <script type="module" src="./src/app.js?v=20260812a"></script>
   </head>
   <body>
     <noscript>Kpop Pulse 需要启用 JavaScript 才能读取本地数据并渲染内容列表。</noscript>
@@ -91,6 +91,19 @@
 
         <section id="status-banner" class="status-banner" aria-live="polite"></section>
 
+        <section id="youtube-consent" class="youtube-consent" aria-labelledby="youtube-consent-title" hidden>
+          <div>
+            <p class="eyebrow">YouTube API</p>
+            <h2 id="youtube-consent-title">是否显示 YouTube 内容？</h2>
+            <p>本站会读取公开的官方视频资料。继续前，请先阅读隐私说明和使用条款；不同意不会影响新闻内容。</p>
+          </div>
+          <label class="consent-check" for="youtube-consent-check">
+            <input id="youtube-consent-check" type="checkbox" />
+            <span>我已阅读并同意 <a href="./privacy.html">隐私说明</a>和<a href="./terms.html">使用条款</a>。</span>
+          </label>
+          <button id="youtube-consent-accept" class="consent-button" type="button" disabled>同意并显示 YouTube 内容</button>
+        </section>
+
         <section class="feed-section" aria-labelledby="feed-title">
           <div class="section-heading">
             <div>
@@ -113,6 +126,7 @@
           <a href="./privacy.html">隐私说明</a>
           <a href="./terms.html">使用条款</a>
           <a href="https://www.youtube.com/t/terms" target="_blank" rel="noreferrer">YouTube 条款</a>
+          <button id="youtube-consent-revoke" class="footer-button" type="button" hidden>撤回 YouTube 同意</button>
         </nav>
       </footer>
     </div>

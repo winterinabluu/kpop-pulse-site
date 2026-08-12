@@ -10,6 +10,7 @@ const DATA_FILES = {
 
 const CORE_SOURCES = ["news", "youtube", "curated"];
 const MUTED_MEMBERS_STORAGE_KEY = "kpop-pulse:muted-members:v1";
+const YOUTUBE_CONSENT_STORAGE_KEY = "kpop-pulse:youtube-policy-consent:v1";
 const MOBILE_MEDIA_QUERY = "(max-width: 720px)";
 const MOBILE_PAGE_SIZE = 6;
 const DESKTOP_PAGE_SIZE = 12;
@@ -43,6 +44,9 @@ const state = {
   advancedFiltersOpen: false,
   memberMode: "include",
   visibleLimit: 0,
+  youtubeConsent: false,
+  youtubeConsentRequired: false,
+  youtubeItemsLoaded: false,
   filters: {
     groups: new Set(),
     members: new Set(),
@@ -71,6 +75,10 @@ const els = {
   searchInput: document.querySelector("#search-input"),
   sortSelect: document.querySelector("#sort-select"),
   statusBanner: document.querySelector("#status-banner"),
+  youtubeConsent: document.querySelector("#youtube-consent"),
+  youtubeConsentCheck: document.querySelector("#youtube-consent-check"),
+  youtubeConsentAccept: document.querySelector("#youtube-consent-accept"),
+  youtubeConsentRevoke: document.querySelector("#youtube-consent-revoke"),
   summaryCount: document.querySelector("#summary-count"),
   summarySources: document.querySelector("#summary-sources"),
   summaryLatest: document.querySelector("#summary-latest"),
@@ -98,26 +106,51 @@ async function loadAppData() {
     fetchJson(DATA_FILES.config),
     fetchJson(DATA_FILES.meta)
   ]);
+  const youtubeHasContent = (meta.sources?.youtube?.item_count ?? 0) > 0;
+  state.youtubeConsent = loadStoredYoutubeConsent();
+  state.youtubeConsentRequired = youtubeHasContent && !state.youtubeConsent;
   const feeds = await Promise.all(
-    DATA_FILES.feeds.map(async ([source, path]) => {
+    DATA_FILES.feeds
+      .filter(([source]) => source !== "youtube" || (youtubeHasContent && state.youtubeConsent))
+      .map(async ([source, path]) => {
       try {
         return { source, feed: await fetchJson(path) };
       } catch (error) {
         return { source, error };
       }
-    })
+      })
   );
 
   state.config = config;
   state.meta = meta;
   state.feedErrors = {};
   state.items = [];
+  state.youtubeItemsLoaded = false;
   for (const result of feeds) {
     if (result.feed) {
       state.items.push(...(result.feed.items ?? []));
+      if (result.source === "youtube") {
+        state.youtubeItemsLoaded = true;
+      }
     } else {
       state.feedErrors[result.source] = result.error;
     }
+  }
+}
+
+async function loadYoutubeFeed() {
+  const youtubePath = DATA_FILES.feeds.find(([source]) => source === "youtube")?.[1];
+  if (!youtubePath || state.youtubeItemsLoaded) {
+    return;
+  }
+  try {
+    const feed = await fetchJson(youtubePath);
+    state.items = state.items.filter((item) => item.platform !== "youtube");
+    state.items.push(...(feed.items ?? []));
+    delete state.feedErrors.youtube;
+    state.youtubeItemsLoaded = true;
+  } catch (error) {
+    state.feedErrors.youtube = error;
   }
 }
 
@@ -151,6 +184,26 @@ function loadStoredMutedMembers() {
     return Array.isArray(stored) ? stored.filter((value) => typeof value === "string") : [];
   } catch {
     return [];
+  }
+}
+
+function loadStoredYoutubeConsent() {
+  try {
+    return window.localStorage.getItem(YOUTUBE_CONSENT_STORAGE_KEY) === "accepted";
+  } catch {
+    return false;
+  }
+}
+
+function persistYoutubeConsent() {
+  try {
+    if (state.youtubeConsent) {
+      window.localStorage.setItem(YOUTUBE_CONSENT_STORAGE_KEY, "accepted");
+    } else {
+      window.localStorage.removeItem(YOUTUBE_CONSENT_STORAGE_KEY);
+    }
+  } catch {
+    // Consent remains valid for the current page when storage is unavailable.
   }
 }
 
@@ -247,8 +300,17 @@ function render() {
   renderTrackingCopy();
   renderFreshness();
   renderStatusBanner();
+  renderYoutubeConsent();
   renderFilters();
   renderFeed();
+}
+
+function renderYoutubeConsent() {
+  const youtubeHasContent = (state.meta.sources?.youtube?.item_count ?? 0) > 0;
+  state.youtubeConsentRequired = youtubeHasContent && !state.youtubeConsent;
+  els.youtubeConsent.hidden = !state.youtubeConsentRequired;
+  els.youtubeConsentRevoke.hidden = !youtubeHasContent || !state.youtubeConsent;
+  els.youtubeConsentAccept.disabled = !els.youtubeConsentCheck.checked;
 }
 
 function renderTrackingCopy() {
@@ -896,6 +958,33 @@ function restoreFilterFocus(focusKey) {
 }
 
 function bindEvents() {
+  els.youtubeConsentCheck.addEventListener("change", () => {
+    els.youtubeConsentAccept.disabled = !els.youtubeConsentCheck.checked;
+  });
+
+  els.youtubeConsentAccept.addEventListener("click", async () => {
+    if (!els.youtubeConsentCheck.checked) {
+      return;
+    }
+    state.youtubeConsent = true;
+    persistYoutubeConsent();
+    await loadYoutubeFeed();
+    resetVisibleLimit();
+    render();
+  });
+
+  els.youtubeConsentRevoke.addEventListener("click", () => {
+    state.youtubeConsent = false;
+    persistYoutubeConsent();
+    state.items = state.items.filter((item) => item.platform !== "youtube");
+    state.youtubeItemsLoaded = false;
+    delete state.feedErrors.youtube;
+    els.youtubeConsentCheck.checked = false;
+    resetVisibleLimit();
+    render();
+    els.youtubeConsentCheck.focus();
+  });
+
   els.advancedFiltersToggle.addEventListener("click", () => {
     state.advancedFiltersOpen = !state.advancedFiltersOpen;
     renderAdvancedFiltersToggle();
