@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-13T13:50:15Z",
+  "generated_at": "2026-08-13T19:28:04Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/bts-jungkooks-live-stream-actions-reignites-past-dating-rumors-blackpinks-lisa/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-13T11:05:09Z",
-      "collected_at": "2026-08-13T13:50:15Z",
+      "collected_at": "2026-08-13T19:28:04Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9632,
+        "recency": 0.8957,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0611,
+      "hot_score": 7.4965,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-rose-picture-crying-backlash-anniversary-controversy/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-13T10:15:10Z",
-      "collected_at": "2026-08-13T13:50:15Z",
+      "collected_at": "2026-08-13T19:28:04Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9526,
+        "recency": 0.8865,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9723,
+      "hot_score": 7.4196,
       "available": true
     },
     {
@@ -143,7 +143,7 @@
       "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-13T05:52:57Z",
-      "collected_at": "2026-08-13T13:50:15Z",
+      "collected_at": "2026-08-13T19:28:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9005,
+        "recency": 0.8413,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,68 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5366,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:d0dccdb4e7309c12",
-      "platform": "news",
-      "platform_item_id": "d0dccdb4e7309c12",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Chaeyoung Becomes The Second TWICE Member To Leave JYP Entertainment",
-      "description": "She will remain with TWICE.",
-      "url": "https://www.koreaboo.com/news/chaeyoung-becomes-second-twice-member-leave-jyp-entertainment/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-13T05:30:27Z",
-      "collected_at": "2026-08-13T13:50:15Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "chaeyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "chaeyoung",
-          "alias": "Chaeyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8963,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5014,
+      "hot_score": 7.0408,
       "available": true
     },
     {
@@ -265,7 +204,7 @@
       "url": "https://www.soompi.com/article/1862065wpp/watch-kiss-of-life-takes-1st-win-for-sweat-on-the-show",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-11T10:38:36Z",
-      "collected_at": "2026-08-13T13:50:15Z",
+      "collected_at": "2026-08-13T19:28:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -295,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5844,
+        "recency": 0.5589,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -303,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.0868,
+      "hot_score": 3.9082,
       "available": true
     },
     {
@@ -317,7 +256,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-13T13:50:15Z",
+      "collected_at": "2026-08-13T19:28:04Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -349,7 +288,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0812,
+        "recency": 0.0807,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -357,7 +296,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6795,
+      "hot_score": 0.6752,
       "available": true
     },
     {
@@ -371,7 +310,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-13T13:50:15Z",
+      "collected_at": "2026-08-13T19:28:04Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -403,7 +342,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0711,
+        "recency": 0.0708,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -411,7 +350,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5954,
+      "hot_score": 0.5921,
       "available": true
     },
     {
@@ -425,7 +364,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-13T13:50:15Z",
+      "collected_at": "2026-08-13T19:28:04Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -457,7 +396,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0703,
+        "recency": 0.0699,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -465,7 +404,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5883,
+      "hot_score": 0.5851,
       "available": true
     }
   ]
