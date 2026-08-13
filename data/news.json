@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-12T19:28:49Z",
+  "generated_at": "2026-08-13T03:01:00Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,17 +11,17 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:b29dad1c197dec0b",
+      "id": "news:koreaboo:b4809e46f6b5b32c",
       "platform": "news",
-      "platform_item_id": "b29dad1c197dec0b",
+      "platform_item_id": "b4809e46f6b5b32c",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Popular SM Idol Group Allegedly Plagiarizes IVE’s Signature Pose, Triggers Heated Debate",
-      "description": "Fans were divided.",
-      "url": "https://www.koreaboo.com/news/sm-rookie-hearts2hearts-allegedly-plagiarizes-ive-signature-pose/",
+      "title": "HYBE Boy Group Idols Shout Out NewJeans Mid-Set, Fans Baffled",
+      "description": "The supportive seniors nobody expected to see anytime soon.",
+      "url": "https://www.koreaboo.com/news/hybe-boy-group-idols-shout-newjeans-mid-set-fans-baffled/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-12T10:26:23Z",
-      "collected_at": "2026-08-12T19:28:49Z",
+      "published_at": "2026-08-12T23:50:35Z",
+      "collected_at": "2026-08-13T03:01:00Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,21 +37,21 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "ive"
+        "newjeans"
       ],
       "matched_members": [],
       "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
           "field": "title",
           "score": 1.0
         }
       ],
       "score_breakdown": {
-        "recency": 0.8884,
+        "recency": 0.9578,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2125,
+      "hot_score": 6.6974,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1862065wpp/watch-kiss-of-life-takes-1st-win-for-sweat-on-the-show",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-11T10:38:36Z",
-      "collected_at": "2026-08-12T19:28:49Z",
+      "collected_at": "2026-08-13T03:01:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6868,
+        "recency": 0.6407,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8024,
+      "hot_score": 4.4803,
       "available": true
     },
     {
@@ -125,7 +125,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-12T19:28:49Z",
+      "collected_at": "2026-08-13T03:01:00Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -157,7 +157,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0829,
+        "recency": 0.0822,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -165,7 +165,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6939,
+      "hot_score": 0.6879,
       "available": true
     },
     {
@@ -179,7 +179,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-12T19:28:49Z",
+      "collected_at": "2026-08-13T03:01:00Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -211,7 +211,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0725,
+        "recency": 0.0719,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -219,7 +219,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6064,
+      "hot_score": 0.6019,
       "available": true
     },
     {
@@ -233,7 +233,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-12T19:28:49Z",
+      "collected_at": "2026-08-13T03:01:00Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -265,7 +265,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0716,
+        "recency": 0.071,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -273,7 +273,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.599,
+      "hot_score": 0.5946,
       "available": true
     }
   ]
