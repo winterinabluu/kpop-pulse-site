@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-14T07:52:40Z",
+  "generated_at": "2026-08-14T13:45:51Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:4f4643507b99570c",
+      "id": "news:koreaboo:fe6b830b0e506928",
       "platform": "news",
-      "platform_item_id": "4f4643507b99570c",
+      "platform_item_id": "fe6b830b0e506928",
       "source_type": "media",
       "content_kind": "news",
-      "title": "TWICE’s Chaeyoung And Zion.T Have NOT Broken Up",
-      "description": "They refuted previous reports.",
-      "url": "https://www.koreaboo.com/news/twice-chaeyoung-ziont-not-brokenup/",
+      "title": "3 More TWICE Members Highly Rumored To Leave JYP Entertainment After 2 Members Confirm Their Departure",
+      "description": "Several remaining members are highly expected to leave the agency.",
+      "url": "https://www.koreaboo.com/stories/3-twice-members-highly-rumored-leave-jyp-entertainment-after-2-members-confirm-departure/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-14T02:45:20Z",
-      "collected_at": "2026-08-14T07:52:40Z",
+      "published_at": "2026-08-14T13:09:13Z",
+      "collected_at": "2026-08-14T13:45:51Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -39,10 +39,8 @@
       "matched_groups": [
         "twice"
       ],
-      "matched_members": [
-        "chaeyoung"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
@@ -50,25 +48,18 @@
           "alias": "TWICE",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "chaeyoung",
-          "alias": "Chaeyoung",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9336,
+        "recency": 0.9863,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8133,
+      "hot_score": 6.8968,
       "available": true
     },
     {
@@ -82,7 +73,7 @@
       "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T01:34:30Z",
-      "collected_at": "2026-08-14T07:52:40Z",
+      "collected_at": "2026-08-14T13:45:51Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9195,
+        "recency": 0.8552,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,68 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6956,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:6617c75c3772e340",
-      "platform": "news",
-      "platform_item_id": "6617c75c3772e340",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Chaeyoung And Zion.T Have Broken Up",
-      "description": "They have ended their relationship.",
-      "url": "https://www.koreaboo.com/news/twice-chaeyoung-ziont-broken/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-14T00:51:29Z",
-      "collected_at": "2026-08-14T07:52:40Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "chaeyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "chaeyoung",
-          "alias": "Chaeyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9112,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.6257,
+      "hot_score": 7.1575,
       "available": true
     },
     {
@@ -204,7 +134,7 @@
       "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-13T05:52:57Z",
-      "collected_at": "2026-08-14T07:52:40Z",
+      "collected_at": "2026-08-14T13:45:51Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7347,
+        "recency": 0.6931,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.1491,
+      "hot_score": 5.8007,
       "available": true
     },
     {
@@ -265,7 +195,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-14T07:52:40Z",
+      "collected_at": "2026-08-14T13:45:51Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -297,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0796,
+        "recency": 0.0791,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -305,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.666,
+      "hot_score": 0.6617,
       "available": true
     },
     {
@@ -319,7 +249,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-14T07:52:40Z",
+      "collected_at": "2026-08-14T13:45:51Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -351,7 +281,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0699,
+        "recency": 0.0695,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -359,7 +289,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.585,
+      "hot_score": 0.5817,
       "available": true
     },
     {
@@ -373,7 +303,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-14T07:52:40Z",
+      "collected_at": "2026-08-14T13:45:51Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -405,7 +335,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0691,
+        "recency": 0.0687,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -413,7 +343,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5781,
+      "hot_score": 0.5749,
       "available": true
     }
   ]
