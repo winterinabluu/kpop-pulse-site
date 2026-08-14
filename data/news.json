@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-14T02:47:59Z",
+  "generated_at": "2026-08-14T07:52:40Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:soompi:13592be077f4e0c4",
+      "id": "news:koreaboo:4f4643507b99570c",
       "platform": "news",
-      "platform_item_id": "13592be077f4e0c4",
+      "platform_item_id": "4f4643507b99570c",
       "source_type": "media",
       "content_kind": "news",
-      "title": "TWICE’s Chaeyoung And Zion.T Reportedly End Relationship + Agencies Briefly Comment",
-      "description": "Both Chaeyoung’s and Zion.T’s agencies have briefly responded to recent breakup rumors. On August 14, a media outlet reported, citing an industry insider, that Chaeyoung and Zion.T had recently broken up. In response to the report, representatives of Chaeyoung and Zion.T briefly commented, “It is difficult to confirm as it is the artist’s private life.”… Continue reading TWICE’s Chaeyoung And Zion.T Reportedly End Relationship + Agencies Briefly Comment The post TWICE’s Chaeyoung And Zion.T Reportedly End Relationship + Agencies Briefly Comment appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
+      "title": "TWICE’s Chaeyoung And Zion.T Have NOT Broken Up",
+      "description": "They refuted previous reports.",
+      "url": "https://www.koreaboo.com/news/twice-chaeyoung-ziont-not-brokenup/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-14T01:34:30Z",
-      "collected_at": "2026-08-14T02:47:59Z",
+      "published_at": "2026-08-14T02:45:20Z",
+      "collected_at": "2026-08-14T07:52:40Z",
       "author": {
-        "name": "Soompi",
-        "handle": "soompi",
+        "name": "Koreaboo",
+        "handle": "koreaboo",
         "avatar": ""
       },
       "metrics": {
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9833,
+        "recency": 0.9336,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,68 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2293,
+      "hot_score": 7.8133,
+      "available": true
+    },
+    {
+      "id": "news:soompi:13592be077f4e0c4",
+      "platform": "news",
+      "platform_item_id": "13592be077f4e0c4",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Update: Chaeyoung And Zion.T Deny Breakup Rumors + Chaeyoung Announces Independent Label “LIL FANTASY”",
+      "description": "Updated August 14 KST: Earlier today, it was reported that TWICE’s Chaeyoung and Zion.T were no longer dating. However, both agencies released a joint official statement and confirmed that “the breakup rumors are completely groundless.” The statement additionally confirms the establishment of Chaeyoung’s independent label “LIL FANTASY.” Read the full statement below: Hello. We would… Continue reading Update: Chaeyoung And Zion.T Deny Breakup Rumors + Chaeyoung Announces Independent Label “LIL FANTASY” The post Update: Chaeyoung And Zion.T Deny Breakup Rumors + Chaeyoung Announces Independent Label “LIL FANTASY” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-14T01:34:30Z",
+      "collected_at": "2026-08-14T07:52:40Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "chaeyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "chaeyoung",
+          "alias": "Chaeyoung",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9195,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.6956,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.koreaboo.com/news/twice-chaeyoung-ziont-broken/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T00:51:29Z",
-      "collected_at": "2026-08-14T02:47:59Z",
+      "collected_at": "2026-08-14T07:52:40Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9737,
+        "recency": 0.9112,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,59 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1495,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:1c3aca2d1a032d45",
-      "platform": "news",
-      "platform_item_id": "1c3aca2d1a032d45",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "NewJeans’ First Official Brand Advertisement Post-ADOR Return Stirs Buzz",
-      "description": "They're back!",
-      "url": "https://www.koreaboo.com/news/newjeans-first-official-brand-advertisement-post-ador-return-stirs-buzz/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-14T00:15:47Z",
-      "collected_at": "2026-08-14T02:47:59Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "newjeans"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.966,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.7546,
+      "hot_score": 7.6257,
       "available": true
     },
     {
@@ -195,7 +204,7 @@
       "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-13T05:52:57Z",
-      "collected_at": "2026-08-14T02:47:59Z",
+      "collected_at": "2026-08-14T07:52:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7749,
+        "recency": 0.7347,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,59 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4852,
-      "available": true
-    },
-    {
-      "id": "news:soompi:74d5552e3686b68f",
-      "platform": "news",
-      "platform_item_id": "74d5552e3686b68f",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: KISS OF LIFE Takes 1st Win For “SWEAT” On “The Show”",
-      "description": "KISS OF LIFE has won their first music show trophy for “SWEAT”! On the August 11 episode of “The Show,” the candidates for first place were ARTMS’s “Born Stunner,” KISS OF LIFE’s “SWEAT,” and POW’s “Flavor.” KISS OF LIFE ultimately took home the win with 8,868 points. Congratulations to KISS OF LIFE! Watch their win and… Continue reading Watch: KISS OF LIFE Takes 1st Win For “SWEAT” On “The Show” The post Watch: KISS OF LIFE Takes 1st Win For “SWEAT” On “The Show” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1862065wpp/watch-kiss-of-life-takes-1st-win-for-sweat-on-the-show",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-11T10:38:36Z",
-      "collected_at": "2026-08-14T02:47:59Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "kissoflife"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "kissoflife",
-          "alias": "KISS OF LIFE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5288,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.6977,
+      "hot_score": 6.1491,
       "available": true
     },
     {
@@ -308,7 +265,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-14T02:47:59Z",
+      "collected_at": "2026-08-14T07:52:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -340,7 +297,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.08,
+        "recency": 0.0796,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -348,7 +305,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6697,
+      "hot_score": 0.666,
       "available": true
     },
     {
@@ -362,7 +319,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-14T02:47:59Z",
+      "collected_at": "2026-08-14T07:52:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -394,7 +351,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0702,
+        "recency": 0.0699,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -402,7 +359,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5879,
+      "hot_score": 0.585,
       "available": true
     },
     {
@@ -416,7 +373,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-14T02:47:59Z",
+      "collected_at": "2026-08-14T07:52:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -448,7 +405,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0694,
+        "recency": 0.0691,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -456,7 +413,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.581,
+      "hot_score": 0.5781,
       "available": true
     }
   ]
