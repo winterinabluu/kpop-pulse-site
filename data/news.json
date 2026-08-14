@@ -1,149 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-13T19:28:04Z",
+  "generated_at": "2026-08-14T02:47:59Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:fdbf57995f19130d",
+      "id": "news:soompi:13592be077f4e0c4",
       "platform": "news",
-      "platform_item_id": "fdbf57995f19130d",
+      "platform_item_id": "13592be077f4e0c4",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BTS Jungkook’s Actions During Live Stream Reignites Past “Dating Rumors” With BLACKPINK’s Lisa",
-      "description": "It linked to BLACKPINK's recent live.",
-      "url": "https://www.koreaboo.com/news/bts-jungkooks-live-stream-actions-reignites-past-dating-rumors-blackpinks-lisa/",
+      "title": "TWICE’s Chaeyoung And Zion.T Reportedly End Relationship + Agencies Briefly Comment",
+      "description": "Both Chaeyoung’s and Zion.T’s agencies have briefly responded to recent breakup rumors. On August 14, a media outlet reported, citing an industry insider, that Chaeyoung and Zion.T had recently broken up. In response to the report, representatives of Chaeyoung and Zion.T briefly commented, “It is difficult to confirm as it is the artist’s private life.”… Continue reading TWICE’s Chaeyoung And Zion.T Reportedly End Relationship + Agencies Briefly Comment The post TWICE’s Chaeyoung And Zion.T Reportedly End Relationship + Agencies Briefly Comment appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-13T11:05:09Z",
-      "collected_at": "2026-08-13T19:28:04Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8957,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4965,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:ddf645b94a3834fd",
-      "platform": "news",
-      "platform_item_id": "ddf645b94a3834fd",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Photo Of BLACKPINK’s Rosé “Crying” Triggers Huge Backlash Amid Anniversary Controversy",
-      "description": "Netizens were not impressed.",
-      "url": "https://www.koreaboo.com/news/blackpink-rose-picture-crying-backlash-anniversary-controversy/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-13T10:15:10Z",
-      "collected_at": "2026-08-13T19:28:04Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "rose"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "rose",
-          "alias": "Rosé",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8865,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4196,
-      "available": true
-    },
-    {
-      "id": "news:soompi:eab58695ed122fda",
-      "platform": "news",
-      "platform_item_id": "eab58695ed122fda",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Chaeyoung Announces Departure From JYP",
-      "description": "TWICE’s Chaeyoung has parted ways with JYP Entertainment. On August 13, Chaeyoung took to her personal Instagram account to share the news to her fans. Read the full post below: Hello, this is Chaeyoung. I wanted to share this with ONCE first, my family who has always been by my side. I’m so excited to… Continue reading TWICE’s Chaeyoung Announces Departure From JYP The post TWICE’s Chaeyoung Announces Departure From JYP appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-13T05:52:57Z",
-      "collected_at": "2026-08-13T19:28:04Z",
+      "published_at": "2026-08-14T01:34:30Z",
+      "collected_at": "2026-08-14T02:47:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8413,
+        "recency": 0.9833,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +68,181 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.0408,
+      "hot_score": 8.2293,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:6617c75c3772e340",
+      "platform": "news",
+      "platform_item_id": "6617c75c3772e340",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Chaeyoung And Zion.T Have Broken Up",
+      "description": "They have ended their relationship.",
+      "url": "https://www.koreaboo.com/news/twice-chaeyoung-ziont-broken/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-14T00:51:29Z",
+      "collected_at": "2026-08-14T02:47:59Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "chaeyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "chaeyoung",
+          "alias": "Chaeyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9737,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1495,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:1c3aca2d1a032d45",
+      "platform": "news",
+      "platform_item_id": "1c3aca2d1a032d45",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "NewJeans’ First Official Brand Advertisement Post-ADOR Return Stirs Buzz",
+      "description": "They're back!",
+      "url": "https://www.koreaboo.com/news/newjeans-first-official-brand-advertisement-post-ador-return-stirs-buzz/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-14T00:15:47Z",
+      "collected_at": "2026-08-14T02:47:59Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.966,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.7546,
+      "available": true
+    },
+    {
+      "id": "news:soompi:eab58695ed122fda",
+      "platform": "news",
+      "platform_item_id": "eab58695ed122fda",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Chaeyoung Announces Departure From JYP",
+      "description": "TWICE’s Chaeyoung has parted ways with JYP Entertainment. On August 13, Chaeyoung took to her personal Instagram account to share the news to her fans. Read the full post below: Hello, this is Chaeyoung. I wanted to share this with ONCE first, my family who has always been by my side. I’m so excited to… Continue reading TWICE’s Chaeyoung Announces Departure From JYP The post TWICE’s Chaeyoung Announces Departure From JYP appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-13T05:52:57Z",
+      "collected_at": "2026-08-14T02:47:59Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "chaeyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "chaeyoung",
+          "alias": "Chaeyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.7749,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.4852,
       "available": true
     },
     {
@@ -204,7 +256,7 @@
       "url": "https://www.soompi.com/article/1862065wpp/watch-kiss-of-life-takes-1st-win-for-sweat-on-the-show",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-11T10:38:36Z",
-      "collected_at": "2026-08-13T19:28:04Z",
+      "collected_at": "2026-08-14T02:47:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5589,
+        "recency": 0.5288,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -242,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.9082,
+      "hot_score": 3.6977,
       "available": true
     },
     {
@@ -256,7 +308,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-13T19:28:04Z",
+      "collected_at": "2026-08-14T02:47:59Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -288,7 +340,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0807,
+        "recency": 0.08,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -296,7 +348,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6752,
+      "hot_score": 0.6697,
       "available": true
     },
     {
@@ -310,7 +362,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-13T19:28:04Z",
+      "collected_at": "2026-08-14T02:47:59Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -342,7 +394,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0708,
+        "recency": 0.0702,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -350,7 +402,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5921,
+      "hot_score": 0.5879,
       "available": true
     },
     {
@@ -364,7 +416,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-13T19:28:04Z",
+      "collected_at": "2026-08-14T02:47:59Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -396,7 +448,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0699,
+        "recency": 0.0694,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -404,7 +456,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5851,
+      "hot_score": 0.581,
       "available": true
     }
   ]
