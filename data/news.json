@@ -1,76 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-15T13:00:34Z",
+  "generated_at": "2026-08-15T18:48:37Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:263b861f448324a3",
-      "platform": "news",
-      "platform_item_id": "263b861f448324a3",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Stray Kids Changbin’s And KISS OF LIFE Natty’s Unexpected Relationship “Exposed”",
-      "description": "Not even their biggest fans knew.",
-      "url": "https://www.koreaboo.com/news/stray-kids-changbin-kiss-life-natty-unexpected-relationship-exposed/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-15T10:14:43Z",
-      "collected_at": "2026-08-15T13:00:34Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "kissoflife"
-      ],
-      "matched_members": [
-        "natty"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "kissoflife",
-          "alias": "KISS OF LIFE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "natty",
-          "alias": "Natty",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.963,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0597,
-      "available": true
-    },
     {
       "id": "news:soompi:13592be077f4e0c4",
       "platform": "news",
@@ -82,7 +21,7 @@
       "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T01:34:30Z",
-      "collected_at": "2026-08-15T13:00:34Z",
+      "collected_at": "2026-08-15T18:48:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6702,
+        "recency": 0.6358,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6089,
+      "hot_score": 5.3215,
       "available": true
     },
     {
@@ -143,7 +82,7 @@
       "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-13T05:52:57Z",
-      "collected_at": "2026-08-15T13:00:34Z",
+      "collected_at": "2026-08-15T18:48:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5664,
+        "recency": 0.5416,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.74,
+      "hot_score": 4.5332,
       "available": true
     },
     {
@@ -204,7 +143,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-15T13:00:34Z",
+      "collected_at": "2026-08-15T18:48:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -236,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0771,
+        "recency": 0.0766,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6452,
+      "hot_score": 0.6412,
       "available": true
     },
     {
@@ -258,7 +197,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-15T13:00:34Z",
+      "collected_at": "2026-08-15T18:48:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -290,7 +229,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.068,
+        "recency": 0.0676,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -298,61 +237,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5689,
-      "available": true
-    },
-    {
-      "id": "news:nme-kpop:3c639beac7109808",
-      "platform": "news",
-      "platform_item_id": "3c639beac7109808",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "JENNIE performs unreleased new songs during Open’er Festival 2026 headline set",
-      "description": "'Lock It Down', 'Heaven' and 'Less Than A Lover' were played alongside cuts from 'Ruby' The post JENNIE performs unreleased new songs during Open’er Festival 2026 headline set appeared first on NME .",
-      "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-15T13:00:34Z",
-      "author": {
-        "name": "NME K-pop",
-        "handle": "nme-kpop",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.0672,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 0.5624,
+      "hot_score": 0.5658,
       "available": true
     }
   ]
