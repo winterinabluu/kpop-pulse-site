@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-15T01:51:33Z",
+  "generated_at": "2026-08-15T06:59:35Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jennie-blistering-reactions-live-vocals/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T22:06:05Z",
-      "collected_at": "2026-08-15T01:51:33Z",
+      "collected_at": "2026-08-15T06:59:35Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9504,
+        "recency": 0.8901,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,59 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9541,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:8f2365b725f3baa1",
-      "platform": "news",
-      "platform_item_id": "8f2365b725f3baa1",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ADOR’s “Excuses” In Statement Over NewJeans Member’s Latest Appearance Trigger Backlash",
-      "description": "The agency's phrasing triggered heated responses.",
-      "url": "https://www.koreaboo.com/news/adors-excuses-in-statement-newjeans-members-latest-appearance-trigger-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-14T15:11:13Z",
-      "collected_at": "2026-08-15T01:51:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "newjeans"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8709,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.0899,
+      "hot_score": 7.4492,
       "available": true
     },
     {
@@ -134,7 +82,7 @@
       "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T01:34:30Z",
-      "collected_at": "2026-08-15T01:51:33Z",
+      "collected_at": "2026-08-15T06:59:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7478,
+        "recency": 0.7099,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2584,
+      "hot_score": 5.9416,
       "available": true
     },
     {
@@ -195,7 +143,7 @@
       "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-13T05:52:57Z",
-      "collected_at": "2026-08-15T01:51:33Z",
+      "collected_at": "2026-08-15T06:59:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6208,
+        "recency": 0.5945,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1958,
+      "hot_score": 4.9755,
       "available": true
     },
     {
@@ -256,7 +204,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-15T01:51:33Z",
+      "collected_at": "2026-08-15T06:59:35Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -288,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.078,
+        "recency": 0.0776,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -296,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.653,
+      "hot_score": 0.6494,
       "available": true
     },
     {
@@ -310,7 +258,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-15T01:51:33Z",
+      "collected_at": "2026-08-15T06:59:35Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -342,7 +290,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0687,
+        "recency": 0.0684,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -350,7 +298,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.575,
+      "hot_score": 0.5722,
       "available": true
     },
     {
@@ -364,7 +312,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-15T01:51:33Z",
+      "collected_at": "2026-08-15T06:59:35Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -396,7 +344,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0679,
+        "recency": 0.0676,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -404,7 +352,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5683,
+      "hot_score": 0.5656,
       "available": true
     }
   ]
