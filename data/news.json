@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-14T19:16:03Z",
+  "generated_at": "2026-08-15T01:51:33Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,67 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:f6d855702796cc68",
+      "platform": "news",
+      "platform_item_id": "f6d855702796cc68",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jennie Hit With Blistering Reactions To Live Vocals",
+      "description": "She recently headlined yet another festival.",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-blistering-reactions-live-vocals/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-14T22:06:05Z",
+      "collected_at": "2026-08-15T01:51:33Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9504,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9541,
+      "available": true
+    },
     {
       "id": "news:koreaboo:8f2365b725f3baa1",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/adors-excuses-in-statement-newjeans-members-latest-appearance-trigger-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T15:11:13Z",
-      "collected_at": "2026-08-14T19:16:03Z",
+      "collected_at": "2026-08-15T01:51:33Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9464,
+        "recency": 0.8709,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,59 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6175,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:fe6b830b0e506928",
-      "platform": "news",
-      "platform_item_id": "fe6b830b0e506928",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "3 More TWICE Members Highly Rumored To Leave JYP Entertainment After 2 Members Confirm Their Departure",
-      "description": "Several remaining members are highly expected to leave the agency.",
-      "url": "https://www.koreaboo.com/stories/3-twice-members-highly-rumored-leave-jyp-entertainment-after-2-members-confirm-departure/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-14T13:09:13Z",
-      "collected_at": "2026-08-14T19:16:03Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9217,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.4453,
+      "hot_score": 6.0899,
       "available": true
     },
     {
@@ -125,7 +134,7 @@
       "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T01:34:30Z",
-      "collected_at": "2026-08-14T19:16:03Z",
+      "collected_at": "2026-08-15T01:51:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8027,
+        "recency": 0.7478,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -172,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7183,
+      "hot_score": 6.2584,
       "available": true
     },
     {
@@ -186,7 +195,7 @@
       "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-13T05:52:57Z",
-      "collected_at": "2026-08-14T19:16:03Z",
+      "collected_at": "2026-08-15T01:51:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6582,
+        "recency": 0.6208,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -233,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5089,
+      "hot_score": 5.1958,
       "available": true
     },
     {
@@ -247,7 +256,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-14T19:16:03Z",
+      "collected_at": "2026-08-15T01:51:33Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -279,7 +288,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0786,
+        "recency": 0.078,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -287,7 +296,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6577,
+      "hot_score": 0.653,
       "available": true
     },
     {
@@ -301,7 +310,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-14T19:16:03Z",
+      "collected_at": "2026-08-15T01:51:33Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -333,7 +342,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0691,
+        "recency": 0.0687,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -341,7 +350,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5786,
+      "hot_score": 0.575,
       "available": true
     },
     {
@@ -355,7 +364,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-14T19:16:03Z",
+      "collected_at": "2026-08-15T01:51:33Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -387,7 +396,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0683,
+        "recency": 0.0679,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -395,7 +404,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5719,
+      "hot_score": 0.5683,
       "available": true
     }
   ]
