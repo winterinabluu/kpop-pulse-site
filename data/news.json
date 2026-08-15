@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-15T06:59:35Z",
+  "generated_at": "2026-08-15T13:00:34Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,17 +11,17 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:f6d855702796cc68",
+      "id": "news:koreaboo:263b861f448324a3",
       "platform": "news",
-      "platform_item_id": "f6d855702796cc68",
+      "platform_item_id": "263b861f448324a3",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK’s Jennie Hit With Blistering Reactions To Live Vocals",
-      "description": "She recently headlined yet another festival.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-blistering-reactions-live-vocals/",
+      "title": "Stray Kids Changbin’s And KISS OF LIFE Natty’s Unexpected Relationship “Exposed”",
+      "description": "Not even their biggest fans knew.",
+      "url": "https://www.koreaboo.com/news/stray-kids-changbin-kiss-life-natty-unexpected-relationship-exposed/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-14T22:06:05Z",
-      "collected_at": "2026-08-15T06:59:35Z",
+      "published_at": "2026-08-15T10:14:43Z",
+      "collected_at": "2026-08-15T13:00:34Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,30 +37,30 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "blackpink"
+        "kissoflife"
       ],
       "matched_members": [
-        "jennie"
+        "natty"
       ],
       "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
+          "target_id": "kissoflife",
+          "alias": "KISS OF LIFE",
           "field": "title",
           "score": 1.0
         },
         {
           "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
+          "target_id": "natty",
+          "alias": "Natty",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8901,
+        "recency": 0.963,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.4492,
+      "hot_score": 8.0597,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T01:34:30Z",
-      "collected_at": "2026-08-15T06:59:35Z",
+      "collected_at": "2026-08-15T13:00:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7099,
+        "recency": 0.6702,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9416,
+      "hot_score": 5.6089,
       "available": true
     },
     {
@@ -143,7 +143,7 @@
       "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-13T05:52:57Z",
-      "collected_at": "2026-08-15T06:59:35Z",
+      "collected_at": "2026-08-15T13:00:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5945,
+        "recency": 0.5664,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9755,
+      "hot_score": 4.74,
       "available": true
     },
     {
@@ -204,7 +204,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-15T06:59:35Z",
+      "collected_at": "2026-08-15T13:00:34Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -236,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0776,
+        "recency": 0.0771,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6494,
+      "hot_score": 0.6452,
       "available": true
     },
     {
@@ -258,7 +258,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-15T06:59:35Z",
+      "collected_at": "2026-08-15T13:00:34Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -290,7 +290,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0684,
+        "recency": 0.068,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -298,7 +298,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5722,
+      "hot_score": 0.5689,
       "available": true
     },
     {
@@ -312,7 +312,7 @@
       "url": "https://www.nme.com/news/music/jennie-opener-festival-2026-setlist-unreleased-new-songs-3955027?utm_source=rss&utm_medium=rss&utm_campaign=jennie-opener-festival-2026-setlist-unreleased-new-songs",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-04T21:33:50Z",
-      "collected_at": "2026-08-15T06:59:35Z",
+      "collected_at": "2026-08-15T13:00:34Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -344,7 +344,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0676,
+        "recency": 0.0672,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -352,7 +352,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5656,
+      "hot_score": 0.5624,
       "available": true
     }
   ]
