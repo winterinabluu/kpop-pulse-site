@@ -1,15 +1,137 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-16T07:00:57Z",
+  "generated_at": "2026-08-16T13:02:40Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:2018ae4f00fe6216",
+      "platform": "news",
+      "platform_item_id": "2018ae4f00fe6216",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "ADOR’s Sneaky Update On NewJeans’ Hanni Sparks Backlash",
+      "description": "\"If they were truly a company with nothing to hide...\"",
+      "url": "https://www.koreaboo.com/news/adors-sneaky-update-newjeans-hanni-sparks-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-16T11:29:50Z",
+      "collected_at": "2026-08-16T13:02:40Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [
+        "hanni"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "hanni",
+          "alias": "Hanni",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.979,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1932,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:7cab083e07916a04",
+      "platform": "news",
+      "platform_item_id": "7cab083e07916a04",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa’s Giselle Sparks Rumors She’s Leaving SM Entertainment",
+      "description": "Her social media activity has raised eyebrows.",
+      "url": "https://www.koreaboo.com/news/aespa-giselle-sparks-rumors-leaving-sm-entertainment/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-16T10:50:55Z",
+      "collected_at": "2026-08-16T13:02:40Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "giselle"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "giselle",
+          "alias": "Giselle",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9704,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1215,
+      "available": true
+    },
     {
       "id": "news:koreaboo:b83a496d17507933",
       "platform": "news",
@@ -21,7 +143,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jennie-viral-summer-sonic-nip-slip-video-divides-internet/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-16T04:52:51Z",
-      "collected_at": "2026-08-16T07:00:57Z",
+      "collected_at": "2026-08-16T13:02:40Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9712,
+        "recency": 0.8982,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1282,
+      "hot_score": 7.5169,
       "available": true
     },
     {
@@ -82,7 +204,7 @@
       "url": "https://www.soompi.com/article/1863193wpp/ives-an-yu-jin-to-limit-participation-in-todays-performance-due-to-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-16T04:05:25Z",
-      "collected_at": "2026-08-16T07:00:57Z",
+      "collected_at": "2026-08-16T13:02:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9609,
+        "recency": 0.8894,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7196,
+      "hot_score": 6.2192,
       "available": true
     },
     {
@@ -134,7 +256,7 @@
       "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T01:34:30Z",
-      "collected_at": "2026-08-16T07:00:57Z",
+      "collected_at": "2026-08-16T13:02:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.574,
+        "recency": 0.5477,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,68 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8037,
-      "available": true
-    },
-    {
-      "id": "news:soompi:eab58695ed122fda",
-      "platform": "news",
-      "platform_item_id": "eab58695ed122fda",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Chaeyoung Announces Departure From JYP",
-      "description": "TWICE’s Chaeyoung has parted ways with JYP Entertainment. On August 13, Chaeyoung took to her personal Instagram account to share the news to her fans. Read the full post below: Hello, this is Chaeyoung. I wanted to share this with ONCE first, my family who has always been by my side. I’m so excited to… Continue reading TWICE’s Chaeyoung Announces Departure From JYP The post TWICE’s Chaeyoung Announces Departure From JYP appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1862658wpp/twices-chaeyoung-announces-departure-from-jyp",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-13T05:52:57Z",
-      "collected_at": "2026-08-16T07:00:57Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "chaeyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "chaeyoung",
-          "alias": "Chaeyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4961,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.1519,
+      "hot_score": 4.5835,
       "available": true
     },
     {
@@ -256,7 +317,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-16T07:00:57Z",
+      "collected_at": "2026-08-16T13:02:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -288,7 +349,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0756,
+        "recency": 0.0752,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -296,7 +357,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.633,
+      "hot_score": 0.629,
       "available": true
     },
     {
@@ -310,7 +371,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-16T07:00:57Z",
+      "collected_at": "2026-08-16T13:02:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -342,7 +403,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0668,
+        "recency": 0.0665,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -350,7 +411,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5594,
+      "hot_score": 0.5563,
       "available": true
     }
   ]
