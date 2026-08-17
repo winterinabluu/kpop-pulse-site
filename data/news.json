@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-17T01:56:37Z",
+  "generated_at": "2026-08-17T07:17:57Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:81eca4c3a2a071a1",
+      "platform": "news",
+      "platform_item_id": "81eca4c3a2a071a1",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jennie Seen Trembling And Tearing Up On Stage After Multiple Malfunctions",
+      "description": "\"Oh, this hurts so bad.\"",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-spotted-trembling-tearing-stage-after-multiple-malfunctions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-17T02:47:12Z",
+      "collected_at": "2026-08-17T07:17:57Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.941,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8756,
+      "available": true
+    },
     {
       "id": "news:koreaboo:f2f3754d9c9fadf9",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/le-sserafim-fire-faking-live-vocals/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-17T00:45:31Z",
-      "collected_at": "2026-08-17T01:56:37Z",
+      "collected_at": "2026-08-17T07:17:57Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9838,
+        "recency": 0.9167,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8794,
+      "hot_score": 6.4103,
       "available": true
     },
     {
@@ -73,7 +134,7 @@
       "url": "https://www.soompi.com/article/1863329wpp/cortis-ateez-bts-riize-stray-kids-le-sserafim-yeonjun-boynextdoor-aespa-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-16T16:50:47Z",
-      "collected_at": "2026-08-17T01:56:37Z",
+      "collected_at": "2026-08-17T07:17:57Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -111,7 +172,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8878,
+        "recency": 0.8328,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -119,7 +180,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.19,
+      "hot_score": 6.7445,
       "available": true
     },
     {
@@ -133,7 +194,7 @@
       "url": "https://www.soompi.com/article/1863193wpp/ives-an-yu-jin-to-limit-participation-in-todays-performance-due-to-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-16T04:05:25Z",
-      "collected_at": "2026-08-17T01:56:37Z",
+      "collected_at": "2026-08-17T07:17:57Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -163,7 +224,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7672,
+        "recency": 0.7257,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -171,7 +232,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3644,
+      "hot_score": 5.0748,
       "available": true
     },
     {
@@ -185,7 +246,7 @@
       "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T01:34:30Z",
-      "collected_at": "2026-08-17T01:56:37Z",
+      "collected_at": "2026-08-17T07:17:57Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -224,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4987,
+        "recency": 0.4809,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -232,7 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1739,
+      "hot_score": 4.0246,
       "available": true
     },
     {
@@ -246,7 +307,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-17T01:56:37Z",
+      "collected_at": "2026-08-17T07:17:57Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -278,7 +339,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0742,
+        "recency": 0.0738,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -286,7 +347,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6206,
+      "hot_score": 0.6172,
       "available": true
     },
     {
@@ -300,7 +361,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-17T01:56:37Z",
+      "collected_at": "2026-08-17T07:17:57Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -332,7 +393,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0657,
+        "recency": 0.0654,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -340,7 +401,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5497,
+      "hot_score": 0.5471,
       "available": true
     }
   ]
