@@ -1,15 +1,67 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-16T18:48:22Z",
+  "generated_at": "2026-08-17T01:56:37Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:f2f3754d9c9fadf9",
+      "platform": "news",
+      "platform_item_id": "f2f3754d9c9fadf9",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "LE SSERAFIM Under Fire For “Faking” Live Vocals",
+      "description": "Netizens are convinced the audiences were deceived.",
+      "url": "https://www.koreaboo.com/news/le-sserafim-fire-faking-live-vocals/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-17T00:45:31Z",
+      "collected_at": "2026-08-17T01:56:37Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9838,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8794,
+      "available": true
+    },
     {
       "id": "news:soompi:2cb1b3ac18f906b9",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.soompi.com/article/1863329wpp/cortis-ateez-bts-riize-stray-kids-le-sserafim-yeonjun-boynextdoor-aespa-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-16T16:50:47Z",
-      "collected_at": "2026-08-16T18:48:22Z",
+      "collected_at": "2026-08-17T01:56:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -59,7 +111,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9735,
+        "recency": 0.8878,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -67,129 +119,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8838,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:2018ae4f00fe6216",
-      "platform": "news",
-      "platform_item_id": "2018ae4f00fe6216",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ADOR’s Sneaky Update On NewJeans’ Hanni Sparks Backlash",
-      "description": "\"If they were truly a company with nothing to hide...\"",
-      "url": "https://www.koreaboo.com/news/adors-sneaky-update-newjeans-hanni-sparks-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-16T11:29:50Z",
-      "collected_at": "2026-08-16T18:48:22Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "newjeans"
-      ],
-      "matched_members": [
-        "hanni"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "hanni",
-          "alias": "Hanni",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9078,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5979,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:7cab083e07916a04",
-      "platform": "news",
-      "platform_item_id": "7cab083e07916a04",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s Giselle Sparks Rumors She’s Leaving SM Entertainment",
-      "description": "Her social media activity has raised eyebrows.",
-      "url": "https://www.koreaboo.com/news/aespa-giselle-sparks-rumors-leaving-sm-entertainment/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-16T10:50:55Z",
-      "collected_at": "2026-08-16T18:48:22Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "giselle"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "giselle",
-          "alias": "Giselle",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9005,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5363,
+      "hot_score": 7.19,
       "available": true
     },
     {
@@ -203,7 +133,7 @@
       "url": "https://www.soompi.com/article/1863193wpp/ives-an-yu-jin-to-limit-participation-in-todays-performance-due-to-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-16T04:05:25Z",
-      "collected_at": "2026-08-16T18:48:22Z",
+      "collected_at": "2026-08-17T01:56:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -233,7 +163,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8303,
+        "recency": 0.7672,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -241,7 +171,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.806,
+      "hot_score": 5.3644,
       "available": true
     },
     {
@@ -255,7 +185,7 @@
       "url": "https://www.soompi.com/article/1862884wpp/twices-chaeyoung-and-zion-t-reportedly-end-relationship-agencies-briefly-comment",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-14T01:34:30Z",
-      "collected_at": "2026-08-16T18:48:22Z",
+      "collected_at": "2026-08-17T01:56:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -294,7 +224,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5247,
+        "recency": 0.4987,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -302,7 +232,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.391,
+      "hot_score": 4.1739,
       "available": true
     },
     {
@@ -316,7 +246,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-16T18:48:22Z",
+      "collected_at": "2026-08-17T01:56:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -348,7 +278,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0747,
+        "recency": 0.0742,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -356,7 +286,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6252,
+      "hot_score": 0.6206,
       "available": true
     },
     {
@@ -370,7 +300,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-16T18:48:22Z",
+      "collected_at": "2026-08-17T01:56:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -402,7 +332,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0661,
+        "recency": 0.0657,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -410,7 +340,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5533,
+      "hot_score": 0.5497,
       "available": true
     }
   ]
