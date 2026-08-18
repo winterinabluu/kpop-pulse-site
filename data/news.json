@@ -1,15 +1,241 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-18T07:06:36Z",
+  "generated_at": "2026-08-18T13:10:40Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:9ba0b7a505161003",
+      "platform": "news",
+      "platform_item_id": "9ba0b7a505161003",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa’s Karina Opens Up About Lollapalooza 2026, Embracing Nervousness On Stage, And More",
+      "description": "aespa’s Karina recently sat down with ELLE Korea for a pictorial and interview! In the interview, Karina spoke about aespa’s recent appearance at Lollapalooza 2026 in Chicago. She shared, “It was a performance we prepared for with a lot of dedication. Since it had been a while since we performed at a festival, all the… Continue reading aespa’s Karina Opens Up About Lollapalooza 2026, Embracing Nervousness On Stage, And More The post aespa’s Karina Opens Up About Lollapalooza 2026, Embracing Nervousness On Stage, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1863634wpp/aespas-karina-opens-up-about-lollapalooza-2026-embracing-nervousness-on-stage-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-18T10:10:50Z",
+      "collected_at": "2026-08-18T13:10:40Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "karina"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "karina",
+          "alias": "Karina",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.96,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0348,
+      "available": true
+    },
+    {
+      "id": "news:soompi:c3671040316d1a6a",
+      "platform": "news",
+      "platform_item_id": "c3671040316d1a6a",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Jennie’s Agency Announces Legal Action Against Malicious Posts",
+      "description": "BLACKPINK’s Jennie’s agency has announced that it will be taking legal action against malicious content targeting the singer. On August 18, OA Entertainment released an official statement announcing that it is currently pursuing both civil and criminal legal action against those responsible for spreading false information, defaming Jennie, maliciously editing or manipulating her photos and… Continue reading Jennie’s Agency Announces Legal Action Against Malicious Posts The post Jennie’s Agency Announces Legal Action Against Malicious Posts appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1863689wpp/jennies-agency-announces-legal-action-against-malicious-posts",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-18T09:21:22Z",
+      "collected_at": "2026-08-18T13:10:40Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9496,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9474,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:c750f28dd7964e1b",
+      "platform": "news",
+      "platform_item_id": "c750f28dd7964e1b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "OT4 BLACKPINK’s Apologies For Recent Controversy Sparks Intense Criticism",
+      "description": "Netizens were not impressed.",
+      "url": "https://www.koreaboo.com/news/blackpink-ot4-apologies-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-18T08:15:42Z",
+      "collected_at": "2026-08-18T13:10:40Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9361,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5456,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:243d3048cc64cad5",
+      "platform": "news",
+      "platform_item_id": "243d3048cc64cad5",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "LE SSERAFIM’s Alleged Lip-Sync Performance Sparks Heated Debate",
+      "description": "Netizens were divided.",
+      "url": "https://www.koreaboo.com/news/le-sserafim-allegedly-lip-syncing-summer-sonic-sparks-heated-debate/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-18T07:13:20Z",
+      "collected_at": "2026-08-18T13:10:40Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9236,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.4583,
+      "available": true
+    },
     {
       "id": "news:soompi:2cb1b3ac18f906b9",
       "platform": "news",
@@ -21,7 +247,7 @@
       "url": "https://www.soompi.com/article/1863329wpp/cortis-ateez-bts-riize-stray-kids-le-sserafim-yeonjun-boynextdoor-aespa-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-16T16:50:47Z",
-      "collected_at": "2026-08-18T07:06:36Z",
+      "collected_at": "2026-08-18T13:10:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -59,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.653,
+        "recency": 0.6189,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -67,7 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2881,
+      "hot_score": 5.0123,
       "available": true
     },
     {
@@ -81,7 +307,7 @@
       "url": "https://www.soompi.com/article/1863193wpp/ives-an-yu-jin-to-limit-participation-in-todays-performance-due-to-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-16T04:05:25Z",
-      "collected_at": "2026-08-18T07:06:36Z",
+      "collected_at": "2026-08-18T13:10:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -111,7 +337,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5853,
+        "recency": 0.5578,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -119,7 +345,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.0926,
+      "hot_score": 3.9002,
       "available": true
     },
     {
@@ -133,7 +359,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-18T07:06:36Z",
+      "collected_at": "2026-08-18T13:10:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -165,7 +391,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.072,
+        "recency": 0.0716,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -173,7 +399,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6025,
+      "hot_score": 0.5989,
       "available": true
     },
     {
@@ -187,7 +413,7 @@
       "url": "https://www.nme.com/features/music-features/opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress-3955080?utm_source=rss&utm_medium=rss&utm_campaign=opener-festival-2026-review-jade-jennie-blackpink-addison-rae-pinkpantheress",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-05T09:48:04Z",
-      "collected_at": "2026-08-18T07:06:36Z",
+      "collected_at": "2026-08-18T13:10:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -219,7 +445,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.064,
+        "recency": 0.0636,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -227,7 +453,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5355,
+      "hot_score": 0.5326,
       "available": true
     }
   ]
