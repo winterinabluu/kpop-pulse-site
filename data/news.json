@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-19T18:55:17Z",
+  "generated_at": "2026-08-20T01:53:17Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:soompi:ff04090feb6c7469",
+      "id": "news:soompi:9091331e94bbe005",
       "platform": "news",
-      "platform_item_id": "ff04090feb6c7469",
+      "platform_item_id": "9091331e94bbe005",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: KickFlip Covers TWICE + Shows Off Their Aegyo In Playful Dance Practice Video",
-      "description": "KickFlip tapped into their cute side for a fun cover of TWICE! Earlier this month, the rookie boy group from JYP Entertainment performed a special cover of TWICE’s “Dance The Night Away” at the 2026 SBS Gayo Daejeon Summer. On August 19, KickFlip released a dance practice video for the cover that ends with each… Continue reading Watch: KickFlip Covers TWICE + Shows Off Their Aegyo In Playful Dance Practice Video The post Watch: KickFlip Covers TWICE + Shows Off Their Aegyo In Playful Dance Practice Video appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1864091wpp/watch-kickflip-covers-twice-shows-off-their-aegyo-in-playful-dance-practice-video",
+      "title": "TWICE Earns New RIAJ Platinum Certification For Streaming In Japan",
+      "description": "TWICE has gone platinum in Japan with yet another single! In 2020, the Recording Industry Association of Japan (RIAJ) implemented a new certification system for online streaming of songs, as an addition to its pre-existing certification systems for physical album shipments and digital download sales. According to the new system, songs are certified silver once… Continue reading TWICE Earns New RIAJ Platinum Certification For Streaming In Japan The post TWICE Earns New RIAJ Platinum Certification For Streaming In Japan appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1864098wpp/twice-earns-new-riaj-platinum-certification-for-streaming-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-19T16:22:20Z",
-      "collected_at": "2026-08-19T18:55:17Z",
+      "published_at": "2026-08-19T19:07:04Z",
+      "collected_at": "2026-08-20T01:53:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9658,
+        "recency": 0.914,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,59 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7535,
+      "hot_score": 6.3916,
+      "available": true
+    },
+    {
+      "id": "news:soompi:ff04090feb6c7469",
+      "platform": "news",
+      "platform_item_id": "ff04090feb6c7469",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: KickFlip Covers TWICE + Shows Off Their Aegyo In Playful Dance Practice Video",
+      "description": "KickFlip tapped into their cute side for a fun cover of TWICE! Earlier this month, the rookie boy group from JYP Entertainment performed a special cover of TWICE’s “Dance The Night Away” at the 2026 SBS Gayo Daejeon Summer. On August 19, KickFlip released a dance practice video for the cover that ends with each… Continue reading Watch: KickFlip Covers TWICE + Shows Off Their Aegyo In Playful Dance Practice Video The post Watch: KickFlip Covers TWICE + Shows Off Their Aegyo In Playful Dance Practice Video appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1864091wpp/watch-kickflip-covers-twice-shows-off-their-aegyo-in-playful-dance-practice-video",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-19T16:22:20Z",
+      "collected_at": "2026-08-20T01:53:17Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8833,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.1763,
       "available": true
     },
     {
@@ -73,7 +125,7 @@
       "url": "https://www.soompi.com/article/1863963wpp/i-dles-soyeon-to-make-solo-comeback-in-september",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T08:08:55Z",
-      "collected_at": "2026-08-19T18:55:17Z",
+      "collected_at": "2026-08-20T01:53:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8698,
+        "recency": 0.8023,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.28,
+      "hot_score": 6.7148,
       "available": true
     },
     {
@@ -134,7 +186,7 @@
       "url": "https://www.soompi.com/article/1863798wpp/jennie-announces-comeback-plans",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T01:49:46Z",
-      "collected_at": "2026-08-19T18:55:17Z",
+      "collected_at": "2026-08-20T01:53:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -166,7 +218,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8082,
+        "recency": 0.7495,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -174,7 +226,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7636,
+      "hot_score": 6.2731,
       "available": true
     },
     {
@@ -188,7 +240,7 @@
       "url": "https://www.soompi.com/article/1863773wpp/riize-boynextdoor-stray-kids-treasure-ateez-newjeans-cortis-hearts2hearts-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-18T22:50:31Z",
-      "collected_at": "2026-08-19T18:55:17Z",
+      "collected_at": "2026-08-20T01:53:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -218,7 +270,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7819,
+        "recency": 0.7269,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -226,7 +278,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4678,
+      "hot_score": 5.0832,
       "available": true
     },
     {
@@ -240,7 +292,7 @@
       "url": "https://www.soompi.com/article/1863718wpp/bts-blackpink-cortis-le-sserafim-katseye-and-huntr-x-nominated-for-2026-mtv-video-music-awards",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-18T14:49:06Z",
-      "collected_at": "2026-08-19T18:55:17Z",
+      "collected_at": "2026-08-20T01:53:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -278,7 +330,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7193,
+        "recency": 0.6725,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -286,7 +338,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8248,
+      "hot_score": 5.4458,
       "available": true
     },
     {
@@ -300,7 +352,7 @@
       "url": "https://www.soompi.com/article/1863634wpp/aespas-karina-opens-up-about-lollapalooza-2026-embracing-nervousness-on-stage-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-18T10:10:50Z",
-      "collected_at": "2026-08-19T18:55:17Z",
+      "collected_at": "2026-08-20T01:53:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -339,7 +391,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6874,
+        "recency": 0.6445,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -347,7 +399,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7531,
+      "hot_score": 5.3943,
       "available": true
     },
     {
@@ -361,7 +413,7 @@
       "url": "https://www.soompi.com/article/1863689wpp/jennies-agency-announces-legal-action-against-malicious-posts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-18T09:21:22Z",
-      "collected_at": "2026-08-19T18:55:17Z",
+      "collected_at": "2026-08-20T01:53:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -400,7 +452,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.682,
+        "recency": 0.6398,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -408,7 +460,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7082,
+      "hot_score": 5.3548,
       "available": true
     },
     {
@@ -422,7 +474,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-19T18:55:17Z",
+      "collected_at": "2026-08-20T01:53:17Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -454,7 +506,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0695,
+        "recency": 0.069,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -462,7 +514,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5817,
+      "hot_score": 0.5778,
       "available": true
     }
   ]
