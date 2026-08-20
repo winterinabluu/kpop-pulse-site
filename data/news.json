@@ -1,15 +1,180 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-20T07:08:30Z",
+  "generated_at": "2026-08-20T13:13:09Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 10,
+    "item_count": 13,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:146cc9e312fb1a56",
+      "platform": "news",
+      "platform_item_id": "146cc9e312fb1a56",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: Stray Kids Takes 4th Win For “This & That” On “M Countdown”; Performances By ILLIT, OURBIRTHDAY, And More",
+      "description": "Stray Kids has won their fourth music show trophy for “This & That”! On the August 20 episode of “M Countdown,” the candidates for first place were Stray Kids’ “This & That” and KiiiKiii’s “Pop Off Pop Off.” Stray Kids ultimately took the prize with a total of 10,286 points. Congratulations to Stray Kids! Watch the… Continue reading Watch: Stray Kids Takes 4th Win For “This & That” On “M Countdown”; Performances By ILLIT, OURBIRTHDAY, And More The post Watch: Stray Kids Takes 4th Win For “This & That” On “M Countdown”; Performances By ILLIT, OURBIRTHDAY, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1864344wpp/watch-stray-kids-takes-4th-win-for-this-that-on-m-countdown-performances-by-illit-ourbirthday-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-20T12:01:39Z",
+      "collected_at": "2026-08-20T13:13:09Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9837,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8788,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:76907b3f47abe38d",
+      "platform": "news",
+      "platform_item_id": "76907b3f47abe38d",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Top Girl Group Accused Of Major Plagiarism Of aespa Hit Song",
+      "description": "\"This is actually insane...\"",
+      "url": "https://www.koreaboo.com/news/fourth-gen-group-plagiarism-aespa/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-20T11:45:02Z",
+      "collected_at": "2026-08-20T13:13:09Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.98,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8528,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:7a793585393eb16d",
+      "platform": "news",
+      "platform_item_id": "7a793585393eb16d",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS V’s Recent Appearance Linked To Dating Rumors With BLACKPINK’s Jennie",
+      "description": "Netizens think it's \"proof\" they are dating.",
+      "url": "https://www.koreaboo.com/news/bts-v-appearance-dating-rumors-blackpink-jennie/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-20T11:10:20Z",
+      "collected_at": "2026-08-20T13:13:09Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9723,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1378,
+      "available": true
+    },
     {
       "id": "news:koreaboo:20def371609d90fa",
       "platform": "news",
@@ -21,7 +186,7 @@
       "url": "https://www.koreaboo.com/news/netizens-debate-ive-lazy-performance-caribbean-bay/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-20T07:03:07Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +216,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9211,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +224,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8968,
+      "hot_score": 6.4408,
       "available": true
     },
     {
@@ -73,7 +238,7 @@
       "url": "https://www.soompi.com/article/1864098wpp/twice-earns-new-riaj-platinum-certification-for-streaming-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T19:07:04Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +268,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8569,
+        "recency": 0.7991,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +276,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.992,
+      "hot_score": 5.5878,
       "available": true
     },
     {
@@ -125,7 +290,7 @@
       "url": "https://www.soompi.com/article/1864091wpp/watch-kickflip-covers-twice-shows-off-their-aegyo-in-playful-dance-practice-video",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T16:22:20Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -155,7 +320,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8298,
+        "recency": 0.7755,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -163,7 +328,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8024,
+      "hot_score": 5.4226,
       "available": true
     },
     {
@@ -177,7 +342,7 @@
       "url": "https://www.soompi.com/article/1863963wpp/i-dles-soyeon-to-make-solo-comeback-in-september",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T08:08:55Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -216,7 +381,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7579,
+        "recency": 0.7124,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -224,7 +389,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3435,
+      "hot_score": 5.962,
       "available": true
     },
     {
@@ -238,7 +403,7 @@
       "url": "https://www.soompi.com/article/1863798wpp/jennie-announces-comeback-plans",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T01:49:46Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -270,7 +435,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7107,
+        "recency": 0.6705,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -278,7 +443,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9478,
+      "hot_score": 5.6112,
       "available": true
     },
     {
@@ -292,7 +457,7 @@
       "url": "https://www.soompi.com/article/1863773wpp/riize-boynextdoor-stray-kids-treasure-ateez-newjeans-cortis-hearts2hearts-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-18T22:50:31Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -322,7 +487,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6903,
+        "recency": 0.6523,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -330,7 +495,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8271,
+      "hot_score": 4.5613,
       "available": true
     },
     {
@@ -344,7 +509,7 @@
       "url": "https://www.soompi.com/article/1863718wpp/bts-blackpink-cortis-le-sserafim-katseye-and-huntr-x-nominated-for-2026-mtv-video-music-awards",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-18T14:49:06Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -382,7 +547,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.641,
+        "recency": 0.6081,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -390,7 +555,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1911,
+      "hot_score": 4.9247,
       "available": true
     },
     {
@@ -404,7 +569,7 @@
       "url": "https://www.soompi.com/article/1863634wpp/aespas-karina-opens-up-about-lollapalooza-2026-embracing-nervousness-on-stage-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-18T10:10:50Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -443,7 +608,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6156,
+        "recency": 0.5852,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -451,7 +616,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.152,
+      "hot_score": 4.8975,
       "available": true
     },
     {
@@ -465,7 +630,7 @@
       "url": "https://www.soompi.com/article/1863689wpp/jennies-agency-announces-legal-action-against-malicious-posts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-18T09:21:22Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -504,7 +669,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6113,
+        "recency": 0.5813,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -512,7 +677,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.116,
+      "hot_score": 4.8649,
       "available": true
     },
     {
@@ -526,7 +691,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-20T07:08:30Z",
+      "collected_at": "2026-08-20T13:13:09Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -558,7 +723,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0687,
+        "recency": 0.0683,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -566,7 +731,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5749,
+      "hot_score": 0.5716,
       "available": true
     }
   ]
