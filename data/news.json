@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-21T13:12:57Z",
+  "generated_at": "2026-08-21T18:58:23Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 10,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:59fc10449cc8efe7",
+      "platform": "news",
+      "platform_item_id": "59fc10449cc8efe7",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Numerous People Face Major Prison Sentence Over BLACKPINK Jennie’s Viral “Explicit Video”",
+      "description": "Even those who think they're safe could be at risk",
+      "url": "https://www.koreaboo.com/news/numerous-people-face-major-prison-sentence-blackpink-jennies-viral-explicit-video/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-21T14:37:06Z",
+      "collected_at": "2026-08-21T18:58:23Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.943,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8919,
+      "available": true
+    },
     {
       "id": "news:koreaboo:e54a338a292e992d",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/malicious-criticism-blackpink-lisa-visuals-photoshoot-nose-job/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-21T10:55:44Z",
-      "collected_at": "2026-08-21T13:12:57Z",
+      "collected_at": "2026-08-21T18:58:23Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9692,
+        "recency": 0.8995,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1115,
+      "hot_score": 7.5281,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jennie-bts-v-recent-lovestagram-reignites-dating-rumors/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-21T10:25:27Z",
-      "collected_at": "2026-08-21T13:12:57Z",
+      "collected_at": "2026-08-21T18:58:23Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9627,
+        "recency": 0.8939,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,129 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0568,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:33c06e0633037c05",
-      "platform": "news",
-      "platform_item_id": "33c06e0633037c05",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa Winter’s “Child” Behavior In New Video Targeted With Brutal Criticism",
-      "description": "\"Just grow the fc*k up?\"",
-      "url": "https://www.koreaboo.com/news/aespa-winter-behavior-criticized-childish/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-21T09:35:17Z",
-      "collected_at": "2026-08-21T13:12:57Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "winter"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "winter",
-          "alias": "Winter",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.952,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.9677,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:5d57ed39f5e6e257",
-      "platform": "news",
-      "platform_item_id": "5d57ed39f5e6e257",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jennie’s Surprise Announcement Subjected To Major Backlash",
-      "description": "\"Is this a joke?\"",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-surprise-announcement-subjected-major-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-21T08:15:14Z",
-      "collected_at": "2026-08-21T13:12:57Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9355,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8296,
+      "hot_score": 7.481,
       "available": true
     },
     {
@@ -265,7 +204,7 @@
       "url": "https://www.soompi.com/article/1864448wpp/blackpinks-jennie-announces-comeback-date-with-teaser-for-digital-ep-fallen-angel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-21T01:29:52Z",
-      "collected_at": "2026-08-21T13:12:57Z",
+      "collected_at": "2026-08-21T18:58:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -304,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.86,
+        "recency": 0.8047,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -312,7 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1978,
+      "hot_score": 6.7347,
       "available": true
     },
     {
@@ -326,7 +265,7 @@
       "url": "https://www.soompi.com/article/1864344wpp/watch-stray-kids-takes-4th-win-for-this-that-on-m-countdown-performances-by-illit-ourbirthday-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-20T12:01:39Z",
-      "collected_at": "2026-08-21T13:12:57Z",
+      "collected_at": "2026-08-21T18:58:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -356,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7408,
+        "recency": 0.6994,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -364,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1803,
+      "hot_score": 4.8906,
       "available": true
     },
     {
@@ -378,7 +317,7 @@
       "url": "https://www.soompi.com/article/1864098wpp/twice-earns-new-riaj-platinum-certification-for-streaming-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T19:07:04Z",
-      "collected_at": "2026-08-21T13:12:57Z",
+      "collected_at": "2026-08-21T18:58:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -408,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.631,
+        "recency": 0.6007,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -416,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.4126,
+      "hot_score": 4.2006,
       "available": true
     },
     {
@@ -430,7 +369,7 @@
       "url": "https://www.soompi.com/article/1864091wpp/watch-kickflip-covers-twice-shows-off-their-aegyo-in-playful-dance-practice-video",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T16:22:20Z",
-      "collected_at": "2026-08-21T13:12:57Z",
+      "collected_at": "2026-08-21T18:58:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -460,7 +399,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6162,
+        "recency": 0.5873,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -468,7 +407,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3089,
+      "hot_score": 4.1066,
       "available": true
     },
     {
@@ -482,7 +421,7 @@
       "url": "https://www.soompi.com/article/1863963wpp/i-dles-soyeon-to-make-solo-comeback-in-september",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T08:08:55Z",
-      "collected_at": "2026-08-21T13:12:57Z",
+      "collected_at": "2026-08-21T18:58:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -521,7 +460,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5757,
+        "recency": 0.5504,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -529,7 +468,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8181,
+      "hot_score": 4.6061,
       "available": true
     },
     {
@@ -543,7 +482,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-21T13:12:57Z",
+      "collected_at": "2026-08-21T18:58:23Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -575,7 +514,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0668,
+        "recency": 0.0664,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -583,7 +522,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5589,
+      "hot_score": 0.5559,
       "available": true
     }
   ]
