@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-20T19:02:10Z",
+  "generated_at": "2026-08-21T01:59:27Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 13,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:0d37d52e28d12087",
+      "platform": "news",
+      "platform_item_id": "0d37d52e28d12087",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jennie Announces Comeback Date With Teaser For Digital EP “Fallen Angel”",
+      "description": "Mark your calendars for BLACKPINK’s Jennie’s comeback! Jennie has officially announced that she will be releasing her new digital EP “Fallen Angel” on August 28 at 1 p.m. KST. According to Jennie’s agency OA (ODD ATELIER), the upcoming EP “comes from a very personal place with the truest self-expression.” Described as a “gift from Jennie,”… Continue reading BLACKPINK’s Jennie Announces Comeback Date With Teaser For Digital EP “Fallen Angel” The post BLACKPINK’s Jennie Announces Comeback Date With Teaser For Digital EP “Fallen Angel” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1864448wpp/blackpinks-jennie-announces-comeback-date-with-teaser-for-digital-ep-fallen-angel",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-21T01:29:52Z",
+      "collected_at": "2026-08-21T01:59:27Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
     {
       "id": "news:koreaboo:307772df5e87c41b",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/bisexual-twice-sanas-comments-fourth-gen-male-idols-sparks-huge-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-20T13:40:18Z",
-      "collected_at": "2026-08-20T19:02:10Z",
+      "collected_at": "2026-08-21T01:59:27Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9307,
+        "recency": 0.8539,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7889,
+      "hot_score": 7.1465,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.soompi.com/article/1864344wpp/watch-stray-kids-takes-4th-win-for-this-that-on-m-countdown-performances-by-illit-ourbirthday-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-20T12:01:39Z",
-      "collected_at": "2026-08-20T19:02:10Z",
+      "collected_at": "2026-08-21T01:59:27Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9113,
+        "recency": 0.8376,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,120 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3723,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:76907b3f47abe38d",
-      "platform": "news",
-      "platform_item_id": "76907b3f47abe38d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Top Girl Group Accused Of Major Plagiarism Of aespa Hit Song",
-      "description": "\"This is actually insane...\"",
-      "url": "https://www.koreaboo.com/news/fourth-gen-group-plagiarism-aespa/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-20T11:45:02Z",
-      "collected_at": "2026-08-20T19:02:10Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9081,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.35,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:7a793585393eb16d",
-      "platform": "news",
-      "platform_item_id": "7a793585393eb16d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS V’s Recent Appearance Linked To Dating Rumors With BLACKPINK’s Jennie",
-      "description": "Netizens think it's \"proof\" they are dating.",
-      "url": "https://www.koreaboo.com/news/bts-v-appearance-dating-rumors-blackpink-jennie/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-20T11:10:20Z",
-      "collected_at": "2026-08-20T19:02:10Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9015,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5451,
+      "hot_score": 5.8568,
       "available": true
     },
     {
@@ -247,7 +195,7 @@
       "url": "https://www.soompi.com/article/1864098wpp/twice-earns-new-riaj-platinum-certification-for-streaming-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T19:07:04Z",
-      "collected_at": "2026-08-20T19:02:10Z",
+      "collected_at": "2026-08-21T01:59:27Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -277,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7506,
+        "recency": 0.6999,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -285,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2489,
+      "hot_score": 4.8941,
       "available": true
     },
     {
@@ -299,7 +247,7 @@
       "url": "https://www.soompi.com/article/1864091wpp/watch-kickflip-covers-twice-shows-off-their-aegyo-in-playful-dance-practice-video",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T16:22:20Z",
-      "collected_at": "2026-08-20T19:02:10Z",
+      "collected_at": "2026-08-21T01:59:27Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -329,7 +277,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7297,
+        "recency": 0.6817,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -337,7 +285,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1029,
+      "hot_score": 4.7669,
       "available": true
     },
     {
@@ -351,7 +299,7 @@
       "url": "https://www.soompi.com/article/1863963wpp/i-dles-soyeon-to-make-solo-comeback-in-september",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T08:08:55Z",
-      "collected_at": "2026-08-20T19:02:10Z",
+      "collected_at": "2026-08-21T01:59:27Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -390,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6736,
+        "recency": 0.6325,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -398,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6376,
+      "hot_score": 5.2932,
       "available": true
     },
     {
@@ -412,7 +360,7 @@
       "url": "https://www.soompi.com/article/1863798wpp/jennie-announces-comeback-plans",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T01:49:46Z",
-      "collected_at": "2026-08-20T19:02:10Z",
+      "collected_at": "2026-08-21T01:59:27Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -444,7 +392,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.636,
+        "recency": 0.5992,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -452,7 +400,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3229,
+      "hot_score": 5.0148,
       "available": true
     },
     {
@@ -466,7 +414,7 @@
       "url": "https://www.soompi.com/article/1863773wpp/riize-boynextdoor-stray-kids-treasure-ateez-newjeans-cortis-hearts2hearts-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-18T22:50:31Z",
-      "collected_at": "2026-08-20T19:02:10Z",
+      "collected_at": "2026-08-21T01:59:27Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -496,7 +444,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6197,
+        "recency": 0.5847,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -504,189 +452,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.333,
-      "available": true
-    },
-    {
-      "id": "news:soompi:dcc919dd45e108a1",
-      "platform": "news",
-      "platform_item_id": "dcc919dd45e108a1",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS, BLACKPINK, CORTIS, LE SSERAFIM, KATSEYE, And HUNTR/X Nominated For 2026 MTV Video Music Awards",
-      "description": "The nominees for the 2026 MTV Video Music Awards (VMAs) are out! On August 18 local time, MTV officially announced the nominations for this year’s award ceremony, which included nods for several K-pop artists. BTS’s recent hit “SWIM” scored two nominations: one for Song of the Year and one for Best K-Pop. Also nominated for… Continue reading BTS, BLACKPINK, CORTIS, LE SSERAFIM, KATSEYE, And HUNTR/X Nominated For 2026 MTV Video Music Awards The post BTS, BLACKPINK, CORTIS, LE SSERAFIM, KATSEYE, And HUNTR/X Nominated For 2026 MTV Video Music Awards appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1863718wpp/bts-blackpink-cortis-le-sserafim-katseye-and-huntr-x-nominated-for-2026-mtv-video-music-awards",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-18T14:49:06Z",
-      "collected_at": "2026-08-20T19:02:10Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink",
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5796,
-        "views": 0,
-        "engagement": 5.3,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.6941,
-      "available": true
-    },
-    {
-      "id": "news:soompi:9ba0b7a505161003",
-      "platform": "news",
-      "platform_item_id": "9ba0b7a505161003",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s Karina Opens Up About Lollapalooza 2026, Embracing Nervousness On Stage, And More",
-      "description": "aespa’s Karina recently sat down with ELLE Korea for a pictorial and interview! In the interview, Karina spoke about aespa’s recent appearance at Lollapalooza 2026 in Chicago. She shared, “It was a performance we prepared for with a lot of dedication. Since it had been a while since we performed at a festival, all the… Continue reading aespa’s Karina Opens Up About Lollapalooza 2026, Embracing Nervousness On Stage, And More The post aespa’s Karina Opens Up About Lollapalooza 2026, Embracing Nervousness On Stage, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1863634wpp/aespas-karina-opens-up-about-lollapalooza-2026-embracing-nervousness-on-stage-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-18T10:10:50Z",
-      "collected_at": "2026-08-20T19:02:10Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "karina"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "karina",
-          "alias": "Karina",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5588,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.6764,
-      "available": true
-    },
-    {
-      "id": "news:soompi:c3671040316d1a6a",
-      "platform": "news",
-      "platform_item_id": "c3671040316d1a6a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Jennie’s Agency Announces Legal Action Against Malicious Posts",
-      "description": "BLACKPINK’s Jennie’s agency has announced that it will be taking legal action against malicious content targeting the singer. On August 18, OA Entertainment released an official statement announcing that it is currently pursuing both civil and criminal legal action against those responsible for spreading false information, defaming Jennie, maliciously editing or manipulating her photos and… Continue reading Jennie’s Agency Announces Legal Action Against Malicious Posts The post Jennie’s Agency Announces Legal Action Against Malicious Posts appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1863689wpp/jennies-agency-announces-legal-action-against-malicious-posts",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-18T09:21:22Z",
-      "collected_at": "2026-08-20T19:02:10Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5552,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.6467,
+      "hot_score": 4.0883,
       "available": true
     },
     {
@@ -700,7 +466,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-20T19:02:10Z",
+      "collected_at": "2026-08-21T01:59:27Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -732,7 +498,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0679,
+        "recency": 0.0675,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -740,7 +506,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5685,
+      "hot_score": 0.5648,
       "available": true
     }
   ]
