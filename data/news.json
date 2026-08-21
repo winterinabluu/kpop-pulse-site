@@ -1,27 +1,140 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-21T01:59:27Z",
+  "generated_at": "2026-08-21T07:09:18Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 9,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:606a9526564fe256",
+      "platform": "news",
+      "platform_item_id": "606a9526564fe256",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "NewJeans’ Hyein Shows Off New Mature Image In First Magazine Cover Since Return To HYBE",
+      "description": "She has matured so much.",
+      "url": "https://www.koreaboo.com/news/newjeans-hyein-drops-first-photoshoot-since-return-hybe/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-21T06:54:54Z",
+      "collected_at": "2026-08-21T07:09:18Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [
+        "hyein"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "hyein",
+          "alias": "Hyein",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:051207c54c8fe66b",
+      "platform": "news",
+      "platform_item_id": "051207c54c8fe66b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "ILLIT’s Creative Director Loses Lawsuit To Min Hee Jin",
+      "description": "She filed against Min for slander.",
+      "url": "https://www.koreaboo.com/news/illits-creative-director-loses-lawsuit-min-hee-jin/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-21T06:45:28Z",
+      "collected_at": "2026-08-21T07:09:18Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
     {
       "id": "news:soompi:0d37d52e28d12087",
       "platform": "news",
       "platform_item_id": "0d37d52e28d12087",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK’s Jennie Announces Comeback Date With Teaser For Digital EP “Fallen Angel”",
-      "description": "Mark your calendars for BLACKPINK’s Jennie’s comeback! Jennie has officially announced that she will be releasing her new digital EP “Fallen Angel” on August 28 at 1 p.m. KST. According to Jennie’s agency OA (ODD ATELIER), the upcoming EP “comes from a very personal place with the truest self-expression.” Described as a “gift from Jennie,”… Continue reading BLACKPINK’s Jennie Announces Comeback Date With Teaser For Digital EP “Fallen Angel” The post BLACKPINK’s Jennie Announces Comeback Date With Teaser For Digital EP “Fallen Angel” appeared first on Soompi .",
+      "title": "Update: Jennie Unveils Enchanting 1st MV Teaser For “FALLEN ANGEL”",
+      "description": "Updated August 21 KST: BLACKPINK’s Jennie has unveiled the first MV teaser for new song “FALLEN ANGEL”! Original Article: Mark your calendars for BLACKPINK’s Jennie’s comeback! Jennie has officially announced that she will be releasing her new digital EP “Fallen Angel” on August 28 at 1 p.m. KST. According to Jennie’s agency OA (ODD ATELIER),… Continue reading Update: Jennie Unveils Enchanting 1st MV Teaser For “FALLEN ANGEL” The post Update: Jennie Unveils Enchanting 1st MV Teaser For “FALLEN ANGEL” appeared first on Soompi .",
       "url": "https://www.soompi.com/article/1864448wpp/blackpinks-jennie-announces-comeback-date-with-teaser-for-digital-ep-fallen-angel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-21T01:29:52Z",
-      "collected_at": "2026-08-21T01:59:27Z",
+      "collected_at": "2026-08-21T07:09:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -45,83 +158,22 @@
       "match_confidence": "high",
       "match_reason": [
         {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
           "target_type": "member",
           "target_id": "jennie",
           "alias": "Jennie",
           "field": "title",
           "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9863,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.2546,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:307772df5e87c41b",
-      "platform": "news",
-      "platform_item_id": "307772df5e87c41b",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Bisexual? TWICE Sana’s Comments About Fourth-Gen Male Idol’s Sparks Huge Reactions",
-      "description": "\"Hopeless romantic...\"",
-      "url": "https://www.koreaboo.com/news/bisexual-twice-sanas-comments-fourth-gen-male-idols-sparks-huge-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-20T13:40:18Z",
-      "collected_at": "2026-08-21T01:59:27Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "sana"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
         },
         {
-          "target_type": "member",
-          "target_id": "sana",
-          "alias": "Sana",
-          "field": "title",
-          "score": 0.9
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "description",
+          "score": 0.3
         }
       ],
       "score_breakdown": {
-        "recency": 0.8539,
+        "recency": 0.9271,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1465,
+      "hot_score": 7.7595,
       "available": true
     },
     {
@@ -143,7 +195,7 @@
       "url": "https://www.soompi.com/article/1864344wpp/watch-stray-kids-takes-4th-win-for-this-that-on-m-countdown-performances-by-illit-ourbirthday-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-20T12:01:39Z",
-      "collected_at": "2026-08-21T01:59:27Z",
+      "collected_at": "2026-08-21T07:09:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8376,
+        "recency": 0.7901,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -181,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8568,
+      "hot_score": 5.5249,
       "available": true
     },
     {
@@ -195,7 +247,7 @@
       "url": "https://www.soompi.com/article/1864098wpp/twice-earns-new-riaj-platinum-certification-for-streaming-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T19:07:04Z",
-      "collected_at": "2026-08-21T01:59:27Z",
+      "collected_at": "2026-08-21T07:09:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +277,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6999,
+        "recency": 0.6664,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -233,7 +285,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8941,
+      "hot_score": 4.6601,
       "available": true
     },
     {
@@ -247,7 +299,7 @@
       "url": "https://www.soompi.com/article/1864091wpp/watch-kickflip-covers-twice-shows-off-their-aegyo-in-playful-dance-practice-video",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T16:22:20Z",
-      "collected_at": "2026-08-21T01:59:27Z",
+      "collected_at": "2026-08-21T07:09:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -277,7 +329,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6817,
+        "recency": 0.6499,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -285,7 +337,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7669,
+      "hot_score": 4.5446,
       "available": true
     },
     {
@@ -299,7 +351,7 @@
       "url": "https://www.soompi.com/article/1863963wpp/i-dles-soyeon-to-make-solo-comeback-in-september",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-19T08:08:55Z",
-      "collected_at": "2026-08-21T01:59:27Z",
+      "collected_at": "2026-08-21T07:09:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -338,7 +390,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6325,
+        "recency": 0.605,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -346,113 +398,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2932,
-      "available": true
-    },
-    {
-      "id": "news:soompi:4e157d091b626fc6",
-      "platform": "news",
-      "platform_item_id": "4e157d091b626fc6",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Jennie Announces Comeback Plans",
-      "description": "Jennie is set to release a new EP at the end of this month! According to her agency OA Entertainment (ODDATELIER) on August 19, Jennie is accelerating preparations for her comeback with the goal of releasing a new EP in late August. Previously, Jennie heightened anticipation for her new album by unveiling tracks including “Less… Continue reading Jennie Announces Comeback Plans The post Jennie Announces Comeback Plans appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1863798wpp/jennie-announces-comeback-plans",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-19T01:49:46Z",
-      "collected_at": "2026-08-21T01:59:27Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5992,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.0148,
-      "available": true
-    },
-    {
-      "id": "news:soompi:af570a1df7ee9aaf",
-      "platform": "news",
-      "platform_item_id": "af570a1df7ee9aaf",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "RIIZE, BOYNEXTDOOR, Stray Kids, TREASURE, ATEEZ, NewJeans, CORTIS, Hearts2Hearts, And More Earn Circle Million And Platinum Certifications",
-      "description": "Circle Chart has announced its latest batch of official certifications! In 2018, the Korea Music Content Industry Association implemented a new certification system for album sales, song downloads, and online streaming. Starting with music released on or after January 1, 2018, Circle Chart now certifies albums platinum once they reach 250,000 sales, while albums that… Continue reading RIIZE, BOYNEXTDOOR, Stray Kids, TREASURE, ATEEZ, NewJeans, CORTIS, Hearts2Hearts, And More Earn Circle Million And Platinum Certifications The post RIIZE, BOYNEXTDOOR, Stray Kids, TREASURE, ATEEZ, NewJeans, CORTIS, Hearts2Hearts, And More Earn Circle Million And Platinum Certifications appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1863773wpp/riize-boynextdoor-stray-kids-treasure-ateez-newjeans-cortis-hearts2hearts-and-more-earn-circle-million-and-platinum-certifications",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-18T22:50:31Z",
-      "collected_at": "2026-08-21T01:59:27Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "newjeans"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5847,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.0883,
+      "hot_score": 5.0635,
       "available": true
     },
     {
@@ -466,7 +412,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-21T01:59:27Z",
+      "collected_at": "2026-08-21T07:09:18Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -498,7 +444,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0675,
+        "recency": 0.0672,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -506,7 +452,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5648,
+      "hot_score": 0.5621,
       "available": true
     }
   ]
