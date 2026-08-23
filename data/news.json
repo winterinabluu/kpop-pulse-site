@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-23T07:03:30Z",
+  "generated_at": "2026-08-23T13:03:43Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:e446ff8c059380f7",
+      "platform": "news",
+      "platform_item_id": "e446ff8c059380f7",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa Karina’s Shockingly Exposed Cleavage Goes Insanely Viral",
+      "description": "The look turned heads everywhere.",
+      "url": "https://www.koreaboo.com/news/aespa-karinas-shockingly-exposed-cleavage-goes-insanely-viral/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-23T10:18:04Z",
+      "collected_at": "2026-08-23T13:03:43Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "karina"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "karina",
+          "alias": "Karina",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9631,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0601,
+      "available": true
+    },
     {
       "id": "news:soompi:0d37d52e28d12087",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1864448wpp/blackpinks-jennie-announces-comeback-date-with-teaser-for-digital-ep-fallen-angel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-21T01:29:52Z",
-      "collected_at": "2026-08-23T07:03:30Z",
+      "collected_at": "2026-08-23T13:03:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5734,
+        "recency": 0.5473,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7992,
+      "hot_score": 4.5802,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.soompi.com/article/1864344wpp/watch-stray-kids-takes-4th-win-for-this-that-on-m-countdown-performances-by-illit-ourbirthday-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-20T12:01:39Z",
-      "collected_at": "2026-08-23T07:03:30Z",
+      "collected_at": "2026-08-23T13:03:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5179,
+        "recency": 0.4964,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.6213,
+      "hot_score": 3.4714,
       "available": true
     },
     {
@@ -134,7 +195,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-23T07:03:30Z",
+      "collected_at": "2026-08-23T13:03:43Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -166,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0643,
+        "recency": 0.0639,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -174,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.538,
+      "hot_score": 0.5351,
       "available": true
     }
   ]
