@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-23T02:01:15Z",
+  "generated_at": "2026-08-23T07:03:30Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1864448wpp/blackpinks-jennie-announces-comeback-date-with-teaser-for-digital-ep-fallen-angel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-21T01:29:52Z",
-      "collected_at": "2026-08-23T02:01:15Z",
+      "collected_at": "2026-08-23T07:03:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5974,
+        "recency": 0.5734,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9998,
+      "hot_score": 4.7992,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1864344wpp/watch-stray-kids-takes-4th-win-for-this-that-on-m-countdown-performances-by-illit-ourbirthday-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-20T12:01:39Z",
-      "collected_at": "2026-08-23T02:01:15Z",
+      "collected_at": "2026-08-23T07:03:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5373,
+        "recency": 0.5179,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,111 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.7574,
-      "available": true
-    },
-    {
-      "id": "news:soompi:9091331e94bbe005",
-      "platform": "news",
-      "platform_item_id": "9091331e94bbe005",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE Earns New RIAJ Platinum Certification For Streaming In Japan",
-      "description": "TWICE has gone platinum in Japan with yet another single! In 2020, the Recording Industry Association of Japan (RIAJ) implemented a new certification system for online streaming of songs, as an addition to its pre-existing certification systems for physical album shipments and digital download sales. According to the new system, songs are certified silver once… Continue reading TWICE Earns New RIAJ Platinum Certification For Streaming In Japan The post TWICE Earns New RIAJ Platinum Certification For Streaming In Japan appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1864098wpp/twice-earns-new-riaj-platinum-certification-for-streaming-in-japan",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-19T19:07:04Z",
-      "collected_at": "2026-08-23T02:01:15Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4771,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.3364,
-      "available": true
-    },
-    {
-      "id": "news:soompi:ff04090feb6c7469",
-      "platform": "news",
-      "platform_item_id": "ff04090feb6c7469",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: KickFlip Covers TWICE + Shows Off Their Aegyo In Playful Dance Practice Video",
-      "description": "KickFlip tapped into their cute side for a fun cover of TWICE! Earlier this month, the rookie boy group from JYP Entertainment performed a special cover of TWICE’s “Dance The Night Away” at the 2026 SBS Gayo Daejeon Summer. On August 19, KickFlip released a dance practice video for the cover that ends with each… Continue reading Watch: KickFlip Covers TWICE + Shows Off Their Aegyo In Playful Dance Practice Video The post Watch: KickFlip Covers TWICE + Shows Off Their Aegyo In Playful Dance Practice Video appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1864091wpp/watch-kickflip-covers-twice-shows-off-their-aegyo-in-playful-dance-practice-video",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-19T16:22:20Z",
-      "collected_at": "2026-08-23T02:01:15Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4686,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.2768,
+      "hot_score": 3.6213,
       "available": true
     },
     {
@@ -238,7 +134,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-23T02:01:15Z",
+      "collected_at": "2026-08-23T07:03:30Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -270,7 +166,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0646,
+        "recency": 0.0643,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -278,7 +174,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5404,
+      "hot_score": 0.538,
       "available": true
     }
   ]
