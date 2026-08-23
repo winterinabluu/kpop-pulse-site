@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-23T13:03:43Z",
+  "generated_at": "2026-08-23T18:49:54Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,20 +11,20 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:e446ff8c059380f7",
+      "id": "news:soompi:0daf53a04e6f6637",
       "platform": "news",
-      "platform_item_id": "e446ff8c059380f7",
+      "platform_item_id": "0daf53a04e6f6637",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa Karina’s Shockingly Exposed Cleavage Goes Insanely Viral",
-      "description": "The look turned heads everywhere.",
-      "url": "https://www.koreaboo.com/news/aespa-karinas-shockingly-exposed-cleavage-goes-insanely-viral/",
+      "title": "Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart",
+      "description": "Billboard has published its World Albums chart for the week ending on August 22! Stray Kids’ new mini album “THIS & THAT” debuted at No. 1 on this week’s World Albums chart, in addition to making a historic No. 1 entry on the Billboard 200. All in all, Stray Kids topped a total of five… Continue reading Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1865038wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-23T10:18:04Z",
-      "collected_at": "2026-08-23T13:03:43Z",
+      "published_at": "2026-08-23T16:59:50Z",
+      "collected_at": "2026-08-23T18:49:54Z",
       "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
+        "name": "Soompi",
+        "handle": "soompi",
         "avatar": ""
       },
       "metrics": {
@@ -37,12 +37,12 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "aespa"
+        "aespa",
+        "illit",
+        "lesserafim"
       ],
-      "matched_members": [
-        "karina"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
@@ -52,23 +52,30 @@
           "score": 1.0
         },
         {
-          "target_type": "member",
-          "target_id": "karina",
-          "alias": "Karina",
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
           "field": "title",
-          "score": 0.9
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
         }
       ],
       "score_breakdown": {
-        "recency": 0.9631,
+        "recency": 0.9752,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 6.7,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0601,
+      "hot_score": 8.7582,
       "available": true
     },
     {
@@ -82,7 +89,7 @@
       "url": "https://www.soompi.com/article/1864448wpp/blackpinks-jennie-announces-comeback-date-with-teaser-for-digital-ep-fallen-angel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-21T01:29:52Z",
-      "collected_at": "2026-08-23T13:03:43Z",
+      "collected_at": "2026-08-23T18:49:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +128,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5473,
+        "recency": 0.5243,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +136,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5802,
+      "hot_score": 4.3877,
       "available": true
     },
     {
@@ -143,7 +150,7 @@
       "url": "https://www.soompi.com/article/1864344wpp/watch-stray-kids-takes-4th-win-for-this-that-on-m-countdown-performances-by-illit-ourbirthday-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-20T12:01:39Z",
-      "collected_at": "2026-08-23T13:03:43Z",
+      "collected_at": "2026-08-23T18:49:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +180,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4964,
+        "recency": 0.4774,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -181,7 +188,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.4714,
+      "hot_score": 3.3386,
       "available": true
     },
     {
@@ -195,7 +202,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-23T13:03:43Z",
+      "collected_at": "2026-08-23T18:49:54Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -227,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0639,
+        "recency": 0.0636,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -235,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5351,
+      "hot_score": 0.5324,
       "available": true
     }
   ]
