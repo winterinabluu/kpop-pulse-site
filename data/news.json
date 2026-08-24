@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-24T01:58:55Z",
+  "generated_at": "2026-08-24T07:30:17Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,60 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:aea2774f0f37692c",
+      "platform": "news",
+      "platform_item_id": "aea2774f0f37692c",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: Kim Yeon Koung, Lee Junho, And Kazuha Are Stunned By Kian84’s Imagination In “Kian’s Bizarre B&B 2” Teaser",
+      "description": "The Netflix variety show “Kian’s Bizarre B&B” Season 2 has released a group poster and a teaser! “Kian’s Bizarre B&B” is a Netflix variety show in which Kian84 and his castmates run a one-of-a-kind guesthouse. Season 1 featured Kian84, BTS’s Jin, and Ji Ye Eun operating a unique lodging on the scenic island of Ulleungdo,… Continue reading Watch: Kim Yeon Koung, Lee Junho, And Kazuha Are Stunned By Kian84’s Imagination In “Kian’s Bizarre B&B 2” Teaser The post Watch: Kim Yeon Koung, Lee Junho, And Kazuha Are Stunned By Kian84’s Imagination In “Kian’s Bizarre B&B 2” Teaser appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1865147wpp/watch-kim-yeon-koung-lee-junho-and-kazuha-are-stunned-by-kian84s-imagination-in-kians-bizarre-bb-2-teaser",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-24T03:38:42Z",
+      "collected_at": "2026-08-24T07:30:17Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "kazuha"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "kazuha",
+          "alias": "Kazuha",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9491,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9434,
+      "available": true
+    },
     {
       "id": "news:soompi:0daf53a04e6f6637",
       "platform": "news",
@@ -21,7 +75,7 @@
       "url": "https://www.soompi.com/article/1865038wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-23T16:59:50Z",
-      "collected_at": "2026-08-24T01:58:55Z",
+      "collected_at": "2026-08-24T07:30:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -67,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8891,
+        "recency": 0.8323,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -75,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9849,
+      "hot_score": 7.4752,
       "available": true
     },
     {
@@ -89,7 +143,7 @@
       "url": "https://www.soompi.com/article/1864448wpp/blackpinks-jennie-announces-comeback-date-with-teaser-for-digital-ep-fallen-angel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-21T01:29:52Z",
-      "collected_at": "2026-08-24T01:58:55Z",
+      "collected_at": "2026-08-24T07:30:17Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -128,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4983,
+        "recency": 0.48,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -136,59 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1706,
-      "available": true
-    },
-    {
-      "id": "news:soompi:146cc9e312fb1a56",
-      "platform": "news",
-      "platform_item_id": "146cc9e312fb1a56",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: Stray Kids Takes 4th Win For “This & That” On “M Countdown”; Performances By ILLIT, OURBIRTHDAY, And More",
-      "description": "Stray Kids has won their fourth music show trophy for “This & That”! On the August 20 episode of “M Countdown,” the candidates for first place were Stray Kids’ “This & That” and KiiiKiii’s “Pop Off Pop Off.” Stray Kids ultimately took the prize with a total of 10,286 points. Congratulations to Stray Kids! Watch the… Continue reading Watch: Stray Kids Takes 4th Win For “This & That” On “M Countdown”; Performances By ILLIT, OURBIRTHDAY, And More The post Watch: Stray Kids Takes 4th Win For “This & That” On “M Countdown”; Performances By ILLIT, OURBIRTHDAY, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1864344wpp/watch-stray-kids-takes-4th-win-for-this-that-on-m-countdown-performances-by-illit-ourbirthday-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-20T12:01:39Z",
-      "collected_at": "2026-08-24T01:58:55Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4558,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.1874,
+      "hot_score": 4.0171,
       "available": true
     },
     {
@@ -202,7 +204,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-24T01:58:55Z",
+      "collected_at": "2026-08-24T07:30:17Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -234,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0632,
+        "recency": 0.0629,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5291,
+      "hot_score": 0.5265,
       "available": true
     }
   ]
