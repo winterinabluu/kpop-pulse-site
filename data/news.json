@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-23T18:49:54Z",
+  "generated_at": "2026-08-24T01:58:55Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1865038wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-23T16:59:50Z",
-      "collected_at": "2026-08-23T18:49:54Z",
+      "collected_at": "2026-08-24T01:58:55Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -67,7 +67,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9752,
+        "recency": 0.8891,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -75,7 +75,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.7582,
+      "hot_score": 7.9849,
       "available": true
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://www.soompi.com/article/1864448wpp/blackpinks-jennie-announces-comeback-date-with-teaser-for-digital-ep-fallen-angel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-21T01:29:52Z",
-      "collected_at": "2026-08-23T18:49:54Z",
+      "collected_at": "2026-08-24T01:58:55Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -128,7 +128,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5243,
+        "recency": 0.4983,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -136,7 +136,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3877,
+      "hot_score": 4.1706,
       "available": true
     },
     {
@@ -150,7 +150,7 @@
       "url": "https://www.soompi.com/article/1864344wpp/watch-stray-kids-takes-4th-win-for-this-that-on-m-countdown-performances-by-illit-ourbirthday-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-20T12:01:39Z",
-      "collected_at": "2026-08-23T18:49:54Z",
+      "collected_at": "2026-08-24T01:58:55Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -180,7 +180,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4774,
+        "recency": 0.4558,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -188,7 +188,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.3386,
+      "hot_score": 3.1874,
       "available": true
     },
     {
@@ -202,7 +202,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-23T18:49:54Z",
+      "collected_at": "2026-08-24T01:58:55Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -234,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0636,
+        "recency": 0.0632,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5324,
+      "hot_score": 0.5291,
       "available": true
     }
   ]
