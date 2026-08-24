@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-24T13:15:06Z",
+  "generated_at": "2026-08-24T19:02:03Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1865259wpp/watch-blackpinks-jisoo-announces-comeback-with-mysterious-click-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T09:30:19Z",
-      "collected_at": "2026-08-24T13:15:06Z",
+      "collected_at": "2026-08-24T19:02:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9505,
+        "recency": 0.8831,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,68 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9553,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:1ccd566a7fad6265",
-      "platform": "news",
-      "platform_item_id": "1ccd566a7fad6265",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT Wonhee’s Drastic Weight Loss Sparks Massive Concern",
-      "description": "She looked so different.",
-      "url": "https://www.koreaboo.com/news/illit-wonhee-bone-thin-figure-sparks-concern/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-24T08:14:49Z",
-      "collected_at": "2026-08-24T13:15:06Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [
-        "wonhee"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonhee",
-          "alias": "Wonhee",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.935,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8253,
+      "hot_score": 7.3911,
       "available": true
     },
     {
@@ -143,7 +82,7 @@
       "url": "https://www.soompi.com/article/1865147wpp/watch-kim-yeon-koung-lee-junho-and-kazuha-are-stunned-by-kian84s-imagination-in-kians-bizarre-bb-2-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T03:38:42Z",
-      "collected_at": "2026-08-24T13:15:06Z",
+      "collected_at": "2026-08-24T19:02:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -175,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8823,
+        "recency": 0.8239,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -183,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.384,
+      "hot_score": 6.8954,
       "available": true
     },
     {
@@ -197,7 +136,7 @@
       "url": "https://www.soompi.com/article/1865038wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-23T16:59:50Z",
-      "collected_at": "2026-08-24T13:15:06Z",
+      "collected_at": "2026-08-24T19:02:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7804,
+        "recency": 0.7344,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -251,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.0095,
+      "hot_score": 6.5961,
       "available": true
     },
     {
@@ -265,7 +204,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-24T13:15:06Z",
+      "collected_at": "2026-08-24T19:02:03Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -297,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0626,
+        "recency": 0.0623,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -305,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5239,
+      "hot_score": 0.5213,
       "available": true
     }
   ]
