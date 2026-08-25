@@ -1,15 +1,144 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-25T07:10:08Z",
+  "generated_at": "2026-08-25T13:13:03Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:e89b532f5ca297e1",
+      "platform": "news",
+      "platform_item_id": "e89b532f5ca297e1",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "IVE’s An Yujin Is Elegant Yet Cute Dressed In White",
+      "description": "An Yujin, a member of the group IVE, has shared an update on her recent activities, drawing attention with her look. On August 24th, An Yujin posted several photos on…",
+      "url": "https://www.koreaboo.com/news/ive-yujin-stuns-elegant-yet-cute-dressed-white/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-25T12:46:02Z",
+      "collected_at": "2026-08-25T13:13:03Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "yujin"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "yujin",
+          "alias": "Yujin",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "yujin",
+          "alias": "An Yujin",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:soompi:08ad580b3ad8a8de",
+      "platform": "news",
+      "platform_item_id": "08ad580b3ad8a8de",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "NewJeans’ Hyein Dishes On How She Has Changed, What She Has Been Up To, And More",
+      "description": "NewJeans’ Hyein recently sat down with Harper’s BAZAAR Korea for a pictorial and interview. In the interview, Hyein shared, “It’s been a really long time since I’ve done a pictorial, so I was both excited and nervous to show a more grown-up and different side of myself. I think I tried styling that I had… Continue reading NewJeans’ Hyein Dishes On How She Has Changed, What She Has Been Up To, And More The post NewJeans’ Hyein Dishes On How She Has Changed, What She Has Been Up To, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1865191wpp/newjeans-hyein-dishes-on-how-she-has-changed-what-she-has-been-up-to-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-25T08:14:42Z",
+      "collected_at": "2026-08-25T13:13:03Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [
+        "hyein"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "hyein",
+          "alias": "Hyein",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9354,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8286,
+      "available": true
+    },
     {
       "id": "news:soompi:256778207b3a1375",
       "platform": "news",
@@ -21,7 +150,7 @@
       "url": "https://www.soompi.com/article/1865259wpp/watch-blackpinks-jisoo-announces-comeback-with-mysterious-click-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T09:30:19Z",
-      "collected_at": "2026-08-25T07:10:08Z",
+      "collected_at": "2026-08-25T13:13:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +189,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7687,
+        "recency": 0.7221,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +197,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4335,
+      "hot_score": 6.0433,
       "available": true
     },
     {
@@ -82,7 +211,7 @@
       "url": "https://www.soompi.com/article/1865147wpp/watch-kim-yeon-koung-lee-junho-and-kazuha-are-stunned-by-kian84s-imagination-in-kians-bizarre-bb-2-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T03:38:42Z",
-      "collected_at": "2026-08-25T07:10:08Z",
+      "collected_at": "2026-08-25T13:13:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7234,
+        "recency": 0.682,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0547,
+      "hot_score": 5.7078,
       "available": true
     },
     {
@@ -136,7 +265,7 @@
       "url": "https://www.soompi.com/article/1865038wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-23T16:59:50Z",
-      "collected_at": "2026-08-25T07:10:08Z",
+      "collected_at": "2026-08-25T13:13:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +311,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6535,
+        "recency": 0.6195,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -190,7 +319,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8695,
+      "hot_score": 5.5641,
       "available": true
     },
     {
@@ -204,7 +333,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-25T07:10:08Z",
+      "collected_at": "2026-08-25T13:13:03Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -236,7 +365,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0616,
+        "recency": 0.0613,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +373,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5159,
+      "hot_score": 0.5132,
       "available": true
     }
   ]
