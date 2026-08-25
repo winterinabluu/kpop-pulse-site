@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-25T01:54:07Z",
+  "generated_at": "2026-08-25T07:10:08Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1865259wpp/watch-blackpinks-jisoo-announces-comeback-with-mysterious-click-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T09:30:19Z",
-      "collected_at": "2026-08-25T01:54:07Z",
+      "collected_at": "2026-08-25T07:10:08Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8145,
+        "recency": 0.7687,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8168,
+      "hot_score": 6.4335,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1865147wpp/watch-kim-yeon-koung-lee-junho-and-kazuha-are-stunned-by-kian84s-imagination-in-kians-bizarre-bb-2-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T03:38:42Z",
-      "collected_at": "2026-08-25T01:54:07Z",
+      "collected_at": "2026-08-25T07:10:08Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7639,
+        "recency": 0.7234,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.393,
+      "hot_score": 6.0547,
       "available": true
     },
     {
@@ -136,7 +136,7 @@
       "url": "https://www.soompi.com/article/1865038wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-23T16:59:50Z",
-      "collected_at": "2026-08-25T01:54:07Z",
+      "collected_at": "2026-08-25T07:10:08Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6863,
+        "recency": 0.6535,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -190,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.1642,
+      "hot_score": 5.8695,
       "available": true
     },
     {
@@ -204,7 +204,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-25T01:54:07Z",
+      "collected_at": "2026-08-25T07:10:08Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -236,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0619,
+        "recency": 0.0616,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5182,
+      "hot_score": 0.5159,
       "available": true
     }
   ]
