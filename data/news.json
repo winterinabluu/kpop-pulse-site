@@ -1,149 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-26T13:18:13Z",
+  "generated_at": "2026-08-26T20:04:43Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:8e34f830770f0ff7",
-      "platform": "news",
-      "platform_item_id": "8e34f830770f0ff7",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jennie’s Hit With Major Plagiarism Accusations With New Album Teaser",
-      "description": "Netizens hit back at the idol.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-plagiarism-album/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-26T12:36:09Z",
-      "collected_at": "2026-08-26T13:18:13Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9863,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.2546,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:ffe69a3f83d9cbbf",
-      "platform": "news",
-      "platform_item_id": "ffe69a3f83d9cbbf",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "IVE Wonyoung’s “Sexy” Airport Outfit Subject To Malicious Criticism",
-      "description": "Netizens were not impressed.",
-      "url": "https://www.koreaboo.com/news/ive-wonyoung-sexy-airport-outfit-criticism/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-26T11:00:33Z",
-      "collected_at": "2026-08-26T13:18:13Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9691,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.1107,
-      "available": true
-    },
     {
       "id": "news:soompi:260f0df71ec65ec7",
       "platform": "news",
       "platform_item_id": "260f0df71ec65ec7",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: i-dle’s Soyeon Announces Comeback Date With Trailer Film For 1st Full Album",
-      "description": "Mark your calendars for i-dle’s Soyeon’s return! On August 26 at midnight KST, Soyeon officially announced the date and details for her upcoming solo comeback. The i-dle leader will be releasing her first full-length solo album, “What a Wonderful Life,” on September 7 at 6 p.m. KST. Along with the announcement, Soyeon unveiled a retrospective… Continue reading Watch: i-dle’s Soyeon Announces Comeback Date With Trailer Film For 1st Full Album The post Watch: i-dle’s Soyeon Announces Comeback Date With Trailer Film For 1st Full Album appeared first on Soompi .",
+      "title": "Update: i-dle’s Soyeon Reveals Comeback Schedule For “What A Wonderful Life”",
+      "description": "Updated August 26 KST: i-dle’s Soyeon has released a promotion scheduler for her upcoming full-length solo album “What a Wonderful Life”! Original Article: Mark your calendars for i-dle’s Soyeon’s return! On August 26 at midnight KST, Soyeon officially announced the date and details for her upcoming solo comeback. The i-dle leader will be releasing her… Continue reading Update: i-dle’s Soyeon Reveals Comeback Schedule For “What A Wonderful Life” The post Update: i-dle’s Soyeon Reveals Comeback Schedule For “What A Wonderful Life” appeared first on Soompi .",
       "url": "https://www.soompi.com/article/1865654wpp/watch-i-dles-soyeon-announces-comeback-date-with-trailer-film-for-1st-full-album",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T15:34:53Z",
-      "collected_at": "2026-08-26T13:18:13Z",
+      "collected_at": "2026-08-26T20:04:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7682,
+        "recency": 0.7164,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4295,
+      "hot_score": 5.996,
       "available": true
     },
     {
@@ -199,12 +77,12 @@
       "platform_item_id": "cf52115d0838af55",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Update: BLACKPINK’s Lisa Reveals Release Time Of New Single “SaWaDiKa”",
-      "description": "Updated August 26 KST: BLACKPINK’s Lisa has revealed the release time of her upcoming single “SaWaDiKa”! “SaWaDiKa” will be out on September 4 at 9 a.m. KST. Original Article: BLACKPINK’s Lisa has revealed a sneak peek of her upcoming single “SaWaDiKa”! On August 25, Lisa unveiled a preview of “SaWaDiKa,” a pre-release single from her… Continue reading Update: BLACKPINK’s Lisa Reveals Release Time Of New Single “SaWaDiKa” The post Update: BLACKPINK’s Lisa Reveals Release Time Of New Single “SaWaDiKa” appeared first on Soompi .",
+      "title": "Update: BLACKPINK’s Lisa Reveals New Preview Of Upoming Single “SaWaDiKa”",
+      "description": "Updated August 27 KST: BLACKPINK’s Lisa has shared another sneak peek of her upcoming single “SaWaDiKa”! Updated August 26 KST: BLACKPINK’s Lisa has revealed the release time of her upcoming single “SaWaDiKa”! “SaWaDiKa” will be out on September 4 at 9 a.m. KST. Original Article: BLACKPINK’s Lisa has revealed a sneak peek of her upcoming… Continue reading Update: BLACKPINK’s Lisa Reveals New Preview Of Upoming Single “SaWaDiKa” The post Update: BLACKPINK’s Lisa Reveals New Preview Of Upoming Single “SaWaDiKa” appeared first on Soompi .",
       "url": "https://www.soompi.com/article/1865628wpp/watch-blackpinks-lisa-drops-sneak-peek-of-new-pre-release-single-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T14:56:13Z",
-      "collected_at": "2026-08-26T13:18:13Z",
+      "collected_at": "2026-08-26T20:04:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.763,
+        "recency": 0.7119,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3856,
+      "hot_score": 5.9578,
       "available": true
     },
     {
@@ -265,7 +143,7 @@
       "url": "https://www.soompi.com/article/1865191wpp/newjeans-hyein-dishes-on-how-she-has-changed-what-she-has-been-up-to-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T08:14:42Z",
-      "collected_at": "2026-08-26T13:18:13Z",
+      "collected_at": "2026-08-26T20:04:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -304,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7125,
+        "recency": 0.6677,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -312,68 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9627,
-      "available": true
-    },
-    {
-      "id": "news:soompi:256778207b3a1375",
-      "platform": "news",
-      "platform_item_id": "256778207b3a1375",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Update: BLACKPINK’s Jisoo Announces Release Time Of Upcoming Single “CLICK”",
-      "description": "Updated August 26 KST: BLACKPINK’s Jisoo has unveiled the release time of her upcoming single “CLICK”: September 4 at 1 p.m. KST! Original Article: BLACKPINK’s Jisoo is gearing up for her solo comeback! On August 24 at 6 p.m. KST, Jisoo released a mysterious teaser video, announcing her plans to release new music on September… Continue reading Update: BLACKPINK’s Jisoo Announces Release Time Of Upcoming Single “CLICK” The post Update: BLACKPINK’s Jisoo Announces Release Time Of Upcoming Single “CLICK” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1865259wpp/watch-blackpinks-jisoo-announces-comeback-with-mysterious-click-teaser",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-24T09:30:19Z",
-      "collected_at": "2026-08-26T13:18:13Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jisoo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5816,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.8675,
+      "hot_score": 5.5881,
       "available": true
     },
     {
@@ -387,7 +204,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-26T13:18:13Z",
+      "collected_at": "2026-08-26T20:04:43Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -419,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0601,
+        "recency": 0.0597,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -427,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5029,
+      "hot_score": 0.5001,
       "available": true
     }
   ]
