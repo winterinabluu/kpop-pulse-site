@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-26T02:00:07Z",
+  "generated_at": "2026-08-26T07:10:23Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1865654wpp/watch-i-dles-soyeon-announces-comeback-date-with-trailer-film-for-1st-full-album",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T15:34:53Z",
-      "collected_at": "2026-08-26T02:00:07Z",
+      "collected_at": "2026-08-26T07:10:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8736,
+        "recency": 0.822,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.3111,
+      "hot_score": 6.8795,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1865628wpp/watch-blackpinks-lisa-drops-sneak-peek-of-new-pre-release-single-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T14:56:13Z",
-      "collected_at": "2026-08-26T02:00:07Z",
+      "collected_at": "2026-08-26T07:10:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8668,
+        "recency": 0.816,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2544,
+      "hot_score": 6.8292,
       "available": true
     },
     {
@@ -143,7 +143,7 @@
       "url": "https://www.soompi.com/article/1865191wpp/newjeans-hyein-dishes-on-how-she-has-changed-what-she-has-been-up-to-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T08:14:42Z",
-      "collected_at": "2026-08-26T02:00:07Z",
+      "collected_at": "2026-08-26T07:10:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8022,
+        "recency": 0.7585,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7135,
+      "hot_score": 6.3478,
       "available": true
     },
     {
@@ -199,12 +199,12 @@
       "platform_item_id": "256778207b3a1375",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: BLACKPINK’s Jisoo Announces Comeback With Mysterious “CLICK” Teaser",
-      "description": "BLACKPINK’s Jisoo is gearing up for her solo comeback! On August 24 at 6 p.m. KST, Jisoo released a mysterious teaser video, announcing her plans to release new music on September 4. Are you excited for Jisoo’s comeback? The post Watch: BLACKPINK’s Jisoo Announces Comeback With Mysterious “CLICK” Teaser appeared first on Soompi .",
+      "title": "Watch: BLACKPINK’s Jisoo Announces Release Time Of Upcoming Single “CLICK”",
+      "description": "Updated August 26 KST: BLACKPINK’s Jisoo has unveiled the release time of her upcoming single “CLICK”: September 4 at 1 p.m. KST! Original Article: BLACKPINK’s Jisoo is gearing up for her solo comeback! On August 24 at 6 p.m. KST, Jisoo released a mysterious teaser video, announcing her plans to release new music on September… Continue reading Watch: BLACKPINK’s Jisoo Announces Release Time Of Upcoming Single “CLICK” The post Watch: BLACKPINK’s Jisoo Announces Release Time Of Upcoming Single “CLICK” appeared first on Soompi .",
       "url": "https://www.soompi.com/article/1865259wpp/watch-blackpinks-jisoo-announces-comeback-with-mysterious-click-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T09:30:19Z",
-      "collected_at": "2026-08-26T02:00:07Z",
+      "collected_at": "2026-08-26T07:10:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.64,
+        "recency": 0.6119,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3565,
+      "hot_score": 5.1211,
       "available": true
     },
     {
@@ -265,7 +265,7 @@
       "url": "https://www.soompi.com/article/1865147wpp/watch-kim-yeon-koung-lee-junho-and-kazuha-are-stunned-by-kian84s-imagination-in-kians-bizarre-bb-2-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T03:38:42Z",
-      "collected_at": "2026-08-26T02:00:07Z",
+      "collected_at": "2026-08-26T07:10:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -297,7 +297,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6083,
+        "recency": 0.5829,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -305,75 +305,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0913,
-      "available": true
-    },
-    {
-      "id": "news:soompi:0daf53a04e6f6637",
-      "platform": "news",
-      "platform_item_id": "0daf53a04e6f6637",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on August 22! Stray Kids’ new mini album “THIS & THAT” debuted at No. 1 on this week’s World Albums chart, in addition to making a historic No. 1 entry on the Billboard 200. All in all, Stray Kids topped a total of five… Continue reading Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1865038wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-23T16:59:50Z",
-      "collected_at": "2026-08-26T02:00:07Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa",
-        "illit",
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5581,
-        "views": 0,
-        "engagement": 6.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.0127,
+      "hot_score": 4.8781,
       "available": true
     },
     {
@@ -387,7 +319,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-26T02:00:07Z",
+      "collected_at": "2026-08-26T07:10:23Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -419,7 +351,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0607,
+        "recency": 0.0604,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -427,7 +359,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5077,
+      "hot_score": 0.5055,
       "available": true
     }
   ]
