@@ -1,76 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-25T18:59:11Z",
+  "generated_at": "2026-08-26T02:00:07Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:e7ce9860195e0789",
-      "platform": "news",
-      "platform_item_id": "e7ce9860195e0789",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Jihyo Faces Plastic Surgery Allegations",
-      "description": "Her latest social media post triggered a debate.",
-      "url": "https://www.koreaboo.com/news/twice-jihyo-faces-plastic-surgery-allegations/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-25T17:13:37Z",
-      "collected_at": "2026-08-25T18:59:11Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jihyo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jihyo",
-          "alias": "Jihyo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9761,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.1695,
-      "available": true
-    },
     {
       "id": "news:soompi:260f0df71ec65ec7",
       "platform": "news",
@@ -82,7 +21,7 @@
       "url": "https://www.soompi.com/article/1865654wpp/watch-i-dles-soyeon-announces-comeback-date-with-trailer-film-for-1st-full-album",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T15:34:53Z",
-      "collected_at": "2026-08-25T18:59:11Z",
+      "collected_at": "2026-08-26T02:00:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9548,
+        "recency": 0.8736,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9913,
+      "hot_score": 7.3111,
       "available": true
     },
     {
@@ -143,7 +82,7 @@
       "url": "https://www.soompi.com/article/1865628wpp/watch-blackpinks-lisa-drops-sneak-peek-of-new-pre-release-single-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T14:56:13Z",
-      "collected_at": "2026-08-25T18:59:11Z",
+      "collected_at": "2026-08-26T02:00:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9467,
+        "recency": 0.8668,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9236,
+      "hot_score": 7.2544,
       "available": true
     },
     {
@@ -204,7 +143,7 @@
       "url": "https://www.soompi.com/article/1865191wpp/newjeans-hyein-dishes-on-how-she-has-changed-what-she-has-been-up-to-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T08:14:42Z",
-      "collected_at": "2026-08-25T18:59:11Z",
+      "collected_at": "2026-08-26T02:00:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8702,
+        "recency": 0.8022,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2828,
+      "hot_score": 6.7135,
       "available": true
     },
     {
@@ -265,7 +204,7 @@
       "url": "https://www.soompi.com/article/1865259wpp/watch-blackpinks-jisoo-announces-comeback-with-mysterious-click-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T09:30:19Z",
-      "collected_at": "2026-08-25T18:59:11Z",
+      "collected_at": "2026-08-26T02:00:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -304,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6826,
+        "recency": 0.64,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -312,7 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7127,
+      "hot_score": 5.3565,
       "available": true
     },
     {
@@ -326,7 +265,7 @@
       "url": "https://www.soompi.com/article/1865147wpp/watch-kim-yeon-koung-lee-junho-and-kazuha-are-stunned-by-kian84s-imagination-in-kians-bizarre-bb-2-teaser",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-24T03:38:42Z",
-      "collected_at": "2026-08-25T18:59:11Z",
+      "collected_at": "2026-08-26T02:00:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -358,7 +297,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6467,
+        "recency": 0.6083,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -366,7 +305,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4121,
+      "hot_score": 5.0913,
       "available": true
     },
     {
@@ -380,7 +319,7 @@
       "url": "https://www.soompi.com/article/1865038wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-23T16:59:50Z",
-      "collected_at": "2026-08-25T18:59:11Z",
+      "collected_at": "2026-08-26T02:00:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -426,7 +365,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5902,
+        "recency": 0.5581,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -434,7 +373,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3009,
+      "hot_score": 5.0127,
       "available": true
     },
     {
@@ -448,7 +387,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-25T18:59:11Z",
+      "collected_at": "2026-08-26T02:00:07Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -480,7 +419,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.061,
+        "recency": 0.0607,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -488,7 +427,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5107,
+      "hot_score": 0.5077,
       "available": true
     }
   ]
