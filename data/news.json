@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-26T20:04:43Z",
+  "generated_at": "2026-08-27T09:54:33Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1865654wpp/watch-i-dles-soyeon-announces-comeback-date-with-trailer-film-for-1st-full-album",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T15:34:53Z",
-      "collected_at": "2026-08-26T20:04:43Z",
+      "collected_at": "2026-08-27T09:54:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7164,
+        "recency": 0.6298,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.996,
+      "hot_score": 5.2707,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1865628wpp/watch-blackpinks-lisa-drops-sneak-peek-of-new-pre-release-single-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T14:56:13Z",
-      "collected_at": "2026-08-26T20:04:43Z",
+      "collected_at": "2026-08-27T09:54:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7119,
+        "recency": 0.6262,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9578,
+      "hot_score": 5.2411,
       "available": true
     },
     {
@@ -143,7 +143,7 @@
       "url": "https://www.soompi.com/article/1865191wpp/newjeans-hyein-dishes-on-how-she-has-changed-what-she-has-been-up-to-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T08:14:42Z",
-      "collected_at": "2026-08-26T20:04:43Z",
+      "collected_at": "2026-08-27T09:54:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6677,
+        "recency": 0.5918,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5881,
+      "hot_score": 4.9529,
       "available": true
     },
     {
@@ -204,7 +204,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-26T20:04:43Z",
+      "collected_at": "2026-08-27T09:54:33Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -236,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0597,
+        "recency": 0.0591,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5001,
+      "hot_score": 0.4944,
       "available": true
     }
   ]
