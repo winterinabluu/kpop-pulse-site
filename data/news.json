@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-27T09:54:33Z",
+  "generated_at": "2026-08-27T22:18:10Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,58 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:675cf6040d945e51",
+      "platform": "news",
+      "platform_item_id": "675cf6040d945e51",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: LE SSERAFIM Announces 2nd Single Album “Made My Night”",
+      "description": "LE SSERAFIM is gearing up to release new music! On August 28, a teaser titled “YOU JUST MADE MY NIGHT” was revealed for the girl group’s second single album “Made My Night.” The single album is set to be released on September 11 at 1 p.m. KST, and the music video will be pre-released on… Continue reading Watch: LE SSERAFIM Announces 2nd Single Album “Made My Night” The post Watch: LE SSERAFIM Announces 2nd Single Album “Made My Night” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1866259wpp/watch-le-sserafim-announces-2nd-single-album-made-my-night",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-27T15:17:22Z",
+      "collected_at": "2026-08-27T22:18:10Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9112,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.3719,
+      "available": true
+    },
     {
       "id": "news:soompi:260f0df71ec65ec7",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.soompi.com/article/1865654wpp/watch-i-dles-soyeon-announces-comeback-date-with-trailer-film-for-1st-full-album",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T15:34:53Z",
-      "collected_at": "2026-08-27T09:54:33Z",
+      "collected_at": "2026-08-27T22:18:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6298,
+        "recency": 0.5682,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2707,
+      "hot_score": 4.7552,
       "available": true
     },
     {
@@ -82,7 +134,7 @@
       "url": "https://www.soompi.com/article/1865628wpp/watch-blackpinks-lisa-drops-sneak-peek-of-new-pre-release-single-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-25T14:56:13Z",
-      "collected_at": "2026-08-27T09:54:33Z",
+      "collected_at": "2026-08-27T22:18:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6262,
+        "recency": 0.5653,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,68 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2411,
-      "available": true
-    },
-    {
-      "id": "news:soompi:08ad580b3ad8a8de",
-      "platform": "news",
-      "platform_item_id": "08ad580b3ad8a8de",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "NewJeans’ Hyein Dishes On How She Has Changed, What She Has Been Up To, And More",
-      "description": "NewJeans’ Hyein recently sat down with Harper’s BAZAAR Korea for a pictorial and interview. In the interview, Hyein shared, “It’s been a really long time since I’ve done a pictorial, so I was both excited and nervous to show a more grown-up and different side of myself. I think I tried styling that I had… Continue reading NewJeans’ Hyein Dishes On How She Has Changed, What She Has Been Up To, And More The post NewJeans’ Hyein Dishes On How She Has Changed, What She Has Been Up To, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1865191wpp/newjeans-hyein-dishes-on-how-she-has-changed-what-she-has-been-up-to-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-25T08:14:42Z",
-      "collected_at": "2026-08-27T09:54:33Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "newjeans"
-      ],
-      "matched_members": [
-        "hyein"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "hyein",
-          "alias": "Hyein",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5918,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.9529,
+      "hot_score": 4.7311,
       "available": true
     },
     {
@@ -204,7 +195,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-27T09:54:33Z",
+      "collected_at": "2026-08-27T22:18:10Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -236,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0591,
+        "recency": 0.0585,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4944,
+      "hot_score": 0.4894,
       "available": true
     }
   ]
