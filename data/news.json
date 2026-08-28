@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-27T22:18:10Z",
+  "generated_at": "2026-08-28T11:28:38Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:soompi:675cf6040d945e51",
+      "id": "news:koreaboo:6796e39fc537a71b",
       "platform": "news",
-      "platform_item_id": "675cf6040d945e51",
+      "platform_item_id": "6796e39fc537a71b",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: LE SSERAFIM Announces 2nd Single Album “Made My Night”",
-      "description": "LE SSERAFIM is gearing up to release new music! On August 28, a teaser titled “YOU JUST MADE MY NIGHT” was revealed for the girl group’s second single album “Made My Night.” The single album is set to be released on September 11 at 1 p.m. KST, and the music video will be pre-released on… Continue reading Watch: LE SSERAFIM Announces 2nd Single Album “Made My Night” The post Watch: LE SSERAFIM Announces 2nd Single Album “Made My Night” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1866259wpp/watch-le-sserafim-announces-2nd-single-album-made-my-night",
+      "title": "BLACKPINK Jennie’s New Song Incites Hugely Divided Reactions",
+      "description": "The discourse was hugely split!",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-new-song-heavily-divided-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-27T15:17:22Z",
-      "collected_at": "2026-08-27T22:18:10Z",
+      "published_at": "2026-08-28T11:20:10Z",
+      "collected_at": "2026-08-28T11:28:38Z",
       "author": {
-        "name": "Soompi",
-        "handle": "soompi",
+        "name": "Koreaboo",
+        "handle": "koreaboo",
         "avatar": ""
       },
       "metrics": {
@@ -37,82 +37,30 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9112,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.3719,
-      "available": true
-    },
-    {
-      "id": "news:soompi:260f0df71ec65ec7",
-      "platform": "news",
-      "platform_item_id": "260f0df71ec65ec7",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Update: i-dle’s Soyeon Reveals Comeback Schedule For “What A Wonderful Life”",
-      "description": "Updated August 26 KST: i-dle’s Soyeon has released a promotion scheduler for her upcoming full-length solo album “What a Wonderful Life”! Original Article: Mark your calendars for i-dle’s Soyeon’s return! On August 26 at midnight KST, Soyeon officially announced the date and details for her upcoming solo comeback. The i-dle leader will be releasing her… Continue reading Update: i-dle’s Soyeon Reveals Comeback Schedule For “What A Wonderful Life” The post Update: i-dle’s Soyeon Reveals Comeback Schedule For “What A Wonderful Life” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1865654wpp/watch-i-dles-soyeon-announces-comeback-date-with-trailer-film-for-1st-full-album",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-25T15:34:53Z",
-      "collected_at": "2026-08-27T22:18:10Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
+        "blackpink"
       ],
       "matched_members": [
-        "soyeon"
+        "jennie"
       ],
       "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "title",
           "score": 1.0
         },
         {
           "target_type": "member",
-          "target_id": "soyeon",
-          "alias": "Soyeon",
+          "target_id": "jennie",
+          "alias": "Jennie",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.5682,
+        "recency": 0.9863,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,24 +68,207 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7552,
+      "hot_score": 8.2546,
       "available": true
     },
     {
-      "id": "news:soompi:cf52115d0838af55",
+      "id": "news:koreaboo:a679cb249c5345b5",
       "platform": "news",
-      "platform_item_id": "cf52115d0838af55",
+      "platform_item_id": "a679cb249c5345b5",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Update: BLACKPINK’s Lisa Reveals New Preview Of Upoming Single “SaWaDiKa”",
-      "description": "Updated August 27 KST: BLACKPINK’s Lisa has shared another sneak peek of her upcoming single “SaWaDiKa”! Updated August 26 KST: BLACKPINK’s Lisa has revealed the release time of her upcoming single “SaWaDiKa”! “SaWaDiKa” will be out on September 4 at 9 a.m. KST. Original Article: BLACKPINK’s Lisa has revealed a sneak peek of her upcoming… Continue reading Update: BLACKPINK’s Lisa Reveals New Preview Of Upoming Single “SaWaDiKa” The post Update: BLACKPINK’s Lisa Reveals New Preview Of Upoming Single “SaWaDiKa” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1865628wpp/watch-blackpinks-lisa-drops-sneak-peek-of-new-pre-release-single-sawadika",
+      "title": "TWICE Jihyo’s Recent Visuals At Appearance Amid Plastic Surgery Allegations Become Hot Topic",
+      "description": "Netizens believe it's even more \"proof.\"",
+      "url": "https://www.koreaboo.com/news/twice-jihyo-appearance-amid-plastic-surgery-allegations/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-25T14:56:13Z",
-      "collected_at": "2026-08-27T22:18:10Z",
+      "published_at": "2026-08-28T10:41:09Z",
+      "collected_at": "2026-08-28T11:28:38Z",
       "author": {
-        "name": "Soompi",
-        "handle": "soompi",
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:10d6f4fff6bccc64",
+      "platform": "news",
+      "platform_item_id": "10d6f4fff6bccc64",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE Jeongyeon’s “Glow Up” Visuals In Photos After Leaving JYP Spark Major Shock",
+      "description": "The photos shared on X have 140,000 likes.",
+      "url": "https://www.koreaboo.com/news/twice-jeongyeon-visuals-after-leaving-jyp-viral/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-28T09:37:13Z",
+      "collected_at": "2026-08-28T11:28:38Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jeongyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jeongyeon",
+          "alias": "Jeongyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9749,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1588,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:94bdb0778adb7a7f",
+      "platform": "news",
+      "platform_item_id": "94bdb0778adb7a7f",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Jihyo Believed To Have Left JYP Entertainment After Latest Appearance",
+      "description": "And it's not the only sign.",
+      "url": "https://www.koreaboo.com/news/twice-jihyo-believed-left-jyp-entertainment-after-latest-appearance/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-28T09:34:52Z",
+      "collected_at": "2026-08-28T11:28:38Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9743,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1545,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:eac76beba803b9fe",
+      "platform": "news",
+      "platform_item_id": "eac76beba803b9fe",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Lisa’s Shockingly Sexy Cover Artwork Triggers Backlash",
+      "description": "\"Looks so cheap...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-shockingly-sexy-cover-artwork-triggers-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-28T09:05:27Z",
+      "collected_at": "2026-08-28T11:28:38Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
         "avatar": ""
       },
       "metrics": {
@@ -173,7 +304,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5653,
+        "recency": 0.9679,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +312,181 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7311,
+      "hot_score": 8.1007,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:d38765762e3e1be0",
+      "platform": "news",
+      "platform_item_id": "d38765762e3e1be0",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Viral Tweet About TWICE Jihyo’s “Same Wallpaper” As Alleged Boyfriend Sparks Major Reactions",
+      "description": "The reactions were divided.",
+      "url": "https://www.koreaboo.com/news/twice-jihyo-couple-wallpaper-alleged-boyfriend-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-28T08:15:45Z",
+      "collected_at": "2026-08-28T11:28:38Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9573,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0115,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:7b27490c6d0816dd",
+      "platform": "news",
+      "platform_item_id": "7b27490c6d0816dd",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "“Main Vocalist???” LE SSERAFIM’s Yunjin Allegedly Caught Badly Lip-Syncing “In 4K”",
+      "description": "Fans did come to her defense.",
+      "url": "https://www.koreaboo.com/news/main-vocalist-le-sserafims-yunjin-allegedly-caught-badly-lip-syncing-in-4k/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-28T03:45:51Z",
+      "collected_at": "2026-08-28T11:28:38Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "yunjin"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "yunjin",
+          "alias": "Yunjin",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9032,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.5594,
+      "available": true
+    },
+    {
+      "id": "news:soompi:675cf6040d945e51",
+      "platform": "news",
+      "platform_item_id": "675cf6040d945e51",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: LE SSERAFIM Announces 2nd Single Album “Made My Night”",
+      "description": "LE SSERAFIM is gearing up to release new music! On August 28, a teaser titled “YOU JUST MADE MY NIGHT” was revealed for the girl group’s second single album “Made My Night.” The single album is set to be released on September 11 at 1 p.m. KST, and the music video will be pre-released on… Continue reading Watch: LE SSERAFIM Announces 2nd Single Album “Made My Night” The post Watch: LE SSERAFIM Announces 2nd Single Album “Made My Night” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1866259wpp/watch-le-sserafim-announces-2nd-single-album-made-my-night",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-27T15:17:22Z",
+      "collected_at": "2026-08-28T11:28:38Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.781,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.4613,
       "available": true
     },
     {
@@ -195,7 +500,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-27T22:18:10Z",
+      "collected_at": "2026-08-28T11:28:38Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -227,7 +532,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0585,
+        "recency": 0.0579,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -235,7 +540,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4894,
+      "hot_score": 0.4842,
       "available": true
     }
   ]
