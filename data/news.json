@@ -1,76 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-28T22:24:29Z",
+  "generated_at": "2026-08-29T07:07:58Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 2,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:7272c74ace470ffd",
-      "platform": "news",
-      "platform_item_id": "7272c74ace470ffd",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s Karina “Unrecognizable” In New Barefaced Photos",
-      "description": "One detail has fans talking.",
-      "url": "https://www.koreaboo.com/news/aespas-karina-unrecognizable-in-new-barefaced-photos/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-28T13:58:06Z",
-      "collected_at": "2026-08-28T22:24:29Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "karina"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "karina",
-          "alias": "Karina",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8951,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4911,
-      "available": true
-    },
     {
       "id": "news:soompi:675cf6040d945e51",
       "platform": "news",
@@ -82,7 +21,7 @@
       "url": "https://www.soompi.com/article/1866259wpp/watch-le-sserafim-announces-2nd-single-album-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-27T15:17:22Z",
-      "collected_at": "2026-08-28T22:24:29Z",
+      "collected_at": "2026-08-29T07:07:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6982,
+        "recency": 0.6438,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8824,
+      "hot_score": 4.5015,
       "available": true
     },
     {
@@ -134,7 +73,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-28T22:24:29Z",
+      "collected_at": "2026-08-29T07:07:58Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -166,7 +105,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0574,
+        "recency": 0.057,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -174,7 +113,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.48,
+      "hot_score": 0.4767,
       "available": true
     }
   ]
