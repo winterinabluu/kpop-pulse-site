@@ -1,76 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-29T16:45:08Z",
+  "generated_at": "2026-08-29T20:57:26Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 2,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:de3cf0dc0694dd75",
-      "platform": "news",
-      "platform_item_id": "de3cf0dc0694dd75",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Nayeon Embroiled In Controversy Over Latest Building Purchase",
-      "description": "Netizens are upset over the method she used for the purchase.",
-      "url": "https://www.koreaboo.com/news/twice-nayeon-embroiled-controversy-latest-building-purchase/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-29T07:48:26Z",
-      "collected_at": "2026-08-29T16:45:08Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "nayeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "nayeon",
-          "alias": "Nayeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8895,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4444,
-      "available": true
-    },
     {
       "id": "news:soompi:675cf6040d945e51",
       "platform": "news",
@@ -82,7 +21,7 @@
       "url": "https://www.soompi.com/article/1866259wpp/watch-le-sserafim-announces-2nd-single-album-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-27T15:17:22Z",
-      "collected_at": "2026-08-29T16:45:08Z",
+      "collected_at": "2026-08-29T20:57:26Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5928,
+        "recency": 0.5729,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.145,
+      "hot_score": 4.0063,
       "available": true
     },
     {
@@ -134,7 +73,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-29T16:45:08Z",
+      "collected_at": "2026-08-29T20:57:26Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -166,7 +105,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0565,
+        "recency": 0.0563,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -174,7 +113,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4731,
+      "hot_score": 0.4715,
       "available": true
     }
   ]
