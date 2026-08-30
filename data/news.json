@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-30T16:44:06Z",
+  "generated_at": "2026-08-30T21:10:27Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1866855wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-and-more-claim-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T16:31:40Z",
-      "collected_at": "2026-08-30T16:44:06Z",
+      "collected_at": "2026-08-30T21:10:27Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -59,7 +59,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9394,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -67,7 +67,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9875,
+      "hot_score": 7.6075,
       "available": true
     },
     {
@@ -81,7 +81,7 @@
       "url": "https://www.koreaboo.com/lists/blackpink-le-sserafim-exciting-kpop-comebacks-watch-in-september-2026/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T15:26:29Z",
-      "collected_at": "2026-08-30T16:44:06Z",
+      "collected_at": "2026-08-30T21:10:27Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -119,7 +119,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9823,
+        "recency": 0.9262,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -127,7 +127,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9554,
+      "hot_score": 7.5011,
       "available": true
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisa-brutally-trolled-social-media-post/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T15:21:27Z",
-      "collected_at": "2026-08-30T16:44:06Z",
+      "collected_at": "2026-08-30T21:10:27Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -180,7 +180,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9812,
+        "recency": 0.9252,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -188,7 +188,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2121,
+      "hot_score": 7.7436,
       "available": true
     },
     {
@@ -202,7 +202,7 @@
       "url": "https://www.soompi.com/article/1866713wpp/ives-i-am-becomes-their-1st-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T04:33:40Z",
-      "collected_at": "2026-08-30T16:44:06Z",
+      "collected_at": "2026-08-30T21:10:27Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -232,7 +232,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8554,
+        "recency": 0.8125,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -240,7 +240,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9813,
+      "hot_score": 5.6816,
       "available": true
     },
     {
@@ -254,7 +254,7 @@
       "url": "https://www.soompi.com/article/1866259wpp/watch-le-sserafim-announces-2nd-single-album-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-27T15:17:22Z",
-      "collected_at": "2026-08-30T16:44:06Z",
+      "collected_at": "2026-08-30T21:10:27Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -284,7 +284,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.495,
+        "recency": 0.4804,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -292,7 +292,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.4616,
+      "hot_score": 3.359,
       "available": true
     },
     {
@@ -306,7 +306,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-30T16:44:06Z",
+      "collected_at": "2026-08-30T21:10:27Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -338,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0555,
+        "recency": 0.0553,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -346,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4644,
+      "hot_score": 0.4628,
       "available": true
     }
   ]
