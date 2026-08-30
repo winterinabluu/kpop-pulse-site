@@ -1,15 +1,196 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-30T11:58:03Z",
+  "generated_at": "2026-08-30T16:44:06Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:207c4dcddeb87fb2",
+      "platform": "news",
+      "platform_item_id": "207c4dcddeb87fb2",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, And More Claim Top Spots On Billboard World Albums Chart",
+      "description": "Billboard has published its World Albums chart for the week ending on August 29! Stray Kids’ latest mini album “THIS & THAT” spent its second consecutive week at No. 1 on the World Albums chart, in addition to becoming the group’s first album ever to spend multiple weeks in the top 3 of the Billboard… Continue reading Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, And More Claim Top Spots On Billboard World Albums Chart The post Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, And More Claim Top Spots On Billboard World Albums Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1866855wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-and-more-claim-top-spots-on-billboard-world-albums-chart",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-30T16:31:40Z",
+      "collected_at": "2026-08-30T16:44:06Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa",
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.3,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9875,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:5816136be59692d1",
+      "platform": "news",
+      "platform_item_id": "5816136be59692d1",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK, LE SSERAFIM And More: Exciting K-Pop Comebacks To Watch Out For In September 2026",
+      "description": "Some of K-Pop's biggest names are returning within days of each other.",
+      "url": "https://www.koreaboo.com/lists/blackpink-le-sserafim-exciting-kpop-comebacks-watch-in-september-2026/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-30T15:26:29Z",
+      "collected_at": "2026-08-30T16:44:06Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink",
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9823,
+        "views": 0,
+        "engagement": 5.3,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9554,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:b53ebfb8bf5fb1e5",
+      "platform": "news",
+      "platform_item_id": "b53ebfb8bf5fb1e5",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Lisa Gets Brutally Trolled Over Social Media Post",
+      "description": "Netizens are questioning her career graph.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-brutally-trolled-social-media-post/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-30T15:21:27Z",
+      "collected_at": "2026-08-30T16:44:06Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9812,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2121,
+      "available": true
+    },
     {
       "id": "news:soompi:b2a5f122858c87fe",
       "platform": "news",
@@ -21,7 +202,7 @@
       "url": "https://www.soompi.com/article/1866713wpp/ives-i-am-becomes-their-1st-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T04:33:40Z",
-      "collected_at": "2026-08-30T11:58:03Z",
+      "collected_at": "2026-08-30T16:44:06Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +232,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9067,
+        "recency": 0.8554,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +240,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3404,
+      "hot_score": 5.9813,
       "available": true
     },
     {
@@ -73,7 +254,7 @@
       "url": "https://www.soompi.com/article/1866259wpp/watch-le-sserafim-announces-2nd-single-album-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-27T15:17:22Z",
-      "collected_at": "2026-08-30T11:58:03Z",
+      "collected_at": "2026-08-30T16:44:06Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +284,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5118,
+        "recency": 0.495,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +292,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.5789,
+      "hot_score": 3.4616,
       "available": true
     },
     {
@@ -125,7 +306,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-30T11:58:03Z",
+      "collected_at": "2026-08-30T16:44:06Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -157,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0557,
+        "recency": 0.0555,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -165,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4661,
+      "hot_score": 0.4644,
       "available": true
     }
   ]
