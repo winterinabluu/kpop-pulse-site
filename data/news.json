@@ -1,15 +1,144 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-30T21:10:27Z",
+  "generated_at": "2026-08-31T05:41:37Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:35d982fc0c58ca88",
+      "platform": "news",
+      "platform_item_id": "35d982fc0c58ca88",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "IVE Jang Wonyoung’s Unfamiliar Visuals Trigger Massive Response",
+      "description": "She's all grown up.",
+      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-natural-makeup-photos-go-viral/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-31T05:28:43Z",
+      "collected_at": "2026-08-31T05:41:37Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Jang Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:3e2f625d8a7fbd17",
+      "platform": "news",
+      "platform_item_id": "3e2f625d8a7fbd17",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jennie Faces Serious Accusations Over “Using Kids” In Music Video",
+      "description": "Netizens have very strong opinions.",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-faces-serious-accusations-using-kids-in-music-video/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-08-31T04:26:21Z",
+      "collected_at": "2026-08-31T05:41:37Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9829,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2259,
+      "available": true
+    },
     {
       "id": "news:soompi:207c4dcddeb87fb2",
       "platform": "news",
@@ -21,7 +150,7 @@
       "url": "https://www.soompi.com/article/1866855wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-and-more-claim-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T16:31:40Z",
-      "collected_at": "2026-08-30T21:10:27Z",
+      "collected_at": "2026-08-31T05:41:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -59,7 +188,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9394,
+        "recency": 0.8454,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -67,128 +196,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6075,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:5816136be59692d1",
-      "platform": "news",
-      "platform_item_id": "5816136be59692d1",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK, LE SSERAFIM And More: Exciting K-Pop Comebacks To Watch Out For In September 2026",
-      "description": "Some of K-Pop's biggest names are returning within days of each other.",
-      "url": "https://www.koreaboo.com/lists/blackpink-le-sserafim-exciting-kpop-comebacks-watch-in-september-2026/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-30T15:26:29Z",
-      "collected_at": "2026-08-30T21:10:27Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink",
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9262,
-        "views": 0,
-        "engagement": 5.3,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5011,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:b53ebfb8bf5fb1e5",
-      "platform": "news",
-      "platform_item_id": "b53ebfb8bf5fb1e5",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Gets Brutally Trolled Over Social Media Post",
-      "description": "Netizens are questioning her career graph.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-brutally-trolled-social-media-post/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-30T15:21:27Z",
-      "collected_at": "2026-08-30T21:10:27Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9252,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7436,
+      "hot_score": 6.8465,
       "available": true
     },
     {
@@ -202,7 +210,7 @@
       "url": "https://www.soompi.com/article/1866713wpp/ives-i-am-becomes-their-1st-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T04:33:40Z",
-      "collected_at": "2026-08-30T21:10:27Z",
+      "collected_at": "2026-08-31T05:41:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -232,7 +240,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8125,
+        "recency": 0.7413,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -240,59 +248,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6816,
-      "available": true
-    },
-    {
-      "id": "news:soompi:675cf6040d945e51",
-      "platform": "news",
-      "platform_item_id": "675cf6040d945e51",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Update: LE SSERAFIM Teases “Made My Night” Comeback With “THE MMN SHOW”",
-      "description": "Updated August 29 KST: LE SSERAFIM has dropped a teaser titled “THE MMN SHOW” for their second single album “Made My Night”! Original Article: LE SSERAFIM is gearing up to release new music! On August 28, a teaser titled “YOU JUST MADE MY NIGHT” was revealed for the girl group’s second single album “Made My… Continue reading Update: LE SSERAFIM Teases “Made My Night” Comeback With “THE MMN SHOW” The post Update: LE SSERAFIM Teases “Made My Night” Comeback With “THE MMN SHOW” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1866259wpp/watch-le-sserafim-announces-2nd-single-album-made-my-night",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-27T15:17:22Z",
-      "collected_at": "2026-08-30T21:10:27Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4804,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.359,
+      "hot_score": 5.1833,
       "available": true
     },
     {
@@ -306,7 +262,7 @@
       "url": "https://www.nme.com/news/music/watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist-3956312?utm_source=rss&utm_medium=rss&utm_campaign=watch-jennie-perform-tame-impala-remix-dracula-at-mad-cool-2026-video-setlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-07-10T15:02:11Z",
-      "collected_at": "2026-08-30T21:10:27Z",
+      "collected_at": "2026-08-31T05:41:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -338,7 +294,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0553,
+        "recency": 0.0549,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -346,7 +302,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4628,
+      "hot_score": 0.4598,
       "available": true
     }
   ]
