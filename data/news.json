@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-31T13:58:08Z",
+  "generated_at": "2026-08-31T22:53:24Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/clip-ive-wonyoungs-behavior-cameraman-goes-viral-amid-mean-girl-allegations/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-31T11:05:07Z",
-      "collected_at": "2026-08-31T13:58:08Z",
+      "collected_at": "2026-08-31T22:53:24Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9615,
+        "recency": 0.8591,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,190 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0469,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:2bbc21e39067009e",
-      "platform": "news",
-      "platform_item_id": "2bbc21e39067009e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jennie “Embarassing” Charting Stats For New EP Sparks Ridicule",
-      "description": "\"Flop so miserably...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-charting-new-song-ridicule/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-31T10:45:23Z",
-      "collected_at": "2026-08-31T13:58:08Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9573,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0117,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:58ccd51a534a08f1",
-      "platform": "news",
-      "platform_item_id": "58ccd51a534a08f1",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Tzuyu Speaks Out Regarding Solo Promotion Rumors",
-      "description": "Fans wished only the best for her.",
-      "url": "https://www.koreaboo.com/news/twice-tzuyu-directly-responds-rumors-regarding-promoting-in-china/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-31T09:14:51Z",
-      "collected_at": "2026-08-31T13:58:08Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "tzuyu"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "tzuyu",
-          "alias": "Tzuyu",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9385,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8542,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:69f36f47e3af23f7",
-      "platform": "news",
-      "platform_item_id": "69f36f47e3af23f7",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "“New Face!” BLACKPINK Lisa’s Visuals Hit With Major Backlash Linked To Plastic Surgery Allegations",
-      "description": "Netizens were brutal.",
-      "url": "https://www.koreaboo.com/news/new-face-blackpink-lisas-visuals-hit-major-backlash-linked-plastic-surgery-allegations/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-31T08:55:03Z",
-      "collected_at": "2026-08-31T13:58:08Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9344,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8205,
+      "hot_score": 7.1903,
       "available": true
     },
     {
@@ -265,7 +82,7 @@
       "url": "https://www.soompi.com/article/1866855wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-and-more-claim-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T16:31:40Z",
-      "collected_at": "2026-08-31T13:58:08Z",
+      "collected_at": "2026-08-31T22:53:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -303,7 +120,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7705,
+        "recency": 0.7034,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -311,7 +128,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2401,
+      "hot_score": 5.6963,
       "available": true
     },
     {
@@ -325,7 +142,7 @@
       "url": "https://www.soompi.com/article/1866713wpp/ives-i-am-becomes-their-1st-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T04:33:40Z",
-      "collected_at": "2026-08-31T13:58:08Z",
+      "collected_at": "2026-08-31T22:53:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -355,7 +172,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6831,
+        "recency": 0.6298,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -363,7 +180,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7764,
+      "hot_score": 4.4037,
       "available": true
     }
   ]
