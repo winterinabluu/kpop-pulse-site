@@ -1,76 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-08-31T22:53:24Z",
+  "generated_at": "2026-09-01T05:15:20Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 2,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:c4b8637af847c4d6",
-      "platform": "news",
-      "platform_item_id": "c4b8637af847c4d6",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Clip Of IVE Wonyoung’s Behavior With Cameraman Goes Viral Amid “Mean Girl” Allegations",
-      "description": "Netizens shared their thoughts!",
-      "url": "https://www.koreaboo.com/news/clip-ive-wonyoungs-behavior-cameraman-goes-viral-amid-mean-girl-allegations/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-31T11:05:07Z",
-      "collected_at": "2026-08-31T22:53:24Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8591,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.1903,
-      "available": true
-    },
     {
       "id": "news:soompi:207c4dcddeb87fb2",
       "platform": "news",
@@ -82,7 +21,7 @@
       "url": "https://www.soompi.com/article/1866855wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-and-more-claim-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T16:31:40Z",
-      "collected_at": "2026-08-31T22:53:24Z",
+      "collected_at": "2026-09-01T05:15:20Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -120,7 +59,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7034,
+        "recency": 0.6622,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -128,7 +67,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6963,
+      "hot_score": 5.3628,
       "available": true
     },
     {
@@ -142,7 +81,7 @@
       "url": "https://www.soompi.com/article/1866713wpp/ives-i-am-becomes-their-1st-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T04:33:40Z",
-      "collected_at": "2026-08-31T22:53:24Z",
+      "collected_at": "2026-09-01T05:15:20Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -172,7 +111,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6298,
+        "recency": 0.5965,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -180,7 +119,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.4037,
+      "hot_score": 4.1714,
       "available": true
     }
   ]
