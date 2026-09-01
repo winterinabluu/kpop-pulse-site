@@ -1,15 +1,137 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-01T05:15:20Z",
+  "generated_at": "2026-09-01T11:43:06Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 2,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:9bfa0c7ab1cd62c4",
+      "platform": "news",
+      "platform_item_id": "9bfa0c7ab1cd62c4",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Viral Video Of TWICE Jihyo’s Sister Seoyeon Dancing Triggers Mixed Reactions Towards HYBE’s TUIDE",
+      "description": "\"Age is not a problem or excuse...\"",
+      "url": "https://www.koreaboo.com/news/viral-video-twice-jihyos-sister-dancing-sparks-backlash-tuide-new-hybe-group/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-01T09:45:10Z",
+      "collected_at": "2026-09-01T11:43:06Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9734,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1468,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:abb3894b4d92cf64",
+      "platform": "news",
+      "platform_item_id": "abb3894b4d92cf64",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Actor’s Recent Instagram Linked To BLACKPINK Lisa Dating Rumors Spark Major Backlash",
+      "description": "\"Milking the sh*t out of the dating rumors...\"",
+      "url": "https://www.koreaboo.com/news/actor-instagram-blackpink-lisa-dating-rumors-lovestagram-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-01T09:00:15Z",
+      "collected_at": "2026-09-01T11:43:06Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9637,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0652,
+      "available": true
+    },
     {
       "id": "news:soompi:207c4dcddeb87fb2",
       "platform": "news",
@@ -21,7 +143,7 @@
       "url": "https://www.soompi.com/article/1866855wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-and-more-claim-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T16:31:40Z",
-      "collected_at": "2026-09-01T05:15:20Z",
+      "collected_at": "2026-09-01T11:43:06Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -59,7 +181,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6622,
+        "recency": 0.625,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -67,7 +189,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3628,
+      "hot_score": 5.0619,
       "available": true
     },
     {
@@ -81,7 +203,7 @@
       "url": "https://www.soompi.com/article/1866713wpp/ives-i-am-becomes-their-1st-mv-to-hit-400-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-08-30T04:33:40Z",
-      "collected_at": "2026-09-01T05:15:20Z",
+      "collected_at": "2026-09-01T11:43:06Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -111,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5965,
+        "recency": 0.5662,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -119,7 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1714,
+      "hot_score": 3.9594,
       "available": true
     }
   ]
