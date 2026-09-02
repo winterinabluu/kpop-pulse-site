@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-02T11:23:48Z",
+  "generated_at": "2026-09-02T16:37:49Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,17 +11,17 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:4beab231c76a28a4",
+      "id": "news:koreaboo:3089670b33f990c0",
       "platform": "news",
-      "platform_item_id": "4beab231c76a28a4",
+      "platform_item_id": "3089670b33f990c0",
       "source_type": "media",
       "content_kind": "news",
-      "title": "IVE Jang Wonyoung’s Older Sister’s Shocking Visuals Go Viral",
-      "description": "Good genes run in the family.",
-      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-older-sister-jang-daah-instagram-photos-gain-attention/",
+      "title": "Bruno Mars Gets Brutally Honest About Possibly Not Performing With BLACKPINK’s Rosé’s Again",
+      "description": "Global pop star Bruno Mars, who is scheduled to perform in Korea in 2027, has publicly proposed a duet stage with BLACKPINK member Rosé. Recently, a video titled “Went to…",
+      "url": "https://www.koreaboo.com/news/bruno-mars-brutally-honest-possibly-not-performing-blackpink-rose/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-02T08:17:43Z",
-      "collected_at": "2026-09-02T11:23:48Z",
+      "published_at": "2026-09-02T16:04:32Z",
+      "collected_at": "2026-09-02T16:37:49Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,37 +37,30 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "ive"
+        "blackpink"
       ],
       "matched_members": [
-        "wonyoung"
+        "rose"
       ],
       "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "title",
           "score": 1.0
         },
         {
           "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Jang Wonyoung",
+          "target_id": "rose",
+          "alias": "Rosé",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9587,
+        "recency": 0.9863,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -75,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0236,
+      "hot_score": 8.2546,
       "available": true
     }
   ]
