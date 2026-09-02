@@ -1,81 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-02T04:40:12Z",
+  "generated_at": "2026-09-02T11:23:48Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 1,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:fd8bd6599990ff3d",
+      "id": "news:koreaboo:4beab231c76a28a4",
       "platform": "news",
-      "platform_item_id": "fd8bd6599990ff3d",
+      "platform_item_id": "4beab231c76a28a4",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Danielle’s Redemption? — Police Report Allegedly Confirms Dispatch Exposé To Be Fake",
-      "description": "An alleged police report is circulating online.",
-      "url": "https://www.koreaboo.com/news/danielle-redemption-police-report-allegedly-confirms-dispatch-expose-fake/",
+      "title": "IVE Jang Wonyoung’s Older Sister’s Shocking Visuals Go Viral",
+      "description": "Good genes run in the family.",
+      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-older-sister-jang-daah-instagram-photos-gain-attention/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-01T18:29:46Z",
-      "collected_at": "2026-09-02T04:40:12Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "newjeans"
-      ],
-      "matched_members": [
-        "danielle"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "danielle",
-          "alias": "Danielle",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8762,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.333,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:9397b28ac3640fc8",
-      "platform": "news",
-      "platform_item_id": "9397b28ac3640fc8",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Story About IVE Jang Wonyoung’s Work Attitude Goes Viral",
-      "description": "Group IVE’s Jang Wonyoung has become a hot topic online after an insider who worked with her shared a review. Recently, someone who identified themselves as an entertainment industry worker…",
-      "url": "https://www.koreaboo.com/news/story-ive-jang-wonyoung-work-attitude-goes-viral/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-01T17:22:34Z",
-      "collected_at": "2026-09-02T04:40:12Z",
+      "published_at": "2026-09-02T08:17:43Z",
+      "collected_at": "2026-09-02T11:23:48Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +67,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8644,
+        "recency": 0.9587,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,67 +75,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2344,
-      "available": true
-    },
-    {
-      "id": "news:soompi:207c4dcddeb87fb2",
-      "platform": "news",
-      "platform_item_id": "207c4dcddeb87fb2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, And More Claim Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on August 29! Stray Kids’ latest mini album “THIS & THAT” spent its second consecutive week at No. 1 on the World Albums chart, in addition to becoming the group’s first album ever to spend multiple weeks in the top 3 of the Billboard… Continue reading Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, And More Claim Top Spots On Billboard World Albums Chart The post Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, Yeonjun, aespa, And More Claim Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1866855wpp/stray-kids-cortis-ateez-bts-le-sserafim-yeonjun-aespa-and-more-claim-top-spots-on-billboard-world-albums-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-08-30T16:31:40Z",
-      "collected_at": "2026-09-02T04:40:12Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa",
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5449,
-        "views": 0,
-        "engagement": 5.3,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.4126,
+      "hot_score": 8.0236,
       "available": true
     }
   ]
