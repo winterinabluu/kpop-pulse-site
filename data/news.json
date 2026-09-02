@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-02T16:37:49Z",
+  "generated_at": "2026-09-02T21:05:57Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 1,
+    "item_count": 2,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:1fc23c5e7760b711",
+      "platform": "news",
+      "platform_item_id": "1fc23c5e7760b711",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Rosé Talks About Working on Her New Album, Discovering Herself, and More",
+      "description": "BLACKPINK’s Rosé recently sat down with ELLE Korea for an interview to accompany her new pictorial. In the interview, Rosé spoke about working on her upcoming album. She remarked, “Ultimately, summer is a time for me to make music, discover myself, and find my sound. This time, I’m working in Korea, and I think the… Continue reading BLACKPINK’s Rosé Talks About Working on Her New Album, Discovering Herself, and More The post BLACKPINK’s Rosé Talks About Working on Her New Album, Discovering Herself, and More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-02T17:58:51Z",
+      "collected_at": "2026-09-02T21:05:57Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "rose"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "rose",
+          "alias": "Rosé",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9585,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0218,
+      "available": true
+    },
     {
       "id": "news:koreaboo:3089670b33f990c0",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/bruno-mars-brutally-honest-possibly-not-performing-blackpink-rose/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T16:04:32Z",
-      "collected_at": "2026-09-02T16:37:49Z",
+      "collected_at": "2026-09-02T21:05:57Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9348,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.8233,
       "available": true
     }
   ]
