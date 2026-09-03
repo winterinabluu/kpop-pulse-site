@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-03T11:20:09Z",
+  "generated_at": "2026-09-03T16:29:24Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/top-fourth-gen-idols-album-sales-mocked-following-controversy-linked-le-sserafim/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T10:05:19Z",
-      "collected_at": "2026-09-03T11:20:09Z",
+      "collected_at": "2026-09-03T16:29:24Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.983,
+        "recency": 0.9183,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8735,
+      "hot_score": 6.4216,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1867812wpp/kian84-kim-yeon-koung-and-kazuha-praise-lee-junhos-diligence-in-kians-bizarre-bb",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T09:15:28Z",
-      "collected_at": "2026-09-03T11:20:09Z",
+      "collected_at": "2026-09-03T16:29:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -105,7 +105,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9719,
+        "recency": 0.9087,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -113,7 +113,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1345,
+      "hot_score": 7.6053,
       "available": true
     },
     {
@@ -127,7 +127,7 @@
       "url": "https://www.soompi.com/article/1867870wpp/watch-danielle-marsh-shares-life-update-with-first-video-on-personal-youtube-channel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T08:31:54Z",
-      "collected_at": "2026-09-03T11:20:09Z",
+      "collected_at": "2026-09-03T16:29:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -166,7 +166,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9625,
+        "recency": 0.9005,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -174,7 +174,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0555,
+      "hot_score": 7.5362,
       "available": true
     },
     {
@@ -188,7 +188,7 @@
       "url": "https://www.koreaboo.com/news/newjeans-danielle-first-video-update-official-future-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T07:40:17Z",
-      "collected_at": "2026-09-03T11:20:09Z",
+      "collected_at": "2026-09-03T16:29:24Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -227,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9516,
+        "recency": 0.8909,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -235,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9639,
+      "hot_score": 7.456,
       "available": true
     },
     {
@@ -249,7 +249,7 @@
       "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T17:58:51Z",
-      "collected_at": "2026-09-03T11:20:09Z",
+      "collected_at": "2026-09-03T16:29:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -288,7 +288,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8058,
+        "recency": 0.7618,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -296,7 +296,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7437,
+      "hot_score": 6.3759,
       "available": true
     }
   ]
