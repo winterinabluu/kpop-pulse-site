@@ -1,15 +1,243 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-03T04:37:33Z",
+  "generated_at": "2026-09-03T11:20:09Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 2,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:84e52fc379b954f0",
+      "platform": "news",
+      "platform_item_id": "84e52fc379b954f0",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Top Fourth-Gen Idol’s Album Sales Mocked Following “Shady” Tweets Linked To LE SSERAFIM",
+      "description": "The tweets sparked huge controversy.",
+      "url": "https://www.koreaboo.com/news/top-fourth-gen-idols-album-sales-mocked-following-controversy-linked-le-sserafim/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-03T10:05:19Z",
+      "collected_at": "2026-09-03T11:20:09Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.983,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8735,
+      "available": true
+    },
+    {
+      "id": "news:soompi:72d2ec6e26204d75",
+      "platform": "news",
+      "platform_item_id": "72d2ec6e26204d75",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Kian84, Kim Yeon Koung, And Kazuha Praise Lee Junho’s Diligence In “Kian’s Bizarre B&B”",
+      "description": "Lee Junho has dished on his chemistry with his fellow cast members in “Kian’s Bizarre B&B” Season 2! “Kian’s Bizarre B&B” is a Netflix variety show in which Kian84 and his castmates run a one-of-a-kind guesthouse. Season 1 featured Kian84, BTS’s Jin, and Ji Ye Eun operating a unique lodging on the scenic island of… Continue reading Kian84, Kim Yeon Koung, And Kazuha Praise Lee Junho’s Diligence In “Kian’s Bizarre B&B” The post Kian84, Kim Yeon Koung, And Kazuha Praise Lee Junho’s Diligence In “Kian’s Bizarre B&B” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1867812wpp/kian84-kim-yeon-koung-and-kazuha-praise-lee-junhos-diligence-in-kians-bizarre-bb",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-03T09:15:28Z",
+      "collected_at": "2026-09-03T11:20:09Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "kazuha"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "kazuha",
+          "alias": "Kazuha",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9719,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1345,
+      "available": true
+    },
+    {
+      "id": "news:soompi:e2bc1721a28cf532",
+      "platform": "news",
+      "platform_item_id": "e2bc1721a28cf532",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: Danielle Marsh Shares Life Update With First Video On Personal YouTube Channel",
+      "description": "Former NewJeans member Danielle has shared an update on what she has been up to recently! On September 3, Danielle uploaded a video titled “Detour” to her personal YouTube channel. In her first YouTube video, Danielle appears on camera dressed casually and shares an update on her life. She reveals that she is currently in… Continue reading Watch: Danielle Marsh Shares Life Update With First Video On Personal YouTube Channel The post Watch: Danielle Marsh Shares Life Update With First Video On Personal YouTube Channel appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1867870wpp/watch-danielle-marsh-shares-life-update-with-first-video-on-personal-youtube-channel",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-03T08:31:54Z",
+      "collected_at": "2026-09-03T11:20:09Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [
+        "danielle"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "danielle",
+          "alias": "Danielle",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9625,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0555,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:c61c4417157e8820",
+      "platform": "news",
+      "platform_item_id": "c61c4417157e8820",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Former NewJeans’ Danielle Sparks Shock With First YouTube Update Speaking About Future Plans",
+      "description": "Netizens were very emotional!",
+      "url": "https://www.koreaboo.com/news/newjeans-danielle-first-video-update-official-future-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-03T07:40:17Z",
+      "collected_at": "2026-09-03T11:20:09Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [
+        "danielle"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "danielle",
+          "alias": "Danielle",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9516,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9639,
+      "available": true
+    },
     {
       "id": "news:soompi:1fc23c5e7760b711",
       "platform": "news",
@@ -21,7 +249,7 @@
       "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T17:58:51Z",
-      "collected_at": "2026-09-03T04:37:33Z",
+      "collected_at": "2026-09-03T11:20:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +288,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8712,
+        "recency": 0.8058,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,68 +296,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2912,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:3089670b33f990c0",
-      "platform": "news",
-      "platform_item_id": "3089670b33f990c0",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Bruno Mars Gets Brutally Honest About Possibly Not Performing With BLACKPINK’s Rosé’s Again",
-      "description": "Global pop star Bruno Mars, who is scheduled to perform in Korea in 2027, has publicly proposed a duet stage with BLACKPINK member Rosé. Recently, a video titled “Went to…",
-      "url": "https://www.koreaboo.com/news/bruno-mars-brutally-honest-possibly-not-performing-blackpink-rose/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-02T16:04:32Z",
-      "collected_at": "2026-09-03T04:37:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "rose"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "rose",
-          "alias": "Rosé",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8516,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.1269,
+      "hot_score": 6.7437,
       "available": true
     }
   ]
