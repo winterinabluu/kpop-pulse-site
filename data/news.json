@@ -1,67 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-03T16:29:24Z",
+  "generated_at": "2026-09-03T21:05:21Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:84e52fc379b954f0",
-      "platform": "news",
-      "platform_item_id": "84e52fc379b954f0",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Top Fourth-Gen Idol’s Album Sales Mocked Following “Shady” Tweets Linked To LE SSERAFIM",
-      "description": "The tweets sparked huge controversy.",
-      "url": "https://www.koreaboo.com/news/top-fourth-gen-idols-album-sales-mocked-following-controversy-linked-le-sserafim/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-03T10:05:19Z",
-      "collected_at": "2026-09-03T16:29:24Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9183,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.4216,
-      "available": true
-    },
     {
       "id": "news:soompi:72d2ec6e26204d75",
       "platform": "news",
@@ -73,7 +21,7 @@
       "url": "https://www.soompi.com/article/1867812wpp/kian84-kim-yeon-koung-and-kazuha-praise-lee-junhos-diligence-in-kians-bizarre-bb",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T09:15:28Z",
-      "collected_at": "2026-09-03T16:29:24Z",
+      "collected_at": "2026-09-03T21:05:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -105,7 +53,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9087,
+        "recency": 0.8589,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -113,7 +61,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6053,
+      "hot_score": 7.1881,
       "available": true
     },
     {
@@ -127,7 +75,7 @@
       "url": "https://www.soompi.com/article/1867870wpp/watch-danielle-marsh-shares-life-update-with-first-video-on-personal-youtube-channel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T08:31:54Z",
-      "collected_at": "2026-09-03T16:29:24Z",
+      "collected_at": "2026-09-03T21:05:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -166,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9005,
+        "recency": 0.8515,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -174,68 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5362,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:c61c4417157e8820",
-      "platform": "news",
-      "platform_item_id": "c61c4417157e8820",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Former NewJeans’ Danielle Sparks Shock With First YouTube Update Speaking About Future Plans",
-      "description": "Netizens were very emotional!",
-      "url": "https://www.koreaboo.com/news/newjeans-danielle-first-video-update-official-future-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-03T07:40:17Z",
-      "collected_at": "2026-09-03T16:29:24Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "newjeans"
-      ],
-      "matched_members": [
-        "danielle"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "danielle",
-          "alias": "Danielle",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8909,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.456,
+      "hot_score": 7.1263,
       "available": true
     },
     {
@@ -249,7 +136,7 @@
       "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T17:58:51Z",
-      "collected_at": "2026-09-03T16:29:24Z",
+      "collected_at": "2026-09-03T21:05:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -288,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7618,
+        "recency": 0.7265,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -296,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3759,
+      "hot_score": 6.0801,
       "available": true
     }
   ]
