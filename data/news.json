@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-02T21:05:57Z",
+  "generated_at": "2026-09-03T04:37:33Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T17:58:51Z",
-      "collected_at": "2026-09-02T21:05:57Z",
+      "collected_at": "2026-09-03T04:37:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9585,
+        "recency": 0.8712,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0218,
+      "hot_score": 7.2912,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/bruno-mars-brutally-honest-possibly-not-performing-blackpink-rose/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T16:04:32Z",
-      "collected_at": "2026-09-02T21:05:57Z",
+      "collected_at": "2026-09-03T04:37:33Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9348,
+        "recency": 0.8516,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8233,
+      "hot_score": 7.1269,
       "available": true
     }
   ]
