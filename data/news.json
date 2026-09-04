@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-03T21:05:21Z",
+  "generated_at": "2026-09-04T04:39:10Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:d1cc0078e9b81021",
+      "platform": "news",
+      "platform_item_id": "d1cc0078e9b81021",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Lisa Opens Up About Dating, Sparks Divided Response",
+      "description": "Fans had mixed reactions.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-opens-dating-in-kpop-industry/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-04T02:55:22Z",
+      "collected_at": "2026-09-04T04:39:10Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9765,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1728,
+      "available": true
+    },
     {
       "id": "news:soompi:72d2ec6e26204d75",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1867812wpp/kian84-kim-yeon-koung-and-kazuha-praise-lee-junhos-diligence-in-kians-bizarre-bb",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T09:15:28Z",
-      "collected_at": "2026-09-03T21:05:21Z",
+      "collected_at": "2026-09-04T04:39:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -53,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8589,
+        "recency": 0.7878,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -61,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1881,
+      "hot_score": 6.5932,
       "available": true
     },
     {
@@ -75,7 +136,7 @@
       "url": "https://www.soompi.com/article/1867870wpp/watch-danielle-marsh-shares-life-update-with-first-video-on-personal-youtube-channel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T08:31:54Z",
-      "collected_at": "2026-09-03T21:05:21Z",
+      "collected_at": "2026-09-04T04:39:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8515,
+        "recency": 0.7816,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1263,
+      "hot_score": 6.5412,
       "available": true
     },
     {
@@ -136,7 +197,7 @@
       "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T17:58:51Z",
-      "collected_at": "2026-09-03T21:05:21Z",
+      "collected_at": "2026-09-04T04:39:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -175,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7265,
+        "recency": 0.675,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -183,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0801,
+      "hot_score": 5.649,
       "available": true
     }
   ]
