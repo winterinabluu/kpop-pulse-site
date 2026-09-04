@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-04T16:24:53Z",
+  "generated_at": "2026-09-04T20:47:54Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/aespa-karinas-unedited-thigh-size-in-viral-photos-sparks-shock/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-04T15:36:20Z",
-      "collected_at": "2026-09-04T16:24:53Z",
+      "collected_at": "2026-09-04T20:47:54Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9327,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.8062,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1868204wpp/ives-an-yu-jin-to-participate-in-hong-kong-concert-without-choreography-due-to-knee-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-04T11:37:42Z",
-      "collected_at": "2026-09-04T16:24:53Z",
+      "collected_at": "2026-09-04T20:47:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9377,
+        "recency": 0.887,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,68 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5567,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:520099a05290e63d",
-      "platform": "news",
-      "platform_item_id": "520099a05290e63d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa’s Recent Comments Spark Speculations About Past Relationships — Including BTS Member",
-      "description": "They sparked major reactions.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisas-recent-comments-spark-speculations-past-relationships-including-bts-member/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-04T10:05:44Z",
-      "collected_at": "2026-09-04T16:24:53Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9193,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.6939,
+      "hot_score": 6.2026,
       "available": true
     },
     {
@@ -195,7 +134,7 @@
       "url": "https://www.soompi.com/article/1867812wpp/kian84-kim-yeon-koung-and-kazuha-praise-lee-junhos-diligence-in-kians-bizarre-bb",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T09:15:28Z",
-      "collected_at": "2026-09-04T16:24:53Z",
+      "collected_at": "2026-09-04T20:47:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -227,7 +166,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.698,
+        "recency": 0.6695,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -235,7 +174,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8415,
+      "hot_score": 5.6033,
       "available": true
     },
     {
@@ -249,7 +188,7 @@
       "url": "https://www.soompi.com/article/1867870wpp/watch-danielle-marsh-shares-life-update-with-first-video-on-personal-youtube-channel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T08:31:54Z",
-      "collected_at": "2026-09-04T16:24:53Z",
+      "collected_at": "2026-09-04T20:47:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -288,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6931,
+        "recency": 0.665,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -296,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8006,
+      "hot_score": 5.5658,
       "available": true
     },
     {
@@ -310,7 +249,7 @@
       "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T17:58:51Z",
-      "collected_at": "2026-09-04T16:24:53Z",
+      "collected_at": "2026-09-04T20:47:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -349,7 +288,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6079,
+        "recency": 0.5862,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -357,7 +296,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.088,
+      "hot_score": 4.9064,
       "available": true
     }
   ]
