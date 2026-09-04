@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-04T04:39:10Z",
+  "generated_at": "2026-09-04T11:23:13Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:d1cc0078e9b81021",
+      "id": "news:koreaboo:520099a05290e63d",
       "platform": "news",
-      "platform_item_id": "d1cc0078e9b81021",
+      "platform_item_id": "520099a05290e63d",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Opens Up About Dating, Sparks Divided Response",
-      "description": "Fans had mixed reactions.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-opens-dating-in-kpop-industry/",
+      "title": "BLACKPINK Lisa’s Recent Comments Spark Speculations About Past Relationships — Including BTS Member",
+      "description": "They sparked major reactions.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisas-recent-comments-spark-speculations-past-relationships-including-bts-member/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-04T02:55:22Z",
-      "collected_at": "2026-09-04T04:39:10Z",
+      "published_at": "2026-09-04T10:05:44Z",
+      "collected_at": "2026-09-04T11:23:13Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9765,
+        "recency": 0.9824,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,68 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1728,
+      "hot_score": 8.2217,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:3c3e7f9cb8bd013d",
+      "platform": "news",
+      "platform_item_id": "3c3e7f9cb8bd013d",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Jennie’s IRL Visuals And Proportions Come Under Malicious Criticism In Paparazzi Photos",
+      "description": "\"Shady cameraman...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-visuals-proportions-paparazzi-malicious-criticism/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-04T09:40:32Z",
+      "collected_at": "2026-09-04T11:23:13Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9768,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1748,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.soompi.com/article/1867812wpp/kian84-kim-yeon-koung-and-kazuha-praise-lee-junhos-diligence-in-kians-bizarre-bb",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T09:15:28Z",
-      "collected_at": "2026-09-04T04:39:10Z",
+      "collected_at": "2026-09-04T11:23:13Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7878,
+        "recency": 0.7337,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5932,
+      "hot_score": 6.1407,
       "available": true
     },
     {
@@ -136,7 +197,7 @@
       "url": "https://www.soompi.com/article/1867870wpp/watch-danielle-marsh-shares-life-update-with-first-video-on-personal-youtube-channel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T08:31:54Z",
-      "collected_at": "2026-09-04T04:39:10Z",
+      "collected_at": "2026-09-04T11:23:13Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -175,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7816,
+        "recency": 0.7283,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -183,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5412,
+      "hot_score": 6.0956,
       "available": true
     },
     {
@@ -197,7 +258,7 @@
       "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T17:58:51Z",
-      "collected_at": "2026-09-04T04:39:10Z",
+      "collected_at": "2026-09-04T11:23:13Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -236,7 +297,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.675,
+        "recency": 0.6349,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +305,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.649,
+      "hot_score": 5.3135,
       "available": true
     }
   ]
