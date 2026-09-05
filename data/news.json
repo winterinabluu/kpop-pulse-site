@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-05T10:40:00Z",
+  "generated_at": "2026-09-05T15:17:30Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/aespas-shockingly-empty-concert-venue-hit-brutal-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-05T08:43:08Z",
-      "collected_at": "2026-09-05T10:40:00Z",
+      "collected_at": "2026-09-05T15:17:30Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9737,
+        "recency": 0.9163,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,68 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8084,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:b403ecfb6aee3aa8",
-      "platform": "news",
-      "platform_item_id": "b403ecfb6aee3aa8",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa’s New Release Faces Serious Accusations From Syrian Artist",
-      "description": "She directly called out through a social media post.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-new-release-serious-accusations-syrian-artist/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-04T22:30:52Z",
-      "collected_at": "2026-09-05T10:40:00Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8556,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.1606,
+      "hot_score": 6.4076,
       "available": true
     },
     {
@@ -134,7 +73,7 @@
       "url": "https://www.soompi.com/article/1868204wpp/ives-an-yu-jin-to-participate-in-hong-kong-concert-without-choreography-due-to-knee-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-04T11:37:42Z",
-      "collected_at": "2026-09-05T10:40:00Z",
+      "collected_at": "2026-09-05T15:17:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7576,
+        "recency": 0.7224,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,7 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2975,
+      "hot_score": 5.0517,
       "available": true
     },
     {
@@ -186,7 +125,7 @@
       "url": "https://www.soompi.com/article/1867812wpp/kian84-kim-yeon-koung-and-kazuha-praise-lee-junhos-diligence-in-kians-bizarre-bb",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T09:15:28Z",
-      "collected_at": "2026-09-05T10:40:00Z",
+      "collected_at": "2026-09-05T15:17:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -218,7 +157,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.593,
+        "recency": 0.5713,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -226,7 +165,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9633,
+      "hot_score": 4.7811,
       "available": true
     },
     {
@@ -240,7 +179,7 @@
       "url": "https://www.soompi.com/article/1867870wpp/watch-danielle-marsh-shares-life-update-with-first-video-on-personal-youtube-channel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T08:31:54Z",
-      "collected_at": "2026-09-05T10:40:00Z",
+      "collected_at": "2026-09-05T15:17:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -279,7 +218,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5895,
+        "recency": 0.568,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -287,7 +226,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9338,
+      "hot_score": 4.7538,
       "available": true
     },
     {
@@ -301,7 +240,7 @@
       "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T17:58:51Z",
-      "collected_at": "2026-09-05T10:40:00Z",
+      "collected_at": "2026-09-05T15:17:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -340,7 +279,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5268,
+        "recency": 0.5095,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -348,7 +287,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.4086,
+      "hot_score": 4.2643,
       "available": true
     }
   ]
