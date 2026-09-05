@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-05T15:17:30Z",
+  "generated_at": "2026-09-05T20:25:32Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,17 +11,17 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:d60d1cab1c85c0b9",
+      "id": "news:koreaboo:24af34d4878a330b",
       "platform": "news",
-      "platform_item_id": "d60d1cab1c85c0b9",
+      "platform_item_id": "24af34d4878a330b",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa’s Shockingly Empty Concert Venue Hit With Brutal Reactions",
-      "description": "Tickets were heavily discounted weeks before the show.",
-      "url": "https://www.koreaboo.com/news/aespas-shockingly-empty-concert-venue-hit-brutal-reactions/",
+      "title": "aespa’s Concert Labeled “Worst Ever” After Numerous Issues",
+      "description": "Fans are considering legal action against the organizer.",
+      "url": "https://www.koreaboo.com/news/aespa-concert-labeled-worst-ever-after-numerous-issues/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-05T08:43:08Z",
-      "collected_at": "2026-09-05T15:17:30Z",
+      "published_at": "2026-09-05T19:00:36Z",
+      "collected_at": "2026-09-05T20:25:32Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9163,
+        "recency": 0.9807,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4076,
+      "hot_score": 6.8578,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1868204wpp/ives-an-yu-jin-to-participate-in-hong-kong-concert-without-choreography-due-to-knee-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-04T11:37:42Z",
-      "collected_at": "2026-09-05T15:17:30Z",
+      "collected_at": "2026-09-05T20:25:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7224,
+        "recency": 0.687,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0517,
+      "hot_score": 4.8042,
       "available": true
     },
     {
@@ -125,7 +125,7 @@
       "url": "https://www.soompi.com/article/1867812wpp/kian84-kim-yeon-koung-and-kazuha-praise-lee-junhos-diligence-in-kians-bizarre-bb",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T09:15:28Z",
-      "collected_at": "2026-09-05T15:17:30Z",
+      "collected_at": "2026-09-05T20:25:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -157,7 +157,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5713,
+        "recency": 0.5489,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -165,7 +165,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7811,
+      "hot_score": 4.594,
       "available": true
     },
     {
@@ -179,7 +179,7 @@
       "url": "https://www.soompi.com/article/1867870wpp/watch-danielle-marsh-shares-life-update-with-first-video-on-personal-youtube-channel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T08:31:54Z",
-      "collected_at": "2026-09-05T15:17:30Z",
+      "collected_at": "2026-09-05T20:25:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -218,7 +218,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.568,
+        "recency": 0.5459,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -226,7 +226,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7538,
+      "hot_score": 4.5687,
       "available": true
     },
     {
@@ -240,7 +240,7 @@
       "url": "https://www.soompi.com/article/1867609wpp/blackpinks-rose-talks-about-working-on-her-new-album-discovering-herself-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-02T17:58:51Z",
-      "collected_at": "2026-09-05T15:17:30Z",
+      "collected_at": "2026-09-05T20:25:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -279,7 +279,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5095,
+        "recency": 0.4917,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -287,7 +287,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.2643,
+      "hot_score": 4.1148,
       "available": true
     }
   ]
