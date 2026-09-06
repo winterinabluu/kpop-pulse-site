@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-06T04:45:04Z",
+  "generated_at": "2026-09-06T11:01:59Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:24af34d4878a330b",
+      "id": "news:koreaboo:2559d3eb99aded9d",
       "platform": "news",
-      "platform_item_id": "24af34d4878a330b",
+      "platform_item_id": "2559d3eb99aded9d",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa’s Concert Labeled “Worst Ever” After Numerous Issues",
-      "description": "Fans are considering legal action against the organizer.",
-      "url": "https://www.koreaboo.com/news/aespa-concert-labeled-worst-ever-after-numerous-issues/",
+      "title": "aespa Karina’s Recent Weight Gain Triggers Brutal Fanwar",
+      "description": "Karina has once again become a hot topic.",
+      "url": "https://www.koreaboo.com/news/aespa-karinas-recent-weight-gain-triggers-heated-debate/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-05T19:00:36Z",
-      "collected_at": "2026-09-06T04:45:04Z",
+      "published_at": "2026-09-06T09:08:29Z",
+      "collected_at": "2026-09-06T11:01:59Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -39,8 +39,10 @@
       "matched_groups": [
         "aespa"
       ],
-      "matched_members": [],
-      "match_confidence": "medium",
+      "matched_members": [
+        "karina"
+      ],
+      "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
@@ -48,18 +50,147 @@
           "alias": "aespa",
           "field": "title",
           "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "karina",
+          "alias": "Karina",
+          "field": "title",
+          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8808,
+        "recency": 0.9744,
         "views": 0,
-        "engagement": 3.9,
+        "engagement": 5.7,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.1593,
+      "hot_score": 8.155,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:07c9d3026e689d22",
+      "platform": "news",
+      "platform_item_id": "07c9d3026e689d22",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Lisa’s Intimate Photo With Thai Celeb Sparks Viral Dating Rumors",
+      "description": "They have known each other for more than a decade.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-intimate-photo-thai-celeb-sparks-viral-dating-rumors/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-06T08:50:12Z",
+      "collected_at": "2026-09-06T11:01:59Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9704,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1215,
+      "available": true
+    },
+    {
+      "id": "news:soompi:dd3b6ab029049fdc",
+      "platform": "news",
+      "platform_item_id": "dd3b6ab029049fdc",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Lisa’s “SaWaDiKa” Becomes Fastest MV Of 2026 To Hit 100 Million Views",
+      "description": "BLACKPINK’s Lisa’s latest music video has already soared past the 100 million mark on YouTube! On September 6 at around 1 p.m. KST, Lisa’s music video for her new pre-release single “SaWaDiKa” surpassed 100 million views on YouTube. “SaWaDiKa” is now the fastest music video of 2026 to hit the 100 million mark: the video… Continue reading BLACKPINK’s Lisa’s “SaWaDiKa” Becomes Fastest MV Of 2026 To Hit 100 Million Views The post BLACKPINK’s Lisa’s “SaWaDiKa” Becomes Fastest MV Of 2026 To Hit 100 Million Views appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1868342wpp/blackpinks-lisas-sawadika-becomes-fastest-mv-of-2026-to-hit-100-million-views",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-06T07:42:09Z",
+      "collected_at": "2026-09-06T11:01:59Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9558,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9992,
       "available": true
     },
     {
@@ -73,7 +204,7 @@
       "url": "https://www.soompi.com/article/1868204wpp/ives-an-yu-jin-to-participate-in-hong-kong-concert-without-choreography-due-to-knee-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-04T11:37:42Z",
-      "collected_at": "2026-09-06T04:45:04Z",
+      "collected_at": "2026-09-06T11:01:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6365,
+        "recency": 0.603,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.4506,
+      "hot_score": 4.2165,
       "available": true
     },
     {
@@ -125,7 +256,7 @@
       "url": "https://www.soompi.com/article/1867812wpp/kian84-kim-yeon-koung-and-kazuha-praise-lee-junhos-diligence-in-kians-bizarre-bb",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T09:15:28Z",
-      "collected_at": "2026-09-06T04:45:04Z",
+      "collected_at": "2026-09-06T11:01:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -157,7 +288,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5162,
+        "recency": 0.4939,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -165,7 +296,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3198,
+      "hot_score": 4.1337,
       "available": true
     },
     {
@@ -179,7 +310,7 @@
       "url": "https://www.soompi.com/article/1867870wpp/watch-danielle-marsh-shares-life-update-with-first-video-on-personal-youtube-channel",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-03T08:31:54Z",
-      "collected_at": "2026-09-06T04:45:04Z",
+      "collected_at": "2026-09-06T11:01:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -218,7 +349,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5135,
+        "recency": 0.4915,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -226,7 +357,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.2974,
+      "hot_score": 4.1132,
       "available": true
     }
   ]
