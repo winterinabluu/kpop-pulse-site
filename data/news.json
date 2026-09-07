@@ -1,27 +1,88 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-07T04:47:51Z",
+  "generated_at": "2026-09-07T12:40:24Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:6fc3eceef22f3104",
+      "id": "news:koreaboo:8679283b7a9fdc40",
       "platform": "news",
-      "platform_item_id": "6fc3eceef22f3104",
+      "platform_item_id": "8679283b7a9fdc40",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Top Actor Once Linked With BLACKPINK Lisa Announces Marriage",
-      "description": "Congratulations!",
-      "url": "https://www.koreaboo.com/news/kentaro-marriage-non-celebrity/",
+      "title": "aespa Karina’s “Two-Faced” Behavior Called Out At Recent Fan Event",
+      "description": "Fans criticized her.",
+      "url": "https://www.koreaboo.com/news/aespa-karina-called-two-faced-letter/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-07T00:28:40Z",
-      "collected_at": "2026-09-07T04:47:51Z",
+      "published_at": "2026-09-07T12:07:06Z",
+      "collected_at": "2026-09-07T12:40:24Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "karina"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "karina",
+          "alias": "Karina",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:aaf8f3f4589e8cb0",
+      "platform": "news",
+      "platform_item_id": "aaf8f3f4589e8cb0",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Jennie’s Recent Social Media Post Hit With Wave Of Brutal Backlash",
+      "description": "Netizens have been sharing concerns for a while.",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-recent-social-media-post-hit-wave-brutal-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-07T11:25:21Z",
+      "collected_at": "2026-09-07T12:40:24Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -40,7 +101,7 @@
         "blackpink"
       ],
       "matched_members": [
-        "lisa"
+        "jennie"
       ],
       "match_confidence": "high",
       "match_reason": [
@@ -53,14 +114,14 @@
         },
         {
           "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
+          "target_id": "jennie",
+          "alias": "Jennie",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9434,
+        "recency": 0.9829,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,244 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8955,
+      "hot_score": 8.2263,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:cc2e94fd5b07067c",
+      "platform": "news",
+      "platform_item_id": "cc2e94fd5b07067c",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa Giselle’s Unrecognizable Visuals Become Target Of Criticism In New Photoshoot",
+      "description": "Netizens were shocked.",
+      "url": "https://www.koreaboo.com/news/aespa-giselles-unrecognizable-visuals-become-target-criticism-in-new-photoshoot/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-07T10:00:09Z",
+      "collected_at": "2026-09-07T12:40:24Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "giselle"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "giselle",
+          "alias": "Giselle",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9642,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0698,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:1c2f5cb28654ef49",
+      "platform": "news",
+      "platform_item_id": "1c2f5cb28654ef49",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Reaction To NewJeans Haerin’s First Public Appearance Since Return Sparks Huge Response",
+      "description": "The idol recently returned to activities.",
+      "url": "https://www.koreaboo.com/news/newjeans-haerins-first-public-appearance-since-return-sparks-huge-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-07T09:20:36Z",
+      "collected_at": "2026-09-07T12:40:24Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [
+        "haerin"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "haerin",
+          "alias": "Haerin",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9558,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9992,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:a9ed7c6b756b8dd9",
+      "platform": "news",
+      "platform_item_id": "a9ed7c6b756b8dd9",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jennie Embroiled In Dating Rumors With Female Singer — Triggering Mixed Reactions",
+      "description": "Recent photos of the two renewed the rumors.",
+      "url": "https://www.koreaboo.com/news/blackpinks-jennie-embroiled-dating-rumors-female-singer-triggering-mixed-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-07T08:50:11Z",
+      "collected_at": "2026-09-07T12:40:24Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9494,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9457,
+      "available": true
+    },
+    {
+      "id": "news:soompi:b1484ddc3a2b5ec4",
+      "platform": "news",
+      "platform_item_id": "b1484ddc3a2b5ec4",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Enjoy Wintery Moments In “Kian’s Bizarre B&B 2” Teasers",
+      "description": "Season 2 of “Kian’s Bizarre B&B” has unveiled a new teaser and posters featuring its B&B staff! “Kian’s Bizarre B&B” is a Netflix variety show in which Kian84 and his castmates run a one-of-a-kind guesthouse. Season 1 featured Kian84, BTS’s Jin, and Ji Ye Eun operating a unique lodging on the scenic island of Ulleungdo, offering guests an unforgettable… Continue reading Watch: Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Enjoy Wintery Moments In “Kian’s Bizarre B&B 2” Teasers The post Watch: Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Enjoy Wintery Moments In “Kian’s Bizarre B&B 2” Teasers appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1868553wpp/watch-kian84-kim-yeon-koung-lee-junho-and-kazuha-enjoy-wintery-moments-in-kians-bizarre-bb-2-teasers",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-07T04:54:47Z",
+      "collected_at": "2026-09-07T12:40:24Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "kazuha"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "kazuha",
+          "alias": "Kazuha",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9027,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.555,
       "available": true
     },
     {
@@ -82,7 +380,7 @@
       "url": "https://www.soompi.com/article/1868433wpp/enhypen-stray-kids-cortis-ateez-bts-le-sserafim-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-06T17:32:47Z",
-      "collected_at": "2026-09-07T04:47:51Z",
+      "collected_at": "2026-09-07T12:40:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -128,7 +426,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8649,
+        "recency": 0.7901,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -136,68 +434,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7675,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:e36f447133a35e4a",
-      "platform": "news",
-      "platform_item_id": "e36f447133a35e4a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Jihyo Dragged Into Sister TUIDE Seoyeon’s Racist Controversy",
-      "description": "The two incidents happened 8 years apart.",
-      "url": "https://www.koreaboo.com/stories/twices-jihyo-dragged-sister-tuide-seoyeons-racist-controversy/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-06T12:58:03Z",
-      "collected_at": "2026-09-07T04:47:51Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jihyo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jihyo",
-          "alias": "Jihyo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8198,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.8608,
+      "hot_score": 7.0962,
       "available": true
     },
     {
@@ -211,7 +448,7 @@
       "url": "https://www.soompi.com/article/1868342wpp/blackpinks-lisas-sawadika-becomes-fastest-mv-of-2026-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-06T07:42:09Z",
-      "collected_at": "2026-09-07T04:47:51Z",
+      "collected_at": "2026-09-07T12:40:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -250,7 +487,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7734,
+        "recency": 0.7131,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -258,7 +495,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4728,
+      "hot_score": 5.9679,
       "available": true
     },
     {
@@ -272,7 +509,7 @@
       "url": "https://www.soompi.com/article/1868204wpp/ives-an-yu-jin-to-participate-in-hong-kong-concert-without-choreography-due-to-knee-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-04T11:37:42Z",
-      "collected_at": "2026-09-07T04:47:51Z",
+      "collected_at": "2026-09-07T12:40:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -302,7 +539,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5249,
+        "recency": 0.4964,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -310,7 +547,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.6704,
+      "hot_score": 3.4711,
       "available": true
     }
   ]
