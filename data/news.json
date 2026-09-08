@@ -1,15 +1,135 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-08T11:24:01Z",
+  "generated_at": "2026-09-08T16:41:01Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:643d4f5a9b92f32a",
+      "platform": "news",
+      "platform_item_id": "643d4f5a9b92f32a",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "LE SSERAFIM To Return To “The Jennifer Hudson Show” This Week",
+      "description": "LE SSERAFIM is returning to “The Jennifer Hudson Show”! On September 7 local time, it was officially announced that LE SSERAFIM would be making a guest appearance on the popular U.S. talk show. Taping for LE SSERAFIM’s episode of “The Jennifer Hudson Show,” which will also feature actress Danielle Brooks, will take place on September… Continue reading LE SSERAFIM To Return To “The Jennifer Hudson Show” This Week The post LE SSERAFIM To Return To “The Jennifer Hudson Show” This Week appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-08T14:10:55Z",
+      "collected_at": "2026-09-08T16:41:01Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "danielle",
+          "alias": "Danielle",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9664,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.7578,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:005063ae4da61ec8",
+      "platform": "news",
+      "platform_item_id": "005063ae4da61ec8",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "i-dle’s Miyeon Gets Reported To The Government",
+      "description": "A citizen made a formal complaint.",
+      "url": "https://www.koreaboo.com/news/idle-miyeon-reported-government/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-08T14:03:57Z",
+      "collected_at": "2026-09-08T16:41:01Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "miyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "miyeon",
+          "alias": "Miyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9649,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0756,
+      "available": true
+    },
     {
       "id": "news:soompi:b1484ddc3a2b5ec4",
       "platform": "news",
@@ -21,7 +141,7 @@
       "url": "https://www.soompi.com/article/1868553wpp/watch-kian84-kim-yeon-koung-lee-junho-and-kazuha-enjoy-wintery-moments-in-kians-bizarre-bb-2-teasers",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-07T04:54:47Z",
-      "collected_at": "2026-09-08T11:24:01Z",
+      "collected_at": "2026-09-08T16:41:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -53,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7025,
+        "recency": 0.6681,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -61,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8796,
+      "hot_score": 5.5914,
       "available": true
     },
     {
@@ -75,7 +195,7 @@
       "url": "https://www.soompi.com/article/1868433wpp/enhypen-stray-kids-cortis-ateez-bts-le-sserafim-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-06T17:32:47Z",
-      "collected_at": "2026-09-08T11:24:01Z",
+      "collected_at": "2026-09-08T16:41:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +241,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6324,
+        "recency": 0.6043,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -129,68 +249,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6797,
-      "available": true
-    },
-    {
-      "id": "news:soompi:dd3b6ab029049fdc",
-      "platform": "news",
-      "platform_item_id": "dd3b6ab029049fdc",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa’s “SaWaDiKa” Becomes Fastest MV Of 2026 To Hit 100 Million Views",
-      "description": "BLACKPINK’s Lisa’s latest music video has already soared past the 100 million mark on YouTube! On September 6 at around 1 p.m. KST, Lisa’s music video for her new pre-release single “SaWaDiKa” surpassed 100 million views on YouTube. “SaWaDiKa” is now the fastest music video of 2026 to hit the 100 million mark: the video… Continue reading BLACKPINK’s Lisa’s “SaWaDiKa” Becomes Fastest MV Of 2026 To Hit 100 Million Views The post BLACKPINK’s Lisa’s “SaWaDiKa” Becomes Fastest MV Of 2026 To Hit 100 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1868342wpp/blackpinks-lisas-sawadika-becomes-fastest-mv-of-2026-to-hit-100-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-06T07:42:09Z",
-      "collected_at": "2026-09-08T11:24:01Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5821,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.8714,
+      "hot_score": 5.4278,
       "available": true
     }
   ]
