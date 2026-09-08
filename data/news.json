@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-08T16:41:01Z",
+  "generated_at": "2026-09-08T21:12:51Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,58 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:31518b8e6a35cb66",
+      "platform": "news",
+      "platform_item_id": "31518b8e6a35cb66",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "NCT 127, ALPHA DRIVE ONE, RESCENE, ILLIT, And More Top Circle Weekly Charts",
+      "description": "Circle Chart has revealed its chart rankings for the week of August 23 to 29! NCT 127 achieved a double crown on this week’s charts, topping both the overall digital chart and the digital download chart with their new title track “Blingy.” Album Chart ALPHA DRIVE ONE topped this week’s physical album chart with their… Continue reading NCT 127, ALPHA DRIVE ONE, RESCENE, ILLIT, And More Top Circle Weekly Charts The post NCT 127, ALPHA DRIVE ONE, RESCENE, ILLIT, And More Top Circle Weekly Charts appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-08T19:36:10Z",
+      "collected_at": "2026-09-08T21:12:51Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9781,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8395,
+      "available": true
+    },
     {
       "id": "news:soompi:643d4f5a9b92f32a",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-08T16:41:01Z",
+      "collected_at": "2026-09-08T21:12:51Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -58,7 +110,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9664,
+        "recency": 0.911,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -66,68 +118,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7578,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:005063ae4da61ec8",
-      "platform": "news",
-      "platform_item_id": "005063ae4da61ec8",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "i-dle’s Miyeon Gets Reported To The Government",
-      "description": "A citizen made a formal complaint.",
-      "url": "https://www.koreaboo.com/news/idle-miyeon-reported-government/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-08T14:03:57Z",
-      "collected_at": "2026-09-08T16:41:01Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [
-        "miyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "miyeon",
-          "alias": "Miyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9649,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0756,
+      "hot_score": 6.3704,
       "available": true
     },
     {
@@ -141,7 +132,7 @@
       "url": "https://www.soompi.com/article/1868553wpp/watch-kian84-kim-yeon-koung-lee-junho-and-kazuha-enjoy-wintery-moments-in-kians-bizarre-bb-2-teasers",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-07T04:54:47Z",
-      "collected_at": "2026-09-08T16:41:01Z",
+      "collected_at": "2026-09-08T21:12:51Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6681,
+        "recency": 0.6411,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5914,
+      "hot_score": 5.3658,
       "available": true
     },
     {
@@ -195,7 +186,7 @@
       "url": "https://www.soompi.com/article/1868433wpp/enhypen-stray-kids-cortis-ateez-bts-le-sserafim-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-06T17:32:47Z",
-      "collected_at": "2026-09-08T16:41:01Z",
+      "collected_at": "2026-09-08T21:12:51Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -241,7 +232,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6043,
+        "recency": 0.5822,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -249,7 +240,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4278,
+      "hot_score": 5.229,
       "available": true
     }
   ]
