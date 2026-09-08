@@ -1,137 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-08T04:43:13Z",
+  "generated_at": "2026-09-08T11:24:01Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:8679283b7a9fdc40",
-      "platform": "news",
-      "platform_item_id": "8679283b7a9fdc40",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa Karina’s “Two-Faced” Behavior Called Out At Recent Fan Event",
-      "description": "Fans criticized her.",
-      "url": "https://www.koreaboo.com/news/aespa-karina-called-two-faced-letter/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-07T12:07:06Z",
-      "collected_at": "2026-09-08T04:43:13Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "karina"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "karina",
-          "alias": "Karina",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8126,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.801,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:aaf8f3f4589e8cb0",
-      "platform": "news",
-      "platform_item_id": "aaf8f3f4589e8cb0",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jennie’s Recent Social Media Post Hit With Wave Of Brutal Backlash",
-      "description": "Netizens have been sharing concerns for a while.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-recent-social-media-post-hit-wave-brutal-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-07T11:25:21Z",
-      "collected_at": "2026-09-08T04:43:13Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8063,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.748,
-      "available": true
-    },
     {
       "id": "news:soompi:b1484ddc3a2b5ec4",
       "platform": "news",
@@ -143,7 +21,7 @@
       "url": "https://www.soompi.com/article/1868553wpp/watch-kian84-kim-yeon-koung-lee-junho-and-kazuha-enjoy-wintery-moments-in-kians-bizarre-bb-2-teasers",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-07T04:54:47Z",
-      "collected_at": "2026-09-08T04:43:13Z",
+      "collected_at": "2026-09-08T11:24:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -175,7 +53,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7515,
+        "recency": 0.7025,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -183,7 +61,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2896,
+      "hot_score": 5.8796,
       "available": true
     },
     {
@@ -197,7 +75,7 @@
       "url": "https://www.soompi.com/article/1868433wpp/enhypen-stray-kids-cortis-ateez-bts-le-sserafim-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-06T17:32:47Z",
-      "collected_at": "2026-09-08T04:43:13Z",
+      "collected_at": "2026-09-08T11:24:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6718,
+        "recency": 0.6324,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -251,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0337,
+      "hot_score": 5.6797,
       "available": true
     },
     {
@@ -265,7 +143,7 @@
       "url": "https://www.soompi.com/article/1868342wpp/blackpinks-lisas-sawadika-becomes-fastest-mv-of-2026-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-06T07:42:09Z",
-      "collected_at": "2026-09-08T04:43:13Z",
+      "collected_at": "2026-09-08T11:24:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -304,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6153,
+        "recency": 0.5821,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -312,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1495,
+      "hot_score": 4.8714,
       "available": true
     }
   ]
