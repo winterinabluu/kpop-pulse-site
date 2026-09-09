@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-09T11:28:54Z",
+  "generated_at": "2026-09-09T16:41:53Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T08:56:51Z",
-      "collected_at": "2026-09-09T11:28:54Z",
+      "collected_at": "2026-09-09T16:41:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.966,
+        "recency": 0.9028,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7549,
+      "hot_score": 6.313,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/bts-photo-top-korean-star-leads-hate-involving-blackpinks-lisa/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T08:35:23Z",
-      "collected_at": "2026-09-09T11:28:54Z",
+      "collected_at": "2026-09-09T16:41:53Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9614,
+        "recency": 0.8988,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.046,
+      "hot_score": 7.5221,
       "available": true
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.koreaboo.com/news/controversy-ive-jang-wonyoung-yujin-exhibition-group-event/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T05:54:56Z",
-      "collected_at": "2026-09-09T11:28:54Z",
+      "collected_at": "2026-09-09T16:41:53Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -195,7 +195,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9282,
+        "recency": 0.8697,
         "views": 0,
         "engagement": 7.5,
         "source_weight": 0.55
@@ -203,7 +203,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.7405,
+      "hot_score": 8.1898,
       "available": true
     },
     {
@@ -217,7 +217,7 @@
       "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-09T11:28:54Z",
+      "collected_at": "2026-09-09T16:41:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -247,7 +247,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8193,
+        "recency": 0.7734,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -255,7 +255,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7291,
+      "hot_score": 5.4081,
       "available": true
     },
     {
@@ -269,7 +269,7 @@
       "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-09T11:28:54Z",
+      "collected_at": "2026-09-09T16:41:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -306,7 +306,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7717,
+        "recency": 0.7308,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -314,7 +314,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3962,
+      "hot_score": 5.1105,
       "available": true
     }
   ]
