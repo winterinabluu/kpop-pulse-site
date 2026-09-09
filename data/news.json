@@ -1,15 +1,211 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-09T04:47:35Z",
+  "generated_at": "2026-09-09T11:28:54Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:28fe47ae0dbd717c",
+      "platform": "news",
+      "platform_item_id": "28fe47ae0dbd717c",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "STARSHIP Reveals Defendant Sentenced To Prison Over Fabricated Videos Targeting IVE + Files More Criminal Complaints",
+      "description": "STARSHIP Entertainment has shared an update on its ongoing legal action against malicious posts and content targeting IVE. On September 9, the agency announced that a defendant who had been indicted on criminal charges, including distributing fabricated videos targeting one of its artists, was recently sentenced to imprisonment by the court. STARSHIP Entertainment also revealed… Continue reading STARSHIP Reveals Defendant Sentenced To Prison Over Fabricated Videos Targeting IVE + Files More Criminal Complaints The post STARSHIP Reveals Defendant Sentenced To Prison Over Fabricated Videos Targeting IVE + Files More Criminal Complaints appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-09T08:56:51Z",
+      "collected_at": "2026-09-09T11:28:54Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.966,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.7549,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:bdcb60919ce03f36",
+      "platform": "news",
+      "platform_item_id": "bdcb60919ce03f36",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS Photo With Top Korean Star Leads To Hate — Involving BLACKPINK’s Lisa",
+      "description": "Comments were brutal.",
+      "url": "https://www.koreaboo.com/news/bts-photo-top-korean-star-leads-hate-involving-blackpinks-lisa/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-09T08:35:23Z",
+      "collected_at": "2026-09-09T11:28:54Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9614,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.046,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:c5c76da0b70bab10",
+      "platform": "news",
+      "platform_item_id": "c5c76da0b70bab10",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Controversy Erupts Around IVE Jang Wonyoung And An Yujin’s Exhibition And Group Event",
+      "description": "Fans are growing increasingly dissatisfied over the exhibition of IVE members Jang Wonyoung and An Yujin as well as a group event. The two IVE members have been holding the An-Young:…",
+      "url": "https://www.koreaboo.com/news/controversy-ive-jang-wonyoung-yujin-exhibition-group-event/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-09T05:54:56Z",
+      "collected_at": "2026-09-09T11:28:54Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung",
+        "yujin"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "yujin",
+          "alias": "Yujin",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "yujin",
+          "alias": "An Yujin",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Jang Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9282,
+        "views": 0,
+        "engagement": 7.5,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.7405,
+      "available": true
+    },
     {
       "id": "news:soompi:31518b8e6a35cb66",
       "platform": "news",
@@ -21,7 +217,7 @@
       "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-09T04:47:35Z",
+      "collected_at": "2026-09-09T11:28:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +247,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8868,
+        "recency": 0.8193,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +255,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2011,
+      "hot_score": 5.7291,
       "available": true
     },
     {
@@ -73,7 +269,7 @@
       "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-09T04:47:35Z",
+      "collected_at": "2026-09-09T11:28:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -110,7 +306,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8313,
+        "recency": 0.7717,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -118,61 +314,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.813,
-      "available": true
-    },
-    {
-      "id": "news:soompi:b1484ddc3a2b5ec4",
-      "platform": "news",
-      "platform_item_id": "b1484ddc3a2b5ec4",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Enjoy Wintery Moments In “Kian’s Bizarre B&B 2” Teasers",
-      "description": "Season 2 of “Kian’s Bizarre B&B” has unveiled a new teaser and posters featuring its B&B staff! “Kian’s Bizarre B&B” is a Netflix variety show in which Kian84 and his castmates run a one-of-a-kind guesthouse. Season 1 featured Kian84, BTS’s Jin, and Ji Ye Eun operating a unique lodging on the scenic island of Ulleungdo, offering guests an unforgettable… Continue reading Watch: Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Enjoy Wintery Moments In “Kian’s Bizarre B&B 2” Teasers The post Watch: Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Enjoy Wintery Moments In “Kian’s Bizarre B&B 2” Teasers appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1868553wpp/watch-kian84-kim-yeon-koung-lee-junho-and-kazuha-enjoy-wintery-moments-in-kians-bizarre-bb-2-teasers",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-07T04:54:47Z",
-      "collected_at": "2026-09-09T04:47:35Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "kazuha"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "kazuha",
-          "alias": "Kazuha",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.6006,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.0266,
+      "hot_score": 5.3962,
       "available": true
     }
   ]
