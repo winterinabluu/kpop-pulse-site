@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-08T21:12:51Z",
+  "generated_at": "2026-09-09T04:47:35Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-08T21:12:51Z",
+      "collected_at": "2026-09-09T04:47:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9781,
+        "recency": 0.8868,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8395,
+      "hot_score": 6.2011,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-08T21:12:51Z",
+      "collected_at": "2026-09-09T04:47:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -110,7 +110,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.911,
+        "recency": 0.8313,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -118,7 +118,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3704,
+      "hot_score": 5.813,
       "available": true
     },
     {
@@ -132,7 +132,7 @@
       "url": "https://www.soompi.com/article/1868553wpp/watch-kian84-kim-yeon-koung-lee-junho-and-kazuha-enjoy-wintery-moments-in-kians-bizarre-bb-2-teasers",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-07T04:54:47Z",
-      "collected_at": "2026-09-08T21:12:51Z",
+      "collected_at": "2026-09-09T04:47:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6411,
+        "recency": 0.6006,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -172,75 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3658,
-      "available": true
-    },
-    {
-      "id": "news:soompi:588b01a542943d7d",
-      "platform": "news",
-      "platform_item_id": "588b01a542943d7d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ENHYPEN, Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, aespa, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on September 5! ENHYPEN’s new mini album “THE SIN : BLISS” debuted at No. 1 on this week’s chart, in addition to becoming the group’s first album ever to reach No. 1 on the Billboard 200. After two weeks at No. 1, Stray Kids’… Continue reading ENHYPEN, Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, aespa, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart The post ENHYPEN, Stray Kids, CORTIS, ATEEZ, BTS, LE SSERAFIM, aespa, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1868433wpp/enhypen-stray-kids-cortis-ateez-bts-le-sserafim-aespa-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-06T17:32:47Z",
-      "collected_at": "2026-09-08T21:12:51Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa",
-        "illit",
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5822,
-        "views": 0,
-        "engagement": 6.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.229,
+      "hot_score": 5.0266,
       "available": true
     }
   ]
