@@ -1,79 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-09T16:41:53Z",
+  "generated_at": "2026-09-09T20:58:10Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:soompi:28fe47ae0dbd717c",
+      "id": "news:koreaboo:c34a5cc65d601a9d",
       "platform": "news",
-      "platform_item_id": "28fe47ae0dbd717c",
+      "platform_item_id": "c34a5cc65d601a9d",
       "source_type": "media",
       "content_kind": "news",
-      "title": "STARSHIP Reveals Defendant Sentenced To Prison Over Fabricated Videos Targeting IVE + Files More Criminal Complaints",
-      "description": "STARSHIP Entertainment has shared an update on its ongoing legal action against malicious posts and content targeting IVE. On September 9, the agency announced that a defendant who had been indicted on criminal charges, including distributing fabricated videos targeting one of its artists, was recently sentenced to imprisonment by the court. STARSHIP Entertainment also revealed… Continue reading STARSHIP Reveals Defendant Sentenced To Prison Over Fabricated Videos Targeting IVE + Files More Criminal Complaints The post STARSHIP Reveals Defendant Sentenced To Prison Over Fabricated Videos Targeting IVE + Files More Criminal Complaints appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
+      "title": "Lisa’s Comments About BLACKPINK’s Hiatus Spark Anger Amid Disbandment Rumors",
+      "description": "Rumors have been going viral.",
+      "url": "https://www.koreaboo.com/news/lisa-comments-blackpinks-hiatus-spark-anger-amid-disbandment-rumors/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-09T08:56:51Z",
-      "collected_at": "2026-09-09T16:41:53Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9028,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.313,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:bdcb60919ce03f36",
-      "platform": "news",
-      "platform_item_id": "bdcb60919ce03f36",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS Photo With Top Korean Star Leads To Hate — Involving BLACKPINK’s Lisa",
-      "description": "Comments were brutal.",
-      "url": "https://www.koreaboo.com/news/bts-photo-top-korean-star-leads-hate-involving-blackpinks-lisa/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-09T08:35:23Z",
-      "collected_at": "2026-09-09T16:41:53Z",
+      "published_at": "2026-09-09T20:54:12Z",
+      "collected_at": "2026-09-09T20:58:10Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -112,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8988,
+        "recency": 0.9863,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,21 +68,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5221,
+      "hot_score": 8.2546,
       "available": true
     },
     {
-      "id": "news:koreaboo:c5c76da0b70bab10",
+      "id": "news:koreaboo:79f83bda3ef5b408",
       "platform": "news",
-      "platform_item_id": "c5c76da0b70bab10",
+      "platform_item_id": "79f83bda3ef5b408",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Controversy Erupts Around IVE Jang Wonyoung And An Yujin’s Exhibition And Group Event",
-      "description": "Fans are growing increasingly dissatisfied over the exhibition of IVE members Jang Wonyoung and An Yujin as well as a group event. The two IVE members have been holding the An-Young:…",
-      "url": "https://www.koreaboo.com/news/controversy-ive-jang-wonyoung-yujin-exhibition-group-event/",
+      "title": "Korean Beauty Brand Accused Of “Disrespecting” IVE’s Wonyoung",
+      "description": "Their contract with her just ended.",
+      "url": "https://www.koreaboo.com/news/amuse-brand-criticized-disrespecting-wonyoung-ive/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-09T05:54:56Z",
-      "collected_at": "2026-09-09T16:41:53Z",
+      "published_at": "2026-09-09T19:07:14Z",
+      "collected_at": "2026-09-09T20:58:10Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -153,8 +101,7 @@
         "ive"
       ],
       "matched_members": [
-        "wonyoung",
-        "yujin"
+        "wonyoung"
       ],
       "match_confidence": "high",
       "match_reason": [
@@ -167,43 +114,203 @@
         },
         {
           "target_type": "member",
-          "target_id": "yujin",
-          "alias": "Yujin",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "yujin",
-          "alias": "An Yujin",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
           "target_id": "wonyoung",
           "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Jang Wonyoung",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8697,
+        "recency": 0.975,
         "views": 0,
-        "engagement": 7.5,
+        "engagement": 5.7,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1898,
+      "hot_score": 8.1597,
+      "available": true
+    },
+    {
+      "id": "news:soompi:53dce8324f48bc5e",
+      "platform": "news",
+      "platform_item_id": "53dce8324f48bc5e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "SEVENTEEN, ATEEZ, IVE, NCT WISH, aespa, And ILLIT Earn RIAJ Million, Platinum, And Gold Certifications In Japan",
+      "description": "The Recording Industry Association of Japan (RIAJ) has announced its latest batch of official certifications! This month, SEVENTEEN earned an official RIAJ million certification for their 2023 Japanese compilation album “ALWAYS YOURS,” which has had over 1 million units shipped in Japan. According to the RIAJ’s certification thresholds, albums are certified gold at 100,000 units… Continue reading SEVENTEEN, ATEEZ, IVE, NCT WISH, aespa, And ILLIT Earn RIAJ Million, Platinum, And Gold Certifications In Japan The post SEVENTEEN, ATEEZ, IVE, NCT WISH, aespa, And ILLIT Earn RIAJ Million, Platinum, And Gold Certifications In Japan appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-09T18:34:19Z",
+      "collected_at": "2026-09-09T20:58:10Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa",
+        "illit",
+        "ive"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9678,
+        "views": 0,
+        "engagement": 6.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.6919,
+      "available": true
+    },
+    {
+      "id": "news:soompi:a69bd0ba235d8580",
+      "platform": "news",
+      "platform_item_id": "a69bd0ba235d8580",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Lisa To Appear On “The Tonight Show” Next Week",
+      "description": "BLACKPINK’s Lisa will be stopping by “The Tonight Show Starring Jimmy Fallon”! On September 9 local time, the famous U.S. talk show announced that Lisa would be appearing on the program next week. Lisa will be appearing on the September 16 episode of “The Tonight Show,” which airs at 11:35 p.m. ET. According to the… Continue reading BLACKPINK’s Lisa To Appear On “The Tonight Show” Next Week The post BLACKPINK’s Lisa To Appear On “The Tonight Show” Next Week appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-09T17:01:55Z",
+      "collected_at": "2026-09-09T20:58:10Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9481,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9353,
+      "available": true
+    },
+    {
+      "id": "news:soompi:28fe47ae0dbd717c",
+      "platform": "news",
+      "platform_item_id": "28fe47ae0dbd717c",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "STARSHIP Reveals Defendant Sentenced To Prison Over Fabricated Videos Targeting IVE + Files More Criminal Complaints",
+      "description": "STARSHIP Entertainment has shared an update on its ongoing legal action against malicious posts and content targeting IVE. On September 9, the agency announced that a defendant who had been indicted on criminal charges, including distributing fabricated videos targeting one of its artists, was recently sentenced to imprisonment by the court. STARSHIP Entertainment also revealed… Continue reading STARSHIP Reveals Defendant Sentenced To Prison Over Fabricated Videos Targeting IVE + Files More Criminal Complaints The post STARSHIP Reveals Defendant Sentenced To Prison Over Fabricated Videos Targeting IVE + Files More Criminal Complaints appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-09T08:56:51Z",
+      "collected_at": "2026-09-09T20:58:10Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8569,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.9921,
       "available": true
     },
     {
@@ -217,7 +324,7 @@
       "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-09T16:41:53Z",
+      "collected_at": "2026-09-09T20:58:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -247,7 +354,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7734,
+        "recency": 0.7395,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -255,7 +362,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4081,
+      "hot_score": 5.1709,
       "available": true
     },
     {
@@ -269,7 +376,7 @@
       "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-09T16:41:53Z",
+      "collected_at": "2026-09-09T20:58:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -306,7 +413,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7308,
+        "recency": 0.7005,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -314,7 +421,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1105,
+      "hot_score": 4.8982,
       "available": true
     }
   ]
