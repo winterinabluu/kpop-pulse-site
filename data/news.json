@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-10T04:48:41Z",
+  "generated_at": "2026-09-10T11:25:18Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,17 +11,17 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:32a2ba5d5401d7c8",
+      "id": "news:koreaboo:f45e707a11797363",
       "platform": "news",
-      "platform_item_id": "32a2ba5d5401d7c8",
+      "platform_item_id": "f45e707a11797363",
       "source_type": "media",
       "content_kind": "news",
-      "title": "TWICE’s Jihyo Faces Nose Job Allegations, Sparks Divided Response",
-      "description": "They had differing opinions.",
-      "url": "https://www.koreaboo.com/news/twice-jihyo-alleged-nose-job-netizen-reactions/",
+      "title": "BLACKPINK Rosé’s Recent Photo Mocked After Serious Editing Allegations",
+      "description": "\"Looks photoshopped...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-rose-photo-iphone-accuse-edited/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-10T04:19:09Z",
-      "collected_at": "2026-09-10T04:48:41Z",
+      "published_at": "2026-09-10T09:55:08Z",
+      "collected_at": "2026-09-10T11:25:18Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,30 +37,30 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "twice"
+        "blackpink"
       ],
       "matched_members": [
-        "jihyo"
+        "rose"
       ],
       "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "title",
           "score": 1.0
         },
         {
           "target_type": "member",
-          "target_id": "jihyo",
-          "alias": "Jihyo",
+          "target_id": "rose",
+          "alias": "Rosé",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9795,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,21 +68,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 8.1981,
       "available": true
     },
     {
-      "id": "news:koreaboo:c34a5cc65d601a9d",
+      "id": "news:koreaboo:55c4b80546e50e34",
       "platform": "news",
-      "platform_item_id": "c34a5cc65d601a9d",
+      "platform_item_id": "55c4b80546e50e34",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Lisa’s Comments About BLACKPINK’s Hiatus Spark Anger Amid Disbandment Rumors",
-      "description": "Rumors have been going viral.",
-      "url": "https://www.koreaboo.com/news/lisa-comments-blackpinks-hiatus-spark-anger-amid-disbandment-rumors/",
+      "title": "BLACKPINK’s Lisa Shocks With Daring And Sexy Outfit At BVLGARI After-Party",
+      "description": "Netizens were obsessed.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-black-sexy-daring-outfit-bvlgari/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-09T20:54:12Z",
-      "collected_at": "2026-09-10T04:48:41Z",
+      "published_at": "2026-09-10T08:20:46Z",
+      "collected_at": "2026-09-10T11:25:18Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.901,
+        "recency": 0.959,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,21 +129,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.541,
+      "hot_score": 8.0263,
       "available": true
     },
     {
-      "id": "news:koreaboo:79f83bda3ef5b408",
+      "id": "news:koreaboo:cb3762205a012c72",
       "platform": "news",
-      "platform_item_id": "79f83bda3ef5b408",
+      "platform_item_id": "cb3762205a012c72",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Korean Beauty Brand Accused Of “Disrespecting” IVE’s Wonyoung",
-      "description": "Their contract with her just ended.",
-      "url": "https://www.koreaboo.com/news/amuse-brand-criticized-disrespecting-wonyoung-ive/",
+      "title": "aespa Mocked For Venue And Audience Size At Recent Concert",
+      "description": "\"They're nothing in real life...\"",
+      "url": "https://www.koreaboo.com/news/aespa-venue-audience-recent-concert-mocked/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-09T19:07:14Z",
-      "collected_at": "2026-09-10T04:48:41Z",
+      "published_at": "2026-09-10T07:50:39Z",
+      "collected_at": "2026-09-10T11:25:18Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -159,38 +159,29 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "ive"
+        "aespa"
       ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
+          "target_id": "aespa",
+          "alias": "aespa",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8814,
+        "recency": 0.9527,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.3764,
+      "hot_score": 6.6616,
       "available": true
     },
     {
@@ -204,7 +195,7 @@
       "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T18:34:19Z",
-      "collected_at": "2026-09-10T04:48:41Z",
+      "collected_at": "2026-09-10T11:25:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -250,7 +241,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8755,
+        "recency": 0.8104,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -258,7 +249,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8631,
+      "hot_score": 7.2781,
       "available": true
     },
     {
@@ -272,7 +263,7 @@
       "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T17:01:55Z",
-      "collected_at": "2026-09-10T04:48:41Z",
+      "collected_at": "2026-09-10T11:25:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -311,7 +302,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8594,
+        "recency": 0.7965,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -319,7 +310,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1925,
+      "hot_score": 6.6665,
       "available": true
     },
     {
@@ -333,7 +324,7 @@
       "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T08:56:51Z",
-      "collected_at": "2026-09-10T04:48:41Z",
+      "collected_at": "2026-09-10T11:25:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -363,7 +354,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7838,
+        "recency": 0.7312,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -371,7 +362,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4806,
+      "hot_score": 5.1127,
       "available": true
     },
     {
@@ -385,7 +376,7 @@
       "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-10T04:48:41Z",
+      "collected_at": "2026-09-10T11:25:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -415,7 +406,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6844,
+        "recency": 0.6439,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -423,7 +414,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7854,
+      "hot_score": 4.5025,
       "available": true
     },
     {
@@ -437,7 +428,7 @@
       "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-10T04:48:41Z",
+      "collected_at": "2026-09-10T11:25:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -474,7 +465,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6508,
+        "recency": 0.6141,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -482,7 +473,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.551,
+      "hot_score": 4.2944,
       "available": true
     }
   ]
