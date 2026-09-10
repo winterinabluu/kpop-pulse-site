@@ -1,189 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-10T11:25:18Z",
+  "generated_at": "2026-09-10T16:28:02Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:f45e707a11797363",
-      "platform": "news",
-      "platform_item_id": "f45e707a11797363",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Rosé’s Recent Photo Mocked After Serious Editing Allegations",
-      "description": "\"Looks photoshopped...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-rose-photo-iphone-accuse-edited/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-10T09:55:08Z",
-      "collected_at": "2026-09-10T11:25:18Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "rose"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "rose",
-          "alias": "Rosé",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9795,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.1981,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:55c4b80546e50e34",
-      "platform": "news",
-      "platform_item_id": "55c4b80546e50e34",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Shocks With Daring And Sexy Outfit At BVLGARI After-Party",
-      "description": "Netizens were obsessed.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-black-sexy-daring-outfit-bvlgari/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-10T08:20:46Z",
-      "collected_at": "2026-09-10T11:25:18Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.959,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0263,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:cb3762205a012c72",
-      "platform": "news",
-      "platform_item_id": "cb3762205a012c72",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa Mocked For Venue And Audience Size At Recent Concert",
-      "description": "\"They're nothing in real life...\"",
-      "url": "https://www.koreaboo.com/news/aespa-venue-audience-recent-concert-mocked/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-10T07:50:39Z",
-      "collected_at": "2026-09-10T11:25:18Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9527,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.6616,
-      "available": true
-    },
     {
       "id": "news:soompi:53dce8324f48bc5e",
       "platform": "news",
@@ -195,7 +21,7 @@
       "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T18:34:19Z",
-      "collected_at": "2026-09-10T11:25:18Z",
+      "collected_at": "2026-09-10T16:28:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -241,7 +67,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8104,
+        "recency": 0.7668,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -249,7 +75,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2781,
+      "hot_score": 6.887,
       "available": true
     },
     {
@@ -263,7 +89,7 @@
       "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T17:01:55Z",
-      "collected_at": "2026-09-10T11:25:18Z",
+      "collected_at": "2026-09-10T16:28:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -302,7 +128,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7965,
+        "recency": 0.7544,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -310,7 +136,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6665,
+      "hot_score": 6.3141,
       "available": true
     },
     {
@@ -324,7 +150,7 @@
       "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T08:56:51Z",
-      "collected_at": "2026-09-10T11:25:18Z",
+      "collected_at": "2026-09-10T16:28:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -354,7 +180,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7312,
+        "recency": 0.6955,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -362,7 +188,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1127,
+      "hot_score": 4.8635,
       "available": true
     },
     {
@@ -376,7 +202,7 @@
       "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-10T11:25:18Z",
+      "collected_at": "2026-09-10T16:28:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -406,7 +232,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6439,
+        "recency": 0.6161,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -414,7 +240,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5025,
+      "hot_score": 4.3081,
       "available": true
     },
     {
@@ -428,7 +254,7 @@
       "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-10T11:25:18Z",
+      "collected_at": "2026-09-10T16:28:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -465,7 +291,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6141,
+        "recency": 0.5888,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -473,7 +299,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.2944,
+      "hot_score": 4.1172,
       "available": true
     }
   ]
