@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-09T20:58:10Z",
+  "generated_at": "2026-09-10T04:48:41Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:32a2ba5d5401d7c8",
+      "platform": "news",
+      "platform_item_id": "32a2ba5d5401d7c8",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Jihyo Faces Nose Job Allegations, Sparks Divided Response",
+      "description": "They had differing opinions.",
+      "url": "https://www.koreaboo.com/news/twice-jihyo-alleged-nose-job-netizen-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-10T04:19:09Z",
+      "collected_at": "2026-09-10T04:48:41Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
     {
       "id": "news:koreaboo:c34a5cc65d601a9d",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/lisa-comments-blackpinks-hiatus-spark-anger-amid-disbandment-rumors/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T20:54:12Z",
-      "collected_at": "2026-09-09T20:58:10Z",
+      "collected_at": "2026-09-10T04:48:41Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.901,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.541,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.koreaboo.com/news/amuse-brand-criticized-disrespecting-wonyoung-ive/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T19:07:14Z",
-      "collected_at": "2026-09-09T20:58:10Z",
+      "collected_at": "2026-09-10T04:48:41Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.975,
+        "recency": 0.8814,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1597,
+      "hot_score": 7.3764,
       "available": true
     },
     {
@@ -143,7 +204,7 @@
       "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T18:34:19Z",
-      "collected_at": "2026-09-09T20:58:10Z",
+      "collected_at": "2026-09-10T04:48:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -189,7 +250,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9678,
+        "recency": 0.8755,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -197,7 +258,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.6919,
+      "hot_score": 7.8631,
       "available": true
     },
     {
@@ -211,7 +272,7 @@
       "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T17:01:55Z",
-      "collected_at": "2026-09-09T20:58:10Z",
+      "collected_at": "2026-09-10T04:48:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -250,7 +311,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9481,
+        "recency": 0.8594,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -258,7 +319,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9353,
+      "hot_score": 7.1925,
       "available": true
     },
     {
@@ -272,7 +333,7 @@
       "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T08:56:51Z",
-      "collected_at": "2026-09-09T20:58:10Z",
+      "collected_at": "2026-09-10T04:48:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -302,7 +363,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8569,
+        "recency": 0.7838,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -310,7 +371,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9921,
+      "hot_score": 5.4806,
       "available": true
     },
     {
@@ -324,7 +385,7 @@
       "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-09T20:58:10Z",
+      "collected_at": "2026-09-10T04:48:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -354,7 +415,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7395,
+        "recency": 0.6844,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -362,7 +423,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1709,
+      "hot_score": 4.7854,
       "available": true
     },
     {
@@ -376,7 +437,7 @@
       "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-09T20:58:10Z",
+      "collected_at": "2026-09-10T04:48:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -413,7 +474,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7005,
+        "recency": 0.6508,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -421,7 +482,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8982,
+      "hot_score": 4.551,
       "available": true
     }
   ]
