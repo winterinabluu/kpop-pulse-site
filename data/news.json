@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-10T16:28:02Z",
+  "generated_at": "2026-09-10T20:56:50Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T18:34:19Z",
-      "collected_at": "2026-09-10T16:28:02Z",
+      "collected_at": "2026-09-10T20:56:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -67,7 +67,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7668,
+        "recency": 0.7319,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -75,7 +75,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.887,
+      "hot_score": 6.5734,
       "available": true
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T17:01:55Z",
-      "collected_at": "2026-09-10T16:28:02Z",
+      "collected_at": "2026-09-10T20:56:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -128,7 +128,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7544,
+        "recency": 0.7206,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -136,7 +136,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3141,
+      "hot_score": 6.031,
       "available": true
     },
     {
@@ -150,7 +150,7 @@
       "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T08:56:51Z",
-      "collected_at": "2026-09-10T16:28:02Z",
+      "collected_at": "2026-09-10T20:56:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -180,7 +180,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6955,
+        "recency": 0.6667,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -188,7 +188,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8635,
+      "hot_score": 4.6618,
       "available": true
     },
     {
@@ -202,7 +202,7 @@
       "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-10T16:28:02Z",
+      "collected_at": "2026-09-10T20:56:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -232,7 +232,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6161,
+        "recency": 0.5934,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -240,7 +240,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3081,
+      "hot_score": 4.1491,
       "available": true
     },
     {
@@ -254,7 +254,7 @@
       "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-10T16:28:02Z",
+      "collected_at": "2026-09-10T20:56:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -291,7 +291,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5888,
+        "recency": 0.568,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -299,7 +299,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1172,
+      "hot_score": 3.9717,
       "available": true
     }
   ]
