@@ -1,27 +1,81 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-11T04:46:03Z",
+  "generated_at": "2026-09-11T11:27:22Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:e0692cdd412a64a3",
+      "id": "news:soompi:3bbf47f226635e26",
       "platform": "news",
-      "platform_item_id": "e0692cdd412a64a3",
+      "platform_item_id": "3bbf47f226635e26",
       "source_type": "media",
       "content_kind": "news",
-      "title": "TWICE Jihyo’s “Unrecognizable” Visuals At Event Amid Plastic Surgery Allegations Trigger Hot Reactions",
-      "description": "Some felt the reactions were too much.",
-      "url": "https://www.koreaboo.com/news/twices-jihyo-unrecognizable-visuals-event-amid-plastic-surgery-allegations-trigger-hot-reactions/",
+      "title": "Watch: MONSTA X Takes 1st Win For “MAGIC” On “Music Bank”; Performances By Soyeon, VERIVERY, And More",
+      "description": "MONSTA X has won their first music show trophy for “MAGIC”! On the September 11 episode of “Music Bank,” the candidates for first place were MONSTA X’s “MAGIC” and 82MAJOR’s “Like Fire.” MONSTA X ultimately took the prize with a total of 5,045 points. Congratulations to MONSTA X! Watch the winner announcement below: Performers on today’s show… Continue reading Watch: MONSTA X Takes 1st Win For “MAGIC” On “Music Bank”; Performances By Soyeon, VERIVERY, And More The post Watch: MONSTA X Takes 1st Win For “MAGIC” On “Music Bank”; Performances By Soyeon, VERIVERY, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1869814wpp/watch-monsta-x-takes-1st-win-for-magic-on-music-bank-performances-by-soyeon-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-11T00:11:07Z",
-      "collected_at": "2026-09-11T04:46:03Z",
+      "published_at": "2026-09-11T10:45:12Z",
+      "collected_at": "2026-09-11T11:27:22Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:5d77bb395f834a04",
+      "platform": "news",
+      "platform_item_id": "5d77bb395f834a04",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Lisa’s Visuals Become Target Of Brutal Criticism At BLVGARI Event",
+      "description": "\"Whole new face...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-visuals-brutal-criticisma-bvlgari-event/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-11T10:15:02Z",
+      "collected_at": "2026-09-11T11:27:22Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,30 +91,30 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "twice"
+        "blackpink"
       ],
       "matched_members": [
-        "jihyo"
+        "lisa"
       ],
       "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "title",
           "score": 1.0
         },
         {
           "target_type": "member",
-          "target_id": "jihyo",
-          "alias": "Jihyo",
+          "target_id": "lisa",
+          "alias": "Lisa",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9402,
+        "recency": 0.9835,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +122,68 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8684,
+      "hot_score": 8.2314,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:567a195a7f306364",
+      "platform": "news",
+      "platform_item_id": "567a195a7f306364",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Jisoo’s “Uncomfortable” Interaction With Jung Hae Amid His Controversy Sparks Speculations",
+      "description": "\"She was disgusted...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-jisoo-awkward-moment-jung-hae-in/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-11T08:05:33Z",
+      "collected_at": "2026-09-11T11:27:22Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9554,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9957,
       "available": true
     },
     {
@@ -82,7 +197,7 @@
       "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T18:34:19Z",
-      "collected_at": "2026-09-11T04:46:03Z",
+      "collected_at": "2026-09-11T11:27:22Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -128,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.678,
+        "recency": 0.6378,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -136,7 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0893,
+      "hot_score": 5.7285,
       "available": true
     },
     {
@@ -150,7 +265,7 @@
       "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T17:01:55Z",
-      "collected_at": "2026-09-11T04:46:03Z",
+      "collected_at": "2026-09-11T11:27:22Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -189,7 +304,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6683,
+        "recency": 0.6292,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -197,7 +312,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5932,
+      "hot_score": 5.2663,
       "available": true
     },
     {
@@ -211,7 +326,7 @@
       "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T08:56:51Z",
-      "collected_at": "2026-09-11T04:46:03Z",
+      "collected_at": "2026-09-11T11:27:22Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -241,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6217,
+        "recency": 0.5877,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -249,59 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.347,
-      "available": true
-    },
-    {
-      "id": "news:soompi:31518b8e6a35cb66",
-      "platform": "news",
-      "platform_item_id": "31518b8e6a35cb66",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "NCT 127, ALPHA DRIVE ONE, RESCENE, ILLIT, And More Top Circle Weekly Charts",
-      "description": "Circle Chart has revealed its chart rankings for the week of August 23 to 29! NCT 127 achieved a double crown on this week’s charts, topping both the overall digital chart and the digital download chart with their new title track “Blingy.” Album Chart ALPHA DRIVE ONE topped this week’s physical album chart with their… Continue reading NCT 127, ALPHA DRIVE ONE, RESCENE, ILLIT, And More Top Circle Weekly Charts The post NCT 127, ALPHA DRIVE ONE, RESCENE, ILLIT, And More Top Circle Weekly Charts appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-11T04:46:03Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5574,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.8979,
+      "hot_score": 4.1097,
       "available": true
     }
   ]
