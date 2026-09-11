@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T11:27:23Z",
-  "site_data_version": "2026-09-11T11:27:23Z",
+  "generated_at": "2026-09-11T16:32:09Z",
+  "site_data_version": "2026-09-11T16:32:09Z",
   "sources": {
     "youtube": {
       "ok": false,
@@ -14,7 +14,7 @@
       "ok": true,
       "status": "ok",
       "item_count": 6,
-      "last_success_at": "2026-09-11T11:27:22Z",
+      "last_success_at": "2026-09-11T16:32:05Z",
       "message": "Fetched RSS feeds."
     },
     "curated": {
