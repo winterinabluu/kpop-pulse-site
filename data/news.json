@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-10T20:56:50Z",
+  "generated_at": "2026-09-11T04:46:03Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,67 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:e0692cdd412a64a3",
+      "platform": "news",
+      "platform_item_id": "e0692cdd412a64a3",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE Jihyo’s “Unrecognizable” Visuals At Event Amid Plastic Surgery Allegations Trigger Hot Reactions",
+      "description": "Some felt the reactions were too much.",
+      "url": "https://www.koreaboo.com/news/twices-jihyo-unrecognizable-visuals-event-amid-plastic-surgery-allegations-trigger-hot-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-11T00:11:07Z",
+      "collected_at": "2026-09-11T04:46:03Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9402,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8684,
+      "available": true
+    },
     {
       "id": "news:soompi:53dce8324f48bc5e",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T18:34:19Z",
-      "collected_at": "2026-09-10T20:56:50Z",
+      "collected_at": "2026-09-11T04:46:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -67,7 +128,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7319,
+        "recency": 0.678,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -75,7 +136,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5734,
+      "hot_score": 6.0893,
       "available": true
     },
     {
@@ -89,7 +150,7 @@
       "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T17:01:55Z",
-      "collected_at": "2026-09-10T20:56:50Z",
+      "collected_at": "2026-09-11T04:46:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -128,7 +189,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7206,
+        "recency": 0.6683,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -136,7 +197,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.031,
+      "hot_score": 5.5932,
       "available": true
     },
     {
@@ -150,7 +211,7 @@
       "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T08:56:51Z",
-      "collected_at": "2026-09-10T20:56:50Z",
+      "collected_at": "2026-09-11T04:46:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -180,7 +241,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6667,
+        "recency": 0.6217,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -188,7 +249,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6618,
+      "hot_score": 4.347,
       "available": true
     },
     {
@@ -202,7 +263,7 @@
       "url": "https://www.soompi.com/article/1869117wpp/nct-127-alpha-drive-one-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-08T19:36:10Z",
-      "collected_at": "2026-09-10T20:56:50Z",
+      "collected_at": "2026-09-11T04:46:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -232,7 +293,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5934,
+        "recency": 0.5574,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -240,66 +301,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1491,
-      "available": true
-    },
-    {
-      "id": "news:soompi:643d4f5a9b92f32a",
-      "platform": "news",
-      "platform_item_id": "643d4f5a9b92f32a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "LE SSERAFIM To Return To “The Jennifer Hudson Show” This Week",
-      "description": "LE SSERAFIM is returning to “The Jennifer Hudson Show”! On September 7 local time, it was officially announced that LE SSERAFIM would be making a guest appearance on the popular U.S. talk show. Taping for LE SSERAFIM’s episode of “The Jennifer Hudson Show,” which will also feature actress Danielle Brooks, will take place on September… Continue reading LE SSERAFIM To Return To “The Jennifer Hudson Show” This Week The post LE SSERAFIM To Return To “The Jennifer Hudson Show” This Week appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1869039wpp/le-sserafim-to-return-to-the-jennifer-hudson-show-this-week",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-08T14:10:55Z",
-      "collected_at": "2026-09-10T20:56:50Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "danielle",
-          "alias": "Danielle",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.568,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.9717,
+      "hot_score": 3.8979,
       "available": true
     }
   ]
