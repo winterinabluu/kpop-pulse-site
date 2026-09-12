@@ -1,27 +1,88 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-11T21:00:39Z",
+  "generated_at": "2026-09-12T04:40:12Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:2d36b8a2d3a0de2b",
+      "id": "news:soompi:eb5e3285fe22e87d",
       "platform": "news",
-      "platform_item_id": "2d36b8a2d3a0de2b",
+      "platform_item_id": "eb5e3285fe22e87d",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Min Hee Jin Accused Of Asking NewJeans About Whether To Target ILLIT — Inciting Fury",
-      "description": "The new reports sparked major reactions.",
-      "url": "https://www.koreaboo.com/news/new-jeans-min-hee-jin-ask-target-illit-fury/",
+      "title": "Watch: BLACKPINK’s Lisa Drops Fierce Dance Performance Video For “SaWaDiKa”",
+      "description": "BLACKPINK’s Lisa has shared a closer look at her choreography for “SaWaDiKa”! On September 12 KST, Lisa released a dance performance video for her new single “SaWaDiKa,” which will be included on her upcoming solo EP “PRESS PLAY.” The new video gives fans a better look at Lisa’s choreography for the song, as well as… Continue reading Watch: BLACKPINK’s Lisa Drops Fierce Dance Performance Video For “SaWaDiKa” The post Watch: BLACKPINK’s Lisa Drops Fierce Dance Performance Video For “SaWaDiKa” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1869885wpp/watch-blackpinks-lisa-drops-fierce-dance-performance-video-for-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-11T13:06:05Z",
-      "collected_at": "2026-09-11T21:00:39Z",
+      "published_at": "2026-09-12T03:39:55Z",
+      "collected_at": "2026-09-12T04:40:12Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9862,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2541,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:1ebd158ea202d9d6",
+      "platform": "news",
+      "platform_item_id": "1ebd158ea202d9d6",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jisoo Flamed Over Her Behavior Towards Fans, Sparking Debate",
+      "description": "Fans came to her defense.",
+      "url": "https://www.koreaboo.com/news/blackpink-jisoo-flamed-behavior-towards-fans-sparking-debate/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-12T01:07:03Z",
+      "collected_at": "2026-09-12T04:40:12Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,37 +98,38 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "illit",
-        "newjeans"
+        "blackpink"
       ],
-      "matched_members": [],
-      "match_confidence": "medium",
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "title",
           "score": 1.0
         },
         {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
           "field": "title",
-          "score": 1.0
+          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.901,
+        "recency": 0.953,
         "views": 0,
-        "engagement": 5.3,
+        "engagement": 5.7,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2968,
+      "hot_score": 7.9757,
       "available": true
     },
     {
@@ -81,7 +143,7 @@
       "url": "https://www.soompi.com/article/1869814wpp/watch-monsta-x-takes-1st-win-for-magic-on-music-bank-performances-by-soyeon-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-11T10:45:12Z",
-      "collected_at": "2026-09-11T21:00:39Z",
+      "collected_at": "2026-09-12T04:40:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -113,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8753,
+        "recency": 0.8007,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -121,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.3256,
+      "hot_score": 6.7016,
       "available": true
     },
     {
@@ -135,7 +197,7 @@
       "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T18:34:19Z",
-      "collected_at": "2026-09-11T21:00:39Z",
+      "collected_at": "2026-09-12T04:40:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -181,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.588,
+        "recency": 0.5534,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -189,7 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2815,
+      "hot_score": 4.9705,
       "available": true
     },
     {
@@ -203,7 +265,7 @@
       "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T17:01:55Z",
-      "collected_at": "2026-09-11T21:00:39Z",
+      "collected_at": "2026-09-12T04:40:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -242,7 +304,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5807,
+        "recency": 0.547,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -250,7 +312,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8604,
+      "hot_score": 4.5776,
       "available": true
     },
     {
@@ -264,7 +326,7 @@
       "url": "https://www.soompi.com/article/1869295wpp/starship-reveals-defendant-sentenced-to-prison-over-fabricated-videos-targeting-ive-files-more-criminal-complaints",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T08:56:51Z",
-      "collected_at": "2026-09-11T21:00:39Z",
+      "collected_at": "2026-09-12T04:40:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -294,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5452,
+        "recency": 0.5153,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -302,7 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.8123,
+      "hot_score": 3.6034,
       "available": true
     }
   ]
