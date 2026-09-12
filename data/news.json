@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-12T15:34:37Z",
+  "generated_at": "2026-09-12T20:36:10Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisa-addresses-n-word-controversy/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T13:32:07Z",
-      "collected_at": "2026-09-12T15:34:37Z",
+      "collected_at": "2026-09-12T20:36:10Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9724,
+        "recency": 0.9106,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1384,
+      "hot_score": 7.6211,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jisoo-raw-vocals-heated-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T13:13:47Z",
-      "collected_at": "2026-09-12T15:34:37Z",
+      "collected_at": "2026-09-12T20:36:10Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9684,
+        "recency": 0.9071,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.105,
+      "hot_score": 7.5918,
       "available": true
     },
     {
@@ -143,7 +143,7 @@
       "url": "https://www.koreaboo.com/news/aespa-ningnings-social-media-activity-hit-brutal-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T11:27:55Z",
-      "collected_at": "2026-09-12T15:34:37Z",
+      "collected_at": "2026-09-12T20:36:10Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -182,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.946,
+        "recency": 0.8874,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,68 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9171,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:90c20bfc8a9c22ad",
-      "platform": "news",
-      "platform_item_id": "90c20bfc8a9c22ad",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Lets Out How YG Entertainment Destroyed Her Confidence",
-      "description": "She was scared to explore her craft.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-yg-entertainment-destroy-confidence/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-12T07:03:31Z",
-      "collected_at": "2026-09-12T15:34:37Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8942,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4838,
+      "hot_score": 7.4267,
       "available": true
     },
     {
@@ -265,7 +204,7 @@
       "url": "https://www.soompi.com/article/1869885wpp/watch-blackpinks-lisa-drops-fierce-dance-performance-video-for-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T03:39:55Z",
-      "collected_at": "2026-09-12T15:34:37Z",
+      "collected_at": "2026-09-12T20:36:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -304,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.858,
+        "recency": 0.8096,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -312,7 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1812,
+      "hot_score": 6.7754,
       "available": true
     },
     {
@@ -326,7 +265,7 @@
       "url": "https://www.soompi.com/article/1869814wpp/watch-monsta-x-takes-1st-win-for-magic-on-music-bank-performances-by-soyeon-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-11T10:45:12Z",
-      "collected_at": "2026-09-12T15:34:37Z",
+      "collected_at": "2026-09-12T20:36:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -358,7 +297,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7141,
+        "recency": 0.6802,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -366,7 +305,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9766,
+      "hot_score": 5.6929,
       "available": true
     },
     {
@@ -380,7 +319,7 @@
       "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T18:34:19Z",
-      "collected_at": "2026-09-12T15:34:37Z",
+      "collected_at": "2026-09-12T20:36:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -426,7 +365,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5106,
+        "recency": 0.493,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -434,7 +373,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5861,
+      "hot_score": 4.4282,
       "available": true
     },
     {
@@ -448,7 +387,7 @@
       "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-09T17:01:55Z",
-      "collected_at": "2026-09-12T15:34:37Z",
+      "collected_at": "2026-09-12T20:36:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -487,7 +426,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5051,
+        "recency": 0.4879,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -495,7 +434,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.2273,
+      "hot_score": 4.0834,
       "available": true
     }
   ]
