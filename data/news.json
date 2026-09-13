@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-13T11:57:22Z",
+  "generated_at": "2026-09-13T16:22:41Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:soompi:374bc2da953fb83b",
+      "id": "news:soompi:13b8859569017e6a",
       "platform": "news",
-      "platform_item_id": "374bc2da953fb83b",
+      "platform_item_id": "13b8859569017e6a",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More",
-      "description": "SHINee’s Taemin has won his first music show trophy for his new title track “FLOAT”! On the September 12 episode of MBC’s “Music Core,” the candidates for first place were MONSTA X’s “MAGIC,” BIGBANG’s “BiiiG,” and Taemin’s “FLOAT.” Taemin ultimately took the win with a total of 8,098 points. Congratulations to Taemin! Watch a clip… Continue reading Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More The post Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1870039wpp/watch-shinees-taemin-takes-1st-win-for-float-on-music-core-performances-by-soyeon-team-verivery-and-more",
+      "title": "Watch: ATEEZ Takes 6th Win For “BAD” On “Inkigayo”; Performances By Soyeon, EVAN, &TEAM, And More",
+      "description": "ATEEZ has won a sixth music show trophy for “BAD”! On the September 13 episode of SBS’s “Inkigayo,” the candidates for first place were BIGBANG’s “BiiiG,” ATEEZ’s “BAD,” and RESCENE’s “LOVE ATTACK.” ATEEZ ultimately took the win with a total of 5,800 points. Congratulations to ATEEZ! Watch a clip of the winner announcement below: Performers… Continue reading Watch: ATEEZ Takes 6th Win For “BAD” On “Inkigayo”; Performances By Soyeon, EVAN, &TEAM, And More The post Watch: ATEEZ Takes 6th Win For “BAD” On “Inkigayo”; Performances By Soyeon, EVAN, &TEAM, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1870161wpp/watch-ateez-takes-6th-win-for-bad-on-inkigayo-performances-by-soyeon-evan-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-12T23:23:00Z",
-      "collected_at": "2026-09-13T11:57:22Z",
+      "published_at": "2026-09-13T15:11:43Z",
+      "collected_at": "2026-09-13T16:22:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -53,7 +53,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8513,
+        "recency": 0.9838,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -61,7 +61,122 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.125,
+      "hot_score": 8.234,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:d9a036f472eb7102",
+      "platform": "news",
+      "platform_item_id": "d9a036f472eb7102",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa Winter’s “Skinny” Appearance Hit With Brutal Reactions",
+      "description": "Her look sparked two very different reactions.",
+      "url": "https://www.koreaboo.com/news/aespa-winters-skinny-appearance-hit-brutal-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-13T12:28:05Z",
+      "collected_at": "2026-09-13T16:22:41Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "winter"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "winter",
+          "alias": "Winter",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9485,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9381,
+      "available": true
+    },
+    {
+      "id": "news:soompi:374bc2da953fb83b",
+      "platform": "news",
+      "platform_item_id": "374bc2da953fb83b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More",
+      "description": "SHINee’s Taemin has won his first music show trophy for his new title track “FLOAT”! On the September 12 episode of MBC’s “Music Core,” the candidates for first place were MONSTA X’s “MAGIC,” BIGBANG’s “BiiiG,” and Taemin’s “FLOAT.” Taemin ultimately took the win with a total of 8,098 points. Congratulations to Taemin! Watch a clip… Continue reading Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More The post Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1870039wpp/watch-shinees-taemin-takes-1st-win-for-float-on-music-core-performances-by-soyeon-team-verivery-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-12T23:23:00Z",
+      "collected_at": "2026-09-13T16:22:41Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.809,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.771,
       "available": true
     },
     {
@@ -75,7 +190,7 @@
       "url": "https://www.soompi.com/article/1869885wpp/watch-blackpinks-lisa-drops-fierce-dance-performance-video-for-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T03:39:55Z",
-      "collected_at": "2026-09-13T11:57:22Z",
+      "collected_at": "2026-09-13T16:22:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +229,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6904,
+        "recency": 0.6623,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +237,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7779,
+      "hot_score": 5.5429,
       "available": true
     },
     {
@@ -136,7 +251,7 @@
       "url": "https://www.soompi.com/article/1869814wpp/watch-monsta-x-takes-1st-win-for-magic-on-music-bank-performances-by-soyeon-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-11T10:45:12Z",
-      "collected_at": "2026-09-13T11:57:22Z",
+      "collected_at": "2026-09-13T16:22:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -168,7 +283,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.594,
+        "recency": 0.5731,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -176,7 +291,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9717,
+      "hot_score": 4.7967,
       "available": true
     }
   ]
