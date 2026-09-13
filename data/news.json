@@ -1,15 +1,69 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-12T20:36:10Z",
+  "generated_at": "2026-09-13T04:53:33Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:374bc2da953fb83b",
+      "platform": "news",
+      "platform_item_id": "374bc2da953fb83b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More",
+      "description": "SHINee’s Taemin has won his first music show trophy for his new title track “FLOAT”! On the September 12 episode of MBC’s “Music Core,” the candidates for first place were MONSTA X’s “MAGIC,” BIGBANG’s “BiiiG,” and Taemin’s “FLOAT.” Taemin ultimately took the win with a total of 8,098 points. Congratulations to Taemin! Watch a clip… Continue reading Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More The post Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1870039wpp/watch-shinees-taemin-takes-1st-win-for-float-on-music-core-performances-by-soyeon-team-verivery-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-12T23:23:00Z",
+      "collected_at": "2026-09-13T04:53:33Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9289,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7744,
+      "available": true
+    },
     {
       "id": "news:koreaboo:2f0cbe00e14a630a",
       "platform": "news",
@@ -21,7 +75,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisa-addresses-n-word-controversy/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T13:32:07Z",
-      "collected_at": "2026-09-12T20:36:10Z",
+      "collected_at": "2026-09-13T04:53:33Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9106,
+        "recency": 0.8242,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6211,
+      "hot_score": 6.8979,
       "available": true
     },
     {
@@ -82,7 +136,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jisoo-raw-vocals-heated-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T13:13:47Z",
-      "collected_at": "2026-09-12T20:36:10Z",
+      "collected_at": "2026-09-13T04:53:33Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9071,
+        "recency": 0.8213,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,68 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5918,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:26d6873bd0e93394",
-      "platform": "news",
-      "platform_item_id": "26d6873bd0e93394",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa Ningning’s Instagram Update Hit With Brutal Backlash",
-      "description": "\"It's over LMAO...\"",
-      "url": "https://www.koreaboo.com/news/aespa-ningnings-social-media-activity-hit-brutal-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-12T11:27:55Z",
-      "collected_at": "2026-09-12T20:36:10Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "ningning"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "ningning",
-          "alias": "NingNing",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8874,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4267,
+      "hot_score": 6.8739,
       "available": true
     },
     {
@@ -204,7 +197,7 @@
       "url": "https://www.soompi.com/article/1869885wpp/watch-blackpinks-lisa-drops-fierce-dance-performance-video-for-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T03:39:55Z",
-      "collected_at": "2026-09-12T20:36:10Z",
+      "collected_at": "2026-09-13T04:53:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8096,
+        "recency": 0.7405,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7754,
+      "hot_score": 6.1977,
       "available": true
     },
     {
@@ -265,7 +258,7 @@
       "url": "https://www.soompi.com/article/1869814wpp/watch-monsta-x-takes-1st-win-for-magic-on-music-bank-performances-by-soyeon-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-11T10:45:12Z",
-      "collected_at": "2026-09-12T20:36:10Z",
+      "collected_at": "2026-09-13T04:53:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -297,7 +290,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6802,
+        "recency": 0.6308,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -305,136 +298,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6929,
-      "available": true
-    },
-    {
-      "id": "news:soompi:53dce8324f48bc5e",
-      "platform": "news",
-      "platform_item_id": "53dce8324f48bc5e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "SEVENTEEN, ATEEZ, IVE, NCT WISH, aespa, And ILLIT Earn RIAJ Million, Platinum, And Gold Certifications In Japan",
-      "description": "The Recording Industry Association of Japan (RIAJ) has announced its latest batch of official certifications! This month, SEVENTEEN earned an official RIAJ million certification for their 2023 Japanese compilation album “ALWAYS YOURS,” which has had over 1 million units shipped in Japan. According to the RIAJ’s certification thresholds, albums are certified gold at 100,000 units… Continue reading SEVENTEEN, ATEEZ, IVE, NCT WISH, aespa, And ILLIT Earn RIAJ Million, Platinum, And Gold Certifications In Japan The post SEVENTEEN, ATEEZ, IVE, NCT WISH, aespa, And ILLIT Earn RIAJ Million, Platinum, And Gold Certifications In Japan appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1869376wpp/seventeen-ateez-ive-nct-wish-aespa-and-illit-earn-riaj-million-platinum-and-gold-certifications-in-japan",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-09T18:34:19Z",
-      "collected_at": "2026-09-12T20:36:10Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa",
-        "illit",
-        "ive"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.493,
-        "views": 0,
-        "engagement": 6.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.4282,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a69bd0ba235d8580",
-      "platform": "news",
-      "platform_item_id": "a69bd0ba235d8580",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa To Appear On “The Tonight Show” Next Week",
-      "description": "BLACKPINK’s Lisa will be stopping by “The Tonight Show Starring Jimmy Fallon”! On September 9 local time, the famous U.S. talk show announced that Lisa would be appearing on the program next week. Lisa will be appearing on the September 16 episode of “The Tonight Show,” which airs at 11:35 p.m. ET. According to the… Continue reading BLACKPINK’s Lisa To Appear On “The Tonight Show” Next Week The post BLACKPINK’s Lisa To Appear On “The Tonight Show” Next Week appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1869372wpp/blackpinks-lisa-to-appear-on-the-tonight-show-next-week",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-09T17:01:55Z",
-      "collected_at": "2026-09-12T20:36:10Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4879,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.0834,
+      "hot_score": 5.2794,
       "available": true
     }
   ]
