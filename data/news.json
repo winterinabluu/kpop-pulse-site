@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-13T04:53:33Z",
+  "generated_at": "2026-09-13T11:57:22Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1870039wpp/watch-shinees-taemin-takes-1st-win-for-float-on-music-core-performances-by-soyeon-team-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T23:23:00Z",
-      "collected_at": "2026-09-13T04:53:33Z",
+      "collected_at": "2026-09-13T11:57:22Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -53,7 +53,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9289,
+        "recency": 0.8513,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -61,129 +61,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7744,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:2f0cbe00e14a630a",
-      "platform": "news",
-      "platform_item_id": "2f0cbe00e14a630a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Addresses Her “N-Word” Controversy",
-      "description": "She finally provided an explanation.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-addresses-n-word-controversy/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-12T13:32:07Z",
-      "collected_at": "2026-09-13T04:53:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8242,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.8979,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:087f78473379c04e",
-      "platform": "news",
-      "platform_item_id": "087f78473379c04e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jisoo’s Raw Vocals Draw Heated Reactions",
-      "description": "She sang her entire song acapella.",
-      "url": "https://www.koreaboo.com/news/blackpink-jisoo-raw-vocals-heated-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-12T13:13:47Z",
-      "collected_at": "2026-09-13T04:53:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jisoo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8213,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.8739,
+      "hot_score": 7.125,
       "available": true
     },
     {
@@ -197,7 +75,7 @@
       "url": "https://www.soompi.com/article/1869885wpp/watch-blackpinks-lisa-drops-fierce-dance-performance-video-for-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T03:39:55Z",
-      "collected_at": "2026-09-13T04:53:33Z",
+      "collected_at": "2026-09-13T11:57:22Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -236,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7405,
+        "recency": 0.6904,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.1977,
+      "hot_score": 5.7779,
       "available": true
     },
     {
@@ -258,7 +136,7 @@
       "url": "https://www.soompi.com/article/1869814wpp/watch-monsta-x-takes-1st-win-for-magic-on-music-bank-performances-by-soyeon-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-11T10:45:12Z",
-      "collected_at": "2026-09-13T04:53:33Z",
+      "collected_at": "2026-09-13T11:57:22Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -290,7 +168,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6308,
+        "recency": 0.594,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -298,7 +176,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2794,
+      "hot_score": 4.9717,
       "available": true
     }
   ]
