@@ -1,15 +1,75 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-13T16:22:41Z",
+  "generated_at": "2026-09-13T20:53:26Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:8fe5d661760da901",
+      "platform": "news",
+      "platform_item_id": "8fe5d661760da901",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Stray Kids, ENHYPEN, NCT 127, CORTIS, BTS, ATEEZ, LE SSERAFIM, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart",
+      "description": "Billboard has published its World Albums chart for the week ending on September 12! Stray Kids’ latest mini album “THIS & THAT” climbed back up to No. 1 in its fourth week on the World Albums chart, marking its third non-consecutive week topping the chart. “THIS & THAT” also spent a fourth week on the… Continue reading Stray Kids, ENHYPEN, NCT 127, CORTIS, BTS, ATEEZ, LE SSERAFIM, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, ENHYPEN, NCT 127, CORTIS, BTS, ATEEZ, LE SSERAFIM, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1870250wpp/stray-kids-enhypen-nct-127-cortis-bts-ateez-le-sserafim-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-13T19:23:16Z",
+      "collected_at": "2026-09-13T20:53:26Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit",
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9796,
+        "views": 0,
+        "engagement": 5.3,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9328,
+      "available": true
+    },
     {
       "id": "news:soompi:13b8859569017e6a",
       "platform": "news",
@@ -21,7 +81,7 @@
       "url": "https://www.soompi.com/article/1870161wpp/watch-ateez-takes-6th-win-for-bad-on-inkigayo-performances-by-soyeon-evan-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T15:11:43Z",
-      "collected_at": "2026-09-13T16:22:41Z",
+      "collected_at": "2026-09-13T20:53:26Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -53,7 +113,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9838,
+        "recency": 0.9267,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -61,7 +121,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.234,
+      "hot_score": 7.7558,
       "available": true
     },
     {
@@ -75,7 +135,7 @@
       "url": "https://www.koreaboo.com/news/aespa-winters-skinny-appearance-hit-brutal-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T12:28:05Z",
-      "collected_at": "2026-09-13T16:22:41Z",
+      "collected_at": "2026-09-13T20:53:26Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -114,7 +174,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9485,
+        "recency": 0.8953,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +182,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9381,
+      "hot_score": 7.4927,
       "available": true
     },
     {
@@ -136,7 +196,7 @@
       "url": "https://www.soompi.com/article/1870039wpp/watch-shinees-taemin-takes-1st-win-for-float-on-music-core-performances-by-soyeon-team-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T23:23:00Z",
-      "collected_at": "2026-09-13T16:22:41Z",
+      "collected_at": "2026-09-13T20:53:26Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -168,7 +228,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.809,
+        "recency": 0.77,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -176,7 +236,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.771,
+      "hot_score": 6.4443,
       "available": true
     },
     {
@@ -190,7 +250,7 @@
       "url": "https://www.soompi.com/article/1869885wpp/watch-blackpinks-lisa-drops-fierce-dance-performance-video-for-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T03:39:55Z",
-      "collected_at": "2026-09-13T16:22:41Z",
+      "collected_at": "2026-09-13T20:53:26Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -229,7 +289,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6623,
+        "recency": 0.6359,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -237,7 +297,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5429,
+      "hot_score": 5.322,
       "available": true
     },
     {
@@ -251,7 +311,7 @@
       "url": "https://www.soompi.com/article/1869814wpp/watch-monsta-x-takes-1st-win-for-magic-on-music-bank-performances-by-soyeon-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-11T10:45:12Z",
-      "collected_at": "2026-09-13T16:22:41Z",
+      "collected_at": "2026-09-13T20:53:26Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -283,7 +343,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5731,
+        "recency": 0.5533,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -291,7 +351,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7967,
+      "hot_score": 4.6304,
       "available": true
     }
   ]
