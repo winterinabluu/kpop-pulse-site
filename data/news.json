@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-14T12:55:00Z",
+  "generated_at": "2026-09-14T21:52:12Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 12,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:468deb2eec26338b",
+      "id": "news:koreaboo:c1b0a0fbd1ba9d8a",
       "platform": "news",
-      "platform_item_id": "468deb2eec26338b",
+      "platform_item_id": "c1b0a0fbd1ba9d8a",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Scene From BLACKPINK Lisa’s New Documentary Sparks Major Controversy",
-      "description": "It sparked a heated debate.",
-      "url": "https://www.koreaboo.com/news/scene-blackpink-lisas-new-documentary-sparks-major-controversy/",
+      "title": "BLACKPINK Lisa’s “Insensitive” Behavior Toward Trainee Sparks Major Backlash",
+      "description": "The video clip has brought her a barrage of criticism.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-insensitive-behavior-toward-trainee-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-14T11:40:07Z",
-      "collected_at": "2026-09-14T12:55:00Z",
+      "published_at": "2026-09-14T21:05:19Z",
+      "collected_at": "2026-09-14T21:52:12Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.983,
+        "recency": 0.9863,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,21 +68,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2266,
+      "hot_score": 8.2546,
       "available": true
     },
     {
-      "id": "news:koreaboo:68dad99fab78384d",
+      "id": "news:koreaboo:fa528760ab0926cb",
       "platform": "news",
-      "platform_item_id": "68dad99fab78384d",
+      "platform_item_id": "fa528760ab0926cb",
       "source_type": "media",
       "content_kind": "news",
-      "title": "LE SSERAFIM Yunjin’s Recent Actions Incite A Wave Of Major Mocking",
-      "description": "\"Lowkey sad...\"",
-      "url": "https://www.koreaboo.com/news/le-sserafim-yunjin-actions-mocking/",
+      "title": "EJAE Gets Accused Of Bashing LE SSERAFIM Following New Collaboration",
+      "description": "She was featured on a new song by the group.",
+      "url": "https://www.koreaboo.com/news/ejae-accused-bashing-le-sserafim-following-collaboration/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-14T11:05:25Z",
-      "collected_at": "2026-09-14T12:55:00Z",
+      "published_at": "2026-09-14T20:40:37Z",
+      "collected_at": "2026-09-14T21:52:12Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -100,10 +100,8 @@
       "matched_groups": [
         "lesserafim"
       ],
-      "matched_members": [
-        "yunjin"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
@@ -111,147 +109,18 @@
           "alias": "LE SSERAFIM",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "yunjin",
-          "alias": "Yunjin",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9753,
+        "recency": 0.9837,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1622,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:8feb91e793282b8e",
-      "platform": "news",
-      "platform_item_id": "8feb91e793282b8e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE Jeongyeon’s Transformation For New Company Profile Photos Spark Shock",
-      "description": "\"Actress Yu Jeongyeon...\"",
-      "url": "https://www.koreaboo.com/news/twice-jeongyeon-transformation-new-actress-shots-spark-shock/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-14T10:30:10Z",
-      "collected_at": "2026-09-14T12:55:00Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jeongyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jeongyeon",
-          "alias": "Jeongyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9676,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0977,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:88ed89f16355d4b5",
-      "platform": "news",
-      "platform_item_id": "88ed89f16355d4b5",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Jisoo Sparks Shock With “Zero Makeup” Photos",
-      "description": "The idol went natural.",
-      "url": "https://www.koreaboo.com/news/blackpink-jisoo-sparks-shock-zero-makeup-photos/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-14T09:50:28Z",
-      "collected_at": "2026-09-14T12:55:00Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jisoo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.959,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0263,
+      "hot_score": 6.8786,
       "available": true
     },
     {
@@ -265,7 +134,7 @@
       "url": "https://www.soompi.com/article/1870473wpp/jeongyeon-unveils-dashing-new-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T09:45:14Z",
-      "collected_at": "2026-09-14T12:55:00Z",
+      "collected_at": "2026-09-14T21:52:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -304,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9579,
+        "recency": 0.856,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -312,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0171,
+      "hot_score": 7.1637,
       "available": true
     },
     {
@@ -326,7 +195,7 @@
       "url": "https://www.soompi.com/article/1870392wpp/aespas-winter-talks-about-tackling-her-fear-of-trying-new-things-her-upcoming-solo-stage-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T08:15:59Z",
-      "collected_at": "2026-09-14T12:55:00Z",
+      "collected_at": "2026-09-14T21:52:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -365,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9393,
+        "recency": 0.8411,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -373,68 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8615,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:6705bf0dc6f00aa5",
-      "platform": "news",
-      "platform_item_id": "6705bf0dc6f00aa5",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Jihyo Speaks Up About Her “Waterbomb” Outfit, Sparks Massive Response",
-      "description": "What a queen.",
-      "url": "https://www.koreaboo.com/news/twice-jihyo-makes-clear-choice-wear-jeans-waterbomb-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-14T06:53:54Z",
-      "collected_at": "2026-09-14T12:55:00Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jihyo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jihyo",
-          "alias": "Jihyo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9229,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7236,
+      "hot_score": 7.0393,
       "available": true
     },
     {
@@ -448,7 +256,7 @@
       "url": "https://www.soompi.com/article/1870369wpp/illit-announces-fall-comeback-date",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T04:02:08Z",
-      "collected_at": "2026-09-14T12:55:00Z",
+      "collected_at": "2026-09-14T21:52:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -478,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8902,
+        "recency": 0.8015,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -486,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2248,
+      "hot_score": 5.6044,
       "available": true
     },
     {
@@ -500,7 +308,7 @@
       "url": "https://www.soompi.com/article/1870250wpp/stray-kids-enhypen-nct-127-cortis-bts-ateez-le-sserafim-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T19:23:16Z",
-      "collected_at": "2026-09-14T12:55:00Z",
+      "collected_at": "2026-09-14T21:52:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -538,7 +346,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8042,
+        "recency": 0.7311,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -546,7 +354,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5128,
+      "hot_score": 5.9207,
       "available": true
     },
     {
@@ -560,7 +368,7 @@
       "url": "https://www.soompi.com/article/1870161wpp/watch-ateez-takes-6th-win-for-bad-on-inkigayo-performances-by-soyeon-evan-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T15:11:43Z",
-      "collected_at": "2026-09-14T12:55:00Z",
+      "collected_at": "2026-09-14T21:52:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -592,7 +400,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7682,
+        "recency": 0.7012,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -600,7 +408,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4295,
+      "hot_score": 5.8689,
       "available": true
     },
     {
@@ -614,7 +422,7 @@
       "url": "https://www.soompi.com/article/1870039wpp/watch-shinees-taemin-takes-1st-win-for-float-on-music-core-performances-by-soyeon-team-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T23:23:00Z",
-      "collected_at": "2026-09-14T12:55:00Z",
+      "collected_at": "2026-09-14T21:52:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -646,7 +454,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6573,
+        "recency": 0.6077,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -654,7 +462,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5014,
+      "hot_score": 5.0857,
       "available": true
     },
     {
@@ -668,7 +476,7 @@
       "url": "https://www.soompi.com/article/1869885wpp/watch-blackpinks-lisa-drops-fierce-dance-performance-video-for-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T03:39:55Z",
-      "collected_at": "2026-09-14T12:55:00Z",
+      "collected_at": "2026-09-14T21:52:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -707,7 +515,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5571,
+        "recency": 0.521,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -715,7 +523,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6621,
+      "hot_score": 4.3601,
       "available": true
     }
   ]
