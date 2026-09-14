@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-13T20:53:26Z",
+  "generated_at": "2026-09-14T05:01:47Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,58 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:8e2b6f70db871d6e",
+      "platform": "news",
+      "platform_item_id": "8e2b6f70db871d6e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "ILLIT Announces Fall Comeback Date",
+      "description": "ILLIT is gearing up for their comeback! On September 14, BELIFT LAB announced that ILLIT will make their comeback with their fifth mini album “BREAK EVEN” on October 26. Referring to the “break-even point,” “BREAK EVEN” conveys ILLIT’s declaration that they will no longer invest their heart and time in relationships that fail to give… Continue reading ILLIT Announces Fall Comeback Date The post ILLIT Announces Fall Comeback Date appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1870369wpp/illit-announces-fall-comeback-date",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-14T04:02:08Z",
+      "collected_at": "2026-09-14T05:01:47Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
     {
       "id": "news:soompi:8fe5d661760da901",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.soompi.com/article/1870250wpp/stray-kids-enhypen-nct-127-cortis-bts-ateez-le-sserafim-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T19:23:16Z",
-      "collected_at": "2026-09-13T20:53:26Z",
+      "collected_at": "2026-09-14T05:01:47Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -59,7 +111,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9796,
+        "recency": 0.8819,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -67,7 +119,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9328,
+      "hot_score": 7.142,
       "available": true
     },
     {
@@ -81,7 +133,7 @@
       "url": "https://www.soompi.com/article/1870161wpp/watch-ateez-takes-6th-win-for-bad-on-inkigayo-performances-by-soyeon-evan-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T15:11:43Z",
-      "collected_at": "2026-09-13T20:53:26Z",
+      "collected_at": "2026-09-14T05:01:47Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -113,7 +165,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9267,
+        "recency": 0.8388,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -121,68 +173,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7558,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:d9a036f472eb7102",
-      "platform": "news",
-      "platform_item_id": "d9a036f472eb7102",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa Winter’s “Skinny” Appearance Hit With Brutal Reactions",
-      "description": "Her look sparked two very different reactions.",
-      "url": "https://www.koreaboo.com/news/aespa-winters-skinny-appearance-hit-brutal-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-13T12:28:05Z",
-      "collected_at": "2026-09-13T20:53:26Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "winter"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "winter",
-          "alias": "Winter",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8953,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4927,
+      "hot_score": 7.0203,
       "available": true
     },
     {
@@ -196,7 +187,7 @@
       "url": "https://www.soompi.com/article/1870039wpp/watch-shinees-taemin-takes-1st-win-for-float-on-music-core-performances-by-soyeon-team-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T23:23:00Z",
-      "collected_at": "2026-09-13T20:53:26Z",
+      "collected_at": "2026-09-14T05:01:47Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -228,7 +219,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.77,
+        "recency": 0.7083,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -236,7 +227,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4443,
+      "hot_score": 5.9283,
       "available": true
     },
     {
@@ -250,7 +241,7 @@
       "url": "https://www.soompi.com/article/1869885wpp/watch-blackpinks-lisa-drops-fierce-dance-performance-video-for-sawadika",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T03:39:55Z",
-      "collected_at": "2026-09-13T20:53:26Z",
+      "collected_at": "2026-09-14T05:01:47Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -289,7 +280,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6359,
+        "recency": 0.5933,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -297,7 +288,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.322,
+      "hot_score": 4.9651,
       "available": true
     },
     {
@@ -311,7 +302,7 @@
       "url": "https://www.soompi.com/article/1869814wpp/watch-monsta-x-takes-1st-win-for-magic-on-music-bank-performances-by-soyeon-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-11T10:45:12Z",
-      "collected_at": "2026-09-13T20:53:26Z",
+      "collected_at": "2026-09-14T05:01:47Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -343,7 +334,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5533,
+        "recency": 0.5207,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -351,7 +342,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6304,
+      "hot_score": 4.3578,
       "available": true
     }
   ]
