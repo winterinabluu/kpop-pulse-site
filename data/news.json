@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-15T11:49:41Z",
+  "generated_at": "2026-09-15T17:03:18Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 10,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:96e275fc599e9778",
+      "platform": "news",
+      "platform_item_id": "96e275fc599e9778",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "IVE Wonyoung’s On-Set Behavior Sparks Massive Reactions",
+      "description": "A makeup artist shared her experience.",
+      "url": "https://www.koreaboo.com/news/ive-wonyoung-set-behavior-sparks-massive-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-15T15:58:29Z",
+      "collected_at": "2026-09-15T17:03:18Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9852,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2455,
+      "available": true
+    },
     {
       "id": "news:soompi:9ddd8507f294e655",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1870684wpp/kian84-kim-yeon-koung-lee-junho-and-kazuha-dish-on-their-unforgettable-experience-on-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T10:59:47Z",
-      "collected_at": "2026-09-15T11:49:41Z",
+      "collected_at": "2026-09-15T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -53,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9224,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -61,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.7197,
       "available": true
     },
     {
@@ -75,7 +136,7 @@
       "url": "https://www.koreaboo.com/news/disband-blackpink-lisa-recent-comments-address-groups-future/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T10:30:35Z",
-      "collected_at": "2026-09-15T11:49:41Z",
+      "collected_at": "2026-09-15T17:03:18Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -114,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.982,
+        "recency": 0.9167,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,129 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2187,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:cb96c1a412d5ee65",
-      "platform": "news",
-      "platform_item_id": "cb96c1a412d5ee65",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT’s Wonhee Accused Of Bad Personality With Actions Towards Members — Triggers Heated Debate",
-      "description": "The video has over 66,000 likes.",
-      "url": "https://www.koreaboo.com/news/illit-wonhee-accused-bad-personality/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-15T09:55:20Z",
-      "collected_at": "2026-09-15T11:49:41Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [
-        "wonhee"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonhee",
-          "alias": "Wonhee",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9742,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.1534,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:2c6d5c1448e0b464",
-      "platform": "news",
-      "platform_item_id": "2c6d5c1448e0b464",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa Directly Apologizes For Past Controversy — Sparks Major Reactions",
-      "description": "It was in a new interview about her documentary.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-apology-controversy-big-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-15T09:15:44Z",
-      "collected_at": "2026-09-15T11:49:41Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9656,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0812,
+      "hot_score": 7.6718,
       "available": true
     },
     {
@@ -258,7 +197,7 @@
       "url": "https://www.soompi.com/article/1870611wpp/lee-seo-jin-han-ji-min-monsta-xs-joohoney-twices-jeongyeon-and-more-to-star-in-na-young-suks-new-variety-show",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T05:02:04Z",
-      "collected_at": "2026-09-15T11:49:41Z",
+      "collected_at": "2026-09-15T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -297,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9138,
+        "recency": 0.8569,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -305,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6476,
+      "hot_score": 7.1719,
       "available": true
     },
     {
@@ -319,7 +258,7 @@
       "url": "https://www.soompi.com/article/1870473wpp/jeongyeon-unveils-dashing-new-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T09:45:14Z",
-      "collected_at": "2026-09-15T11:49:41Z",
+      "collected_at": "2026-09-15T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -358,7 +297,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7341,
+        "recency": 0.697,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -366,7 +305,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.1442,
+      "hot_score": 5.8333,
       "available": true
     },
     {
@@ -380,7 +319,7 @@
       "url": "https://www.soompi.com/article/1870392wpp/aespas-winter-talks-about-tackling-her-fear-of-trying-new-things-her-upcoming-solo-stage-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T08:15:59Z",
-      "collected_at": "2026-09-15T11:49:41Z",
+      "collected_at": "2026-09-15T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -419,7 +358,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7232,
+        "recency": 0.6871,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -427,7 +366,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0524,
+      "hot_score": 5.7505,
       "available": true
     },
     {
@@ -441,7 +380,7 @@
       "url": "https://www.soompi.com/article/1870369wpp/illit-announces-fall-comeback-date",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T04:02:08Z",
-      "collected_at": "2026-09-15T11:49:41Z",
+      "collected_at": "2026-09-15T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -471,7 +410,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6937,
+        "recency": 0.6604,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -479,7 +418,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8507,
+      "hot_score": 4.6182,
       "available": true
     },
     {
@@ -493,7 +432,7 @@
       "url": "https://www.soompi.com/article/1870250wpp/stray-kids-enhypen-nct-127-cortis-bts-ateez-le-sserafim-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T19:23:16Z",
-      "collected_at": "2026-09-15T11:49:41Z",
+      "collected_at": "2026-09-15T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -531,7 +470,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6403,
+        "recency": 0.6119,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -539,7 +478,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1857,
+      "hot_score": 4.9554,
       "available": true
     },
     {
@@ -553,7 +492,7 @@
       "url": "https://www.soompi.com/article/1870161wpp/watch-ateez-takes-6th-win-for-bad-on-inkigayo-performances-by-soyeon-evan-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T15:11:43Z",
-      "collected_at": "2026-09-15T11:49:41Z",
+      "collected_at": "2026-09-15T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -585,7 +524,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6173,
+        "recency": 0.5908,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -593,7 +532,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1665,
+      "hot_score": 4.9449,
       "available": true
     }
   ]
