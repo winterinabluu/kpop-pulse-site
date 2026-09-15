@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-14T21:52:12Z",
+  "generated_at": "2026-09-15T04:58:33Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 9,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisa-insensitive-behavior-toward-trainee-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T21:05:19Z",
-      "collected_at": "2026-09-14T21:52:12Z",
+      "collected_at": "2026-09-15T04:58:33Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9013,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.5429,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/ejae-accused-bashing-le-sserafim-following-collaboration/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T20:40:37Z",
-      "collected_at": "2026-09-14T21:52:12Z",
+      "collected_at": "2026-09-15T04:58:33Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9837,
+        "recency": 0.8966,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8786,
+      "hot_score": 6.2699,
       "available": true
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.soompi.com/article/1870473wpp/jeongyeon-unveils-dashing-new-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T09:45:14Z",
-      "collected_at": "2026-09-14T21:52:12Z",
+      "collected_at": "2026-09-15T04:58:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.856,
+        "recency": 0.7893,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1637,
+      "hot_score": 6.6057,
       "available": true
     },
     {
@@ -195,7 +195,7 @@
       "url": "https://www.soompi.com/article/1870392wpp/aespas-winter-talks-about-tackling-her-fear-of-trying-new-things-her-upcoming-solo-stage-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T08:15:59Z",
-      "collected_at": "2026-09-14T21:52:12Z",
+      "collected_at": "2026-09-15T04:58:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8411,
+        "recency": 0.7766,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.0393,
+      "hot_score": 6.4997,
       "available": true
     },
     {
@@ -256,7 +256,7 @@
       "url": "https://www.soompi.com/article/1870369wpp/illit-announces-fall-comeback-date",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T04:02:08Z",
-      "collected_at": "2026-09-14T21:52:12Z",
+      "collected_at": "2026-09-15T04:58:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8015,
+        "recency": 0.7427,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6044,
+      "hot_score": 5.1936,
       "available": true
     },
     {
@@ -308,7 +308,7 @@
       "url": "https://www.soompi.com/article/1870250wpp/stray-kids-enhypen-nct-127-cortis-bts-ateez-le-sserafim-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T19:23:16Z",
-      "collected_at": "2026-09-14T21:52:12Z",
+      "collected_at": "2026-09-15T04:58:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -346,7 +346,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7311,
+        "recency": 0.6819,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -354,7 +354,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9207,
+      "hot_score": 5.5223,
       "available": true
     },
     {
@@ -368,7 +368,7 @@
       "url": "https://www.soompi.com/article/1870161wpp/watch-ateez-takes-6th-win-for-bad-on-inkigayo-performances-by-soyeon-evan-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T15:11:43Z",
-      "collected_at": "2026-09-14T21:52:12Z",
+      "collected_at": "2026-09-15T04:58:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -400,7 +400,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7012,
+        "recency": 0.6559,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -408,7 +408,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8689,
+      "hot_score": 5.489,
       "available": true
     },
     {
@@ -422,7 +422,7 @@
       "url": "https://www.soompi.com/article/1870039wpp/watch-shinees-taemin-takes-1st-win-for-float-on-music-core-performances-by-soyeon-team-verivery-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-12T23:23:00Z",
-      "collected_at": "2026-09-14T21:52:12Z",
+      "collected_at": "2026-09-15T04:58:33Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -454,7 +454,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6077,
+        "recency": 0.5733,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -462,68 +462,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0857,
-      "available": true
-    },
-    {
-      "id": "news:soompi:eb5e3285fe22e87d",
-      "platform": "news",
-      "platform_item_id": "eb5e3285fe22e87d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: BLACKPINK’s Lisa Drops Fierce Dance Performance Video For “SaWaDiKa”",
-      "description": "BLACKPINK’s Lisa has shared a closer look at her choreography for “SaWaDiKa”! On September 12 KST, Lisa released a dance performance video for her new single “SaWaDiKa,” which will be included on her upcoming solo EP “PRESS PLAY.” The new video gives fans a better look at Lisa’s choreography for the song, as well as… Continue reading Watch: BLACKPINK’s Lisa Drops Fierce Dance Performance Video For “SaWaDiKa” The post Watch: BLACKPINK’s Lisa Drops Fierce Dance Performance Video For “SaWaDiKa” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1869885wpp/watch-blackpinks-lisa-drops-fierce-dance-performance-video-for-sawadika",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-12T03:39:55Z",
-      "collected_at": "2026-09-14T21:52:12Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.521,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.3601,
+      "hot_score": 4.7979,
       "available": true
     }
   ]
