@@ -1,27 +1,81 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-15T04:58:33Z",
+  "generated_at": "2026-09-15T11:49:41Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 10,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:c1b0a0fbd1ba9d8a",
+      "id": "news:soompi:9ddd8507f294e655",
       "platform": "news",
-      "platform_item_id": "c1b0a0fbd1ba9d8a",
+      "platform_item_id": "9ddd8507f294e655",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK Lisa’s “Insensitive” Behavior Toward Trainee Sparks Major Backlash",
-      "description": "The video clip has brought her a barrage of criticism.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-insensitive-behavior-toward-trainee-backlash/",
+      "title": "Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Dish On Their Unforgettable Experience On “Kian’s Bizarre B&B 2”",
+      "description": "An even wilder and more chaotic adventure is about to unfold in “Kian’s Bizarre B&B” Season 2! “Kian’s Bizarre B&B” is a Netflix variety show in which Kian84 and his castmates run a one-of-a-kind guesthouse. Season 1 featured Kian84, BTS’s Jin, and Ji Ye Eun operating a unique lodging on the scenic island of Ulleungdo, offering guests… Continue reading Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Dish On Their Unforgettable Experience On “Kian’s Bizarre B&B 2” The post Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Dish On Their Unforgettable Experience On “Kian’s Bizarre B&B 2” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1870684wpp/kian84-kim-yeon-koung-lee-junho-and-kazuha-dish-on-their-unforgettable-experience-on-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-14T21:05:19Z",
-      "collected_at": "2026-09-15T04:58:33Z",
+      "published_at": "2026-09-15T10:59:47Z",
+      "collected_at": "2026-09-15T11:49:41Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "kazuha"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "kazuha",
+          "alias": "Kazuha",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:f98da1cea64ad38e",
+      "platform": "news",
+      "platform_item_id": "f98da1cea64ad38e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Lisa’s Addresses Group’s Future Amid Disbandment Discourse",
+      "description": "It comes amid recent controversies.",
+      "url": "https://www.koreaboo.com/news/disband-blackpink-lisa-recent-comments-address-groups-future/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-15T10:30:35Z",
+      "collected_at": "2026-09-15T11:49:41Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9013,
+        "recency": 0.982,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,21 +122,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5429,
+      "hot_score": 8.2187,
       "available": true
     },
     {
-      "id": "news:koreaboo:fa528760ab0926cb",
+      "id": "news:koreaboo:cb96c1a412d5ee65",
       "platform": "news",
-      "platform_item_id": "fa528760ab0926cb",
+      "platform_item_id": "cb96c1a412d5ee65",
       "source_type": "media",
       "content_kind": "news",
-      "title": "EJAE Gets Accused Of Bashing LE SSERAFIM Following New Collaboration",
-      "description": "She was featured on a new song by the group.",
-      "url": "https://www.koreaboo.com/news/ejae-accused-bashing-le-sserafim-following-collaboration/",
+      "title": "ILLIT’s Wonhee Accused Of Bad Personality With Actions Towards Members — Triggers Heated Debate",
+      "description": "The video has over 66,000 likes.",
+      "url": "https://www.koreaboo.com/news/illit-wonhee-accused-bad-personality/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-14T20:40:37Z",
-      "collected_at": "2026-09-15T04:58:33Z",
+      "published_at": "2026-09-15T09:55:20Z",
+      "collected_at": "2026-09-15T11:49:41Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -98,29 +152,160 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "lesserafim"
+        "illit"
       ],
-      "matched_members": [],
-      "match_confidence": "medium",
+      "matched_members": [
+        "wonhee"
+      ],
+      "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
+          "target_id": "illit",
+          "alias": "ILLIT",
           "field": "title",
           "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonhee",
+          "alias": "Wonhee",
+          "field": "title",
+          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8966,
+        "recency": 0.9742,
         "views": 0,
-        "engagement": 3.9,
+        "engagement": 5.7,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2699,
+      "hot_score": 8.1534,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:2c6d5c1448e0b464",
+      "platform": "news",
+      "platform_item_id": "2c6d5c1448e0b464",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Lisa Directly Apologizes For Past Controversy — Sparks Major Reactions",
+      "description": "It was in a new interview about her documentary.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-apology-controversy-big-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-15T09:15:44Z",
+      "collected_at": "2026-09-15T11:49:41Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9656,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0812,
+      "available": true
+    },
+    {
+      "id": "news:soompi:c94351c1e240f4c2",
+      "platform": "news",
+      "platform_item_id": "c94351c1e240f4c2",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Lee Seo Jin, Han Ji Min, MONSTA X’s Joohoney, TWICE’s Jeongyeon, And More To Star In Na Young Suk’s New Variety Show",
+      "description": "Three pairs of celebrity friends are teaming up for a fun-filled trip on Na Young Suk’s new variety show! On September 15, tvN announced that Lee Seo Jin and Han Ji Min, Kim Yong Gun and Park Jung Soo, and MONSTA X’s Joohoney and TWICE’s Jeongyeon will star in the upcoming variety show “Just Friends”… Continue reading Lee Seo Jin, Han Ji Min, MONSTA X’s Joohoney, TWICE’s Jeongyeon, And More To Star In Na Young Suk’s New Variety Show The post Lee Seo Jin, Han Ji Min, MONSTA X’s Joohoney, TWICE’s Jeongyeon, And More To Star In Na Young Suk’s New Variety Show appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1870611wpp/lee-seo-jin-han-ji-min-monsta-xs-joohoney-twices-jeongyeon-and-more-to-star-in-na-young-suks-new-variety-show",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-15T05:02:04Z",
+      "collected_at": "2026-09-15T11:49:41Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jeongyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jeongyeon",
+          "alias": "Jeongyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9138,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.6476,
       "available": true
     },
     {
@@ -134,7 +319,7 @@
       "url": "https://www.soompi.com/article/1870473wpp/jeongyeon-unveils-dashing-new-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T09:45:14Z",
-      "collected_at": "2026-09-15T04:58:33Z",
+      "collected_at": "2026-09-15T11:49:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +358,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7893,
+        "recency": 0.7341,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +366,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6057,
+      "hot_score": 6.1442,
       "available": true
     },
     {
@@ -195,7 +380,7 @@
       "url": "https://www.soompi.com/article/1870392wpp/aespas-winter-talks-about-tackling-her-fear-of-trying-new-things-her-upcoming-solo-stage-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T08:15:59Z",
-      "collected_at": "2026-09-15T04:58:33Z",
+      "collected_at": "2026-09-15T11:49:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +419,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7766,
+        "recency": 0.7232,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +427,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4997,
+      "hot_score": 6.0524,
       "available": true
     },
     {
@@ -256,7 +441,7 @@
       "url": "https://www.soompi.com/article/1870369wpp/illit-announces-fall-comeback-date",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T04:02:08Z",
-      "collected_at": "2026-09-15T04:58:33Z",
+      "collected_at": "2026-09-15T11:49:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +471,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7427,
+        "recency": 0.6937,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +479,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1936,
+      "hot_score": 4.8507,
       "available": true
     },
     {
@@ -308,7 +493,7 @@
       "url": "https://www.soompi.com/article/1870250wpp/stray-kids-enhypen-nct-127-cortis-bts-ateez-le-sserafim-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T19:23:16Z",
-      "collected_at": "2026-09-15T04:58:33Z",
+      "collected_at": "2026-09-15T11:49:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -346,7 +531,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6819,
+        "recency": 0.6403,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -354,7 +539,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5223,
+      "hot_score": 5.1857,
       "available": true
     },
     {
@@ -368,7 +553,7 @@
       "url": "https://www.soompi.com/article/1870161wpp/watch-ateez-takes-6th-win-for-bad-on-inkigayo-performances-by-soyeon-evan-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T15:11:43Z",
-      "collected_at": "2026-09-15T04:58:33Z",
+      "collected_at": "2026-09-15T11:49:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -400,7 +585,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6559,
+        "recency": 0.6173,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -408,61 +593,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.489,
-      "available": true
-    },
-    {
-      "id": "news:soompi:374bc2da953fb83b",
-      "platform": "news",
-      "platform_item_id": "374bc2da953fb83b",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More",
-      "description": "SHINee’s Taemin has won his first music show trophy for his new title track “FLOAT”! On the September 12 episode of MBC’s “Music Core,” the candidates for first place were MONSTA X’s “MAGIC,” BIGBANG’s “BiiiG,” and Taemin’s “FLOAT.” Taemin ultimately took the win with a total of 8,098 points. Congratulations to Taemin! Watch a clip… Continue reading Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More The post Watch: SHINee’s Taemin Takes 1st Win For “FLOAT” On “Music Core”; Performances By Soyeon, &TEAM, VERIVERY, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1870039wpp/watch-shinees-taemin-takes-1st-win-for-float-on-music-core-performances-by-soyeon-team-verivery-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-12T23:23:00Z",
-      "collected_at": "2026-09-15T04:58:33Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [
-        "soyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "soyeon",
-          "alias": "Soyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5733,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.7979,
+      "hot_score": 5.1665,
       "available": true
     }
   ]
