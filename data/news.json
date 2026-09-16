@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-15T21:24:31Z",
+  "generated_at": "2026-09-16T04:54:02Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,67 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:40432c08fbc33284",
+      "platform": "news",
+      "platform_item_id": "40432c08fbc33284",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa’s Giselle Sparks Outrage With Her Support For Alleged Abuser",
+      "description": "Multiple of her social media posts have sparked heavy scrutiny.",
+      "url": "https://www.koreaboo.com/news/aespa-giselle-outrage-support-alleged-abuser/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-16T00:11:33Z",
+      "collected_at": "2026-09-16T04:54:02Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "giselle"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "giselle",
+          "alias": "Giselle",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9386,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8556,
+      "available": true
+    },
     {
       "id": "news:koreaboo:96e275fc599e9778",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/ive-wonyoung-set-behavior-sparks-massive-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T15:58:29Z",
-      "collected_at": "2026-09-15T21:24:31Z",
+      "collected_at": "2026-09-16T04:54:02Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9298,
+        "recency": 0.8478,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7819,
+      "hot_score": 7.0954,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.soompi.com/article/1870684wpp/kian84-kim-yeon-koung-lee-junho-and-kazuha-dish-on-their-unforgettable-experience-on-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T10:59:47Z",
-      "collected_at": "2026-09-15T21:24:31Z",
+      "collected_at": "2026-09-16T04:54:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8737,
+        "recency": 0.8009,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.3118,
+      "hot_score": 6.7025,
       "available": true
     },
     {
@@ -136,7 +197,7 @@
       "url": "https://www.soompi.com/article/1870611wpp/lee-seo-jin-han-ji-min-monsta-xs-joohoney-twices-jeongyeon-and-more-to-star-in-na-young-suks-new-variety-show",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T05:02:04Z",
-      "collected_at": "2026-09-15T21:24:31Z",
+      "collected_at": "2026-09-16T04:54:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -175,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8147,
+        "recency": 0.751,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -183,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8186,
+      "hot_score": 6.2857,
       "available": true
     },
     {
@@ -197,7 +258,7 @@
       "url": "https://www.soompi.com/article/1870473wpp/jeongyeon-unveils-dashing-new-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T09:45:14Z",
-      "collected_at": "2026-09-15T21:24:31Z",
+      "collected_at": "2026-09-16T04:54:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -236,7 +297,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6688,
+        "recency": 0.6253,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +305,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5974,
+      "hot_score": 5.2332,
       "available": true
     },
     {
@@ -258,7 +319,7 @@
       "url": "https://www.soompi.com/article/1870392wpp/aespas-winter-talks-about-tackling-her-fear-of-trying-new-things-her-upcoming-solo-stage-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T08:15:59Z",
-      "collected_at": "2026-09-15T21:24:31Z",
+      "collected_at": "2026-09-16T04:54:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -297,7 +358,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6597,
+        "recency": 0.6173,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -305,7 +366,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5211,
+      "hot_score": 5.1665,
       "available": true
     },
     {
@@ -319,7 +380,7 @@
       "url": "https://www.soompi.com/article/1870369wpp/illit-announces-fall-comeback-date",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T04:02:08Z",
-      "collected_at": "2026-09-15T21:24:31Z",
+      "collected_at": "2026-09-16T04:54:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -349,7 +410,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6351,
+        "recency": 0.5957,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -357,7 +418,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.4408,
+      "hot_score": 4.1655,
       "available": true
     },
     {
@@ -371,7 +432,7 @@
       "url": "https://www.soompi.com/article/1870250wpp/stray-kids-enhypen-nct-127-cortis-bts-ateez-le-sserafim-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-13T19:23:16Z",
-      "collected_at": "2026-09-15T21:24:31Z",
+      "collected_at": "2026-09-16T04:54:02Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -409,7 +470,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5901,
+        "recency": 0.5559,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -417,61 +478,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7786,
-      "available": true
-    },
-    {
-      "id": "news:soompi:13b8859569017e6a",
-      "platform": "news",
-      "platform_item_id": "13b8859569017e6a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: ATEEZ Takes 6th Win For “BAD” On “Inkigayo”; Performances By Soyeon, EVAN, &TEAM, And More",
-      "description": "ATEEZ has won a sixth music show trophy for “BAD”! On the September 13 episode of SBS’s “Inkigayo,” the candidates for first place were BIGBANG’s “BiiiG,” ATEEZ’s “BAD,” and RESCENE’s “LOVE ATTACK.” ATEEZ ultimately took the win with a total of 5,800 points. Congratulations to ATEEZ! Watch a clip of the winner announcement below: Performers… Continue reading Watch: ATEEZ Takes 6th Win For “BAD” On “Inkigayo”; Performances By Soyeon, EVAN, &TEAM, And More The post Watch: ATEEZ Takes 6th Win For “BAD” On “Inkigayo”; Performances By Soyeon, EVAN, &TEAM, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1870161wpp/watch-ateez-takes-6th-win-for-bad-on-inkigayo-performances-by-soyeon-evan-team-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-13T15:11:43Z",
-      "collected_at": "2026-09-15T21:24:31Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [
-        "soyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "soyeon",
-          "alias": "Soyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5705,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.7743,
+      "hot_score": 4.5021,
       "available": true
     }
   ]
