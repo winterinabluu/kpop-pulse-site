@@ -1,76 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-16T17:03:18Z",
+  "generated_at": "2026-09-16T21:21:40Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:4835af30a8a0f3b9",
-      "platform": "news",
-      "platform_item_id": "4835af30a8a0f3b9",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa Karina’s Body Proportions In Tight, Sexy Slit Dress At Concert Sparks Major Shock",
-      "description": "\"The back muscle...\"",
-      "url": "https://www.koreaboo.com/news/aespa-karina-body-in-sexy-black-dress-concert/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-16T09:45:33Z",
-      "collected_at": "2026-09-16T17:03:18Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "karina"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "karina",
-          "alias": "Karina",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.908,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5991,
-      "available": true
-    },
     {
       "id": "news:soompi:9ddd8507f294e655",
       "platform": "news",
@@ -82,7 +21,7 @@
       "url": "https://www.soompi.com/article/1870684wpp/kian84-kim-yeon-koung-lee-junho-and-kazuha-dish-on-their-unforgettable-experience-on-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T10:59:47Z",
-      "collected_at": "2026-09-16T17:03:18Z",
+      "collected_at": "2026-09-16T21:21:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +53,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7055,
+        "recency": 0.6769,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +61,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9043,
+      "hot_score": 5.6653,
       "available": true
     },
     {
@@ -136,7 +75,7 @@
       "url": "https://www.soompi.com/article/1870611wpp/lee-seo-jin-han-ji-min-monsta-xs-joohoney-twices-jeongyeon-and-more-to-star-in-na-young-suks-new-variety-show",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T05:02:04Z",
-      "collected_at": "2026-09-16T17:03:18Z",
+      "collected_at": "2026-09-16T21:21:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -175,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6665,
+        "recency": 0.641,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -183,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5784,
+      "hot_score": 5.3646,
       "available": true
     },
     {
@@ -197,7 +136,7 @@
       "url": "https://www.soompi.com/article/1870473wpp/jeongyeon-unveils-dashing-new-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T09:45:14Z",
-      "collected_at": "2026-09-16T17:03:18Z",
+      "collected_at": "2026-09-16T21:21:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -236,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5656,
+        "recency": 0.5471,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -244,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7335,
+      "hot_score": 4.5787,
       "available": true
     },
     {
@@ -258,7 +197,7 @@
       "url": "https://www.soompi.com/article/1870392wpp/aespas-winter-talks-about-tackling-her-fear-of-trying-new-things-her-upcoming-solo-stage-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T08:15:59Z",
-      "collected_at": "2026-09-16T17:03:18Z",
+      "collected_at": "2026-09-16T21:21:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -297,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5591,
+        "recency": 0.541,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -305,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6789,
+      "hot_score": 4.5275,
       "available": true
     }
   ]
