@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-16T11:42:33Z",
+  "generated_at": "2026-09-16T17:03:18Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/aespa-karina-body-in-sexy-black-dress-concert/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T09:45:33Z",
-      "collected_at": "2026-09-16T11:42:33Z",
+      "collected_at": "2026-09-16T17:03:18Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9736,
+        "recency": 0.908,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,136 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1485,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:8dffdcc0b3dd43a4",
-      "platform": "news",
-      "platform_item_id": "8dffdcc0b3dd43a4",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s Ningning Shocks With Unconventional Tattoo Placement",
-      "description": "This was unexpected.",
-      "url": "https://www.koreaboo.com/news/aespa-ningning-underboob-tattoo-instagram/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-16T08:07:54Z",
-      "collected_at": "2026-09-16T11:42:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "ningning"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "ningning",
-          "alias": "NingNing",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9527,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.973,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:c320317daae83a31",
-      "platform": "news",
-      "platform_item_id": "c320317daae83a31",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "IVE’s Jang Wonyoung Goes Viral After Staff’s Instagram Story",
-      "description": "A true queen.",
-      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-makeup-staff-instagram-story-viral/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-16T06:53:51Z",
-      "collected_at": "2026-09-16T11:42:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Jang Wonyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9373,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8449,
+      "hot_score": 7.5991,
       "available": true
     },
     {
@@ -211,7 +82,7 @@
       "url": "https://www.soompi.com/article/1870684wpp/kian84-kim-yeon-koung-lee-junho-and-kazuha-dish-on-their-unforgettable-experience-on-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T10:59:47Z",
-      "collected_at": "2026-09-16T11:42:33Z",
+      "collected_at": "2026-09-16T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7445,
+        "recency": 0.7055,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2307,
+      "hot_score": 5.9043,
       "available": true
     },
     {
@@ -265,7 +136,7 @@
       "url": "https://www.soompi.com/article/1870611wpp/lee-seo-jin-han-ji-min-monsta-xs-joohoney-twices-jeongyeon-and-more-to-star-in-na-young-suks-new-variety-show",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T05:02:04Z",
-      "collected_at": "2026-09-16T11:42:33Z",
+      "collected_at": "2026-09-16T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -304,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7012,
+        "recency": 0.6665,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -312,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8689,
+      "hot_score": 5.5784,
       "available": true
     },
     {
@@ -326,7 +197,7 @@
       "url": "https://www.soompi.com/article/1870473wpp/jeongyeon-unveils-dashing-new-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T09:45:14Z",
-      "collected_at": "2026-09-16T11:42:33Z",
+      "collected_at": "2026-09-16T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -365,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5904,
+        "recency": 0.5656,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -373,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.941,
+      "hot_score": 4.7335,
       "available": true
     },
     {
@@ -387,7 +258,7 @@
       "url": "https://www.soompi.com/article/1870392wpp/aespas-winter-talks-about-tackling-her-fear-of-trying-new-things-her-upcoming-solo-stage-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-14T08:15:59Z",
-      "collected_at": "2026-09-16T11:42:33Z",
+      "collected_at": "2026-09-16T17:03:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -426,7 +297,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5833,
+        "recency": 0.5591,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -434,7 +305,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8815,
+      "hot_score": 4.6789,
       "available": true
     }
   ]
