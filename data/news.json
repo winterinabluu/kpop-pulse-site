@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-17T17:03:52Z",
+  "generated_at": "2026-09-17T21:26:03Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jisoo-confesses-giving-art/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T15:37:19Z",
-      "collected_at": "2026-09-17T17:03:52Z",
+      "collected_at": "2026-09-17T21:26:03Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9804,
+        "recency": 0.9253,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2048,
+      "hot_score": 7.7441,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/le-sserafim-member-mentions-newjeans-sparks-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T14:46:33Z",
-      "collected_at": "2026-09-17T17:03:52Z",
+      "collected_at": "2026-09-17T21:26:03Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -120,7 +120,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9692,
+        "recency": 0.9153,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -128,59 +128,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8489,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:2aaf1eeee79a22bb",
-      "platform": "news",
-      "platform_item_id": "2aaf1eeee79a22bb",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS And BLACKPINK Member Subject To Brutal Backlash For Talent",
-      "description": "Netizens didn't hold back.",
-      "url": "https://www.koreaboo.com/news/bts-member-blackpink-memebr-talent-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-17T11:25:22Z",
-      "collected_at": "2026-09-17T17:03:52Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9273,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.4845,
+      "hot_score": 7.4128,
       "available": true
     },
     {
@@ -194,7 +142,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-17T17:03:52Z",
+      "collected_at": "2026-09-17T21:26:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -238,7 +186,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9206,
+        "recency": 0.8718,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -246,7 +194,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4371,
+      "hot_score": 6.0965,
       "available": true
     },
     {
@@ -260,7 +208,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-17T17:03:52Z",
+      "collected_at": "2026-09-17T21:26:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -306,7 +254,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7982,
+        "recency": 0.7613,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -314,7 +262,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1687,
+      "hot_score": 6.8375,
       "available": true
     },
     {
@@ -328,7 +276,7 @@
       "url": "https://www.soompi.com/article/1870684wpp/kian84-kim-yeon-koung-lee-junho-and-kazuha-dish-on-their-unforgettable-experience-on-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T10:59:47Z",
-      "collected_at": "2026-09-17T17:03:52Z",
+      "collected_at": "2026-09-17T21:26:03Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -360,7 +308,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5711,
+        "recency": 0.552,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -368,7 +316,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7798,
+      "hot_score": 4.6197,
       "available": true
     }
   ]
