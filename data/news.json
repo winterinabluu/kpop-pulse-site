@@ -1,15 +1,136 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-17T11:47:15Z",
+  "generated_at": "2026-09-17T17:03:52Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:cad12226aea36e74",
+      "platform": "news",
+      "platform_item_id": "cad12226aea36e74",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jisoo Confesses To Giving Up On Art",
+      "description": "She shared her honest approach.",
+      "url": "https://www.koreaboo.com/news/blackpink-jisoo-confesses-giving-art/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-17T15:37:19Z",
+      "collected_at": "2026-09-17T17:03:52Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9804,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2048,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:53224f411e5ce428",
+      "platform": "news",
+      "platform_item_id": "53224f411e5ce428",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "LE SSERAFIM Member Unexpectedly Mentions NewJeans, Sparks Massive Backlash",
+      "description": "Many saw it as a subtle gesture.",
+      "url": "https://www.koreaboo.com/news/le-sserafim-member-mentions-newjeans-sparks-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-17T14:46:33Z",
+      "collected_at": "2026-09-17T17:03:52Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim",
+        "newjeans"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9692,
+        "views": 0,
+        "engagement": 5.3,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8489,
+      "available": true
+    },
     {
       "id": "news:koreaboo:2aaf1eeee79a22bb",
       "platform": "news",
@@ -21,7 +142,7 @@
       "url": "https://www.koreaboo.com/news/bts-member-blackpink-memebr-talent-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T11:25:22Z",
-      "collected_at": "2026-09-17T11:47:15Z",
+      "collected_at": "2026-09-17T17:03:52Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +172,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9273,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +180,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8968,
+      "hot_score": 6.4845,
       "available": true
     },
     {
@@ -73,7 +194,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-17T11:47:15Z",
+      "collected_at": "2026-09-17T17:03:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -117,7 +238,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9206,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -125,190 +246,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8968,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:8fd063147cac1e88",
-      "platform": "news",
-      "platform_item_id": "8fd063147cac1e88",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s Winter Hit With Malicious Body-Shaming In Recent Concert Clip",
-      "description": "\"Only bones...\"",
-      "url": "https://www.koreaboo.com/news/aespa-winter-body-shaming-concert/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-17T10:16:05Z",
-      "collected_at": "2026-09-17T11:47:15Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "winter"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "winter",
-          "alias": "Winter",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9793,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.1963,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:51265daa3244beae",
-      "platform": "news",
-      "platform_item_id": "51265daa3244beae",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa Giselle’s “Pedophilic, Violent And Abusive” Instagram Sparks Massive Controversy In Korea",
-      "description": "Korean netizens also slammed her behavior.",
-      "url": "https://www.koreaboo.com/news/aespa-giselles-pedophilic-violent-abusive-instagram-content-sparks-massive-controversy-in-korea/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-17T10:04:02Z",
-      "collected_at": "2026-09-17T11:47:15Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "giselle"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "giselle",
-          "alias": "Giselle",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9767,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.1739,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:4b99a0ffe3d256b3",
-      "platform": "news",
-      "platform_item_id": "4b99a0ffe3d256b3",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Criticism About LE SSERAFIM Sakura’s “Sexy” Concert Outfit Sparks Heated Reactions",
-      "description": "International fans defended the outfit.",
-      "url": "https://www.koreaboo.com/news/le-sserafim-sexy-clothes-criticism-heated-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-17T08:15:12Z",
-      "collected_at": "2026-09-17T11:47:15Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "sakura"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "sakura",
-          "alias": "Sakura",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9532,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.9776,
+      "hot_score": 6.4371,
       "available": true
     },
     {
@@ -322,7 +260,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-17T11:47:15Z",
+      "collected_at": "2026-09-17T17:03:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -368,7 +306,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8478,
+        "recency": 0.7982,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -376,7 +314,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6142,
+      "hot_score": 7.1687,
       "available": true
     },
     {
@@ -390,7 +328,7 @@
       "url": "https://www.soompi.com/article/1870684wpp/kian84-kim-yeon-koung-lee-junho-and-kazuha-dish-on-their-unforgettable-experience-on-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T10:59:47Z",
-      "collected_at": "2026-09-17T11:47:15Z",
+      "collected_at": "2026-09-17T17:03:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -422,7 +360,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5961,
+        "recency": 0.5711,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -430,7 +368,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9887,
+      "hot_score": 4.7798,
       "available": true
     }
   ]
