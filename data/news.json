@@ -1,27 +1,206 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-17T04:56:58Z",
+  "generated_at": "2026-09-17T11:47:15Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:ae30b75324d3e1fb",
+      "id": "news:koreaboo:2aaf1eeee79a22bb",
       "platform": "news",
-      "platform_item_id": "ae30b75324d3e1fb",
+      "platform_item_id": "2aaf1eeee79a22bb",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa Giselle’s “Pedophilic” Content Fuels Massive Backlash",
-      "description": "Her other posts were previously criticized.",
-      "url": "https://www.koreaboo.com/news/aespa-giselles-pedophilic-content-fuels-massive-backlash/",
+      "title": "BTS And BLACKPINK Member Subject To Brutal Backlash For Talent",
+      "description": "Netizens didn't hold back.",
+      "url": "https://www.koreaboo.com/news/bts-member-blackpink-memebr-talent-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-17T00:54:13Z",
-      "collected_at": "2026-09-17T04:56:58Z",
+      "published_at": "2026-09-17T11:25:22Z",
+      "collected_at": "2026-09-17T11:47:15Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
+    {
+      "id": "news:soompi:6ef9007cb4af9132",
+      "platform": "news",
+      "platform_item_id": "6ef9007cb4af9132",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: Jisoo Earns 1st Win For “CLICK” On “M Countdown” + LE SSERAFIM Performs “Made My Night”",
+      "description": "BLACKPINK’s Jisoo has won her first music show trophy for “CLICK”! The September 17 episode of Mnet’s “M Countdown” was a special broadcast featuring replays of past performances instead of the usual live show. However, it still included LE SSERAFIM’s comeback stage for “Made My Night,” marking the first time the group performed the song… Continue reading Watch: Jisoo Earns 1st Win For “CLICK” On “M Countdown” + LE SSERAFIM Performs “Made My Night” The post Watch: Jisoo Earns 1st Win For “CLICK” On “M Countdown” + LE SSERAFIM Performs “Made My Night” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-17T10:51:05Z",
+      "collected_at": "2026-09-17T11:47:15Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "description",
+          "score": 0.3
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:8fd063147cac1e88",
+      "platform": "news",
+      "platform_item_id": "8fd063147cac1e88",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa’s Winter Hit With Malicious Body-Shaming In Recent Concert Clip",
+      "description": "\"Only bones...\"",
+      "url": "https://www.koreaboo.com/news/aespa-winter-body-shaming-concert/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-17T10:16:05Z",
+      "collected_at": "2026-09-17T11:47:15Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "winter"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "winter",
+          "alias": "Winter",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9793,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1963,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:51265daa3244beae",
+      "platform": "news",
+      "platform_item_id": "51265daa3244beae",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa Giselle’s “Pedophilic, Violent And Abusive” Instagram Sparks Massive Controversy In Korea",
+      "description": "Korean netizens also slammed her behavior.",
+      "url": "https://www.koreaboo.com/news/aespa-giselles-pedophilic-violent-abusive-instagram-content-sparks-massive-controversy-in-korea/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-17T10:04:02Z",
+      "collected_at": "2026-09-17T11:47:15Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +239,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9468,
+        "recency": 0.9767,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +247,68 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.924,
+      "hot_score": 8.1739,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:4b99a0ffe3d256b3",
+      "platform": "news",
+      "platform_item_id": "4b99a0ffe3d256b3",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Criticism About LE SSERAFIM Sakura’s “Sexy” Concert Outfit Sparks Heated Reactions",
+      "description": "International fans defended the outfit.",
+      "url": "https://www.koreaboo.com/news/le-sserafim-sexy-clothes-criticism-heated-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-17T08:15:12Z",
+      "collected_at": "2026-09-17T11:47:15Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "sakura"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "sakura",
+          "alias": "Sakura",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9532,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9776,
       "available": true
     },
     {
@@ -82,7 +322,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-17T04:56:58Z",
+      "collected_at": "2026-09-17T11:47:15Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -128,7 +368,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.922,
+        "recency": 0.8478,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -136,7 +376,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2809,
+      "hot_score": 7.6142,
       "available": true
     },
     {
@@ -150,7 +390,7 @@
       "url": "https://www.soompi.com/article/1870684wpp/kian84-kim-yeon-koung-lee-junho-and-kazuha-dish-on-their-unforgettable-experience-on-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-15T10:59:47Z",
-      "collected_at": "2026-09-17T04:56:58Z",
+      "collected_at": "2026-09-17T11:47:15Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +422,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6318,
+        "recency": 0.5961,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,129 +430,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.288,
-      "available": true
-    },
-    {
-      "id": "news:soompi:c94351c1e240f4c2",
-      "platform": "news",
-      "platform_item_id": "c94351c1e240f4c2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Lee Seo Jin, Han Ji Min, MONSTA X’s Joohoney, TWICE’s Jeongyeon, And More To Star In Na Young Suk’s New Variety Show",
-      "description": "Three pairs of celebrity friends are teaming up for a fun-filled trip on Na Young Suk’s new variety show! On September 15, tvN announced that Lee Seo Jin and Han Ji Min, Kim Yong Gun and Park Jung Soo, and MONSTA X’s Joohoney and TWICE’s Jeongyeon will star in the upcoming variety show “Just Friends”… Continue reading Lee Seo Jin, Han Ji Min, MONSTA X’s Joohoney, TWICE’s Jeongyeon, And More To Star In Na Young Suk’s New Variety Show The post Lee Seo Jin, Han Ji Min, MONSTA X’s Joohoney, TWICE’s Jeongyeon, And More To Star In Na Young Suk’s New Variety Show appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1870611wpp/lee-seo-jin-han-ji-min-monsta-xs-joohoney-twices-jeongyeon-and-more-to-star-in-na-young-suks-new-variety-show",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-15T05:02:04Z",
-      "collected_at": "2026-09-17T04:56:58Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jeongyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jeongyeon",
-          "alias": "Jeongyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.6004,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.0251,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6358c04e4a3f88d3",
-      "platform": "news",
-      "platform_item_id": "6358c04e4a3f88d3",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Jeongyeon Unveils Dashing New Profile Photos",
-      "description": "TWICE’s Jeongyeon has unveiled stunning new profile photos! On September 14, VARO Entertainment unveiled four new profile photos of Jeongyeon, showcasing her in clean styling and highlighting her effortlessly chic charm. Check out the photos below! Jeongyeon made her debut as a member of TWICE in 2015. After parting ways with her longtime agency JYP… Continue reading Jeongyeon Unveils Dashing New Profile Photos The post Jeongyeon Unveils Dashing New Profile Photos appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1870473wpp/jeongyeon-unveils-dashing-new-profile-photos",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-14T09:45:14Z",
-      "collected_at": "2026-09-17T04:56:58Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jeongyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "jeongyeon",
-          "alias": "Jeongyeon",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5173,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.3291,
+      "hot_score": 4.9887,
       "available": true
     }
   ]
