@@ -1,15 +1,69 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-18T11:21:31Z",
+  "generated_at": "2026-09-18T16:28:00Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:3d3f78e80b7f23cc",
+      "platform": "news",
+      "platform_item_id": "3d3f78e80b7f23cc",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: &TEAM Takes 1st Win For “Mark on Me” On “Music Bank”; Performances By PENTAGON, Soyeon, And More",
+      "description": "&TEAM has won their first music show trophy for “Mark on Me”! On the September 18 episode of “Music Bank,” the candidates for first place were &TEAM’s “Mark on Me” and EVAN’s “Death of Me.” &TEAM ultimately took the prize with a total of 8,458 points. Congratulations to &TEAM! Watch the winner announcement and full… Continue reading Watch: &TEAM Takes 1st Win For “Mark on Me” On “Music Bank”; Performances By PENTAGON, Soyeon, And More The post Watch: &TEAM Takes 1st Win For “Mark on Me” On “Music Bank”; Performances By PENTAGON, Soyeon, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-18T11:48:46Z",
+      "collected_at": "2026-09-18T16:28:00Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9393,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8611,
+      "available": true
+    },
     {
       "id": "news:koreaboo:2cce0bc1688c2bb2",
       "platform": "news",
@@ -21,7 +75,7 @@
       "url": "https://www.koreaboo.com/news/viral-criticism-ive-wonyoung-personality-triggers-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T09:45:27Z",
-      "collected_at": "2026-09-18T11:21:31Z",
+      "collected_at": "2026-09-18T16:28:00Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9782,
+        "recency": 0.9148,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1871,
+      "hot_score": 7.6558,
       "available": true
     },
     {
@@ -82,7 +136,7 @@
       "url": "https://www.koreaboo.com/news/blackpinks-lisa-hit-malicious-hate-alleged-nose-job-recent-appearance/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T09:00:28Z",
-      "collected_at": "2026-09-18T11:21:31Z",
+      "collected_at": "2026-09-18T16:28:00Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9684,
+        "recency": 0.9061,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1046,
+      "hot_score": 7.5836,
       "available": true
     },
     {
@@ -143,7 +197,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-rose-new-song-heavily-divided-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T07:50:11Z",
-      "collected_at": "2026-09-18T11:21:31Z",
+      "collected_at": "2026-09-18T16:28:00Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -182,7 +236,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9534,
+        "recency": 0.893,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +244,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9789,
+      "hot_score": 7.4734,
       "available": true
     },
     {
@@ -204,7 +258,7 @@
       "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T05:30:26Z",
-      "collected_at": "2026-09-18T11:21:31Z",
+      "collected_at": "2026-09-18T16:28:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +297,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9248,
+        "recency": 0.8679,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +305,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7402,
+      "hot_score": 7.2636,
       "available": true
     },
     {
@@ -265,7 +319,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-18T11:21:31Z",
+      "collected_at": "2026-09-18T16:28:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -309,7 +363,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7461,
+        "recency": 0.7086,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -317,7 +371,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2169,
+      "hot_score": 4.9547,
       "available": true
     },
     {
@@ -331,7 +385,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-18T11:21:31Z",
+      "collected_at": "2026-09-18T16:28:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -377,7 +431,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6636,
+        "recency": 0.6338,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -385,7 +439,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.96,
+      "hot_score": 5.692,
       "available": true
     }
   ]
