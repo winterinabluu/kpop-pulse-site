@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-18T16:28:00Z",
+  "generated_at": "2026-09-18T20:56:38Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:c70fe6abff1a124e",
+      "platform": "news",
+      "platform_item_id": "c70fe6abff1a124e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa Giselle’s Latest Instagram Update Reignites Massive Backlash",
+      "description": "\"I thought she didn’t GAF? 😭\"",
+      "url": "https://www.koreaboo.com/news/aespa-giselles-latest-instagram-update-reignites-massive-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-18T20:14:31Z",
+      "collected_at": "2026-09-18T20:56:38Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "giselle"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "giselle",
+          "alias": "Giselle",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
     {
       "id": "news:soompi:3d3f78e80b7f23cc",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T11:48:46Z",
-      "collected_at": "2026-09-18T16:28:00Z",
+      "collected_at": "2026-09-18T20:56:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -53,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9393,
+        "recency": 0.8875,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -61,190 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8611,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:2cce0bc1688c2bb2",
-      "platform": "news",
-      "platform_item_id": "2cce0bc1688c2bb2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Viral Criticism About IVE Wonyoung’s Personality Triggers Backlash",
-      "description": "Netizens defended the idol!",
-      "url": "https://www.koreaboo.com/news/viral-criticism-ive-wonyoung-personality-triggers-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-18T09:45:27Z",
-      "collected_at": "2026-09-18T16:28:00Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9148,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.6558,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:f61c46ef5ae7b091",
-      "platform": "news",
-      "platform_item_id": "f61c46ef5ae7b091",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Hit With Criticism For Alleged Nose Job During Recent Appearance",
-      "description": "\"Lisa's new nose...\"",
-      "url": "https://www.koreaboo.com/news/blackpinks-lisa-hit-malicious-hate-alleged-nose-job-recent-appearance/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-18T09:00:28Z",
-      "collected_at": "2026-09-18T16:28:00Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9061,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5836,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:0f2ab8fac3a3c072",
-      "platform": "news",
-      "platform_item_id": "0f2ab8fac3a3c072",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Rosé’s New Song Hit With Heavily Divided Reactions",
-      "description": "\"Meaning of boredom...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-rose-new-song-heavily-divided-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-18T07:50:11Z",
-      "collected_at": "2026-09-18T16:28:00Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "rose"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "rose",
-          "alias": "Rosé",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.893,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4734,
+      "hot_score": 7.4273,
       "available": true
     },
     {
@@ -258,7 +136,7 @@
       "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T05:30:26Z",
-      "collected_at": "2026-09-18T16:28:00Z",
+      "collected_at": "2026-09-18T20:56:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -297,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8679,
+        "recency": 0.8235,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -305,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2636,
+      "hot_score": 6.8917,
       "available": true
     },
     {
@@ -319,7 +197,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-18T16:28:00Z",
+      "collected_at": "2026-09-18T20:56:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -363,7 +241,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7086,
+        "recency": 0.6787,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -371,7 +249,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9547,
+      "hot_score": 4.7456,
       "available": true
     },
     {
@@ -385,7 +263,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-18T16:28:00Z",
+      "collected_at": "2026-09-18T20:56:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -431,7 +309,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6338,
+        "recency": 0.6097,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -439,7 +317,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.692,
+      "hot_score": 5.4762,
       "available": true
     }
   ]
