@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-17T21:26:03Z",
+  "generated_at": "2026-09-18T04:48:51Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jisoo-confesses-giving-art/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T15:37:19Z",
-      "collected_at": "2026-09-17T21:26:03Z",
+      "collected_at": "2026-09-18T04:48:51Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9253,
+        "recency": 0.8451,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,67 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7441,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:53224f411e5ce428",
-      "platform": "news",
-      "platform_item_id": "53224f411e5ce428",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "LE SSERAFIM Member Unexpectedly Mentions NewJeans, Sparks Massive Backlash",
-      "description": "Many saw it as a subtle gesture.",
-      "url": "https://www.koreaboo.com/news/le-sserafim-member-mentions-newjeans-sparks-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-17T14:46:33Z",
-      "collected_at": "2026-09-17T21:26:03Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim",
-        "newjeans"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9153,
-        "views": 0,
-        "engagement": 5.3,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4128,
+      "hot_score": 7.0732,
       "available": true
     },
     {
@@ -142,7 +82,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-17T21:26:03Z",
+      "collected_at": "2026-09-18T04:48:51Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -186,7 +126,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8718,
+        "recency": 0.8003,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -194,7 +134,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0965,
+      "hot_score": 5.5964,
       "available": true
     },
     {
@@ -208,7 +148,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-17T21:26:03Z",
+      "collected_at": "2026-09-18T04:48:51Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -254,7 +194,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7613,
+        "recency": 0.7062,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -262,61 +202,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8375,
-      "available": true
-    },
-    {
-      "id": "news:soompi:9ddd8507f294e655",
-      "platform": "news",
-      "platform_item_id": "9ddd8507f294e655",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Dish On Their Unforgettable Experience On “Kian’s Bizarre B&B 2”",
-      "description": "An even wilder and more chaotic adventure is about to unfold in “Kian’s Bizarre B&B” Season 2! “Kian’s Bizarre B&B” is a Netflix variety show in which Kian84 and his castmates run a one-of-a-kind guesthouse. Season 1 featured Kian84, BTS’s Jin, and Ji Ye Eun operating a unique lodging on the scenic island of Ulleungdo, offering guests… Continue reading Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Dish On Their Unforgettable Experience On “Kian’s Bizarre B&B 2” The post Kian84, Kim Yeon Koung, Lee Junho, And Kazuha Dish On Their Unforgettable Experience On “Kian’s Bizarre B&B 2” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1870684wpp/kian84-kim-yeon-koung-lee-junho-and-kazuha-dish-on-their-unforgettable-experience-on-kians-bizarre-bb-2",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-15T10:59:47Z",
-      "collected_at": "2026-09-17T21:26:03Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "kazuha"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "kazuha",
-          "alias": "Kazuha",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.552,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.6197,
+      "hot_score": 6.3426,
       "available": true
     }
   ]
