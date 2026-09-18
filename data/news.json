@@ -1,27 +1,88 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-18T04:48:51Z",
+  "generated_at": "2026-09-18T11:21:31Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:cad12226aea36e74",
+      "id": "news:koreaboo:2cce0bc1688c2bb2",
       "platform": "news",
-      "platform_item_id": "cad12226aea36e74",
+      "platform_item_id": "2cce0bc1688c2bb2",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK’s Jisoo Confesses To Giving Up On Art",
-      "description": "She shared her honest approach.",
-      "url": "https://www.koreaboo.com/news/blackpink-jisoo-confesses-giving-art/",
+      "title": "Viral Criticism About IVE Wonyoung’s Personality Triggers Backlash",
+      "description": "Netizens defended the idol!",
+      "url": "https://www.koreaboo.com/news/viral-criticism-ive-wonyoung-personality-triggers-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-17T15:37:19Z",
-      "collected_at": "2026-09-18T04:48:51Z",
+      "published_at": "2026-09-18T09:45:27Z",
+      "collected_at": "2026-09-18T11:21:31Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9782,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1871,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:f61c46ef5ae7b091",
+      "platform": "news",
+      "platform_item_id": "f61c46ef5ae7b091",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Lisa Hit With Criticism For Alleged Nose Job During Recent Appearance",
+      "description": "\"Lisa's new nose...\"",
+      "url": "https://www.koreaboo.com/news/blackpinks-lisa-hit-malicious-hate-alleged-nose-job-recent-appearance/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-18T09:00:28Z",
+      "collected_at": "2026-09-18T11:21:31Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -40,7 +101,7 @@
         "blackpink"
       ],
       "matched_members": [
-        "jisoo"
+        "lisa"
       ],
       "match_confidence": "high",
       "match_reason": [
@@ -53,14 +114,14 @@
         },
         {
           "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
+          "target_id": "lisa",
+          "alias": "Lisa",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8451,
+        "recency": 0.9684,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,129 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.0732,
+      "hot_score": 8.1046,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:0f2ab8fac3a3c072",
+      "platform": "news",
+      "platform_item_id": "0f2ab8fac3a3c072",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Rosé’s New Song Hit With Heavily Divided Reactions",
+      "description": "\"Meaning of boredom...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-rose-new-song-heavily-divided-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-18T07:50:11Z",
+      "collected_at": "2026-09-18T11:21:31Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "rose"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "rose",
+          "alias": "Rosé",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9534,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9789,
+      "available": true
+    },
+    {
+      "id": "news:soompi:68b469debfe6f181",
+      "platform": "news",
+      "platform_item_id": "68b469debfe6f181",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: Rosé Has A “new trick” For Bouncing Back From Heartbreak In New MV",
+      "description": "BLACKPINK’s Rosé’s new song is finally out! On September 18 at 8 a.m. KST, Rosé released her new song “new trick” along with its music video. The song was created as part of Apple’s “Shot on iPhone” campaign. “new trick” is about refusing to give up in the face of life’s wounds and hardships caused… Continue reading Watch: Rosé Has A “new trick” For Bouncing Back From Heartbreak In New MV The post Watch: Rosé Has A “new trick” For Bouncing Back From Heartbreak In New MV appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-18T05:30:26Z",
+      "collected_at": "2026-09-18T11:21:31Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "rose"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "rose",
+          "alias": "Rosé",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9248,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7402,
       "available": true
     },
     {
@@ -82,7 +265,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-18T04:48:51Z",
+      "collected_at": "2026-09-18T11:21:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -126,7 +309,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8003,
+        "recency": 0.7461,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -134,7 +317,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5964,
+      "hot_score": 5.2169,
       "available": true
     },
     {
@@ -148,7 +331,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-18T04:48:51Z",
+      "collected_at": "2026-09-18T11:21:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -194,7 +377,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7062,
+        "recency": 0.6636,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -202,7 +385,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3426,
+      "hot_score": 5.96,
       "available": true
     }
   ]
