@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-19T11:05:24Z",
+  "generated_at": "2026-09-19T15:55:29Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/aespa-karinas-ku-klux-klan-look-sparks-massive-international-controversy/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T08:59:27Z",
-      "collected_at": "2026-09-19T11:05:24Z",
+      "collected_at": "2026-09-19T15:55:29Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9717,
+        "recency": 0.9121,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1321,
+      "hot_score": 7.634,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1871762wpp/bts-blackpink-cortis-and-katseye-score-additional-nominations-for-2026-mtv-vmas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T06:20:00Z",
-      "collected_at": "2026-09-19T11:05:24Z",
+      "collected_at": "2026-09-19T15:55:29Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.938,
+        "recency": 0.8824,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5593,
+      "hot_score": 6.1706,
       "available": true
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T11:48:46Z",
-      "collected_at": "2026-09-19T11:05:24Z",
+      "collected_at": "2026-09-19T15:55:29Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -166,7 +166,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7557,
+        "recency": 0.7192,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -174,7 +174,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3246,
+      "hot_score": 6.0191,
       "available": true
     },
     {
@@ -188,7 +188,7 @@
       "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T05:30:26Z",
-      "collected_at": "2026-09-19T11:05:24Z",
+      "collected_at": "2026-09-19T15:55:29Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -227,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7088,
+        "recency": 0.6766,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -235,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.932,
+      "hot_score": 5.6625,
       "available": true
     },
     {
@@ -249,7 +249,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-19T11:05:24Z",
+      "collected_at": "2026-09-19T15:55:29Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -293,7 +293,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5988,
+        "recency": 0.5757,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -301,7 +301,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1872,
+      "hot_score": 4.0254,
       "available": true
     },
     {
@@ -315,7 +315,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-19T11:05:24Z",
+      "collected_at": "2026-09-19T15:55:29Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -361,7 +361,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5445,
+        "recency": 0.5253,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -369,7 +369,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8904,
+      "hot_score": 4.7179,
       "available": true
     }
   ]
