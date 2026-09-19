@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-18T20:56:38Z",
+  "generated_at": "2026-09-19T04:41:49Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/aespa-giselles-latest-instagram-update-reignites-massive-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T20:14:31Z",
-      "collected_at": "2026-09-18T20:56:38Z",
+      "collected_at": "2026-09-19T04:41:49Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.8949,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.4897,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T11:48:46Z",
-      "collected_at": "2026-09-18T20:56:38Z",
+      "collected_at": "2026-09-19T04:41:49Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8875,
+        "recency": 0.81,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.4273,
+      "hot_score": 6.7794,
       "available": true
     },
     {
@@ -136,7 +136,7 @@
       "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T05:30:26Z",
-      "collected_at": "2026-09-18T20:56:38Z",
+      "collected_at": "2026-09-19T04:41:49Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -175,7 +175,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8235,
+        "recency": 0.7564,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -183,7 +183,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8917,
+      "hot_score": 6.3304,
       "available": true
     },
     {
@@ -197,7 +197,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-18T20:56:38Z",
+      "collected_at": "2026-09-19T04:41:49Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -241,7 +241,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6787,
+        "recency": 0.6324,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -249,7 +249,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7456,
+      "hot_score": 4.4224,
       "available": true
     },
     {
@@ -263,7 +263,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-18T20:56:38Z",
+      "collected_at": "2026-09-19T04:41:49Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -309,7 +309,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6097,
+        "recency": 0.5722,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -317,7 +317,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4762,
+      "hot_score": 5.1388,
       "available": true
     }
   ]
