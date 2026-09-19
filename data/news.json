@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-19T04:41:49Z",
+  "generated_at": "2026-09-19T11:05:24Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:c70fe6abff1a124e",
+      "id": "news:koreaboo:20c5b5c2093e6c50",
       "platform": "news",
-      "platform_item_id": "c70fe6abff1a124e",
+      "platform_item_id": "20c5b5c2093e6c50",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa Giselle’s Latest Instagram Update Reignites Massive Backlash",
-      "description": "\"I thought she didn’t GAF? 😭\"",
-      "url": "https://www.koreaboo.com/news/aespa-giselles-latest-instagram-update-reignites-massive-backlash/",
+      "title": "aespa Karina’s “Ku Klux Klan” Look Sparks Massive International Controversy",
+      "description": "An apology has been issued.",
+      "url": "https://www.koreaboo.com/news/aespa-karinas-ku-klux-klan-look-sparks-massive-international-controversy/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-18T20:14:31Z",
-      "collected_at": "2026-09-19T04:41:49Z",
+      "published_at": "2026-09-19T08:59:27Z",
+      "collected_at": "2026-09-19T11:05:24Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -40,7 +40,7 @@
         "aespa"
       ],
       "matched_members": [
-        "giselle"
+        "karina"
       ],
       "match_confidence": "high",
       "match_reason": [
@@ -53,14 +53,14 @@
         },
         {
           "target_type": "member",
-          "target_id": "giselle",
-          "alias": "Giselle",
+          "target_id": "karina",
+          "alias": "Karina",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8949,
+        "recency": 0.9717,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,59 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.4897,
+      "hot_score": 8.1321,
+      "available": true
+    },
+    {
+      "id": "news:soompi:40278847caeaacd8",
+      "platform": "news",
+      "platform_item_id": "40278847caeaacd8",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS, BLACKPINK, CORTIS, And KATSEYE Score Additional Nominations For 2026 MTV VMAs",
+      "description": "The 2026 MTV Video Music Awards (VMAs) has revealed its nominees for Best Group and Song of the Summer! On September 18 local time, MTV officially announced the nominations for four “social categories” that will determine its winners through fan voting. BTS, BLACKPINK, CORTIS, and KATSEYE are all in the running for Best Group alongside… Continue reading BTS, BLACKPINK, CORTIS, And KATSEYE Score Additional Nominations For 2026 MTV VMAs The post BTS, BLACKPINK, CORTIS, And KATSEYE Score Additional Nominations For 2026 MTV VMAs appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1871762wpp/bts-blackpink-cortis-and-katseye-score-additional-nominations-for-2026-mtv-vmas",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-19T06:20:00Z",
+      "collected_at": "2026-09-19T11:05:24Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.938,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5593,
       "available": true
     },
     {
@@ -82,7 +134,7 @@
       "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T11:48:46Z",
-      "collected_at": "2026-09-19T04:41:49Z",
+      "collected_at": "2026-09-19T11:05:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +166,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.81,
+        "recency": 0.7557,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +174,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7794,
+      "hot_score": 6.3246,
       "available": true
     },
     {
@@ -136,7 +188,7 @@
       "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T05:30:26Z",
-      "collected_at": "2026-09-19T04:41:49Z",
+      "collected_at": "2026-09-19T11:05:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -175,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7564,
+        "recency": 0.7088,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -183,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3304,
+      "hot_score": 5.932,
       "available": true
     },
     {
@@ -197,7 +249,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-19T04:41:49Z",
+      "collected_at": "2026-09-19T11:05:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -241,7 +293,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6324,
+        "recency": 0.5988,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -249,7 +301,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.4224,
+      "hot_score": 4.1872,
       "available": true
     },
     {
@@ -263,7 +315,7 @@
       "url": "https://www.soompi.com/article/1871300wpp/cortis-i-dle-txts-yeonjun-illit-seventeens-v8-le-sserafim-and-more-earn-circle-million-and-platinum-certifications",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-16T22:51:33Z",
-      "collected_at": "2026-09-19T04:41:49Z",
+      "collected_at": "2026-09-19T11:05:24Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -309,7 +361,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5722,
+        "recency": 0.5445,
         "views": 0,
         "engagement": 6.7,
         "source_weight": 0.55
@@ -317,7 +369,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1388,
+      "hot_score": 4.8904,
       "available": true
     }
   ]
