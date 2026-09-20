@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-20T16:11:18Z",
+  "generated_at": "2026-09-20T20:52:21Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:ba304615d01c693b",
+      "platform": "news",
+      "platform_item_id": "ba304615d01c693b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS’s Jungkook “Flirting” With LE SSERAFIM’s Chaewon Sparks Heated Reactions",
+      "description": "Fans were instantly skeptical.",
+      "url": "https://www.koreaboo.com/news/btss-jungkook-flirting-le-sserafims-chaewon-sparks-heated-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-20T18:39:45Z",
+      "collected_at": "2026-09-20T20:52:21Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "chaewon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "chaewon",
+          "alias": "Chaewon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9702,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.12,
+      "available": true
+    },
     {
       "id": "news:soompi:6f2cb2dcfd3e7361",
       "platform": "news",
@@ -20,8 +81,8 @@
       "description": "Billboard has published its World Albums chart for the week ending on September 19! Stray Kids’ latest mini album “THIS & THAT” continued its reign at No. 1, marking its fourth non-consecutive week at the top of the World Albums chart, in addition to re-entering the top 15 of the Billboard 200. Stray Kids’ 2025… Continue reading Stray Kids, ENHYPEN, MONSTA X, EVAN, CORTIS, BTS, ATEEZ, LE SSERAFIM, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, ENHYPEN, MONSTA X, EVAN, CORTIS, BTS, ATEEZ, LE SSERAFIM, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
       "url": "https://www.soompi.com/article/1871954wpp/stray-kids-enhypen-monsta-x-evan-cortis-bts-ateez-le-sserafim-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-20T14:53:07Z",
-      "collected_at": "2026-09-20T16:11:18Z",
+      "published_at": "2026-09-20T17:53:00Z",
+      "collected_at": "2026-09-20T20:52:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9822,
+        "recency": 0.9601,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +120,59 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8683,
+      "hot_score": 6.7139,
+      "available": true
+    },
+    {
+      "id": "news:soompi:8855e8aac2ad1e20",
+      "platform": "news",
+      "platform_item_id": "8855e8aac2ad1e20",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: ATEEZ Snags 7th Win For “BAD” On “Inkigayo”; Performances By LE SSERAFIM, &TEAM, And More",
+      "description": "ATEEZ has won a seventh music show trophy for “BAD”! On the September 20 episode of SBS’s “Inkigayo,” the candidates for first place were ATEEZ’s “BAD,” &TEAM’s “Mark on Me,” and RESCENE’s “LOVE ATTACK.” ATEEZ ultimately took the win with a total of 4,657 points. Congratulations to ATEEZ! Watch a clip of the winner announcement… Continue reading Watch: ATEEZ Snags 7th Win For “BAD” On “Inkigayo”; Performances By LE SSERAFIM, &TEAM, And More The post Watch: ATEEZ Snags 7th Win For “BAD” On “Inkigayo”; Performances By LE SSERAFIM, &TEAM, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1871962wpp/watch-ateez-snags-7th-win-for-bad-on-inkigayo-performances-by-le-sserafim-team-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-20T16:33:41Z",
+      "collected_at": "2026-09-20T20:52:21Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9435,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5976,
       "available": true
     },
     {
@@ -73,7 +186,7 @@
       "url": "https://www.soompi.com/article/1871880wpp/watch-lim-young-woong-takes-1st-win-for-toto-on-music-core-performances-by-team-soyeon-evan-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T23:23:27Z",
-      "collected_at": "2026-09-20T16:11:18Z",
+      "collected_at": "2026-09-20T20:52:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -105,7 +218,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8108,
+        "recency": 0.7702,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -113,7 +226,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7861,
+      "hot_score": 6.446,
       "available": true
     },
     {
@@ -127,7 +240,7 @@
       "url": "https://www.soompi.com/article/1871762wpp/bts-blackpink-cortis-and-katseye-score-additional-nominations-for-2026-mtv-vmas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T06:20:00Z",
-      "collected_at": "2026-09-20T16:11:18Z",
+      "collected_at": "2026-09-20T20:52:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -157,7 +270,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6802,
+        "recency": 0.6514,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -165,7 +278,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7562,
+      "hot_score": 4.5547,
       "available": true
     },
     {
@@ -179,7 +292,7 @@
       "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T11:48:46Z",
-      "collected_at": "2026-09-20T16:11:18Z",
+      "collected_at": "2026-09-20T20:52:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -211,7 +324,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5789,
+        "recency": 0.5579,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -219,7 +332,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8449,
+      "hot_score": 4.6691,
       "available": true
     },
     {
@@ -233,7 +346,7 @@
       "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T05:30:26Z",
-      "collected_at": "2026-09-20T16:11:18Z",
+      "collected_at": "2026-09-20T20:52:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -272,7 +385,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.551,
+        "recency": 0.5319,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -280,73 +393,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6111,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6ef9007cb4af9132",
-      "platform": "news",
-      "platform_item_id": "6ef9007cb4af9132",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: Jisoo Earns 1st Win For “CLICK” On “M Countdown” + LE SSERAFIM Performs “Made My Night”",
-      "description": "BLACKPINK’s Jisoo has won her first music show trophy for “CLICK”! The September 17 episode of Mnet’s “M Countdown” was a special broadcast featuring replays of past performances instead of the usual live show. However, it still included LE SSERAFIM’s comeback stage for “Made My Night,” marking the first time the group performed the song… Continue reading Watch: Jisoo Earns 1st Win For “CLICK” On “M Countdown” + LE SSERAFIM Performs “Made My Night” The post Watch: Jisoo Earns 1st Win For “CLICK” On “M Countdown” + LE SSERAFIM Performs “Made My Night” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-20T16:11:18Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "description",
-          "score": 0.3
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4821,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.3714,
+      "hot_score": 4.4516,
       "available": true
     }
   ]
