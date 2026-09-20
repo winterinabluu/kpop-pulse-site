@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-20T04:57:52Z",
+  "generated_at": "2026-09-20T11:30:08Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1871880wpp/watch-lim-young-woong-takes-1st-win-for-toto-on-music-core-performances-by-team-soyeon-evan-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T23:23:27Z",
-      "collected_at": "2026-09-20T04:57:52Z",
+      "collected_at": "2026-09-20T11:30:08Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -53,7 +53,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9281,
+        "recency": 0.856,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -61,7 +61,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7679,
+      "hot_score": 7.1641,
       "available": true
     },
     {
@@ -75,7 +75,7 @@
       "url": "https://www.soompi.com/article/1871762wpp/bts-blackpink-cortis-and-katseye-score-additional-nominations-for-2026-mtv-vmas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T06:20:00Z",
-      "collected_at": "2026-09-20T04:57:52Z",
+      "collected_at": "2026-09-20T11:30:08Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -105,7 +105,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7608,
+        "recency": 0.7117,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -113,7 +113,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3203,
+      "hot_score": 4.9765,
       "available": true
     },
     {
@@ -127,7 +127,7 @@
       "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T11:48:46Z",
-      "collected_at": "2026-09-20T04:57:52Z",
+      "collected_at": "2026-09-20T11:30:08Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -159,7 +159,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6363,
+        "recency": 0.6016,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -167,7 +167,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3255,
+      "hot_score": 5.0346,
       "available": true
     },
     {
@@ -181,7 +181,7 @@
       "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T05:30:26Z",
-      "collected_at": "2026-09-20T04:57:52Z",
+      "collected_at": "2026-09-20T11:30:08Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -220,7 +220,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6027,
+        "recency": 0.5715,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -228,7 +228,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0444,
+      "hot_score": 4.7826,
       "available": true
     },
     {
@@ -242,7 +242,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-20T04:57:52Z",
+      "collected_at": "2026-09-20T11:30:08Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5213,
+        "recency": 0.4977,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.6453,
+      "hot_score": 3.4806,
       "available": true
     }
   ]
