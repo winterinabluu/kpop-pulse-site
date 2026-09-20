@@ -1,15 +1,67 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-20T11:30:08Z",
+  "generated_at": "2026-09-20T16:11:18Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:6f2cb2dcfd3e7361",
+      "platform": "news",
+      "platform_item_id": "6f2cb2dcfd3e7361",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Stray Kids, ENHYPEN, MONSTA X, EVAN, CORTIS, BTS, ATEEZ, LE SSERAFIM, And More Sweep Top Spots On Billboard World Albums Chart",
+      "description": "Billboard has published its World Albums chart for the week ending on September 19! Stray Kids’ latest mini album “THIS & THAT” continued its reign at No. 1, marking its fourth non-consecutive week at the top of the World Albums chart, in addition to re-entering the top 15 of the Billboard 200. Stray Kids’ 2025… Continue reading Stray Kids, ENHYPEN, MONSTA X, EVAN, CORTIS, BTS, ATEEZ, LE SSERAFIM, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, ENHYPEN, MONSTA X, EVAN, CORTIS, BTS, ATEEZ, LE SSERAFIM, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1871954wpp/stray-kids-enhypen-monsta-x-evan-cortis-bts-ateez-le-sserafim-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-20T14:53:07Z",
+      "collected_at": "2026-09-20T16:11:18Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9822,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8683,
+      "available": true
+    },
     {
       "id": "news:soompi:d63638c5434561f8",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.soompi.com/article/1871880wpp/watch-lim-young-woong-takes-1st-win-for-toto-on-music-core-performances-by-team-soyeon-evan-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T23:23:27Z",
-      "collected_at": "2026-09-20T11:30:08Z",
+      "collected_at": "2026-09-20T16:11:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -53,7 +105,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.856,
+        "recency": 0.8108,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -61,7 +113,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1641,
+      "hot_score": 6.7861,
       "available": true
     },
     {
@@ -75,7 +127,7 @@
       "url": "https://www.soompi.com/article/1871762wpp/bts-blackpink-cortis-and-katseye-score-additional-nominations-for-2026-mtv-vmas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T06:20:00Z",
-      "collected_at": "2026-09-20T11:30:08Z",
+      "collected_at": "2026-09-20T16:11:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -105,7 +157,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7117,
+        "recency": 0.6802,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -113,7 +165,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9765,
+      "hot_score": 4.7562,
       "available": true
     },
     {
@@ -127,7 +179,7 @@
       "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T11:48:46Z",
-      "collected_at": "2026-09-20T11:30:08Z",
+      "collected_at": "2026-09-20T16:11:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -159,7 +211,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6016,
+        "recency": 0.5789,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -167,7 +219,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0346,
+      "hot_score": 4.8449,
       "available": true
     },
     {
@@ -181,7 +233,7 @@
       "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T05:30:26Z",
-      "collected_at": "2026-09-20T11:30:08Z",
+      "collected_at": "2026-09-20T16:11:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -220,7 +272,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5715,
+        "recency": 0.551,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -228,7 +280,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7826,
+      "hot_score": 4.6111,
       "available": true
     },
     {
@@ -242,7 +294,7 @@
       "url": "https://www.soompi.com/article/1871459wpp/watch-jisoo-earns-1st-win-for-click-on-m-countdown-le-sserafim-performs-made-my-night",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-17T10:51:05Z",
-      "collected_at": "2026-09-20T11:30:08Z",
+      "collected_at": "2026-09-20T16:11:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4977,
+        "recency": 0.4821,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.4806,
+      "hot_score": 3.3714,
       "available": true
     }
   ]
