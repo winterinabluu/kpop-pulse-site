@@ -1,15 +1,69 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-20T20:52:21Z",
+  "generated_at": "2026-09-21T05:02:09Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:0136ccc5586c4de9",
+      "platform": "news",
+      "platform_item_id": "0136ccc5586c4de9",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Kian84, Lee Junho, Kazuha, And Kim Yeon Koung Get To Work At “Kian’s Bizarre B&B 2”",
+      "description": "“Kian’s Bizarre B&B” Season 2 has unveiled new stills! “Kian’s Bizarre B&B” is a Netflix variety show in which Kian84 and his castmates run a one-of-a-kind guesthouse. Season 1 featured Kian84, BTS’s Jin, and Ji Ye Eun operating a unique lodging on the scenic island of Ulleungdo, offering guests an unforgettable hospitality experience. For Season… Continue reading Kian84, Lee Junho, Kazuha, And Kim Yeon Koung Get To Work At “Kian’s Bizarre B&B 2” The post Kian84, Lee Junho, Kazuha, And Kim Yeon Koung Get To Work At “Kian’s Bizarre B&B 2” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1872013wpp/kian84-lee-junho-kazuha-and-kim-yeon-koung-get-to-work-at-kians-bizarre-bb-2",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-21T04:49:56Z",
+      "collected_at": "2026-09-21T05:02:09Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "kazuha"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "kazuha",
+          "alias": "Kazuha",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
     {
       "id": "news:koreaboo:ba304615d01c693b",
       "platform": "news",
@@ -21,7 +75,7 @@
       "url": "https://www.koreaboo.com/news/btss-jungkook-flirting-le-sserafims-chaewon-sparks-heated-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-20T18:39:45Z",
-      "collected_at": "2026-09-20T20:52:21Z",
+      "collected_at": "2026-09-21T05:02:09Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9702,
+        "recency": 0.8741,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.12,
+      "hot_score": 7.3153,
       "available": true
     },
     {
@@ -82,7 +136,7 @@
       "url": "https://www.soompi.com/article/1871954wpp/stray-kids-enhypen-monsta-x-evan-cortis-bts-ateez-le-sserafim-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-20T17:53:00Z",
-      "collected_at": "2026-09-20T20:52:21Z",
+      "collected_at": "2026-09-21T05:02:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +166,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9601,
+        "recency": 0.8659,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +174,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7139,
+      "hot_score": 6.0548,
       "available": true
     },
     {
@@ -134,7 +188,7 @@
       "url": "https://www.soompi.com/article/1871962wpp/watch-ateez-snags-7th-win-for-bad-on-inkigayo-performances-by-le-sserafim-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-20T16:33:41Z",
-      "collected_at": "2026-09-20T20:52:21Z",
+      "collected_at": "2026-09-21T05:02:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +218,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9435,
+        "recency": 0.8523,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,7 +226,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5976,
+      "hot_score": 5.96,
       "available": true
     },
     {
@@ -186,7 +240,7 @@
       "url": "https://www.soompi.com/article/1871880wpp/watch-lim-young-woong-takes-1st-win-for-toto-on-music-core-performances-by-team-soyeon-evan-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T23:23:27Z",
-      "collected_at": "2026-09-20T20:52:21Z",
+      "collected_at": "2026-09-21T05:02:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -218,7 +272,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7702,
+        "recency": 0.7083,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -226,7 +280,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.446,
+      "hot_score": 5.9283,
       "available": true
     },
     {
@@ -240,7 +294,7 @@
       "url": "https://www.soompi.com/article/1871762wpp/bts-blackpink-cortis-and-katseye-score-additional-nominations-for-2026-mtv-vmas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T06:20:00Z",
-      "collected_at": "2026-09-20T20:52:21Z",
+      "collected_at": "2026-09-21T05:02:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -270,7 +324,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6514,
+        "recency": 0.6066,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -278,7 +332,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5547,
+      "hot_score": 4.2414,
       "available": true
     },
     {
@@ -292,7 +346,7 @@
       "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T11:48:46Z",
-      "collected_at": "2026-09-20T20:52:21Z",
+      "collected_at": "2026-09-21T05:02:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -324,7 +378,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5579,
+        "recency": 0.5247,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -332,7 +386,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6691,
+      "hot_score": 4.3913,
       "available": true
     },
     {
@@ -346,7 +400,7 @@
       "url": "https://www.soompi.com/article/1871666wpp/watch-rose-has-a-new-trick-for-bouncing-back-from-heartbreak-in-new-mv",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T05:30:26Z",
-      "collected_at": "2026-09-20T20:52:21Z",
+      "collected_at": "2026-09-21T05:02:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -385,7 +439,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5319,
+        "recency": 0.5016,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -393,7 +447,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.4516,
+      "hot_score": 4.1984,
       "available": true
     }
   ]
