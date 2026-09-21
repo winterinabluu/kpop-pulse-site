@@ -1,262 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-21T12:54:48Z",
+  "generated_at": "2026-09-21T22:00:39Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 11,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:0d0ab7c54512af0d",
+      "id": "news:koreaboo:4629037304955c9d",
       "platform": "news",
-      "platform_item_id": "0d0ab7c54512af0d",
+      "platform_item_id": "4629037304955c9d",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Accusations Of BLACKPINK “Downfall” With Their Recent Solo Tracks Spark Huge Reactions",
-      "description": "\"Being humbled...\"",
-      "url": "https://www.koreaboo.com/news/accusations-blackpink-flopping-downfall-solo-stats/",
+      "title": "BLACKPINK Lisa’s Comments About YG Entertainment Sparks Backlash",
+      "description": "\"Pick a story...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-comments-yg-entertainment-sparks-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-21T10:30:43Z",
-      "collected_at": "2026-09-21T12:54:48Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9677,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.7669,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:d087a07d5296f4de",
-      "platform": "news",
-      "platform_item_id": "d087a07d5296f4de",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS Jungkook’s Recent Airport Appearance Linked To Dating Rumors With aespa’s Winter",
-      "description": "The two were both in the US.",
-      "url": "https://www.koreaboo.com/news/bts-jungkooks-recent-airport-appearance-linked-dating-rumors-aespas-winter/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-21T09:00:06Z",
-      "collected_at": "2026-09-21T12:54:48Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "winter"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "winter",
-          "alias": "Winter",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9485,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.9379,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:ce55523ab795c08e",
-      "platform": "news",
-      "platform_item_id": "ce55523ab795c08e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "LE SSERAFIM Sakura’s Sexy Bra Outfit Following Recent Criticism Is Going Viral",
-      "description": "\"Sakura dgaf...\"",
-      "url": "https://www.koreaboo.com/news/le-sserafim-sakura-bra-outfit-criticism-viral/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-21T08:30:16Z",
-      "collected_at": "2026-09-21T12:54:48Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "sakura"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "sakura",
-          "alias": "Sakura",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9423,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8863,
-      "available": true
-    },
-    {
-      "id": "news:soompi:5e1e3858a1957872",
-      "platform": "news",
-      "platform_item_id": "5e1e3858a1957872",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Ningning Announced As New Ambassador For Bvlgari",
-      "description": "aespa’s Ningning has been named the new ambassador for Italian luxury fashion house Bvlgari! On September 21, Bvlgari announced through its social media channels, “Singer Ningning joins the Bvlgari family as new ambassador. With her extraordinary artistry, magnetic presence, and instinct for exploring new possibilities, Ningning sets the tone for an exciting new chapter with… Continue reading Ningning Announced As New Ambassador For Bvlgari The post Ningning Announced As New Ambassador For Bvlgari appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1872150wpp/ningning-announced-as-new-ambassador-for-bvlgari",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-21T07:45:50Z",
-      "collected_at": "2026-09-21T12:54:48Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "ningning"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "ningning",
-          "alias": "NingNing",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9332,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8106,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:69983778e34d6788",
-      "platform": "news",
-      "platform_item_id": "69983778e34d6788",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Allegedly Spotted On Date With Rumored Boyfriend",
-      "description": "This is not the first time the two have been connected.",
-      "url": "https://www.koreaboo.com/news/blackpinks-lisa-allegedly-spotted-date-rumored-boyfriend/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-21T05:59:49Z",
-      "collected_at": "2026-09-21T12:54:48Z",
+      "published_at": "2026-09-21T13:40:32Z",
+      "collected_at": "2026-09-21T22:00:39Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -295,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9124,
+        "recency": 0.8962,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -303,7 +68,120 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6357,
+      "hot_score": 7.5009,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:0d0ab7c54512af0d",
+      "platform": "news",
+      "platform_item_id": "0d0ab7c54512af0d",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Accusations Of BLACKPINK “Downfall” With Their Recent Solo Tracks Spark Huge Reactions",
+      "description": "\"Being humbled...\"",
+      "url": "https://www.koreaboo.com/news/accusations-blackpink-flopping-downfall-solo-stats/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-21T10:30:43Z",
+      "collected_at": "2026-09-21T22:00:39Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8623,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.0296,
+      "available": true
+    },
+    {
+      "id": "news:soompi:5e1e3858a1957872",
+      "platform": "news",
+      "platform_item_id": "5e1e3858a1957872",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Ningning Announced As New Ambassador For Bvlgari",
+      "description": "aespa’s Ningning has been named the new ambassador for Italian luxury fashion house Bvlgari! On September 21, Bvlgari announced through its social media channels, “Singer Ningning joins the Bvlgari family as new ambassador. With her extraordinary artistry, magnetic presence, and instinct for exploring new possibilities, Ningning sets the tone for an exciting new chapter with… Continue reading Ningning Announced As New Ambassador For Bvlgari The post Ningning Announced As New Ambassador For Bvlgari appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1872150wpp/ningning-announced-as-new-ambassador-for-bvlgari",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-21T07:45:50Z",
+      "collected_at": "2026-09-21T22:00:39Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "ningning"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "member",
+          "target_id": "ningning",
+          "alias": "NingNing",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8348,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.9867,
       "available": true
     },
     {
@@ -317,7 +195,7 @@
       "url": "https://www.soompi.com/article/1872013wpp/kian84-lee-junho-kazuha-and-kim-yeon-koung-get-to-work-at-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-21T04:49:56Z",
-      "collected_at": "2026-09-21T12:54:48Z",
+      "collected_at": "2026-09-21T22:00:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -349,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8991,
+        "recency": 0.8074,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -357,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5247,
+      "hot_score": 6.7571,
       "available": true
     },
     {
@@ -371,7 +249,7 @@
       "url": "https://www.soompi.com/article/1871954wpp/stray-kids-enhypen-monsta-x-evan-cortis-bts-ateez-le-sserafim-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-20T17:53:00Z",
-      "collected_at": "2026-09-21T12:54:48Z",
+      "collected_at": "2026-09-21T22:00:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -401,7 +279,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7909,
+        "recency": 0.7191,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -409,7 +287,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5308,
+      "hot_score": 5.0283,
       "available": true
     },
     {
@@ -423,7 +301,7 @@
       "url": "https://www.soompi.com/article/1871962wpp/watch-ateez-snags-7th-win-for-bad-on-inkigayo-performances-by-le-sserafim-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-20T16:33:41Z",
-      "collected_at": "2026-09-21T12:54:48Z",
+      "collected_at": "2026-09-21T22:00:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -453,7 +331,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7796,
+        "recency": 0.7097,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -461,7 +339,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4516,
+      "hot_score": 4.9628,
       "available": true
     },
     {
@@ -475,7 +353,7 @@
       "url": "https://www.soompi.com/article/1871880wpp/watch-lim-young-woong-takes-1st-win-for-toto-on-music-core-performances-by-team-soyeon-evan-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T23:23:27Z",
-      "collected_at": "2026-09-21T12:54:48Z",
+      "collected_at": "2026-09-21T22:00:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -507,7 +385,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6574,
+        "recency": 0.607,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -515,7 +393,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5019,
+      "hot_score": 5.08,
       "available": true
     },
     {
@@ -529,7 +407,7 @@
       "url": "https://www.soompi.com/article/1871762wpp/bts-blackpink-cortis-and-katseye-score-additional-nominations-for-2026-mtv-vmas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-19T06:20:00Z",
-      "collected_at": "2026-09-21T12:54:48Z",
+      "collected_at": "2026-09-21T22:00:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -559,7 +437,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5688,
+        "recency": 0.5307,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -567,7 +445,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.9775,
+      "hot_score": 3.7108,
       "available": true
     },
     {
@@ -581,7 +459,7 @@
       "url": "https://www.soompi.com/article/1871715wpp/watch-team-takes-1st-win-for-mark-on-me-on-music-bank-performances-by-pentagon-soyeon-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-18T11:48:46Z",
-      "collected_at": "2026-09-21T12:54:48Z",
+      "collected_at": "2026-09-21T22:00:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -613,7 +491,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4962,
+        "recency": 0.4669,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -621,7 +499,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1529,
+      "hot_score": 3.9079,
       "available": true
     }
   ]
