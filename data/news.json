@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-22T17:00:18Z",
+  "generated_at": "2026-09-22T21:22:52Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 9,
+    "item_count": 10,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:b70c393a5303937c",
+      "id": "news:koreaboo:43cc66223b6bee71",
       "platform": "news",
-      "platform_item_id": "b70c393a5303937c",
+      "platform_item_id": "43cc66223b6bee71",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa Members Get Accused Of Bullying Fellow Trainee, Draw Scathing Reactions",
-      "description": "The alleged victim claimed to have trained with the members.",
-      "url": "https://www.koreaboo.com/news/aespa-members-accused-bullying-fellow-sm-trainee/",
+      "title": "aespa Gets Brutally Trolled Over “Scripted” Interaction With Staff",
+      "description": "Netizens are not having it.",
+      "url": "https://www.koreaboo.com/news/aespa-brutally-trolled-scripted-interaction-staff/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-22T14:24:20Z",
-      "collected_at": "2026-09-22T17:00:18Z",
+      "published_at": "2026-09-22T19:02:44Z",
+      "collected_at": "2026-09-22T21:22:52Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9652,
+        "recency": 0.9686,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,24 +59,24 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.749,
+      "hot_score": 6.7729,
       "available": true
     },
     {
-      "id": "news:koreaboo:368b5121c63c5bde",
+      "id": "news:soompi:1dacb04e76c092bf",
       "platform": "news",
-      "platform_item_id": "368b5121c63c5bde",
+      "platform_item_id": "1dacb04e76c092bf",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Viral Allegations Of BLACKPINK Jisoo’s Dating A Popular Actor Spark Huge Reactions",
-      "description": "\"Ship becoming real...\"",
-      "url": "https://www.koreaboo.com/news/viral-allegations-blackpink-jisoo-dating-popular-actor-spark-huge-reactions/",
+      "title": "Jennie And Tame Impala’s “Dracula” Becomes Both Singers’ First No. 1 Hit On Billboard Radio Songs Chart",
+      "description": "Both BLACKPINK’s Jennie and Tame Impala have scored their first No. 1 hit on U.S. radio! On September 22 local time, Billboard announced that Jennie and Tame Impala’s remix of “Dracula” had reached a new peak of No. 1 on its Radio Songs chart, which measures weekly plays on U.S. radio stations across all genres.… Continue reading Jennie And Tame Impala’s “Dracula” Becomes Both Singers’ First No. 1 Hit On Billboard Radio Songs Chart The post Jennie And Tame Impala’s “Dracula” Becomes Both Singers’ First No. 1 Hit On Billboard Radio Songs Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1872621wpp/jennie-and-tame-impalas-dracula-becomes-both-singers-first-no-1-hit-on-billboard-radio-songs-chart",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-22T12:00:12Z",
-      "collected_at": "2026-09-22T17:00:18Z",
+      "published_at": "2026-09-22T18:19:00Z",
+      "collected_at": "2026-09-22T21:22:52Z",
       "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
+        "name": "Soompi",
+        "handle": "soompi",
         "avatar": ""
       },
       "metrics": {
@@ -92,27 +92,27 @@
         "blackpink"
       ],
       "matched_members": [
-        "jisoo"
+        "jennie"
       ],
       "match_confidence": "high",
       "match_reason": [
         {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        },
+        {
           "target_type": "group",
           "target_id": "blackpink",
           "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
+          "field": "description",
+          "score": 0.3
         }
       ],
       "score_breakdown": {
-        "recency": 0.935,
+        "recency": 0.9592,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,21 +120,82 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8256,
+      "hot_score": 8.0276,
       "available": true
     },
     {
-      "id": "news:koreaboo:27c1afe25a04b2e4",
+      "id": "news:soompi:c62ca3efeeda53ae",
       "platform": "news",
-      "platform_item_id": "27c1afe25a04b2e4",
+      "platform_item_id": "c62ca3efeeda53ae",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Recent Video Of BLACKPINK Lisa’s Interaction With Fan Sparks Hugely Divided Reactions",
-      "description": "\"Turning patients into props...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-patient-fan-interaction-divided-reactions/",
+      "title": "i-dle’s Yuqi Announces Comeback Date With 1st Teasers For “27”",
+      "description": "i-dle’s Yuqi has kicked off the countdown to her solo comeback! On September 23 KST, Yuqi officially announced the date and details of her upcoming return as a soloist. Yuqi will be releasing her second solo mini album “27” on October 8 at 1 p.m. KST, and you can check out her first teasers for… Continue reading i-dle’s Yuqi Announces Comeback Date With 1st Teasers For “27” The post i-dle’s Yuqi Announces Comeback Date With 1st Teasers For “27” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1872587wpp/i-dles-yuqi-announces-comeback-date-with-1st-teasers-for-27",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-22T11:15:27Z",
-      "collected_at": "2026-09-22T17:00:18Z",
+      "published_at": "2026-09-22T17:18:00Z",
+      "collected_at": "2026-09-22T21:22:52Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "yuqi"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "yuqi",
+          "alias": "Yuqi",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9464,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9203,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:b70c393a5303937c",
+      "platform": "news",
+      "platform_item_id": "b70c393a5303937c",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa Members Get Accused Of Bullying Fellow Trainee, Draw Scathing Reactions",
+      "description": "The alleged victim claimed to have trained with the members.",
+      "url": "https://www.koreaboo.com/news/aespa-members-accused-bullying-fellow-sm-trainee/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-22T14:24:20Z",
+      "collected_at": "2026-09-22T21:22:52Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -150,38 +211,29 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "blackpink"
+        "aespa"
       ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
+          "target_id": "aespa",
+          "alias": "aespa",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9261,
+        "recency": 0.9117,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7505,
+      "hot_score": 6.375,
       "available": true
     },
     {
@@ -195,7 +247,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-22T17:00:18Z",
+      "collected_at": "2026-09-22T21:22:52Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -234,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9202,
+        "recency": 0.8714,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7013,
+      "hot_score": 7.2933,
       "available": true
     },
     {
@@ -256,7 +308,7 @@
       "url": "https://www.soompi.com/article/1872438wpp/twices-dahyun-and-cha-woo-min-confirmed-for-new-romance-film-by-king-the-land-director",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T07:10:33Z",
-      "collected_at": "2026-09-22T17:00:18Z",
+      "collected_at": "2026-09-22T21:22:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -295,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8799,
+        "recency": 0.8352,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -303,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.364,
+      "hot_score": 6.9901,
       "available": true
     },
     {
@@ -317,7 +369,7 @@
       "url": "https://www.soompi.com/article/1872150wpp/ningning-announced-as-new-ambassador-for-bvlgari",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-21T07:45:50Z",
-      "collected_at": "2026-09-22T17:00:18Z",
+      "collected_at": "2026-09-22T21:22:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -356,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6841,
+        "recency": 0.6568,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -364,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7258,
+      "hot_score": 5.4972,
       "available": true
     },
     {
@@ -378,7 +430,7 @@
       "url": "https://www.soompi.com/article/1872013wpp/kian84-lee-junho-kazuha-and-kim-yeon-koung-get-to-work-at-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-21T04:49:56Z",
-      "collected_at": "2026-09-22T17:00:18Z",
+      "collected_at": "2026-09-22T21:22:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -410,7 +462,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6656,
+        "recency": 0.6397,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -418,7 +470,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5706,
+      "hot_score": 5.354,
       "available": true
     },
     {
@@ -432,7 +484,7 @@
       "url": "https://www.soompi.com/article/1871954wpp/stray-kids-enhypen-monsta-x-evan-cortis-bts-ateez-le-sserafim-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-20T17:53:00Z",
-      "collected_at": "2026-09-22T17:00:18Z",
+      "collected_at": "2026-09-22T21:22:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -462,7 +514,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6044,
+        "recency": 0.583,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -470,7 +522,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.2265,
+      "hot_score": 4.0767,
       "available": true
     },
     {
@@ -484,7 +536,7 @@
       "url": "https://www.soompi.com/article/1871962wpp/watch-ateez-snags-7th-win-for-bad-on-inkigayo-performances-by-le-sserafim-team-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-20T16:33:41Z",
-      "collected_at": "2026-09-22T17:00:18Z",
+      "collected_at": "2026-09-22T21:22:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -514,7 +566,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5978,
+        "recency": 0.5768,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -522,7 +574,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1801,
+      "hot_score": 4.0336,
       "available": true
     }
   ]
