@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-23T04:49:46Z",
+  "generated_at": "2026-09-23T11:43:37Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 12,
+    "item_count": 10,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:846b00b36c666fe6",
+      "platform": "news",
+      "platform_item_id": "846b00b36c666fe6",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Thread Of “Evidence” Alleging BTS’s Jungkook And aespa’s Winter Are Dating Sparks Heated Reactions",
+      "description": "Netizens were not impressed.",
+      "url": "https://www.koreaboo.com/news/proposal-thread-evidence-btss-jungkook-aespas-winter-dating-sparks-heated-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-23T10:40:25Z",
+      "collected_at": "2026-09-23T11:43:37Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "winter"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "winter",
+          "alias": "Winter",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9856,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2485,
+      "available": true
+    },
     {
       "id": "news:koreaboo:0029d0604b32b478",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/nct-jaehyun-twice-sana-fashion-week-sparks-massive-response/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-23T04:04:38Z",
-      "collected_at": "2026-09-23T04:49:46Z",
+      "collected_at": "2026-09-23T11:43:37Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.904,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.5654,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.soompi.com/article/1872647wpp/twices-perfect-world-extends-their-record-as-girl-group-with-most-mvs-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T23:36:13Z",
-      "collected_at": "2026-09-23T04:49:46Z",
+      "collected_at": "2026-09-23T11:43:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9323,
+        "recency": 0.8559,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5194,
+      "hot_score": 5.9849,
       "available": true
     },
     {
@@ -134,7 +195,7 @@
       "url": "https://www.soompi.com/article/1872632wpp/team-lim-young-woong-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T20:30:00Z",
-      "collected_at": "2026-09-23T04:49:46Z",
+      "collected_at": "2026-09-23T11:43:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8963,
+        "recency": 0.8254,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,59 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2676,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:43cc66223b6bee71",
-      "platform": "news",
-      "platform_item_id": "43cc66223b6bee71",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa Gets Brutally Trolled Over “Scripted” Interaction With Staff",
-      "description": "Netizens are not having it.",
-      "url": "https://www.koreaboo.com/news/aespa-brutally-trolled-scripted-interaction-staff/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-22T19:02:44Z",
-      "collected_at": "2026-09-23T04:49:46Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8804,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.156,
+      "hot_score": 5.7719,
       "available": true
     },
     {
@@ -238,7 +247,7 @@
       "url": "https://www.soompi.com/article/1872621wpp/jennie-and-tame-impalas-dracula-becomes-both-singers-first-no-1-hit-on-billboard-radio-songs-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T18:19:00Z",
-      "collected_at": "2026-09-23T04:49:46Z",
+      "collected_at": "2026-09-23T11:43:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -277,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8726,
+        "recency": 0.8053,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -285,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.303,
+      "hot_score": 6.7396,
       "available": true
     },
     {
@@ -299,7 +308,7 @@
       "url": "https://www.soompi.com/article/1872587wpp/i-dles-yuqi-announces-comeback-date-with-1st-teasers-for-27",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T17:18:00Z",
-      "collected_at": "2026-09-23T04:49:46Z",
+      "collected_at": "2026-09-23T11:43:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -338,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.862,
+        "recency": 0.7962,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -346,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2141,
+      "hot_score": 6.6638,
       "available": true
     },
     {
@@ -360,7 +369,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-23T04:49:46Z",
+      "collected_at": "2026-09-23T11:43:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -399,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7994,
+        "recency": 0.7425,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -407,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6902,
+      "hot_score": 6.2143,
       "available": true
     },
     {
@@ -421,7 +430,7 @@
       "url": "https://www.soompi.com/article/1872438wpp/twices-dahyun-and-cha-woo-min-confirmed-for-new-romance-film-by-king-the-land-director",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T07:10:33Z",
-      "collected_at": "2026-09-23T04:49:46Z",
+      "collected_at": "2026-09-23T11:43:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -460,7 +469,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7688,
+        "recency": 0.7161,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -468,7 +477,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4342,
+      "hot_score": 5.9928,
       "available": true
     },
     {
@@ -482,7 +491,7 @@
       "url": "https://www.soompi.com/article/1872150wpp/ningning-announced-as-new-ambassador-for-bvlgari",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-21T07:45:50Z",
-      "collected_at": "2026-09-23T04:49:46Z",
+      "collected_at": "2026-09-23T11:43:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -521,7 +530,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.615,
+        "recency": 0.5808,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -529,7 +538,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1474,
+      "hot_score": 4.861,
       "available": true
     },
     {
@@ -543,7 +552,7 @@
       "url": "https://www.soompi.com/article/1872013wpp/kian84-lee-junho-kazuha-and-kim-yeon-koung-get-to-work-at-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-21T04:49:56Z",
-      "collected_at": "2026-09-23T04:49:46Z",
+      "collected_at": "2026-09-23T11:43:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -575,7 +584,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6,
+        "recency": 0.5674,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -583,111 +592,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0217,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6f2cb2dcfd3e7361",
-      "platform": "news",
-      "platform_item_id": "6f2cb2dcfd3e7361",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Stray Kids, ENHYPEN, MONSTA X, EVAN, CORTIS, BTS, ATEEZ, LE SSERAFIM, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on September 19! Stray Kids’ latest mini album “THIS & THAT” continued its reign at No. 1, marking its fourth non-consecutive week at the top of the World Albums chart, in addition to re-entering the top 15 of the Billboard 200. Stray Kids’ 2025… Continue reading Stray Kids, ENHYPEN, MONSTA X, EVAN, CORTIS, BTS, ATEEZ, LE SSERAFIM, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, ENHYPEN, MONSTA X, EVAN, CORTIS, BTS, ATEEZ, LE SSERAFIM, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1871954wpp/stray-kids-enhypen-monsta-x-evan-cortis-bts-ateez-le-sserafim-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-20T17:53:00Z",
-      "collected_at": "2026-09-23T04:49:46Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5498,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.8449,
-      "available": true
-    },
-    {
-      "id": "news:soompi:8855e8aac2ad1e20",
-      "platform": "news",
-      "platform_item_id": "8855e8aac2ad1e20",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: ATEEZ Snags 7th Win For “BAD” On “Inkigayo”; Performances By LE SSERAFIM, &TEAM, And More",
-      "description": "ATEEZ has won a seventh music show trophy for “BAD”! On the September 20 episode of SBS’s “Inkigayo,” the candidates for first place were ATEEZ’s “BAD,” &TEAM’s “Mark on Me,” and RESCENE’s “LOVE ATTACK.” ATEEZ ultimately took the win with a total of 4,657 points. Congratulations to ATEEZ! Watch a clip of the winner announcement… Continue reading Watch: ATEEZ Snags 7th Win For “BAD” On “Inkigayo”; Performances By LE SSERAFIM, &TEAM, And More The post Watch: ATEEZ Snags 7th Win For “BAD” On “Inkigayo”; Performances By LE SSERAFIM, &TEAM, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1871962wpp/watch-ateez-snags-7th-win-for-bad-on-inkigayo-performances-by-le-sserafim-team-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-20T16:33:41Z",
-      "collected_at": "2026-09-23T04:49:46Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5443,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.8064,
+      "hot_score": 4.7487,
       "available": true
     }
   ]
