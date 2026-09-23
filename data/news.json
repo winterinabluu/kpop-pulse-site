@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-23T17:07:28Z",
+  "generated_at": "2026-09-23T21:32:35Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 9,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/proposal-thread-evidence-btss-jungkook-aespas-winter-dating-sparks-heated-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-23T10:40:25Z",
-      "collected_at": "2026-09-23T17:07:28Z",
+      "collected_at": "2026-09-23T21:32:35Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9178,
+        "recency": 0.8688,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.681,
+      "hot_score": 7.2715,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1872647wpp/twices-perfect-world-extends-their-record-as-girl-group-with-most-mvs-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T23:36:13Z",
-      "collected_at": "2026-09-23T17:07:28Z",
+      "collected_at": "2026-09-23T21:32:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8043,
+        "recency": 0.7664,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.624,
+      "hot_score": 5.3595,
       "available": true
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.soompi.com/article/1872632wpp/team-lim-young-woong-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T20:30:00Z",
-      "collected_at": "2026-09-23T17:07:28Z",
+      "collected_at": "2026-09-23T21:32:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7773,
+        "recency": 0.7419,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4356,
+      "hot_score": 5.1881,
       "available": true
     },
     {
@@ -186,7 +186,7 @@
       "url": "https://www.soompi.com/article/1872621wpp/jennie-and-tame-impalas-dracula-becomes-both-singers-first-no-1-hit-on-billboard-radio-songs-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T18:19:00Z",
-      "collected_at": "2026-09-23T17:07:28Z",
+      "collected_at": "2026-09-23T21:32:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7594,
+        "recency": 0.7256,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -233,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3559,
+      "hot_score": 6.0728,
       "available": true
     },
     {
@@ -247,7 +247,7 @@
       "url": "https://www.soompi.com/article/1872587wpp/i-dles-yuqi-announces-comeback-date-with-1st-teasers-for-27",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T17:18:00Z",
-      "collected_at": "2026-09-23T17:07:28Z",
+      "collected_at": "2026-09-23T21:32:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7514,
+        "recency": 0.7183,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -294,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2884,
+      "hot_score": 6.0113,
       "available": true
     },
     {
@@ -308,7 +308,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-23T17:07:28Z",
+      "collected_at": "2026-09-23T21:32:35Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -347,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7034,
+        "recency": 0.6743,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -355,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8867,
+      "hot_score": 5.6431,
       "available": true
     },
     {
@@ -369,7 +369,7 @@
       "url": "https://www.soompi.com/article/1872438wpp/twices-dahyun-and-cha-woo-min-confirmed-for-new-romance-film-by-king-the-land-director",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T07:10:33Z",
-      "collected_at": "2026-09-23T17:07:28Z",
+      "collected_at": "2026-09-23T21:32:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -408,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6796,
+        "recency": 0.6524,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -416,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6875,
+      "hot_score": 5.4598,
       "available": true
     },
     {
@@ -430,7 +430,7 @@
       "url": "https://www.soompi.com/article/1872150wpp/ningning-announced-as-new-ambassador-for-bvlgari",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-21T07:45:50Z",
-      "collected_at": "2026-09-23T17:07:28Z",
+      "collected_at": "2026-09-23T21:32:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -469,7 +469,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5566,
+        "recency": 0.5382,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -477,61 +477,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6582,
-      "available": true
-    },
-    {
-      "id": "news:soompi:0136ccc5586c4de9",
-      "platform": "news",
-      "platform_item_id": "0136ccc5586c4de9",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Kian84, Lee Junho, Kazuha, And Kim Yeon Koung Get To Work At “Kian’s Bizarre B&B 2”",
-      "description": "“Kian’s Bizarre B&B” Season 2 has unveiled new stills! “Kian’s Bizarre B&B” is a Netflix variety show in which Kian84 and his castmates run a one-of-a-kind guesthouse. Season 1 featured Kian84, BTS’s Jin, and Ji Ye Eun operating a unique lodging on the scenic island of Ulleungdo, offering guests an unforgettable hospitality experience. For Season… Continue reading Kian84, Lee Junho, Kazuha, And Kim Yeon Koung Get To Work At “Kian’s Bizarre B&B 2” The post Kian84, Lee Junho, Kazuha, And Kim Yeon Koung Get To Work At “Kian’s Bizarre B&B 2” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1872013wpp/kian84-lee-junho-kazuha-and-kim-yeon-koung-get-to-work-at-kians-bizarre-bb-2",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-21T04:49:56Z",
-      "collected_at": "2026-09-23T17:07:28Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "kazuha"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "kazuha",
-          "alias": "Kazuha",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5442,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.555,
+      "hot_score": 4.5043,
       "available": true
     }
   ]
