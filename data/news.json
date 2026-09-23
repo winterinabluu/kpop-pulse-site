@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-23T11:43:37Z",
+  "generated_at": "2026-09-23T17:07:28Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 10,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/proposal-thread-evidence-btss-jungkook-aespas-winter-dating-sparks-heated-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-23T10:40:25Z",
-      "collected_at": "2026-09-23T11:43:37Z",
+      "collected_at": "2026-09-23T17:07:28Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9856,
+        "recency": 0.9178,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,68 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2485,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:0029d0604b32b478",
-      "platform": "news",
-      "platform_item_id": "0029d0604b32b478",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "NCT’s Jaehyun And TWICE’s Sana’s Interaction At After Party Sparks Massive Response",
-      "description": "He's just a funny guy trapped in a hot guy's body.",
-      "url": "https://www.koreaboo.com/news/nct-jaehyun-twice-sana-fashion-week-sparks-massive-response/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-23T04:04:38Z",
-      "collected_at": "2026-09-23T11:43:37Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "sana"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "sana",
-          "alias": "Sana",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.904,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5654,
+      "hot_score": 7.681,
       "available": true
     },
     {
@@ -143,7 +82,7 @@
       "url": "https://www.soompi.com/article/1872647wpp/twices-perfect-world-extends-their-record-as-girl-group-with-most-mvs-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T23:36:13Z",
-      "collected_at": "2026-09-23T11:43:37Z",
+      "collected_at": "2026-09-23T17:07:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8559,
+        "recency": 0.8043,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -181,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9849,
+      "hot_score": 5.624,
       "available": true
     },
     {
@@ -195,7 +134,7 @@
       "url": "https://www.soompi.com/article/1872632wpp/team-lim-young-woong-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T20:30:00Z",
-      "collected_at": "2026-09-23T11:43:37Z",
+      "collected_at": "2026-09-23T17:07:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8254,
+        "recency": 0.7773,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -233,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7719,
+      "hot_score": 5.4356,
       "available": true
     },
     {
@@ -247,7 +186,7 @@
       "url": "https://www.soompi.com/article/1872621wpp/jennie-and-tame-impalas-dracula-becomes-both-singers-first-no-1-hit-on-billboard-radio-songs-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T18:19:00Z",
-      "collected_at": "2026-09-23T11:43:37Z",
+      "collected_at": "2026-09-23T17:07:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8053,
+        "recency": 0.7594,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -294,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7396,
+      "hot_score": 6.3559,
       "available": true
     },
     {
@@ -308,7 +247,7 @@
       "url": "https://www.soompi.com/article/1872587wpp/i-dles-yuqi-announces-comeback-date-with-1st-teasers-for-27",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T17:18:00Z",
-      "collected_at": "2026-09-23T11:43:37Z",
+      "collected_at": "2026-09-23T17:07:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -347,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7962,
+        "recency": 0.7514,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -355,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6638,
+      "hot_score": 6.2884,
       "available": true
     },
     {
@@ -369,7 +308,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-23T11:43:37Z",
+      "collected_at": "2026-09-23T17:07:28Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -408,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7425,
+        "recency": 0.7034,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -416,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2143,
+      "hot_score": 5.8867,
       "available": true
     },
     {
@@ -430,7 +369,7 @@
       "url": "https://www.soompi.com/article/1872438wpp/twices-dahyun-and-cha-woo-min-confirmed-for-new-romance-film-by-king-the-land-director",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T07:10:33Z",
-      "collected_at": "2026-09-23T11:43:37Z",
+      "collected_at": "2026-09-23T17:07:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -469,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7161,
+        "recency": 0.6796,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -477,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9928,
+      "hot_score": 5.6875,
       "available": true
     },
     {
@@ -491,7 +430,7 @@
       "url": "https://www.soompi.com/article/1872150wpp/ningning-announced-as-new-ambassador-for-bvlgari",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-21T07:45:50Z",
-      "collected_at": "2026-09-23T11:43:37Z",
+      "collected_at": "2026-09-23T17:07:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -530,7 +469,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5808,
+        "recency": 0.5566,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -538,7 +477,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.861,
+      "hot_score": 4.6582,
       "available": true
     },
     {
@@ -552,7 +491,7 @@
       "url": "https://www.soompi.com/article/1872013wpp/kian84-lee-junho-kazuha-and-kim-yeon-koung-get-to-work-at-kians-bizarre-bb-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-21T04:49:56Z",
-      "collected_at": "2026-09-23T11:43:37Z",
+      "collected_at": "2026-09-23T17:07:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -584,7 +523,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5674,
+        "recency": 0.5442,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -592,7 +531,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7487,
+      "hot_score": 4.555,
       "available": true
     }
   ]
