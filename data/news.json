@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-23T21:32:35Z",
+  "generated_at": "2026-09-24T04:57:18Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:846b00b36c666fe6",
+      "id": "news:koreaboo:c8d3d8abb2704c4f",
       "platform": "news",
-      "platform_item_id": "846b00b36c666fe6",
+      "platform_item_id": "c8d3d8abb2704c4f",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Thread Of “Evidence” Alleging BTS’s Jungkook And aespa’s Winter Are Dating Sparks Heated Reactions",
-      "description": "Netizens were not impressed.",
-      "url": "https://www.koreaboo.com/news/proposal-thread-evidence-btss-jungkook-aespas-winter-dating-sparks-heated-reactions/",
+      "title": "TWICE Member’s “Fetish” Outfit Triggers Heated Reactions",
+      "description": "Her styling was bolder than ever.",
+      "url": "https://www.koreaboo.com/news/twice-member-fetish-outfit-triggers-heated-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-23T10:40:25Z",
-      "collected_at": "2026-09-23T21:32:35Z",
+      "published_at": "2026-09-24T00:56:16Z",
+      "collected_at": "2026-09-24T04:57:18Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,30 +37,82 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "aespa"
+        "twice"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9471,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.6231,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:a7a866524a7b2858",
+      "platform": "news",
+      "platform_item_id": "a7a866524a7b2858",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "NewJeans Hyein’s Latest Whereabouts Spark Massive Backlash",
+      "description": "She was recently spotted.",
+      "url": "https://www.koreaboo.com/news/newjeans-hyein-latest-whereabouts-spark-massive-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-24T00:04:06Z",
+      "collected_at": "2026-09-24T04:57:18Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
       ],
       "matched_members": [
-        "winter"
+        "hyein"
       ],
       "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
           "field": "title",
           "score": 1.0
         },
         {
           "target_type": "member",
-          "target_id": "winter",
-          "alias": "Winter",
+          "target_id": "hyein",
+          "alias": "Hyein",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8688,
+        "recency": 0.9364,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2715,
+      "hot_score": 7.8373,
       "available": true
     },
     {
@@ -82,7 +134,7 @@
       "url": "https://www.soompi.com/article/1872647wpp/twices-perfect-world-extends-their-record-as-girl-group-with-most-mvs-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T23:36:13Z",
-      "collected_at": "2026-09-23T21:32:35Z",
+      "collected_at": "2026-09-24T04:57:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7664,
+        "recency": 0.7104,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3595,
+      "hot_score": 4.9676,
       "available": true
     },
     {
@@ -134,7 +186,7 @@
       "url": "https://www.soompi.com/article/1872632wpp/team-lim-young-woong-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T20:30:00Z",
-      "collected_at": "2026-09-23T21:32:35Z",
+      "collected_at": "2026-09-24T04:57:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +216,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7419,
+        "recency": 0.6893,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,7 +224,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1881,
+      "hot_score": 4.82,
       "available": true
     },
     {
@@ -186,7 +238,7 @@
       "url": "https://www.soompi.com/article/1872621wpp/jennie-and-tame-impalas-dracula-becomes-both-singers-first-no-1-hit-on-billboard-radio-songs-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T18:19:00Z",
-      "collected_at": "2026-09-23T21:32:35Z",
+      "collected_at": "2026-09-24T04:57:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +277,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7256,
+        "recency": 0.6752,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -233,7 +285,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0728,
+      "hot_score": 5.6507,
       "available": true
     },
     {
@@ -242,12 +294,12 @@
       "platform_item_id": "c62ca3efeeda53ae",
       "source_type": "media",
       "content_kind": "news",
-      "title": "i-dle’s Yuqi Announces Comeback Date With 1st Teasers For “27”",
-      "description": "i-dle’s Yuqi has kicked off the countdown to her solo comeback! On September 23 KST, Yuqi officially announced the date and details of her upcoming return as a soloist. Yuqi will be releasing her second solo mini album “27” on October 8 at 1 p.m. KST, and you can check out her first teasers for… Continue reading i-dle’s Yuqi Announces Comeback Date With 1st Teasers For “27” The post i-dle’s Yuqi Announces Comeback Date With 1st Teasers For “27” appeared first on Soompi .",
+      "title": "Update: i-dle’s Yuqi Drops Cinematic Intro Film For Upcoming Solo Album “27”",
+      "description": "Updated September 24 KST: i-dle’s Yuqi has unveiled an intro film for her upcoming solo mini album “27”! Original Article: i-dle’s Yuqi has kicked off the countdown to her solo comeback! On September 23 KST, Yuqi officially announced the date and details of her upcoming return as a soloist. Yuqi will be releasing her second… Continue reading Update: i-dle’s Yuqi Drops Cinematic Intro Film For Upcoming Solo Album “27” The post Update: i-dle’s Yuqi Drops Cinematic Intro Film For Upcoming Solo Album “27” appeared first on Soompi .",
       "url": "https://www.soompi.com/article/1872587wpp/i-dles-yuqi-announces-comeback-date-with-1st-teasers-for-27",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T17:18:00Z",
-      "collected_at": "2026-09-23T21:32:35Z",
+      "collected_at": "2026-09-24T04:57:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7183,
+        "recency": 0.6688,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -294,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0113,
+      "hot_score": 5.5974,
       "available": true
     },
     {
@@ -308,7 +360,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-23T21:32:35Z",
+      "collected_at": "2026-09-24T04:57:18Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -347,7 +399,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6743,
+        "recency": 0.6305,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -355,7 +407,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6431,
+      "hot_score": 5.2768,
       "available": true
     },
     {
@@ -369,7 +421,7 @@
       "url": "https://www.soompi.com/article/1872438wpp/twices-dahyun-and-cha-woo-min-confirmed-for-new-romance-film-by-king-the-land-director",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T07:10:33Z",
-      "collected_at": "2026-09-23T21:32:35Z",
+      "collected_at": "2026-09-24T04:57:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -408,7 +460,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6524,
+        "recency": 0.6113,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -416,7 +468,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4598,
+      "hot_score": 5.1162,
       "available": true
     },
     {
@@ -430,7 +482,7 @@
       "url": "https://www.soompi.com/article/1872150wpp/ningning-announced-as-new-ambassador-for-bvlgari",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-21T07:45:50Z",
-      "collected_at": "2026-09-23T21:32:35Z",
+      "collected_at": "2026-09-24T04:57:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -469,7 +521,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5382,
+        "recency": 0.5099,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -477,7 +529,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5043,
+      "hot_score": 4.2679,
       "available": true
     }
   ]
