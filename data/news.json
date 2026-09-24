@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-24T17:15:12Z",
+  "generated_at": "2026-09-24T21:33:41Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:2c77876a1220a8a4",
+      "platform": "news",
+      "platform_item_id": "2c77876a1220a8a4",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "GOT7’s Jackson Wang And i-dle’s Yuqi Embroiled In Dating Rumors — Allegations Addressed",
+      "description": "The rumors have persisted for years.",
+      "url": "https://www.koreaboo.com/news/got7-jackson-wang-dle-yuqi-embroiled-in-dating-rumors-allegations-addressed/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-24T19:21:49Z",
+      "collected_at": "2026-09-24T21:33:41Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "yuqi"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "yuqi",
+          "alias": "Yuqi",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9704,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1213,
+      "available": true
+    },
     {
       "id": "news:soompi:fee6b74ff52114b4",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1872647wpp/twices-perfect-world-extends-their-record-as-girl-group-with-most-mvs-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T23:36:13Z",
-      "collected_at": "2026-09-24T17:15:12Z",
+      "collected_at": "2026-09-24T21:33:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6335,
+        "recency": 0.6104,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.43,
+      "hot_score": 4.2682,
       "available": true
     },
     {
@@ -73,7 +134,7 @@
       "url": "https://www.soompi.com/article/1872632wpp/team-lim-young-woong-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T20:30:00Z",
-      "collected_at": "2026-09-24T17:15:12Z",
+      "collected_at": "2026-09-24T21:33:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6167,
+        "recency": 0.5947,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3122,
+      "hot_score": 4.1588,
       "available": true
     },
     {
@@ -125,7 +186,7 @@
       "url": "https://www.soompi.com/article/1872621wpp/jennie-and-tame-impalas-dracula-becomes-both-singers-first-no-1-hit-on-billboard-radio-songs-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T18:19:00Z",
-      "collected_at": "2026-09-24T17:15:12Z",
+      "collected_at": "2026-09-24T21:33:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6054,
+        "recency": 0.5842,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -172,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0665,
+      "hot_score": 4.8894,
       "available": true
     },
     {
@@ -186,7 +247,7 @@
       "url": "https://www.soompi.com/article/1872587wpp/i-dles-yuqi-announces-comeback-date-with-1st-teasers-for-27",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T17:18:00Z",
-      "collected_at": "2026-09-24T17:15:12Z",
+      "collected_at": "2026-09-24T21:33:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6002,
+        "recency": 0.5794,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -233,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0235,
+      "hot_score": 4.8494,
       "available": true
     },
     {
@@ -247,7 +308,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-24T17:15:12Z",
+      "collected_at": "2026-09-24T21:33:41Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -286,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5692,
+        "recency": 0.5505,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -294,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7638,
+      "hot_score": 4.6069,
       "available": true
     },
     {
@@ -308,7 +369,7 @@
       "url": "https://www.soompi.com/article/1872438wpp/twices-dahyun-and-cha-woo-min-confirmed-for-new-romance-film-by-king-the-land-director",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T07:10:33Z",
-      "collected_at": "2026-09-24T17:15:12Z",
+      "collected_at": "2026-09-24T21:33:41Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -347,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5535,
+        "recency": 0.5358,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -355,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6325,
+      "hot_score": 4.484,
       "available": true
     }
   ]
