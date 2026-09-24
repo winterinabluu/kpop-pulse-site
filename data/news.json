@@ -1,128 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-24T11:52:29Z",
+  "generated_at": "2026-09-24T17:15:12Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:ddb1d9766e7a2f86",
-      "platform": "news",
-      "platform_item_id": "ddb1d9766e7a2f86",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa’s “Dangerous” Collaboration Trigger Huge Backlash Towards Idol",
-      "description": "\"Feminism takes a decade long step back...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-dangerous-collaboration-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-24T09:30:09Z",
-      "collected_at": "2026-09-24T11:52:29Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9681,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.1023,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:c8d3d8abb2704c4f",
-      "platform": "news",
-      "platform_item_id": "c8d3d8abb2704c4f",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE Member’s “Fetish” Outfit Triggers Heated Reactions",
-      "description": "Her styling was bolder than ever.",
-      "url": "https://www.koreaboo.com/news/twice-member-fetish-outfit-triggers-heated-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-24T00:56:16Z",
-      "collected_at": "2026-09-24T11:52:29Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8681,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.0705,
-      "available": true
-    },
     {
       "id": "news:soompi:fee6b74ff52114b4",
       "platform": "news",
@@ -134,7 +21,7 @@
       "url": "https://www.soompi.com/article/1872647wpp/twices-perfect-world-extends-their-record-as-girl-group-with-most-mvs-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T23:36:13Z",
-      "collected_at": "2026-09-24T11:52:29Z",
+      "collected_at": "2026-09-24T17:15:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.665,
+        "recency": 0.6335,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6501,
+      "hot_score": 4.43,
       "available": true
     },
     {
@@ -186,7 +73,7 @@
       "url": "https://www.soompi.com/article/1872632wpp/team-lim-young-woong-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T20:30:00Z",
-      "collected_at": "2026-09-24T11:52:29Z",
+      "collected_at": "2026-09-24T17:15:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -216,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6465,
+        "recency": 0.6167,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -224,7 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5205,
+      "hot_score": 4.3122,
       "available": true
     },
     {
@@ -238,7 +125,7 @@
       "url": "https://www.soompi.com/article/1872621wpp/jennie-and-tame-impalas-dracula-becomes-both-singers-first-no-1-hit-on-billboard-radio-songs-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T18:19:00Z",
-      "collected_at": "2026-09-24T11:52:29Z",
+      "collected_at": "2026-09-24T17:15:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -277,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.634,
+        "recency": 0.6054,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -285,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3064,
+      "hot_score": 5.0665,
       "available": true
     },
     {
@@ -299,7 +186,7 @@
       "url": "https://www.soompi.com/article/1872587wpp/i-dles-yuqi-announces-comeback-date-with-1st-teasers-for-27",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T17:18:00Z",
-      "collected_at": "2026-09-24T11:52:29Z",
+      "collected_at": "2026-09-24T17:15:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -338,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6284,
+        "recency": 0.6002,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -346,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2593,
+      "hot_score": 5.0235,
       "available": true
     },
     {
@@ -360,7 +247,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-24T11:52:29Z",
+      "collected_at": "2026-09-24T17:15:12Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -399,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5945,
+        "recency": 0.5692,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -407,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9753,
+      "hot_score": 4.7638,
       "available": true
     },
     {
@@ -421,7 +308,7 @@
       "url": "https://www.soompi.com/article/1872438wpp/twices-dahyun-and-cha-woo-min-confirmed-for-new-romance-film-by-king-the-land-director",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T07:10:33Z",
-      "collected_at": "2026-09-24T11:52:29Z",
+      "collected_at": "2026-09-24T17:15:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -460,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5774,
+        "recency": 0.5535,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -468,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8323,
+      "hot_score": 4.6325,
       "available": true
     }
   ]
