@@ -1,15 +1,67 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-24T21:33:41Z",
+  "generated_at": "2026-09-25T05:01:59Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:4426928ff8952ef3",
+      "platform": "news",
+      "platform_item_id": "4426928ff8952ef3",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "NCT WISH, TXT, ENHYPEN, RIIZE, TWS, ZEROBASEONE, LE SSERAFIM, And More Earn RIAJ Double Platinum And Gold Certifications In Japan",
+      "description": "The Recording Industry Association of Japan (RIAJ) has announced its latest batch of official certifications! This month, NCT WISH’s latest Japanese single album “YO-I-DON! / BOY MEETS GIRL” was certified double platinum for over 500,000 units shipped in Japan. According to the RIAJ’s certification thresholds, albums are certified gold at 100,000 units shipped, platinum at… Continue reading NCT WISH, TXT, ENHYPEN, RIIZE, TWS, ZEROBASEONE, LE SSERAFIM, And More Earn RIAJ Double Platinum And Gold Certifications In Japan The post NCT WISH, TXT, ENHYPEN, RIIZE, TWS, ZEROBASEONE, LE SSERAFIM, And More Earn RIAJ Double Platinum And Gold Certifications In Japan appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1873066wpp/nct-wish-txt-enhypen-riize-tws-zerobaseone-le-sserafim-and-more-earn-riaj-double-platinum-and-gold-certifications-in-japan",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-25T01:04:44Z",
+      "collected_at": "2026-09-25T05:01:59Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9479,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.6286,
+      "available": true
+    },
     {
       "id": "news:koreaboo:2c77876a1220a8a4",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/got7-jackson-wang-dle-yuqi-embroiled-in-dating-rumors-allegations-addressed/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-24T19:21:49Z",
-      "collected_at": "2026-09-24T21:33:41Z",
+      "collected_at": "2026-09-25T05:01:59Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9704,
+        "recency": 0.8816,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1213,
+      "hot_score": 7.3783,
       "available": true
     },
     {
@@ -82,7 +134,7 @@
       "url": "https://www.soompi.com/article/1872647wpp/twices-perfect-world-extends-their-record-as-girl-group-with-most-mvs-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T23:36:13Z",
-      "collected_at": "2026-09-24T21:33:41Z",
+      "collected_at": "2026-09-25T05:01:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6104,
+        "recency": 0.574,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.2682,
+      "hot_score": 4.014,
       "available": true
     },
     {
@@ -134,7 +186,7 @@
       "url": "https://www.soompi.com/article/1872632wpp/team-lim-young-woong-rescene-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T20:30:00Z",
-      "collected_at": "2026-09-24T21:33:41Z",
+      "collected_at": "2026-09-25T05:01:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +216,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5947,
+        "recency": 0.5602,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,7 +224,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1588,
+      "hot_score": 3.917,
       "available": true
     },
     {
@@ -186,7 +238,7 @@
       "url": "https://www.soompi.com/article/1872621wpp/jennie-and-tame-impalas-dracula-becomes-both-singers-first-no-1-hit-on-billboard-radio-songs-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T18:19:00Z",
-      "collected_at": "2026-09-24T21:33:41Z",
+      "collected_at": "2026-09-25T05:01:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +277,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5842,
+        "recency": 0.5508,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -233,7 +285,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8894,
+      "hot_score": 4.6099,
       "available": true
     },
     {
@@ -247,7 +299,7 @@
       "url": "https://www.soompi.com/article/1872587wpp/i-dles-yuqi-announces-comeback-date-with-1st-teasers-for-27",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T17:18:00Z",
-      "collected_at": "2026-09-24T21:33:41Z",
+      "collected_at": "2026-09-25T05:01:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5794,
+        "recency": 0.5466,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -294,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8494,
+      "hot_score": 4.5743,
       "available": true
     },
     {
@@ -308,7 +360,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-24T21:33:41Z",
+      "collected_at": "2026-09-25T05:01:59Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -347,7 +399,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5505,
+        "recency": 0.5207,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -355,7 +407,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6069,
+      "hot_score": 4.3579,
       "available": true
     },
     {
@@ -369,7 +421,7 @@
       "url": "https://www.soompi.com/article/1872438wpp/twices-dahyun-and-cha-woo-min-confirmed-for-new-romance-film-by-king-the-land-director",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T07:10:33Z",
-      "collected_at": "2026-09-24T21:33:41Z",
+      "collected_at": "2026-09-25T05:01:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -408,7 +460,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5358,
+        "recency": 0.5076,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -416,7 +468,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.484,
+      "hot_score": 4.2478,
       "available": true
     }
   ]
