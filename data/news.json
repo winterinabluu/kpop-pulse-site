@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-26T21:13:49Z",
+  "generated_at": "2026-09-27T05:22:56Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1873066wpp/nct-wish-txt-enhypen-riize-tws-zerobaseone-le-sserafim-and-more-earn-riaj-double-platinum-and-gold-certifications-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-25T01:04:44Z",
-      "collected_at": "2026-09-26T21:13:49Z",
+      "collected_at": "2026-09-27T05:22:56Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6199,
+        "recency": 0.5792,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3346,
+      "hot_score": 4.0503,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1872647wpp/twices-perfect-world-extends-their-record-as-girl-group-with-most-mvs-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T23:36:13Z",
-      "collected_at": "2026-09-26T21:13:49Z",
+      "collected_at": "2026-09-27T05:22:56Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4347,
+        "recency": 0.4143,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,181 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.0398,
-      "available": true
-    },
-    {
-      "id": "news:soompi:58558f0f1e6b1adb",
-      "platform": "news",
-      "platform_item_id": "58558f0f1e6b1adb",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "&TEAM, Lim Young Woong, RESCENE, ILLIT, And More Top Circle Weekly Charts",
-      "description": "Circle Chart has revealed its chart rankings for the week of September 6 to 12! Album Chart &TEAM topped this week’s physical album chart with their new Korean mini album “Mark on Me,” which debuted at No. 1. Meanwhile, EVAN (Heeseung)’s first solo mini album “DEATH OF ME” entered the chart at No. 2. LE… Continue reading &TEAM, Lim Young Woong, RESCENE, ILLIT, And More Top Circle Weekly Charts The post &TEAM, Lim Young Woong, RESCENE, ILLIT, And More Top Circle Weekly Charts appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1872632wpp/team-lim-young-woong-rescene-illit-and-more-top-circle-weekly-charts",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-22T20:30:00Z",
-      "collected_at": "2026-09-26T21:13:49Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4267,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 2.9839,
-      "available": true
-    },
-    {
-      "id": "news:soompi:1dacb04e76c092bf",
-      "platform": "news",
-      "platform_item_id": "1dacb04e76c092bf",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Jennie And Tame Impala’s “Dracula” Becomes Both Singers’ First No. 1 Hit On Billboard Radio Songs Chart",
-      "description": "Both BLACKPINK’s Jennie and Tame Impala have scored their first No. 1 hit on U.S. radio! On September 22 local time, Billboard announced that Jennie and Tame Impala’s remix of “Dracula” had reached a new peak of No. 1 on its Radio Songs chart, which measures weekly plays on U.S. radio stations across all genres.… Continue reading Jennie And Tame Impala’s “Dracula” Becomes Both Singers’ First No. 1 Hit On Billboard Radio Songs Chart The post Jennie And Tame Impala’s “Dracula” Becomes Both Singers’ First No. 1 Hit On Billboard Radio Songs Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1872621wpp/jennie-and-tame-impalas-dracula-becomes-both-singers-first-no-1-hit-on-billboard-radio-songs-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-22T18:19:00Z",
-      "collected_at": "2026-09-26T21:13:49Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4213,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.5257,
-      "available": true
-    },
-    {
-      "id": "news:soompi:c62ca3efeeda53ae",
-      "platform": "news",
-      "platform_item_id": "c62ca3efeeda53ae",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Update: i-dle’s Yuqi Drops Cinematic Intro Film For Upcoming Solo Album “27”",
-      "description": "Updated September 24 KST: i-dle’s Yuqi has unveiled an intro film for her upcoming solo mini album “27”! Original Article: i-dle’s Yuqi has kicked off the countdown to her solo comeback! On September 23 KST, Yuqi officially announced the date and details of her upcoming return as a soloist. Yuqi will be releasing her second… Continue reading Update: i-dle’s Yuqi Drops Cinematic Intro Film For Upcoming Solo Album “27” The post Update: i-dle’s Yuqi Drops Cinematic Intro Film For Upcoming Solo Album “27” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1872587wpp/i-dles-yuqi-announces-comeback-date-with-1st-teasers-for-27",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-22T17:18:00Z",
-      "collected_at": "2026-09-26T21:13:49Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [
-        "yuqi"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "yuqi",
-          "alias": "Yuqi",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4188,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.5048,
+      "hot_score": 2.8972,
       "available": true
     },
     {
@@ -299,7 +125,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-26T21:13:49Z",
+      "collected_at": "2026-09-27T05:22:56Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -338,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4034,
+        "recency": 0.3858,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -346,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.3764,
+      "hot_score": 3.2289,
       "available": true
     }
   ]
