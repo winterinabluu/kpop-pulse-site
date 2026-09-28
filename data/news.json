@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-28T05:29:36Z",
+  "generated_at": "2026-09-28T14:03:00Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:7bf2150af6c29903",
+      "platform": "news",
+      "platform_item_id": "7bf2150af6c29903",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "SM Entertainment Announces Strict Legal Action Against Malicious Posts And Illegal AI-Generated Images Targeting Lim Yoona And aespa’s Winter",
+      "description": "SM Entertainment has shared official statements regarding the legal action they are taking to protect the rights of Lim Yoona and aespa’s Winter. On September 28, SM Entertainment announced that they had filed criminal complaints against those who create illegal AI-generated images of Lim Yoona and spread false information based on such images. The agency… Continue reading SM Entertainment Announces Strict Legal Action Against Malicious Posts And Illegal AI-Generated Images Targeting Lim Yoona And aespa’s Winter The post SM Entertainment Announces Strict Legal Action Against Malicious Posts And Illegal AI-Generated Images Targeting Lim Yoona And aespa’s Winter appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1873724wpp/sm-entertainment-announces-strict-legal-action-against-malicious-posts-and-illegal-ai-generated-images-targeting-lim-yoona-and-aespas-winter",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-28T11:49:28Z",
+      "collected_at": "2026-09-28T14:03:00Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "winter"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "winter",
+          "alias": "Winter",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.97,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1183,
+      "available": true
+    },
     {
       "id": "news:soompi:d9f5735b4c066ee6",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1873500wpp/watch-blackpinks-lisa-wins-best-pop-at-the-2026-mtv-video-music-awards",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-28T01:52:21Z",
-      "collected_at": "2026-09-28T05:29:36Z",
+      "collected_at": "2026-09-28T14:03:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9521,
+        "recency": 0.8553,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,129 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9685,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:636acfa6bebf8aab",
-      "platform": "news",
-      "platform_item_id": "636acfa6bebf8aab",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Wins Big At VMAs, Sparks Massive Backlash",
-      "description": "She was nominated along with heavyweights like Taylor Swift and Ariana Grande.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-wins-big-vmas-massive-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-28T01:26:02Z",
-      "collected_at": "2026-09-28T05:29:36Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9466,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.9225,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:20863b4d013ab71c",
-      "platform": "news",
-      "platform_item_id": "20863b4d013ab71c",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa’s VMAs Appearance Hit With Radically Divided Reactions",
-      "description": "She made a dramatic entrance.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-vmas-appearance-radically-divided-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-28T01:01:16Z",
-      "collected_at": "2026-09-28T05:29:36Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9415,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8798,
+      "hot_score": 7.1585,
       "available": true
     },
     {
@@ -204,7 +143,7 @@
       "url": "https://www.soompi.com/article/1873446wpp/stray-kids-enhypen-tuide-team-cortis-bts-illit-aespa-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-27T16:47:31Z",
-      "collected_at": "2026-09-28T05:29:36Z",
+      "collected_at": "2026-09-28T14:03:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -242,7 +181,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.85,
+        "recency": 0.772,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -250,7 +189,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.884,
+      "hot_score": 6.2524,
       "available": true
     },
     {
@@ -264,7 +203,7 @@
       "url": "https://www.soompi.com/article/1873360wpp/ive-announces-comeback-date-for-new-ep-looks-can-kill",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-27T11:21:02Z",
-      "collected_at": "2026-09-28T05:29:36Z",
+      "collected_at": "2026-09-28T14:03:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -294,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7987,
+        "recency": 0.7295,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -302,59 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5852,
-      "available": true
-    },
-    {
-      "id": "news:soompi:4426928ff8952ef3",
-      "platform": "news",
-      "platform_item_id": "4426928ff8952ef3",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "NCT WISH, TXT, ENHYPEN, RIIZE, TWS, ZEROBASEONE, LE SSERAFIM, And More Earn RIAJ Double Platinum And Gold Certifications In Japan",
-      "description": "The Recording Industry Association of Japan (RIAJ) has announced its latest batch of official certifications! This month, NCT WISH’s latest Japanese single album “YO-I-DON! / BOY MEETS GIRL” was certified double platinum for over 500,000 units shipped in Japan. According to the RIAJ’s certification thresholds, albums are certified gold at 100,000 units shipped, platinum at… Continue reading NCT WISH, TXT, ENHYPEN, RIIZE, TWS, ZEROBASEONE, LE SSERAFIM, And More Earn RIAJ Double Platinum And Gold Certifications In Japan The post NCT WISH, TXT, ENHYPEN, RIIZE, TWS, ZEROBASEONE, LE SSERAFIM, And More Earn RIAJ Double Platinum And Gold Certifications In Japan appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1873066wpp/nct-wish-txt-enhypen-riize-tws-zerobaseone-le-sserafim-and-more-earn-riaj-double-platinum-and-gold-certifications-in-japan",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-25T01:04:44Z",
-      "collected_at": "2026-09-28T05:29:36Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4851,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.3923,
+      "hot_score": 5.101,
       "available": true
     },
     {
@@ -368,7 +255,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-28T05:29:36Z",
+      "collected_at": "2026-09-28T14:03:00Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -407,7 +294,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.3417,
+        "recency": 0.3283,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -415,7 +302,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.8595,
+      "hot_score": 2.7479,
       "available": true
     }
   ]
