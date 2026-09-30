@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-30T05:37:45Z",
+  "generated_at": "2026-09-30T12:41:01Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:3fe38e93b9e9c83d",
+      "id": "news:koreaboo:9f81c7b6c31520c4",
       "platform": "news",
-      "platform_item_id": "3fe38e93b9e9c83d",
+      "platform_item_id": "9f81c7b6c31520c4",
       "source_type": "media",
       "content_kind": "news",
-      "title": "IVE’s Jang Wonyoung Beating The “Getty Images Curse” In Dior",
-      "description": "We love a visual queen.",
-      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-getty-images-dior/",
+      "title": "Popular Male Idol Accused Of Being “Rude” Towards BLACKPINK’s Rosé During Interaction",
+      "description": "Some fans defended him.",
+      "url": "https://www.koreaboo.com/news/popular-male-idol-rude-blackpink-rose-interaction/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-30T02:43:02Z",
-      "collected_at": "2026-09-30T05:37:45Z",
+      "published_at": "2026-09-30T09:30:07Z",
+      "collected_at": "2026-09-30T12:41:01Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,37 +37,30 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "ive"
+        "blackpink"
       ],
       "matched_members": [
-        "wonyoung"
+        "rose"
       ],
       "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "title",
           "score": 1.0
         },
         {
           "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Jang Wonyoung",
+          "target_id": "rose",
+          "alias": "Rosé",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9611,
+        "recency": 0.9577,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -75,7 +68,129 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0439,
+      "hot_score": 8.015,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:fa9f65ce90dc454f",
+      "platform": "news",
+      "platform_item_id": "fa9f65ce90dc454f",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Lisa Spotted With Rumored Boyfriend — Hit With Brutal Hate",
+      "description": "\"Jobless and a flop...\"",
+      "url": "https://www.koreaboo.com/news/blackpinks-lisa-spotted-rumored-boyfriend-hit-brutal-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-30T08:15:13Z",
+      "collected_at": "2026-09-30T12:41:01Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.942,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8841,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:98e7e508d9f77c31",
+      "platform": "news",
+      "platform_item_id": "98e7e508d9f77c31",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Rosé’s Outfit For “Paris Fashion Week” Sparks Major Criticism",
+      "description": "Netizens were not impressed... again.",
+      "url": "https://www.koreaboo.com/news/blackpink-rose-fashion-week-outfit-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-30T07:35:53Z",
+      "collected_at": "2026-09-30T12:41:01Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "rose"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "rose",
+          "alias": "Rosé",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.934,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8171,
       "available": true
     },
     {
@@ -89,7 +204,7 @@
       "url": "https://www.soompi.com/article/1874264wpp/i-dles-soyeon-returns-to-league-of-legends-virtual-group-true-damage-for-2026-worlds-anthem",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-29T21:41:36Z",
-      "collected_at": "2026-09-30T05:37:45Z",
+      "collected_at": "2026-09-30T12:41:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -128,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9007,
+        "recency": 0.8277,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -136,7 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5384,
+      "hot_score": 6.9271,
       "available": true
     },
     {
@@ -150,7 +265,7 @@
       "url": "https://www.soompi.com/article/1874176wpp/aespas-winter-diagnosed-with-shingles-to-sit-out-todays-concert-in-dallas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-29T17:17:28Z",
-      "collected_at": "2026-09-30T05:37:45Z",
+      "collected_at": "2026-09-30T12:41:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -189,7 +304,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8537,
+        "recency": 0.7878,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -197,7 +312,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1449,
+      "hot_score": 6.5934,
       "available": true
     },
     {
@@ -211,7 +326,7 @@
       "url": "https://www.soompi.com/article/1873724wpp/sm-entertainment-announces-strict-legal-action-against-malicious-posts-and-illegal-ai-generated-images-targeting-lim-yoona-and-aespas-winter",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-28T11:49:28Z",
-      "collected_at": "2026-09-30T05:37:45Z",
+      "collected_at": "2026-09-30T12:41:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -250,7 +365,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6327,
+        "recency": 0.5957,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -258,68 +373,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2949,
-      "available": true
-    },
-    {
-      "id": "news:soompi:d9f5735b4c066ee6",
-      "platform": "news",
-      "platform_item_id": "d9f5735b4c066ee6",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: BLACKPINK’s Lisa Wins Best Pop At The 2026 MTV Video Music Awards",
-      "description": "BLACKPINK’s Lisa has won big at the 2026 MTV Video Music Awards (VMAs)! On September 27 (local time), Lisa attended the MTV Video Music Awards at the Peacock Theater in Los Angeles. Lisa took home the award for Best Pop for her single “DREAM” featuring Sakaguchi Kentaro. Lisa is the first-ever Asian solo artist to… Continue reading Watch: BLACKPINK’s Lisa Wins Best Pop At The 2026 MTV Video Music Awards The post Watch: BLACKPINK’s Lisa Wins Best Pop At The 2026 MTV Video Music Awards appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1873500wpp/watch-blackpinks-lisa-wins-best-pop-at-the-2026-mtv-video-music-awards",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-28T01:52:21Z",
-      "collected_at": "2026-09-30T05:37:45Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5818,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.8691,
+      "hot_score": 4.9859,
       "available": true
     },
     {
@@ -333,7 +387,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-30T05:37:45Z",
+      "collected_at": "2026-09-30T12:41:01Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -372,7 +426,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2781,
+        "recency": 0.2708,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -380,7 +434,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.3278,
+      "hot_score": 2.266,
       "available": true
     }
   ]
