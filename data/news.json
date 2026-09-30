@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-09-29T22:19:33Z",
+  "generated_at": "2026-09-30T05:37:45Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,74 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:3fe38e93b9e9c83d",
+      "platform": "news",
+      "platform_item_id": "3fe38e93b9e9c83d",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "IVE’s Jang Wonyoung Beating The “Getty Images Curse” In Dior",
+      "description": "We love a visual queen.",
+      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-getty-images-dior/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-09-30T02:43:02Z",
+      "collected_at": "2026-09-30T05:37:45Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Jang Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9611,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0439,
+      "available": true
+    },
     {
       "id": "news:soompi:5f79b13faee686f8",
       "platform": "news",
@@ -21,7 +89,7 @@
       "url": "https://www.soompi.com/article/1874264wpp/i-dles-soyeon-returns-to-league-of-legends-virtual-group-true-damage-for-2026-worlds-anthem",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-29T21:41:36Z",
-      "collected_at": "2026-09-29T22:19:33Z",
+      "collected_at": "2026-09-30T05:37:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +128,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9007,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +136,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.5384,
       "available": true
     },
     {
@@ -82,7 +150,7 @@
       "url": "https://www.soompi.com/article/1874176wpp/aespas-winter-diagnosed-with-shingles-to-sit-out-todays-concert-in-dallas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-29T17:17:28Z",
-      "collected_at": "2026-09-29T22:19:33Z",
+      "collected_at": "2026-09-30T05:37:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +189,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9346,
+        "recency": 0.8537,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +197,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8223,
+      "hot_score": 7.1449,
       "available": true
     },
     {
@@ -143,7 +211,7 @@
       "url": "https://www.soompi.com/article/1873724wpp/sm-entertainment-announces-strict-legal-action-against-malicious-posts-and-illegal-ai-generated-images-targeting-lim-yoona-and-aespas-winter",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-28T11:49:28Z",
-      "collected_at": "2026-09-29T22:19:33Z",
+      "collected_at": "2026-09-30T05:37:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +250,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.676,
+        "recency": 0.6327,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +258,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.658,
+      "hot_score": 5.2949,
       "available": true
     },
     {
@@ -204,7 +272,7 @@
       "url": "https://www.soompi.com/article/1873500wpp/watch-blackpinks-lisa-wins-best-pop-at-the-2026-mtv-video-music-awards",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-28T01:52:21Z",
-      "collected_at": "2026-09-29T22:19:33Z",
+      "collected_at": "2026-09-30T05:37:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +311,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6183,
+        "recency": 0.5818,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,67 +319,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1745,
-      "available": true
-    },
-    {
-      "id": "news:soompi:2e58c2a3e6b7c0e6",
-      "platform": "news",
-      "platform_item_id": "2e58c2a3e6b7c0e6",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Stray Kids, ENHYPEN, TUIDE, &TEAM, CORTIS, BTS, ILLIT, aespa, ATEEZ, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on September 26! Stray Kids’ latest mini album “THIS & THAT” spent its fifth non-consecutive week at No. 1 ont the World Albums chart, and it also stayed strong at No. 17 in its sixth week on the Billboard 200. ENHYPEN’s latest mini album… Continue reading Stray Kids, ENHYPEN, TUIDE, &TEAM, CORTIS, BTS, ILLIT, aespa, ATEEZ, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, ENHYPEN, TUIDE, &TEAM, CORTIS, BTS, ILLIT, aespa, ATEEZ, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1873446wpp/stray-kids-enhypen-tuide-team-cortis-bts-illit-aespa-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-27T16:47:31Z",
-      "collected_at": "2026-09-29T22:19:33Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa",
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5735,
-        "views": 0,
-        "engagement": 5.3,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.6448,
+      "hot_score": 4.8691,
       "available": true
     },
     {
@@ -325,7 +333,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-09-29T22:19:33Z",
+      "collected_at": "2026-09-30T05:37:45Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -364,7 +372,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2862,
+        "recency": 0.2781,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -372,7 +380,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.3953,
+      "hot_score": 2.3278,
       "available": true
     }
   ]
