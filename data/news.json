@@ -1,27 +1,102 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-01T06:02:01Z",
+  "generated_at": "2026-10-01T13:24:57Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:05bc8c1b89c74a7d",
+      "id": "news:soompi:fc64f25a2d979cc7",
       "platform": "news",
-      "platform_item_id": "05bc8c1b89c74a7d",
+      "platform_item_id": "fc64f25a2d979cc7",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa Member Gets Brutally Trolled Over “Unnatural” Face And Supposed Surgery Scars",
-      "description": "Netizens are convinced she had several procedures.",
-      "url": "https://www.koreaboo.com/news/aespa-member-brutally-trolled-unnatural-face-supposed-surgery-scars/",
+      "title": "Watch: i-dle’s Soyeon Takes 1st Win For “I’m gonna TOESA” On “M Countdown”; Performances By CRAVITY, BOYNEXTDOOR, And More",
+      "description": "i-dle’s Soyeon has won her first music show trophy for “I’m gonna TOESA”! On the October 1 episode of “M Countdown,” the candidates for first place were BLACKPINK’s Rosé’s “new trick” and i-dle’s Soyeon’s “I’m gonna TOESA.” Soyeon ultimately took the prize with a total of 7,621 points. Congratulations to Soyeon! Watch the winner announcement… Continue reading Watch: i-dle’s Soyeon Takes 1st Win For “I’m gonna TOESA” On “M Countdown”; Performances By CRAVITY, BOYNEXTDOOR, And More The post Watch: i-dle’s Soyeon Takes 1st Win For “I’m gonna TOESA” On “M Countdown”; Performances By CRAVITY, BOYNEXTDOOR, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-30T15:29:34Z",
-      "collected_at": "2026-10-01T06:02:01Z",
+      "published_at": "2026-10-01T12:25:03Z",
+      "collected_at": "2026-10-01T13:24:57Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "description",
+          "score": 0.3
+        },
+        {
+          "target_type": "member",
+          "target_id": "rose",
+          "alias": "Rosé",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:8d5e99ce2cd94eb7",
+      "platform": "news",
+      "platform_item_id": "8d5e99ce2cd94eb7",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Viral Video Of aespa’s Karina Eating Sparks Major Shock",
+      "description": "\"That's how idols should eat...\"",
+      "url": "https://www.koreaboo.com/news/aespas-karina-eating-tacos-viral-clip/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-01T09:55:49Z",
+      "collected_at": "2026-10-01T13:24:57Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -39,8 +114,10 @@
       "matched_groups": [
         "aespa"
       ],
-      "matched_members": [],
-      "match_confidence": "medium",
+      "matched_members": [
+        "karina"
+      ],
+      "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
@@ -48,10 +125,69 @@
           "alias": "aespa",
           "field": "title",
           "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "karina",
+          "alias": "Karina",
+          "field": "title",
+          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.832,
+        "recency": 0.9538,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9828,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:dacf7ca3b158d5cf",
+      "platform": "news",
+      "platform_item_id": "dacf7ca3b158d5cf",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "5th-Gen Girl Group Gets Blasted Over “Disgusting” Comments About ILLIT",
+      "description": "The members have stirred up heated backlash.",
+      "url": "https://www.koreaboo.com/news/5th-gen-girl-group-gets-blasted-disgusting-comments-illit/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-01T09:43:44Z",
+      "collected_at": "2026-10-01T13:24:57Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9513,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +195,190 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8177,
+      "hot_score": 6.652,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:e52b8578ff4e52b2",
+      "platform": "news",
+      "platform_item_id": "e52b8578ff4e52b2",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "LE SSERAFIM Yunjin’s Bikini Photos Subject To Brutal Backlash",
+      "description": "The photos were shared in an article.",
+      "url": "https://www.koreaboo.com/news/le-sserafim-yunjin-bikini-shots-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-01T09:05:46Z",
+      "collected_at": "2026-10-01T13:24:57Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "yunjin"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "yunjin",
+          "alias": "Yunjin",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9434,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8955,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:25587c5654966ebf",
+      "platform": "news",
+      "platform_item_id": "25587c5654966ebf",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jisoo “Caught” Editing Her Photos, Hit With Brutal Mockery",
+      "description": "Her social media sparked the controversy,",
+      "url": "https://www.koreaboo.com/news/blackpink-jisoo-whitewashing-photos/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-01T08:50:37Z",
+      "collected_at": "2026-10-01T13:24:57Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9403,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8695,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:13476e2b2e3c01b6",
+      "platform": "news",
+      "platform_item_id": "13476e2b2e3c01b6",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Jisoo’s Behaviour At DIOR Show Incites Brutal Criticism",
+      "description": "Netizens were extremely honest.",
+      "url": "https://www.koreaboo.com/news/blackpink-jisoo-behaviour-criticism-dior-show/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-01T08:05:07Z",
+      "collected_at": "2026-10-01T13:24:57Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9311,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7923,
       "available": true
     },
     {
@@ -73,7 +392,7 @@
       "url": "https://www.soompi.com/article/1874264wpp/i-dles-soyeon-returns-to-league-of-legends-virtual-group-true-damage-for-2026-worlds-anthem",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-29T21:41:36Z",
-      "collected_at": "2026-10-01T06:02:01Z",
+      "collected_at": "2026-10-01T13:24:57Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +431,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.69,
+        "recency": 0.6445,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +439,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7752,
+      "hot_score": 5.3936,
       "available": true
     },
     {
@@ -134,7 +453,7 @@
       "url": "https://www.soompi.com/article/1874176wpp/aespas-winter-diagnosed-with-shingles-to-sit-out-todays-concert-in-dallas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-29T17:17:28Z",
-      "collected_at": "2026-10-01T06:02:01Z",
+      "collected_at": "2026-10-01T13:24:57Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +492,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6621,
+        "recency": 0.62,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,68 +500,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5414,
-      "available": true
-    },
-    {
-      "id": "news:soompi:7bf2150af6c29903",
-      "platform": "news",
-      "platform_item_id": "7bf2150af6c29903",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "SM Entertainment Announces Strict Legal Action Against Malicious Posts And Illegal AI-Generated Images Targeting Lim Yoona And aespa’s Winter",
-      "description": "SM Entertainment has shared official statements regarding the legal action they are taking to protect the rights of Lim Yoona and aespa’s Winter. On September 28, SM Entertainment announced that they had filed criminal complaints against those who create illegal AI-generated images of Lim Yoona and spread false information based on such images. The agency… Continue reading SM Entertainment Announces Strict Legal Action Against Malicious Posts And Illegal AI-Generated Images Targeting Lim Yoona And aespa’s Winter The post SM Entertainment Announces Strict Legal Action Against Malicious Posts And Illegal AI-Generated Images Targeting Lim Yoona And aespa’s Winter appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1873724wpp/sm-entertainment-announces-strict-legal-action-against-malicious-posts-and-illegal-ai-generated-images-targeting-lim-yoona-and-aespas-winter",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-28T11:49:28Z",
-      "collected_at": "2026-10-01T06:02:01Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "winter"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "winter",
-          "alias": "Winter",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5209,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.36,
+      "hot_score": 5.1891,
       "available": true
     },
     {
@@ -256,7 +514,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-01T06:02:01Z",
+      "collected_at": "2026-10-01T13:24:57Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -295,7 +553,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2542,
+        "recency": 0.2477,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -303,7 +561,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.1272,
+      "hot_score": 2.0732,
       "available": true
     }
   ]
