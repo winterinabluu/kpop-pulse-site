@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-01T13:24:57Z",
+  "generated_at": "2026-10-01T22:43:52Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 9,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:34cb7384b49a5dd0",
+      "platform": "news",
+      "platform_item_id": "34cb7384b49a5dd0",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS’s Jungkook Accused Of Hiding “Couple Tattoo” In New Clip Amid Dating Rumors With aespa’s Winter",
+      "description": "\"Like a coward...\"",
+      "url": "https://www.koreaboo.com/news/bts-jungkook-accused-hiding-couple-tattoo-in-new-clip-amid-dating-rumors-aespas-winter/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-01T19:10:59Z",
+      "collected_at": "2026-10-01T22:43:52Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "winter"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "winter",
+          "alias": "Winter",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.953,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9762,
+      "available": true
+    },
     {
       "id": "news:soompi:fc64f25a2d979cc7",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T12:25:03Z",
-      "collected_at": "2026-10-01T13:24:57Z",
+      "collected_at": "2026-10-01T22:43:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -74,7 +135,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.8747,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -82,7 +143,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.3206,
       "available": true
     },
     {
@@ -96,7 +157,7 @@
       "url": "https://www.koreaboo.com/news/aespas-karina-eating-tacos-viral-clip/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T09:55:49Z",
-      "collected_at": "2026-10-01T13:24:57Z",
+      "collected_at": "2026-10-01T22:43:52Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -135,7 +196,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9538,
+        "recency": 0.849,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -143,242 +204,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9828,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:dacf7ca3b158d5cf",
-      "platform": "news",
-      "platform_item_id": "dacf7ca3b158d5cf",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "5th-Gen Girl Group Gets Blasted Over “Disgusting” Comments About ILLIT",
-      "description": "The members have stirred up heated backlash.",
-      "url": "https://www.koreaboo.com/news/5th-gen-girl-group-gets-blasted-disgusting-comments-illit/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-01T09:43:44Z",
-      "collected_at": "2026-10-01T13:24:57Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9513,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.652,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:e52b8578ff4e52b2",
-      "platform": "news",
-      "platform_item_id": "e52b8578ff4e52b2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "LE SSERAFIM Yunjin’s Bikini Photos Subject To Brutal Backlash",
-      "description": "The photos were shared in an article.",
-      "url": "https://www.koreaboo.com/news/le-sserafim-yunjin-bikini-shots-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-01T09:05:46Z",
-      "collected_at": "2026-10-01T13:24:57Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "yunjin"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "yunjin",
-          "alias": "Yunjin",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9434,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8955,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:25587c5654966ebf",
-      "platform": "news",
-      "platform_item_id": "25587c5654966ebf",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Jisoo “Caught” Editing Her Photos, Hit With Brutal Mockery",
-      "description": "Her social media sparked the controversy,",
-      "url": "https://www.koreaboo.com/news/blackpink-jisoo-whitewashing-photos/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-01T08:50:37Z",
-      "collected_at": "2026-10-01T13:24:57Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jisoo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9403,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8695,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:13476e2b2e3c01b6",
-      "platform": "news",
-      "platform_item_id": "13476e2b2e3c01b6",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jisoo’s Behaviour At DIOR Show Incites Brutal Criticism",
-      "description": "Netizens were extremely honest.",
-      "url": "https://www.koreaboo.com/news/blackpink-jisoo-behaviour-criticism-dior-show/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-01T08:05:07Z",
-      "collected_at": "2026-10-01T13:24:57Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jisoo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9311,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7923,
+      "hot_score": 7.1059,
       "available": true
     },
     {
@@ -392,7 +218,7 @@
       "url": "https://www.soompi.com/article/1874264wpp/i-dles-soyeon-returns-to-league-of-legends-virtual-group-true-damage-for-2026-worlds-anthem",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-29T21:41:36Z",
-      "collected_at": "2026-10-01T13:24:57Z",
+      "collected_at": "2026-10-01T22:43:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -431,7 +257,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6445,
+        "recency": 0.5949,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -439,7 +265,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3936,
+      "hot_score": 4.9785,
       "available": true
     },
     {
@@ -453,7 +279,7 @@
       "url": "https://www.soompi.com/article/1874176wpp/aespas-winter-diagnosed-with-shingles-to-sit-out-todays-concert-in-dallas",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-29T17:17:28Z",
-      "collected_at": "2026-10-01T13:24:57Z",
+      "collected_at": "2026-10-01T22:43:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -492,7 +318,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.62,
+        "recency": 0.574,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -500,7 +326,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1891,
+      "hot_score": 4.8038,
       "available": true
     },
     {
@@ -514,7 +340,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-01T13:24:57Z",
+      "collected_at": "2026-10-01T22:43:52Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -553,7 +379,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2477,
+        "recency": 0.24,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -561,7 +387,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.0732,
+      "hot_score": 2.0088,
       "available": true
     }
   ]
