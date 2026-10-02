@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-02T12:42:35Z",
+  "generated_at": "2026-10-02T22:17:32Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:284f238c8c401cef",
+      "id": "news:koreaboo:9c97fab1bc7f6f89",
       "platform": "news",
-      "platform_item_id": "284f238c8c401cef",
+      "platform_item_id": "9c97fab1bc7f6f89",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Viral Video Of TWICE’s Sana And Top Male Idol’s “Flirting” Sparks Major Reactions",
-      "description": "\"Shooting her shot...\"",
-      "url": "https://www.koreaboo.com/news/twice-sana-top-male-idol-flirting-reactions/",
+      "title": "aespa Karina’s Unfiltered Reaction To NewJeans Sparks Massive Response",
+      "description": "The two groups have an interesting history.",
+      "url": "https://www.koreaboo.com/news/aespa-karinas-unfiltered-reaction-newjeans-sparks-massive-response/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-02T10:24:21Z",
-      "collected_at": "2026-10-02T12:42:35Z",
+      "published_at": "2026-10-02T15:34:07Z",
+      "collected_at": "2026-10-02T22:17:32Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,183 +37,46 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "twice"
+        "aespa",
+        "newjeans"
       ],
       "matched_members": [
-        "sana"
+        "karina"
       ],
       "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "sana",
-          "alias": "Sana",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.969,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.1097,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:57a52946df06d9d6",
-      "platform": "news",
-      "platform_item_id": "57a52946df06d9d6",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jisoo’s DIOR Status Criticized After Interaction With IVE’s Wonyoung — Triggers Mixed Reactions",
-      "description": "\"Terminate Jisoo's contract...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-jisoo-dior-status-ive-wonyoung-mixed/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-02T08:25:12Z",
-      "collected_at": "2026-10-02T12:42:35Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink",
-        "ive"
-      ],
-      "matched_members": [
-        "jisoo",
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
+          "target_id": "aespa",
+          "alias": "aespa",
           "field": "title",
           "score": 1.0
         },
         {
           "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
           "field": "title",
           "score": 1.0
         },
         {
           "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
+          "target_id": "karina",
+          "alias": "Karina",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9438,
+        "recency": 0.9146,
         "views": 0,
-        "engagement": 8.9,
+        "engagement": 7.1,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 9.5199,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:2107b8cd61263620",
-      "platform": "news",
-      "platform_item_id": "2107b8cd61263620",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Popular Male Idol Caught Liking IVE Jang Wonyoung’s Photos",
-      "description": "It wasn't his first time either.",
-      "url": "https://www.koreaboo.com/news/gdragon-liking-ive-jang-wonyoung-instagram-photos/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-02T05:22:48Z",
-      "collected_at": "2026-10-02T12:42:35Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Jang Wonyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9076,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5959,
+      "hot_score": 8.418,
       "available": true
     },
     {
@@ -227,7 +90,7 @@
       "url": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T12:25:03Z",
-      "collected_at": "2026-10-02T12:42:35Z",
+      "collected_at": "2026-10-02T22:17:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -280,7 +143,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7477,
+        "recency": 0.68,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -288,7 +151,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2579,
+      "hot_score": 5.6915,
       "available": true
     },
     {
@@ -302,7 +165,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-02T12:42:35Z",
+      "collected_at": "2026-10-02T22:17:32Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -341,7 +204,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2293,
+        "recency": 0.2225,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -349,7 +212,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.9194,
+      "hot_score": 1.8625,
       "available": true
     }
   ]
