@@ -1,15 +1,83 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-01T22:43:52Z",
+  "generated_at": "2026-10-02T05:45:00Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:2107b8cd61263620",
+      "platform": "news",
+      "platform_item_id": "2107b8cd61263620",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Popular Male Idol Caught Liking IVE Jang Wonyoung’s Photos",
+      "description": "It wasn't his first time either.",
+      "url": "https://www.koreaboo.com/news/gdragon-liking-ive-jang-wonyoung-instagram-photos/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-02T05:22:48Z",
+      "collected_at": "2026-10-02T05:45:00Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Jang Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
     {
       "id": "news:koreaboo:34cb7384b49a5dd0",
       "platform": "news",
@@ -21,7 +89,7 @@
       "url": "https://www.koreaboo.com/news/bts-jungkook-accused-hiding-couple-tattoo-in-new-clip-amid-dating-rumors-aespas-winter/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T19:10:59Z",
-      "collected_at": "2026-10-01T22:43:52Z",
+      "collected_at": "2026-10-02T05:45:00Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +128,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.953,
+        "recency": 0.872,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +136,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9762,
+      "hot_score": 7.2981,
       "available": true
     },
     {
@@ -82,7 +150,7 @@
       "url": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T12:25:03Z",
-      "collected_at": "2026-10-01T22:43:52Z",
+      "collected_at": "2026-10-02T05:45:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -135,7 +203,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8747,
+        "recency": 0.806,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -143,190 +211,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.3206,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:8d5e99ce2cd94eb7",
-      "platform": "news",
-      "platform_item_id": "8d5e99ce2cd94eb7",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Viral Video Of aespa’s Karina Eating Sparks Major Shock",
-      "description": "\"That's how idols should eat...\"",
-      "url": "https://www.koreaboo.com/news/aespas-karina-eating-tacos-viral-clip/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-01T09:55:49Z",
-      "collected_at": "2026-10-01T22:43:52Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "karina"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "karina",
-          "alias": "Karina",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.849,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.1059,
-      "available": true
-    },
-    {
-      "id": "news:soompi:5f79b13faee686f8",
-      "platform": "news",
-      "platform_item_id": "5f79b13faee686f8",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "i-dle’s Soyeon Returns To League Of Legends’ Virtual Group True Damage For 2026 Worlds Anthem",
-      "description": "i-dle’s Soyeon will be one of the voices singing this year’s League of Legends Worlds Anthem! On September 29 local time, Riot Games officially announced that its virtual hip hop collective True Damage would be returning to perform the 2026 League of Legends World Championship Anthem, “Know My Name.” “Know My Name,” which marks the… Continue reading i-dle’s Soyeon Returns To League Of Legends’ Virtual Group True Damage For 2026 Worlds Anthem The post i-dle’s Soyeon Returns To League Of Legends’ Virtual Group True Damage For 2026 Worlds Anthem appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1874264wpp/i-dles-soyeon-returns-to-league-of-legends-virtual-group-true-damage-for-2026-worlds-anthem",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-29T21:41:36Z",
-      "collected_at": "2026-10-01T22:43:52Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [
-        "soyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "soyeon",
-          "alias": "Soyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5949,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.9785,
-      "available": true
-    },
-    {
-      "id": "news:soompi:5418b5d9a4bd31a3",
-      "platform": "news",
-      "platform_item_id": "5418b5d9a4bd31a3",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s Winter Diagnosed With Shingles; To Sit Out Today’s Concert In Dallas",
-      "description": "aespa’s Winter will not be joining the rest of the group at their concert in Dallas today. On September 29 local time, SM Entertainment announced that Winter had been diagnosed with shingles and would therefore be unable to perform at aespa’s show in Dallas later that day. The agency explained in English, “Winter had been… Continue reading aespa’s Winter Diagnosed With Shingles; To Sit Out Today’s Concert In Dallas The post aespa’s Winter Diagnosed With Shingles; To Sit Out Today’s Concert In Dallas appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1874176wpp/aespas-winter-diagnosed-with-shingles-to-sit-out-todays-concert-in-dallas",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-09-29T17:17:28Z",
-      "collected_at": "2026-10-01T22:43:52Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "winter"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "winter",
-          "alias": "Winter",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.574,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.8038,
+      "hot_score": 6.7454,
       "available": true
     },
     {
@@ -340,7 +225,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-01T22:43:52Z",
+      "collected_at": "2026-10-02T05:45:00Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -379,7 +264,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.24,
+        "recency": 0.2345,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -387,7 +272,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.0088,
+      "hot_score": 1.9629,
       "available": true
     }
   ]
