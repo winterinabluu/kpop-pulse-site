@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-03T11:43:56Z",
+  "generated_at": "2026-10-03T16:26:57Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:e3051c9b766bf23e",
+      "platform": "news",
+      "platform_item_id": "e3051c9b766bf23e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Sana Spills On The Decisive Moment For Her To Become A K-Pop Idol",
+      "description": "TWICE’s Sana looked back on the decisive moment for her to leave Japan and join JYP Entertainment to become a K-Pop idol. On October 1st, a YouTube channel called Ch117…",
+      "url": "https://www.koreaboo.com/news/twice-sana-spills-decisive-moment-become-kpop-idol/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-03T16:12:04Z",
+      "collected_at": "2026-10-03T16:26:57Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "sana"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "sana",
+          "alias": "Sana",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
     {
       "id": "news:koreaboo:f9d843ac22058765",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jennie-bts-vs-relationship-confirmed-mutual-celebrity-friend/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-03T10:52:27Z",
-      "collected_at": "2026-10-03T11:43:56Z",
+      "collected_at": "2026-10-03T16:26:57Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9281,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.7678,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T12:25:03Z",
-      "collected_at": "2026-10-03T11:43:56Z",
+      "collected_at": "2026-10-03T16:26:57Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -135,7 +196,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6034,
+        "recency": 0.5805,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -143,7 +204,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0504,
+      "hot_score": 4.8583,
       "available": true
     },
     {
@@ -157,7 +218,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-03T11:43:56Z",
+      "collected_at": "2026-10-03T16:26:57Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -196,7 +257,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2137,
+        "recency": 0.2107,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -204,7 +265,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.7882,
+      "hot_score": 1.7636,
       "available": true
     }
   ]
