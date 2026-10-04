@@ -1,15 +1,136 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-03T21:21:31Z",
+  "generated_at": "2026-10-04T05:58:59Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:16163b55fae3d53e",
+      "platform": "news",
+      "platform_item_id": "16163b55fae3d53e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Sets YouTube Records As “BOOMBAYAH” MV Hits 1.9 Billion Views",
+      "description": "BLACKPINK continues to make YouTube history with their debut music video! On the morning of October 4 KST, BLACKPINK’s music video for their debut track “BOOMBAYAH” surpassed 1.9 billion views on YouTube. Notably, “BOOMBAYAH” is now the first K-pop debut music video ever to reach the milestone on YouTube. To add to that achievement, BLACKPINK… Continue reading BLACKPINK Sets YouTube Records As “BOOMBAYAH” MV Hits 1.9 Billion Views The post BLACKPINK Sets YouTube Records As “BOOMBAYAH” MV Hits 1.9 Billion Views appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1875377wpp/blackpink-sets-youtube-records-as-boombayah-mv-hits-1-9-billion-views",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-04T05:35:11Z",
+      "collected_at": "2026-10-04T05:58:59Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
+    {
+      "id": "news:soompi:f325d061b8bc8964",
+      "platform": "news",
+      "platform_item_id": "f325d061b8bc8964",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa’s Winter, RESCENE, Young Tak, ILLIT, And More Top Circle Weekly Charts",
+      "description": "Circle Chart has revealed its chart rankings for the week of September 13 to 19! Overall Digital Chart RESCENE achieved a double crown on this week’s circle charts with their smash hit “LOVE ATTACK,” which topped both the overall digital chart and streaming chart. “LOVE ATTACK” climbed back up to No. 1 on this week’s… Continue reading aespa’s Winter, RESCENE, Young Tak, ILLIT, And More Top Circle Weekly Charts The post aespa’s Winter, RESCENE, Young Tak, ILLIT, And More Top Circle Weekly Charts appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1875339wpp/aespas-winter-rescene-young-tak-illit-and-more-top-circle-weekly-charts",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-03T23:46:25Z",
+      "collected_at": "2026-10-04T05:58:59Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa",
+        "illit"
+      ],
+      "matched_members": [
+        "winter"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "winter",
+          "alias": "Winter",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9206,
+        "views": 0,
+        "engagement": 7.1,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.4734,
+      "available": true
+    },
     {
       "id": "news:koreaboo:e3051c9b766bf23e",
       "platform": "news",
@@ -21,7 +142,7 @@
       "url": "https://www.koreaboo.com/news/twice-sana-spills-decisive-moment-become-kpop-idol/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-03T16:12:04Z",
-      "collected_at": "2026-10-03T21:21:31Z",
+      "collected_at": "2026-10-04T05:58:59Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +181,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9331,
+        "recency": 0.8393,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +189,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8098,
+      "hot_score": 7.0246,
       "available": true
     },
     {
@@ -82,7 +203,7 @@
       "url": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T12:25:03Z",
-      "collected_at": "2026-10-03T21:21:31Z",
+      "collected_at": "2026-10-04T05:58:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -135,7 +256,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5584,
+        "recency": 0.5234,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -143,7 +264,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6733,
+      "hot_score": 4.3804,
       "available": true
     },
     {
@@ -157,7 +278,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-03T21:21:31Z",
+      "collected_at": "2026-10-04T05:58:59Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -196,7 +317,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2077,
+        "recency": 0.2027,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -204,7 +325,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.7386,
+      "hot_score": 1.6964,
       "available": true
     }
   ]
