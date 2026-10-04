@@ -1,15 +1,197 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-04T12:26:50Z",
+  "generated_at": "2026-10-04T21:32:30Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:4b1578c82f6f538a",
+      "platform": "news",
+      "platform_item_id": "4b1578c82f6f538a",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Famous aespa Karina Lookalike Showcases Unreal Body Figure",
+      "description": "A lookalike of aespa member Karina, who gained fame through a reality dating show, shared updates showcasing her unreal body figure and diverse charms. On October 2, Single’s Inferno 5…",
+      "url": "https://www.koreaboo.com/news/famous-aespa-karina-lookalike-showcases-unreal-body-figure/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-04T19:04:27Z",
+      "collected_at": "2026-10-04T21:32:30Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "karina"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "karina",
+          "alias": "Karina",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9669,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0919,
+      "available": true
+    },
+    {
+      "id": "news:soompi:a67f9efc5b0430ab",
+      "platform": "news",
+      "platform_item_id": "a67f9efc5b0430ab",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Stray Kids, EVAN, ENHYPEN, CORTIS, ILLIT, TUIDE, BTS, LE SSERAFIM, ATEEZ, And More Sweep Top Spots On Billboard World Albums Chart",
+      "description": "Billboard has published its World Albums chart for the week ending on October 3! Stray Kids’ latest mini album “THIS & THAT” continued its reign at No. 1 on the World Albums chart, marking its sixth non-consecutive week at the top. “THIS & THAT” also spent a seventh week on the Billboard 200 at No.… Continue reading Stray Kids, EVAN, ENHYPEN, CORTIS, ILLIT, TUIDE, BTS, LE SSERAFIM, ATEEZ, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, EVAN, ENHYPEN, CORTIS, ILLIT, TUIDE, BTS, LE SSERAFIM, ATEEZ, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1875434wpp/stray-kids-evan-enhypen-cortis-illit-tuide-bts-le-sserafim-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-04T17:26:23Z",
+      "collected_at": "2026-10-04T21:32:30Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit",
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9461,
+        "views": 0,
+        "engagement": 5.3,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.6619,
+      "available": true
+    },
+    {
+      "id": "news:soompi:c247f61c0a11ec8a",
+      "platform": "news",
+      "platform_item_id": "c247f61c0a11ec8a",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: i-dle’s Soyeon Takes 2nd Win For “I’m gonna TOESA” On “Inkigayo”; Performances By BOYNEXTDOOR, ALLDAY PROJECT, And More",
+      "description": "i-dle’s Soyeon has won a second music show trophy for her hit single “I’m gonna TOESA”! On the October 4 episode of SBS’s “Inkigayo,” the candidates for first place were ATEEZ’s “BAD,” Soyeon’s “I’m gonna TOESA,” and RESCENE’s “LOVE ATTACK.” Soyeon ultimately took the win with a total of 6,406 points. Congratulations to Soyeon! Watch… Continue reading Watch: i-dle’s Soyeon Takes 2nd Win For “I’m gonna TOESA” On “Inkigayo”; Performances By BOYNEXTDOOR, ALLDAY PROJECT, And More The post Watch: i-dle’s Soyeon Takes 2nd Win For “I’m gonna TOESA” On “Inkigayo”; Performances By BOYNEXTDOOR, ALLDAY PROJECT, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1875402wpp/watch-i-dles-soyeon-takes-2nd-win-for-im-gonna-toesa-on-inkigayo-performances-by-boynextdoor-allday-project-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-04T16:56:18Z",
+      "collected_at": "2026-10-04T21:32:30Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9399,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8663,
+      "available": true
+    },
     {
       "id": "news:soompi:9a4514a4208d32b4",
       "platform": "news",
@@ -21,7 +203,7 @@
       "url": "https://www.soompi.com/article/1875388wpp/i-dles-wife-mv-soars-past-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T06:39:08Z",
-      "collected_at": "2026-10-04T12:26:50Z",
+      "collected_at": "2026-10-04T21:32:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9255,
+        "recency": 0.8286,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4717,
+      "hot_score": 5.7944,
       "available": true
     },
     {
@@ -73,7 +255,7 @@
       "url": "https://www.soompi.com/article/1875377wpp/blackpink-sets-youtube-records-as-boombayah-mv-hits-1-9-billion-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T05:35:11Z",
-      "collected_at": "2026-10-04T12:26:50Z",
+      "collected_at": "2026-10-04T21:32:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.913,
+        "recency": 0.8186,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3843,
+      "hot_score": 5.7241,
       "available": true
     },
     {
@@ -125,7 +307,7 @@
       "url": "https://www.soompi.com/article/1875339wpp/aespas-winter-rescene-young-tak-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-03T23:46:25Z",
-      "collected_at": "2026-10-04T12:26:50Z",
+      "collected_at": "2026-10-04T21:32:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -172,7 +354,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8503,
+        "recency": 0.7679,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -180,7 +362,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8265,
+      "hot_score": 7.0674,
       "available": true
     },
     {
@@ -194,7 +376,7 @@
       "url": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T12:25:03Z",
-      "collected_at": "2026-10-04T12:26:50Z",
+      "collected_at": "2026-10-04T21:32:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -247,7 +429,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4999,
+        "recency": 0.4702,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -255,7 +437,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1838,
+      "hot_score": 3.9353,
       "available": true
     },
     {
@@ -269,7 +451,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-04T12:26:50Z",
+      "collected_at": "2026-10-04T21:32:30Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -308,7 +490,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1991,
+        "recency": 0.1942,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -316,7 +498,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.666,
+      "hot_score": 1.6252,
       "available": true
     }
   ]
