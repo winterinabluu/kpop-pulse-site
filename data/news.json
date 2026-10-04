@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-04T05:58:59Z",
+  "generated_at": "2026-10-04T12:26:50Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,58 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:9a4514a4208d32b4",
+      "platform": "news",
+      "platform_item_id": "9a4514a4208d32b4",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "i-dle’s “Wife” MV Soars Past 100 Million Views",
+      "description": "i-dle’s “Wife” is their latest music video to hit the 100 million mark! On the morning of October 4, i-dle’s music video for their 2024 pre-release track “Wife” surpassed 100 million views on YouTube, making it their 12th official group music video to do so after “LATATA,” “Oh my god,” “HANN,” “LION,” “TOMBOY,” “HWAA,” “Nxde,”… Continue reading i-dle’s “Wife” MV Soars Past 100 Million Views The post i-dle’s “Wife” MV Soars Past 100 Million Views appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1875388wpp/i-dles-wife-mv-soars-past-100-million-views",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-04T06:39:08Z",
+      "collected_at": "2026-10-04T12:26:50Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9255,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.4717,
+      "available": true
+    },
     {
       "id": "news:soompi:16163b55fae3d53e",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.soompi.com/article/1875377wpp/blackpink-sets-youtube-records-as-boombayah-mv-hits-1-9-billion-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T05:35:11Z",
-      "collected_at": "2026-10-04T05:58:59Z",
+      "collected_at": "2026-10-04T12:26:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.913,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8968,
+      "hot_score": 6.3843,
       "available": true
     },
     {
@@ -73,7 +125,7 @@
       "url": "https://www.soompi.com/article/1875339wpp/aespas-winter-rescene-young-tak-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-03T23:46:25Z",
-      "collected_at": "2026-10-04T05:58:59Z",
+      "collected_at": "2026-10-04T12:26:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -120,7 +172,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9206,
+        "recency": 0.8503,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -128,68 +180,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.4734,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:e3051c9b766bf23e",
-      "platform": "news",
-      "platform_item_id": "e3051c9b766bf23e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Sana Spills On The Decisive Moment For Her To Become A K-Pop Idol",
-      "description": "TWICE’s Sana looked back on the decisive moment for her to leave Japan and join JYP Entertainment to become a K-Pop idol. On October 1st, a YouTube channel called Ch117…",
-      "url": "https://www.koreaboo.com/news/twice-sana-spills-decisive-moment-become-kpop-idol/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-03T16:12:04Z",
-      "collected_at": "2026-10-04T05:58:59Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "sana"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "sana",
-          "alias": "Sana",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8393,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.0246,
+      "hot_score": 7.8265,
       "available": true
     },
     {
@@ -203,7 +194,7 @@
       "url": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T12:25:03Z",
-      "collected_at": "2026-10-04T05:58:59Z",
+      "collected_at": "2026-10-04T12:26:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -256,7 +247,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5234,
+        "recency": 0.4999,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -264,7 +255,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3804,
+      "hot_score": 4.1838,
       "available": true
     },
     {
@@ -278,7 +269,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-04T05:58:59Z",
+      "collected_at": "2026-10-04T12:26:50Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -317,7 +308,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2027,
+        "recency": 0.1991,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -325,7 +316,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.6964,
+      "hot_score": 1.666,
       "available": true
     }
   ]
