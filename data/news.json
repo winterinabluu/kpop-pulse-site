@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-04T21:32:30Z",
+  "generated_at": "2026-10-05T05:47:38Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/famous-aespa-karina-lookalike-showcases-unreal-body-figure/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T19:04:27Z",
-      "collected_at": "2026-10-04T21:32:30Z",
+      "collected_at": "2026-10-05T05:47:38Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9669,
+        "recency": 0.8704,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0919,
+      "hot_score": 7.2847,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1875434wpp/stray-kids-evan-enhypen-cortis-illit-tuide-bts-le-sserafim-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T17:26:23Z",
-      "collected_at": "2026-10-04T21:32:30Z",
+      "collected_at": "2026-10-05T05:47:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -120,7 +120,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9461,
+        "recency": 0.8535,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -128,7 +128,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6619,
+      "hot_score": 6.9123,
       "available": true
     },
     {
@@ -142,7 +142,7 @@
       "url": "https://www.soompi.com/article/1875402wpp/watch-i-dles-soyeon-takes-2nd-win-for-im-gonna-toesa-on-inkigayo-performances-by-boynextdoor-allday-project-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T16:56:18Z",
-      "collected_at": "2026-10-04T21:32:30Z",
+      "collected_at": "2026-10-05T05:47:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -181,7 +181,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9399,
+        "recency": 0.8485,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -189,7 +189,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8663,
+      "hot_score": 7.1013,
       "available": true
     },
     {
@@ -203,7 +203,7 @@
       "url": "https://www.soompi.com/article/1875388wpp/i-dles-wife-mv-soars-past-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T06:39:08Z",
-      "collected_at": "2026-10-04T21:32:30Z",
+      "collected_at": "2026-10-05T05:47:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -233,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8286,
+        "recency": 0.7568,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -241,7 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7944,
+      "hot_score": 5.2918,
       "available": true
     },
     {
@@ -255,7 +255,7 @@
       "url": "https://www.soompi.com/article/1875377wpp/blackpink-sets-youtube-records-as-boombayah-mv-hits-1-9-billion-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T05:35:11Z",
-      "collected_at": "2026-10-04T21:32:30Z",
+      "collected_at": "2026-10-05T05:47:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -285,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8186,
+        "recency": 0.7484,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -293,7 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7241,
+      "hot_score": 5.2332,
       "available": true
     },
     {
@@ -307,7 +307,7 @@
       "url": "https://www.soompi.com/article/1875339wpp/aespas-winter-rescene-young-tak-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-03T23:46:25Z",
-      "collected_at": "2026-10-04T21:32:30Z",
+      "collected_at": "2026-10-05T05:47:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -354,7 +354,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7679,
+        "recency": 0.7057,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -362,7 +362,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.0674,
+      "hot_score": 6.4958,
       "available": true
     },
     {
@@ -376,7 +376,7 @@
       "url": "https://www.soompi.com/article/1874771wpp/watch-enhypen-takes-7th-win-and-triple-crown-for-bloody-paradise-on-m-countdown-performances-by-evan-team-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-01T12:25:03Z",
-      "collected_at": "2026-10-04T21:32:30Z",
+      "collected_at": "2026-10-05T05:47:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -429,7 +429,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4702,
+        "recency": 0.4462,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -437,7 +437,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.9353,
+      "hot_score": 3.734,
       "available": true
     },
     {
@@ -451,7 +451,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-04T21:32:30Z",
+      "collected_at": "2026-10-05T05:47:38Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -490,7 +490,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1942,
+        "recency": 0.19,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -498,7 +498,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.6252,
+      "hot_score": 1.5898,
       "available": true
     }
   ]
