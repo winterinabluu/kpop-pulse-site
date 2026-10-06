@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-05T14:48:16Z",
+  "generated_at": "2026-10-06T00:06:05Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 9,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1875542wpp/newjeans-super-shy-becomes-their-2nd-mv-to-hit-300-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-05T14:27:00Z",
-      "collected_at": "2026-10-05T14:48:16Z",
+      "collected_at": "2026-10-06T00:06:05Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.8818,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,129 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8968,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:c9d15c7b6fb0c02b",
-      "platform": "news",
-      "platform_item_id": "c9d15c7b6fb0c02b",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa’s Recent Sightings With Rumored Boyfriend Sparks Backlash Towards Idol",
-      "description": "\"Make the situation worse...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-rumored-boyfriend-backlash-idol/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-05T09:00:59Z",
-      "collected_at": "2026-10-05T14:48:16Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9256,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7465,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:dd6f12e320469402",
-      "platform": "news",
-      "platform_item_id": "dd6f12e320469402",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s Giselle Sparks Major Controversy With Recent Actions",
-      "description": "\"Most problematic person...\"",
-      "url": "https://www.koreaboo.com/news/aespas-giselle-sparks-major-controversy-recent-actions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-05T08:15:26Z",
-      "collected_at": "2026-10-05T14:48:16Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "giselle"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "giselle",
-          "alias": "Giselle",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9166,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.6716,
+      "hot_score": 6.1661,
       "available": true
     },
     {
@@ -195,7 +73,7 @@
       "url": "https://www.soompi.com/article/1875434wpp/stray-kids-evan-enhypen-cortis-illit-tuide-bts-le-sserafim-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T17:26:23Z",
-      "collected_at": "2026-10-05T14:48:16Z",
+      "collected_at": "2026-10-06T00:06:05Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -233,7 +111,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7712,
+        "recency": 0.7013,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -241,7 +119,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2452,
+      "hot_score": 5.6797,
       "available": true
     },
     {
@@ -255,7 +133,7 @@
       "url": "https://www.soompi.com/article/1875402wpp/watch-i-dles-soyeon-takes-2nd-win-for-im-gonna-toesa-on-inkigayo-performances-by-boynextdoor-allday-project-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T16:56:18Z",
-      "collected_at": "2026-10-05T14:48:16Z",
+      "collected_at": "2026-10-06T00:06:05Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -294,7 +172,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.767,
+        "recency": 0.6979,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -302,7 +180,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4196,
+      "hot_score": 5.8411,
       "available": true
     },
     {
@@ -316,7 +194,7 @@
       "url": "https://www.soompi.com/article/1875388wpp/i-dles-wife-mv-soars-past-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T06:39:08Z",
-      "collected_at": "2026-10-05T14:48:16Z",
+      "collected_at": "2026-10-06T00:06:05Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -346,7 +224,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6913,
+        "recency": 0.6346,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -354,7 +232,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.834,
+      "hot_score": 4.4378,
       "available": true
     },
     {
@@ -368,7 +246,7 @@
       "url": "https://www.soompi.com/article/1875377wpp/blackpink-sets-youtube-records-as-boombayah-mv-hits-1-9-billion-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T05:35:11Z",
-      "collected_at": "2026-10-05T14:48:16Z",
+      "collected_at": "2026-10-06T00:06:05Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -398,7 +276,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6843,
+        "recency": 0.6287,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -406,7 +284,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.785,
+      "hot_score": 4.3965,
       "available": true
     },
     {
@@ -420,7 +298,7 @@
       "url": "https://www.soompi.com/article/1875339wpp/aespas-winter-rescene-young-tak-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-03T23:46:25Z",
-      "collected_at": "2026-10-05T14:48:16Z",
+      "collected_at": "2026-10-06T00:06:05Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -467,7 +345,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6485,
+        "recency": 0.5984,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -475,7 +353,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9686,
+      "hot_score": 5.5075,
       "available": true
     },
     {
@@ -489,7 +367,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-05T14:48:16Z",
+      "collected_at": "2026-10-06T00:06:05Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -528,7 +406,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1855,
+        "recency": 0.1812,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -536,7 +414,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.5529,
+      "hot_score": 1.5165,
       "available": true
     }
   ]
