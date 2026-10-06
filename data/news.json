@@ -1,15 +1,128 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-06T06:26:55Z",
+  "generated_at": "2026-10-06T18:25:31Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 10,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:0a3c550163d07fe1",
+      "platform": "news",
+      "platform_item_id": "0a3c550163d07fe1",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "ADOR’s “Disgusting” Actions On NewJeans Hanni’s Birthday Trigger Heated Backlash",
+      "description": "They broke a tradition.",
+      "url": "https://www.koreaboo.com/news/ador-disgusting-actions-newjeans-hanni-birthday-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-06T15:59:51Z",
+      "collected_at": "2026-10-06T18:25:31Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [
+        "hanni"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "hanni",
+          "alias": "Hanni",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9674,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0962,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:bbd7b9a8952b9379",
+      "platform": "news",
+      "platform_item_id": "bbd7b9a8952b9379",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Upcoming Major Fan Event Hit With Massive Backlash",
+      "description": "Fans are furious at the agency.",
+      "url": "https://www.koreaboo.com/news/twice-upcoming-major-fan-event-massive-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-06T15:29:55Z",
+      "collected_at": "2026-10-06T18:25:31Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9609,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.7195,
+      "available": true
+    },
     {
       "id": "news:soompi:ee6edd798fa2fe67",
       "platform": "news",
@@ -21,7 +134,7 @@
       "url": "https://www.soompi.com/article/1875620wpp/hong-ye-ji-miyeon-hyunsuk-and-kim-min-ki-confirmed-for-bitch-x-rich-spin-off",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-06T05:40:35Z",
-      "collected_at": "2026-10-06T06:26:55Z",
+      "collected_at": "2026-10-06T18:25:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.8496,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.1103,
       "available": true
     },
     {
@@ -82,7 +195,7 @@
       "url": "https://www.soompi.com/article/1875542wpp/newjeans-super-shy-becomes-their-2nd-mv-to-hit-300-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-05T14:27:00Z",
-      "collected_at": "2026-10-06T06:26:55Z",
+      "collected_at": "2026-10-06T18:25:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8182,
+        "recency": 0.7202,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7213,
+      "hot_score": 5.0359,
       "available": true
     },
     {
@@ -134,7 +247,7 @@
       "url": "https://www.soompi.com/article/1875434wpp/stray-kids-evan-enhypen-cortis-illit-tuide-bts-le-sserafim-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T17:26:23Z",
-      "collected_at": "2026-10-06T06:26:55Z",
+      "collected_at": "2026-10-06T18:25:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -172,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6605,
+        "recency": 0.5951,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -180,7 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.349,
+      "hot_score": 4.8195,
       "available": true
     },
     {
@@ -194,7 +307,7 @@
       "url": "https://www.soompi.com/article/1875402wpp/watch-i-dles-soyeon-takes-2nd-win-for-im-gonna-toesa-on-inkigayo-performances-by-boynextdoor-allday-project-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T16:56:18Z",
-      "collected_at": "2026-10-06T06:26:55Z",
+      "collected_at": "2026-10-06T18:25:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -233,7 +346,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6575,
+        "recency": 0.5927,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -241,7 +354,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5026,
+      "hot_score": 4.9601,
       "available": true
     },
     {
@@ -255,7 +368,7 @@
       "url": "https://www.soompi.com/article/1875388wpp/i-dles-wife-mv-soars-past-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T06:39:08Z",
-      "collected_at": "2026-10-06T06:26:55Z",
+      "collected_at": "2026-10-06T18:25:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -285,7 +398,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.601,
+        "recency": 0.5464,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -293,7 +406,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.2027,
+      "hot_score": 3.8207,
       "available": true
     },
     {
@@ -307,7 +420,7 @@
       "url": "https://www.soompi.com/article/1875377wpp/blackpink-sets-youtube-records-as-boombayah-mv-hits-1-9-billion-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-04T05:35:11Z",
-      "collected_at": "2026-10-06T06:26:55Z",
+      "collected_at": "2026-10-06T18:25:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -337,7 +450,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5957,
+        "recency": 0.542,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -345,7 +458,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1656,
+      "hot_score": 3.7901,
       "available": true
     },
     {
@@ -359,7 +472,7 @@
       "url": "https://www.soompi.com/article/1875339wpp/aespas-winter-rescene-young-tak-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-03T23:46:25Z",
-      "collected_at": "2026-10-06T06:26:55Z",
+      "collected_at": "2026-10-06T18:25:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -406,7 +519,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5684,
+        "recency": 0.5193,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -414,7 +527,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2315,
+      "hot_score": 4.7796,
       "available": true
     },
     {
@@ -428,7 +541,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-06T06:26:55Z",
+      "collected_at": "2026-10-06T18:25:31Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -467,7 +580,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1784,
+        "recency": 0.1732,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -475,7 +588,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.4927,
+      "hot_score": 1.4497,
       "available": true
     }
   ]
