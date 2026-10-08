@@ -1,250 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-08T13:36:42Z",
+  "generated_at": "2026-10-08T23:23:47Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:765f67e297d7b4e9",
-      "platform": "news",
-      "platform_item_id": "765f67e297d7b4e9",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Jennie Sparks Shock With Sexy Outfit For Surprise Performance With Top Western Star",
-      "description": "It was truly mesmerizing.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-shock-sexy-outfit-surprise-performance/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-08T13:35:29Z",
-      "collected_at": "2026-10-08T13:36:42Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9863,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.2546,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:c25c1d9034130689",
-      "platform": "news",
-      "platform_item_id": "c25c1d9034130689",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "LE SSERAFIM Member’s Recent Photos Spark Massive Response",
-      "description": "She looks younger than ever.",
-      "url": "https://www.koreaboo.com/news/le-sserafim-chaewon-recent-visuals/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-08T09:30:03Z",
-      "collected_at": "2026-10-08T13:36:42Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.946,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.6149,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:452d0bed960ff9a4",
-      "platform": "news",
-      "platform_item_id": "452d0bed960ff9a4",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jennie’s Recent Sighting Amid Hiatus Speculations Garner Huge Attention",
-      "description": "Jennie hasn't been spotted in a month.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-activities-amid-hiatus-speculations/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-08T08:40:15Z",
-      "collected_at": "2026-10-08T13:36:42Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9358,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8318,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:6848cc5579120ef9",
-      "platform": "news",
-      "platform_item_id": "6848cc5579120ef9",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS Jungkook’s Appearance At Concert Sparks Speculations Linked To Dating Rumors With aespa’s Winter",
-      "description": "\"To make a statement...\"",
-      "url": "https://www.koreaboo.com/news/bts-jungkook-appearance-concert-dating-rumors-aespa-winter/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-08T08:10:10Z",
-      "collected_at": "2026-10-08T13:36:42Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "winter"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "winter",
-          "alias": "Winter",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9297,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7811,
-      "available": true
-    },
     {
       "id": "news:soompi:da169eebde837402",
       "platform": "news",
@@ -256,7 +21,7 @@
       "url": "https://www.soompi.com/article/1876355wpp/watch-twice-introduces-official-characters-tdoongz",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-08T06:36:33Z",
-      "collected_at": "2026-10-08T13:36:42Z",
+      "collected_at": "2026-10-08T23:23:47Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9114,
+        "recency": 0.8109,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3728,
+      "hot_score": 5.6705,
       "available": true
     },
     {
@@ -308,7 +73,7 @@
       "url": "https://www.soompi.com/article/1876172wpp/i-dles-soyeon-cortis-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-07T19:40:06Z",
-      "collected_at": "2026-10-08T13:36:42Z",
+      "collected_at": "2026-10-08T23:23:47Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -355,7 +120,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8005,
+        "recency": 0.722,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -363,7 +128,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.368,
+      "hot_score": 6.6451,
       "available": true
     },
     {
@@ -377,7 +142,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-08T13:36:42Z",
+      "collected_at": "2026-10-08T23:23:47Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -416,7 +181,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1569,
+        "recency": 0.1536,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -424,7 +189,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.3133,
+      "hot_score": 1.2858,
       "available": true
     }
   ]
