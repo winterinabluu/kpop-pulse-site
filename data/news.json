@@ -1,27 +1,88 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-09T13:26:38Z",
+  "generated_at": "2026-10-09T22:41:51Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:e6673c765ec7423f",
+      "id": "news:koreaboo:231bbf2efa90dc5b",
       "platform": "news",
-      "platform_item_id": "e6673c765ec7423f",
+      "platform_item_id": "231bbf2efa90dc5b",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK’s Jennie Receives Mass Ridicule Over “Embarrassing” Moment On Stage",
-      "description": "The clip has drawn scathing reactions.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-mass-ridicule-embarrassing-moment-stage/",
+      "title": "IVE’s Wonyoung Receives Scathing Backlash For Flaunting Her Wealth",
+      "description": "Her recent social media post has invited criticism.",
+      "url": "https://www.koreaboo.com/news/ive-wonyoung-scathing-backlash-flaunting-wealth/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-09T12:57:51Z",
-      "collected_at": "2026-10-09T13:26:38Z",
+      "published_at": "2026-10-09T14:51:33Z",
+      "collected_at": "2026-10-09T22:41:51Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9018,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.5476,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:1a4d2c4313f652d6",
+      "platform": "news",
+      "platform_item_id": "1a4d2c4313f652d6",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Jennie’s Steamy Interaction With Friend’s Boyfriend Raises Eyebrows",
+      "description": "\"If Jennie looked at me like this...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-jennies-steamy-interaction-friends-boyfriend-raises-eyebrows/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-09T14:26:31Z",
+      "collected_at": "2026-10-09T22:41:51Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.8971,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,134 +129,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.5083,
       "available": true
     },
     {
-      "id": "news:koreaboo:ecde7de7a945eb02",
+      "id": "news:koreaboo:e03f98daba99ba9a",
       "platform": "news",
-      "platform_item_id": "ecde7de7a945eb02",
+      "platform_item_id": "e03f98daba99ba9a",
       "source_type": "media",
       "content_kind": "news",
-      "title": "TWICE’s Rumored Collab With Singer Accused Of Harassing Women Triggers Outrage",
-      "description": "The singer has various allegations against him.",
-      "url": "https://www.koreaboo.com/news/twices-rumored-collab-controversial-singer-triggers-outrage/",
+      "title": "BLACKPINK Lisa’s Awkward Run-In With Rumored Ex-Boyfriend’s Family Draws Major Reactions",
+      "description": "Her actions left fans tickled.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-awkward-run-in-rumored-ex-boyfriend-family/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-09T10:33:48Z",
-      "collected_at": "2026-10-09T13:26:38Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9615,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.7236,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:76d579a141bbad6e",
-      "platform": "news",
-      "platform_item_id": "76d579a141bbad6e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Top Male Idol’s Close Bond With TWICE Jihyo’s Idol Sister Sparks Major Reactions In New Clip",
-      "description": "\"Very close to Jihyo and her family...\"",
-      "url": "https://www.koreaboo.com/news/top-male-idol-bond-twice-jihyo-sister-reactions-new-video/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-09T10:15:19Z",
-      "collected_at": "2026-10-09T13:26:38Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jihyo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jihyo",
-          "alias": "Jihyo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9576,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0143,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:875d4da5d4e51a02",
-      "platform": "news",
-      "platform_item_id": "875d4da5d4e51a02",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Jennie Subjected To “Disgusting” Bodyshaming Criticism In Sexy Outfit",
-      "description": "Some blamed a particular photo for the discourse.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennies-subjected-brutal-bodyshaming-in-sexy-outfit/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-09T09:10:58Z",
-      "collected_at": "2026-10-09T13:26:38Z",
+      "published_at": "2026-10-09T14:04:19Z",
+      "collected_at": "2026-10-09T22:41:51Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -214,7 +162,7 @@
         "blackpink"
       ],
       "matched_members": [
-        "jennie"
+        "lisa"
       ],
       "match_confidence": "high",
       "match_reason": [
@@ -227,14 +175,14 @@
         },
         {
           "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
+          "target_id": "lisa",
+          "alias": "Lisa",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9441,
+        "recency": 0.893,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,68 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9016,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:c5db7fb28da9622b",
-      "platform": "news",
-      "platform_item_id": "c5db7fb28da9622b",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Jennie Hit With Brutal Criticism For Skills During Performance With The Weeknd",
-      "description": "\"A mess on stage...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-hate-vocals-weeknd/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-09T08:00:37Z",
-      "collected_at": "2026-10-09T13:26:38Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9298,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7819,
+      "hot_score": 7.4739,
       "available": true
     },
     {
@@ -317,7 +204,7 @@
       "url": "https://www.soompi.com/article/1876355wpp/watch-twice-introduces-official-characters-tdoongz",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-08T06:36:33Z",
-      "collected_at": "2026-10-09T13:26:38Z",
+      "collected_at": "2026-10-09T22:41:51Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -347,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7002,
+        "recency": 0.6423,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -355,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8959,
+      "hot_score": 4.4917,
       "available": true
     },
     {
@@ -369,7 +256,7 @@
       "url": "https://www.soompi.com/article/1876172wpp/i-dles-soyeon-cortis-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-07T19:40:06Z",
-      "collected_at": "2026-10-09T13:26:38Z",
+      "collected_at": "2026-10-09T22:41:51Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -416,7 +303,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6328,
+        "recency": 0.5852,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -424,7 +311,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8246,
+      "hot_score": 5.3865,
       "available": true
     },
     {
@@ -438,7 +325,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-09T13:26:38Z",
+      "collected_at": "2026-10-09T22:41:51Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -477,7 +364,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1492,
+        "recency": 0.1464,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -485,7 +372,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.2484,
+      "hot_score": 1.2249,
       "available": true
     }
   ]
