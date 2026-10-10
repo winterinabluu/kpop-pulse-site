@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-10T12:37:48Z",
+  "generated_at": "2026-10-10T21:48:09Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:e37d9eb0fa517902",
+      "platform": "news",
+      "platform_item_id": "e37d9eb0fa517902",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "YG Entertainment’s Exposed “Petty” Actions Towards BLACKPINK’s Lisa Trigger Backlash",
+      "description": "BLACKPINK's group activities are still under YG Entertainment.",
+      "url": "https://www.koreaboo.com/news/yg-entertainments-exposed-petty-actions-towards-blackpinks-lisa-trigger-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-10T18:35:52Z",
+      "collected_at": "2026-10-10T21:48:09Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9574,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0126,
+      "available": true
+    },
     {
       "id": "news:soompi:35d031686a5c1793",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1876760wpp/sm-shares-update-on-aespas-giselles-health-after-she-leaves-stage-mid-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T07:33:39Z",
-      "collected_at": "2026-10-10T12:37:48Z",
+      "collected_at": "2026-10-10T21:48:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9342,
+        "recency": 0.8349,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8188,
+      "hot_score": 6.9872,
       "available": true
     },
     {
@@ -82,7 +143,7 @@
       "url": "https://www.soompi.com/article/1876355wpp/watch-twice-introduces-official-characters-tdoongz",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-08T06:36:33Z",
-      "collected_at": "2026-10-10T12:37:48Z",
+      "collected_at": "2026-10-10T21:48:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5713,
+        "recency": 0.5326,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.9951,
+      "hot_score": 3.7241,
       "available": true
     },
     {
@@ -134,7 +195,7 @@
       "url": "https://www.soompi.com/article/1876172wpp/i-dles-soyeon-cortis-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-07T19:40:06Z",
-      "collected_at": "2026-10-10T12:37:48Z",
+      "collected_at": "2026-10-10T21:48:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -181,7 +242,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5257,
+        "recency": 0.4927,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -189,7 +250,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8386,
+      "hot_score": 4.5349,
       "available": true
     },
     {
@@ -203,7 +264,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-10T12:37:48Z",
+      "collected_at": "2026-10-10T21:48:09Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -242,7 +303,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1423,
+        "recency": 0.1398,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -250,7 +311,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.1912,
+      "hot_score": 1.17,
       "available": true
     }
   ]
