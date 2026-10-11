@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-11T12:56:58Z",
+  "generated_at": "2026-10-11T22:01:48Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 10,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:soompi:b06a3dfe35f6b831",
+      "id": "news:soompi:5874ae6473042454",
       "platform": "news",
-      "platform_item_id": "b06a3dfe35f6b831",
+      "platform_item_id": "5874ae6473042454",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards",
-      "description": "The 2026 Nickelodeon Kids’ Choice Awards has announced this year’s nominees! This week, Nickelodeon revealed its list of nominations for the upcoming award ceremony, which will air live from Los Angeles next month. Both BTS and BLACKPINK have been nominated for Favorite Music Group, going up against fellow nominees Jonas Brothers, Maroon 5, Twenty One… Continue reading BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards The post BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1876900wpp/bts-blackpink-kpop-demon-hunters-and-katseye-nominated-for-2026-nickelodeon-kids-choice-awards",
+      "title": "&TEAM, Stray Kids, ENHYPEN, CORTIS, ILLIT, BTS, EVAN, LE SSERAFIM, ATEEZ, And More Sweep Top Spots On Billboard World Albums Chart",
+      "description": "Billboard has published its World Albums chart for the week ending on October 10! &TEAM’s latest mini album “Mark on Me” re-entered the World Albums chart at No. 1 this week, making it the group’s first album ever to top the chart. “Mark on Me” also achieved &TEAM’s highest ranking yet on the Billboard 200,… Continue reading &TEAM, Stray Kids, ENHYPEN, CORTIS, ILLIT, BTS, EVAN, LE SSERAFIM, ATEEZ, And More Sweep Top Spots On Billboard World Albums Chart The post &TEAM, Stray Kids, ENHYPEN, CORTIS, ILLIT, BTS, EVAN, LE SSERAFIM, ATEEZ, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1877065wpp/team-stray-kids-enhypen-cortis-illit-bts-evan-le-sserafim-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-11T03:27:44Z",
-      "collected_at": "2026-10-11T12:56:58Z",
+      "published_at": "2026-10-11T18:36:45Z",
+      "collected_at": "2026-10-11T22:01:48Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -37,104 +37,51 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "blackpink"
+        "illit",
+        "lesserafim"
       ],
       "matched_members": [],
       "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8836,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.1785,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:ae70b18d34cc01c3",
-      "platform": "news",
-      "platform_item_id": "ae70b18d34cc01c3",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Pro Photographer Attacks TWICE’s Tzuyu Over “Thick Thighs” And “Bad Figure”",
-      "description": "The definition of FAFO.",
-      "url": "https://www.koreaboo.com/news/pro-photographer-attacks-twices-tzuyu-thick-thighs-bad-figure/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-11T00:58:03Z",
-      "collected_at": "2026-10-11T12:56:58Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "tzuyu"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
           "field": "title",
           "score": 1.0
         },
         {
-          "target_type": "member",
-          "target_id": "tzuyu",
-          "alias": "Tzuyu",
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
           "field": "title",
-          "score": 0.9
+          "score": 1.0
         }
       ],
       "score_breakdown": {
-        "recency": 0.8573,
+        "recency": 0.9547,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 5.3,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1752,
+      "hot_score": 7.7314,
       "available": true
     },
     {
-      "id": "news:soompi:f53aaf7dcfdb0094",
+      "id": "news:soompi:14ec972ab404f6d8",
       "platform": "news",
-      "platform_item_id": "f53aaf7dcfdb0094",
+      "platform_item_id": "14ec972ab404f6d8",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More",
-      "description": "i-dle’s Soyeon has won a third music show trophy for her hit song “I’m gonna TOESA”! On the October 10 episode of MBC’s “Music Core,” the candidates for first place were BOYNEXTDOOR’s “ANIMAL,” Soyeon’s “I’m gonna TOESA,” and IU’s “Unknown Planet.” Soyeon ultimately took the win with a total of 6,670 points. Congratulations to Soyeon!… Continue reading Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More The post Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1876862wpp/watch-i-dles-soyeon-takes-3rd-win-for-im-gonna-toesa-on-music-core-performances-by-hwang-minhyun-kickflip-and-more",
+      "title": "Watch: i-dle’s Soyeon Snags 4th Win For “I’m gonna TOESA” On “Inkigayo”; Performances By BOYNEXTDOOR, ALLDAY PROJECT, And More",
+      "description": "i-dle’s Soyeon has won a fourth music show trophy for “I’m gonna TOESA”! On the October 11 episode of SBS’s “Inkigayo,” the candidates for first place were ATEEZ’s “BAD,” Soyeon’s “I’m gonna TOESA,” and RESCENE’s “LOVE ATTACK.” Soyeon ultimately took the win with a total of 5,366 points. Congratulations to Soyeon! Watch a clip of… Continue reading Watch: i-dle’s Soyeon Snags 4th Win For “I’m gonna TOESA” On “Inkigayo”; Performances By BOYNEXTDOOR, ALLDAY PROJECT, And More The post Watch: i-dle’s Soyeon Snags 4th Win For “I’m gonna TOESA” On “Inkigayo”; Performances By BOYNEXTDOOR, ALLDAY PROJECT, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1877046wpp/watch-i-dles-soyeon-snags-4th-win-for-im-gonna-toesa-on-inkigayo-performances-by-boynextdoor-allday-project-and-more",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-10T23:14:10Z",
-      "collected_at": "2026-10-11T12:56:58Z",
+      "published_at": "2026-10-11T17:23:21Z",
+      "collected_at": "2026-10-11T22:01:48Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +120,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.84,
+        "recency": 0.9394,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +128,294 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.0302,
+      "hot_score": 7.8625,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:d70ca78bfefb6ef0",
+      "platform": "news",
+      "platform_item_id": "d70ca78bfefb6ef0",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Rosé’s Interactions With Controversial A-List Actress Triggers Major Fury",
+      "description": "\"Much bigger issue than anything else...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-roses-interactions-controversial-list-actress-triggers-major-fury/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-11T16:35:18Z",
+      "collected_at": "2026-10-11T22:01:48Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "rose"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "rose",
+          "alias": "Rosé",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9297,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7811,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:5c6764a24fabf50e",
+      "platform": "news",
+      "platform_item_id": "5c6764a24fabf50e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE Member’s Instagram Post On “Coming Out Day” Sparks Major Speculations",
+      "description": "The photos became a hot topic.",
+      "url": "https://www.koreaboo.com/news/twice-member-instagram-post-coming-day-speculations/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-11T16:05:08Z",
+      "collected_at": "2026-10-11T22:01:48Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9237,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.4593,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:95b674eb17d01d1c",
+      "platform": "news",
+      "platform_item_id": "95b674eb17d01d1c",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "i-dle’s Soyeon Exposes Harsh Reality Of The Music Industry",
+      "description": "i-dle member Soyeon surprised Kian84 by confessing the harsh reality of the music industry. On the afternoon of October 9th, a video titled “With Soyeon” was uploaded on the YouTube…",
+      "url": "https://www.koreaboo.com/news/idle-soyeon-exposes-harsh-reality-music-industry/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-11T14:39:30Z",
+      "collected_at": "2026-10-11T22:01:48Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9071,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.5919,
+      "available": true
+    },
+    {
+      "id": "news:soompi:b06a3dfe35f6b831",
+      "platform": "news",
+      "platform_item_id": "b06a3dfe35f6b831",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards",
+      "description": "The 2026 Nickelodeon Kids’ Choice Awards has announced this year’s nominees! This week, Nickelodeon revealed its list of nominations for the upcoming award ceremony, which will air live from Los Angeles next month. Both BTS and BLACKPINK have been nominated for Favorite Music Group, going up against fellow nominees Jonas Brothers, Maroon 5, Twenty One… Continue reading BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards The post BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1876900wpp/bts-blackpink-kpop-demon-hunters-and-katseye-nominated-for-2026-nickelodeon-kids-choice-awards",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-11T03:27:44Z",
+      "collected_at": "2026-10-11T22:01:48Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.795,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.559,
+      "available": true
+    },
+    {
+      "id": "news:soompi:f53aaf7dcfdb0094",
+      "platform": "news",
+      "platform_item_id": "f53aaf7dcfdb0094",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More",
+      "description": "i-dle’s Soyeon has won a third music show trophy for her hit song “I’m gonna TOESA”! On the October 10 episode of MBC’s “Music Core,” the candidates for first place were BOYNEXTDOOR’s “ANIMAL,” Soyeon’s “I’m gonna TOESA,” and IU’s “Unknown Planet.” Soyeon ultimately took the win with a total of 6,670 points. Congratulations to Soyeon!… Continue reading Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More The post Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1876862wpp/watch-i-dles-soyeon-takes-3rd-win-for-im-gonna-toesa-on-music-core-performances-by-hwang-minhyun-kickflip-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-10T23:14:10Z",
+      "collected_at": "2026-10-11T22:01:48Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.7595,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.3568,
       "available": true
     },
     {
@@ -195,7 +429,7 @@
       "url": "https://www.soompi.com/article/1876760wpp/sm-shares-update-on-aespas-giselles-health-after-she-leaves-stage-mid-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T07:33:39Z",
-      "collected_at": "2026-10-11T12:56:58Z",
+      "collected_at": "2026-10-11T22:01:48Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +468,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7101,
+        "recency": 0.6518,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +476,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9433,
+      "hot_score": 5.4548,
       "available": true
     },
     {
@@ -256,7 +490,7 @@
       "url": "https://www.soompi.com/article/1876355wpp/watch-twice-introduces-official-characters-tdoongz",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-08T06:36:33Z",
-      "collected_at": "2026-10-11T12:56:58Z",
+      "collected_at": "2026-10-11T22:01:48Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +520,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4789,
+        "recency": 0.4516,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +528,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.3489,
+      "hot_score": 3.1581,
       "available": true
     },
     {
@@ -308,7 +542,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-11T12:56:58Z",
+      "collected_at": "2026-10-11T22:01:48Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -347,7 +581,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1358,
+        "recency": 0.1335,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -355,7 +589,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.1366,
+      "hot_score": 1.1174,
       "available": true
     }
   ]
