@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-11T05:53:12Z",
+  "generated_at": "2026-10-11T12:56:58Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1876900wpp/bts-blackpink-kpop-demon-hunters-and-katseye-nominated-for-2026-nickelodeon-kids-choice-awards",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T03:27:44Z",
-      "collected_at": "2026-10-11T05:53:12Z",
+      "collected_at": "2026-10-11T12:56:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9674,
+        "recency": 0.8836,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7648,
+      "hot_score": 6.1785,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/pro-photographer-attacks-twices-tzuyu-thick-thighs-bad-figure/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T00:58:03Z",
-      "collected_at": "2026-10-11T05:53:12Z",
+      "collected_at": "2026-10-11T12:56:58Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.936,
+        "recency": 0.8573,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.834,
+      "hot_score": 7.1752,
       "available": true
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.soompi.com/article/1876862wpp/watch-i-dles-soyeon-takes-3rd-win-for-im-gonna-toesa-on-music-core-performances-by-hwang-minhyun-kickflip-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T23:14:10Z",
-      "collected_at": "2026-10-11T05:53:12Z",
+      "collected_at": "2026-10-11T12:56:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9154,
+        "recency": 0.84,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,68 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6616,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:e37d9eb0fa517902",
-      "platform": "news",
-      "platform_item_id": "e37d9eb0fa517902",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "YG Entertainment’s Exposed “Petty” Actions Towards BLACKPINK’s Lisa Trigger Backlash",
-      "description": "BLACKPINK's group activities are still under YG Entertainment.",
-      "url": "https://www.koreaboo.com/news/yg-entertainments-exposed-petty-actions-towards-blackpinks-lisa-trigger-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-10T18:35:52Z",
-      "collected_at": "2026-10-11T05:53:12Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8645,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.2349,
+      "hot_score": 7.0302,
       "available": true
     },
     {
@@ -256,7 +195,7 @@
       "url": "https://www.soompi.com/article/1876760wpp/sm-shares-update-on-aespas-giselles-health-after-she-leaves-stage-mid-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T07:33:39Z",
-      "collected_at": "2026-10-11T05:53:12Z",
+      "collected_at": "2026-10-11T12:56:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -295,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7633,
+        "recency": 0.7101,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -303,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3883,
+      "hot_score": 5.9433,
       "available": true
     },
     {
@@ -317,7 +256,7 @@
       "url": "https://www.soompi.com/article/1876355wpp/watch-twice-introduces-official-characters-tdoongz",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-08T06:36:33Z",
-      "collected_at": "2026-10-11T05:53:12Z",
+      "collected_at": "2026-10-11T12:56:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -347,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5025,
+        "recency": 0.4789,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -355,76 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.5139,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a0aca8cf1892166f",
-      "platform": "news",
-      "platform_item_id": "a0aca8cf1892166f",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "i-dle’s Soyeon, CORTIS, ILLIT, And More Top Circle Weekly Charts",
-      "description": "Circle Chart has revealed its chart rankings for the week of September 20 to 26! Overall Digital Chart + Streaming Chart i-dle’s Soyeon achieved a double crown on this week’s Circle charts, where her solo hit “I’m gonna TOESA” rose to No. 1 on both the overall digital chart and streaming chart. The top five… Continue reading i-dle’s Soyeon, CORTIS, ILLIT, And More Top Circle Weekly Charts The post i-dle’s Soyeon, CORTIS, ILLIT, And More Top Circle Weekly Charts appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1876172wpp/i-dles-soyeon-cortis-illit-and-more-top-circle-weekly-charts",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-07T19:40:06Z",
-      "collected_at": "2026-10-11T05:53:12Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle",
-        "illit"
-      ],
-      "matched_members": [
-        "soyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "soyeon",
-          "alias": "Soyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4669,
-        "views": 0,
-        "engagement": 7.1,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.2972,
+      "hot_score": 3.3489,
       "available": true
     },
     {
@@ -438,7 +308,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-11T05:53:12Z",
+      "collected_at": "2026-10-11T12:56:58Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -477,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1376,
+        "recency": 0.1358,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -485,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.1519,
+      "hot_score": 1.1366,
       "available": true
     }
   ]
