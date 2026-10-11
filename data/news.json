@@ -1,15 +1,189 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-10T21:48:09Z",
+  "generated_at": "2026-10-11T05:53:12Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:b06a3dfe35f6b831",
+      "platform": "news",
+      "platform_item_id": "b06a3dfe35f6b831",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards",
+      "description": "The 2026 Nickelodeon Kids’ Choice Awards has announced this year’s nominees! This week, Nickelodeon revealed its list of nominations for the upcoming award ceremony, which will air live from Los Angeles next month. Both BTS and BLACKPINK have been nominated for Favorite Music Group, going up against fellow nominees Jonas Brothers, Maroon 5, Twenty One… Continue reading BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards The post BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1876900wpp/bts-blackpink-kpop-demon-hunters-and-katseye-nominated-for-2026-nickelodeon-kids-choice-awards",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-11T03:27:44Z",
+      "collected_at": "2026-10-11T05:53:12Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9674,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.7648,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:ae70b18d34cc01c3",
+      "platform": "news",
+      "platform_item_id": "ae70b18d34cc01c3",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Pro Photographer Attacks TWICE’s Tzuyu Over “Thick Thighs” And “Bad Figure”",
+      "description": "The definition of FAFO.",
+      "url": "https://www.koreaboo.com/news/pro-photographer-attacks-twices-tzuyu-thick-thighs-bad-figure/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-11T00:58:03Z",
+      "collected_at": "2026-10-11T05:53:12Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "tzuyu"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "tzuyu",
+          "alias": "Tzuyu",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.936,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.834,
+      "available": true
+    },
+    {
+      "id": "news:soompi:f53aaf7dcfdb0094",
+      "platform": "news",
+      "platform_item_id": "f53aaf7dcfdb0094",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More",
+      "description": "i-dle’s Soyeon has won a third music show trophy for her hit song “I’m gonna TOESA”! On the October 10 episode of MBC’s “Music Core,” the candidates for first place were BOYNEXTDOOR’s “ANIMAL,” Soyeon’s “I’m gonna TOESA,” and IU’s “Unknown Planet.” Soyeon ultimately took the win with a total of 6,670 points. Congratulations to Soyeon!… Continue reading Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More The post Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1876862wpp/watch-i-dles-soyeon-takes-3rd-win-for-im-gonna-toesa-on-music-core-performances-by-hwang-minhyun-kickflip-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-10T23:14:10Z",
+      "collected_at": "2026-10-11T05:53:12Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "gidle",
+          "alias": "i-dle",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9154,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.6616,
+      "available": true
+    },
     {
       "id": "news:koreaboo:e37d9eb0fa517902",
       "platform": "news",
@@ -21,7 +195,7 @@
       "url": "https://www.koreaboo.com/news/yg-entertainments-exposed-petty-actions-towards-blackpinks-lisa-trigger-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T18:35:52Z",
-      "collected_at": "2026-10-10T21:48:09Z",
+      "collected_at": "2026-10-11T05:53:12Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9574,
+        "recency": 0.8645,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0126,
+      "hot_score": 7.2349,
       "available": true
     },
     {
@@ -82,7 +256,7 @@
       "url": "https://www.soompi.com/article/1876760wpp/sm-shares-update-on-aespas-giselles-health-after-she-leaves-stage-mid-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T07:33:39Z",
-      "collected_at": "2026-10-10T21:48:09Z",
+      "collected_at": "2026-10-11T05:53:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8349,
+        "recency": 0.7633,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.9872,
+      "hot_score": 6.3883,
       "available": true
     },
     {
@@ -143,7 +317,7 @@
       "url": "https://www.soompi.com/article/1876355wpp/watch-twice-introduces-official-characters-tdoongz",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-08T06:36:33Z",
-      "collected_at": "2026-10-10T21:48:09Z",
+      "collected_at": "2026-10-11T05:53:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5326,
+        "recency": 0.5025,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -181,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.7241,
+      "hot_score": 3.5139,
       "available": true
     },
     {
@@ -195,7 +369,7 @@
       "url": "https://www.soompi.com/article/1876172wpp/i-dles-soyeon-cortis-illit-and-more-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-07T19:40:06Z",
-      "collected_at": "2026-10-10T21:48:09Z",
+      "collected_at": "2026-10-11T05:53:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -242,7 +416,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4927,
+        "recency": 0.4669,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -250,7 +424,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5349,
+      "hot_score": 4.2972,
       "available": true
     },
     {
@@ -264,7 +438,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-10T21:48:09Z",
+      "collected_at": "2026-10-11T05:53:12Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -303,7 +477,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1398,
+        "recency": 0.1376,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -311,7 +485,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.17,
+      "hot_score": 1.1519,
       "available": true
     }
   ]
