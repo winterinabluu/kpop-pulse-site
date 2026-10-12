@@ -1,15 +1,198 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-12T06:04:21Z",
+  "generated_at": "2026-10-12T15:34:35Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 10,
+    "item_count": 11,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:a8683be58d18b5d5",
+      "platform": "news",
+      "platform_item_id": "a8683be58d18b5d5",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Article On BLACKPINK Lisa’s “Scandal” Sparks Heated Debate Linked To BTS",
+      "description": "The idol addressed the scandal in her documentary.",
+      "url": "https://www.koreaboo.com/news/popular-article-blackpink-lisas-scandal-sparks-heated-debate-bts/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-12T08:40:10Z",
+      "collected_at": "2026-10-12T15:34:35Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9125,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.6366,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:54605281ae3ad63c",
+      "platform": "news",
+      "platform_item_id": "54605281ae3ad63c",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE Jeongyeon’s “Glow-Up” After Leaving JYP Entertainment Sparks Heated Debate About Weight Loss",
+      "description": "The photos got thousands of likes and comments.",
+      "url": "https://www.koreaboo.com/news/twice-jeongyeon-glow-after-leaving-jyp-link-weight-discourse/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-12T08:00:08Z",
+      "collected_at": "2026-10-12T15:34:35Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jeongyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jeongyeon",
+          "alias": "Jeongyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9048,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.5726,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:17c1a6162d8fd914",
+      "platform": "news",
+      "platform_item_id": "17c1a6162d8fd914",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Controversial Singer Criticized For Inappropriate Instagram Posts About TWICE’s Nayeon",
+      "description": "\"Freak ass loser...\"",
+      "url": "https://www.koreaboo.com/news/controversial-singer-flamed-inappropriate-instagram-posts-twices-nayeon/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-12T07:40:51Z",
+      "collected_at": "2026-10-12T15:34:35Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "nayeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "nayeon",
+          "alias": "Nayeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9012,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.5421,
+      "available": true
+    },
     {
       "id": "news:koreaboo:312c621c4f44265a",
       "platform": "news",
@@ -21,7 +204,7 @@
       "url": "https://www.koreaboo.com/news/twice-member-gets-flamed-problematic-collaboration/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T23:29:43Z",
-      "collected_at": "2026-10-12T06:04:21Z",
+      "collected_at": "2026-10-12T15:34:35Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9163,
+        "recency": 0.8174,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4073,
+      "hot_score": 5.7159,
       "available": true
     },
     {
@@ -73,7 +256,7 @@
       "url": "https://www.soompi.com/article/1877072wpp/rose-illit-aespa-babymonster-and-shaun-earn-riaj-platinum-certifications-for-streaming-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T22:18:17Z",
-      "collected_at": "2026-10-12T06:04:21Z",
+      "collected_at": "2026-10-12T15:34:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +304,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9026,
+        "recency": 0.8065,
         "views": 0,
         "engagement": 8.5,
         "source_weight": 0.55
@@ -129,7 +312,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.941,
+      "hot_score": 7.9892,
       "available": true
     },
     {
@@ -143,7 +326,7 @@
       "url": "https://www.soompi.com/article/1877065wpp/team-stray-kids-enhypen-cortis-illit-bts-evan-le-sserafim-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T18:36:45Z",
-      "collected_at": "2026-10-12T06:04:21Z",
+      "collected_at": "2026-10-12T15:34:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -181,7 +364,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8627,
+        "recency": 0.7745,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -189,7 +372,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.9864,
+      "hot_score": 6.2722,
       "available": true
     },
     {
@@ -203,7 +386,7 @@
       "url": "https://www.soompi.com/article/1877046wpp/watch-i-dles-soyeon-snags-4th-win-for-im-gonna-toesa-on-inkigayo-performances-by-boynextdoor-allday-project-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T17:23:21Z",
-      "collected_at": "2026-10-12T06:04:21Z",
+      "collected_at": "2026-10-12T15:34:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -242,7 +425,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8502,
+        "recency": 0.7644,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -250,120 +433,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1158,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:d70ca78bfefb6ef0",
-      "platform": "news",
-      "platform_item_id": "d70ca78bfefb6ef0",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Rosé’s Interactions With Controversial A-List Actress Triggers Major Fury",
-      "description": "\"Much bigger issue than anything else...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-roses-interactions-controversial-list-actress-triggers-major-fury/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-11T16:35:18Z",
-      "collected_at": "2026-10-12T06:04:21Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "rose"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "rose",
-          "alias": "Rosé",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8423,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.0491,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:5c6764a24fabf50e",
-      "platform": "news",
-      "platform_item_id": "5c6764a24fabf50e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE Member’s Instagram Post On “Coming Out Day” Sparks Major Speculations",
-      "description": "The photos became a hot topic.",
-      "url": "https://www.koreaboo.com/news/twice-member-instagram-post-coming-day-speculations/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-11T16:05:08Z",
-      "collected_at": "2026-10-12T06:04:21Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8373,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.8552,
+      "hot_score": 6.3977,
       "available": true
     },
     {
@@ -377,7 +447,7 @@
       "url": "https://www.soompi.com/article/1876900wpp/bts-blackpink-kpop-demon-hunters-and-katseye-nominated-for-2026-nickelodeon-kids-choice-awards",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T03:27:44Z",
-      "collected_at": "2026-10-12T06:04:21Z",
+      "collected_at": "2026-10-12T15:34:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -407,7 +477,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7301,
+        "recency": 0.666,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -415,7 +485,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1056,
+      "hot_score": 4.6568,
       "available": true
     },
     {
@@ -429,7 +499,7 @@
       "url": "https://www.soompi.com/article/1876862wpp/watch-i-dles-soyeon-takes-3rd-win-for-im-gonna-toesa-on-music-core-performances-by-hwang-minhyun-kickflip-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T23:14:10Z",
-      "collected_at": "2026-10-12T06:04:21Z",
+      "collected_at": "2026-10-12T15:34:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -468,7 +538,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7001,
+        "recency": 0.6409,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -476,7 +546,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8597,
+      "hot_score": 5.3639,
       "available": true
     },
     {
@@ -490,7 +560,7 @@
       "url": "https://www.soompi.com/article/1876760wpp/sm-shares-update-on-aespas-giselles-health-after-she-leaves-stage-mid-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T07:33:39Z",
-      "collected_at": "2026-10-12T06:04:21Z",
+      "collected_at": "2026-10-12T15:34:35Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -529,7 +599,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6075,
+        "recency": 0.5624,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -537,7 +607,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0846,
+      "hot_score": 4.7071,
       "available": true
     },
     {
@@ -551,7 +621,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-12T06:04:21Z",
+      "collected_at": "2026-10-12T15:34:35Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -590,7 +660,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1316,
+        "recency": 0.1293,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -598,7 +668,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.101,
+      "hot_score": 1.0822,
       "available": true
     }
   ]
