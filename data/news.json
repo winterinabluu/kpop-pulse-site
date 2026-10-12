@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-11T22:01:48Z",
+  "generated_at": "2026-10-12T06:04:21Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,128 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:312c621c4f44265a",
+      "platform": "news",
+      "platform_item_id": "312c621c4f44265a",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE Member Gets Flamed For Problematic Collaboration",
+      "description": "Fans were not thrilled.",
+      "url": "https://www.koreaboo.com/news/twice-member-gets-flamed-problematic-collaboration/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-11T23:29:43Z",
+      "collected_at": "2026-10-12T06:04:21Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9163,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.4073,
+      "available": true
+    },
+    {
+      "id": "news:soompi:c97e0f9ff154fc5f",
+      "platform": "news",
+      "platform_item_id": "c97e0f9ff154fc5f",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Rosé, ILLIT, aespa, BABYMONSTER, And Shaun Earn RIAJ Platinum Certifications For Streaming In Japan",
+      "description": "The Recording Industry Association of Japan (RIAJ) has announced its latest batch of official certifications! In 2020, the RIAJ implemented a new certification system for online streaming of songs, as an addition to its pre-existing certification systems for physical album shipments and digital download sales. According to the new system, songs are certified silver once… Continue reading Rosé, ILLIT, aespa, BABYMONSTER, And Shaun Earn RIAJ Platinum Certifications For Streaming In Japan The post Rosé, ILLIT, aespa, BABYMONSTER, And Shaun Earn RIAJ Platinum Certifications For Streaming In Japan appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1877072wpp/rose-illit-aespa-babymonster-and-shaun-earn-riaj-platinum-certifications-for-streaming-in-japan",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-11T22:18:17Z",
+      "collected_at": "2026-10-12T06:04:21Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa",
+        "blackpink",
+        "illit"
+      ],
+      "matched_members": [
+        "rose"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "rose",
+          "alias": "Rosé",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9026,
+        "views": 0,
+        "engagement": 8.5,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.941,
+      "available": true
+    },
     {
       "id": "news:soompi:5874ae6473042454",
       "platform": "news",
@@ -21,7 +143,7 @@
       "url": "https://www.soompi.com/article/1877065wpp/team-stray-kids-enhypen-cortis-illit-bts-evan-le-sserafim-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T18:36:45Z",
-      "collected_at": "2026-10-11T22:01:48Z",
+      "collected_at": "2026-10-12T06:04:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -59,7 +181,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9547,
+        "recency": 0.8627,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -67,7 +189,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7314,
+      "hot_score": 6.9864,
       "available": true
     },
     {
@@ -81,7 +203,7 @@
       "url": "https://www.soompi.com/article/1877046wpp/watch-i-dles-soyeon-snags-4th-win-for-im-gonna-toesa-on-inkigayo-performances-by-boynextdoor-allday-project-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T17:23:21Z",
-      "collected_at": "2026-10-11T22:01:48Z",
+      "collected_at": "2026-10-12T06:04:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -120,7 +242,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9394,
+        "recency": 0.8502,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -128,7 +250,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8625,
+      "hot_score": 7.1158,
       "available": true
     },
     {
@@ -142,7 +264,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-roses-interactions-controversial-list-actress-triggers-major-fury/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T16:35:18Z",
-      "collected_at": "2026-10-11T22:01:48Z",
+      "collected_at": "2026-10-12T06:04:21Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -181,7 +303,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9297,
+        "recency": 0.8423,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -189,7 +311,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7811,
+      "hot_score": 7.0491,
       "available": true
     },
     {
@@ -203,7 +325,7 @@
       "url": "https://www.koreaboo.com/news/twice-member-instagram-post-coming-day-speculations/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T16:05:08Z",
-      "collected_at": "2026-10-11T22:01:48Z",
+      "collected_at": "2026-10-12T06:04:21Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -233,7 +355,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9237,
+        "recency": 0.8373,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -241,68 +363,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4593,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:95b674eb17d01d1c",
-      "platform": "news",
-      "platform_item_id": "95b674eb17d01d1c",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "i-dle’s Soyeon Exposes Harsh Reality Of The Music Industry",
-      "description": "i-dle member Soyeon surprised Kian84 by confessing the harsh reality of the music industry. On the afternoon of October 9th, a video titled “With Soyeon” was uploaded on the YouTube…",
-      "url": "https://www.koreaboo.com/news/idle-soyeon-exposes-harsh-reality-music-industry/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-11T14:39:30Z",
-      "collected_at": "2026-10-11T22:01:48Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [
-        "soyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "soyeon",
-          "alias": "Soyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9071,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5919,
+      "hot_score": 5.8552,
       "available": true
     },
     {
@@ -316,7 +377,7 @@
       "url": "https://www.soompi.com/article/1876900wpp/bts-blackpink-kpop-demon-hunters-and-katseye-nominated-for-2026-nickelodeon-kids-choice-awards",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T03:27:44Z",
-      "collected_at": "2026-10-11T22:01:48Z",
+      "collected_at": "2026-10-12T06:04:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -346,7 +407,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.795,
+        "recency": 0.7301,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -354,7 +415,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.559,
+      "hot_score": 5.1056,
       "available": true
     },
     {
@@ -368,7 +429,7 @@
       "url": "https://www.soompi.com/article/1876862wpp/watch-i-dles-soyeon-takes-3rd-win-for-im-gonna-toesa-on-music-core-performances-by-hwang-minhyun-kickflip-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T23:14:10Z",
-      "collected_at": "2026-10-11T22:01:48Z",
+      "collected_at": "2026-10-12T06:04:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -407,7 +468,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7595,
+        "recency": 0.7001,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -415,7 +476,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3568,
+      "hot_score": 5.8597,
       "available": true
     },
     {
@@ -429,7 +490,7 @@
       "url": "https://www.soompi.com/article/1876760wpp/sm-shares-update-on-aespas-giselles-health-after-she-leaves-stage-mid-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-10T07:33:39Z",
-      "collected_at": "2026-10-11T22:01:48Z",
+      "collected_at": "2026-10-12T06:04:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -468,7 +529,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6518,
+        "recency": 0.6075,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -476,59 +537,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4548,
-      "available": true
-    },
-    {
-      "id": "news:soompi:da169eebde837402",
-      "platform": "news",
-      "platform_item_id": "da169eebde837402",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: TWICE Introduces Official Characters TDOONGZ",
-      "description": "TWICE has unveiled their official character designs! On October 8, TWICE unveiled their official characters TDOONGZ. The announcement shares a link where fans can visit the “Dream Attic” to get to know TDOONGZ in depth. The attic introduces the designs and personalities for each character and shares their names IMNABONG, YUBBUIBBUI, MOKURING, SHYAM SHYAM, PARKZYONI,… Continue reading Watch: TWICE Introduces Official Characters TDOONGZ The post Watch: TWICE Introduces Official Characters TDOONGZ appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1876355wpp/watch-twice-introduces-official-characters-tdoongz",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-08T06:36:33Z",
-      "collected_at": "2026-10-11T22:01:48Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4516,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.1581,
+      "hot_score": 5.0846,
       "available": true
     },
     {
@@ -542,7 +551,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-11T22:01:48Z",
+      "collected_at": "2026-10-12T06:04:21Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -581,7 +590,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1335,
+        "recency": 0.1316,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -589,7 +598,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.1174,
+      "hot_score": 1.101,
       "available": true
     }
   ]
