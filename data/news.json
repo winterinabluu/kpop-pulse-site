@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-13T00:45:48Z",
+  "generated_at": "2026-10-13T14:17:31Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:a8683be58d18b5d5",
+      "id": "news:koreaboo:60671389e3782381",
       "platform": "news",
-      "platform_item_id": "a8683be58d18b5d5",
+      "platform_item_id": "60671389e3782381",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Article On BLACKPINK Lisa’s “Scandal” Sparks Heated Debate Linked To BTS",
-      "description": "The idol addressed the scandal in her documentary.",
-      "url": "https://www.koreaboo.com/news/popular-article-blackpink-lisas-scandal-sparks-heated-debate-bts/",
+      "title": "Heartbreaking Scene From BLACKPINK Lisa’s Documentary Sparks Hugely Mixed Reactions",
+      "description": "\"Humiliate herself...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-heartbreaking-scene-documentary-mixed-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-12T08:40:10Z",
-      "collected_at": "2026-10-13T00:45:48Z",
+      "published_at": "2026-10-13T11:10:10Z",
+      "collected_at": "2026-10-13T14:17:31Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8173,
+        "recency": 0.9584,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,129 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8403,
+      "hot_score": 8.0214,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:19cdadfea65ff4e0",
+      "platform": "news",
+      "platform_item_id": "19cdadfea65ff4e0",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Lisa’s Viral Comments On Her Singing Sparks Major Mocking",
+      "description": "\"At least she's self aware...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-comments-singing-backlash-viral/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-13T09:50:19Z",
+      "collected_at": "2026-10-13T14:17:31Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9417,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8817,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:f8e4237836db33c8",
+      "platform": "news",
+      "platform_item_id": "f8e4237836db33c8",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "“Sexualized” Photos Of TWICE’s Sana For Problematic Season’s Greetings Incites Major Fury",
+      "description": "\"Who approved that?\"",
+      "url": "https://www.koreaboo.com/news/twice-sana-sexualized-photo/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-13T08:50:05Z",
+      "collected_at": "2026-10-13T14:17:31Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "sana"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "sana",
+          "alias": "Sana",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9295,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7796,
       "available": true
     },
     {
@@ -82,7 +204,7 @@
       "url": "https://www.soompi.com/article/1877072wpp/rose-illit-aespa-babymonster-and-shaun-earn-riaj-platinum-certifications-for-streaming-in-japan",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T22:18:17Z",
-      "collected_at": "2026-10-13T00:45:48Z",
+      "collected_at": "2026-10-13T14:17:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -130,7 +252,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7313,
+        "recency": 0.6429,
         "views": 0,
         "engagement": 8.5,
         "source_weight": 0.55
@@ -138,7 +260,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2437,
+      "hot_score": 6.3687,
       "available": true
     },
     {
@@ -152,7 +274,7 @@
       "url": "https://www.soompi.com/article/1877065wpp/team-stray-kids-enhypen-cortis-illit-bts-evan-le-sserafim-ateez-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T18:36:45Z",
-      "collected_at": "2026-10-13T00:45:48Z",
+      "collected_at": "2026-10-13T14:17:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -190,7 +312,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7048,
+        "recency": 0.6224,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -198,7 +320,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7081,
+      "hot_score": 5.0405,
       "available": true
     },
     {
@@ -212,7 +334,7 @@
       "url": "https://www.soompi.com/article/1877046wpp/watch-i-dles-soyeon-snags-4th-win-for-im-gonna-toesa-on-inkigayo-performances-by-boynextdoor-allday-project-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-11T17:23:21Z",
-      "collected_at": "2026-10-13T00:45:48Z",
+      "collected_at": "2026-10-13T14:17:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -251,7 +373,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6965,
+        "recency": 0.6159,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -259,181 +381,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8292,
-      "available": true
-    },
-    {
-      "id": "news:soompi:b06a3dfe35f6b831",
-      "platform": "news",
-      "platform_item_id": "b06a3dfe35f6b831",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards",
-      "description": "The 2026 Nickelodeon Kids’ Choice Awards has announced this year’s nominees! This week, Nickelodeon revealed its list of nominations for the upcoming award ceremony, which will air live from Los Angeles next month. Both BTS and BLACKPINK have been nominated for Favorite Music Group, going up against fellow nominees Jonas Brothers, Maroon 5, Twenty One… Continue reading BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards The post BTS, BLACKPINK, “KPop Demon Hunters,” And KATSEYE Nominated For 2026 Nickelodeon Kids’ Choice Awards appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1876900wpp/bts-blackpink-kpop-demon-hunters-and-katseye-nominated-for-2026-nickelodeon-kids-choice-awards",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-11T03:27:44Z",
-      "collected_at": "2026-10-13T00:45:48Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.6138,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.2921,
-      "available": true
-    },
-    {
-      "id": "news:soompi:f53aaf7dcfdb0094",
-      "platform": "news",
-      "platform_item_id": "f53aaf7dcfdb0094",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More",
-      "description": "i-dle’s Soyeon has won a third music show trophy for her hit song “I’m gonna TOESA”! On the October 10 episode of MBC’s “Music Core,” the candidates for first place were BOYNEXTDOOR’s “ANIMAL,” Soyeon’s “I’m gonna TOESA,” and IU’s “Unknown Planet.” Soyeon ultimately took the win with a total of 6,670 points. Congratulations to Soyeon!… Continue reading Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More The post Watch: i-dle’s Soyeon Takes 3rd Win For “I’m gonna TOESA” On “Music Core”; Performances By Hwang Minhyun, KickFlip, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1876862wpp/watch-i-dles-soyeon-takes-3rd-win-for-im-gonna-toesa-on-music-core-performances-by-hwang-minhyun-kickflip-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-10T23:14:10Z",
-      "collected_at": "2026-10-13T00:45:48Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [
-        "soyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "soyeon",
-          "alias": "Soyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5925,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.9585,
-      "available": true
-    },
-    {
-      "id": "news:soompi:35d031686a5c1793",
-      "platform": "news",
-      "platform_item_id": "35d031686a5c1793",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "SM Shares Update On aespa’s Giselle’s Health After She Leaves Stage Mid-Concert",
-      "description": "SM Entertainment has released a statement on aespa’s Giselle’s health. During aespa’s concert in Seattle on October 9, Giselle unexpectedly left the stage midway through the concert due to her health, and the other members of the group wrapped up the show without her. Shortly afterwards, SM Entertainment released the following statement in English explaining… Continue reading SM Shares Update On aespa’s Giselle’s Health After She Leaves Stage Mid-Concert The post SM Shares Update On aespa’s Giselle’s Health After She Leaves Stage Mid-Concert appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1876760wpp/sm-shares-update-on-aespas-giselles-health-after-she-leaves-stage-mid-concert",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-10T07:33:39Z",
-      "collected_at": "2026-10-13T00:45:48Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "giselle"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "giselle",
-          "alias": "Giselle",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5248,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.392,
+      "hot_score": 5.1546,
       "available": true
     },
     {
@@ -447,7 +395,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-13T00:45:48Z",
+      "collected_at": "2026-10-13T14:17:31Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -486,7 +434,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1272,
+        "recency": 0.1242,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -494,7 +442,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.0646,
+      "hot_score": 1.0398,
       "available": true
     }
   ]
