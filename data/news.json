@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-14T04:59:10Z",
+  "generated_at": "2026-10-14T11:59:07Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:4922723b1905d873",
+      "id": "news:koreaboo:ab294fc49ea35971",
       "platform": "news",
-      "platform_item_id": "4922723b1905d873",
+      "platform_item_id": "ab294fc49ea35971",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa Karina’s Underboob “Wardrobe Malfunction” Triggers Mixed Reactions",
-      "description": "Some have asked for extra consideration for her outfits.",
-      "url": "https://www.koreaboo.com/news/aespa-karinas-underboob-wardrobe-malfunction-triggers-mixed-reactions/",
+      "title": "YG Entertainment’s New Update Spark Major Speculations About BLACKPINK’s Future",
+      "description": "\"It's over...\"",
+      "url": "https://www.koreaboo.com/news/yg-new-update-sparks-speculations-blackpink-future/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-13T23:09:30Z",
-      "collected_at": "2026-10-14T04:59:10Z",
+      "published_at": "2026-10-14T10:45:17Z",
+      "collected_at": "2026-10-14T11:59:07Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,52 +37,43 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "aespa"
+        "blackpink"
       ],
-      "matched_members": [
-        "karina"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "karina",
-          "alias": "Karina",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9251,
+        "recency": 0.9832,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7425,
+      "hot_score": 6.8751,
       "available": true
     },
     {
-      "id": "news:koreaboo:50e74f94483225e4",
+      "id": "news:koreaboo:50380152be59554b",
       "platform": "news",
-      "platform_item_id": "50e74f94483225e4",
+      "platform_item_id": "50380152be59554b",
       "source_type": "media",
       "content_kind": "news",
-      "title": "“Ugly” Photos Of IVE’s Jang Wonyoung Become A Hot Topic",
-      "description": "\"...imagine how an ordinary person would look in those photos.\"",
-      "url": "https://www.koreaboo.com/news/ugly-photos-ives-jang-wonyoung-become-hot-topic/",
+      "title": "Viral Post About BTS V And IVE Wonyoung’s Dating Rumors Trigger Heated Reactions",
+      "description": "\"Dating every K-Pop girl...\"",
+      "url": "https://www.koreaboo.com/news/viral-post-bts-v-ive-wonyoungs-dating-rumors-trigger-heated-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-13T19:01:07Z",
-      "collected_at": "2026-10-14T04:59:10Z",
+      "published_at": "2026-10-14T10:15:41Z",
+      "collected_at": "2026-10-14T11:59:07Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -118,17 +109,10 @@
           "alias": "Wonyoung",
           "field": "title",
           "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Jang Wonyoung",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8784,
+        "recency": 0.9766,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -136,7 +120,68 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.3515,
+      "hot_score": 8.1735,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:32471e1c841adf2a",
+      "platform": "news",
+      "platform_item_id": "32471e1c841adf2a",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Jennie’s New Interview Believed To “Proof” Of Dating Rumors With BTS’s V",
+      "description": "Some claimed denial, but others found it as \"proof.\"",
+      "url": "https://www.koreaboo.com/news/new-interview-seemingly-blackpink-jennie-bts-v-dating/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-14T08:50:46Z",
+      "collected_at": "2026-10-14T11:59:07Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9582,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0196,
       "available": true
     },
     {
@@ -150,7 +195,7 @@
       "url": "https://www.soompi.com/article/1877869wpp/blackpinks-rose-to-perform-at-2026-lacma-artfilm-gala",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T18:53:16Z",
-      "collected_at": "2026-10-14T04:59:10Z",
+      "collected_at": "2026-10-14T11:59:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -189,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.877,
+        "recency": 0.8081,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -197,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.3398,
+      "hot_score": 6.7632,
       "available": true
     },
     {
@@ -211,7 +256,7 @@
       "url": "https://www.soompi.com/article/1877860wpp/blackpinks-lisa-unveils-track-list-for-solo-ep-press-play",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T16:38:36Z",
-      "collected_at": "2026-10-14T04:59:10Z",
+      "collected_at": "2026-10-14T11:59:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -250,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8537,
+        "recency": 0.7882,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -258,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1445,
+      "hot_score": 6.597,
       "available": true
     },
     {
@@ -272,7 +317,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-14T04:59:10Z",
+      "collected_at": "2026-10-14T11:59:07Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -311,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1212,
+        "recency": 0.1198,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -319,7 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.0141,
+      "hot_score": 1.0023,
       "available": true
     }
   ]
