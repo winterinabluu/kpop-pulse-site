@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-13T22:49:23Z",
+  "generated_at": "2026-10-14T04:59:10Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,67 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:4922723b1905d873",
+      "platform": "news",
+      "platform_item_id": "4922723b1905d873",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa Karina’s Underboob “Wardrobe Malfunction” Triggers Mixed Reactions",
+      "description": "Some have asked for extra consideration for her outfits.",
+      "url": "https://www.koreaboo.com/news/aespa-karinas-underboob-wardrobe-malfunction-triggers-mixed-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-13T23:09:30Z",
+      "collected_at": "2026-10-14T04:59:10Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "karina"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "karina",
+          "alias": "Karina",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9251,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7425,
+      "available": true
+    },
     {
       "id": "news:koreaboo:50e74f94483225e4",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/ugly-photos-ives-jang-wonyoung-become-hot-topic/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T19:01:07Z",
-      "collected_at": "2026-10-13T22:49:23Z",
+      "collected_at": "2026-10-14T04:59:10Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -67,7 +128,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9498,
+        "recency": 0.8784,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -75,7 +136,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9492,
+      "hot_score": 7.3515,
       "available": true
     },
     {
@@ -89,7 +150,7 @@
       "url": "https://www.soompi.com/article/1877869wpp/blackpinks-rose-to-perform-at-2026-lacma-artfilm-gala",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T18:53:16Z",
-      "collected_at": "2026-10-13T22:49:23Z",
+      "collected_at": "2026-10-14T04:59:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -128,7 +189,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9482,
+        "recency": 0.877,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -136,7 +197,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9355,
+      "hot_score": 7.3398,
       "available": true
     },
     {
@@ -150,7 +211,7 @@
       "url": "https://www.soompi.com/article/1877860wpp/blackpinks-lisa-unveils-track-list-for-solo-ep-press-play",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T16:38:36Z",
-      "collected_at": "2026-10-13T22:49:23Z",
+      "collected_at": "2026-10-14T04:59:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -189,7 +250,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.921,
+        "recency": 0.8537,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -197,77 +258,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7077,
-      "available": true
-    },
-    {
-      "id": "news:soompi:c97e0f9ff154fc5f",
-      "platform": "news",
-      "platform_item_id": "c97e0f9ff154fc5f",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Rosé, ILLIT, aespa, BABYMONSTER, And Shaun Earn RIAJ Platinum Certifications For Streaming In Japan",
-      "description": "The Recording Industry Association of Japan (RIAJ) has announced its latest batch of official certifications! In 2020, the RIAJ implemented a new certification system for online streaming of songs, as an addition to its pre-existing certification systems for physical album shipments and digital download sales. According to the new system, songs are certified silver once… Continue reading Rosé, ILLIT, aespa, BABYMONSTER, And Shaun Earn RIAJ Platinum Certifications For Streaming In Japan The post Rosé, ILLIT, aespa, BABYMONSTER, And Shaun Earn RIAJ Platinum Certifications For Streaming In Japan appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1877072wpp/rose-illit-aespa-babymonster-and-shaun-earn-riaj-platinum-certifications-for-streaming-in-japan",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-11T22:18:17Z",
-      "collected_at": "2026-10-13T22:49:23Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa",
-        "blackpink",
-        "illit"
-      ],
-      "matched_members": [
-        "rose"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "rose",
-          "alias": "Rosé",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5974,
-        "views": 0,
-        "engagement": 8.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.9178,
+      "hot_score": 7.1445,
       "available": true
     },
     {
@@ -281,7 +272,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-13T22:49:23Z",
+      "collected_at": "2026-10-14T04:59:10Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -320,7 +311,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1224,
+        "recency": 0.1212,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -328,7 +319,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.0247,
+      "hot_score": 1.0141,
       "available": true
     }
   ]
