@@ -1,15 +1,67 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-14T11:59:07Z",
+  "generated_at": "2026-10-14T17:16:12Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:0f67cb946b86daf2",
+      "platform": "news",
+      "platform_item_id": "0f67cb946b86daf2",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: LE SSERAFIM Headlines Viki’s “Pass It On” Brand Campaign",
+      "description": "Rakuten Viki, the leading destination for Asian entertainment, has launched its new brand campaign, “Pass It On,” starring LE SSERAFIM! Inspired by the way fandom brings people together, the “Pass It On” campaign captures the excitement of discovering something you love and passing it on to the next fan. Through the campaign, Viki celebrates the… Continue reading Watch: LE SSERAFIM Headlines Viki’s “Pass It On” Brand Campaign The post Watch: LE SSERAFIM Headlines Viki’s “Pass It On” Brand Campaign appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1878074wpp/watch-le-sserafim-headlines-vikis-pass-it-on-brand-campaign",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-14T16:59:00Z",
+      "collected_at": "2026-10-14T17:16:12Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
     {
       "id": "news:koreaboo:ab294fc49ea35971",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/yg-new-update-sparks-speculations-blackpink-future/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T10:45:17Z",
-      "collected_at": "2026-10-14T11:59:07Z",
+      "collected_at": "2026-10-14T17:16:12Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9832,
+        "recency": 0.917,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,129 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8751,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:50380152be59554b",
-      "platform": "news",
-      "platform_item_id": "50380152be59554b",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Viral Post About BTS V And IVE Wonyoung’s Dating Rumors Trigger Heated Reactions",
-      "description": "\"Dating every K-Pop girl...\"",
-      "url": "https://www.koreaboo.com/news/viral-post-bts-v-ive-wonyoungs-dating-rumors-trigger-heated-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-14T10:15:41Z",
-      "collected_at": "2026-10-14T11:59:07Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9766,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.1735,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:32471e1c841adf2a",
-      "platform": "news",
-      "platform_item_id": "32471e1c841adf2a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jennie’s New Interview Believed To “Proof” Of Dating Rumors With BTS’s V",
-      "description": "Some claimed denial, but others found it as \"proof.\"",
-      "url": "https://www.koreaboo.com/news/new-interview-seemingly-blackpink-jennie-bts-v-dating/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-14T08:50:46Z",
-      "collected_at": "2026-10-14T11:59:07Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9582,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0196,
+      "hot_score": 6.4123,
       "available": true
     },
     {
@@ -195,7 +125,7 @@
       "url": "https://www.soompi.com/article/1877869wpp/blackpinks-rose-to-perform-at-2026-lacma-artfilm-gala",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T18:53:16Z",
-      "collected_at": "2026-10-14T11:59:07Z",
+      "collected_at": "2026-10-14T17:16:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8081,
+        "recency": 0.7629,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7632,
+      "hot_score": 6.3845,
       "available": true
     },
     {
@@ -251,12 +181,12 @@
       "platform_item_id": "6295335ce0c64d3d",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Unveils Track List For Solo EP “PRESS PLAY”",
-      "description": "BLACKPINK’s Lisa has released the track list for her upcoming EP “PRESS PLAY”! Last month, Lisa made her solo return with the pre-release single “SaWaDiKa,” which became the fastest music video of 2026 to surpass 100 million views and the first 2026 music video by a K-pop artist to hit 200 million views on YouTube.… Continue reading BLACKPINK’s Lisa Unveils Track List For Solo EP “PRESS PLAY” The post BLACKPINK’s Lisa Unveils Track List For Solo EP “PRESS PLAY” appeared first on Soompi .",
+      "title": "Update: BLACKPINK’s Lisa Reveals Sneak Peek Of Upcoming Song “Tarantino”",
+      "description": "Updated October 14 KST: BLACKPINK’s Lisa has released a new preview of her upcoming song “Tarantino”! Original Article: BLACKPINK’s Lisa has released the track list for her upcoming EP “PRESS PLAY”! Last month, Lisa made her solo return with the pre-release single “SaWaDiKa,” which became the fastest music video of 2026 to surpass 100 million… Continue reading Update: BLACKPINK’s Lisa Reveals Sneak Peek Of Upcoming Song “Tarantino” The post Update: BLACKPINK’s Lisa Reveals Sneak Peek Of Upcoming Song “Tarantino” appeared first on Soompi .",
       "url": "https://www.soompi.com/article/1877860wpp/blackpinks-lisa-unveils-track-list-for-solo-ep-press-play",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T16:38:36Z",
-      "collected_at": "2026-10-14T11:59:07Z",
+      "collected_at": "2026-10-14T17:16:12Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -295,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7882,
+        "recency": 0.7451,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -303,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.597,
+      "hot_score": 6.2362,
       "available": true
     },
     {
@@ -317,7 +247,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-14T11:59:07Z",
+      "collected_at": "2026-10-14T17:16:12Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -356,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1198,
+        "recency": 0.1187,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -364,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.0023,
+      "hot_score": 0.9935,
       "available": true
     }
   ]
