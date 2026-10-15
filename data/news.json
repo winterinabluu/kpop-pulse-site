@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-14T21:44:42Z",
+  "generated_at": "2026-10-15T04:46:59Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,68 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:67cd23e0223ad2f6",
+      "platform": "news",
+      "platform_item_id": "67cd23e0223ad2f6",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "&TEAM, CLOSE YOUR EYES, RESCENE, Soyeon, ILLIT, And More Top Circle Monthly And Weekly Charts",
+      "description": "Circle Chart has revealed its latest monthly and weekly chart rankings! Monthly Album Chart &TEAM topped the physical album chart for September with their new Korean mini album “Mark on Me,” which debuted at No. 1 on the monthly chart. CLOSE YOUR EYES’ new mini album “256th Note” entered the monthly chart at No. 2,… Continue reading &TEAM, CLOSE YOUR EYES, RESCENE, Soyeon, ILLIT, And More Top Circle Monthly And Weekly Charts The post &TEAM, CLOSE YOUR EYES, RESCENE, Soyeon, ILLIT, And More Top Circle Monthly And Weekly Charts appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1878424wpp/team-close-your-eyes-rescene-soyeon-illit-and-more-top-circle-monthly-and-weekly-charts",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-14T22:31:47Z",
+      "collected_at": "2026-10-15T04:46:59Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle",
+        "illit"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9201,
+        "views": 0,
+        "engagement": 7.1,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.4687,
+      "available": true
+    },
     {
       "id": "news:soompi:0f67cb946b86daf2",
       "platform": "news",
@@ -21,7 +83,7 @@
       "url": "https://www.soompi.com/article/1878074wpp/watch-le-sserafim-headlines-vikis-pass-it-on-brand-campaign",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T16:59:00Z",
-      "collected_at": "2026-10-14T21:44:42Z",
+      "collected_at": "2026-10-15T04:46:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +113,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.938,
+        "recency": 0.8592,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,59 +121,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5589,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:ab294fc49ea35971",
-      "platform": "news",
-      "platform_item_id": "ab294fc49ea35971",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "YG Entertainment’s New Update Spark Major Speculations About BLACKPINK’s Future",
-      "description": "\"It's over...\"",
-      "url": "https://www.koreaboo.com/news/yg-new-update-sparks-speculations-blackpink-future/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-14T10:45:17Z",
-      "collected_at": "2026-10-14T21:44:42Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8676,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.0666,
+      "hot_score": 6.008,
       "available": true
     },
     {
@@ -125,7 +135,7 @@
       "url": "https://www.soompi.com/article/1877869wpp/blackpinks-rose-to-perform-at-2026-lacma-artfilm-gala",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T18:53:16Z",
-      "collected_at": "2026-10-14T21:44:42Z",
+      "collected_at": "2026-10-15T04:46:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +174,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7283,
+        "recency": 0.6799,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -172,7 +182,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0955,
+      "hot_score": 5.6904,
       "available": true
     },
     {
@@ -186,7 +196,7 @@
       "url": "https://www.soompi.com/article/1877860wpp/blackpinks-lisa-unveils-track-list-for-solo-ep-press-play",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T16:38:36Z",
-      "collected_at": "2026-10-14T21:44:42Z",
+      "collected_at": "2026-10-15T04:46:59Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +235,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7122,
+        "recency": 0.6658,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -233,7 +243,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9602,
+      "hot_score": 5.5723,
       "available": true
     },
     {
@@ -247,7 +257,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-14T21:44:42Z",
+      "collected_at": "2026-10-15T04:46:59Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -286,7 +296,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1178,
+        "recency": 0.1165,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -294,7 +304,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.9863,
+      "hot_score": 0.975,
       "available": true
     }
   ]
