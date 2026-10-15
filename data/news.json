@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-15T11:35:43Z",
+  "generated_at": "2026-10-15T17:05:18Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisas-alleged-boyfriend-spotted-idol-in-new-video/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-15T10:55:32Z",
-      "collected_at": "2026-10-15T11:35:43Z",
+      "collected_at": "2026-10-15T17:05:18Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9211,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,68 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:4bbc8578c9ba1ad9",
-      "platform": "news",
-      "platform_item_id": "4bbc8578c9ba1ad9",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa’s New Song Teaser Snippet Sparks Wave Of Huge Criticism",
-      "description": "Netizens didn't hold back.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-new-song-snippet-criticism/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-15T08:20:22Z",
-      "collected_at": "2026-10-15T11:35:43Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9567,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.0071,
+      "hot_score": 7.7094,
       "available": true
     },
     {
@@ -143,7 +82,7 @@
       "url": "https://www.soompi.com/article/1878424wpp/team-close-your-eyes-rescene-soyeon-illit-and-more-top-circle-monthly-and-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T22:31:47Z",
-      "collected_at": "2026-10-15T11:35:43Z",
+      "collected_at": "2026-10-15T17:05:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -183,7 +122,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8464,
+        "recency": 0.7951,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -191,7 +130,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7905,
+      "hot_score": 7.3179,
       "available": true
     },
     {
@@ -205,7 +144,7 @@
       "url": "https://www.soompi.com/article/1878074wpp/watch-le-sserafim-headlines-vikis-pass-it-on-brand-campaign",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T16:59:00Z",
-      "collected_at": "2026-10-15T11:35:43Z",
+      "collected_at": "2026-10-15T17:05:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -235,7 +174,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7946,
+        "recency": 0.7492,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -243,7 +182,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5563,
+      "hot_score": 5.2387,
       "available": true
     },
     {
@@ -257,7 +196,7 @@
       "url": "https://www.soompi.com/article/1877869wpp/blackpinks-rose-to-perform-at-2026-lacma-artfilm-gala",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T18:53:16Z",
-      "collected_at": "2026-10-15T11:35:43Z",
+      "collected_at": "2026-10-15T17:05:18Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -296,7 +235,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6388,
+        "recency": 0.6091,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -304,68 +243,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3465,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6295335ce0c64d3d",
-      "platform": "news",
-      "platform_item_id": "6295335ce0c64d3d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Update: BLACKPINK’s Lisa Reveals Sneak Peek Of Upcoming Song “Tarantino”",
-      "description": "Updated October 14 KST: BLACKPINK’s Lisa has released a new preview of her upcoming song “Tarantino”! Original Article: BLACKPINK’s Lisa has released the track list for her upcoming EP “PRESS PLAY”! Last month, Lisa made her solo return with the pre-release single “SaWaDiKa,” which became the fastest music video of 2026 to surpass 100 million… Continue reading Update: BLACKPINK’s Lisa Reveals Sneak Peek Of Upcoming Song “Tarantino” The post Update: BLACKPINK’s Lisa Reveals Sneak Peek Of Upcoming Song “Tarantino” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1877860wpp/blackpinks-lisa-unveils-track-list-for-solo-ep-press-play",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-13T16:38:36Z",
-      "collected_at": "2026-10-15T11:35:43Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.6263,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.2421,
+      "hot_score": 5.098,
       "available": true
     },
     {
@@ -379,7 +257,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-15T11:35:43Z",
+      "collected_at": "2026-10-15T17:05:18Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -418,7 +296,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1152,
+        "recency": 0.1142,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -426,7 +304,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.9644,
+      "hot_score": 0.956,
       "available": true
     }
   ]
