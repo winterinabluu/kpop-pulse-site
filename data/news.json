@@ -1,15 +1,137 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-15T04:46:59Z",
+  "generated_at": "2026-10-15T11:35:43Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:76d92ee9f328a1b7",
+      "platform": "news",
+      "platform_item_id": "76d92ee9f328a1b7",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Lisa’s Alleged Boyfriend Makes Unexpected Appearance With Idol In New Video",
+      "description": "He shared words of encouragement.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisas-alleged-boyfriend-spotted-idol-in-new-video/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-15T10:55:32Z",
+      "collected_at": "2026-10-15T11:35:43Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:4bbc8578c9ba1ad9",
+      "platform": "news",
+      "platform_item_id": "4bbc8578c9ba1ad9",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK Lisa’s New Song Teaser Snippet Sparks Wave Of Huge Criticism",
+      "description": "Netizens didn't hold back.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-new-song-snippet-criticism/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-15T08:20:22Z",
+      "collected_at": "2026-10-15T11:35:43Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9567,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.0071,
+      "available": true
+    },
     {
       "id": "news:soompi:67cd23e0223ad2f6",
       "platform": "news",
@@ -21,7 +143,7 @@
       "url": "https://www.soompi.com/article/1878424wpp/team-close-your-eyes-rescene-soyeon-illit-and-more-top-circle-monthly-and-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T22:31:47Z",
-      "collected_at": "2026-10-15T04:46:59Z",
+      "collected_at": "2026-10-15T11:35:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -61,7 +183,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9201,
+        "recency": 0.8464,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -69,7 +191,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.4687,
+      "hot_score": 7.7905,
       "available": true
     },
     {
@@ -83,7 +205,7 @@
       "url": "https://www.soompi.com/article/1878074wpp/watch-le-sserafim-headlines-vikis-pass-it-on-brand-campaign",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T16:59:00Z",
-      "collected_at": "2026-10-15T04:46:59Z",
+      "collected_at": "2026-10-15T11:35:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -113,7 +235,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8592,
+        "recency": 0.7946,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -121,7 +243,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.008,
+      "hot_score": 5.5563,
       "available": true
     },
     {
@@ -135,7 +257,7 @@
       "url": "https://www.soompi.com/article/1877869wpp/blackpinks-rose-to-perform-at-2026-lacma-artfilm-gala",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T18:53:16Z",
-      "collected_at": "2026-10-15T04:46:59Z",
+      "collected_at": "2026-10-15T11:35:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -174,7 +296,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6799,
+        "recency": 0.6388,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -182,7 +304,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6904,
+      "hot_score": 5.3465,
       "available": true
     },
     {
@@ -196,7 +318,7 @@
       "url": "https://www.soompi.com/article/1877860wpp/blackpinks-lisa-unveils-track-list-for-solo-ep-press-play",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-13T16:38:36Z",
-      "collected_at": "2026-10-15T04:46:59Z",
+      "collected_at": "2026-10-15T11:35:43Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -235,7 +357,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6658,
+        "recency": 0.6263,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -243,7 +365,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5723,
+      "hot_score": 5.2421,
       "available": true
     },
     {
@@ -257,7 +379,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-15T04:46:59Z",
+      "collected_at": "2026-10-15T11:35:43Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -296,7 +418,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1165,
+        "recency": 0.1152,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -304,7 +426,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.975,
+      "hot_score": 0.9644,
       "available": true
     }
   ]
