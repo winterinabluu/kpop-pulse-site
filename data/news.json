@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-16T11:29:57Z",
+  "generated_at": "2026-10-16T16:43:00Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jennie-new-announcement-incites-brutal-criticism-towards-idols-morals/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-16T10:30:44Z",
-      "collected_at": "2026-10-16T11:29:57Z",
+      "collected_at": "2026-10-16T16:43:00Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9207,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.7052,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/illit-photos-plagiarizing-popular-girl-group/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-16T09:20:43Z",
-      "collected_at": "2026-10-16T11:29:57Z",
+      "collected_at": "2026-10-16T16:43:00Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9709,
+        "recency": 0.9071,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.7895,
+      "hot_score": 6.3432,
       "available": true
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.koreaboo.com/news/viral-photos-blackpink-lisa-rumored-boyfriend-divided-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-16T08:45:19Z",
-      "collected_at": "2026-10-16T11:29:57Z",
+      "collected_at": "2026-10-16T16:43:00Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -173,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9633,
+        "recency": 0.9004,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.062,
+      "hot_score": 7.5359,
       "available": true
     },
     {
@@ -195,7 +195,7 @@
       "url": "https://www.koreaboo.com/news/jyp-actions-twice-jeongyeon-fury/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-16T08:05:05Z",
-      "collected_at": "2026-10-16T11:29:57Z",
+      "collected_at": "2026-10-16T16:43:00Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -234,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9547,
+        "recency": 0.8929,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.9903,
+      "hot_score": 7.4733,
       "available": true
     },
     {
@@ -256,7 +256,7 @@
       "url": "https://www.soompi.com/article/1876346wpp/win-signed-polaroids-from-le-sserafim-in-vikis-pass-it-on-giveaway-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-15T17:30:00Z",
-      "collected_at": "2026-10-16T11:29:57Z",
+      "collected_at": "2026-10-16T16:43:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8,
+        "recency": 0.7562,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5942,
+      "hot_score": 5.2876,
       "available": true
     },
     {
@@ -308,7 +308,7 @@
       "url": "https://www.soompi.com/article/1878424wpp/team-close-your-eyes-rescene-soyeon-illit-and-more-top-circle-monthly-and-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T22:31:47Z",
-      "collected_at": "2026-10-16T11:29:57Z",
+      "collected_at": "2026-10-16T16:43:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -348,7 +348,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6607,
+        "recency": 0.6305,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -356,7 +356,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0815,
+      "hot_score": 5.8036,
       "available": true
     },
     {
@@ -370,7 +370,7 @@
       "url": "https://www.soompi.com/article/1878074wpp/watch-le-sserafim-headlines-vikis-pass-it-on-brand-campaign",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T16:59:00Z",
-      "collected_at": "2026-10-16T11:29:57Z",
+      "collected_at": "2026-10-16T16:43:00Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -400,7 +400,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6287,
+        "recency": 0.6013,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -408,7 +408,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3965,
+      "hot_score": 4.2049,
       "available": true
     },
     {
@@ -422,7 +422,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-16T11:29:57Z",
+      "collected_at": "2026-10-16T16:43:00Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -461,7 +461,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.111,
+        "recency": 0.1101,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -469,7 +469,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.9289,
+      "hot_score": 0.9214,
       "available": true
     }
   ]
