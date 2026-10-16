@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-15T21:27:18Z",
+  "generated_at": "2026-10-16T04:37:13Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1876346wpp/win-signed-polaroids-from-le-sserafim-in-vikis-pass-it-on-giveaway-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-15T17:30:00Z",
-      "collected_at": "2026-10-15T21:27:18Z",
+      "collected_at": "2026-10-16T04:37:13Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9479,
+        "recency": 0.8662,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6285,
+      "hot_score": 6.0571,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1878424wpp/team-close-your-eyes-rescene-soyeon-illit-and-more-top-circle-monthly-and-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T22:31:47Z",
-      "collected_at": "2026-10-15T21:27:18Z",
+      "collected_at": "2026-10-16T04:37:13Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -113,7 +113,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7585,
+        "recency": 0.7053,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -121,7 +121,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.9813,
+      "hot_score": 6.4913,
       "available": true
     },
     {
@@ -135,7 +135,7 @@
       "url": "https://www.soompi.com/article/1878074wpp/watch-le-sserafim-headlines-vikis-pass-it-on-brand-campaign",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T16:59:00Z",
-      "collected_at": "2026-10-15T21:27:18Z",
+      "collected_at": "2026-10-16T04:37:13Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -165,7 +165,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7166,
+        "recency": 0.6689,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -173,7 +173,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.011,
+      "hot_score": 4.6775,
       "available": true
     },
     {
@@ -187,7 +187,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-15T21:27:18Z",
+      "collected_at": "2026-10-16T04:37:13Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -226,7 +226,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1134,
+        "recency": 0.1122,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -234,7 +234,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.9494,
+      "hot_score": 0.9388,
       "available": true
     }
   ]
