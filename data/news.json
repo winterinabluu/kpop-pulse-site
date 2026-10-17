@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-17T04:33:54Z",
+  "generated_at": "2026-10-17T10:50:04Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1877709wpp/10-dramas-on-le-sserafims-watchlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-16T17:30:00Z",
-      "collected_at": "2026-10-17T04:33:54Z",
+      "collected_at": "2026-10-17T10:50:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8668,
+        "recency": 0.806,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0611,
+      "hot_score": 5.6358,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1876346wpp/win-signed-polaroids-from-le-sserafim-in-vikis-pass-it-on-giveaway-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-15T17:30:00Z",
-      "collected_at": "2026-10-17T04:33:54Z",
+      "collected_at": "2026-10-17T10:50:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6725,
+        "recency": 0.6353,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,69 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7025,
-      "available": true
-    },
-    {
-      "id": "news:soompi:67cd23e0223ad2f6",
-      "platform": "news",
-      "platform_item_id": "67cd23e0223ad2f6",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "&TEAM, CLOSE YOUR EYES, RESCENE, Soyeon, ILLIT, And More Top Circle Monthly And Weekly Charts",
-      "description": "Circle Chart has revealed its latest monthly and weekly chart rankings! Monthly Album Chart &TEAM topped the physical album chart for September with their new Korean mini album “Mark on Me,” which debuted at No. 1 on the monthly chart. CLOSE YOUR EYES’ new mini album “256th Note” entered the monthly chart at No. 2,… Continue reading &TEAM, CLOSE YOUR EYES, RESCENE, Soyeon, ILLIT, And More Top Circle Monthly And Weekly Charts The post &TEAM, CLOSE YOUR EYES, RESCENE, Soyeon, ILLIT, And More Top Circle Monthly And Weekly Charts appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1878424wpp/team-close-your-eyes-rescene-soyeon-illit-and-more-top-circle-monthly-and-weekly-charts",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-14T22:31:47Z",
-      "collected_at": "2026-10-17T04:33:54Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle",
-        "illit"
-      ],
-      "matched_members": [
-        "soyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "soyeon",
-          "alias": "Soyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5713,
-        "views": 0,
-        "engagement": 7.1,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.2581,
+      "hot_score": 4.4423,
       "available": true
     },
     {
@@ -187,7 +125,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-17T04:33:54Z",
+      "collected_at": "2026-10-17T10:50:04Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -226,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1081,
+        "recency": 0.1071,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -234,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.9051,
+      "hot_score": 0.8966,
       "available": true
     }
   ]
