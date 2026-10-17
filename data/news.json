@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-16T21:15:28Z",
+  "generated_at": "2026-10-17T04:33:54Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1877709wpp/10-dramas-on-le-sserafims-watchlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-16T17:30:00Z",
-      "collected_at": "2026-10-16T21:15:28Z",
+      "collected_at": "2026-10-17T04:33:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9504,
+        "recency": 0.8668,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6458,
+      "hot_score": 6.0611,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1876346wpp/win-signed-polaroids-from-le-sserafim-in-vikis-pass-it-on-giveaway-event",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-15T17:30:00Z",
-      "collected_at": "2026-10-16T21:15:28Z",
+      "collected_at": "2026-10-17T04:33:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7217,
+        "recency": 0.6725,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0469,
+      "hot_score": 4.7025,
       "available": true
     },
     {
@@ -125,7 +125,7 @@
       "url": "https://www.soompi.com/article/1878424wpp/team-close-your-eyes-rescene-soyeon-illit-and-more-top-circle-monthly-and-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-14T22:31:47Z",
-      "collected_at": "2026-10-16T21:15:28Z",
+      "collected_at": "2026-10-17T04:33:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -165,7 +165,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6064,
+        "recency": 0.5713,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -173,59 +173,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5817,
-      "available": true
-    },
-    {
-      "id": "news:soompi:0f67cb946b86daf2",
-      "platform": "news",
-      "platform_item_id": "0f67cb946b86daf2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: LE SSERAFIM Headlines Viki’s “Pass It On” Brand Campaign",
-      "description": "Rakuten Viki, the leading destination for Asian entertainment, has launched its new brand campaign, “Pass It On,” starring LE SSERAFIM! Inspired by the way fandom brings people together, the “Pass It On” campaign captures the excitement of discovering something you love and passing it on to the next fan. Through the campaign, Viki celebrates the… Continue reading Watch: LE SSERAFIM Headlines Viki’s “Pass It On” Brand Campaign The post Watch: LE SSERAFIM Headlines Viki’s “Pass It On” Brand Campaign appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1878074wpp/watch-le-sserafim-headlines-vikis-pass-it-on-brand-campaign",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-14T16:59:00Z",
-      "collected_at": "2026-10-16T21:15:28Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5794,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.0513,
+      "hot_score": 5.2581,
       "available": true
     },
     {
@@ -239,7 +187,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-16T21:15:28Z",
+      "collected_at": "2026-10-17T04:33:54Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -278,7 +226,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1093,
+        "recency": 0.1081,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -286,7 +234,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.9151,
+      "hot_score": 0.9051,
       "available": true
     }
   ]
