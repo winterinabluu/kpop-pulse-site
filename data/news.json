@@ -1,189 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-19T13:25:53Z",
+  "generated_at": "2026-10-19T22:23:50Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:2b01531049171f56",
-      "platform": "news",
-      "platform_item_id": "2b01531049171f56",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE Member’s Unexpected “Relationship Reveal” Is Going Viral",
-      "description": "\"The greed...\"",
-      "url": "https://www.koreaboo.com/news/twice-member-relationship-reveal-viral/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-19T10:00:16Z",
-      "collected_at": "2026-10-19T13:25:53Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9546,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.6749,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:6a274cc32f21e693",
-      "platform": "news",
-      "platform_item_id": "6a274cc32f21e693",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "LE SSERAFIM Sakura Has Another “Underboob” Reveal — Triggering Wave Of Speculation",
-      "description": "\"She definitely saw what happened...\"",
-      "url": "https://www.koreaboo.com/news/le-sserafim-sakura-underboob-moment-speculations/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-19T08:40:36Z",
-      "collected_at": "2026-10-19T13:25:53Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "sakura"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "sakura",
-          "alias": "Sakura",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.938,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.8508,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:43bbe64d096df4a2",
-      "platform": "news",
-      "platform_item_id": "43bbe64d096df4a2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Jennie Gets Massively Bodyshamed Over Social Media Update",
-      "description": "She had shared the picture on her social media.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-gets-massively-bodyshamed-social-media-update/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-19T01:48:30Z",
-      "collected_at": "2026-10-19T13:25:53Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.861,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.206,
-      "available": true
-    },
     {
       "id": "news:soompi:6574a777a8cfc2e1",
       "platform": "news",
@@ -195,7 +21,7 @@
       "url": "https://www.soompi.com/article/1879304wpp/stray-kids-enhypen-boynextdoor-alpha-drive-one-team-cortis-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-18T17:16:30Z",
-      "collected_at": "2026-10-19T13:25:53Z",
+      "collected_at": "2026-10-19T22:23:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7813,
+        "recency": 0.712,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -233,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4632,
+      "hot_score": 4.9788,
       "available": true
     },
     {
@@ -247,7 +73,7 @@
       "url": "https://www.soompi.com/article/1879277wpp/illits-iroha-injures-ankle-ahead-of-tonights-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-18T08:38:21Z",
-      "collected_at": "2026-10-19T13:25:53Z",
+      "collected_at": "2026-10-19T22:23:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7143,
+        "recency": 0.656,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -294,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9785,
+      "hot_score": 5.4901,
       "available": true
     },
     {
@@ -308,7 +134,7 @@
       "url": "https://www.soompi.com/article/1877709wpp/10-dramas-on-le-sserafims-watchlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-16T17:30:00Z",
-      "collected_at": "2026-10-19T13:25:53Z",
+      "collected_at": "2026-10-19T22:23:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -338,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5145,
+        "recency": 0.4836,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -346,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.598,
+      "hot_score": 3.3813,
       "available": true
     },
     {
@@ -360,7 +186,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-19T13:25:53Z",
+      "collected_at": "2026-10-19T22:23:50Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -399,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0996,
+        "recency": 0.0984,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -407,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8338,
+      "hot_score": 0.8236,
       "available": true
     }
   ]
