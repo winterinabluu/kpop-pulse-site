@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-19T04:47:38Z",
+  "generated_at": "2026-10-19T13:25:53Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,119 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:2b01531049171f56",
+      "platform": "news",
+      "platform_item_id": "2b01531049171f56",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE Member’s Unexpected “Relationship Reveal” Is Going Viral",
+      "description": "\"The greed...\"",
+      "url": "https://www.koreaboo.com/news/twice-member-relationship-reveal-viral/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-19T10:00:16Z",
+      "collected_at": "2026-10-19T13:25:53Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9546,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.6749,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:6a274cc32f21e693",
+      "platform": "news",
+      "platform_item_id": "6a274cc32f21e693",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "LE SSERAFIM Sakura Has Another “Underboob” Reveal — Triggering Wave Of Speculation",
+      "description": "\"She definitely saw what happened...\"",
+      "url": "https://www.koreaboo.com/news/le-sserafim-sakura-underboob-moment-speculations/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-19T08:40:36Z",
+      "collected_at": "2026-10-19T13:25:53Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "sakura"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "sakura",
+          "alias": "Sakura",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.938,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8508,
+      "available": true
+    },
     {
       "id": "news:koreaboo:43bbe64d096df4a2",
       "platform": "news",
@@ -21,7 +134,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jennie-gets-massively-bodyshamed-social-media-update/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-19T01:48:30Z",
-      "collected_at": "2026-10-19T04:47:38Z",
+      "collected_at": "2026-10-19T13:25:53Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9602,
+        "recency": 0.861,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,111 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.036,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:a7b41cb085f9fc3d",
-      "platform": "news",
-      "platform_item_id": "a7b41cb085f9fc3d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT’s “Completely Empty” Concert Sparks Buzz Online",
-      "description": "Did they overestimate their popularity?",
-      "url": "https://www.koreaboo.com/news/illits-completely-empty-concert-sparks-buzz-online/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-18T23:56:14Z",
-      "collected_at": "2026-10-19T04:47:38Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9368,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.5507,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:cca8b4e0e677367a",
-      "platform": "news",
-      "platform_item_id": "cca8b4e0e677367a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT’s Comeback Accused Of Sexualizing Uniforms",
-      "description": "Their comeback features a police theme.",
-      "url": "https://www.koreaboo.com/news/illit-accused-sexualizing-police-uniforms/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-18T23:46:16Z",
-      "collected_at": "2026-10-19T04:47:38Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9348,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.5366,
+      "hot_score": 7.206,
       "available": true
     },
     {
@@ -186,7 +195,7 @@
       "url": "https://www.soompi.com/article/1879304wpp/stray-kids-enhypen-boynextdoor-alpha-drive-one-team-cortis-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-18T17:16:30Z",
-      "collected_at": "2026-10-19T04:47:38Z",
+      "collected_at": "2026-10-19T13:25:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -216,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8621,
+        "recency": 0.7813,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -224,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0282,
+      "hot_score": 5.4632,
       "available": true
     },
     {
@@ -238,7 +247,7 @@
       "url": "https://www.soompi.com/article/1879277wpp/illits-iroha-injures-ankle-ahead-of-tonights-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-18T08:38:21Z",
-      "collected_at": "2026-10-19T04:47:38Z",
+      "collected_at": "2026-10-19T13:25:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -277,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7813,
+        "recency": 0.7143,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -285,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5389,
+      "hot_score": 5.9785,
       "available": true
     },
     {
@@ -299,7 +308,7 @@
       "url": "https://www.soompi.com/article/1877709wpp/10-dramas-on-le-sserafims-watchlist",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-16T17:30:00Z",
-      "collected_at": "2026-10-19T04:47:38Z",
+      "collected_at": "2026-10-19T13:25:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -329,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5484,
+        "recency": 0.5145,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -337,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.8347,
+      "hot_score": 3.598,
       "available": true
     },
     {
@@ -351,7 +360,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-19T04:47:38Z",
+      "collected_at": "2026-10-19T13:25:53Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -390,7 +399,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1008,
+        "recency": 0.0996,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -398,7 +407,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8439,
+      "hot_score": 0.8338,
       "available": true
     }
   ]
