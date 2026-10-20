@@ -1,15 +1,76 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-20T04:56:21Z",
+  "generated_at": "2026-10-20T11:44:40Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 4,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:1fbb3e568695f4ac",
+      "platform": "news",
+      "platform_item_id": "1fbb3e568695f4ac",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Viral Photos Allegedly Of BLACKPINK Lisa And Rumored Boyfriend Together Spark Controversy",
+      "description": "The two have been spotted together a lot recently.",
+      "url": "https://www.koreaboo.com/news/alleged-viral-photos-blackpink-lisa-rumored-boyfriend-spark-controversy/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-20T10:40:10Z",
+      "collected_at": "2026-10-20T11:44:40Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9853,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2461,
+      "available": true
+    },
     {
       "id": "news:soompi:6574a777a8cfc2e1",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1879304wpp/stray-kids-enhypen-boynextdoor-alpha-drive-one-team-cortis-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-18T17:16:30Z",
-      "collected_at": "2026-10-20T04:56:21Z",
+      "collected_at": "2026-10-20T11:44:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6687,
+        "recency": 0.629,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6763,
+      "hot_score": 4.3983,
       "available": true
     },
     {
@@ -73,7 +134,7 @@
       "url": "https://www.soompi.com/article/1879277wpp/illits-iroha-injures-ankle-ahead-of-tonights-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-18T08:38:21Z",
-      "collected_at": "2026-10-20T04:56:21Z",
+      "collected_at": "2026-10-20T11:44:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6191,
+        "recency": 0.5849,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1813,
+      "hot_score": 4.8949,
       "available": true
     },
     {
@@ -134,7 +195,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-20T04:56:21Z",
+      "collected_at": "2026-10-20T11:44:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -173,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0975,
+        "recency": 0.0966,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8163,
+      "hot_score": 0.8089,
       "available": true
     }
   ]
