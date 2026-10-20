@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-20T17:13:46Z",
+  "generated_at": "2026-10-20T21:40:30Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1879985wpp/quiz-which-le-sserafim-members-drama-taste-matches-yours",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T16:00:00Z",
-      "collected_at": "2026-10-20T17:13:46Z",
+      "collected_at": "2026-10-20T21:40:30Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9832,
+        "recency": 0.9269,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8752,
+      "hot_score": 6.4817,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/alleged-viral-photos-blackpink-lisa-rumored-boyfriend-spark-controversy/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T10:40:10Z",
-      "collected_at": "2026-10-20T17:13:46Z",
+      "collected_at": "2026-10-20T21:40:30Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9165,
+        "recency": 0.8674,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,59 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6704,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6574a777a8cfc2e1",
-      "platform": "news",
-      "platform_item_id": "6574a777a8cfc2e1",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Stray Kids, ENHYPEN, BOYNEXTDOOR, ALPHA DRIVE ONE, &TEAM, CORTIS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on October 17! Stray Kids’ latest mini album “THIS & THAT” returned to the top of the World Albums chart this week, marking its seventh non-consecutive week at No. 1. “THIS & THAT” also climbed back up into the top 30 in its ninth… Continue reading Stray Kids, ENHYPEN, BOYNEXTDOOR, ALPHA DRIVE ONE, &TEAM, CORTIS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, ENHYPEN, BOYNEXTDOOR, ALPHA DRIVE ONE, &TEAM, CORTIS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1879304wpp/stray-kids-enhypen-boynextdoor-alpha-drive-one-team-cortis-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-18T17:16:30Z",
-      "collected_at": "2026-10-20T17:13:46Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.6002,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.1972,
+      "hot_score": 7.2596,
       "available": true
     },
     {
@@ -186,7 +134,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-20T17:13:46Z",
+      "collected_at": "2026-10-20T21:40:30Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -225,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0959,
+        "recency": 0.0954,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -233,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8029,
+      "hot_score": 0.7982,
       "available": true
     }
   ]
