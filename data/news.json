@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-20T11:44:40Z",
+  "generated_at": "2026-10-20T17:13:46Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,58 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:fec1d7400f932a13",
+      "platform": "news",
+      "platform_item_id": "fec1d7400f932a13",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "QUIZ: Which LE SSERAFIM Member’s Drama Taste Matches Yours?",
+      "description": "Looking for something to watch? In celebration of Viki’s brand campaign with LE SSERAFIM, take our quiz and find out which member’s drama taste matches yours! Find more of LE SSERAFIM’s recommended shows here! The post QUIZ: Which LE SSERAFIM Member’s Drama Taste Matches Yours? appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1879985wpp/quiz-which-le-sserafim-members-drama-taste-matches-yours",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-20T16:00:00Z",
+      "collected_at": "2026-10-20T17:13:46Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9832,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8752,
+      "available": true
+    },
     {
       "id": "news:koreaboo:1fbb3e568695f4ac",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/alleged-viral-photos-blackpink-lisa-rumored-boyfriend-spark-controversy/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T10:40:10Z",
-      "collected_at": "2026-10-20T11:44:40Z",
+      "collected_at": "2026-10-20T17:13:46Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9853,
+        "recency": 0.9165,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2461,
+      "hot_score": 7.6704,
       "available": true
     },
     {
@@ -82,7 +134,7 @@
       "url": "https://www.soompi.com/article/1879304wpp/stray-kids-enhypen-boynextdoor-alpha-drive-one-team-cortis-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-18T17:16:30Z",
-      "collected_at": "2026-10-20T11:44:40Z",
+      "collected_at": "2026-10-20T17:13:46Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.629,
+        "recency": 0.6002,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,68 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3983,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a5556977579575b2",
-      "platform": "news",
-      "platform_item_id": "a5556977579575b2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT’s Iroha Injures Ankle Ahead Of Tonight’s Concert",
-      "description": "With one night left to go in ILLIT’s encore concert, Iroha has sprained her ankle. On October 18, BELIFT LAB announced ahead of the start of Day 2 of ILLIT’s “PRESS START♥“ encore concert in Incheon that Iroha had injured her ankle during rehearsal earlier that day. The agency’s full statement is as follows: Hello.… Continue reading ILLIT’s Iroha Injures Ankle Ahead Of Tonight’s Concert The post ILLIT’s Iroha Injures Ankle Ahead Of Tonight’s Concert appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1879277wpp/illits-iroha-injures-ankle-ahead-of-tonights-concert",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-18T08:38:21Z",
-      "collected_at": "2026-10-20T11:44:40Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [
-        "iroha"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "iroha",
-          "alias": "Iroha",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5849,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.8949,
+      "hot_score": 4.1972,
       "available": true
     },
     {
@@ -195,7 +186,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-20T11:44:40Z",
+      "collected_at": "2026-10-20T17:13:46Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -234,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0966,
+        "recency": 0.0959,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8089,
+      "hot_score": 0.8029,
       "available": true
     }
   ]
