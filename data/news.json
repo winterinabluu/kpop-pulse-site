@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-19T22:23:50Z",
+  "generated_at": "2026-10-20T04:56:21Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 4,
+    "item_count": 3,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1879304wpp/stray-kids-enhypen-boynextdoor-alpha-drive-one-team-cortis-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-18T17:16:30Z",
-      "collected_at": "2026-10-19T22:23:50Z",
+      "collected_at": "2026-10-20T04:56:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.712,
+        "recency": 0.6687,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9788,
+      "hot_score": 4.6763,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1879277wpp/illits-iroha-injures-ankle-ahead-of-tonights-concert",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-18T08:38:21Z",
-      "collected_at": "2026-10-19T22:23:50Z",
+      "collected_at": "2026-10-20T04:56:21Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.656,
+        "recency": 0.6191,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,59 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4901,
-      "available": true
-    },
-    {
-      "id": "news:soompi:3992f6bf2057271d",
-      "platform": "news",
-      "platform_item_id": "3992f6bf2057271d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "10+ Dramas On LE SSERAFIM’s Watchlist",
-      "description": "LE SSERAFIM has teamed up with Viki to share the K-dramas that they love! Recently on October 14, Viki launched the “Pass It On” brand campaign with LE SSERAFIM at the forefront. As part of the campaign, LE SSERAFIM also shared their drama watchlist—featuring all the best from time-bending love stories and epic supernatural worlds… Continue reading 10+ Dramas On LE SSERAFIM’s Watchlist The post 10+ Dramas On LE SSERAFIM’s Watchlist appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1877709wpp/10-dramas-on-le-sserafims-watchlist",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-16T17:30:00Z",
-      "collected_at": "2026-10-19T22:23:50Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4836,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.3813,
+      "hot_score": 5.1813,
       "available": true
     },
     {
@@ -186,7 +134,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-19T22:23:50Z",
+      "collected_at": "2026-10-20T04:56:21Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -225,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0984,
+        "recency": 0.0975,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -233,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.8236,
+      "hot_score": 0.8163,
       "available": true
     }
   ]
