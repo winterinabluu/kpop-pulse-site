@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-21T11:56:40Z",
+  "generated_at": "2026-10-21T17:16:19Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,128 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:6468fb5498e2804d",
+      "platform": "news",
+      "platform_item_id": "6468fb5498e2804d",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health",
+      "description": "LE SSERAFIM’s Sakura will not be performing at the group’s concert in Paris tonight. On October 21, SOURCE MUSIC announced that Sakura would be sitting out LE SSERAFIM’s “PUREFLOW” concert in Paris that day after falling ill. According to the agency, Sakura “was advised by local medical professionals to rest and recuperate for the time… Continue reading LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health The post LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880440wpp/le-sserafims-sakura-to-sit-out-todays-concert-in-paris-due-to-health",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T14:03:42Z",
+      "collected_at": "2026-10-21T17:16:19Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "sakura"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "sakura",
+          "alias": "Sakura",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9573,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.012,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:7a0f97f5ee4c7c18",
+      "platform": "news",
+      "platform_item_id": "7a0f97f5ee4c7c18",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS V’s Recent Appearance Reignites Dating Rumors With BLACKPINK’s Jennie",
+      "description": "\"Being too obvious...\"",
+      "url": "https://www.koreaboo.com/news/bts-v-recent-appearance-blackpink-jennie-viral-dating-rumors/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T12:00:18Z",
+      "collected_at": "2026-10-21T17:16:19Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9318,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7987,
+      "available": true
+    },
     {
       "id": "news:soompi:9cab47c0a6485c2f",
       "platform": "news",
@@ -21,7 +143,7 @@
       "url": "https://www.soompi.com/article/1880382wpp/twices-nayeon-confirmed-to-be-gearing-up-for-solo-comeback",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T09:43:55Z",
-      "collected_at": "2026-10-21T11:56:40Z",
+      "collected_at": "2026-10-21T17:16:19Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9702,
+        "recency": 0.9052,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,76 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1197,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:8a048d0723475a12",
-      "platform": "news",
-      "platform_item_id": "8a048d0723475a12",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE Jihyo’s Future Plans’ Announcement Sparks Backlash Linked To BLACKPINK",
-      "description": "It was about past comments the idol made.",
-      "url": "https://www.koreaboo.com/news/twice-jihyo-future-plans-sparks-backlash-linked-blackpink/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T08:10:21Z",
-      "collected_at": "2026-10-21T11:56:40Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink",
-        "twice"
-      ],
-      "matched_members": [
-        "jihyo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jihyo",
-          "alias": "Jihyo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9502,
-        "views": 0,
-        "engagement": 7.1,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 8.7459,
+      "hot_score": 7.5759,
       "available": true
     },
     {
@@ -151,7 +204,7 @@
       "url": "https://www.soompi.com/article/1880272wpp/twices-dahyun-and-cha-woo-min-begin-filming-for-new-romance-film",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T05:36:36Z",
-      "collected_at": "2026-10-21T11:56:40Z",
+      "collected_at": "2026-10-21T17:16:19Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -190,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9191,
+        "recency": 0.8606,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -198,68 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6925,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:baf9a1166e7abbbf",
-      "platform": "news",
-      "platform_item_id": "baf9a1166e7abbbf",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Jihyo Will Leave JYP Entertainment",
-      "description": "She will remain with TWICE.",
-      "url": "https://www.koreaboo.com/news/twice-jihyo-will-leave-jyp-entertainment-2/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T04:02:16Z",
-      "collected_at": "2026-10-21T11:56:40Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jihyo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jihyo",
-          "alias": "Jihyo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.901,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5411,
+      "hot_score": 7.2026,
       "available": true
     },
     {
@@ -273,7 +265,7 @@
       "url": "https://www.soompi.com/article/1880312wpp/twices-jihyo-departs-jyp-entertainment-after-21-years-launches-new-agency-emithaus",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T03:34:38Z",
-      "collected_at": "2026-10-21T11:56:40Z",
+      "collected_at": "2026-10-21T17:16:19Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -312,7 +304,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8959,
+        "recency": 0.8402,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -320,7 +312,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.4979,
+      "hot_score": 7.0318,
       "available": true
     },
     {
@@ -334,7 +326,7 @@
       "url": "https://www.soompi.com/article/1879985wpp/quiz-which-le-sserafim-members-drama-taste-matches-yours",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T16:00:00Z",
-      "collected_at": "2026-10-21T11:56:40Z",
+      "collected_at": "2026-10-21T17:16:19Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -364,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7831,
+        "recency": 0.7402,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -372,7 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4758,
+      "hot_score": 5.1759,
       "available": true
     },
     {
@@ -386,7 +378,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-21T11:56:40Z",
+      "collected_at": "2026-10-21T17:16:19Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -425,7 +417,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0936,
+        "recency": 0.093,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -433,7 +425,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7834,
+      "hot_score": 0.778,
       "available": true
     }
   ]
