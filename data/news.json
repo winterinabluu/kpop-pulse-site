@@ -1,15 +1,206 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-21T04:55:28Z",
+  "generated_at": "2026-10-21T11:56:40Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:9cab47c0a6485c2f",
+      "platform": "news",
+      "platform_item_id": "9cab47c0a6485c2f",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback",
+      "description": "TWICE’s Nayeon is gearing up for a solo comeback! On October 21, The Korea Herald reported that Nayeon is preparing to release a new album in late November, with the third week of the month as her tentative target. In response to the report, her agency JYP Entertainment confirmed, “Nayeon is preparing for a solo… Continue reading TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback The post TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880382wpp/twices-nayeon-confirmed-to-be-gearing-up-for-solo-comeback",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T09:43:55Z",
+      "collected_at": "2026-10-21T11:56:40Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "nayeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "nayeon",
+          "alias": "Nayeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9702,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1197,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:8a048d0723475a12",
+      "platform": "news",
+      "platform_item_id": "8a048d0723475a12",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE Jihyo’s Future Plans’ Announcement Sparks Backlash Linked To BLACKPINK",
+      "description": "It was about past comments the idol made.",
+      "url": "https://www.koreaboo.com/news/twice-jihyo-future-plans-sparks-backlash-linked-blackpink/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T08:10:21Z",
+      "collected_at": "2026-10-21T11:56:40Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink",
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9502,
+        "views": 0,
+        "engagement": 7.1,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.7459,
+      "available": true
+    },
+    {
+      "id": "news:soompi:a3eb5023aa5e683b",
+      "platform": "news",
+      "platform_item_id": "a3eb5023aa5e683b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Dahyun And Cha Woo Min Begin Filming For New Romance Film",
+      "description": "TWICE’s Dahyun and Cha Woo Min’s upcoming film has begun filming! On October 21, the production company announced, “The film ‘Clouds Roll Like Gureumi’ (literal title) has assembled a fresh cast featuring Dahyun and Cha Woo Min and has begun filming with a target release in 2027.” “Clouds Roll Like Gureumi” follows a cheerful girl… Continue reading TWICE’s Dahyun And Cha Woo Min Begin Filming For New Romance Film The post TWICE’s Dahyun And Cha Woo Min Begin Filming For New Romance Film appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880272wpp/twices-dahyun-and-cha-woo-min-begin-filming-for-new-romance-film",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T05:36:36Z",
+      "collected_at": "2026-10-21T11:56:40Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "dahyun"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "dahyun",
+          "alias": "Dahyun",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9191,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.6925,
+      "available": true
+    },
     {
       "id": "news:koreaboo:baf9a1166e7abbbf",
       "platform": "news",
@@ -21,7 +212,7 @@
       "url": "https://www.koreaboo.com/news/twice-jihyo-will-leave-jyp-entertainment-2/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T04:02:16Z",
-      "collected_at": "2026-10-21T04:55:28Z",
+      "collected_at": "2026-10-21T11:56:40Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +251,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.901,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +259,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.5411,
       "available": true
     },
     {
@@ -82,7 +273,7 @@
       "url": "https://www.soompi.com/article/1880312wpp/twices-jihyo-departs-jyp-entertainment-after-21-years-launches-new-agency-emithaus",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T03:34:38Z",
-      "collected_at": "2026-10-21T04:55:28Z",
+      "collected_at": "2026-10-21T11:56:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +312,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9816,
+        "recency": 0.8959,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +320,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2155,
+      "hot_score": 7.4979,
       "available": true
     },
     {
@@ -143,7 +334,7 @@
       "url": "https://www.soompi.com/article/1879985wpp/quiz-which-le-sserafim-members-drama-taste-matches-yours",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T16:00:00Z",
-      "collected_at": "2026-10-21T04:55:28Z",
+      "collected_at": "2026-10-21T11:56:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +364,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8478,
+        "recency": 0.7831,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -181,68 +372,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9284,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:1fbb3e568695f4ac",
-      "platform": "news",
-      "platform_item_id": "1fbb3e568695f4ac",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Viral Photos Allegedly Of BLACKPINK Lisa And Rumored Boyfriend Together Spark Controversy",
-      "description": "The two have been spotted together a lot recently.",
-      "url": "https://www.koreaboo.com/news/alleged-viral-photos-blackpink-lisa-rumored-boyfriend-spark-controversy/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-20T10:40:10Z",
-      "collected_at": "2026-10-21T04:55:28Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.7977,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.6765,
+      "hot_score": 5.4758,
       "available": true
     },
     {
@@ -256,7 +386,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-21T04:55:28Z",
+      "collected_at": "2026-10-21T11:56:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -295,7 +425,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0945,
+        "recency": 0.0936,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -303,7 +433,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7906,
+      "hot_score": 0.7834,
       "available": true
     }
   ]
