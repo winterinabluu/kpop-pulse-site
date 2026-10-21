@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-21T17:16:19Z",
+  "generated_at": "2026-10-21T21:46:01Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,58 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:b37b8dc8e514bdc5",
+      "platform": "news",
+      "platform_item_id": "b37b8dc8e514bdc5",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "“I’m A 100” — Girl Group Idol’s Pretty Face Gets Acknowledged By A TWICE Member",
+      "description": "A K-Pop girl group idol acknowledged her beautiful appearance, and even a TWICE member agrees. Recently, a video titled “Did you know? They say you lose your memory when you see…",
+      "url": "https://www.koreaboo.com/news/girl-group-idol-pretty-face-acknowledged-twice-member/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T17:21:42Z",
+      "collected_at": "2026-10-21T21:46:01Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9423,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5894,
+      "available": true
+    },
     {
       "id": "news:soompi:6468fb5498e2804d",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.soompi.com/article/1880440wpp/le-sserafims-sakura-to-sit-out-todays-concert-in-paris-due-to-health",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T14:03:42Z",
-      "collected_at": "2026-10-21T17:16:19Z",
+      "collected_at": "2026-10-21T21:46:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9573,
+        "recency": 0.9033,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,68 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.012,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:7a0f97f5ee4c7c18",
-      "platform": "news",
-      "platform_item_id": "7a0f97f5ee4c7c18",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS V’s Recent Appearance Reignites Dating Rumors With BLACKPINK’s Jennie",
-      "description": "\"Being too obvious...\"",
-      "url": "https://www.koreaboo.com/news/bts-v-recent-appearance-blackpink-jennie-viral-dating-rumors/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T12:00:18Z",
-      "collected_at": "2026-10-21T17:16:19Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9318,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7987,
+      "hot_score": 7.5602,
       "available": true
     },
     {
@@ -143,7 +134,7 @@
       "url": "https://www.soompi.com/article/1880382wpp/twices-nayeon-confirmed-to-be-gearing-up-for-solo-comeback",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T09:43:55Z",
-      "collected_at": "2026-10-21T17:16:19Z",
+      "collected_at": "2026-10-21T21:46:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9052,
+        "recency": 0.8568,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5759,
+      "hot_score": 7.1707,
       "available": true
     },
     {
@@ -204,7 +195,7 @@
       "url": "https://www.soompi.com/article/1880272wpp/twices-dahyun-and-cha-woo-min-begin-filming-for-new-romance-film",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T05:36:36Z",
-      "collected_at": "2026-10-21T17:16:19Z",
+      "collected_at": "2026-10-21T21:46:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8606,
+        "recency": 0.8167,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2026,
+      "hot_score": 6.8354,
       "available": true
     },
     {
@@ -265,7 +256,7 @@
       "url": "https://www.soompi.com/article/1880312wpp/twices-jihyo-departs-jyp-entertainment-after-21-years-launches-new-agency-emithaus",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T03:34:38Z",
-      "collected_at": "2026-10-21T17:16:19Z",
+      "collected_at": "2026-10-21T21:46:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -304,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8402,
+        "recency": 0.7983,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -312,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.0318,
+      "hot_score": 6.6813,
       "available": true
     },
     {
@@ -326,7 +317,7 @@
       "url": "https://www.soompi.com/article/1879985wpp/quiz-which-le-sserafim-members-drama-taste-matches-yours",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T16:00:00Z",
-      "collected_at": "2026-10-21T17:16:19Z",
+      "collected_at": "2026-10-21T21:46:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -356,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7402,
+        "recency": 0.7075,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -364,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1759,
+      "hot_score": 4.9473,
       "available": true
     },
     {
@@ -378,7 +369,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-21T17:16:19Z",
+      "collected_at": "2026-10-21T21:46:01Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -417,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.093,
+        "recency": 0.0924,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -425,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.778,
+      "hot_score": 0.7735,
       "available": true
     }
   ]
