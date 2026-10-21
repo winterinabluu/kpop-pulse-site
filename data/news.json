@@ -1,15 +1,137 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-20T21:40:30Z",
+  "generated_at": "2026-10-21T04:55:28Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 3,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:baf9a1166e7abbbf",
+      "platform": "news",
+      "platform_item_id": "baf9a1166e7abbbf",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Jihyo Will Leave JYP Entertainment",
+      "description": "She will remain with TWICE.",
+      "url": "https://www.koreaboo.com/news/twice-jihyo-will-leave-jyp-entertainment-2/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T04:02:16Z",
+      "collected_at": "2026-10-21T04:55:28Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:soompi:8c38e62c5c53181e",
+      "platform": "news",
+      "platform_item_id": "8c38e62c5c53181e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS",
+      "description": "Jihyo is beginning a journey with a new company! On October 21, the TWICE member took to her Instagram to share the following handwritten letter: Hello, this is Jihyo. I’m writing today because there’s something I’d like to share with you. After 21 years, my journey with JYP Entertainment, which began when I was just… Continue reading TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS The post TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880312wpp/twices-jihyo-departs-jyp-entertainment-after-21-years-launches-new-agency-emithaus",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T03:34:38Z",
+      "collected_at": "2026-10-21T04:55:28Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9816,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2155,
+      "available": true
+    },
     {
       "id": "news:soompi:fec1d7400f932a13",
       "platform": "news",
@@ -21,7 +143,7 @@
       "url": "https://www.soompi.com/article/1879985wpp/quiz-which-le-sserafim-members-drama-taste-matches-yours",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T16:00:00Z",
-      "collected_at": "2026-10-20T21:40:30Z",
+      "collected_at": "2026-10-21T04:55:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9269,
+        "recency": 0.8478,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4817,
+      "hot_score": 5.9284,
       "available": true
     },
     {
@@ -73,7 +195,7 @@
       "url": "https://www.koreaboo.com/news/alleged-viral-photos-blackpink-lisa-rumored-boyfriend-spark-controversy/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T10:40:10Z",
-      "collected_at": "2026-10-20T21:40:30Z",
+      "collected_at": "2026-10-21T04:55:28Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -112,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8674,
+        "recency": 0.7977,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2596,
+      "hot_score": 6.6765,
       "available": true
     },
     {
@@ -134,7 +256,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-20T21:40:30Z",
+      "collected_at": "2026-10-21T04:55:28Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -173,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0954,
+        "recency": 0.0945,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7982,
+      "hot_score": 0.7906,
       "available": true
     }
   ]
