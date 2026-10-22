@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-22T17:14:39Z",
+  "generated_at": "2026-10-22T21:40:40Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/idol-turned-actress-ready-become-neighbors-blackpink-jisoo/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T16:29:11Z",
-      "collected_at": "2026-10-22T17:14:39Z",
+      "collected_at": "2026-10-22T21:40:40Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.9327,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.8064,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1880839wpp/watch-a2o-lite-takes-3rd-win-for-neon-on-m-countdown-performances-by-seventeens-jxj-ive-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T12:51:30Z",
-      "collected_at": "2026-10-22T17:14:39Z",
+      "collected_at": "2026-10-22T21:40:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9426,
+        "recency": 0.8909,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5911,
+      "hot_score": 6.2296,
       "available": true
     },
     {
@@ -134,7 +134,7 @@
       "url": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T07:05:43Z",
-      "collected_at": "2026-10-22T17:14:39Z",
+      "collected_at": "2026-10-22T21:40:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8765,
+        "recency": 0.8316,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.3353,
+      "hot_score": 6.9597,
       "available": true
     },
     {
@@ -195,7 +195,7 @@
       "url": "https://www.soompi.com/article/1880440wpp/le-sserafims-sakura-to-sit-out-todays-concert-in-paris-due-to-health",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T14:03:42Z",
-      "collected_at": "2026-10-22T17:14:39Z",
+      "collected_at": "2026-10-22T21:40:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7259,
+        "recency": 0.6949,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0755,
+      "hot_score": 5.8156,
       "available": true
     },
     {
@@ -256,7 +256,7 @@
       "url": "https://www.soompi.com/article/1880382wpp/twices-nayeon-confirmed-to-be-gearing-up-for-solo-comeback",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T09:43:55Z",
-      "collected_at": "2026-10-22T17:14:39Z",
+      "collected_at": "2026-10-22T21:40:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -295,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6956,
+        "recency": 0.667,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -303,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8214,
+      "hot_score": 5.5823,
       "available": true
     },
     {
@@ -317,7 +317,7 @@
       "url": "https://www.soompi.com/article/1880272wpp/twices-dahyun-and-cha-woo-min-begin-filming-for-new-romance-film",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T05:36:36Z",
-      "collected_at": "2026-10-22T17:14:39Z",
+      "collected_at": "2026-10-22T21:40:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -356,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6689,
+        "recency": 0.6425,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -364,7 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5985,
+      "hot_score": 5.377,
       "available": true
     },
     {
@@ -378,7 +378,7 @@
       "url": "https://www.soompi.com/article/1880312wpp/twices-jihyo-departs-jyp-entertainment-after-21-years-launches-new-agency-emithaus",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T03:34:38Z",
-      "collected_at": "2026-10-22T17:14:39Z",
+      "collected_at": "2026-10-22T21:40:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -417,7 +417,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6565,
+        "recency": 0.631,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -425,7 +425,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4947,
+      "hot_score": 5.2812,
       "available": true
     },
     {
@@ -439,7 +439,7 @@
       "url": "https://www.soompi.com/article/1879985wpp/quiz-which-le-sserafim-members-drama-taste-matches-yours",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T16:00:00Z",
-      "collected_at": "2026-10-22T17:14:39Z",
+      "collected_at": "2026-10-22T21:40:40Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -469,7 +469,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5938,
+        "recency": 0.5729,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -477,7 +477,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1525,
+      "hot_score": 4.006,
       "available": true
     },
     {
@@ -491,7 +491,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-22T17:14:39Z",
+      "collected_at": "2026-10-22T21:40:40Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -530,7 +530,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0902,
+        "recency": 0.0897,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -538,7 +538,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7547,
+      "hot_score": 0.7505,
       "available": true
     }
   ]
