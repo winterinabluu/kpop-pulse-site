@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-22T04:55:33Z",
+  "generated_at": "2026-10-22T11:59:22Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,252 +11,17 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:b37b8dc8e514bdc5",
+      "id": "news:soompi:cf23cc3293b59d48",
       "platform": "news",
-      "platform_item_id": "b37b8dc8e514bdc5",
+      "platform_item_id": "cf23cc3293b59d48",
       "source_type": "media",
       "content_kind": "news",
-      "title": "“I’m A 100” — Girl Group Idol’s Pretty Face Gets Acknowledged By A TWICE Member",
-      "description": "A K-Pop girl group idol acknowledged her beautiful appearance, and even a TWICE member agrees. Recently, a video titled “Did you know? They say you lose your memory when you see…",
-      "url": "https://www.koreaboo.com/news/girl-group-idol-pretty-face-acknowledged-twice-member/",
+      "title": "TWICE’s Jihyo Poses For Beautiful Profile Photos",
+      "description": "TWICE’s Jihyo has unveiled new profile photos, showcasing a unique and unrivaled aura! After announcing her independence and establishing her own company upon leaving JYP Entertainment, where she had been for 21 years, she signaled a fresh start with a bold new style. On October 22, Jihyo’s new agency EMITHAUS shared several photos on their… Continue reading TWICE’s Jihyo Poses For Beautiful Profile Photos The post TWICE’s Jihyo Poses For Beautiful Profile Photos appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T17:21:42Z",
-      "collected_at": "2026-10-22T04:55:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8616,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.0249,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6468fb5498e2804d",
-      "platform": "news",
-      "platform_item_id": "6468fb5498e2804d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health",
-      "description": "LE SSERAFIM’s Sakura will not be performing at the group’s concert in Paris tonight. On October 21, SOURCE MUSIC announced that Sakura would be sitting out LE SSERAFIM’s “PUREFLOW” concert in Paris that day after falling ill. According to the agency, Sakura “was advised by local medical professionals to rest and recuperate for the time… Continue reading LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health The post LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1880440wpp/le-sserafims-sakura-to-sit-out-todays-concert-in-paris-due-to-health",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T14:03:42Z",
-      "collected_at": "2026-10-22T04:55:33Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "sakura"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "sakura",
-          "alias": "Sakura",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8289,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.9371,
-      "available": true
-    },
-    {
-      "id": "news:soompi:9cab47c0a6485c2f",
-      "platform": "news",
-      "platform_item_id": "9cab47c0a6485c2f",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback",
-      "description": "TWICE’s Nayeon is gearing up for a solo comeback! On October 21, The Korea Herald reported that Nayeon is preparing to release a new album in late November, with the third week of the month as her tentative target. In response to the report, her agency JYP Entertainment confirmed, “Nayeon is preparing for a solo… Continue reading TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback The post TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1880382wpp/twices-nayeon-confirmed-to-be-gearing-up-for-solo-comeback",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T09:43:55Z",
-      "collected_at": "2026-10-22T04:55:33Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "nayeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "nayeon",
-          "alias": "Nayeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.7895,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.6078,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a3eb5023aa5e683b",
-      "platform": "news",
-      "platform_item_id": "a3eb5023aa5e683b",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Dahyun And Cha Woo Min Begin Filming For New Romance Film",
-      "description": "TWICE’s Dahyun and Cha Woo Min’s upcoming film has begun filming! On October 21, the production company announced, “The film ‘Clouds Roll Like Gureumi’ (literal title) has assembled a fresh cast featuring Dahyun and Cha Woo Min and has begun filming with a target release in 2027.” “Clouds Roll Like Gureumi” follows a cheerful girl… Continue reading TWICE’s Dahyun And Cha Woo Min Begin Filming For New Romance Film The post TWICE’s Dahyun And Cha Woo Min Begin Filming For New Romance Film appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1880272wpp/twices-dahyun-and-cha-woo-min-begin-filming-for-new-romance-film",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T05:36:36Z",
-      "collected_at": "2026-10-22T04:55:33Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "dahyun"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "dahyun",
-          "alias": "Dahyun",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.7554,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.322,
-      "available": true
-    },
-    {
-      "id": "news:soompi:8c38e62c5c53181e",
-      "platform": "news",
-      "platform_item_id": "8c38e62c5c53181e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS",
-      "description": "Jihyo is beginning a journey with a new company! On October 21, the TWICE member took to her Instagram to share the following handwritten letter: Hello, this is Jihyo. I’m writing today because there’s something I’d like to share with you. After 21 years, my journey with JYP Entertainment, which began when I was just… Continue reading TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS The post TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1880312wpp/twices-jihyo-departs-jyp-entertainment-after-21-years-launches-new-agency-emithaus",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T03:34:38Z",
-      "collected_at": "2026-10-22T04:55:33Z",
+      "published_at": "2026-10-22T07:05:43Z",
+      "collected_at": "2026-10-22T11:59:22Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -295,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7396,
+        "recency": 0.9363,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -303,7 +68,251 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.19,
+      "hot_score": 7.8366,
+      "available": true
+    },
+    {
+      "id": "news:soompi:6468fb5498e2804d",
+      "platform": "news",
+      "platform_item_id": "6468fb5498e2804d",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health",
+      "description": "LE SSERAFIM’s Sakura will not be performing at the group’s concert in Paris tonight. On October 21, SOURCE MUSIC announced that Sakura would be sitting out LE SSERAFIM’s “PUREFLOW” concert in Paris that day after falling ill. According to the agency, Sakura “was advised by local medical professionals to rest and recuperate for the time… Continue reading LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health The post LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880440wpp/le-sserafims-sakura-to-sit-out-todays-concert-in-paris-due-to-health",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T14:03:42Z",
+      "collected_at": "2026-10-22T11:59:22Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "sakura"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "sakura",
+          "alias": "Sakura",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.7665,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.4154,
+      "available": true
+    },
+    {
+      "id": "news:soompi:9cab47c0a6485c2f",
+      "platform": "news",
+      "platform_item_id": "9cab47c0a6485c2f",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback",
+      "description": "TWICE’s Nayeon is gearing up for a solo comeback! On October 21, The Korea Herald reported that Nayeon is preparing to release a new album in late November, with the third week of the month as her tentative target. In response to the report, her agency JYP Entertainment confirmed, “Nayeon is preparing for a solo… Continue reading TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback The post TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880382wpp/twices-nayeon-confirmed-to-be-gearing-up-for-solo-comeback",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T09:43:55Z",
+      "collected_at": "2026-10-22T11:59:22Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "nayeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "nayeon",
+          "alias": "Nayeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.7328,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.1327,
+      "available": true
+    },
+    {
+      "id": "news:soompi:a3eb5023aa5e683b",
+      "platform": "news",
+      "platform_item_id": "a3eb5023aa5e683b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Dahyun And Cha Woo Min Begin Filming For New Romance Film",
+      "description": "TWICE’s Dahyun and Cha Woo Min’s upcoming film has begun filming! On October 21, the production company announced, “The film ‘Clouds Roll Like Gureumi’ (literal title) has assembled a fresh cast featuring Dahyun and Cha Woo Min and has begun filming with a target release in 2027.” “Clouds Roll Like Gureumi” follows a cheerful girl… Continue reading TWICE’s Dahyun And Cha Woo Min Begin Filming For New Romance Film The post TWICE’s Dahyun And Cha Woo Min Begin Filming For New Romance Film appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880272wpp/twices-dahyun-and-cha-woo-min-begin-filming-for-new-romance-film",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T05:36:36Z",
+      "collected_at": "2026-10-22T11:59:22Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "dahyun"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "dahyun",
+          "alias": "Dahyun",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.7033,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.8858,
+      "available": true
+    },
+    {
+      "id": "news:soompi:8c38e62c5c53181e",
+      "platform": "news",
+      "platform_item_id": "8c38e62c5c53181e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS",
+      "description": "Jihyo is beginning a journey with a new company! On October 21, the TWICE member took to her Instagram to share the following handwritten letter: Hello, this is Jihyo. I’m writing today because there’s something I’d like to share with you. After 21 years, my journey with JYP Entertainment, which began when I was just… Continue reading TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS The post TWICE’s Jihyo Departs JYP Entertainment After 21 Years + Launches New Agency EMITHAUS appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880312wpp/twices-jihyo-departs-jyp-entertainment-after-21-years-launches-new-agency-emithaus",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-21T03:34:38Z",
+      "collected_at": "2026-10-22T11:59:22Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jihyo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jihyo",
+          "alias": "Jihyo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.6896,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.7712,
       "available": true
     },
     {
@@ -317,7 +326,7 @@
       "url": "https://www.soompi.com/article/1879985wpp/quiz-which-le-sserafim-members-drama-taste-matches-yours",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T16:00:00Z",
-      "collected_at": "2026-10-22T04:55:33Z",
+      "collected_at": "2026-10-22T11:59:22Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -347,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.661,
+        "recency": 0.6207,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -355,7 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6221,
+      "hot_score": 4.3406,
       "available": true
     },
     {
@@ -369,7 +378,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-22T04:55:33Z",
+      "collected_at": "2026-10-22T11:59:22Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -408,7 +417,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0916,
+        "recency": 0.0908,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -416,7 +425,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7665,
+      "hot_score": 0.7597,
       "available": true
     }
   ]
