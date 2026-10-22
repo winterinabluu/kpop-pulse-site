@@ -1,15 +1,128 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-22T11:59:22Z",
+  "generated_at": "2026-10-22T17:14:39Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:de5dec1cd9e04a9f",
+      "platform": "news",
+      "platform_item_id": "de5dec1cd9e04a9f",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Idol-Turned-Actress Is Ready To Become BLACKPINK Jisoo’s Neighbor",
+      "description": "An idol-turned-actress may become neighbors with BLACKPINK’s Jisoo, among other celebrities, with her latest move. According to a report on October 22nd, Suzy, originally from the group missA, recently signed…",
+      "url": "https://www.koreaboo.com/news/idol-turned-actress-ready-become-neighbors-blackpink-jisoo/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-22T16:29:11Z",
+      "collected_at": "2026-10-22T17:14:39Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:soompi:3384e30db4951cdc",
+      "platform": "news",
+      "platform_item_id": "3384e30db4951cdc",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: A2O LITE Takes 3rd Win For “NEON” On “M Countdown”; Performances By SEVENTEEN’s JxJ, IVE, And More",
+      "description": "A2O LITE has won their third music show trophy for their debut track “NEON”! On the October 22 episode of “M Countdown,” the candidates for first place were A2O LITE’s “NEON” and NCT WISH’s “I SPY.” A2O LITE ultimately took the prize with a total of 6,866 points. Congratulations to A2O LITE! Watch the winner… Continue reading Watch: A2O LITE Takes 3rd Win For “NEON” On “M Countdown”; Performances By SEVENTEEN’s JxJ, IVE, And More The post Watch: A2O LITE Takes 3rd Win For “NEON” On “M Countdown”; Performances By SEVENTEEN’s JxJ, IVE, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1880839wpp/watch-a2o-lite-takes-3rd-win-for-neon-on-m-countdown-performances-by-seventeens-jxj-ive-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-22T12:51:30Z",
+      "collected_at": "2026-10-22T17:14:39Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9426,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5911,
+      "available": true
+    },
     {
       "id": "news:soompi:cf23cc3293b59d48",
       "platform": "news",
@@ -21,7 +134,7 @@
       "url": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T07:05:43Z",
-      "collected_at": "2026-10-22T11:59:22Z",
+      "collected_at": "2026-10-22T17:14:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9363,
+        "recency": 0.8765,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8366,
+      "hot_score": 7.3353,
       "available": true
     },
     {
@@ -82,7 +195,7 @@
       "url": "https://www.soompi.com/article/1880440wpp/le-sserafims-sakura-to-sit-out-todays-concert-in-paris-due-to-health",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T14:03:42Z",
-      "collected_at": "2026-10-22T11:59:22Z",
+      "collected_at": "2026-10-22T17:14:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7665,
+        "recency": 0.7259,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4154,
+      "hot_score": 6.0755,
       "available": true
     },
     {
@@ -143,7 +256,7 @@
       "url": "https://www.soompi.com/article/1880382wpp/twices-nayeon-confirmed-to-be-gearing-up-for-solo-comeback",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T09:43:55Z",
-      "collected_at": "2026-10-22T11:59:22Z",
+      "collected_at": "2026-10-22T17:14:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7328,
+        "recency": 0.6956,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.1327,
+      "hot_score": 5.8214,
       "available": true
     },
     {
@@ -204,7 +317,7 @@
       "url": "https://www.soompi.com/article/1880272wpp/twices-dahyun-and-cha-woo-min-begin-filming-for-new-romance-film",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T05:36:36Z",
-      "collected_at": "2026-10-22T11:59:22Z",
+      "collected_at": "2026-10-22T17:14:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7033,
+        "recency": 0.6689,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8858,
+      "hot_score": 5.5985,
       "available": true
     },
     {
@@ -265,7 +378,7 @@
       "url": "https://www.soompi.com/article/1880312wpp/twices-jihyo-departs-jyp-entertainment-after-21-years-launches-new-agency-emithaus",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T03:34:38Z",
-      "collected_at": "2026-10-22T11:59:22Z",
+      "collected_at": "2026-10-22T17:14:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -304,7 +417,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6896,
+        "recency": 0.6565,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -312,7 +425,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7712,
+      "hot_score": 5.4947,
       "available": true
     },
     {
@@ -326,7 +439,7 @@
       "url": "https://www.soompi.com/article/1879985wpp/quiz-which-le-sserafim-members-drama-taste-matches-yours",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-20T16:00:00Z",
-      "collected_at": "2026-10-22T11:59:22Z",
+      "collected_at": "2026-10-22T17:14:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -356,7 +469,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6207,
+        "recency": 0.5938,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -364,7 +477,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3406,
+      "hot_score": 4.1525,
       "available": true
     },
     {
@@ -378,7 +491,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-22T11:59:22Z",
+      "collected_at": "2026-10-22T17:14:39Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -417,7 +530,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0908,
+        "recency": 0.0902,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -425,7 +538,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7597,
+      "hot_score": 0.7547,
       "available": true
     }
   ]
