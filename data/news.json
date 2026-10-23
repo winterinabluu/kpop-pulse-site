@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-23T17:12:43Z",
+  "generated_at": "2026-10-23T21:27:25Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 10,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1881049wpp/watch-twices-nayeon-gears-up-for-solo-comeback-with-teaser-for-new-single-na-sty",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T15:48:39Z",
-      "collected_at": "2026-10-23T17:12:43Z",
+      "collected_at": "2026-10-23T21:27:25Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9809,
+        "recency": 0.9273,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2095,
+      "hot_score": 7.7607,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisa-nose-job-criticism-visuals/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T15:20:05Z",
-      "collected_at": "2026-10-23T17:12:43Z",
+      "collected_at": "2026-10-23T21:27:25Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9746,
+        "recency": 0.9216,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1565,
+      "hot_score": 7.7133,
       "available": true
     },
     {
@@ -143,7 +143,7 @@
       "url": "https://www.soompi.com/article/1881045wpp/watch-nct-wish-takes-1st-win-for-i-spy-on-music-bank-performances-by-ive-a2o-lite-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T12:22:53Z",
-      "collected_at": "2026-10-23T17:12:43Z",
+      "collected_at": "2026-10-23T21:27:25Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9371,
+        "recency": 0.8881,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -181,143 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.553,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:bc252e2368b594a1",
-      "platform": "news",
-      "platform_item_id": "bc252e2368b594a1",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "IVE’s Jang Wonyoung Unreal Body Proportions Go Viral In Recent Photo",
-      "description": "Netizens were in shock.",
-      "url": "https://www.koreaboo.com/news/ive-jang-wonyoug-proportions-next-joo-woo-jae-go-viral/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-23T05:45:47Z",
-      "collected_at": "2026-10-23T17:12:43Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Jang Wonyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8628,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.221,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:206bf27788f49a6b",
-      "platform": "news",
-      "platform_item_id": "206bf27788f49a6b",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "IVE’s Jang Wonyoung Accused Of “Mean Girl” Behavior Towards Much Younger Idol",
-      "description": "She was quickly defended.",
-      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-accused-mean-girl-behavior-towards-much-younger-idol/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-22T22:40:35Z",
-      "collected_at": "2026-10-23T17:12:43Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Jang Wonyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.7953,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.6558,
+      "hot_score": 6.2099,
       "available": true
     },
     {
@@ -331,7 +195,7 @@
       "url": "https://www.soompi.com/article/1880839wpp/watch-a2o-lite-takes-3rd-win-for-neon-on-m-countdown-performances-by-seventeens-jxj-ive-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T12:51:30Z",
-      "collected_at": "2026-10-23T17:12:43Z",
+      "collected_at": "2026-10-23T21:27:25Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -361,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7175,
+        "recency": 0.6883,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -369,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0169,
+      "hot_score": 4.8133,
       "available": true
     },
     {
@@ -383,7 +247,7 @@
       "url": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T07:05:43Z",
-      "collected_at": "2026-10-23T17:12:43Z",
+      "collected_at": "2026-10-23T21:27:25Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -422,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6785,
+        "recency": 0.6524,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -430,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6785,
+      "hot_score": 5.4601,
       "available": true
     },
     {
@@ -444,7 +308,7 @@
       "url": "https://www.soompi.com/article/1880440wpp/le-sserafims-sakura-to-sit-out-todays-concert-in-paris-due-to-health",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T14:03:42Z",
-      "collected_at": "2026-10-23T17:12:43Z",
+      "collected_at": "2026-10-23T21:27:25Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -483,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5846,
+        "recency": 0.5652,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -491,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8931,
+      "hot_score": 4.73,
       "available": true
     },
     {
@@ -505,7 +369,7 @@
       "url": "https://www.soompi.com/article/1880382wpp/twices-nayeon-confirmed-to-be-gearing-up-for-solo-comeback",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T09:43:55Z",
-      "collected_at": "2026-10-23T17:12:43Z",
+      "collected_at": "2026-10-23T21:27:25Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -544,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5648,
+        "recency": 0.5466,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -552,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7269,
+      "hot_score": 4.5746,
       "available": true
     },
     {
@@ -566,7 +430,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-23T17:12:43Z",
+      "collected_at": "2026-10-23T21:27:25Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -605,7 +469,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0875,
+        "recency": 0.0871,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -613,7 +477,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7327,
+      "hot_score": 0.7289,
       "available": true
     }
   ]
