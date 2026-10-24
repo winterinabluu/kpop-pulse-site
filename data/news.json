@@ -1,76 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-24T16:00:33Z",
+  "generated_at": "2026-10-24T20:54:04Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:c900372433f3974c",
-      "platform": "news",
-      "platform_item_id": "c900372433f3974c",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa’s New Single Sparks Scathing Backlash And Accusations",
-      "description": "The new track has seemingly not impressed.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-new-single-sparks-scathing-backlash-accusations/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-24T10:33:41Z",
-      "collected_at": "2026-10-24T16:00:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9297,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7805,
-      "available": true
-    },
     {
       "id": "news:soompi:6fcb0da2d969a719",
       "platform": "news",
@@ -82,7 +21,7 @@
       "url": "https://www.soompi.com/article/1881122wpp/blackpinks-jisoo-reveals-adorable-solo-light-stick",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T10:06:33Z",
-      "collected_at": "2026-10-24T16:00:33Z",
+      "collected_at": "2026-10-24T20:54:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9243,
+        "recency": 0.8696,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7354,
+      "hot_score": 7.2783,
       "available": true
     },
     {
@@ -143,7 +82,7 @@
       "url": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T05:00:32Z",
-      "collected_at": "2026-10-24T16:00:33Z",
+      "collected_at": "2026-10-24T20:54:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8675,
+        "recency": 0.8192,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2601,
+      "hot_score": 6.856,
       "available": true
     },
     {
@@ -204,7 +143,7 @@
       "url": "https://www.soompi.com/article/1881049wpp/watch-twices-nayeon-gears-up-for-solo-comeback-with-teaser-for-new-single-na-sty",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T15:48:39Z",
-      "collected_at": "2026-10-24T16:00:33Z",
+      "collected_at": "2026-10-24T20:54:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -243,7 +182,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7485,
+        "recency": 0.7122,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -251,7 +190,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.264,
+      "hot_score": 5.9609,
       "available": true
     },
     {
@@ -265,7 +204,7 @@
       "url": "https://www.soompi.com/article/1881045wpp/watch-nct-wish-takes-1st-win-for-i-spy-on-music-bank-performances-by-ive-a2o-lite-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T12:22:53Z",
-      "collected_at": "2026-10-24T16:00:33Z",
+      "collected_at": "2026-10-24T20:54:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -295,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7227,
+        "recency": 0.6889,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -303,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0535,
+      "hot_score": 4.817,
       "available": true
     },
     {
@@ -317,7 +256,7 @@
       "url": "https://www.soompi.com/article/1880839wpp/watch-a2o-lite-takes-3rd-win-for-neon-on-m-countdown-performances-by-seventeens-jxj-ive-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T12:51:30Z",
-      "collected_at": "2026-10-24T16:00:33Z",
+      "collected_at": "2026-10-24T20:54:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -347,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5846,
+        "recency": 0.5623,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -355,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.0882,
+      "hot_score": 3.932,
       "available": true
     },
     {
@@ -369,7 +308,7 @@
       "url": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T07:05:43Z",
-      "collected_at": "2026-10-24T16:00:33Z",
+      "collected_at": "2026-10-24T20:54:04Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -408,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5585,
+        "recency": 0.5381,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -416,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6743,
+      "hot_score": 4.5034,
       "available": true
     },
     {
@@ -430,7 +369,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-24T16:00:33Z",
+      "collected_at": "2026-10-24T20:54:04Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -469,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0852,
+        "recency": 0.0847,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -477,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7129,
+      "hot_score": 0.7088,
       "available": true
     }
   ]
