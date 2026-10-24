@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-23T21:27:25Z",
+  "generated_at": "2026-10-24T04:42:39Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1881049wpp/watch-twices-nayeon-gears-up-for-solo-comeback-with-teaser-for-new-single-na-sty",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T15:48:39Z",
-      "collected_at": "2026-10-23T21:27:25Z",
+      "collected_at": "2026-10-24T04:42:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9273,
+        "recency": 0.8481,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7607,
+      "hot_score": 7.0976,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisa-nose-job-criticism-visuals/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T15:20:05Z",
-      "collected_at": "2026-10-23T21:27:25Z",
+      "collected_at": "2026-10-24T04:42:39Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9216,
+        "recency": 0.8433,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7133,
+      "hot_score": 7.058,
       "available": true
     },
     {
@@ -143,7 +143,7 @@
       "url": "https://www.soompi.com/article/1881045wpp/watch-nct-wish-takes-1st-win-for-i-spy-on-music-bank-performances-by-ive-a2o-lite-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T12:22:53Z",
-      "collected_at": "2026-10-23T21:27:25Z",
+      "collected_at": "2026-10-24T04:42:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8881,
+        "recency": 0.8151,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -181,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2099,
+      "hot_score": 5.6999,
       "available": true
     },
     {
@@ -195,7 +195,7 @@
       "url": "https://www.soompi.com/article/1880839wpp/watch-a2o-lite-takes-3rd-win-for-neon-on-m-countdown-performances-by-seventeens-jxj-ive-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T12:51:30Z",
-      "collected_at": "2026-10-23T21:27:25Z",
+      "collected_at": "2026-10-24T04:42:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6883,
+        "recency": 0.6437,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -233,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8133,
+      "hot_score": 4.5012,
       "available": true
     },
     {
@@ -247,7 +247,7 @@
       "url": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T07:05:43Z",
-      "collected_at": "2026-10-23T21:27:25Z",
+      "collected_at": "2026-10-24T04:42:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6524,
+        "recency": 0.6122,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -294,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4601,
+      "hot_score": 5.1234,
       "available": true
     },
     {
@@ -308,7 +308,7 @@
       "url": "https://www.soompi.com/article/1880440wpp/le-sserafims-sakura-to-sit-out-todays-concert-in-paris-due-to-health",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-21T14:03:42Z",
-      "collected_at": "2026-10-23T21:27:25Z",
+      "collected_at": "2026-10-24T04:42:39Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -347,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5652,
+        "recency": 0.5347,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -355,68 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.73,
-      "available": true
-    },
-    {
-      "id": "news:soompi:9cab47c0a6485c2f",
-      "platform": "news",
-      "platform_item_id": "9cab47c0a6485c2f",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback",
-      "description": "TWICE’s Nayeon is gearing up for a solo comeback! On October 21, The Korea Herald reported that Nayeon is preparing to release a new album in late November, with the third week of the month as her tentative target. In response to the report, her agency JYP Entertainment confirmed, “Nayeon is preparing for a solo… Continue reading TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback The post TWICE’s Nayeon Confirmed To Be Gearing Up For Solo Comeback appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1880382wpp/twices-nayeon-confirmed-to-be-gearing-up-for-solo-comeback",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T09:43:55Z",
-      "collected_at": "2026-10-23T21:27:25Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "nayeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "nayeon",
-          "alias": "Nayeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5466,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.5746,
+      "hot_score": 4.4752,
       "available": true
     },
     {
@@ -430,7 +369,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-23T21:27:25Z",
+      "collected_at": "2026-10-24T04:42:39Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -469,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0871,
+        "recency": 0.0863,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -477,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7289,
+      "hot_score": 0.7226,
       "available": true
     }
   ]
