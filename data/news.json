@@ -1,88 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-24T04:42:39Z",
+  "generated_at": "2026-10-24T11:08:28Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:soompi:763df933e3b1bfe8",
+      "id": "news:koreaboo:c900372433f3974c",
       "platform": "news",
-      "platform_item_id": "763df933e3b1bfe8",
+      "platform_item_id": "c900372433f3974c",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: TWICE’s Nayeon Gears Up For Solo Comeback With Teaser For New Single “NA-sty”",
-      "description": "The first teaser has been unveiled for Nayeon’s comeback! On October 23, a teaser titled “CAPTIVATED MODE: ON” was revealed for the TWICE member’s upcoming single “NA-sty” “NA-sty” is set to be released on November 20 at 2 p.m. KST. Check out the teaser below: The post Watch: TWICE’s Nayeon Gears Up For Solo Comeback With Teaser For New Single “NA-sty” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1881049wpp/watch-twices-nayeon-gears-up-for-solo-comeback-with-teaser-for-new-single-na-sty",
+      "title": "BLACKPINK Lisa’s New Single Sparks Scathing Backlash And Accusations",
+      "description": "The new track has seemingly not impressed.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-new-single-sparks-scathing-backlash-accusations/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-23T15:48:39Z",
-      "collected_at": "2026-10-24T04:42:39Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "nayeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "nayeon",
-          "alias": "Nayeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8481,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.0976,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:fc52095850698bdd",
-      "platform": "news",
-      "platform_item_id": "fc52095850698bdd",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Lisa’s Visuals After Alleged Nose Job Spark Brutal Criticism",
-      "description": "“A new day and a new nose job…”",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-nose-job-criticism-visuals/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-23T15:20:05Z",
-      "collected_at": "2026-10-24T04:42:39Z",
+      "published_at": "2026-10-24T10:33:41Z",
+      "collected_at": "2026-10-24T11:08:28Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8433,
+        "recency": 0.9863,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +68,190 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.058,
+      "hot_score": 8.2546,
+      "available": true
+    },
+    {
+      "id": "news:soompi:6fcb0da2d969a719",
+      "platform": "news",
+      "platform_item_id": "6fcb0da2d969a719",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jisoo Reveals Adorable Solo Light Stick",
+      "description": "BLACKPINK’s Jisoo is launching a new solo light stick! On October 24, Jisoo revealed the first glimpse of her adorable official light stick, which is designed to look like an ice cream cone. Jisoo’s solo light stick will be available starting on October 26 KST. Check out the sneak peek of Jisoo’s new light stick… Continue reading BLACKPINK’s Jisoo Reveals Adorable Solo Light Stick The post BLACKPINK’s Jisoo Reveals Adorable Solo Light Stick appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1881122wpp/blackpinks-jisoo-reveals-adorable-solo-light-stick",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-24T10:06:33Z",
+      "collected_at": "2026-10-24T11:08:28Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9859,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.251,
+      "available": true
+    },
+    {
+      "id": "news:soompi:363eb89e6846c9e0",
+      "platform": "news",
+      "platform_item_id": "363eb89e6846c9e0",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: BLACKPINK’s Jisoo Drops Teasers For New Single “ADDICTED”",
+      "description": "BLACKPINK’s Jisoo is dropping a new single next week! On October 24, Jisoo officially announced her plans to return with a new digital single called “ADDICTED.” Jisoo also unveiled her first teasers for the upcoming single, which is due out on October 30 KST. Check out Jisoo’s first teasers for “ADDICTED” below: The post Watch: BLACKPINK’s Jisoo Drops Teasers For New Single “ADDICTED” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-24T05:00:32Z",
+      "collected_at": "2026-10-24T11:08:28Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9215,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7124,
+      "available": true
+    },
+    {
+      "id": "news:soompi:763df933e3b1bfe8",
+      "platform": "news",
+      "platform_item_id": "763df933e3b1bfe8",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: TWICE’s Nayeon Gears Up For Solo Comeback With Teaser For New Single “NA-sty”",
+      "description": "The first teaser has been unveiled for Nayeon’s comeback! On October 23, a teaser titled “CAPTIVATED MODE: ON” was revealed for the TWICE member’s upcoming single “NA-sty” “NA-sty” is set to be released on November 20 at 2 p.m. KST. Check out the teaser below: The post Watch: TWICE’s Nayeon Gears Up For Solo Comeback With Teaser For New Single “NA-sty” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1881049wpp/watch-twices-nayeon-gears-up-for-solo-comeback-with-teaser-for-new-single-na-sty",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-23T15:48:39Z",
+      "collected_at": "2026-10-24T11:08:28Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "nayeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "nayeon",
+          "alias": "Nayeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.7883,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5979,
       "available": true
     },
     {
@@ -143,7 +265,7 @@
       "url": "https://www.soompi.com/article/1881045wpp/watch-nct-wish-takes-1st-win-for-i-spy-on-music-bank-performances-by-ive-a2o-lite-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T12:22:53Z",
-      "collected_at": "2026-10-24T04:42:39Z",
+      "collected_at": "2026-10-24T11:08:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8151,
+        "recency": 0.7598,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -181,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6999,
+      "hot_score": 5.3131,
       "available": true
     },
     {
@@ -195,7 +317,7 @@
       "url": "https://www.soompi.com/article/1880839wpp/watch-a2o-lite-takes-3rd-win-for-neon-on-m-countdown-performances-by-seventeens-jxj-ive-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T12:51:30Z",
-      "collected_at": "2026-10-24T04:42:39Z",
+      "collected_at": "2026-10-24T11:08:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +347,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6437,
+        "recency": 0.6087,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -233,7 +355,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5012,
+      "hot_score": 4.2565,
       "available": true
     },
     {
@@ -247,7 +369,7 @@
       "url": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T07:05:43Z",
-      "collected_at": "2026-10-24T04:42:39Z",
+      "collected_at": "2026-10-24T11:08:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6122,
+        "recency": 0.5804,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -294,68 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1234,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6468fb5498e2804d",
-      "platform": "news",
-      "platform_item_id": "6468fb5498e2804d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health",
-      "description": "LE SSERAFIM’s Sakura will not be performing at the group’s concert in Paris tonight. On October 21, SOURCE MUSIC announced that Sakura would be sitting out LE SSERAFIM’s “PUREFLOW” concert in Paris that day after falling ill. According to the agency, Sakura “was advised by local medical professionals to rest and recuperate for the time… Continue reading LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health The post LE SSERAFIM’s Sakura To Sit Out Today’s Concert In Paris Due To Health appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1880440wpp/le-sserafims-sakura-to-sit-out-todays-concert-in-paris-due-to-health",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-21T14:03:42Z",
-      "collected_at": "2026-10-24T04:42:39Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "sakura"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "sakura",
-          "alias": "Sakura",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5347,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.4752,
+      "hot_score": 4.8578,
       "available": true
     },
     {
@@ -369,7 +430,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-24T04:42:39Z",
+      "collected_at": "2026-10-24T11:08:28Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -408,7 +469,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0863,
+        "recency": 0.0857,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -416,7 +477,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7226,
+      "hot_score": 0.717,
       "available": true
     }
   ]
