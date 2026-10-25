@@ -1,15 +1,67 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-24T20:54:04Z",
+  "generated_at": "2026-10-25T04:48:31Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:1fd13393992c4829",
+      "platform": "news",
+      "platform_item_id": "1fd13393992c4829",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: PLAVE Takes 1st Win For “Star Trace” On “Music Core”; Performances By IVE, BABYMONSTER, And More",
+      "description": "PLAVE has won their first music show trophy for their new title track “Star Trace”! On the October 24A episode of MBC’s “Music Core,” the candidates for first place were A2O LITE’s “NEON,” NCT WISH’s “I SPY,” and PLAVE’s “Star Trace.” PLAVE ultimately took the win with a total of 8,299 points. Congratulations to PLAVE!… Continue reading Watch: PLAVE Takes 1st Win For “Star Trace” On “Music Core”; Performances By IVE, BABYMONSTER, And More The post Watch: PLAVE Takes 1st Win For “Star Trace” On “Music Core”; Performances By IVE, BABYMONSTER, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1881220wpp/watch-plave-takes-1st-win-for-star-trace-on-music-core-performances-by-ive-babymonster-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-25T00:05:16Z",
+      "collected_at": "2026-10-25T04:48:31Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9385,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5623,
+      "available": true
+    },
     {
       "id": "news:soompi:6fcb0da2d969a719",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.soompi.com/article/1881122wpp/blackpinks-jisoo-reveals-adorable-solo-light-stick",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T10:06:33Z",
-      "collected_at": "2026-10-24T20:54:04Z",
+      "collected_at": "2026-10-25T04:48:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8696,
+        "recency": 0.7938,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.2783,
+      "hot_score": 6.6438,
       "available": true
     },
     {
@@ -82,7 +134,7 @@
       "url": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T05:00:32Z",
-      "collected_at": "2026-10-24T20:54:04Z",
+      "collected_at": "2026-10-25T04:48:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -121,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8192,
+        "recency": 0.7516,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.856,
+      "hot_score": 6.2901,
       "available": true
     },
     {
@@ -143,7 +195,7 @@
       "url": "https://www.soompi.com/article/1881049wpp/watch-twices-nayeon-gears-up-for-solo-comeback-with-teaser-for-new-single-na-sty",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T15:48:39Z",
-      "collected_at": "2026-10-24T20:54:04Z",
+      "collected_at": "2026-10-25T04:48:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7122,
+        "recency": 0.6606,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9609,
+      "hot_score": 5.5284,
       "available": true
     },
     {
@@ -204,7 +256,7 @@
       "url": "https://www.soompi.com/article/1881045wpp/watch-nct-wish-takes-1st-win-for-i-spy-on-music-bank-performances-by-ive-a2o-lite-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T12:22:53Z",
-      "collected_at": "2026-10-24T20:54:04Z",
+      "collected_at": "2026-10-25T04:48:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6889,
+        "recency": 0.6404,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -242,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.817,
+      "hot_score": 4.4782,
       "available": true
     },
     {
@@ -256,7 +308,7 @@
       "url": "https://www.soompi.com/article/1880839wpp/watch-a2o-lite-takes-3rd-win-for-neon-on-m-countdown-performances-by-seventeens-jxj-ive-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T12:51:30Z",
-      "collected_at": "2026-10-24T20:54:04Z",
+      "collected_at": "2026-10-25T04:48:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5623,
+        "recency": 0.5296,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.932,
+      "hot_score": 3.7033,
       "available": true
     },
     {
@@ -308,7 +360,7 @@
       "url": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T07:05:43Z",
-      "collected_at": "2026-10-24T20:54:04Z",
+      "collected_at": "2026-10-25T04:48:31Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -347,7 +399,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5381,
+        "recency": 0.5081,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -355,7 +407,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5034,
+      "hot_score": 4.2522,
       "available": true
     },
     {
@@ -369,7 +421,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-24T20:54:04Z",
+      "collected_at": "2026-10-25T04:48:31Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -408,7 +460,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0847,
+        "recency": 0.0839,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -416,7 +468,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7088,
+      "hot_score": 0.7023,
       "available": true
     }
   ]
