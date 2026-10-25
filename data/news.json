@@ -1,15 +1,197 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-25T16:28:15Z",
+  "generated_at": "2026-10-25T20:55:01Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 11,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:42b9ae524375f9c5",
+      "platform": "news",
+      "platform_item_id": "42b9ae524375f9c5",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: NMIXX’s Lily And Sullyoon + ILLIT’s Yunah And Wonhee Take Over “Amazing Saturday” In Fun Preview",
+      "description": "Get ready to see members of NMIXX and ILLIT on “Amazing Saturday”! The popular tvN variety show has aired a sneak peek of next week’s episode, which will feature NMIXX’s Lily and Sullyoon, along with ILLIT’s Yunah and Wonhee, as guests. The preview starts with Lily and Sullyoon adorably attempting and failing to introduce themselves… Continue reading Watch: NMIXX’s Lily And Sullyoon + ILLIT’s Yunah And Wonhee Take Over “Amazing Saturday” In Fun Preview The post Watch: NMIXX’s Lily And Sullyoon + ILLIT’s Yunah And Wonhee Take Over “Amazing Saturday” In Fun Preview appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1881393wpp/watch-nmixxs-lily-and-sullyoon-illits-yunah-and-wonhee-take-over-amazing-saturday-in-fun-preview",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-25T20:53:35Z",
+      "collected_at": "2026-10-25T20:55:01Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [
+        "wonhee",
+        "yunah"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "yunah",
+          "alias": "Yunah",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonhee",
+          "alias": "Wonhee",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 7.5,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 9.2873,
+      "available": true
+    },
+    {
+      "id": "news:soompi:cfb377ca4eb9238e",
+      "platform": "news",
+      "platform_item_id": "cfb377ca4eb9238e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Stray Kids, ENHYPEN, CORTIS, BOYNEXTDOOR, &TEAM, BTS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart",
+      "description": "Billboard has published its World Albums chart for the week ending on October 24! Stray Kids’ latest mini album “THIS & THAT” continued its reign at the top of the World Albums chart, marking its eighth non-consecutive week at No. 1. “THIS & THAT” also spent a 10th week on the Billboard 200 at No.… Continue reading Stray Kids, ENHYPEN, CORTIS, BOYNEXTDOOR, &TEAM, BTS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, ENHYPEN, CORTIS, BOYNEXTDOOR, &TEAM, BTS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1881390wpp/stray-kids-enhypen-cortis-boynextdoor-team-bts-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-25T19:13:31Z",
+      "collected_at": "2026-10-25T20:55:01Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.977,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8321,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:88930ef5dadf66ef",
+      "platform": "news",
+      "platform_item_id": "88930ef5dadf66ef",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Popular Female HYBE Idol Accused Of “Shading” BLACKPINK’s Lisa",
+      "description": "Netizens were not happy.",
+      "url": "https://www.koreaboo.com/news/female-hybe-idol-accuse-shading-blackpinks-lisa/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-25T16:35:02Z",
+      "collected_at": "2026-10-25T20:55:01Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9432,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8941,
+      "available": true
+    },
     {
       "id": "news:soompi:e9294b736e529b72",
       "platform": "news",
@@ -21,7 +203,7 @@
       "url": "https://www.soompi.com/article/1881316wpp/watch-a2o-lite-takes-4th-win-for-neon-on-inkigayo-performances-by-ive-babymonster-nmixx-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T14:49:41Z",
-      "collected_at": "2026-10-25T16:28:15Z",
+      "collected_at": "2026-10-25T20:55:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -65,7 +247,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9777,
+        "recency": 0.922,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -73,7 +255,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8366,
+      "hot_score": 6.4474,
       "available": true
     },
     {
@@ -87,7 +269,7 @@
       "url": "https://www.soompi.com/article/1881220wpp/watch-plave-takes-1st-win-for-star-trace-on-music-core-performances-by-ive-babymonster-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T00:05:16Z",
-      "collected_at": "2026-10-25T16:28:15Z",
+      "collected_at": "2026-10-25T20:55:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -117,7 +299,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8146,
+        "recency": 0.7756,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -125,7 +307,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6964,
+      "hot_score": 5.4236,
       "available": true
     },
     {
@@ -139,7 +321,7 @@
       "url": "https://www.soompi.com/article/1881122wpp/blackpinks-jisoo-reveals-adorable-solo-light-stick",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T10:06:33Z",
-      "collected_at": "2026-10-25T16:28:15Z",
+      "collected_at": "2026-10-25T20:55:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -178,7 +360,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7034,
+        "recency": 0.6741,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -186,7 +368,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8868,
+      "hot_score": 5.6418,
       "available": true
     },
     {
@@ -200,7 +382,7 @@
       "url": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T05:00:32Z",
-      "collected_at": "2026-10-25T16:28:15Z",
+      "collected_at": "2026-10-25T20:55:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -239,7 +421,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.67,
+        "recency": 0.6434,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -247,7 +429,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6074,
+      "hot_score": 5.3846,
       "available": true
     },
     {
@@ -261,7 +443,7 @@
       "url": "https://www.soompi.com/article/1881049wpp/watch-twices-nayeon-gears-up-for-solo-comeback-with-teaser-for-new-single-na-sty",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T15:48:39Z",
-      "collected_at": "2026-10-25T16:28:15Z",
+      "collected_at": "2026-10-25T20:55:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -300,7 +482,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5967,
+        "recency": 0.5755,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -308,7 +490,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9941,
+      "hot_score": 4.8166,
       "available": true
     },
     {
@@ -322,7 +504,7 @@
       "url": "https://www.soompi.com/article/1881045wpp/watch-nct-wish-takes-1st-win-for-i-spy-on-music-bank-performances-by-ive-a2o-lite-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T12:22:53Z",
-      "collected_at": "2026-10-25T16:28:15Z",
+      "collected_at": "2026-10-25T20:55:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -352,7 +534,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5802,
+        "recency": 0.5602,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -360,7 +542,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.0573,
+      "hot_score": 3.917,
       "available": true
     },
     {
@@ -374,7 +556,7 @@
       "url": "https://www.soompi.com/article/1880839wpp/watch-a2o-lite-takes-3rd-win-for-neon-on-m-countdown-performances-by-seventeens-jxj-ive-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T12:51:30Z",
-      "collected_at": "2026-10-25T16:28:15Z",
+      "collected_at": "2026-10-25T20:55:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -404,7 +586,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4878,
+        "recency": 0.4735,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -412,7 +594,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.4107,
+      "hot_score": 3.311,
       "available": true
     },
     {
@@ -426,7 +608,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-25T16:28:15Z",
+      "collected_at": "2026-10-25T20:55:01Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -465,7 +647,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0828,
+        "recency": 0.0824,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -473,7 +655,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6929,
+      "hot_score": 0.6893,
       "available": true
     }
   ]
