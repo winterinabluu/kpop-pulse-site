@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-25T04:48:31Z",
+  "generated_at": "2026-10-25T11:38:28Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1881220wpp/watch-plave-takes-1st-win-for-star-trace-on-music-core-performances-by-ive-babymonster-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T00:05:16Z",
-      "collected_at": "2026-10-25T04:48:31Z",
+      "collected_at": "2026-10-25T11:38:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9385,
+        "recency": 0.8617,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5623,
+      "hot_score": 6.0257,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1881122wpp/blackpinks-jisoo-reveals-adorable-solo-light-stick",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T10:06:33Z",
-      "collected_at": "2026-10-25T04:48:31Z",
+      "collected_at": "2026-10-25T11:38:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7938,
+        "recency": 0.7382,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -120,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6438,
+      "hot_score": 6.1783,
       "available": true
     },
     {
@@ -129,12 +129,12 @@
       "platform_item_id": "363eb89e6846c9e0",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: BLACKPINK’s Jisoo Drops Teasers For New Single “ADDICTED”",
-      "description": "BLACKPINK’s Jisoo is dropping a new single next week! On October 24, Jisoo officially announced her plans to return with a new digital single called “ADDICTED.” Jisoo also unveiled her first teasers for the upcoming single, which is due out on October 30 KST. Check out Jisoo’s first teasers for “ADDICTED” below: The post Watch: BLACKPINK’s Jisoo Drops Teasers For New Single “ADDICTED” appeared first on Soompi .",
+      "title": "Update: BLACKPINK’s Jisoo Unveils Teaser For New Single “ADDICTED”",
+      "description": "Updated October 25 KST: BLACKPINK’s Jisoo has released a new teaser image for her upcoming single “ADDICTED”! Original Article: BLACKPINK’s Jisoo is dropping a new single next week! On October 24, Jisoo officially announced her plans to return with a new digital single called “ADDICTED.” Jisoo also unveiled her first teasers for the upcoming single,… Continue reading Update: BLACKPINK’s Jisoo Unveils Teaser For New Single “ADDICTED” The post Update: BLACKPINK’s Jisoo Unveils Teaser For New Single “ADDICTED” appeared first on Soompi .",
       "url": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T05:00:32Z",
-      "collected_at": "2026-10-25T04:48:31Z",
+      "collected_at": "2026-10-25T11:38:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7516,
+        "recency": 0.7015,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -181,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2901,
+      "hot_score": 5.8713,
       "available": true
     },
     {
@@ -195,7 +195,7 @@
       "url": "https://www.soompi.com/article/1881049wpp/watch-twices-nayeon-gears-up-for-solo-comeback-with-teaser-for-new-single-na-sty",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T15:48:39Z",
-      "collected_at": "2026-10-25T04:48:31Z",
+      "collected_at": "2026-10-25T11:38:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6606,
+        "recency": 0.6216,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -242,7 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5284,
+      "hot_score": 5.2023,
       "available": true
     },
     {
@@ -256,7 +256,7 @@
       "url": "https://www.soompi.com/article/1881045wpp/watch-nct-wish-takes-1st-win-for-i-spy-on-music-bank-performances-by-ive-a2o-lite-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T12:22:53Z",
-      "collected_at": "2026-10-25T04:48:31Z",
+      "collected_at": "2026-10-25T11:38:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -286,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6404,
+        "recency": 0.6037,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.4782,
+      "hot_score": 4.2216,
       "available": true
     },
     {
@@ -308,7 +308,7 @@
       "url": "https://www.soompi.com/article/1880839wpp/watch-a2o-lite-takes-3rd-win-for-neon-on-m-countdown-performances-by-seventeens-jxj-ive-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-22T12:51:30Z",
-      "collected_at": "2026-10-25T04:48:31Z",
+      "collected_at": "2026-10-25T11:38:28Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -338,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5296,
+        "recency": 0.5043,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -346,68 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.7033,
-      "available": true
-    },
-    {
-      "id": "news:soompi:cf23cc3293b59d48",
-      "platform": "news",
-      "platform_item_id": "cf23cc3293b59d48",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "TWICE’s Jihyo Poses For Beautiful Profile Photos",
-      "description": "TWICE’s Jihyo has unveiled new profile photos, showcasing a unique and unrivaled aura! After announcing her independence and establishing her own company upon leaving JYP Entertainment, where she had been for 21 years, she signaled a fresh start with a bold new style. On October 22, Jihyo’s new agency EMITHAUS shared several photos on their… Continue reading TWICE’s Jihyo Poses For Beautiful Profile Photos The post TWICE’s Jihyo Poses For Beautiful Profile Photos appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1880725wpp/twices-jihyo-poses-for-beautiful-profile-photos",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-22T07:05:43Z",
-      "collected_at": "2026-10-25T04:48:31Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "jihyo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jihyo",
-          "alias": "Jihyo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5081,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.2522,
+      "hot_score": 3.5261,
       "available": true
     },
     {
@@ -421,7 +360,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-25T04:48:31Z",
+      "collected_at": "2026-10-25T11:38:28Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -460,7 +399,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0839,
+        "recency": 0.0832,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -468,7 +407,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.7023,
+      "hot_score": 0.6967,
       "available": true
     }
   ]
