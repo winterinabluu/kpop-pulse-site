@@ -1,15 +1,128 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-26T04:53:45Z",
+  "generated_at": "2026-10-26T13:11:58Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 11,
+    "item_count": 12,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:4b9e7a56036b8dc0",
+      "platform": "news",
+      "platform_item_id": "4b9e7a56036b8dc0",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "IVE Wonyoung’s “Jealous” Behavior During Music Show Sparks Hugely Divided Reactions",
+      "description": "Many netizens defended the idol.",
+      "url": "https://www.koreaboo.com/news/ives-wonyoung-behavior-music-show-sparks-hugely-divided-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-26T09:02:30Z",
+      "collected_at": "2026-10-26T13:11:58Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9454,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9123,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:551b0fa5747a92b5",
+      "platform": "news",
+      "platform_item_id": "551b0fa5747a92b5",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "“We’re Grateful” — ILLIT Directly Addresses Uniform Sexualization Controversy",
+      "description": "ILLIT has directly addressed the controversy over their alleged policewoman sexualization outfit. On the afternoon of October 26th, the media showcase for ILLIT’s 5th mini-album BREAK EVEN took place at…",
+      "url": "https://www.koreaboo.com/news/grateful-illit-directly-addresses-uniform-sexualization-controversy/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-26T07:52:49Z",
+      "collected_at": "2026-10-26T13:11:58Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9312,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5115,
+      "available": true
+    },
     {
       "id": "news:koreaboo:19358ad5633868d5",
       "platform": "news",
@@ -21,7 +134,7 @@
       "url": "https://www.koreaboo.com/news/newjeans-2-hybe-girl-group-sudden-fate-change-ridicule/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T23:24:43Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9292,
+        "recency": 0.8393,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4977,
+      "hot_score": 5.8688,
       "available": true
     },
     {
@@ -73,7 +186,7 @@
       "url": "https://www.soompi.com/article/1881393wpp/watch-nmixxs-lily-and-sullyoon-illits-yunah-and-wonhee-take-over-amazing-saturday-in-fun-preview",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T20:53:35Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -120,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9,
+        "recency": 0.8153,
         "views": 0,
         "engagement": 7.5,
         "source_weight": 0.55
@@ -128,7 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.4743,
+      "hot_score": 7.6775,
       "available": true
     },
     {
@@ -142,7 +255,7 @@
       "url": "https://www.soompi.com/article/1881390wpp/stray-kids-enhypen-cortis-boynextdoor-team-bts-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T19:13:31Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -172,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8816,
+        "recency": 0.8002,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -180,68 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.1646,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:88930ef5dadf66ef",
-      "platform": "news",
-      "platform_item_id": "88930ef5dadf66ef",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Popular Female HYBE Idol Accused Of “Shading” BLACKPINK’s Lisa",
-      "description": "Netizens were not happy.",
-      "url": "https://www.koreaboo.com/news/female-hybe-idol-accuse-shading-blackpinks-lisa/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-25T16:35:02Z",
-      "collected_at": "2026-10-26T04:53:45Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.854,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.1471,
+      "hot_score": 5.5957,
       "available": true
     },
     {
@@ -255,7 +307,7 @@
       "url": "https://www.soompi.com/article/1881316wpp/watch-a2o-lite-takes-4th-win-for-neon-on-inkigayo-performances-by-ive-babymonster-nmixx-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T14:49:41Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -299,7 +351,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8365,
+        "recency": 0.7629,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -307,7 +359,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8497,
+      "hot_score": 5.335,
       "available": true
     },
     {
@@ -321,7 +373,7 @@
       "url": "https://www.soompi.com/article/1881220wpp/watch-plave-takes-1st-win-for-star-trace-on-music-core-performances-by-ive-babymonster-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T00:05:16Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -351,7 +403,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7142,
+        "recency": 0.6599,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -359,7 +411,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9943,
+      "hot_score": 4.6143,
       "available": true
     },
     {
@@ -373,7 +425,7 @@
       "url": "https://www.soompi.com/article/1881122wpp/blackpinks-jisoo-reveals-adorable-solo-light-stick",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T10:06:33Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -412,7 +464,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6272,
+        "recency": 0.5849,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -420,7 +472,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2496,
+      "hot_score": 4.8955,
       "available": true
     },
     {
@@ -429,12 +481,12 @@
       "platform_item_id": "363eb89e6846c9e0",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Update: BLACKPINK’s Jisoo Unveils Teaser For New Single “ADDICTED”",
-      "description": "Updated October 25 KST: BLACKPINK’s Jisoo has released a new teaser image for her upcoming single “ADDICTED”! Original Article: BLACKPINK’s Jisoo is dropping a new single next week! On October 24, Jisoo officially announced her plans to return with a new digital single called “ADDICTED.” Jisoo also unveiled her first teasers for the upcoming single,… Continue reading Update: BLACKPINK’s Jisoo Unveils Teaser For New Single “ADDICTED” The post Update: BLACKPINK’s Jisoo Unveils Teaser For New Single “ADDICTED” appeared first on Soompi .",
+      "title": "Update: BLACKPINK’s Jisoo Drops Timetable For New Single “ADDICTED”",
+      "description": "Updated October 26 KST: BLACKPINK’s Jisoo has released a timetable for her upcoming single “ADDICTED”! Updated October 25 KST: BLACKPINK’s Jisoo has released a new teaser image for her upcoming single “ADDICTED”! Original Article: BLACKPINK’s Jisoo is dropping a new single next week! On October 24, Jisoo officially announced her plans to return with a… Continue reading Update: BLACKPINK’s Jisoo Drops Timetable For New Single “ADDICTED” The post Update: BLACKPINK’s Jisoo Drops Timetable For New Single “ADDICTED” appeared first on Soompi .",
       "url": "https://www.soompi.com/article/1881082wpp/watch-blackpinks-jisoo-drops-teasers-for-new-single-addicted",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-24T05:00:32Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -473,7 +525,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6006,
+        "recency": 0.5617,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -481,7 +533,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0263,
+      "hot_score": 4.7007,
       "available": true
     },
     {
@@ -495,7 +547,7 @@
       "url": "https://www.soompi.com/article/1881049wpp/watch-twices-nayeon-gears-up-for-solo-comeback-with-teaser-for-new-single-na-sty",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T15:48:39Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -534,7 +586,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.541,
+        "recency": 0.5092,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -542,7 +594,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5278,
+      "hot_score": 4.2619,
       "available": true
     },
     {
@@ -556,7 +608,7 @@
       "url": "https://www.soompi.com/article/1881045wpp/watch-nct-wish-takes-1st-win-for-i-spy-on-music-bank-performances-by-ive-a2o-lite-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-23T12:22:53Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -586,7 +638,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5274,
+        "recency": 0.4972,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -594,7 +646,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.688,
+      "hot_score": 3.4766,
       "available": true
     },
     {
@@ -608,7 +660,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-26T04:53:45Z",
+      "collected_at": "2026-10-26T13:11:58Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -647,7 +699,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0816,
+        "recency": 0.0809,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -655,7 +707,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6831,
+      "hot_score": 0.6767,
       "available": true
     }
   ]
