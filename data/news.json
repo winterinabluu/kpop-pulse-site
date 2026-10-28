@@ -1,15 +1,138 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-27T22:18:26Z",
+  "generated_at": "2026-10-28T05:48:52Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:61075a11c90f37fa",
+      "platform": "news",
+      "platform_item_id": "61075a11c90f37fa",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jisoo Receives Brutal Criticism Over New Song",
+      "description": "Many felt the same way.",
+      "url": "https://www.koreaboo.com/news/blackpink-jisoo-brutal-criticism-new-song/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-27T23:38:07Z",
+      "collected_at": "2026-10-28T05:48:52Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.921,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7077,
+      "available": true
+    },
+    {
+      "id": "news:soompi:db1b680a67866f16",
+      "platform": "news",
+      "platform_item_id": "db1b680a67866f16",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "A2O LITE, NCT WISH, PLAVE, Soyeon, And ILLIT Top Circle Weekly Charts",
+      "description": "Circle Chart has revealed its chart rankings for the week of October 11 to 17! Overall Digital Chart Rookie girl group A2O LITE achieved a double crown on this week’s Circle charts, topping both the overall digital chart and the global K-pop chart with their debut single “NEON.” PLAVE’s new title track “Star Trace” debuted… Continue reading A2O LITE, NCT WISH, PLAVE, Soyeon, And ILLIT Top Circle Weekly Charts The post A2O LITE, NCT WISH, PLAVE, Soyeon, And ILLIT Top Circle Weekly Charts appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1882039wpp/a2o-lite-nct-wish-plave-soyeon-and-illit-top-circle-weekly-charts",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-27T23:11:00Z",
+      "collected_at": "2026-10-28T05:48:52Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "gidle",
+        "illit"
+      ],
+      "matched_members": [
+        "soyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "soyeon",
+          "alias": "Soyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9157,
+        "views": 0,
+        "engagement": 7.1,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.428,
+      "available": true
+    },
     {
       "id": "news:soompi:c167e1010ce34005",
       "platform": "news",
@@ -21,7 +144,7 @@
       "url": "https://www.soompi.com/article/1881669wpp/illits-its-me-becomes-their-2nd-mv-to-hit-200-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-26T23:33:57Z",
-      "collected_at": "2026-10-27T22:18:26Z",
+      "collected_at": "2026-10-28T05:48:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +174,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.76,
+        "recency": 0.7042,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +182,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3141,
+      "hot_score": 4.924,
       "available": true
     },
     {
@@ -73,7 +196,7 @@
       "url": "https://www.soompi.com/article/1881393wpp/watch-nmixxs-lily-and-sullyoon-illits-yunah-and-wonhee-take-over-amazing-saturday-in-fun-preview",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T20:53:35Z",
-      "collected_at": "2026-10-27T22:18:26Z",
+      "collected_at": "2026-10-28T05:48:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -120,7 +243,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.593,
+        "recency": 0.5585,
         "views": 0,
         "engagement": 7.5,
         "source_weight": 0.55
@@ -128,7 +251,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.584,
+      "hot_score": 5.2588,
       "available": true
     },
     {
@@ -142,7 +265,7 @@
       "url": "https://www.soompi.com/article/1881390wpp/stray-kids-enhypen-cortis-boynextdoor-team-bts-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T19:13:31Z",
-      "collected_at": "2026-10-27T22:18:26Z",
+      "collected_at": "2026-10-28T05:48:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -172,7 +295,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.585,
+        "recency": 0.5513,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -180,7 +303,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.0905,
+      "hot_score": 3.8554,
       "available": true
     },
     {
@@ -194,7 +317,7 @@
       "url": "https://www.soompi.com/article/1881316wpp/watch-a2o-lite-takes-4th-win-for-neon-on-inkigayo-performances-by-ive-babymonster-nmixx-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-25T14:49:41Z",
-      "collected_at": "2026-10-27T22:18:26Z",
+      "collected_at": "2026-10-28T05:48:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -238,7 +361,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5648,
+        "recency": 0.5334,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -246,59 +369,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.9494,
-      "available": true
-    },
-    {
-      "id": "news:soompi:1fd13393992c4829",
-      "platform": "news",
-      "platform_item_id": "1fd13393992c4829",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: PLAVE Takes 1st Win For “Star Trace” On “Music Core”; Performances By IVE, BABYMONSTER, And More",
-      "description": "PLAVE has won their first music show trophy for their new title track “Star Trace”! On the October 24A episode of MBC’s “Music Core,” the candidates for first place were A2O LITE’s “NEON,” NCT WISH’s “I SPY,” and PLAVE’s “Star Trace.” PLAVE ultimately took the win with a total of 8,299 points. Congratulations to PLAVE!… Continue reading Watch: PLAVE Takes 1st Win For “Star Trace” On “Music Core”; Performances By IVE, BABYMONSTER, And More The post Watch: PLAVE Takes 1st Win For “Star Trace” On “Music Core”; Performances By IVE, BABYMONSTER, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1881220wpp/watch-plave-takes-1st-win-for-star-trace-on-music-core-performances-by-ive-babymonster-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-25T00:05:16Z",
-      "collected_at": "2026-10-27T22:18:26Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5063,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.5401,
+      "hot_score": 3.7298,
       "available": true
     },
     {
@@ -312,7 +383,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-27T22:18:26Z",
+      "collected_at": "2026-10-28T05:48:52Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -351,7 +422,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.078,
+        "recency": 0.0773,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -359,7 +430,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6525,
+      "hot_score": 0.6472,
       "available": true
     }
   ]
