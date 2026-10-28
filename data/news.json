@@ -1,15 +1,67 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-28T05:48:52Z",
+  "generated_at": "2026-10-28T13:02:20Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:nme-kpop:fca3c1d2ab448fff",
+      "platform": "news",
+      "platform_item_id": "fca3c1d2ab448fff",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "K-pop girl group ILLIT are wearing their hearts on their sleeves",
+      "description": "Back with their fifth EP ‘Break Even’, the five-piece are delivering a plot twist in their romance-led story. They tell NME about their latest chapter The post K-pop girl group ILLIT are wearing their hearts on their sleeves appeared first on NME .",
+      "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-28T09:00:08Z",
+      "collected_at": "2026-10-28T13:02:20Z",
+      "author": {
+        "name": "NME K-pop",
+        "handle": "nme-kpop",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9469,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.6214,
+      "available": true
+    },
     {
       "id": "news:koreaboo:61075a11c90f37fa",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jisoo-brutal-criticism-new-song/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-27T23:38:07Z",
-      "collected_at": "2026-10-28T05:48:52Z",
+      "collected_at": "2026-10-28T13:02:20Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.921,
+        "recency": 0.8431,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7077,
+      "hot_score": 7.0557,
       "available": true
     },
     {
@@ -82,7 +134,7 @@
       "url": "https://www.soompi.com/article/1882039wpp/a2o-lite-nct-wish-plave-soyeon-and-illit-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-27T23:11:00Z",
-      "collected_at": "2026-10-28T05:48:52Z",
+      "collected_at": "2026-10-28T13:02:20Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -122,7 +174,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9157,
+        "recency": 0.8386,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -130,7 +182,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.428,
+      "hot_score": 7.7188,
       "available": true
     },
     {
@@ -144,7 +196,7 @@
       "url": "https://www.soompi.com/article/1881669wpp/illits-its-me-becomes-their-2nd-mv-to-hit-200-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-26T23:33:57Z",
-      "collected_at": "2026-10-28T05:48:52Z",
+      "collected_at": "2026-10-28T13:02:20Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -174,7 +226,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7042,
+        "recency": 0.6577,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -182,194 +234,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.924,
-      "available": true
-    },
-    {
-      "id": "news:soompi:42b9ae524375f9c5",
-      "platform": "news",
-      "platform_item_id": "42b9ae524375f9c5",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: NMIXX’s Lily And Sullyoon + ILLIT’s Yunah And Wonhee Take Over “Amazing Saturday” In Fun Preview",
-      "description": "Get ready to see members of NMIXX and ILLIT on “Amazing Saturday”! The popular tvN variety show has aired a sneak peek of next week’s episode, which will feature NMIXX’s Lily and Sullyoon, along with ILLIT’s Yunah and Wonhee, as guests. The preview starts with Lily and Sullyoon adorably attempting and failing to introduce themselves… Continue reading Watch: NMIXX’s Lily And Sullyoon + ILLIT’s Yunah And Wonhee Take Over “Amazing Saturday” In Fun Preview The post Watch: NMIXX’s Lily And Sullyoon + ILLIT’s Yunah And Wonhee Take Over “Amazing Saturday” In Fun Preview appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1881393wpp/watch-nmixxs-lily-and-sullyoon-illits-yunah-and-wonhee-take-over-amazing-saturday-in-fun-preview",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-25T20:53:35Z",
-      "collected_at": "2026-10-28T05:48:52Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [
-        "wonhee",
-        "yunah"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "yunah",
-          "alias": "Yunah",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonhee",
-          "alias": "Wonhee",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5585,
-        "views": 0,
-        "engagement": 7.5,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.2588,
-      "available": true
-    },
-    {
-      "id": "news:soompi:cfb377ca4eb9238e",
-      "platform": "news",
-      "platform_item_id": "cfb377ca4eb9238e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Stray Kids, ENHYPEN, CORTIS, BOYNEXTDOOR, &TEAM, BTS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on October 24! Stray Kids’ latest mini album “THIS & THAT” continued its reign at the top of the World Albums chart, marking its eighth non-consecutive week at No. 1. “THIS & THAT” also spent a 10th week on the Billboard 200 at No.… Continue reading Stray Kids, ENHYPEN, CORTIS, BOYNEXTDOOR, &TEAM, BTS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart The post Stray Kids, ENHYPEN, CORTIS, BOYNEXTDOOR, &TEAM, BTS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1881390wpp/stray-kids-enhypen-cortis-boynextdoor-team-bts-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-25T19:13:31Z",
-      "collected_at": "2026-10-28T05:48:52Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5513,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.8554,
-      "available": true
-    },
-    {
-      "id": "news:soompi:e9294b736e529b72",
-      "platform": "news",
-      "platform_item_id": "e9294b736e529b72",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: A2O LITE Takes 4th Win For “NEON” On “Inkigayo”; Performances By IVE, BABYMONSTER, NMIXX, And More",
-      "description": "A2O LITE has won a fourth music show trophy for their debut track “NEON”! On the October 25 episode of SBS’s “Inkigayo,” the candidates for first place were i-dle’s Soyeon’s “I’m gonna TOESA,” NCT WISH’s “I SPY,” and A2O LITE’s “NEON.” A2O LITE ultimately took the win with a total of 6,060 points. Congratulations to… Continue reading Watch: A2O LITE Takes 4th Win For “NEON” On “Inkigayo”; Performances By IVE, BABYMONSTER, NMIXX, And More The post Watch: A2O LITE Takes 4th Win For “NEON” On “Inkigayo”; Performances By IVE, BABYMONSTER, NMIXX, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1881316wpp/watch-a2o-lite-takes-4th-win-for-neon-on-inkigayo-performances-by-ive-babymonster-nmixx-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-25T14:49:41Z",
-      "collected_at": "2026-10-28T05:48:52Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "gidle",
-          "alias": "i-dle",
-          "field": "description",
-          "score": 0.3
-        },
-        {
-          "target_type": "member",
-          "target_id": "soyeon",
-          "alias": "Soyeon",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5334,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.7298,
+      "hot_score": 4.599,
       "available": true
     },
     {
@@ -383,7 +248,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-28T05:48:52Z",
+      "collected_at": "2026-10-28T13:02:20Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -422,7 +287,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0773,
+        "recency": 0.0767,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -430,7 +295,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6472,
+      "hot_score": 0.6422,
       "available": true
     }
   ]
