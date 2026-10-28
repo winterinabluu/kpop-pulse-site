@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "reviewed_on": "2026-10-29",
+  "accounts": [
+    {"group_id":"aespa","handle":"aespaJPofficial","region":"jp","source_url":"https://aespa-official.jp/","verified_on":"2026-10-29"},
+    {"group_id":"ive","handle":"IVEstarship_JP","region":"jp","source_url":"https://ive-official.jp/","verified_on":"2026-10-29"},
+    {"group_id":"lesserafim","handle":"le_sserafim","region":"global","source_url":"https://sourcemusic.com/artist/profile/LE%20SSERAFIM","verified_on":"2026-10-29"},
+    {"group_id":"gidle","handle":"official_i_dle","region":"global","source_url":"https://www.universal-music.co.jp/g-i-dle/","verified_on":"2026-10-29"},
+    {"group_id":"newjeans","handle":"NewJeans_jp","region":"jp","source_url":"https://www.newjeans.jp/","verified_on":"2026-10-29"},
+    {"group_id":"illit","handle":"ILLIT_official","region":"global","source_url":"https://beliftlab.com/artist/profile/ILLIT","verified_on":"2026-10-29"},
+    {"group_id":"kissoflife","handle":"KISSOFLIFE_S2","region":"global","source_url":"https://www.s2ent.co.kr/34","verified_on":"2026-10-29"},
+    {"group_id":"blackpink","handle":"BLACKPINK","region":"global","source_url":"https://www.blackpinkofficial.com/","verified_on":"2026-10-29"},
+    {"group_id":"twice","handle":"JYPETWICE","region":"global","source_url":"https://twice.jype.com/profile","verified_on":"2026-10-29"}
+  ],
+  "manual_posts": []
+}

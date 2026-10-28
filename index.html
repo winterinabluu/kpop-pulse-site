@@ -9,11 +9,11 @@
     />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; frame-src 'self'; base-uri 'self'; form-action 'none'"
     />
     <title>Kpop Pulse</title>
-    <link rel="stylesheet" href="./src/styles.css?v=20260812a" />
-    <script type="module" src="./src/app.js?v=20260812a"></script>
+    <link rel="stylesheet" href="./src/styles.css?v=20261029a" />
+    <script type="module" src="./src/app.js?v=20261029a"></script>
   </head>
   <body>
     <noscript>Kpop Pulse 需要启用 JavaScript 才能读取本地数据并渲染内容列表。</noscript>
@@ -74,7 +74,7 @@
           </div>
         </section>
 
-        <section class="summary-grid" aria-label="数据摘要">
+        <section id="core-summary" class="summary-grid" aria-label="新闻与视频数据摘要">
           <article class="summary-card">
             <span class="summary-label">当前结果</span>
             <strong id="summary-count">0</strong>
@@ -104,7 +104,7 @@
           <button id="youtube-consent-accept" class="consent-button" type="button" disabled>同意并显示 YouTube 内容</button>
         </section>
 
-        <section class="feed-section" aria-labelledby="feed-title">
+        <section id="core-feed-section" class="feed-section" aria-labelledby="feed-title">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Alpha</p>
@@ -119,9 +119,38 @@
             <p>换一个团体、成员、来源，或清空搜索词。</p>
           </div>
         </section>
+        <section id="x-section" class="x-section" aria-labelledby="x-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">Official &amp; Curated</p><h2 id="x-title">X 动态</h2></div>
+            <span class="x-mode">零 API 费用 · 非自动热榜</span>
+          </div>
+          <p class="x-note">官方动态由 X 嵌入提供；社区帖由人工精选。不抓取正文或互动统计，也不计入上方新闻/视频条数。</p>
+          <div class="x-account-bar">
+            <label for="x-account-select">官方账号</label>
+            <select id="x-account-select" aria-label="选择已核验的 X 官方账号" disabled></select>
+            <div class="x-actions">
+              <a id="x-account-link" target="_blank" rel="noopener noreferrer" hidden>打开官方原页 ↗</a>
+              <a id="x-account-source" target="_blank" rel="noopener noreferrer" hidden>核验出处 ↗</a>
+            </div>
+          </div>
+          <p id="x-directory-note" class="x-note"></p>
+          <p id="x-filter-hint" class="x-filter-hint" hidden>成员筛选、屏蔽或搜索正在生效：为尊重偏好，已隐藏无法逐帖筛选的官方时间线。人工精选仍按标签和维护者备注筛选。</p>
+          <div class="x-consent">
+            <label class="consent-check" for="x-consent-check"><input id="x-consent-check" type="checkbox" /><span>我同意加载 X 嵌入。X 可能接收 IP、浏览器信息或使用 Cookie；可随时撤回。详见<a href="./privacy.html#x-privacy">隐私说明</a>。</span></label>
+            <div class="x-actions">
+              <button id="x-consent-accept" class="consent-button" type="button" disabled>同意并显示 X 内容</button>
+              <button id="x-consent-revoke" class="ghost-button" type="button" hidden>撤回 X 同意</button>
+              <button id="x-embed-retry" class="ghost-button" type="button" hidden>重试嵌入</button>
+            </div>
+            <p id="x-storage-note" class="x-note" hidden>浏览器无法保存偏好，本次同意仅在当前会话有效。</p>
+          </div>
+          <p id="x-status" class="x-status" role="status" aria-live="polite">正在读取 X 官方目录…</p>
+          <div id="x-embed-slot"></div>
+          <div class="x-manual"><h3>社区人工精选</h3><p id="x-manual-empty" class="x-note"></p><div id="x-manual-posts"></div></div>
+        </section>
       </main>
       <footer class="app-footer">
-        <p>当前为 Alpha 版本，仅聚合公开摘要并跳转原站；内容版权归原平台和作者所有。</p>
+        <p>当前为 Alpha：新闻展示公开摘要，X 使用官方嵌入或精选原帖链接；内容版权归原平台和作者所有。</p>
         <nav class="footer-links" aria-label="政策与条款">
           <a href="./privacy.html">隐私说明</a>
           <a href="./terms.html">使用条款</a>

@@ -1,3 +1,7 @@
+import { createXSection } from './x-section.mjs?v=20261029a';
+
+let xSection;
+let xEnabled = true;
 const DATA_FILES = {
   config: "./data/config.json",
   meta: "./data/meta.json",
@@ -23,6 +27,7 @@ const CONFIDENCE_ORDER = {
 };
 
 const PLATFORM_LABELS = {
+  x: "X 动态",
   youtube: "YouTube",
   news: "新闻",
   bilibili: "Bilibili",
@@ -171,7 +176,7 @@ function sanitizeUrlFilters() {
   retainAllowed(state.filters.groups, state.config.groups.filter((group) => group.active).map((group) => group.id));
   retainAllowed(state.filters.members, state.config.members.filter((member) => member.active).map((member) => member.id));
   retainAllowed(state.filters.mutedMembers, state.config.members.filter((member) => member.active).map((member) => member.id));
-  retainAllowed(state.filters.platforms, state.items.map((item) => item.platform));
+  retainAllowed(state.filters.platforms, [...state.items.map((item) => item.platform), ...(xEnabled ? ['x'] : [])]);
   for (const memberId of state.filters.mutedMembers) {
     state.filters.members.delete(memberId);
   }
@@ -303,6 +308,10 @@ function render() {
   renderYoutubeConsent();
   renderFilters();
   renderFeed();
+  xSection?.update(state.filters);
+  const xOnly = state.filters.platforms.size > 0 && [...state.filters.platforms].every(platform => platform === 'x');
+  document.querySelector('#core-feed-section').hidden = xOnly;
+  document.querySelector('#core-summary').hidden = xOnly;
 }
 
 function renderYoutubeConsent() {
@@ -486,7 +495,7 @@ function renderMemberFilters() {
 }
 
 function renderPlatformFilters() {
-  const platforms = unique(state.items.map((item) => item.platform)).sort();
+  const platforms = unique([...state.items.map((item) => item.platform), ...(xEnabled ? ['x'] : [])]).sort();
 
   els.platformFilters.replaceChildren(
     makeChip("全部", state.filters.platforms.size === 0, () => {
@@ -1055,6 +1064,14 @@ async function init() {
   try {
     parseUrlState();
     await loadAppData();
+    xSection = createXSection(document.querySelector('#x-section'), state.config, (enabled) => {
+      if (enabled === xEnabled) return;
+      const focusKey = document.activeElement?.dataset?.filterKey;
+      xEnabled = enabled;
+      if (!enabled) { state.filters.platforms.delete('x'); syncUrlState(); }
+      render();
+      restoreFilterFocus(!enabled && focusKey === 'platform:x' ? 'platform:all' : focusKey);
+    });
     sanitizeUrlFilters();
     resetVisibleLimit();
     persistMutedMembers();
