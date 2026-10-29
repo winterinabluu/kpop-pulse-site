@@ -2,6 +2,8 @@ import { createXSection } from './x-section.mjs?v=20261029a';
 
 let xSection;
 let xEnabled = true;
+let youtubeRequest;
+let youtubeRequestVersion = 0;
 const DATA_FILES = {
   config: "./data/config.json",
   meta: "./data/meta.json",
@@ -52,6 +54,7 @@ const state = {
   youtubeConsent: false,
   youtubeConsentRequired: false,
   youtubeItemsLoaded: false,
+  youtubeStorageAvailable: true,
   filters: {
     groups: new Set(),
     members: new Set(),
@@ -84,6 +87,8 @@ const els = {
   youtubeConsentCheck: document.querySelector("#youtube-consent-check"),
   youtubeConsentAccept: document.querySelector("#youtube-consent-accept"),
   youtubeConsentRevoke: document.querySelector("#youtube-consent-revoke"),
+  youtubeRetry: document.querySelector("#youtube-retry"),
+  youtubeStorageNote: document.querySelector("#youtube-storage-note"),
   summaryCount: document.querySelector("#summary-count"),
   summarySources: document.querySelector("#summary-sources"),
   summaryLatest: document.querySelector("#summary-latest"),
@@ -93,8 +98,9 @@ const els = {
   clearFilters: document.querySelector("#clear-filters")
 };
 
-async function fetchJson(path) {
+async function fetchJson(path, { signal } = {}) {
   const response = await fetch(path, {
+    signal,
     cache: "no-cache",
     headers: { Accept: "application/json" }
   });
@@ -116,7 +122,7 @@ async function loadAppData() {
   state.youtubeConsentRequired = youtubeHasContent && !state.youtubeConsent;
   const feeds = await Promise.all(
     DATA_FILES.feeds
-      .filter(([source]) => source !== "youtube" || (youtubeHasContent && state.youtubeConsent))
+      .filter(([source]) => source !== "youtube")
       .map(async ([source, path]) => {
       try {
         return { source, feed: await fetchJson(path) };
@@ -131,12 +137,11 @@ async function loadAppData() {
   state.feedErrors = {};
   state.items = [];
   state.youtubeItemsLoaded = false;
+  // Recheck after the core feeds load: another tab may have withdrawn during initialization.
+  state.youtubeConsent = loadStoredYoutubeConsent();
   for (const result of feeds) {
     if (result.feed) {
       state.items.push(...(result.feed.items ?? []));
-      if (result.source === "youtube") {
-        state.youtubeItemsLoaded = true;
-      }
     } else {
       state.feedErrors[result.source] = result.error;
     }
@@ -145,18 +150,54 @@ async function loadAppData() {
 
 async function loadYoutubeFeed() {
   const youtubePath = DATA_FILES.feeds.find(([source]) => source === "youtube")?.[1];
-  if (!youtubePath || state.youtubeItemsLoaded) {
+  if (!youtubePath || !state.youtubeConsent || state.youtubeItemsLoaded || youtubeRequest ||
+      (state.meta.sources?.youtube?.item_count ?? 0) === 0) {
     return;
   }
+  const request = new AbortController();
+  const version = ++youtubeRequestVersion;
+  youtubeRequest = request;
   try {
-    const feed = await fetchJson(youtubePath);
+    const feed = await fetchJson(youtubePath, { signal: request.signal });
+    if (request.signal.aborted || version !== youtubeRequestVersion || !state.youtubeConsent) return;
     state.items = state.items.filter((item) => item.platform !== "youtube");
     state.items.push(...(feed.items ?? []));
     delete state.feedErrors.youtube;
     state.youtubeItemsLoaded = true;
   } catch (error) {
-    state.feedErrors.youtube = error;
+    if (!request.signal.aborted && version === youtubeRequestVersion && state.youtubeConsent) {
+      state.feedErrors.youtube = error;
+    }
+  } finally {
+    if (version === youtubeRequestVersion) {
+      youtubeRequest = undefined;
+      const focusKey = document.activeElement?.dataset?.filterKey;
+      resetVisibleLimit();
+      render();
+      restoreFilterFocus(focusKey);
+    }
   }
+}
+
+function setYoutubeConsent(accepted, { persist = true, focus = false } = {}) {
+  youtubeRequestVersion++;
+  youtubeRequest?.abort();
+  youtubeRequest = undefined;
+  state.youtubeConsent = accepted;
+  if (persist) persistYoutubeConsent();
+  if (!accepted) {
+    state.items = state.items.filter(item => item.platform !== 'youtube');
+    state.youtubeItemsLoaded = false;
+    state.filters.platforms.delete('youtube');
+    delete state.feedErrors.youtube;
+    syncUrlState();
+  }
+  els.youtubeConsentCheck.checked = accepted;
+  resetVisibleLimit();
+  // Show withdrawal immediately, before waiting for any network request.
+  render();
+  if (focus) els.youtubeConsentCheck.focus();
+  if (accepted) void loadYoutubeFeed();
 }
 
 function parseUrlState() {
@@ -176,7 +217,7 @@ function sanitizeUrlFilters() {
   retainAllowed(state.filters.groups, state.config.groups.filter((group) => group.active).map((group) => group.id));
   retainAllowed(state.filters.members, state.config.members.filter((member) => member.active).map((member) => member.id));
   retainAllowed(state.filters.mutedMembers, state.config.members.filter((member) => member.active).map((member) => member.id));
-  retainAllowed(state.filters.platforms, [...state.items.map((item) => item.platform), ...(xEnabled ? ['x'] : [])]);
+  retainAllowed(state.filters.platforms, availablePlatforms());
   for (const memberId of state.filters.mutedMembers) {
     state.filters.members.delete(memberId);
   }
@@ -196,6 +237,7 @@ function loadStoredYoutubeConsent() {
   try {
     return window.localStorage.getItem(YOUTUBE_CONSENT_STORAGE_KEY) === "accepted";
   } catch {
+    state.youtubeStorageAvailable = false;
     return false;
   }
 }
@@ -208,6 +250,7 @@ function persistYoutubeConsent() {
       window.localStorage.removeItem(YOUTUBE_CONSENT_STORAGE_KEY);
     }
   } catch {
+    state.youtubeStorageAvailable = false;
     // Consent remains valid for the current page when storage is unavailable.
   }
 }
@@ -320,6 +363,8 @@ function renderYoutubeConsent() {
   els.youtubeConsent.hidden = !state.youtubeConsentRequired;
   els.youtubeConsentRevoke.hidden = !youtubeHasContent || !state.youtubeConsent;
   els.youtubeConsentAccept.disabled = !els.youtubeConsentCheck.checked;
+  els.youtubeRetry.hidden = !state.youtubeConsent || !state.feedErrors.youtube;
+  els.youtubeStorageNote.hidden = !state.youtubeConsent || state.youtubeStorageAvailable;
 }
 
 function renderTrackingCopy() {
@@ -494,8 +539,16 @@ function renderMemberFilters() {
   );
 }
 
+function availablePlatforms() {
+  return unique([
+    ...state.items.map(item => item.platform),
+    ...((state.meta.sources?.youtube?.item_count ?? 0) > 0 ? ['youtube'] : []),
+    ...(xEnabled ? ['x'] : [])
+  ]).sort();
+}
+
 function renderPlatformFilters() {
-  const platforms = unique([...state.items.map((item) => item.platform), ...(xEnabled ? ['x'] : [])]).sort();
+  const platforms = availablePlatforms();
 
   els.platformFilters.replaceChildren(
     makeChip("全部", state.filters.platforms.size === 0, () => {
@@ -971,27 +1024,21 @@ function bindEvents() {
     els.youtubeConsentAccept.disabled = !els.youtubeConsentCheck.checked;
   });
 
-  els.youtubeConsentAccept.addEventListener("click", async () => {
+  els.youtubeConsentAccept.addEventListener("click", () => {
     if (!els.youtubeConsentCheck.checked) {
       return;
     }
-    state.youtubeConsent = true;
-    persistYoutubeConsent();
-    await loadYoutubeFeed();
-    resetVisibleLimit();
-    render();
+    setYoutubeConsent(true);
   });
 
   els.youtubeConsentRevoke.addEventListener("click", () => {
-    state.youtubeConsent = false;
-    persistYoutubeConsent();
-    state.items = state.items.filter((item) => item.platform !== "youtube");
-    state.youtubeItemsLoaded = false;
-    delete state.feedErrors.youtube;
-    els.youtubeConsentCheck.checked = false;
-    resetVisibleLimit();
-    render();
-    els.youtubeConsentCheck.focus();
+    setYoutubeConsent(false, { focus: true });
+  });
+  els.youtubeRetry.addEventListener('click', () => { void loadYoutubeFeed(); });
+  window.addEventListener('storage', event => {
+    if (event.key !== YOUTUBE_CONSENT_STORAGE_KEY && event.key !== null) return;
+    const accepted = event.newValue === 'accepted';
+    if (accepted !== state.youtubeConsent) setYoutubeConsent(accepted, { persist: false });
   });
 
   els.advancedFiltersToggle.addEventListener("click", () => {
@@ -1078,6 +1125,7 @@ async function init() {
     syncUrlState();
     bindEvents();
     render();
+    if (state.youtubeConsent) void loadYoutubeFeed();
   } catch (error) {
     els.freshness.textContent = "数据加载失败";
     els.statusBanner.className = "status-banner is-visible is-warning";

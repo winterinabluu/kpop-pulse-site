@@ -13,7 +13,7 @@
     />
     <title>Kpop Pulse</title>
     <link rel="stylesheet" href="./src/styles.css?v=20261029a" />
-    <script type="module" src="./src/app.js?v=20261029a"></script>
+    <script type="module" src="./src/app.js?v=20261029b"></script>
   </head>
   <body>
     <noscript>Kpop Pulse 需要启用 JavaScript 才能读取本地数据并渲染内容列表。</noscript>
@@ -156,7 +156,9 @@
           <a href="./terms.html">使用条款</a>
           <a href="https://www.youtube.com/t/terms" target="_blank" rel="noreferrer">YouTube 条款</a>
           <button id="youtube-consent-revoke" class="footer-button" type="button" hidden>撤回 YouTube 同意</button>
+          <button id="youtube-retry" class="footer-button" type="button" hidden>重试 YouTube 内容加载</button>
         </nav>
+        <p id="youtube-storage-note" hidden>浏览器无法保存 YouTube 同意，本次同意仅在当前页面有效；刷新后需要重新同意。</p>
       </footer>
     </div>
   </body>
