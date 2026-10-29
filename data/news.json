@@ -1,15 +1,136 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-29T05:53:50Z",
+  "generated_at": "2026-10-29T13:09:14Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:014c9ab20fb75002",
+      "platform": "news",
+      "platform_item_id": "014c9ab20fb75002",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Netizens Call Out Agency After Notice Regarding ILLIT Members’ Injury",
+      "description": "Fans agreed they needed sufficient rest.",
+      "url": "https://www.koreaboo.com/news/netizens-angry-recent-notice-regarding-illit-wonhee-aroha-injury/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-29T08:43:19Z",
+      "collected_at": "2026-10-29T13:09:14Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.942,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5871,
+      "available": true
+    },
+    {
+      "id": "news:soompi:79ada8051953d311",
+      "platform": "news",
+      "platform_item_id": "79ada8051953d311",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "ILLIT’s Wonhee And Iroha To Limit Movement At Upcoming Event Due To Injury",
+      "description": "ILLIT members Wonhee and Iroha will limit their movements during the group’s upcoming scheduled acitvity. On October 29, ILLIT’s agency BELIFT LAB shared a statement about the members’ health conditions and upcoming scheduled activities through Weverse and social media. Read the agency’s full statement below: Hello, this is BELIFT LAB. We would like to update… Continue reading ILLIT’s Wonhee And Iroha To Limit Movement At Upcoming Event Due To Injury The post ILLIT’s Wonhee And Iroha To Limit Movement At Upcoming Event Due To Injury appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1882513wpp/illits-wonhee-and-iroha-to-limit-movement-at-upcoming-event-due-to-injury",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-29T08:38:15Z",
+      "collected_at": "2026-10-29T13:09:14Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [
+        "iroha",
+        "wonhee"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonhee",
+          "alias": "Wonhee",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "iroha",
+          "alias": "Iroha",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.941,
+        "views": 0,
+        "engagement": 7.5,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.8605,
+      "available": true
+    },
     {
       "id": "news:koreaboo:3399c1ea5b842984",
       "platform": "news",
@@ -21,7 +142,7 @@
       "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-behavior-bulgari-event-goes-viral/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-29T05:07:54Z",
-      "collected_at": "2026-10-29T05:53:50Z",
+      "collected_at": "2026-10-29T13:09:14Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -67,7 +188,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.8997,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -75,7 +196,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.5302,
       "available": true
     },
     {
@@ -89,7 +210,7 @@
       "url": "https://www.koreaboo.com/polls/bts-v-blackpink-jennie-confirmed-relationship-dating-poll/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T17:05:54Z",
-      "collected_at": "2026-10-29T05:53:50Z",
+      "collected_at": "2026-10-29T13:09:14Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -128,7 +249,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8491,
+        "recency": 0.7821,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -136,7 +257,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.106,
+      "hot_score": 6.5459,
       "available": true
     },
     {
@@ -150,7 +271,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-10-29T05:53:50Z",
+      "collected_at": "2026-10-29T13:09:14Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -180,7 +301,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7751,
+        "recency": 0.7189,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -188,7 +309,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4197,
+      "hot_score": 5.027,
       "available": true
     },
     {
@@ -202,7 +323,7 @@
       "url": "https://www.soompi.com/article/1882039wpp/a2o-lite-nct-wish-plave-soyeon-and-illit-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-27T23:11:00Z",
-      "collected_at": "2026-10-29T05:53:50Z",
+      "collected_at": "2026-10-29T13:09:14Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -242,7 +363,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.701,
+        "recency": 0.6547,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -250,59 +371,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.4519,
-      "available": true
-    },
-    {
-      "id": "news:soompi:c167e1010ce34005",
-      "platform": "news",
-      "platform_item_id": "c167e1010ce34005",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT’s “It’s Me” Becomes Their 2nd MV To Hit 200 Million Views",
-      "description": "ILLIT has set another personal record on YouTube! ILLIT’s music video for “It’s Me” surpassed 200 million views on YouTube on October 27 at approximately 3 a.m. KST, which is about five months and 26 days since its release on April 30 at 6 p.m. KST. “It’s Me” is ILLIT’s second and fastest music video… Continue reading ILLIT’s “It’s Me” Becomes Their 2nd MV To Hit 200 Million Views The post ILLIT’s “It’s Me” Becomes Their 2nd MV To Hit 200 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1881669wpp/illits-its-me-becomes-their-2nd-mv-to-hit-200-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-26T23:33:57Z",
-      "collected_at": "2026-10-29T05:53:50Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5699,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.9853,
+      "hot_score": 6.0262,
       "available": true
     },
     {
@@ -316,7 +385,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-29T05:53:50Z",
+      "collected_at": "2026-10-29T13:09:14Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -355,7 +424,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0754,
+        "recency": 0.0748,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -363,7 +432,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6309,
+      "hot_score": 0.6261,
       "available": true
     }
   ]
