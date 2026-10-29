@@ -1,15 +1,83 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-28T22:38:48Z",
+  "generated_at": "2026-10-29T05:53:50Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 5,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:3399c1ea5b842984",
+      "platform": "news",
+      "platform_item_id": "3399c1ea5b842984",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "IVE Jang Wonyoung’s Behavior At Luxury Brand Event Triggers Divided Response",
+      "description": "Netizens thought otherwise.",
+      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-behavior-bulgari-event-goes-viral/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-29T05:07:54Z",
+      "collected_at": "2026-10-29T05:53:50Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Jang Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
     {
       "id": "news:koreaboo:70fbd6f37af7a629",
       "platform": "news",
@@ -21,7 +89,7 @@
       "url": "https://www.koreaboo.com/polls/bts-v-blackpink-jennie-confirmed-relationship-dating-poll/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T17:05:54Z",
-      "collected_at": "2026-10-28T22:38:48Z",
+      "collected_at": "2026-10-29T05:53:50Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +128,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9284,
+        "recency": 0.8491,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +136,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.7704,
+      "hot_score": 7.106,
       "available": true
     },
     {
@@ -82,7 +150,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-10-28T22:38:48Z",
+      "collected_at": "2026-10-29T05:53:50Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -112,7 +180,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8407,
+        "recency": 0.7751,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +188,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8786,
+      "hot_score": 5.4197,
       "available": true
     },
     {
@@ -134,7 +202,7 @@
       "url": "https://www.soompi.com/article/1882039wpp/a2o-lite-nct-wish-plave-soyeon-and-illit-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-27T23:11:00Z",
-      "collected_at": "2026-10-28T22:38:48Z",
+      "collected_at": "2026-10-29T05:53:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -174,7 +242,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7542,
+        "recency": 0.701,
         "views": 0,
         "engagement": 7.1,
         "source_weight": 0.55
@@ -182,7 +250,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.9419,
+      "hot_score": 6.4519,
       "available": true
     },
     {
@@ -196,7 +264,7 @@
       "url": "https://www.soompi.com/article/1881669wpp/illits-its-me-becomes-their-2nd-mv-to-hit-200-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-26T23:33:57Z",
-      "collected_at": "2026-10-28T22:38:48Z",
+      "collected_at": "2026-10-29T05:53:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -226,7 +294,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6046,
+        "recency": 0.5699,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -234,7 +302,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.228,
+      "hot_score": 3.9853,
       "available": true
     },
     {
@@ -248,7 +316,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-28T22:38:48Z",
+      "collected_at": "2026-10-29T05:53:50Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -287,7 +355,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.076,
+        "recency": 0.0754,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -295,7 +363,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6357,
+      "hot_score": 0.6309,
       "available": true
     }
   ]
