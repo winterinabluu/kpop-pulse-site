@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-31T12:40:09Z",
+  "generated_at": "2026-10-31T21:40:01Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,58 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:f0acb9690b50cf91",
+      "platform": "news",
+      "platform_item_id": "f0acb9690b50cf91",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS’s Jungkook Sparks Shock By Reposting A BLACKPINK Member On Instagram",
+      "description": "Netizens were obsessed.",
+      "url": "https://www.koreaboo.com/news/bts-jungkook-reposting-blackpink-member-instagram/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-31T19:16:04Z",
+      "collected_at": "2026-10-31T21:40:01Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9677,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.7671,
+      "available": true
+    },
     {
       "id": "news:koreaboo:242e97c8dec865de",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisa-flaunting-relationship-lovestagram-criticism/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-31T12:15:42Z",
-      "collected_at": "2026-10-31T12:40:09Z",
+      "collected_at": "2026-10-31T21:40:01Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.8845,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.4023,
       "available": true
     },
     {
@@ -82,7 +134,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-lisa-targeted-heavy-scrutiny-body-hair/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-31T11:45:16Z",
-      "collected_at": "2026-10-31T12:40:09Z",
+      "collected_at": "2026-10-31T21:40:01Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.879,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.3564,
       "available": true
     },
     {
@@ -143,7 +195,7 @@
       "url": "https://www.koreaboo.com/news/ive-wonyoung-scrutiny-behavior-toward-male-executive/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-31T11:26:28Z",
-      "collected_at": "2026-10-31T12:40:09Z",
+      "collected_at": "2026-10-31T21:40:01Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -182,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9832,
+        "recency": 0.8756,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,68 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2289,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:06d1048b98ee6f55",
-      "platform": "news",
-      "platform_item_id": "06d1048b98ee6f55",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jennie’s Supposed “Hint” About Relationship With BTS’s V Goes Viral",
-      "description": "Fans have locked horns over it.",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-supposed-hint-relationship-bts-v-goes-viral/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-30T21:39:05Z",
-      "collected_at": "2026-10-31T12:40:09Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8274,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.9248,
+      "hot_score": 7.3284,
       "available": true
     },
     {
@@ -265,7 +256,7 @@
       "url": "https://www.soompi.com/article/1882971wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-30T11:24:14Z",
-      "collected_at": "2026-10-31T12:40:09Z",
+      "collected_at": "2026-10-31T21:40:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -302,7 +293,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7402,
+        "recency": 0.6776,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -310,7 +301,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1762,
+      "hot_score": 4.7379,
       "available": true
     },
     {
@@ -324,7 +315,7 @@
       "url": "https://www.soompi.com/article/1882866wpp/aespas-dirty-work-becomes-their-10th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-30T06:20:56Z",
-      "collected_at": "2026-10-31T12:40:09Z",
+      "collected_at": "2026-10-31T21:40:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -354,7 +345,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7037,
+        "recency": 0.6468,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -362,7 +353,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9205,
+      "hot_score": 4.5228,
       "available": true
     },
     {
@@ -376,7 +367,7 @@
       "url": "https://www.soompi.com/article/1882513wpp/illits-wonhee-and-iroha-to-limit-movement-at-upcoming-event-due-to-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-29T08:38:15Z",
-      "collected_at": "2026-10-31T12:40:09Z",
+      "collected_at": "2026-10-31T21:40:01Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -423,7 +414,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5805,
+        "recency": 0.5412,
         "views": 0,
         "engagement": 7.5,
         "source_weight": 0.55
@@ -431,7 +422,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4661,
+      "hot_score": 5.0964,
       "available": true
     },
     {
@@ -445,7 +436,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-10-31T12:40:09Z",
+      "collected_at": "2026-10-31T21:40:01Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -475,7 +466,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4876,
+        "recency": 0.4596,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -483,7 +474,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.4095,
+      "hot_score": 3.2137,
       "available": true
     },
     {
@@ -497,7 +488,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-31T12:40:09Z",
+      "collected_at": "2026-10-31T21:40:01Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -536,7 +527,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0713,
+        "recency": 0.0707,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -544,7 +535,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5967,
+      "hot_score": 0.5914,
       "available": true
     }
   ]
