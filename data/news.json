@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-30T22:25:05Z",
+  "generated_at": "2026-10-31T05:50:56Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jennie-supposed-hint-relationship-bts-v-goes-viral/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-30T21:39:05Z",
-      "collected_at": "2026-10-30T22:25:05Z",
+      "collected_at": "2026-10-31T05:50:56Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.8978,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.2546,
+      "hot_score": 7.5137,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.koreaboo.com/news/le-sserafim-sakura-sexy-outfits-heated-debate/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-30T15:55:23Z",
-      "collected_at": "2026-10-30T22:25:05Z",
+      "collected_at": "2026-10-31T05:50:56Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -121,7 +121,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9172,
+        "recency": 0.8379,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -129,7 +129,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6767,
+      "hot_score": 7.0128,
       "available": true
     },
     {
@@ -143,7 +143,7 @@
       "url": "https://www.soompi.com/article/1882971wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-30T11:24:14Z",
-      "collected_at": "2026-10-30T22:25:05Z",
+      "collected_at": "2026-10-31T05:50:56Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -180,7 +180,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8673,
+        "recency": 0.7961,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -188,7 +188,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0648,
+      "hot_score": 5.5666,
       "available": true
     },
     {
@@ -202,7 +202,7 @@
       "url": "https://www.soompi.com/article/1882866wpp/aespas-dirty-work-becomes-their-10th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-30T06:20:56Z",
-      "collected_at": "2026-10-30T22:25:05Z",
+      "collected_at": "2026-10-31T05:50:56Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -232,7 +232,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8175,
+        "recency": 0.7539,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -240,7 +240,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7167,
+      "hot_score": 5.2719,
       "available": true
     },
     {
@@ -254,7 +254,7 @@
       "url": "https://www.soompi.com/article/1882513wpp/illits-wonhee-and-iroha-to-limit-movement-at-upcoming-event-due-to-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-29T08:38:15Z",
-      "collected_at": "2026-10-30T22:25:05Z",
+      "collected_at": "2026-10-31T05:50:56Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -301,7 +301,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6559,
+        "recency": 0.6143,
         "views": 0,
         "engagement": 7.5,
         "source_weight": 0.55
@@ -309,7 +309,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.1757,
+      "hot_score": 5.7842,
       "available": true
     },
     {
@@ -323,7 +323,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-10-30T22:25:05Z",
+      "collected_at": "2026-10-31T05:50:56Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -353,7 +353,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5397,
+        "recency": 0.5112,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -361,7 +361,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.7737,
+      "hot_score": 3.5746,
       "available": true
     },
     {
@@ -375,7 +375,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-30T22:25:05Z",
+      "collected_at": "2026-10-31T05:50:56Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -414,7 +414,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0723,
+        "recency": 0.0718,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -422,7 +422,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.6052,
+      "hot_score": 0.6007,
       "available": true
     }
   ]
