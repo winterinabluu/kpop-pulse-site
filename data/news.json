@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-10-31T21:40:01Z",
+  "generated_at": "2026-11-01T06:14:09Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,194 +11,20 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:f0acb9690b50cf91",
+      "id": "news:soompi:0aee6be60db941d5",
       "platform": "news",
-      "platform_item_id": "f0acb9690b50cf91",
+      "platform_item_id": "0aee6be60db941d5",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BTS’s Jungkook Sparks Shock By Reposting A BLACKPINK Member On Instagram",
-      "description": "Netizens were obsessed.",
-      "url": "https://www.koreaboo.com/news/bts-jungkook-reposting-blackpink-member-instagram/",
+      "title": "A2O LITE, IVE, SEVENTEEN’s JxJ, And BTS Top Circle Weekly Charts",
+      "description": "Circle Chart has revealed its chart rankings for the week of October 18 to 24! Overall Digital Chart Rookie girl group A2O LITE achieved a triple crown on this week’s Circle charts, with their hit debut single “NEON” topping three separate charts: the overall digital chart, the streaming chart, and the global K-pop chart. “NEON”… Continue reading A2O LITE, IVE, SEVENTEEN’s JxJ, And BTS Top Circle Weekly Charts The post A2O LITE, IVE, SEVENTEEN’s JxJ, And BTS Top Circle Weekly Charts appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1883259wpp/a2o-lite-ive-seventeens-jxj-and-bts-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-31T19:16:04Z",
-      "collected_at": "2026-10-31T21:40:01Z",
+      "published_at": "2026-11-01T05:33:22Z",
+      "collected_at": "2026-11-01T06:14:09Z",
       "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9677,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.7671,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:242e97c8dec865de",
-      "platform": "news",
-      "platform_item_id": "242e97c8dec865de",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Hit With Criticism for Flaunting Relationship In Matching “Lovestagram” Photos",
-      "description": "“Embarrassing…”",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-flaunting-relationship-lovestagram-criticism/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-31T12:15:42Z",
-      "collected_at": "2026-10-31T21:40:01Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8845,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4023,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:af78c9d0c84bb7d2",
-      "platform": "news",
-      "platform_item_id": "af78c9d0c84bb7d2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Targeted With Heavy Scrutiny Over Body Hair",
-      "description": "Multiple posts have pointed out the same thing.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-targeted-heavy-scrutiny-body-hair/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-31T11:45:16Z",
-      "collected_at": "2026-10-31T21:40:01Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.879,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.3564,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:385c0256e399d711",
-      "platform": "news",
-      "platform_item_id": "385c0256e399d711",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "IVE’s Wonyoung Under Scrutiny Over Her Behavior Toward Male Executive",
-      "description": "The opinions are divided.",
-      "url": "https://www.koreaboo.com/news/ive-wonyoung-scrutiny-behavior-toward-male-executive/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-31T11:26:28Z",
-      "collected_at": "2026-10-31T21:40:01Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
+        "name": "Soompi",
+        "handle": "soompi",
         "avatar": ""
       },
       "metrics": {
@@ -213,10 +39,8 @@
       "matched_groups": [
         "ive"
       ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
@@ -224,39 +48,32 @@
           "alias": "IVE",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8756,
+        "recency": 0.9863,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.3284,
+      "hot_score": 6.8968,
       "available": true
     },
     {
-      "id": "news:soompi:fc304347cc21283e",
+      "id": "news:soompi:1c166adb1b21615e",
       "platform": "news",
-      "platform_item_id": "fc304347cc21283e",
+      "platform_item_id": "1c166adb1b21615e",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: NMIXX Takes 1st Win For “Birthday Wish” On “Music Bank”; Performances By ATEEZ, ILLIT, And More",
-      "description": "NMIXX has won their first music show trophy for “Birthday Wish”! On the October 30 episode of “Music Bank,” the candidates for first place were IVE’s “Looks Can Kill” and NMIXX’s “Birthday Wish.” NMIXX ultimately took the prize with a total of 7,775 points. Congratulations to NMIXX! Watch the winner announcement below: Performers on today’s… Continue reading Watch: NMIXX Takes 1st Win For “Birthday Wish” On “Music Bank”; Performances By ATEEZ, ILLIT, And More The post Watch: NMIXX Takes 1st Win For “Birthday Wish” On “Music Bank”; Performances By ATEEZ, ILLIT, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1882971wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more",
+      "title": "Watch: A2O LITE Takes 7th Win For “NEON” On “Music Core”; Performances By BESTie, ATEEZ, RIIZE, ILLIT, And More",
+      "description": "A2O LITE has won a seventh music show trophy for their debut single “NEON”! On the October 31 episode of MBC’s “Music Core,” the candidates for first place were IVE’s “Looks Can Kill,” A2O LITE’s “NEON,” and NMIXX’s “Birthday Wish.” A2O LITE ultimately took the win with a total of 6,557 points. Congratulations to A2O… Continue reading Watch: A2O LITE Takes 7th Win For “NEON” On “Music Core”; Performances By BESTie, ATEEZ, RIIZE, ILLIT, And More The post Watch: A2O LITE Takes 7th Win For “NEON” On “Music Core”; Performances By BESTie, ATEEZ, RIIZE, ILLIT, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1883215wpp/watch-a2o-lite-takes-7th-win-for-neon-on-music-core-performances-by-bestie-ateez-riize-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-30T11:24:14Z",
-      "collected_at": "2026-10-31T21:40:01Z",
+      "published_at": "2026-11-01T00:21:07Z",
+      "collected_at": "2026-11-01T06:14:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -293,7 +110,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6776,
+        "recency": 0.9245,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -301,7 +118,179 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7379,
+      "hot_score": 6.4643,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:97204c498edf1e3c",
+      "platform": "news",
+      "platform_item_id": "97204c498edf1e3c",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Lisa Labeled “Ungrateful” For Venting About Trainee Life",
+      "description": "Her confession is being deemed a lack of gratitude.",
+      "url": "https://www.koreaboo.com/news/blackpink-lisa-ungrateful-venting-trainee-life/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-01T00:09:19Z",
+      "collected_at": "2026-11-01T06:14:09Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9221,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7175,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:f0acb9690b50cf91",
+      "platform": "news",
+      "platform_item_id": "f0acb9690b50cf91",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS’s Jungkook Sparks Shock By Reposting A BLACKPINK Member On Instagram",
+      "description": "Netizens were obsessed.",
+      "url": "https://www.koreaboo.com/news/bts-jungkook-reposting-blackpink-member-instagram/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-31T19:16:04Z",
+      "collected_at": "2026-11-01T06:14:09Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8678,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.0682,
+      "available": true
+    },
+    {
+      "id": "news:soompi:fc304347cc21283e",
+      "platform": "news",
+      "platform_item_id": "fc304347cc21283e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: NMIXX Takes 1st Win For “Birthday Wish” On “Music Bank”; Performances By ATEEZ, ILLIT, And More",
+      "description": "NMIXX has won their first music show trophy for “Birthday Wish”! On the October 30 episode of “Music Bank,” the candidates for first place were IVE’s “Looks Can Kill” and NMIXX’s “Birthday Wish.” NMIXX ultimately took the prize with a total of 7,775 points. Congratulations to NMIXX! Watch the winner announcement below: Performers on today’s… Continue reading Watch: NMIXX Takes 1st Win For “Birthday Wish” On “Music Bank”; Performances By ATEEZ, ILLIT, And More The post Watch: NMIXX Takes 1st Win For “Birthday Wish” On “Music Bank”; Performances By ATEEZ, ILLIT, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1882971wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-10-30T11:24:14Z",
+      "collected_at": "2026-11-01T06:14:09Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.627,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 4.3844,
       "available": true
     },
     {
@@ -315,7 +304,7 @@
       "url": "https://www.soompi.com/article/1882866wpp/aespas-dirty-work-becomes-their-10th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-30T06:20:56Z",
-      "collected_at": "2026-10-31T21:40:01Z",
+      "collected_at": "2026-11-01T06:14:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -345,7 +334,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6468,
+        "recency": 0.6006,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -353,7 +342,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5228,
+      "hot_score": 4.1995,
       "available": true
     },
     {
@@ -367,7 +356,7 @@
       "url": "https://www.soompi.com/article/1882513wpp/illits-wonhee-and-iroha-to-limit-movement-at-upcoming-event-due-to-injury",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-29T08:38:15Z",
-      "collected_at": "2026-10-31T21:40:01Z",
+      "collected_at": "2026-11-01T06:14:09Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -414,7 +403,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5412,
+        "recency": 0.5085,
         "views": 0,
         "engagement": 7.5,
         "source_weight": 0.55
@@ -422,7 +411,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0964,
+      "hot_score": 4.788,
       "available": true
     },
     {
@@ -436,7 +425,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-10-31T21:40:01Z",
+      "collected_at": "2026-11-01T06:14:09Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -466,7 +455,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4596,
+        "recency": 0.4357,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -474,7 +463,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.2137,
+      "hot_score": 3.047,
       "available": true
     },
     {
@@ -488,7 +477,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-10-31T21:40:01Z",
+      "collected_at": "2026-11-01T06:14:09Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -527,7 +516,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0707,
+        "recency": 0.0701,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -535,7 +524,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5914,
+      "hot_score": 0.5865,
       "available": true
     }
   ]
