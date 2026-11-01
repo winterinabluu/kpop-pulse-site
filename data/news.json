@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-01T13:35:33Z",
+  "generated_at": "2026-11-01T22:05:54Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.soompi.com/article/1883259wpp/a2o-lite-ive-seventeens-jxj-and-bts-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-01T05:33:22Z",
-      "collected_at": "2026-11-01T13:35:33Z",
+      "collected_at": "2026-11-01T22:05:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8996,
+        "recency": 0.8132,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2905,
+      "hot_score": 5.6862,
       "available": true
     },
     {
@@ -73,7 +73,7 @@
       "url": "https://www.soompi.com/article/1883215wpp/watch-a2o-lite-takes-7th-win-for-neon-on-music-core-performances-by-bestie-ateez-riize-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-01T00:21:07Z",
-      "collected_at": "2026-11-01T13:35:33Z",
+      "collected_at": "2026-11-01T22:05:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -110,7 +110,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8447,
+        "recency": 0.768,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -118,120 +118,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9064,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:97204c498edf1e3c",
-      "platform": "news",
-      "platform_item_id": "97204c498edf1e3c",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Labeled “Ungrateful” For Venting About Trainee Life",
-      "description": "Her confession is being deemed a lack of gratitude.",
-      "url": "https://www.koreaboo.com/news/blackpink-lisa-ungrateful-venting-trainee-life/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-01T00:09:19Z",
-      "collected_at": "2026-11-01T13:35:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8427,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.0529,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:f0acb9690b50cf91",
-      "platform": "news",
-      "platform_item_id": "f0acb9690b50cf91",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS’s Jungkook Sparks Shock By Reposting A BLACKPINK Member On Instagram",
-      "description": "Netizens were obsessed.",
-      "url": "https://www.koreaboo.com/news/bts-jungkook-reposting-blackpink-member-instagram/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-31T19:16:04Z",
-      "collected_at": "2026-11-01T13:35:33Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.7971,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.574,
+      "hot_score": 5.3705,
       "available": true
     },
     {
@@ -245,7 +132,7 @@
       "url": "https://www.soompi.com/article/1882971wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-30T11:24:14Z",
-      "collected_at": "2026-11-01T13:35:33Z",
+      "collected_at": "2026-11-01T22:05:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -282,7 +169,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5893,
+        "recency": 0.5509,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -290,7 +177,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1204,
+      "hot_score": 3.8523,
       "available": true
     },
     {
@@ -304,7 +191,7 @@
       "url": "https://www.soompi.com/article/1882866wpp/aespas-dirty-work-becomes-their-10th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-30T06:20:56Z",
-      "collected_at": "2026-11-01T13:35:33Z",
+      "collected_at": "2026-11-01T22:05:54Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -334,7 +221,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5658,
+        "recency": 0.5304,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -342,7 +229,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.9567,
+      "hot_score": 3.7088,
       "available": true
     },
     {
@@ -356,7 +243,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-01T13:35:33Z",
+      "collected_at": "2026-11-01T22:05:54Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -386,7 +273,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4172,
+        "recency": 0.3976,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -394,7 +281,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.9171,
+      "hot_score": 2.7801,
       "available": true
     },
     {
@@ -408,7 +295,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-01T13:35:33Z",
+      "collected_at": "2026-11-01T22:05:54Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -447,7 +334,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0696,
+        "recency": 0.069,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -455,7 +342,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5823,
+      "hot_score": 0.5776,
       "available": true
     }
   ]
