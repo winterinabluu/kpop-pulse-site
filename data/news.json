@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-03T01:01:32Z",
+  "generated_at": "2026-11-03T14:23:14Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 9,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:0df836f3fe512847",
+      "id": "news:koreaboo:4e2203796db40644",
       "platform": "news",
-      "platform_item_id": "0df836f3fe512847",
+      "platform_item_id": "4e2203796db40644",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Viral Post About BLACKPINK’s Jennie “Confirming” Her Relationship With BTS’s V Through Instagram Ignites Huge Reactions",
-      "description": "\"She never GAF...\"",
-      "url": "https://www.koreaboo.com/news/viral-post-blackpinks-jennie-confirming-relationship-btss-v-instagram-ignites-huge-reactions/",
+      "title": "BLACKPINK Jennie’s Sexy Halloween Costume Hit With Major Backlash",
+      "description": "\"Make literally everything sexual...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-sexy-halloween-costume-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-02T13:40:49Z",
-      "collected_at": "2026-11-03T01:01:32Z",
+      "published_at": "2026-11-03T08:00:08Z",
+      "collected_at": "2026-11-03T14:23:14Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8639,
+        "recency": 0.9185,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.23,
+      "hot_score": 7.6875,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1883435wpp/miyeon-han-hye-jin-code-kunst-jonathan-and-patricia-return-as-panelists-in-my-siblings-romance-2-poster",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-02T08:53:34Z",
-      "collected_at": "2026-11-03T01:01:32Z",
+      "collected_at": "2026-11-03T14:23:14Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8169,
+        "recency": 0.7094,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8373,
+      "hot_score": 5.9371,
       "available": true
     },
     {
@@ -136,7 +136,7 @@
       "url": "https://www.soompi.com/article/1883451wpp/former-t-ara-member-soyeon-announces-pregnancy",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-02T04:32:33Z",
-      "collected_at": "2026-11-03T01:01:32Z",
+      "collected_at": "2026-11-03T14:23:14Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -168,7 +168,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7785,
+        "recency": 0.6802,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -176,7 +176,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5156,
+      "hot_score": 5.6931,
       "available": true
     },
     {
@@ -190,7 +190,7 @@
       "url": "https://www.soompi.com/article/1883361wpp/watch-a2o-lite-snags-8th-win-for-neon-on-inkigayo-performances-by-ateez-riize-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-01T22:27:12Z",
-      "collected_at": "2026-11-03T01:01:32Z",
+      "collected_at": "2026-11-03T14:23:14Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -227,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7304,
+        "recency": 0.6432,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -235,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1076,
+      "hot_score": 4.4979,
       "available": true
     },
     {
@@ -249,7 +249,7 @@
       "url": "https://www.soompi.com/article/1883259wpp/a2o-lite-ive-seventeens-jxj-and-bts-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-01T05:33:22Z",
-      "collected_at": "2026-11-03T01:01:32Z",
+      "collected_at": "2026-11-03T14:23:14Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -279,7 +279,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6235,
+        "recency": 0.5589,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -287,7 +287,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3602,
+      "hot_score": 3.908,
       "available": true
     },
     {
@@ -301,7 +301,7 @@
       "url": "https://www.soompi.com/article/1883215wpp/watch-a2o-lite-takes-7th-win-for-neon-on-music-core-performances-by-bestie-ateez-riize-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-01T00:21:07Z",
-      "collected_at": "2026-11-03T01:01:32Z",
+      "collected_at": "2026-11-03T14:23:14Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -338,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5966,
+        "recency": 0.5372,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -346,66 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1722,
-      "available": true
-    },
-    {
-      "id": "news:soompi:fc304347cc21283e",
-      "platform": "news",
-      "platform_item_id": "fc304347cc21283e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: NMIXX Takes 1st Win For “Birthday Wish” On “Music Bank”; Performances By ATEEZ, ILLIT, And More",
-      "description": "NMIXX has won their first music show trophy for “Birthday Wish”! On the October 30 episode of “Music Bank,” the candidates for first place were IVE’s “Looks Can Kill” and NMIXX’s “Birthday Wish.” NMIXX ultimately took the prize with a total of 7,775 points. Congratulations to NMIXX! Watch the winner announcement below: Performers on today’s… Continue reading Watch: NMIXX Takes 1st Win For “Birthday Wish” On “Music Bank”; Performances By ATEEZ, ILLIT, And More The post Watch: NMIXX Takes 1st Win For “Birthday Wish” On “Music Bank”; Performances By ATEEZ, ILLIT, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1882971wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-10-30T11:24:14Z",
-      "collected_at": "2026-11-03T01:01:32Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4568,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.1942,
+      "hot_score": 3.7562,
       "available": true
     },
     {
@@ -419,7 +360,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-03T01:01:32Z",
+      "collected_at": "2026-11-03T14:23:14Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -449,7 +390,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.3461,
+        "recency": 0.3252,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -457,7 +398,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.4203,
+      "hot_score": 2.2742,
       "available": true
     },
     {
@@ -471,7 +412,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-03T01:01:32Z",
+      "collected_at": "2026-11-03T14:23:14Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -510,7 +451,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0673,
+        "recency": 0.0664,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -518,7 +459,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.563,
+      "hot_score": 0.5561,
       "available": true
     }
   ]
