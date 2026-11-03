@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-03T14:23:14Z",
+  "generated_at": "2026-11-03T23:26:50Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,17 +11,17 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:4e2203796db40644",
+      "id": "news:koreaboo:5a0d314a27ad96ab",
       "platform": "news",
-      "platform_item_id": "4e2203796db40644",
+      "platform_item_id": "5a0d314a27ad96ab",
       "source_type": "media",
       "content_kind": "news",
-      "title": "BLACKPINK Jennie’s Sexy Halloween Costume Hit With Major Backlash",
-      "description": "\"Make literally everything sexual...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-sexy-halloween-costume-backlash/",
+      "title": "BLACKPINK Rosé’s Red Carpet Look Gains Attention After “Ugly Styling” Criticism",
+      "description": "\"...not used to eating this good.\"",
+      "url": "https://www.koreaboo.com/news/blackpink-roses-red-carpet-look-gains-attention-after-ugly-outfit-criticism/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-03T08:00:08Z",
-      "collected_at": "2026-11-03T14:23:14Z",
+      "published_at": "2026-11-03T20:37:30Z",
+      "collected_at": "2026-11-03T23:26:50Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -40,7 +40,7 @@
         "blackpink"
       ],
       "matched_members": [
-        "jennie"
+        "rose"
       ],
       "match_confidence": "high",
       "match_reason": [
@@ -53,14 +53,14 @@
         },
         {
           "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
+          "target_id": "rose",
+          "alias": "Rosé",
           "field": "title",
           "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9185,
+        "recency": 0.9623,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.6875,
+      "hot_score": 8.0535,
       "available": true
     },
     {
@@ -82,7 +82,7 @@
       "url": "https://www.soompi.com/article/1883435wpp/miyeon-han-hye-jin-code-kunst-jonathan-and-patricia-return-as-panelists-in-my-siblings-romance-2-poster",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-02T08:53:34Z",
-      "collected_at": "2026-11-03T14:23:14Z",
+      "collected_at": "2026-11-03T23:26:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +114,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7094,
+        "recency": 0.6513,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +122,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9371,
+      "hot_score": 5.4506,
       "available": true
     },
     {
@@ -136,7 +136,7 @@
       "url": "https://www.soompi.com/article/1883451wpp/former-t-ara-member-soyeon-announces-pregnancy",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-02T04:32:33Z",
-      "collected_at": "2026-11-03T14:23:14Z",
+      "collected_at": "2026-11-03T23:26:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -168,7 +168,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6802,
+        "recency": 0.6266,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -176,7 +176,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.6931,
+      "hot_score": 5.2442,
       "available": true
     },
     {
@@ -190,7 +190,7 @@
       "url": "https://www.soompi.com/article/1883361wpp/watch-a2o-lite-snags-8th-win-for-neon-on-inkigayo-performances-by-ateez-riize-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-01T22:27:12Z",
-      "collected_at": "2026-11-03T14:23:14Z",
+      "collected_at": "2026-11-03T23:26:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -227,7 +227,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6432,
+        "recency": 0.5951,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -235,7 +235,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.4979,
+      "hot_score": 4.1611,
       "available": true
     },
     {
@@ -249,7 +249,7 @@
       "url": "https://www.soompi.com/article/1883259wpp/a2o-lite-ive-seventeens-jxj-and-bts-top-circle-weekly-charts",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-01T05:33:22Z",
-      "collected_at": "2026-11-03T14:23:14Z",
+      "collected_at": "2026-11-03T23:26:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -279,7 +279,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5589,
+        "recency": 0.5221,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -287,7 +287,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.908,
+      "hot_score": 3.6512,
       "available": true
     },
     {
@@ -301,7 +301,7 @@
       "url": "https://www.soompi.com/article/1883215wpp/watch-a2o-lite-takes-7th-win-for-neon-on-music-core-performances-by-bestie-ateez-riize-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-01T00:21:07Z",
-      "collected_at": "2026-11-03T14:23:14Z",
+      "collected_at": "2026-11-03T23:26:50Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -338,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5372,
+        "recency": 0.5032,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -346,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.7562,
+      "hot_score": 3.5184,
       "available": true
     },
     {
@@ -360,7 +360,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-03T14:23:14Z",
+      "collected_at": "2026-11-03T23:26:50Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -390,7 +390,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.3252,
+        "recency": 0.3124,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -398,7 +398,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.2742,
+      "hot_score": 2.1848,
       "available": true
     },
     {
@@ -412,7 +412,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-03T14:23:14Z",
+      "collected_at": "2026-11-03T23:26:50Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -451,7 +451,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0664,
+        "recency": 0.0659,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -459,7 +459,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5561,
+      "hot_score": 0.5515,
       "available": true
     }
   ]
