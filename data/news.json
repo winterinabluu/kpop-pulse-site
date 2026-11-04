@@ -1,15 +1,92 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-03T23:26:50Z",
+  "generated_at": "2026-11-04T06:31:56Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:aafd4408ec1203c7",
+      "platform": "news",
+      "platform_item_id": "aafd4408ec1203c7",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: BLACKPINK’s Jisoo And TWICE’s Nayeon Show Close Friendship On “Whenever Possible” Preview",
+      "description": "BLACKPINK’s Jisoo and TWICE”s Nayeon will be starring on “Whenever Possible”! “Whenever Possible” is a variety show in which the hosts, Yu Jae Seok and Yoo Yeon Seok, visit ordinary people during their brief moments of free time, aiming to sprinkle a bit of luck into their lives. On November 4, “Whenever Possible” released a… Continue reading Watch: BLACKPINK’s Jisoo And TWICE’s Nayeon Show Close Friendship On “Whenever Possible” Preview The post Watch: BLACKPINK’s Jisoo And TWICE’s Nayeon Show Close Friendship On “Whenever Possible” Preview appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1884023wpp/watch-blackpinks-jisoo-and-twices-nayeon-show-close-friendship-on-whenever-possible-preview",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-04T02:00:18Z",
+      "collected_at": "2026-11-04T06:31:56Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink",
+        "twice"
+      ],
+      "matched_members": [
+        "jisoo",
+        "nayeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "member",
+          "target_id": "nayeon",
+          "alias": "Nayeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9408,
+        "views": 0,
+        "engagement": 8.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 9.4904,
+      "available": true
+    },
     {
       "id": "news:koreaboo:5a0d314a27ad96ab",
       "platform": "news",
@@ -21,7 +98,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-roses-red-carpet-look-gains-attention-after-ugly-outfit-criticism/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-03T20:37:30Z",
-      "collected_at": "2026-11-03T23:26:50Z",
+      "collected_at": "2026-11-04T06:31:56Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +137,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9623,
+        "recency": 0.879,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +145,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0535,
+      "hot_score": 7.3569,
       "available": true
     },
     {
@@ -82,7 +159,7 @@
       "url": "https://www.soompi.com/article/1883435wpp/miyeon-han-hye-jin-code-kunst-jonathan-and-patricia-return-as-panelists-in-my-siblings-romance-2-poster",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-02T08:53:34Z",
-      "collected_at": "2026-11-03T23:26:50Z",
+      "collected_at": "2026-11-04T06:31:56Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -114,7 +191,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6513,
+        "recency": 0.612,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -122,7 +199,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4506,
+      "hot_score": 5.1223,
       "available": true
     },
     {
@@ -136,7 +213,7 @@
       "url": "https://www.soompi.com/article/1883451wpp/former-t-ara-member-soyeon-announces-pregnancy",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-02T04:32:33Z",
-      "collected_at": "2026-11-03T23:26:50Z",
+      "collected_at": "2026-11-04T06:31:56Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -168,7 +245,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6266,
+        "recency": 0.5902,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -176,7 +253,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2442,
+      "hot_score": 4.9397,
       "available": true
     },
     {
@@ -190,7 +267,7 @@
       "url": "https://www.soompi.com/article/1883361wpp/watch-a2o-lite-snags-8th-win-for-neon-on-inkigayo-performances-by-ateez-riize-illit-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-01T22:27:12Z",
-      "collected_at": "2026-11-03T23:26:50Z",
+      "collected_at": "2026-11-04T06:31:56Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -227,7 +304,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5951,
+        "recency": 0.5622,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -235,118 +312,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1611,
-      "available": true
-    },
-    {
-      "id": "news:soompi:0aee6be60db941d5",
-      "platform": "news",
-      "platform_item_id": "0aee6be60db941d5",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "A2O LITE, IVE, SEVENTEEN’s JxJ, And BTS Top Circle Weekly Charts",
-      "description": "Circle Chart has revealed its chart rankings for the week of October 18 to 24! Overall Digital Chart Rookie girl group A2O LITE achieved a triple crown on this week’s Circle charts, with their hit debut single “NEON” topping three separate charts: the overall digital chart, the streaming chart, and the global K-pop chart. “NEON”… Continue reading A2O LITE, IVE, SEVENTEEN’s JxJ, And BTS Top Circle Weekly Charts The post A2O LITE, IVE, SEVENTEEN’s JxJ, And BTS Top Circle Weekly Charts appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1883259wpp/a2o-lite-ive-seventeens-jxj-and-bts-top-circle-weekly-charts",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-01T05:33:22Z",
-      "collected_at": "2026-11-03T23:26:50Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5221,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.6512,
-      "available": true
-    },
-    {
-      "id": "news:soompi:1c166adb1b21615e",
-      "platform": "news",
-      "platform_item_id": "1c166adb1b21615e",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: A2O LITE Takes 7th Win For “NEON” On “Music Core”; Performances By BESTie, ATEEZ, RIIZE, ILLIT, And More",
-      "description": "A2O LITE has won a seventh music show trophy for their debut single “NEON”! On the October 31 episode of MBC’s “Music Core,” the candidates for first place were IVE’s “Looks Can Kill,” A2O LITE’s “NEON,” and NMIXX’s “Birthday Wish.” A2O LITE ultimately took the win with a total of 6,557 points. Congratulations to A2O… Continue reading Watch: A2O LITE Takes 7th Win For “NEON” On “Music Core”; Performances By BESTie, ATEEZ, RIIZE, ILLIT, And More The post Watch: A2O LITE Takes 7th Win For “NEON” On “Music Core”; Performances By BESTie, ATEEZ, RIIZE, ILLIT, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1883215wpp/watch-a2o-lite-takes-7th-win-for-neon-on-music-core-performances-by-bestie-ateez-riize-illit-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-01T00:21:07Z",
-      "collected_at": "2026-11-03T23:26:50Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5032,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.5184,
+      "hot_score": 3.9309,
       "available": true
     },
     {
@@ -360,7 +326,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-03T23:26:50Z",
+      "collected_at": "2026-11-04T06:31:56Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -390,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.3124,
+        "recency": 0.3031,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -398,7 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.1848,
+      "hot_score": 2.1196,
       "available": true
     },
     {
@@ -412,7 +378,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-03T23:26:50Z",
+      "collected_at": "2026-11-04T06:31:56Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -451,7 +417,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0659,
+        "recency": 0.0655,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -459,7 +425,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5515,
+      "hot_score": 0.5479,
       "available": true
     }
   ]
