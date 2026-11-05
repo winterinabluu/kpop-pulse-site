@@ -1,15 +1,180 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-04T19:49:08Z",
+  "generated_at": "2026-11-05T06:54:38Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:8e7d0e97e440366d",
+      "platform": "news",
+      "platform_item_id": "8e7d0e97e440366d",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "ILLIT’s “jellyous” Becomes Their 3rd MV To Hit 100 Million Views",
+      "description": "ILLIT has hit the 100 million mark with another music video on YouTube! According to BELIFT LAB, on November 5 at around 5:46 a.m. KST, ILLIT’s music video for their third mini album’s B-side track “jellyous” surpassed 100 million views on YouTube, making it the girl group’s third music video to reach the milestone following… Continue reading ILLIT’s “jellyous” Becomes Their 3rd MV To Hit 100 Million Views The post ILLIT’s “jellyous” Becomes Their 3rd MV To Hit 100 Million Views appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-05T06:11:24Z",
+      "collected_at": "2026-11-05T06:54:38Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
+    {
+      "id": "news:soompi:a476e611bbfdb98f",
+      "platform": "news",
+      "platform_item_id": "a476e611bbfdb98f",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views",
+      "description": "BLACKPINK has reached yet another YouTube milestone! On November 4 KST, the girl group’s music video for “GO” surpassed 100 million views. This means that it took around eight months and eight days since the music video’s release on February 27 at 2 p.m. KST. “GO” is BLACKPINK’s 16th full-group music video to hit the… Continue reading BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views The post BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-05T05:55:31Z",
+      "collected_at": "2026-11-05T06:54:38Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:5ffdc01dab559a01",
+      "platform": "news",
+      "platform_item_id": "5ffdc01dab559a01",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "IVE’s Wonyoung Clarifies Controversy Over Behavior Toward Male Executive",
+      "description": "Such an angel.",
+      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-clarifies-controversy-behavior-male-executive/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-05T00:51:43Z",
+      "collected_at": "2026-11-05T06:54:38Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [
+        "wonyoung"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "wonyoung",
+          "alias": "Wonyoung",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9225,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.7206,
+      "available": true
+    },
     {
       "id": "news:koreaboo:074263aad9e7f391",
       "platform": "news",
@@ -21,7 +186,7 @@
       "url": "https://www.koreaboo.com/news/aespa-giselle-ig-photos-backlash/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-04T17:40:12Z",
-      "collected_at": "2026-11-04T19:49:08Z",
+      "collected_at": "2026-11-05T06:54:38Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.971,
+        "recency": 0.8447,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,68 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.1267,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:cd0096d5c2ad91aa",
-      "platform": "news",
-      "platform_item_id": "cd0096d5c2ad91aa",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK Jennie And BTS V’s Alleged “Couple” Profile Pictures Spark Heated Debate",
-      "description": "\"Famous matching couple pfp...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-bts-v-couple-profile-photos-spark-debate/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-04T11:00:07Z",
-      "collected_at": "2026-11-04T19:49:08Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8909,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.4562,
+      "hot_score": 7.0692,
       "available": true
     },
     {
@@ -143,7 +247,7 @@
       "url": "https://www.soompi.com/article/1884023wpp/watch-blackpinks-jisoo-and-twices-nayeon-show-close-friendship-on-whenever-possible-preview",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-04T02:00:18Z",
-      "collected_at": "2026-11-04T19:49:08Z",
+      "collected_at": "2026-11-05T06:54:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -198,7 +302,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8017,
+        "recency": 0.7135,
         "views": 0,
         "engagement": 8.9,
         "source_weight": 0.55
@@ -206,7 +310,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.0864,
+      "hot_score": 7.1976,
       "available": true
     },
     {
@@ -220,7 +324,7 @@
       "url": "https://www.soompi.com/article/1883435wpp/miyeon-han-hye-jin-code-kunst-jonathan-and-patricia-return-as-panelists-in-my-siblings-romance-2-poster",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-02T08:53:34Z",
-      "collected_at": "2026-11-04T19:49:08Z",
+      "collected_at": "2026-11-05T06:54:38Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -252,7 +356,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5499,
+        "recency": 0.507,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -260,7 +364,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6025,
+      "hot_score": 4.243,
       "available": true
     },
     {
@@ -274,7 +378,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-04T19:49:08Z",
+      "collected_at": "2026-11-05T06:54:38Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -304,7 +408,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2871,
+        "recency": 0.2749,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -312,7 +416,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 2.0073,
+      "hot_score": 1.9223,
       "available": true
     },
     {
@@ -326,7 +430,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-04T19:49:08Z",
+      "collected_at": "2026-11-05T06:54:38Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -365,7 +469,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0647,
+        "recency": 0.064,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -373,7 +477,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5414,
+      "hot_score": 0.536,
       "available": true
     }
   ]
