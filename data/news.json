@@ -1,15 +1,67 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-05T06:54:38Z",
+  "generated_at": "2026-11-05T20:00:10Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:37ae5098c40151df",
+      "platform": "news",
+      "platform_item_id": "37ae5098c40151df",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Disturbing Details Of NewJeans’ Contract With ADOR Spark Massive Backlash",
+      "description": "They were not even guaranteed the basic rights.",
+      "url": "https://www.koreaboo.com/news/disturbing-details-newjeans-contract-ador-spark-massive-backlash/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-05T14:56:53Z",
+      "collected_at": "2026-11-05T20:00:10Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9344,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5339,
+      "available": true
+    },
     {
       "id": "news:soompi:8e7d0e97e440366d",
       "platform": "news",
@@ -21,7 +73,7 @@
       "url": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T06:11:24Z",
-      "collected_at": "2026-11-05T06:54:38Z",
+      "collected_at": "2026-11-05T20:00:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +103,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.839,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +111,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8968,
+      "hot_score": 5.8671,
       "available": true
     },
     {
@@ -73,7 +125,7 @@
       "url": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T05:55:31Z",
-      "collected_at": "2026-11-05T06:54:38Z",
+      "collected_at": "2026-11-05T20:00:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +155,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9863,
+        "recency": 0.8365,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,129 +163,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8968,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:5ffdc01dab559a01",
-      "platform": "news",
-      "platform_item_id": "5ffdc01dab559a01",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "IVE’s Wonyoung Clarifies Controversy Over Behavior Toward Male Executive",
-      "description": "Such an angel.",
-      "url": "https://www.koreaboo.com/news/ive-jang-wonyoung-clarifies-controversy-behavior-male-executive/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-05T00:51:43Z",
-      "collected_at": "2026-11-05T06:54:38Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [
-        "wonyoung"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "wonyoung",
-          "alias": "Wonyoung",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9225,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.7206,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:074263aad9e7f391",
-      "platform": "news",
-      "platform_item_id": "074263aad9e7f391",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa’s Giselle Triggers Wave Of Backlash With New Instagram Photos",
-      "description": "\"If this was a HYBE idol...\"",
-      "url": "https://www.koreaboo.com/news/aespa-giselle-ig-photos-backlash/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-04T17:40:12Z",
-      "collected_at": "2026-11-05T06:54:38Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "giselle"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "giselle",
-          "alias": "Giselle",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8447,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.0692,
+      "hot_score": 5.849,
       "available": true
     },
     {
@@ -247,7 +177,7 @@
       "url": "https://www.soompi.com/article/1884023wpp/watch-blackpinks-jisoo-and-twices-nayeon-show-close-friendship-on-whenever-possible-preview",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-04T02:00:18Z",
-      "collected_at": "2026-11-05T06:54:38Z",
+      "collected_at": "2026-11-05T20:00:10Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -302,7 +232,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7135,
+        "recency": 0.6316,
         "views": 0,
         "engagement": 8.9,
         "source_weight": 0.55
@@ -310,61 +240,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1976,
-      "available": true
-    },
-    {
-      "id": "news:soompi:6113508ce50cdf77",
-      "platform": "news",
-      "platform_item_id": "6113508ce50cdf77",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Miyeon, Han Hye Jin, Code Kunst, Jonathan, And Patricia Return As Panelists In “My Sibling’s Romance 2” Poster",
-      "description": "Upcoming dating reality show “My Sibling’s Romance 2” has unveiled its first poster! First aired in March 2024, “My Sibling’s Romance” is a family-meddling dating show where siblings help each other find romantic partners. Its fresh format combines romance with family dynamics, offering both entertaining moments and heartfelt emotions that set it apart from other… Continue reading Miyeon, Han Hye Jin, Code Kunst, Jonathan, And Patricia Return As Panelists In “My Sibling’s Romance 2” Poster The post Miyeon, Han Hye Jin, Code Kunst, Jonathan, And Patricia Return As Panelists In “My Sibling’s Romance 2” Poster appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1883435wpp/miyeon-han-hye-jin-code-kunst-jonathan-and-patricia-return-as-panelists-in-my-siblings-romance-2-poster",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-02T08:53:34Z",
-      "collected_at": "2026-11-05T06:54:38Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "gidle"
-      ],
-      "matched_members": [
-        "miyeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "member",
-          "target_id": "miyeon",
-          "alias": "Miyeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.507,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.243,
+      "hot_score": 6.3709,
       "available": true
     },
     {
@@ -378,7 +254,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-05T06:54:38Z",
+      "collected_at": "2026-11-05T20:00:10Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -408,7 +284,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2749,
+        "recency": 0.2618,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -416,7 +292,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.9223,
+      "hot_score": 1.8308,
       "available": true
     },
     {
@@ -430,7 +306,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-05T06:54:38Z",
+      "collected_at": "2026-11-05T20:00:10Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -469,7 +345,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.064,
+        "recency": 0.0633,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -477,7 +353,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.536,
+      "hot_score": 0.5299,
       "available": true
     }
   ]
