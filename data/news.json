@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-05T20:00:10Z",
+  "generated_at": "2026-11-06T06:54:13Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:koreaboo:37ae5098c40151df",
+      "id": "news:koreaboo:a45fa13ffb28880e",
       "platform": "news",
-      "platform_item_id": "37ae5098c40151df",
+      "platform_item_id": "a45fa13ffb28880e",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Disturbing Details Of NewJeans’ Contract With ADOR Spark Massive Backlash",
-      "description": "They were not even guaranteed the basic rights.",
-      "url": "https://www.koreaboo.com/news/disturbing-details-newjeans-contract-ador-spark-massive-backlash/",
+      "title": "“Butt Surgery…” — BLACKPINK Jennie’s “Change” In Appearance Sparks Malicious Criticism",
+      "description": "\"...care about someone's ass this much?\"",
+      "url": "https://www.koreaboo.com/news/bbl-blackpinks-jennie-change-in-appearance-sparks-malicious-criticism/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-05T14:56:53Z",
-      "collected_at": "2026-11-05T20:00:10Z",
+      "published_at": "2026-11-05T23:36:08Z",
+      "collected_at": "2026-11-06T06:54:13Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,29 +37,99 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "newjeans"
+        "blackpink"
       ],
-      "matched_members": [],
-      "match_confidence": "medium",
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "title",
           "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9344,
+        "recency": 0.9079,
         "views": 0,
-        "engagement": 3.9,
+        "engagement": 5.7,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5339,
+      "hot_score": 7.5986,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:dd4dd891dec07a96",
+      "platform": "news",
+      "platform_item_id": "dd4dd891dec07a96",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Hollywood Source Alleges BTS’s V And BLACKPINK’s Jennie Are Engaged After “Proof” Surfaces",
+      "description": "Fans shared their thoughts openly.",
+      "url": "https://www.koreaboo.com/news/hollywood-source-alleges-btss-v-blackpinks-jennie-engaged-after-proof-surfaces/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-05T21:40:58Z",
+      "collected_at": "2026-11-06T06:54:13Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8865,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.4191,
       "available": true
     },
     {
@@ -73,7 +143,7 @@
       "url": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T06:11:24Z",
-      "collected_at": "2026-11-05T20:00:10Z",
+      "collected_at": "2026-11-06T06:54:13Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +173,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.839,
+        "recency": 0.7445,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +181,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8671,
+      "hot_score": 5.2058,
       "available": true
     },
     {
@@ -125,7 +195,7 @@
       "url": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T05:55:31Z",
-      "collected_at": "2026-11-05T20:00:10Z",
+      "collected_at": "2026-11-06T06:54:13Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -155,7 +225,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8365,
+        "recency": 0.7424,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -163,7 +233,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.849,
+      "hot_score": 5.1915,
       "available": true
     },
     {
@@ -177,7 +247,7 @@
       "url": "https://www.soompi.com/article/1884023wpp/watch-blackpinks-jisoo-and-twices-nayeon-show-close-friendship-on-whenever-possible-preview",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-04T02:00:18Z",
-      "collected_at": "2026-11-05T20:00:10Z",
+      "collected_at": "2026-11-06T06:54:13Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -232,7 +302,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6316,
+        "recency": 0.5765,
         "views": 0,
         "engagement": 8.9,
         "source_weight": 0.55
@@ -240,7 +310,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3709,
+      "hot_score": 5.8149,
       "available": true
     },
     {
@@ -254,7 +324,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-05T20:00:10Z",
+      "collected_at": "2026-11-06T06:54:13Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -284,7 +354,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2618,
+        "recency": 0.2518,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -292,7 +362,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.8308,
+      "hot_score": 1.761,
       "available": true
     },
     {
@@ -306,7 +376,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-05T20:00:10Z",
+      "collected_at": "2026-11-06T06:54:13Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -345,7 +415,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0633,
+        "recency": 0.0627,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -353,7 +423,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5299,
+      "hot_score": 0.5248,
       "available": true
     }
   ]
