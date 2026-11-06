@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-06T06:54:13Z",
+  "generated_at": "2026-11-06T19:27:48Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,17 +11,17 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:a45fa13ffb28880e",
+      "id": "news:koreaboo:d02a644a88cc20bc",
       "platform": "news",
-      "platform_item_id": "a45fa13ffb28880e",
+      "platform_item_id": "d02a644a88cc20bc",
       "source_type": "media",
       "content_kind": "news",
-      "title": "“Butt Surgery…” — BLACKPINK Jennie’s “Change” In Appearance Sparks Malicious Criticism",
-      "description": "\"...care about someone's ass this much?\"",
-      "url": "https://www.koreaboo.com/news/bbl-blackpinks-jennie-change-in-appearance-sparks-malicious-criticism/",
+      "title": "Min Hee Jin Mocks HYBE’s NewJeans Contract Explanation With Scathing Statement",
+      "description": "\"HYBE claims there is nothing wrong...\"",
+      "url": "https://www.koreaboo.com/news/min-hee-jin-mocks-hybes-newjeans-contract-explanation-scathing-statement/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-05T23:36:08Z",
-      "collected_at": "2026-11-06T06:54:13Z",
+      "published_at": "2026-11-06T14:16:12Z",
+      "collected_at": "2026-11-06T19:27:48Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -37,52 +37,43 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "blackpink"
+        "newjeans"
       ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9079,
+        "recency": 0.9327,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5986,
+      "hot_score": 6.5221,
       "available": true
     },
     {
-      "id": "news:koreaboo:dd4dd891dec07a96",
+      "id": "news:koreaboo:d8ea100f04971365",
       "platform": "news",
-      "platform_item_id": "dd4dd891dec07a96",
+      "platform_item_id": "d8ea100f04971365",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Hollywood Source Alleges BTS’s V And BLACKPINK’s Jennie Are Engaged After “Proof” Surfaces",
-      "description": "Fans shared their thoughts openly.",
-      "url": "https://www.koreaboo.com/news/hollywood-source-alleges-btss-v-blackpinks-jennie-engaged-after-proof-surfaces/",
+      "title": "HYBE Fires Back At The New York Times’ NewJeans Exposé",
+      "description": "\"No choice but to explain the facts...\"",
+      "url": "https://www.koreaboo.com/news/hybe-fires-back-new-york-times-newjeans-expose/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-05T21:40:58Z",
-      "collected_at": "2026-11-06T06:54:13Z",
+      "published_at": "2026-11-06T13:59:23Z",
+      "collected_at": "2026-11-06T19:27:48Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -98,38 +89,88 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "blackpink"
+        "newjeans"
       ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.8865,
+        "recency": 0.9293,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.4191,
+      "hot_score": 6.4985,
+      "available": true
+    },
+    {
+      "id": "news:soompi:524b5a0dfd749ca2",
+      "platform": "news",
+      "platform_item_id": "524b5a0dfd749ca2",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: ILLIT Takes 1st Win For “You’re Under Arrest” On “Music Bank”; Performances By RESCENE, TWS, And More",
+      "description": "ILLIT has won their first music show trophy for “You’re Under Arrest”! On the November 6 episode of “Music Bank,” the candidates for first place were IVE’s “Looks Can Kill” and ILLIT’s “You’re Under Arrest.” ILLIT ultimately took the prize with a total of 9,803 points. Congratulations to ILLIT! Watch the winner announcement below: Performers… Continue reading Watch: ILLIT Takes 1st Win For “You’re Under Arrest” On “Music Bank”; Performances By RESCENE, TWS, And More The post Watch: ILLIT Takes 1st Win For “You’re Under Arrest” On “Music Bank”; Performances By RESCENE, TWS, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1884749wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more-2",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-06T11:33:42Z",
+      "collected_at": "2026-11-06T19:27:48Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9011,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.3011,
       "available": true
     },
     {
@@ -143,7 +184,7 @@
       "url": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T06:11:24Z",
-      "collected_at": "2026-11-06T06:54:13Z",
+      "collected_at": "2026-11-06T19:27:48Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -173,7 +214,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7445,
+        "recency": 0.6589,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -181,7 +222,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2058,
+      "hot_score": 4.6074,
       "available": true
     },
     {
@@ -195,7 +236,7 @@
       "url": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T05:55:31Z",
-      "collected_at": "2026-11-06T06:54:13Z",
+      "collected_at": "2026-11-06T19:27:48Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -225,7 +266,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7424,
+        "recency": 0.6573,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -233,84 +274,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1915,
-      "available": true
-    },
-    {
-      "id": "news:soompi:aafd4408ec1203c7",
-      "platform": "news",
-      "platform_item_id": "aafd4408ec1203c7",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: BLACKPINK’s Jisoo And TWICE’s Nayeon Show Close Friendship On “Whenever Possible” Preview",
-      "description": "BLACKPINK’s Jisoo and TWICE”s Nayeon will be starring on “Whenever Possible”! “Whenever Possible” is a variety show in which the hosts, Yu Jae Seok and Yoo Yeon Seok, visit ordinary people during their brief moments of free time, aiming to sprinkle a bit of luck into their lives. On November 4, “Whenever Possible” released a… Continue reading Watch: BLACKPINK’s Jisoo And TWICE’s Nayeon Show Close Friendship On “Whenever Possible” Preview The post Watch: BLACKPINK’s Jisoo And TWICE’s Nayeon Show Close Friendship On “Whenever Possible” Preview appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1884023wpp/watch-blackpinks-jisoo-and-twices-nayeon-show-close-friendship-on-whenever-possible-preview",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-04T02:00:18Z",
-      "collected_at": "2026-11-06T06:54:13Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink",
-        "twice"
-      ],
-      "matched_members": [
-        "jisoo",
-        "nayeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "nayeon",
-          "alias": "Nayeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5765,
-        "views": 0,
-        "engagement": 8.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.8149,
+      "hot_score": 4.5963,
       "available": true
     },
     {
@@ -324,7 +288,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-06T06:54:13Z",
+      "collected_at": "2026-11-06T19:27:48Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -354,7 +318,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2518,
+        "recency": 0.2412,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -362,7 +326,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.761,
+      "hot_score": 1.6869,
       "available": true
     },
     {
@@ -376,7 +340,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-06T06:54:13Z",
+      "collected_at": "2026-11-06T19:27:48Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -415,7 +379,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0627,
+        "recency": 0.062,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -423,7 +387,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5248,
+      "hot_score": 0.5192,
       "available": true
     }
   ]
