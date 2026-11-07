@@ -1,67 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-07T06:05:06Z",
+  "generated_at": "2026-11-07T13:09:45Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 5,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:d02a644a88cc20bc",
-      "platform": "news",
-      "platform_item_id": "d02a644a88cc20bc",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Min Hee Jin Mocks HYBE’s NewJeans Contract Explanation With Scathing Statement",
-      "description": "\"HYBE claims there is nothing wrong...\"",
-      "url": "https://www.koreaboo.com/news/min-hee-jin-mocks-hybes-newjeans-contract-explanation-scathing-statement/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-06T14:16:12Z",
-      "collected_at": "2026-11-07T06:05:06Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "newjeans"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8199,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 5.7333,
-      "available": true
-    },
     {
       "id": "news:soompi:524b5a0dfd749ca2",
       "platform": "news",
@@ -73,7 +21,7 @@
       "url": "https://www.soompi.com/article/1884749wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-06T11:33:42Z",
-      "collected_at": "2026-11-07T06:05:06Z",
+      "collected_at": "2026-11-07T13:09:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -110,7 +58,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7954,
+        "recency": 0.7377,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -118,7 +66,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5618,
+      "hot_score": 5.1584,
       "available": true
     },
     {
@@ -132,7 +80,7 @@
       "url": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T06:11:24Z",
-      "collected_at": "2026-11-07T06:05:06Z",
+      "collected_at": "2026-11-07T13:09:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -162,7 +110,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6005,
+        "recency": 0.5671,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -170,7 +118,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1992,
+      "hot_score": 3.9652,
       "available": true
     },
     {
@@ -184,7 +132,7 @@
       "url": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T05:55:31Z",
-      "collected_at": "2026-11-07T06:05:06Z",
+      "collected_at": "2026-11-07T13:09:45Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -214,7 +162,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5992,
+        "recency": 0.5659,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -222,7 +170,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.19,
+      "hot_score": 3.9569,
       "available": true
     },
     {
@@ -236,7 +184,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-07T06:05:06Z",
+      "collected_at": "2026-11-07T13:09:45Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -266,7 +214,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2329,
+        "recency": 0.2277,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -274,7 +222,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.6289,
+      "hot_score": 1.5924,
       "available": true
     },
     {
@@ -288,7 +236,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-07T06:05:06Z",
+      "collected_at": "2026-11-07T13:09:45Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -327,7 +275,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0615,
+        "recency": 0.0611,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -335,7 +283,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5144,
+      "hot_score": 0.5114,
       "available": true
     }
   ]
