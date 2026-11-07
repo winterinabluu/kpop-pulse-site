@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-06T19:27:48Z",
+  "generated_at": "2026-11-07T06:05:06Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 7,
+    "item_count": 6,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/min-hee-jin-mocks-hybes-newjeans-contract-explanation-scathing-statement/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-06T14:16:12Z",
-      "collected_at": "2026-11-06T19:27:48Z",
+      "collected_at": "2026-11-07T06:05:06Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -51,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9327,
+        "recency": 0.8199,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,59 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5221,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:d8ea100f04971365",
-      "platform": "news",
-      "platform_item_id": "d8ea100f04971365",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "HYBE Fires Back At The New York Times’ NewJeans Exposé",
-      "description": "\"No choice but to explain the facts...\"",
-      "url": "https://www.koreaboo.com/news/hybe-fires-back-new-york-times-newjeans-expose/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-06T13:59:23Z",
-      "collected_at": "2026-11-06T19:27:48Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "newjeans"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "newjeans",
-          "alias": "NewJeans",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9293,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.4985,
+      "hot_score": 5.7333,
       "available": true
     },
     {
@@ -125,7 +73,7 @@
       "url": "https://www.soompi.com/article/1884749wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-06T11:33:42Z",
-      "collected_at": "2026-11-06T19:27:48Z",
+      "collected_at": "2026-11-07T06:05:06Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -162,7 +110,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9011,
+        "recency": 0.7954,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -170,7 +118,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.3011,
+      "hot_score": 5.5618,
       "available": true
     },
     {
@@ -184,7 +132,7 @@
       "url": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T06:11:24Z",
-      "collected_at": "2026-11-06T19:27:48Z",
+      "collected_at": "2026-11-07T06:05:06Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -214,7 +162,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6589,
+        "recency": 0.6005,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -222,7 +170,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6074,
+      "hot_score": 4.1992,
       "available": true
     },
     {
@@ -236,7 +184,7 @@
       "url": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T05:55:31Z",
-      "collected_at": "2026-11-06T19:27:48Z",
+      "collected_at": "2026-11-07T06:05:06Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -266,7 +214,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6573,
+        "recency": 0.5992,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -274,7 +222,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5963,
+      "hot_score": 4.19,
       "available": true
     },
     {
@@ -288,7 +236,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-06T19:27:48Z",
+      "collected_at": "2026-11-07T06:05:06Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -318,7 +266,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2412,
+        "recency": 0.2329,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -326,7 +274,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.6869,
+      "hot_score": 1.6289,
       "available": true
     },
     {
@@ -340,7 +288,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-06T19:27:48Z",
+      "collected_at": "2026-11-07T06:05:06Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -379,7 +327,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.062,
+        "recency": 0.0615,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -387,7 +335,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5192,
+      "hot_score": 0.5144,
       "available": true
     }
   ]
