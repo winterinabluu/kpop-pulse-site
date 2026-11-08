@@ -1,15 +1,137 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-08T06:09:23Z",
+  "generated_at": "2026-11-08T13:30:53Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 9,
+    "item_count": 8,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:fd9765d6f8ff6fdf",
+      "platform": "news",
+      "platform_item_id": "fd9765d6f8ff6fdf",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BTS V’s Recent Actions Directly Linked To Dating Rumors With BLACKPINK’s Jennie",
+      "description": "\"Saw the rumors...\"",
+      "url": "https://www.koreaboo.com/news/btss-v-seemingly-reacts-recent-dating-rumors-blackpinks-jennie/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T11:45:53Z",
+      "collected_at": "2026-11-08T13:30:53Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jennie"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jennie",
+          "alias": "Jennie",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9763,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.1706,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:3da8fa9c7cf59f51",
+      "platform": "news",
+      "platform_item_id": "3da8fa9c7cf59f51",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Rosé Hit With Major Criticism For Vocals During Recent Performance",
+      "description": "\"Her horrible vocals...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-rose-vocals-criticism/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T10:45:10Z",
+      "collected_at": "2026-11-08T13:30:53Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "rose"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "rose",
+          "alias": "Rosé",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.963,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.06,
+      "available": true
+    },
     {
       "id": "news:soompi:426d93ec34147150",
       "platform": "news",
@@ -21,7 +143,7 @@
       "url": "https://www.soompi.com/article/1884917wpp/watch-a2o-lite-takes-10th-win-for-neon-on-music-core-performances-by-blackpinks-jisoo-rescene-treasure-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T01:48:26Z",
-      "collected_at": "2026-11-08T06:09:23Z",
+      "collected_at": "2026-11-08T13:30:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -74,7 +196,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.943,
+        "recency": 0.8601,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -82,7 +204,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.8925,
+      "hot_score": 7.1987,
       "available": true
     },
     {
@@ -96,7 +218,7 @@
       "url": "https://www.soompi.com/article/1884912wpp/illits-tick-tack-becomes-their-5th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T01:13:03Z",
-      "collected_at": "2026-11-08T06:09:23Z",
+      "collected_at": "2026-11-08T13:30:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -126,7 +248,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9358,
+        "recency": 0.8541,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -134,7 +256,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.5438,
+      "hot_score": 5.9725,
       "available": true
     },
     {
@@ -148,7 +270,7 @@
       "url": "https://www.soompi.com/article/1884909wpp/watch-le-sserafim-illit-and-katseyes-iconic-by-mistake-mv-surpasses-200-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T00:37:21Z",
-      "collected_at": "2026-11-08T06:09:23Z",
+      "collected_at": "2026-11-08T13:30:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -186,7 +308,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9286,
+        "recency": 0.8481,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -194,68 +316,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5204,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:ba6c5abc76eb6a19",
-      "platform": "news",
-      "platform_item_id": "ba6c5abc76eb6a19",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "aespa Ningning’s Gay Coming Out Post Sparks Massive Reactions",
-      "description": "Her friend's comment only added to the speculation.",
-      "url": "https://www.koreaboo.com/news/aespa-ningnings-gay-coming-post-sparks-massive-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-07T13:09:25Z",
-      "collected_at": "2026-11-08T06:09:23Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "ningning"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "ningning",
-          "alias": "NingNing",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.809,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.7707,
+      "hot_score": 6.8685,
       "available": true
     },
     {
@@ -269,7 +330,7 @@
       "url": "https://www.soompi.com/article/1884749wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-06T11:33:42Z",
-      "collected_at": "2026-11-08T06:09:23Z",
+      "collected_at": "2026-11-08T13:30:53Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -306,7 +367,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6283,
+        "recency": 0.5904,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -314,111 +375,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3935,
-      "available": true
-    },
-    {
-      "id": "news:soompi:8e7d0e97e440366d",
-      "platform": "news",
-      "platform_item_id": "8e7d0e97e440366d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT’s “jellyous” Becomes Their 3rd MV To Hit 100 Million Views",
-      "description": "ILLIT has hit the 100 million mark with another music video on YouTube! According to BELIFT LAB, on November 5 at around 5:46 a.m. KST, ILLIT’s music video for their third mini album’s B-side track “jellyous” surpassed 100 million views on YouTube, making it the girl group’s third music video to reach the milestone following… Continue reading ILLIT’s “jellyous” Becomes Their 3rd MV To Hit 100 Million Views The post ILLIT’s “jellyous” Becomes Their 3rd MV To Hit 100 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-05T06:11:24Z",
-      "collected_at": "2026-11-08T06:09:23Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5001,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.4971,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a476e611bbfdb98f",
-      "platform": "news",
-      "platform_item_id": "a476e611bbfdb98f",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views",
-      "description": "BLACKPINK has reached yet another YouTube milestone! On November 4 KST, the girl group’s music video for “GO” surpassed 100 million views. This means that it took around eight months and eight days since the music video’s release on February 27 at 2 p.m. KST. “GO” is BLACKPINK’s 16th full-group music video to hit the… Continue reading BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views The post BLACKPINK’s “GO” Becomes Their 16th Group MV To Surpass 100 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-05T05:55:31Z",
-      "collected_at": "2026-11-08T06:09:23Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.4992,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.4907,
+      "hot_score": 4.1284,
       "available": true
     },
     {
@@ -432,7 +389,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-08T06:09:23Z",
+      "collected_at": "2026-11-08T13:30:53Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -462,7 +419,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2161,
+        "recency": 0.2114,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -470,7 +427,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.5112,
+      "hot_score": 1.4786,
       "available": true
     },
     {
@@ -484,7 +441,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-08T06:09:23Z",
+      "collected_at": "2026-11-08T13:30:53Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -523,7 +480,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0602,
+        "recency": 0.0599,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -531,7 +488,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5041,
+      "hot_score": 0.501,
       "available": true
     }
   ]
