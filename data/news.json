@@ -1,15 +1,202 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-07T21:55:18Z",
+  "generated_at": "2026-11-08T06:09:23Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 6,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:426d93ec34147150",
+      "platform": "news",
+      "platform_item_id": "426d93ec34147150",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More",
+      "description": "A2O LITE has won a 10th music show trophy for their debut single “NEON”! On the November 7 episode of MBC’s “Music Core,” the candidates for first place were IVE’s “Looks Can Kill,” ILLIT’s “You’re Under Arrest,” and A2O LITE’s “NEON.” A2O LITE ultimately took the win with a total of 6,593 points. Congratulations to… Continue reading Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More The post Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1884917wpp/watch-a2o-lite-takes-10th-win-for-neon-on-music-core-performances-by-blackpinks-jisoo-rescene-treasure-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T01:48:26Z",
+      "collected_at": "2026-11-08T06:09:23Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "description",
+          "score": 0.3
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.943,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8925,
+      "available": true
+    },
+    {
+      "id": "news:soompi:a7d1dfb059556b73",
+      "platform": "news",
+      "platform_item_id": "a7d1dfb059556b73",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "ILLIT’s “Tick-Tack” Becomes Their 5th MV To Hit 100 Million Views",
+      "description": "Just a couple hours after their collab single “ICONIC BY MISTAKE” soared past 200 million views on YouTube, ILLIT has also hit the 100 million mark with another music video! On November 8 at approximately 2:15 a.m. KST, ILLIT’s music video for their popular 2024 B-side “Tick-Tack” surpassed 100 million views on YouTube, making it… Continue reading ILLIT’s “Tick-Tack” Becomes Their 5th MV To Hit 100 Million Views The post ILLIT’s “Tick-Tack” Becomes Their 5th MV To Hit 100 Million Views appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1884912wpp/illits-tick-tack-becomes-their-5th-mv-to-hit-100-million-views",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T01:13:03Z",
+      "collected_at": "2026-11-08T06:09:23Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9358,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5438,
+      "available": true
+    },
+    {
+      "id": "news:soompi:b7035ac074573e0d",
+      "platform": "news",
+      "platform_item_id": "b7035ac074573e0d",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "LE SSERAFIM, ILLIT, And KATSEYE’s “ICONIC BY MISTAKE” MV Surpasses 200 Million Views",
+      "description": "LE SSERAFIM, ILLIT, and KATSEYE’s collab single “ICONIC BY MISTAKE” has hit the 200 million mark on YouTube! On November 8 at around midnight KST, the music video for the three girl groups’ special digital single surpassed 200 million views on YouTube. The music video for “ICONIC BY MISTAKE” was first released on June 11… Continue reading LE SSERAFIM, ILLIT, And KATSEYE’s “ICONIC BY MISTAKE” MV Surpasses 200 Million Views The post LE SSERAFIM, ILLIT, And KATSEYE’s “ICONIC BY MISTAKE” MV Surpasses 200 Million Views appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1884909wpp/watch-le-sserafim-illit-and-katseyes-iconic-by-mistake-mv-surpasses-200-million-views",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T00:37:21Z",
+      "collected_at": "2026-11-08T06:09:23Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit",
+        "lesserafim"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9286,
+        "views": 0,
+        "engagement": 5.3,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.5204,
+      "available": true
+    },
     {
       "id": "news:koreaboo:ba6c5abc76eb6a19",
       "platform": "news",
@@ -21,7 +208,7 @@
       "url": "https://www.koreaboo.com/news/aespa-ningnings-gay-coming-post-sparks-massive-reactions/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-07T13:09:25Z",
-      "collected_at": "2026-11-07T21:55:18Z",
+      "collected_at": "2026-11-08T06:09:23Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +247,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8915,
+        "recency": 0.809,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +255,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.461,
+      "hot_score": 6.7707,
       "available": true
     },
     {
@@ -82,7 +269,7 @@
       "url": "https://www.soompi.com/article/1884749wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more-2",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-06T11:33:42Z",
-      "collected_at": "2026-11-07T21:55:18Z",
+      "collected_at": "2026-11-08T06:09:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -119,7 +306,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6769,
+        "recency": 0.6283,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -127,7 +314,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7336,
+      "hot_score": 4.3935,
       "available": true
     },
     {
@@ -141,7 +328,7 @@
       "url": "https://www.soompi.com/article/1884331wpp/illits-jellyous-becomes-their-3rd-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T06:11:24Z",
-      "collected_at": "2026-11-07T21:55:18Z",
+      "collected_at": "2026-11-08T06:09:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -171,7 +358,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5305,
+        "recency": 0.5001,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -179,7 +366,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.7093,
+      "hot_score": 3.4971,
       "available": true
     },
     {
@@ -193,7 +380,7 @@
       "url": "https://www.soompi.com/article/1884332wpp/blackpinks-go-becomes-their-16th-group-mv-to-surpass-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-05T05:55:31Z",
-      "collected_at": "2026-11-07T21:55:18Z",
+      "collected_at": "2026-11-08T06:09:23Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -223,7 +410,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5294,
+        "recency": 0.4992,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -231,7 +418,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.7021,
+      "hot_score": 3.4907,
       "available": true
     },
     {
@@ -245,7 +432,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-07T21:55:18Z",
+      "collected_at": "2026-11-08T06:09:23Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -275,7 +462,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2216,
+        "recency": 0.2161,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -283,7 +470,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.5495,
+      "hot_score": 1.5112,
       "available": true
     },
     {
@@ -297,7 +484,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-07T21:55:18Z",
+      "collected_at": "2026-11-08T06:09:23Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -336,7 +523,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0606,
+        "recency": 0.0602,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -344,7 +531,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.5076,
+      "hot_score": 0.5041,
       "available": true
     }
   ]
