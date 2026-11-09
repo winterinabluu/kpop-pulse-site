@@ -1,380 +1,27 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-09T06:43:19Z",
+  "generated_at": "2026-11-09T22:25:42Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 15,
+    "item_count": 16,
     "previous_data_used": false
   },
   "items": [
     {
-      "id": "news:soompi:a877b8ef0d38bd77",
+      "id": "news:koreaboo:48214d0e9676a296",
       "platform": "news",
-      "platform_item_id": "a877b8ef0d38bd77",
+      "platform_item_id": "48214d0e9676a296",
       "source_type": "media",
       "content_kind": "news",
-      "title": "CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on November 7! CORTIS’s latest EP “GREENGREEN” returned to the top of the World Albums chart for a sixth week at No. 1, in addition to re-entering the Billboard 200 six months after its release. Meanwhile, CORTIS’s debut EP “COLOR OUTSIDE THE LINES” rounded… Continue reading CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart The post CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885130wpp/cortis-stray-kids-nmixx-seventeens-jxj-k-da-illit-enhypen-bts-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "title": "Viral Clip Of BLACKPINK Jennie’s “Stupid” Behavior Overseas Triggers Intense Criticism",
+      "description": "\"Childish and cringeworthy...\"",
+      "url": "https://www.koreaboo.com/news/blackpink-jennie-stupid-behavior-overseas-triggers-brutal-criticism/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T22:49:00Z",
-      "collected_at": "2026-11-09T06:43:19Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9011,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.3008,
-      "available": true
-    },
-    {
-      "id": "news:soompi:93041f135abeaef6",
-      "platform": "news",
-      "platform_item_id": "93041f135abeaef6",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN”",
-      "description": "ILLIT is soaring to new heights on the Billboard charts with their latest release! On November 8 local time, Billboard announced that ILLIT’s new mini album “BREAK EVEN” had debuted at No. 1 on its Top Album Sales chart, meaning it was the best-selling album of the week in the United States. Notably, “BREAK EVEN”… Continue reading ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN” The post ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885116wpp/illit-debuts-at-no-1-on-billboard-top-album-sales-chart-no-6-on-billboard-200-with-break-even",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T20:23:00Z",
-      "collected_at": "2026-11-09T06:43:19Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8744,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.1146,
-      "available": true
-    },
-    {
-      "id": "news:soompi:67c40a0dc2b936ff",
-      "platform": "news",
-      "platform_item_id": "67c40a0dc2b936ff",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT Breaks Their 1st-Week Sales Record With “BREAK EVEN”",
-      "description": "ILLIT did more than just “BREAK EVEN” with their latest comeback! The girl group recently made their highly-anticipated return with their fifth mini album “BREAK EVEN” and its catchy title track “You’re Under Arrest.” Hanteo Chart has now reported that ILLIT achieved their highest first-week sales yet with the new mini album. In the first… Continue reading ILLIT Breaks Their 1st-Week Sales Record With “BREAK EVEN” The post ILLIT Breaks Their 1st-Week Sales Record With “BREAK EVEN” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885108wpp/illit-breaks-their-1st-week-sales-record-with-break-even",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T19:04:00Z",
-      "collected_at": "2026-11-09T06:43:19Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8607,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.0184,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a0be122983925bc3",
-      "platform": "news",
-      "platform_item_id": "a0be122983925bc3",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Lisa Debuts In Top 35 Of Billboard 200 With “PRESS PLAY”",
-      "description": "BLACKPINK’s Lisa has scored a second top 40 entry on the Billboard 200! This week, Billboard announced that Lisa’s new solo EP “PRESS PLAY” had debuted at No. 35 on its Top 200 Albums chart, which ranks the most popular albums in the United States. “PRESS PLAY” is her second solo Billboard 200 entry, following… Continue reading BLACKPINK’s Lisa Debuts In Top 35 Of Billboard 200 With “PRESS PLAY” The post BLACKPINK’s Lisa Debuts In Top 35 Of Billboard 200 With “PRESS PLAY” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885099wpp/blackpinks-lisa-debuts-in-top-35-of-billboard-200-with-press-play",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T18:06:00Z",
-      "collected_at": "2026-11-09T06:43:19Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "lisa"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "lisa",
-          "alias": "Lisa",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8508,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.1209,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:8134966f0d9f1696",
-      "platform": "news",
-      "platform_item_id": "8134966f0d9f1696",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Jisoo Surprises With Her Biggest Expenses",
-      "description": "BLACKPINK’s Jisoo revealed what she spends the most money on, surprising viewers and netizens. On the JTBC show Please Take Care of My Refrigerator aired on November 8th, BLACKPINK’s Jisoo…",
-      "url": "https://www.koreaboo.com/news/blackpink-jisoo-surprises-biggest-expenses/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T15:57:22Z",
-      "collected_at": "2026-11-09T06:43:19Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jisoo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8298,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.945,
-      "available": true
-    },
-    {
-      "id": "news:soompi:bf95e0271f6b8a7b",
-      "platform": "news",
-      "platform_item_id": "bf95e0271f6b8a7b",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: A2O LITE Takes 11th Win And Triple Crown For “NEON” On “Inkigayo”; Performances By BLACKPINK’s Jisoo And More",
-      "description": "A2O LITE has snagged an 11th music show trophy for their debut single “NEON”! On the November 8 episode of SBS’s “Inkigayo,” the candidates for first place were IVE’s “Looks Can Kill,” ILLIT’s “You’re Under Arrest,” and A2O LITE’s “NEON.” A2O LITE ultimately took the win with a total of 6,037 points. This is the… Continue reading Watch: A2O LITE Takes 11th Win And Triple Crown For “NEON” On “Inkigayo”; Performances By BLACKPINK’s Jisoo And More The post Watch: A2O LITE Takes 11th Win And Triple Crown For “NEON” On “Inkigayo”; Performances By BLACKPINK’s Jisoo And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885054wpp/watch-a2o-lite-takes-11th-win-and-triple-crown-for-neon-on-inkigayo-performances-by-blackpinks-jisoo-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T15:09:07Z",
-      "collected_at": "2026-11-09T06:43:19Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jisoo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "description",
-          "score": 0.3
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8222,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.8812,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:fd9765d6f8ff6fdf",
-      "platform": "news",
-      "platform_item_id": "fd9765d6f8ff6fdf",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BTS V’s Recent Actions Directly Linked To Dating Rumors With BLACKPINK’s Jennie",
-      "description": "\"Saw the rumors...\"",
-      "url": "https://www.koreaboo.com/news/btss-v-seemingly-reacts-recent-dating-rumors-blackpinks-jennie/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T14:45:53Z",
-      "collected_at": "2026-11-09T06:43:19Z",
+      "published_at": "2026-11-09T13:10:10Z",
+      "collected_at": "2026-11-09T22:25:42Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -413,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8186,
+        "recency": 0.8861,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -421,21 +68,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8509,
+      "hot_score": 7.4156,
       "available": true
     },
     {
-      "id": "news:koreaboo:a62760ee94ab1839",
+      "id": "news:koreaboo:740bb75a34379d3f",
       "platform": "news",
-      "platform_item_id": "a62760ee94ab1839",
+      "platform_item_id": "740bb75a34379d3f",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa Ningning’s Shockingly Revealing Red Carpet Outfit Goes Viral",
-      "description": "She left little to the imagination.",
-      "url": "https://www.koreaboo.com/news/aespa-ningnings-shockingly-revealing-red-carpet-outfit-goes-viral/",
+      "title": "ATEEZ San’s Comments About BLACKPINK Hit With Backlash Linked To BTS",
+      "description": "\"Hypocrite...\"",
+      "url": "https://www.koreaboo.com/news/ateez-sans-comments-blackpink-hit-backlash-linked-bts/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T14:15:59Z",
-      "collected_at": "2026-11-09T06:43:19Z",
+      "published_at": "2026-11-09T11:35:15Z",
+      "collected_at": "2026-11-09T22:25:42Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -451,52 +98,43 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "aespa"
+        "blackpink"
       ],
-      "matched_members": [
-        "ningning"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "ningning",
-          "alias": "NingNing",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.814,
+        "recency": 0.8691,
         "views": 0,
-        "engagement": 5.7,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.8123,
+      "hot_score": 6.0775,
       "available": true
     },
     {
-      "id": "news:soompi:65280da57757a83c",
+      "id": "news:soompi:789f725b5feb70f2",
       "platform": "news",
-      "platform_item_id": "65280da57757a83c",
+      "platform_item_id": "789f725b5feb70f2",
       "source_type": "media",
       "content_kind": "news",
-      "title": "PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on October 31! PLAVE’s new mini album “HYPERDRIVE” debuted at No. 1 on the World Albums chart, in addition to becoming their first album ever to enter the top 40 of the Billboard 200. Stray Kids landed a total of three albums on the… Continue reading PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart The post PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885061wpp/plave-stray-kids-cortis-twice-enhypen-illit-bts-boynextdoor-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "title": "Watch: ILLIT Takes 2nd Win For “You’re Under Arrest” On New Music Show “SHOW K-POP”",
+      "description": "ILLIT has won their second music show trophy for “You’re Under Arrest”! On November 9, ILLIT took first place on Arirang TV’s new music show “SHOW K-POP.” Hosted by ZEROBASEONE‘s Seok Matthew, “SHOW K-POP” is a new weekly music show that premiered on October 19 and airs every Monday. In its fourth episode, A2O LITE’s… Continue reading Watch: ILLIT Takes 2nd Win For “You’re Under Arrest” On New Music Show “SHOW K-POP” The post Watch: ILLIT Takes 2nd Win For “You’re Under Arrest” On New Music Show “SHOW K-POP” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885347wpp/watch-illit-takes-2nd-win-for-youre-under-arrest-on-new-music-show-show-k-pop",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T04:01:00Z",
-      "collected_at": "2026-11-09T06:43:19Z",
+      "published_at": "2026-11-09T11:02:26Z",
+      "collected_at": "2026-11-09T22:25:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -512,8 +150,7 @@
       "duration": "",
       "language": "en",
       "matched_groups": [
-        "illit",
-        "twice"
+        "illit"
       ],
       "matched_members": [],
       "match_confidence": "medium",
@@ -524,39 +161,371 @@
           "alias": "ILLIT",
           "field": "title",
           "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8634,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.0377,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:9a858f24b3a79ecd",
+      "platform": "news",
+      "platform_item_id": "9a858f24b3a79ecd",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Viral Post About LE SSERAFIM Sakura’s “Visible Underwear” Sparks Major Fury",
+      "description": "\"Weird and creepy...\"",
+      "url": "https://www.koreaboo.com/news/viral-tweet-disgust-le-sserafim-visible-underwear/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-09T10:20:06Z",
+      "collected_at": "2026-11-09T22:25:42Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "lesserafim"
+      ],
+      "matched_members": [
+        "sakura"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "lesserafim",
+          "alias": "LE SSERAFIM",
+          "field": "title",
+          "score": 1.0
         },
+        {
+          "target_type": "member",
+          "target_id": "sakura",
+          "alias": "Sakura",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8562,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.1657,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:9bca8df4942bc1c4",
+      "platform": "news",
+      "platform_item_id": "9bca8df4942bc1c4",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Writer On TWICE Nayeon’s New Album Speculated To Be Fellow Member’s “Ex Situationship”",
+      "description": "\"Not knowing the lore...\"",
+      "url": "https://www.koreaboo.com/news/twice-nayeons-new-album-features-artist-rumored-fellow-members-ex-situationship/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-09T09:50:03Z",
+      "collected_at": "2026-11-09T22:25:42Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "nayeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
         {
           "target_type": "group",
           "target_id": "twice",
           "alias": "TWICE",
           "field": "title",
           "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "nayeon",
+          "alias": "Nayeon",
+          "field": "title",
+          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.7294,
+        "recency": 0.8511,
         "views": 0,
-        "engagement": 5.3,
+        "engagement": 5.7,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9073,
+      "hot_score": 7.1232,
       "available": true
     },
     {
-      "id": "news:soompi:426d93ec34147150",
+      "id": "news:soompi:a877b8ef0d38bd77",
       "platform": "news",
-      "platform_item_id": "426d93ec34147150",
+      "platform_item_id": "a877b8ef0d38bd77",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More",
-      "description": "A2O LITE has won a 10th music show trophy for their debut single “NEON”! On the November 7 episode of MBC’s “Music Core,” the candidates for first place were IVE’s “Looks Can Kill,” ILLIT’s “You’re Under Arrest,” and A2O LITE’s “NEON.” A2O LITE ultimately took the win with a total of 6,593 points. Congratulations to… Continue reading Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More The post Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1884917wpp/watch-a2o-lite-takes-10th-win-for-neon-on-music-core-performances-by-blackpinks-jisoo-rescene-treasure-and-more",
+      "title": "CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart",
+      "description": "Billboard has published its World Albums chart for the week ending on November 7! CORTIS’s latest EP “GREENGREEN” returned to the top of the World Albums chart for a sixth week at No. 1, in addition to re-entering the Billboard 200 six months after its release. Meanwhile, CORTIS’s debut EP “COLOR OUTSIDE THE LINES” rounded… Continue reading CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart The post CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885130wpp/cortis-stray-kids-nmixx-seventeens-jxj-k-da-illit-enhypen-bts-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T01:48:26Z",
-      "collected_at": "2026-11-09T06:43:19Z",
+      "published_at": "2026-11-08T22:49:00Z",
+      "collected_at": "2026-11-09T22:25:42Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.753,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.2658,
+      "available": true
+    },
+    {
+      "id": "news:soompi:93041f135abeaef6",
+      "platform": "news",
+      "platform_item_id": "93041f135abeaef6",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN”",
+      "description": "ILLIT is soaring to new heights on the Billboard charts with their latest release! On November 8 local time, Billboard announced that ILLIT’s new mini album “BREAK EVEN” had debuted at No. 1 on its Top Album Sales chart, meaning it was the best-selling album of the week in the United States. Notably, “BREAK EVEN”… Continue reading ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN” The post ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885116wpp/illit-debuts-at-no-1-on-billboard-top-album-sales-chart-no-6-on-billboard-200-with-break-even",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T20:23:00Z",
+      "collected_at": "2026-11-09T22:25:42Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.7344,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.1351,
+      "available": true
+    },
+    {
+      "id": "news:soompi:67c40a0dc2b936ff",
+      "platform": "news",
+      "platform_item_id": "67c40a0dc2b936ff",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "ILLIT Breaks Their 1st-Week Sales Record With “BREAK EVEN”",
+      "description": "ILLIT did more than just “BREAK EVEN” with their latest comeback! The girl group recently made their highly-anticipated return with their fifth mini album “BREAK EVEN” and its catchy title track “You’re Under Arrest.” Hanteo Chart has now reported that ILLIT achieved their highest first-week sales yet with the new mini album. In the first… Continue reading ILLIT Breaks Their 1st-Week Sales Record With “BREAK EVEN” The post ILLIT Breaks Their 1st-Week Sales Record With “BREAK EVEN” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885108wpp/illit-breaks-their-1st-week-sales-record-with-break-even",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T19:04:00Z",
+      "collected_at": "2026-11-09T22:25:42Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.7246,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.067,
+      "available": true
+    },
+    {
+      "id": "news:soompi:a0be122983925bc3",
+      "platform": "news",
+      "platform_item_id": "a0be122983925bc3",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Lisa Debuts In Top 35 Of Billboard 200 With “PRESS PLAY”",
+      "description": "BLACKPINK’s Lisa has scored a second top 40 entry on the Billboard 200! This week, Billboard announced that Lisa’s new solo EP “PRESS PLAY” had debuted at No. 35 on its Top 200 Albums chart, which ranks the most popular albums in the United States. “PRESS PLAY” is her second solo Billboard 200 entry, following… Continue reading BLACKPINK’s Lisa Debuts In Top 35 Of Billboard 200 With “PRESS PLAY” The post BLACKPINK’s Lisa Debuts In Top 35 Of Billboard 200 With “PRESS PLAY” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885099wpp/blackpinks-lisa-debuts-in-top-35-of-billboard-200-with-press-play",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T18:06:00Z",
+      "collected_at": "2026-11-09T22:25:42Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "lisa"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "lisa",
+          "alias": "Lisa",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.7176,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.0061,
+      "available": true
+    },
+    {
+      "id": "news:soompi:bf95e0271f6b8a7b",
+      "platform": "news",
+      "platform_item_id": "bf95e0271f6b8a7b",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: A2O LITE Takes 11th Win And Triple Crown For “NEON” On “Inkigayo”; Performances By BLACKPINK’s Jisoo And More",
+      "description": "A2O LITE has snagged an 11th music show trophy for their debut single “NEON”! On the November 8 episode of SBS’s “Inkigayo,” the candidates for first place were IVE’s “Looks Can Kill,” ILLIT’s “You’re Under Arrest,” and A2O LITE’s “NEON.” A2O LITE ultimately took the win with a total of 6,037 points. This is the… Continue reading Watch: A2O LITE Takes 11th Win And Triple Crown For “NEON” On “Inkigayo”; Performances By BLACKPINK’s Jisoo And More The post Watch: A2O LITE Takes 11th Win And Triple Crown For “NEON” On “Inkigayo”; Performances By BLACKPINK’s Jisoo And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885054wpp/watch-a2o-lite-takes-11th-win-and-triple-crown-for-neon-on-inkigayo-performances-by-blackpinks-jisoo-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T15:09:07Z",
+      "collected_at": "2026-11-09T22:25:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -609,7 +578,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7135,
+        "recency": 0.6972,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -617,7 +586,142 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.9712,
+      "hot_score": 5.8347,
+      "available": true
+    },
+    {
+      "id": "news:soompi:65280da57757a83c",
+      "platform": "news",
+      "platform_item_id": "65280da57757a83c",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart",
+      "description": "Billboard has published its World Albums chart for the week ending on October 31! PLAVE’s new mini album “HYPERDRIVE” debuted at No. 1 on the World Albums chart, in addition to becoming their first album ever to enter the top 40 of the Billboard 200. Stray Kids landed a total of three albums on the… Continue reading PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart The post PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885061wpp/plave-stray-kids-cortis-twice-enhypen-illit-bts-boynextdoor-and-more-sweep-top-spots-on-billboard-world-albums-chart",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T04:01:00Z",
+      "collected_at": "2026-11-09T22:25:42Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit",
+        "twice"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.6293,
+        "views": 0,
+        "engagement": 5.3,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.0964,
+      "available": true
+    },
+    {
+      "id": "news:soompi:426d93ec34147150",
+      "platform": "news",
+      "platform_item_id": "426d93ec34147150",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More",
+      "description": "A2O LITE has won a 10th music show trophy for their debut single “NEON”! On the November 7 episode of MBC’s “Music Core,” the candidates for first place were IVE’s “Looks Can Kill,” ILLIT’s “You’re Under Arrest,” and A2O LITE’s “NEON.” A2O LITE ultimately took the win with a total of 6,593 points. Congratulations to… Continue reading Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More The post Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1884917wpp/watch-a2o-lite-takes-10th-win-for-neon-on-music-core-performances-by-blackpinks-jisoo-rescene-treasure-and-more",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-08T01:48:26Z",
+      "collected_at": "2026-11-09T22:25:42Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        },
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "description",
+          "score": 0.3
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "description",
+          "score": 0.3
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.6174,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 5.167,
       "available": true
     },
     {
@@ -631,7 +735,7 @@
       "url": "https://www.soompi.com/article/1884912wpp/illits-tick-tack-becomes-their-5th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T01:13:03Z",
-      "collected_at": "2026-11-09T06:43:19Z",
+      "collected_at": "2026-11-09T22:25:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -661,7 +765,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7093,
+        "recency": 0.6143,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -669,7 +773,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9601,
+      "hot_score": 4.2954,
       "available": true
     },
     {
@@ -683,7 +787,7 @@
       "url": "https://www.soompi.com/article/1884909wpp/watch-le-sserafim-illit-and-katseyes-iconic-by-mistake-mv-surpasses-200-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T00:37:21Z",
-      "collected_at": "2026-11-09T06:43:19Z",
+      "collected_at": "2026-11-09T22:25:42Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -721,7 +825,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7052,
+        "recency": 0.6112,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -729,80 +833,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.711,
+      "hot_score": 4.9495,
       "available": true
     },
     {
-      "id": "news:soompi:524b5a0dfd749ca2",
+      "id": "news:nme-kpop:bd09590c4463c3fa",
       "platform": "news",
-      "platform_item_id": "524b5a0dfd749ca2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: ILLIT Takes 1st Win For “You’re Under Arrest” On “Music Bank”; Performances By RESCENE, TWS, And More",
-      "description": "ILLIT has won their first music show trophy for “You’re Under Arrest”! On the November 6 episode of “Music Bank,” the candidates for first place were IVE’s “Looks Can Kill” and ILLIT’s “You’re Under Arrest.” ILLIT ultimately took the prize with a total of 9,803 points. Congratulations to ILLIT! Watch the winner announcement below: Performers… Continue reading Watch: ILLIT Takes 1st Win For “You’re Under Arrest” On “Music Bank”; Performances By RESCENE, TWS, And More The post Watch: ILLIT Takes 1st Win For “You’re Under Arrest” On “Music Bank”; Performances By RESCENE, TWS, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1884749wpp/watch-nmixx-takes-1st-win-for-birthday-wish-on-music-bank-performances-by-ateez-illit-and-more-2",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-06T11:33:42Z",
-      "collected_at": "2026-11-09T06:43:19Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5174,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.6179,
-      "available": true
-    },
-    {
-      "id": "news:nme-kpop:fca3c1d2ab448fff",
-      "platform": "news",
-      "platform_item_id": "fca3c1d2ab448fff",
+      "platform_item_id": "bd09590c4463c3fa",
       "source_type": "media",
       "content_kind": "news",
       "title": "K-pop girl group ILLIT are wearing their hearts on their sleeves",
       "description": "Back with their fifth EP ‘Break Even’, the five-piece are delivering a plot twist in their romance-led story. They tell NME about their latest chapter The post K-pop girl group ILLIT are wearing their hearts on their sleeves appeared first on NME .",
-      "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304?utm_source=rss&utm_medium=rss&utm_campaign=illit-break-even-interview-radar",
+      "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-09T06:43:19Z",
+      "collected_at": "2026-11-09T22:25:42Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -832,7 +877,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.2013,
+        "recency": 0.1928,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -840,21 +885,21 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.4074,
+      "hot_score": 1.3482,
       "available": true
     },
     {
-      "id": "news:nme-kpop:262d33ee34502817",
+      "id": "news:nme-kpop:a117e7ecf8ad101b",
       "platform": "news",
-      "platform_item_id": "262d33ee34502817",
+      "platform_item_id": "a117e7ecf8ad101b",
       "source_type": "media",
       "content_kind": "news",
       "title": "BLACKPINK’s Lisa has designed her own PlayStation controller and gaming merch line",
       "description": "“Gaming is something I do whenever I have time to relax” The post BLACKPINK’s Lisa has designed her own PlayStation controller and gaming merch line appeared first on NME .",
-      "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148?utm_source=rss&utm_medium=rss&utm_campaign=blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order",
+      "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-09T06:43:19Z",
+      "collected_at": "2026-11-09T22:25:42Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -893,7 +938,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.059,
+        "recency": 0.0583,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -901,7 +946,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4939,
+      "hot_score": 0.4877,
       "available": true
     }
   ]
