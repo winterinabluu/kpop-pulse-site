@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-09T22:25:42Z",
+  "generated_at": "2026-11-10T07:25:07Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 16,
+    "item_count": 13,
     "previous_data_used": false
   },
   "items": [
@@ -21,7 +21,7 @@
       "url": "https://www.koreaboo.com/news/blackpink-jennie-stupid-behavior-overseas-triggers-brutal-criticism/",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-09T13:10:10Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +60,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8861,
+        "recency": 0.7978,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,59 +68,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.4156,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:740bb75a34379d3f",
-      "platform": "news",
-      "platform_item_id": "740bb75a34379d3f",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ATEEZ San’s Comments About BLACKPINK Hit With Backlash Linked To BTS",
-      "description": "\"Hypocrite...\"",
-      "url": "https://www.koreaboo.com/news/ateez-sans-comments-blackpink-hit-backlash-linked-bts/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-09T11:35:15Z",
-      "collected_at": "2026-11-09T22:25:42Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8691,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.0775,
+      "hot_score": 6.6769,
       "available": true
     },
     {
@@ -134,7 +82,7 @@
       "url": "https://www.soompi.com/article/1885347wpp/watch-illit-takes-2nd-win-for-youre-under-arrest-on-new-music-show-show-k-pop",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-09T11:02:26Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8634,
+        "recency": 0.7794,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,129 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0377,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:9a858f24b3a79ecd",
-      "platform": "news",
-      "platform_item_id": "9a858f24b3a79ecd",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Viral Post About LE SSERAFIM Sakura’s “Visible Underwear” Sparks Major Fury",
-      "description": "\"Weird and creepy...\"",
-      "url": "https://www.koreaboo.com/news/viral-tweet-disgust-le-sserafim-visible-underwear/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-09T10:20:06Z",
-      "collected_at": "2026-11-09T22:25:42Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "lesserafim"
-      ],
-      "matched_members": [
-        "sakura"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "sakura",
-          "alias": "Sakura",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8562,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.1657,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:9bca8df4942bc1c4",
-      "platform": "news",
-      "platform_item_id": "9bca8df4942bc1c4",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Writer On TWICE Nayeon’s New Album Speculated To Be Fellow Member’s “Ex Situationship”",
-      "description": "\"Not knowing the lore...\"",
-      "url": "https://www.koreaboo.com/news/twice-nayeons-new-album-features-artist-rumored-fellow-members-ex-situationship/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-09T09:50:03Z",
-      "collected_at": "2026-11-09T22:25:42Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [
-        "nayeon"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "nayeon",
-          "alias": "Nayeon",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8511,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.1232,
+      "hot_score": 5.4501,
       "available": true
     },
     {
@@ -308,7 +134,7 @@
       "url": "https://www.soompi.com/article/1885130wpp/cortis-stray-kids-nmixx-seventeens-jxj-k-da-illit-enhypen-bts-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T22:49:00Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -338,7 +164,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.753,
+        "recency": 0.6883,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -346,7 +172,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2658,
+      "hot_score": 4.8132,
       "available": true
     },
     {
@@ -360,7 +186,7 @@
       "url": "https://www.soompi.com/article/1885116wpp/illit-debuts-at-no-1-on-billboard-top-album-sales-chart-no-6-on-billboard-200-with-break-even",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T20:23:00Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -390,7 +216,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7344,
+        "recency": 0.6727,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -398,7 +224,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.1351,
+      "hot_score": 4.7038,
       "available": true
     },
     {
@@ -412,7 +238,7 @@
       "url": "https://www.soompi.com/article/1885108wpp/illit-breaks-their-1st-week-sales-record-with-break-even",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T19:04:00Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -442,7 +268,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7246,
+        "recency": 0.6645,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -450,7 +276,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.067,
+      "hot_score": 4.6466,
       "available": true
     },
     {
@@ -464,7 +290,7 @@
       "url": "https://www.soompi.com/article/1885099wpp/blackpinks-lisa-debuts-in-top-35-of-billboard-200-with-press-play",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T18:06:00Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -503,7 +329,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7176,
+        "recency": 0.6586,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -511,7 +337,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0061,
+      "hot_score": 5.5122,
       "available": true
     },
     {
@@ -525,7 +351,7 @@
       "url": "https://www.soompi.com/article/1885054wpp/watch-a2o-lite-takes-11th-win-and-triple-crown-for-neon-on-inkigayo-performances-by-blackpinks-jisoo-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T15:09:07Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -578,7 +404,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6972,
+        "recency": 0.6413,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -586,7 +412,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8347,
+      "hot_score": 5.3675,
       "available": true
     },
     {
@@ -600,7 +426,7 @@
       "url": "https://www.soompi.com/article/1885061wpp/plave-stray-kids-cortis-twice-enhypen-illit-bts-boynextdoor-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T04:01:00Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -638,7 +464,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6293,
+        "recency": 0.5835,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -646,7 +472,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0964,
+      "hot_score": 4.7251,
       "available": true
     },
     {
@@ -660,7 +486,7 @@
       "url": "https://www.soompi.com/article/1884917wpp/watch-a2o-lite-takes-10th-win-for-neon-on-music-core-performances-by-blackpinks-jisoo-rescene-treasure-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T01:48:26Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -713,7 +539,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6174,
+        "recency": 0.5732,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -721,7 +547,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.167,
+      "hot_score": 4.7972,
       "available": true
     },
     {
@@ -735,7 +561,7 @@
       "url": "https://www.soompi.com/article/1884912wpp/illits-tick-tack-becomes-their-5th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T01:13:03Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -765,7 +591,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6143,
+        "recency": 0.5705,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -773,7 +599,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.2954,
+      "hot_score": 3.9894,
       "available": true
     },
     {
@@ -787,7 +613,7 @@
       "url": "https://www.soompi.com/article/1884909wpp/watch-le-sserafim-illit-and-katseyes-iconic-by-mistake-mv-surpasses-200-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T00:37:21Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -825,7 +651,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6112,
+        "recency": 0.5678,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -833,7 +659,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.9495,
+      "hot_score": 4.5986,
       "available": true
     },
     {
@@ -847,7 +673,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -877,7 +703,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1928,
+        "recency": 0.1883,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -885,7 +711,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.3482,
+      "hot_score": 1.3165,
       "available": true
     },
     {
@@ -899,7 +725,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-09T22:25:42Z",
+      "collected_at": "2026-11-10T07:25:07Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -938,7 +764,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0583,
+        "recency": 0.0578,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -946,7 +772,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4877,
+      "hot_score": 0.4841,
       "available": true
     }
   ]
