@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-10T07:25:07Z",
+  "generated_at": "2026-11-10T19:47:32Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,17 +11,69 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:48214d0e9676a296",
+      "id": "news:soompi:a4c7f6b47d35a862",
       "platform": "news",
-      "platform_item_id": "48214d0e9676a296",
+      "platform_item_id": "a4c7f6b47d35a862",
       "source_type": "media",
       "content_kind": "news",
-      "title": "Viral Clip Of BLACKPINK Jennie’s “Stupid” Behavior Overseas Triggers Intense Criticism",
-      "description": "\"Childish and cringeworthy...\"",
-      "url": "https://www.koreaboo.com/news/blackpink-jennie-stupid-behavior-overseas-triggers-brutal-criticism/",
+      "title": "IVE Scores 1st-Ever Entry On Billboard 200 With “Looks Can Kill”",
+      "description": "IVE has made their debut on the Billboard 200! On November 10 local time, Billboard officially announced that IVE had entered its Top 200 Albums chart (which ranks the most popular albums in the United States) for the very first time. For the week ending on November 14, IVE’s new mini album “Looks Can Kill”… Continue reading IVE Scores 1st-Ever Entry On Billboard 200 With “Looks Can Kill” The post IVE Scores 1st-Ever Entry On Billboard 200 With “Looks Can Kill” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885647wpp/ive-scores-1st-ever-entry-on-billboard-200-with-looks-can-kill",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-09T13:10:10Z",
-      "collected_at": "2026-11-10T07:25:07Z",
+      "published_at": "2026-11-10T19:25:12Z",
+      "collected_at": "2026-11-10T19:47:32Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.8968,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:0a59b3adadbb330a",
+      "platform": "news",
+      "platform_item_id": "0a59b3adadbb330a",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "News On Recent Update Of BTS V And BLACKPINK Jennie’s Dating Rumors Spark Major Attention",
+      "description": "\"L.A restaurant date...\"",
+      "url": "https://www.koreaboo.com/news/update-bts-v-blackpink-jennie-saga-become-trending-news/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-10T18:36:42Z",
+      "collected_at": "2026-11-10T19:47:32Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -60,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7978,
+        "recency": 0.9839,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,7 +120,172 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.6769,
+      "hot_score": 8.2342,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:433784bff2f96f93",
+      "platform": "news",
+      "platform_item_id": "433784bff2f96f93",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "K-Drama Star Reveals aespa’s Karina Asked For Their Number First",
+      "description": "They became close quickly.",
+      "url": "https://www.koreaboo.com/news/k-drama-star-reveals-aespas-karina-asked-number-first/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-10T16:08:06Z",
+      "collected_at": "2026-11-10T19:47:32Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "karina"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "karina",
+          "alias": "Karina",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9517,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.9646,
+      "available": true
+    },
+    {
+      "id": "news:nme-kpop:cf501e7c9a336210",
+      "platform": "news",
+      "platform_item_id": "cf501e7c9a336210",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "NewJeans’ record label contract reportedly lacked protections for minors",
+      "description": "HYBE has argued that its contracts were legal and designed to protect the safety and wellbeing of its artists The post NewJeans’ record label contract reportedly lacked protections for minors appeared first on NME .",
+      "url": "https://www.nme.com/news/music/newjeans-record-label-contract-reportedly-lacked-protections-for-minors-3975571",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-10T15:20:04Z",
+      "collected_at": "2026-11-10T19:47:32Z",
+      "author": {
+        "name": "NME K-pop",
+        "handle": "nme-kpop",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "newjeans"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "newjeans",
+          "alias": "NewJeans",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9417,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.5849,
+      "available": true
+    },
+    {
+      "id": "news:soompi:a6390686845f34b4",
+      "platform": "news",
+      "platform_item_id": "a6390686845f34b4",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "STARSHIP Announces Strong Legal Action Against Malicious Posts Targeting IVE’s Jang Won Young",
+      "description": "STARSHIP Entertainment has announced strong legal action against malicious posts and other acts targeting IVE’s Jang Won Young. On November 10, the agency announced that it is pursuing civil and criminal measures against those responsible for spreading false information, defamation, sexual harassment, and other violations of her rights. Read STARSHIP Entertainment’s full statement below: Hello,… Continue reading STARSHIP Announces Strong Legal Action Against Malicious Posts Targeting IVE’s Jang Won Young The post STARSHIP Announces Strong Legal Action Against Malicious Posts Targeting IVE’s Jang Won Young appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885526wpp/starship-announces-strong-legal-action-against-malicious-posts-targeting-ives-jang-won-young",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-10T08:08:22Z",
+      "collected_at": "2026-11-10T19:47:32Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "ive"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8607,
+        "views": 0,
+        "engagement": 3.9,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 6.0185,
       "available": true
     },
     {
@@ -82,7 +299,7 @@
       "url": "https://www.soompi.com/article/1885347wpp/watch-illit-takes-2nd-win-for-youre-under-arrest-on-new-music-show-show-k-pop",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-09T11:02:26Z",
-      "collected_at": "2026-11-10T07:25:07Z",
+      "collected_at": "2026-11-10T19:47:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -112,7 +329,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7794,
+        "recency": 0.6873,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -120,7 +337,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.4501,
+      "hot_score": 4.8063,
       "available": true
     },
     {
@@ -134,7 +351,7 @@
       "url": "https://www.soompi.com/article/1885130wpp/cortis-stray-kids-nmixx-seventeens-jxj-k-da-illit-enhypen-bts-and-more-sweep-top-spots-on-billboard-world-albums-chart",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T22:49:00Z",
-      "collected_at": "2026-11-10T07:25:07Z",
+      "collected_at": "2026-11-10T19:47:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -164,7 +381,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6883,
+        "recency": 0.6155,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -172,7 +389,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.8132,
+      "hot_score": 4.304,
       "available": true
     },
     {
@@ -186,7 +403,7 @@
       "url": "https://www.soompi.com/article/1885116wpp/illit-debuts-at-no-1-on-billboard-top-album-sales-chart-no-6-on-billboard-200-with-break-even",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T20:23:00Z",
-      "collected_at": "2026-11-10T07:25:07Z",
+      "collected_at": "2026-11-10T19:47:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -216,7 +433,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6727,
+        "recency": 0.603,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -224,7 +441,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7038,
+      "hot_score": 4.2163,
       "available": true
     },
     {
@@ -238,7 +455,7 @@
       "url": "https://www.soompi.com/article/1885108wpp/illit-breaks-their-1st-week-sales-record-with-break-even",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T19:04:00Z",
-      "collected_at": "2026-11-10T07:25:07Z",
+      "collected_at": "2026-11-10T19:47:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -268,7 +485,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6645,
+        "recency": 0.5964,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -276,7 +493,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6466,
+      "hot_score": 4.1704,
       "available": true
     },
     {
@@ -290,7 +507,7 @@
       "url": "https://www.soompi.com/article/1885099wpp/blackpinks-lisa-debuts-in-top-35-of-billboard-200-with-press-play",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T18:06:00Z",
-      "collected_at": "2026-11-10T07:25:07Z",
+      "collected_at": "2026-11-10T19:47:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -329,7 +546,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6586,
+        "recency": 0.5917,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -337,7 +554,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5122,
+      "hot_score": 4.9517,
       "available": true
     },
     {
@@ -351,7 +568,7 @@
       "url": "https://www.soompi.com/article/1885054wpp/watch-a2o-lite-takes-11th-win-and-triple-crown-for-neon-on-inkigayo-performances-by-blackpinks-jisoo-and-more",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-08T15:09:07Z",
-      "collected_at": "2026-11-10T07:25:07Z",
+      "collected_at": "2026-11-10T19:47:32Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -404,7 +621,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6413,
+        "recency": 0.5777,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -412,254 +629,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.3675,
-      "available": true
-    },
-    {
-      "id": "news:soompi:65280da57757a83c",
-      "platform": "news",
-      "platform_item_id": "65280da57757a83c",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on October 31! PLAVE’s new mini album “HYPERDRIVE” debuted at No. 1 on the World Albums chart, in addition to becoming their first album ever to enter the top 40 of the Billboard 200. Stray Kids landed a total of three albums on the… Continue reading PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart The post PLAVE, Stray Kids, CORTIS, TWICE, ENHYPEN, ILLIT, BTS, BOYNEXTDOOR, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885061wpp/plave-stray-kids-cortis-twice-enhypen-illit-bts-boynextdoor-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T04:01:00Z",
-      "collected_at": "2026-11-10T07:25:07Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit",
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5835,
-        "views": 0,
-        "engagement": 5.3,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.7251,
-      "available": true
-    },
-    {
-      "id": "news:soompi:426d93ec34147150",
-      "platform": "news",
-      "platform_item_id": "426d93ec34147150",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More",
-      "description": "A2O LITE has won a 10th music show trophy for their debut single “NEON”! On the November 7 episode of MBC’s “Music Core,” the candidates for first place were IVE’s “Looks Can Kill,” ILLIT’s “You’re Under Arrest,” and A2O LITE’s “NEON.” A2O LITE ultimately took the win with a total of 6,593 points. Congratulations to… Continue reading Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More The post Watch: A2O LITE Takes 10th Win For “NEON” On “Music Core”; Performances By BLACKPINK’s Jisoo, RESCENE, TREASURE, And More appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1884917wpp/watch-a2o-lite-takes-10th-win-for-neon-on-music-core-performances-by-blackpinks-jisoo-rescene-treasure-and-more",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T01:48:26Z",
-      "collected_at": "2026-11-10T07:25:07Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jisoo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "description",
-          "score": 0.3
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "description",
-          "score": 0.3
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5732,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.7972,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a7d1dfb059556b73",
-      "platform": "news",
-      "platform_item_id": "a7d1dfb059556b73",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT’s “Tick-Tack” Becomes Their 5th MV To Hit 100 Million Views",
-      "description": "Just a couple hours after their collab single “ICONIC BY MISTAKE” soared past 200 million views on YouTube, ILLIT has also hit the 100 million mark with another music video! On November 8 at approximately 2:15 a.m. KST, ILLIT’s music video for their popular 2024 B-side “Tick-Tack” surpassed 100 million views on YouTube, making it… Continue reading ILLIT’s “Tick-Tack” Becomes Their 5th MV To Hit 100 Million Views The post ILLIT’s “Tick-Tack” Becomes Their 5th MV To Hit 100 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1884912wpp/illits-tick-tack-becomes-their-5th-mv-to-hit-100-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T01:13:03Z",
-      "collected_at": "2026-11-10T07:25:07Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5705,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.9894,
-      "available": true
-    },
-    {
-      "id": "news:soompi:b7035ac074573e0d",
-      "platform": "news",
-      "platform_item_id": "b7035ac074573e0d",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "LE SSERAFIM, ILLIT, And KATSEYE’s “ICONIC BY MISTAKE” MV Surpasses 200 Million Views",
-      "description": "LE SSERAFIM, ILLIT, and KATSEYE’s collab single “ICONIC BY MISTAKE” has hit the 200 million mark on YouTube! On November 8 at around midnight KST, the music video for the three girl groups’ special digital single surpassed 200 million views on YouTube. The music video for “ICONIC BY MISTAKE” was first released on June 11… Continue reading LE SSERAFIM, ILLIT, And KATSEYE’s “ICONIC BY MISTAKE” MV Surpasses 200 Million Views The post LE SSERAFIM, ILLIT, And KATSEYE’s “ICONIC BY MISTAKE” MV Surpasses 200 Million Views appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1884909wpp/watch-le-sserafim-illit-and-katseyes-iconic-by-mistake-mv-surpasses-200-million-views",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T00:37:21Z",
-      "collected_at": "2026-11-10T07:25:07Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit",
-        "lesserafim"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "lesserafim",
-          "alias": "LE SSERAFIM",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5678,
-        "views": 0,
-        "engagement": 5.3,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.5986,
+      "hot_score": 4.8346,
       "available": true
     },
     {
@@ -673,7 +643,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-10T07:25:07Z",
+      "collected_at": "2026-11-10T19:47:32Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -703,7 +673,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1883,
+        "recency": 0.1824,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -711,7 +681,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.3165,
+      "hot_score": 1.2753,
       "available": true
     },
     {
@@ -725,7 +695,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-10T07:25:07Z",
+      "collected_at": "2026-11-10T19:47:32Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -764,7 +734,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0578,
+        "recency": 0.0573,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -772,7 +742,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4841,
+      "hot_score": 0.4794,
       "available": true
     }
   ]
