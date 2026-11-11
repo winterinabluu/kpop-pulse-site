@@ -1,15 +1,198 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-11T06:33:50Z",
+  "generated_at": "2026-11-11T19:39:34Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 11,
+    "item_count": 9,
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:b79ba94b6cf9ed24",
+      "platform": "news",
+      "platform_item_id": "b79ba94b6cf9ed24",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Watch: TWICE’s Jeongyeon, MONSTA X’s Joohoney, And More Enjoy A Friendship-Filled Getaway In New Show “Just Human Friends”",
+      "description": "The new variety show “Just Human Friends” has unveiled a new poster and teaser! “Just Human Friends” follows three pairs of celebrity friends—Lee Seo Jin and Han Ji Min, Kim Yong Gun and Park Jung Soo, and MONSTA X’s Joohoney and TWICE’s Jeongyeon—as they travel together to celebrate their long-standing friendships. At their destination, they… Continue reading Watch: TWICE’s Jeongyeon, MONSTA X’s Joohoney, And More Enjoy A Friendship-Filled Getaway In New Show “Just Human Friends” The post Watch: TWICE’s Jeongyeon, MONSTA X’s Joohoney, And More Enjoy A Friendship-Filled Getaway In New Show “Just Human Friends” appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1886061wpp/watch-twices-jeongyeon-monsta-xs-joohoney-and-more-enjoy-a-friendship-filled-getaway-in-new-show-just-human-friends",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-11T12:12:40Z",
+      "collected_at": "2026-11-11T19:39:34Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "twice"
+      ],
+      "matched_members": [
+        "jeongyeon"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "twice",
+          "alias": "TWICE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jeongyeon",
+          "alias": "Jeongyeon",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9062,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.5846,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:fd0deac2f31d7fa8",
+      "platform": "news",
+      "platform_item_id": "fd0deac2f31d7fa8",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Viral Post About aespa Winter’s Alleged Nose Job Sparks Major Reactions",
+      "description": "\"All those nose procedures...\"",
+      "url": "https://www.koreaboo.com/news/viral-post-aespa-winters-alleged-nose-job-sparks-major-reactions/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-11T12:00:33Z",
+      "collected_at": "2026-11-11T19:39:34Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "winter"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "winter",
+          "alias": "Winter",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9039,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.5654,
+      "available": true
+    },
+    {
+      "id": "news:soompi:12364ea55b705554",
+      "platform": "news",
+      "platform_item_id": "12364ea55b705554",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "BLACKPINK’s Jisoo, NCT, And BABYMONSTER Announced For Coachella 2027 Lineup",
+      "description": "The lineup for next year’s Coachella is out! On November 11, the famous U.S. music festival officially revealed its star-studded lineup for 2027, announcing Dua Lipa, Tame Impala, and SZA as headliners alongside Daddy Yankee. The lineup for 2027 includes BLACKPINK’s Jisoo in the Friday lineup for April 9 and 16, while NCT will take… Continue reading BLACKPINK’s Jisoo, NCT, And BABYMONSTER Announced For Coachella 2027 Lineup The post BLACKPINK’s Jisoo, NCT, And BABYMONSTER Announced For Coachella 2027 Lineup appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1885928wpp/blackpinks-jisoo-nct-and-babymonster-announced-for-coachella-2027-lineup",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-11T06:59:35Z",
+      "collected_at": "2026-11-11T19:39:34Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "blackpink"
+      ],
+      "matched_members": [
+        "jisoo"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "blackpink",
+          "alias": "BLACKPINK",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "jisoo",
+          "alias": "Jisoo",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8504,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.1172,
+      "available": true
+    },
     {
       "id": "news:soompi:a4c7f6b47d35a862",
       "platform": "news",
@@ -21,7 +204,7 @@
       "url": "https://www.soompi.com/article/1885647wpp/ive-scores-1st-ever-entry-on-billboard-200-with-looks-can-kill",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T19:25:12Z",
-      "collected_at": "2026-11-11T06:33:50Z",
+      "collected_at": "2026-11-11T19:39:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +234,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.866,
+        "recency": 0.7481,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,129 +242,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.0554,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:0a59b3adadbb330a",
-      "platform": "news",
-      "platform_item_id": "0a59b3adadbb330a",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "News On Recent Update Of BTS V And BLACKPINK Jennie’s Dating Rumors Spark Major Attention",
-      "description": "\"L.A restaurant date...\"",
-      "url": "https://www.koreaboo.com/news/update-bts-v-blackpink-jennie-saga-become-trending-news/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-10T18:36:42Z",
-      "collected_at": "2026-11-11T06:33:50Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jennie"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jennie",
-          "alias": "Jennie",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8576,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.1777,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:433784bff2f96f93",
-      "platform": "news",
-      "platform_item_id": "433784bff2f96f93",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "K-Drama Star Reveals aespa’s Karina Asked For Their Number First",
-      "description": "They became close quickly.",
-      "url": "https://www.koreaboo.com/news/k-drama-star-reveals-aespas-karina-asked-number-first/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-10T16:08:06Z",
-      "collected_at": "2026-11-11T06:33:50Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "karina"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "karina",
-          "alias": "Karina",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.8331,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.972,
+      "hot_score": 5.2314,
       "available": true
     },
     {
@@ -195,7 +256,7 @@
       "url": "https://www.nme.com/news/music/newjeans-record-label-contract-reportedly-lacked-protections-for-minors-3975571",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T15:20:04Z",
-      "collected_at": "2026-11-11T06:33:50Z",
+      "collected_at": "2026-11-11T19:39:34Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -225,7 +286,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8254,
+        "recency": 0.7177,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -233,7 +294,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.7718,
+      "hot_score": 5.0184,
       "available": true
     },
     {
@@ -247,7 +308,7 @@
       "url": "https://www.soompi.com/article/1885526wpp/starship-announces-strong-legal-action-against-malicious-posts-targeting-ives-jang-won-young",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T08:08:22Z",
-      "collected_at": "2026-11-11T06:33:50Z",
+      "collected_at": "2026-11-11T19:39:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -277,7 +338,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7625,
+        "recency": 0.6696,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -285,7 +346,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.332,
+      "hot_score": 4.6826,
       "available": true
     },
     {
@@ -299,7 +360,7 @@
       "url": "https://www.soompi.com/article/1885347wpp/watch-illit-takes-2nd-win-for-youre-under-arrest-on-new-music-show-show-k-pop",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-09T11:02:26Z",
-      "collected_at": "2026-11-11T06:33:50Z",
+      "collected_at": "2026-11-11T19:39:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -329,7 +390,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6232,
+        "recency": 0.5598,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -337,163 +398,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3582,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a877b8ef0d38bd77",
-      "platform": "news",
-      "platform_item_id": "a877b8ef0d38bd77",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart",
-      "description": "Billboard has published its World Albums chart for the week ending on November 7! CORTIS’s latest EP “GREENGREEN” returned to the top of the World Albums chart for a sixth week at No. 1, in addition to re-entering the Billboard 200 six months after its release. Meanwhile, CORTIS’s debut EP “COLOR OUTSIDE THE LINES” rounded… Continue reading CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart The post CORTIS, Stray Kids, NMIXX, SEVENTEEN’s JxJ, K/DA, ILLIT, ENHYPEN, BTS, And More Sweep Top Spots On Billboard World Albums Chart appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885130wpp/cortis-stray-kids-nmixx-seventeens-jxj-k-da-illit-enhypen-bts-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T22:49:00Z",
-      "collected_at": "2026-11-11T06:33:50Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5636,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.9411,
-      "available": true
-    },
-    {
-      "id": "news:soompi:93041f135abeaef6",
-      "platform": "news",
-      "platform_item_id": "93041f135abeaef6",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN”",
-      "description": "ILLIT is soaring to new heights on the Billboard charts with their latest release! On November 8 local time, Billboard announced that ILLIT’s new mini album “BREAK EVEN” had debuted at No. 1 on its Top Album Sales chart, meaning it was the best-selling album of the week in the United States. Notably, “BREAK EVEN”… Continue reading ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN” The post ILLIT Debuts At No. 1 On Billboard Top Album Sales Chart + No. 6 On Billboard 200 With “BREAK EVEN” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885116wpp/illit-debuts-at-no-1-on-billboard-top-album-sales-chart-no-6-on-billboard-200-with-break-even",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T20:23:00Z",
-      "collected_at": "2026-11-11T06:33:50Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5531,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.8675,
-      "available": true
-    },
-    {
-      "id": "news:soompi:67c40a0dc2b936ff",
-      "platform": "news",
-      "platform_item_id": "67c40a0dc2b936ff",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "ILLIT Breaks Their 1st-Week Sales Record With “BREAK EVEN”",
-      "description": "ILLIT did more than just “BREAK EVEN” with their latest comeback! The girl group recently made their highly-anticipated return with their fifth mini album “BREAK EVEN” and its catchy title track “You’re Under Arrest.” Hanteo Chart has now reported that ILLIT achieved their highest first-week sales yet with the new mini album. In the first… Continue reading ILLIT Breaks Their 1st-Week Sales Record With “BREAK EVEN” The post ILLIT Breaks Their 1st-Week Sales Record With “BREAK EVEN” appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885108wpp/illit-breaks-their-1st-week-sales-record-with-break-even",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-08T19:04:00Z",
-      "collected_at": "2026-11-11T06:33:50Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "illit"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "illit",
-          "alias": "ILLIT",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5475,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.8287,
+      "hot_score": 3.9144,
       "available": true
     },
     {
@@ -507,7 +412,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-11T06:33:50Z",
+      "collected_at": "2026-11-11T19:39:34Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -537,7 +442,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1775,
+        "recency": 0.172,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -545,7 +450,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.2414,
+      "hot_score": 1.2026,
       "available": true
     },
     {
@@ -559,7 +464,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-11T06:33:50Z",
+      "collected_at": "2026-11-11T19:39:34Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -598,7 +503,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0568,
+        "recency": 0.0562,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -606,7 +511,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4753,
+      "hot_score": 0.4704,
       "available": true
     }
   ]
