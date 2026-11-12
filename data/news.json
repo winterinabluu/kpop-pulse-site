@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-11T19:39:34Z",
+  "generated_at": "2026-11-12T07:17:34Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,66 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:soompi:b11330a62c7b1939",
+      "platform": "news",
+      "platform_item_id": "b11330a62c7b1939",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "IVE, RIIZE, And ILLIT Top Circle Weekly Charts + A2O LITE Earns Triple Crown",
+      "description": "Circle Chart has revealed its chart rankings for the week of October 18 to 24! Album Chart IVE topped this week’s physical album chart with their new EP “Looks Can Kill,” which debuted at No. 1. Meanwhile, ILLIT’s new mini album “BREAK EVEN” entered the chart at No. 2. AND2BLE’s new mini album “Sequence 02:… Continue reading IVE, RIIZE, And ILLIT Top Circle Weekly Charts + A2O LITE Earns Triple Crown The post IVE, RIIZE, And ILLIT Top Circle Weekly Charts + A2O LITE Earns Triple Crown appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1886133wpp/ive-riize-and-illit-top-circle-weekly-charts-a2o-earns-triple-crown",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-11T23:13:13Z",
+      "collected_at": "2026-11-12T07:17:34Z",
+      "author": {
+        "name": "Soompi",
+        "handle": "soompi",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "illit",
+        "ive"
+      ],
+      "matched_members": [],
+      "match_confidence": "medium",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "ive",
+          "alias": "IVE",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "group",
+          "target_id": "illit",
+          "alias": "ILLIT",
+          "field": "title",
+          "score": 1.0
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.8992,
+        "views": 0,
+        "engagement": 5.3,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.282,
+      "available": true
+    },
     {
       "id": "news:soompi:b79ba94b6cf9ed24",
       "platform": "news",
@@ -21,7 +81,7 @@
       "url": "https://www.soompi.com/article/1886061wpp/watch-twices-jeongyeon-monsta-xs-joohoney-and-more-enjoy-a-friendship-filled-getaway-in-new-show-just-human-friends",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T12:12:40Z",
-      "collected_at": "2026-11-11T19:39:34Z",
+      "collected_at": "2026-11-12T07:17:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -60,7 +120,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.9062,
+        "recency": 0.7905,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -68,68 +128,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.5846,
-      "available": true
-    },
-    {
-      "id": "news:koreaboo:fd0deac2f31d7fa8",
-      "platform": "news",
-      "platform_item_id": "fd0deac2f31d7fa8",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Viral Post About aespa Winter’s Alleged Nose Job Sparks Major Reactions",
-      "description": "\"All those nose procedures...\"",
-      "url": "https://www.koreaboo.com/news/viral-post-aespa-winters-alleged-nose-job-sparks-major-reactions/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-11T12:00:33Z",
-      "collected_at": "2026-11-11T19:39:34Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "aespa"
-      ],
-      "matched_members": [
-        "winter"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "aespa",
-          "alias": "aespa",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "winter",
-          "alias": "Winter",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9039,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 7.5654,
+      "hot_score": 6.6159,
       "available": true
     },
     {
@@ -143,7 +142,7 @@
       "url": "https://www.soompi.com/article/1885928wpp/blackpinks-jisoo-nct-and-babymonster-announced-for-coachella-2027-lineup",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T06:59:35Z",
-      "collected_at": "2026-11-11T19:39:34Z",
+      "collected_at": "2026-11-12T07:17:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -182,7 +181,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8504,
+        "recency": 0.7477,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -190,7 +189,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.1172,
+      "hot_score": 6.2574,
       "available": true
     },
     {
@@ -204,7 +203,7 @@
       "url": "https://www.soompi.com/article/1885647wpp/ive-scores-1st-ever-entry-on-billboard-200-with-looks-can-kill",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T19:25:12Z",
-      "collected_at": "2026-11-11T19:39:34Z",
+      "collected_at": "2026-11-12T07:17:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -234,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7481,
+        "recency": 0.6675,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -242,7 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2314,
+      "hot_score": 4.6672,
       "available": true
     },
     {
@@ -256,7 +255,7 @@
       "url": "https://www.nme.com/news/music/newjeans-record-label-contract-reportedly-lacked-protections-for-minors-3975571",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T15:20:04Z",
-      "collected_at": "2026-11-11T19:39:34Z",
+      "collected_at": "2026-11-12T07:17:34Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -286,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7177,
+        "recency": 0.6431,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -294,7 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0184,
+      "hot_score": 4.4969,
       "available": true
     },
     {
@@ -308,7 +307,7 @@
       "url": "https://www.soompi.com/article/1885526wpp/starship-announces-strong-legal-action-against-malicious-posts-targeting-ives-jang-won-young",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T08:08:22Z",
-      "collected_at": "2026-11-11T19:39:34Z",
+      "collected_at": "2026-11-12T07:17:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -338,7 +337,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6696,
+        "recency": 0.6043,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -346,7 +345,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.6826,
+      "hot_score": 4.2254,
       "available": true
     },
     {
@@ -360,7 +359,7 @@
       "url": "https://www.soompi.com/article/1885347wpp/watch-illit-takes-2nd-win-for-youre-under-arrest-on-new-music-show-show-k-pop",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-09T11:02:26Z",
-      "collected_at": "2026-11-11T19:39:34Z",
+      "collected_at": "2026-11-12T07:17:34Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -390,7 +389,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5598,
+        "recency": 0.5134,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -398,7 +397,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.9144,
+      "hot_score": 3.5897,
       "available": true
     },
     {
@@ -412,7 +411,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-11T19:39:34Z",
+      "collected_at": "2026-11-12T07:17:34Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -442,7 +441,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.172,
+        "recency": 0.1673,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -450,7 +449,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.2026,
+      "hot_score": 1.1701,
       "available": true
     },
     {
@@ -464,7 +463,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-11T19:39:34Z",
+      "collected_at": "2026-11-12T07:17:34Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -503,7 +502,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0562,
+        "recency": 0.0557,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -511,7 +510,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4704,
+      "hot_score": 0.4662,
       "available": true
     }
   ]
