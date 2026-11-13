@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-12T19:59:08Z",
+  "generated_at": "2026-11-13T06:51:37Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -11,20 +11,20 @@
   },
   "items": [
     {
-      "id": "news:koreaboo:78e44310e62e943c",
+      "id": "news:soompi:9f136284dc4f78ae",
       "platform": "news",
-      "platform_item_id": "78e44310e62e943c",
+      "platform_item_id": "9f136284dc4f78ae",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa Giselle And NingNing’s Sexy Bikini Photos Met With Intense Backlash",
-      "description": "It was a contrast to international fans.",
-      "url": "https://www.koreaboo.com/news/aespa-giselle-ningning-bikini-photos-backlash/",
+      "title": "aespa’s “LEMONADE” Becomes Their 12th MV To Hit 100 Million Views",
+      "description": "aespa has added another 100-million-view MV to their growing collection! On November 13 at approximately 12:21 p.m. KST, aespa’s music video for “LEMONADE” surpassed 100 million views on YouTube—making it their twelfth music video to do so after “Whiplash,” “Black Mamba,” “Next Level,” “Savage,” “Girls,” “Dreams Come True,” “Spicy,” “Drama,” “Supernova,” “Armageddon,” and “Dirty Work.”… Continue reading aespa’s “LEMONADE” Becomes Their 12th MV To Hit 100 Million Views The post aespa’s “LEMONADE” Becomes Their 12th MV To Hit 100 Million Views appeared first on Soompi .",
+      "url": "https://www.soompi.com/article/1886736wpp/aespas-lemonade-becomes-their-12th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-12T13:10:22Z",
-      "collected_at": "2026-11-12T19:59:08Z",
+      "published_at": "2026-11-13T06:21:08Z",
+      "collected_at": "2026-11-13T06:51:37Z",
       "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
+        "name": "Soompi",
+        "handle": "soompi",
         "avatar": ""
       },
       "metrics": {
@@ -39,11 +39,8 @@
       "matched_groups": [
         "aespa"
       ],
-      "matched_members": [
-        "giselle",
-        "ningning"
-      ],
-      "match_confidence": "high",
+      "matched_members": [],
+      "match_confidence": "medium",
       "match_reason": [
         {
           "target_type": "group",
@@ -51,46 +48,32 @@
           "alias": "aespa",
           "field": "title",
           "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "giselle",
-          "alias": "Giselle",
-          "field": "title",
-          "score": 0.9
-        },
-        {
-          "target_type": "member",
-          "target_id": "ningning",
-          "alias": "NingNing",
-          "field": "title",
-          "score": 0.9
         }
       ],
       "score_breakdown": {
-        "recency": 0.9135,
+        "recency": 0.9863,
         "views": 0,
-        "engagement": 7.5,
+        "engagement": 3.9,
         "source_weight": 0.55
       },
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 8.6022,
+      "hot_score": 6.8968,
       "available": true
     },
     {
-      "id": "news:koreaboo:40a2919caa698625",
+      "id": "news:koreaboo:8117e10beba36ef5",
       "platform": "news",
-      "platform_item_id": "40a2919caa698625",
+      "platform_item_id": "8117e10beba36ef5",
       "source_type": "media",
       "content_kind": "news",
-      "title": "aespa’s Karina Subject To Brutal Body-Shaming In Viral Post — Inciting Fury",
-      "description": "\"Scared of you...\"",
-      "url": "https://www.koreaboo.com/news/aespa-karina-subject-brutal-body-shaming-viral-post-inciting-fury/",
+      "title": "aespa’s Karina Responds To Hate Regarding Friendship With Actress",
+      "description": "This just added more fuel to the fire.",
+      "url": "https://www.koreaboo.com/news/aespa-karina-responds-hate-regarding-friendship-han-sooa/",
       "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-12T11:15:24Z",
-      "collected_at": "2026-11-12T19:59:08Z",
+      "published_at": "2026-11-13T03:40:03Z",
+      "collected_at": "2026-11-13T06:51:37Z",
       "author": {
         "name": "Koreaboo",
         "handle": "koreaboo",
@@ -129,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8919,
+        "recency": 0.9575,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -137,7 +120,68 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 7.4643,
+      "hot_score": 8.0138,
+      "available": true
+    },
+    {
+      "id": "news:koreaboo:d0ec80f4c812c37e",
+      "platform": "news",
+      "platform_item_id": "d0ec80f4c812c37e",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "Korean Actress Hit With Fierce Backlash Over Friendship With aespa’s Karina",
+      "description": "Things were getting out of hand.",
+      "url": "https://www.koreaboo.com/news/actress-hit-fierce-backlash-friendship-aespa-karina/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-13T01:48:21Z",
+      "collected_at": "2026-11-13T06:51:37Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "karina"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "karina",
+          "alias": "Karina",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9344,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 7.8202,
       "available": true
     },
     {
@@ -151,7 +195,7 @@
       "url": "https://www.soompi.com/article/1886133wpp/ive-riize-and-illit-top-circle-weekly-charts-a2o-earns-triple-crown",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T23:13:13Z",
-      "collected_at": "2026-11-12T19:59:08Z",
+      "collected_at": "2026-11-13T06:51:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -189,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7762,
+        "recency": 0.6947,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -197,7 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 6.2856,
+      "hot_score": 5.6261,
       "available": true
     },
     {
@@ -211,7 +255,7 @@
       "url": "https://www.soompi.com/article/1886061wpp/watch-twices-jeongyeon-monsta-xs-joohoney-and-more-enjoy-a-friendship-filled-getaway-in-new-show-just-human-friends",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T12:12:40Z",
-      "collected_at": "2026-11-12T19:59:08Z",
+      "collected_at": "2026-11-13T06:51:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -250,7 +294,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6938,
+        "recency": 0.628,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -258,7 +302,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8067,
+      "hot_score": 5.2559,
       "available": true
     },
     {
@@ -272,7 +316,7 @@
       "url": "https://www.soompi.com/article/1885928wpp/blackpinks-jisoo-nct-and-babymonster-announced-for-coachella-2027-lineup",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T06:59:35Z",
-      "collected_at": "2026-11-12T19:59:08Z",
+      "collected_at": "2026-11-13T06:51:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -311,7 +355,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6606,
+        "recency": 0.6007,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -319,7 +363,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.5287,
+      "hot_score": 5.0271,
       "available": true
     },
     {
@@ -333,7 +377,7 @@
       "url": "https://www.soompi.com/article/1885647wpp/ive-scores-1st-ever-entry-on-billboard-200-with-looks-can-kill",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T19:25:12Z",
-      "collected_at": "2026-11-12T19:59:08Z",
+      "collected_at": "2026-11-13T06:51:37Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -363,7 +407,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5972,
+        "recency": 0.5478,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -371,7 +415,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.1759,
+      "hot_score": 3.8304,
       "available": true
     },
     {
@@ -385,7 +429,7 @@
       "url": "https://www.nme.com/news/music/newjeans-record-label-contract-reportedly-lacked-protections-for-minors-3975571",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T15:20:04Z",
-      "collected_at": "2026-11-12T19:59:08Z",
+      "collected_at": "2026-11-13T06:51:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -415,7 +459,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5776,
+        "recency": 0.5313,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -423,59 +467,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.039,
-      "available": true
-    },
-    {
-      "id": "news:soompi:a6390686845f34b4",
-      "platform": "news",
-      "platform_item_id": "a6390686845f34b4",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "STARSHIP Announces Strong Legal Action Against Malicious Posts Targeting IVE’s Jang Won Young",
-      "description": "STARSHIP Entertainment has announced strong legal action against malicious posts and other acts targeting IVE’s Jang Won Young. On November 10, the agency announced that it is pursuing civil and criminal measures against those responsible for spreading false information, defamation, sexual harassment, and other violations of her rights. Read STARSHIP Entertainment’s full statement below: Hello,… Continue reading STARSHIP Announces Strong Legal Action Against Malicious Posts Targeting IVE’s Jang Won Young The post STARSHIP Announces Strong Legal Action Against Malicious Posts Targeting IVE’s Jang Won Young appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885526wpp/starship-announces-strong-legal-action-against-malicious-posts-targeting-ives-jang-won-young",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-10T08:08:22Z",
-      "collected_at": "2026-11-12T19:59:08Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "ive"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "ive",
-          "alias": "IVE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5461,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 3.8186,
+      "hot_score": 3.7149,
       "available": true
     },
     {
@@ -489,7 +481,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-12T19:59:08Z",
+      "collected_at": "2026-11-13T06:51:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -519,7 +511,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1625,
+        "recency": 0.1586,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -527,7 +519,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.1365,
+      "hot_score": 1.1093,
       "available": true
     },
     {
@@ -541,7 +533,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-12T19:59:08Z",
+      "collected_at": "2026-11-13T06:51:37Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -580,7 +572,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0552,
+        "recency": 0.0547,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -588,7 +580,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4617,
+      "hot_score": 0.4579,
       "available": true
     }
   ]
