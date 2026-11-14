@@ -1,67 +1,15 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-13T19:46:44Z",
+  "generated_at": "2026-11-14T06:32:52Z",
   "status": {
     "ok": true,
     "code": "ok",
     "message": "Fetched RSS feeds.",
-    "item_count": 8,
+    "item_count": 7,
     "previous_data_used": false
   },
   "items": [
-    {
-      "id": "news:koreaboo:5a38ea7e270ea6a2",
-      "platform": "news",
-      "platform_item_id": "5a38ea7e270ea6a2",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "Popular SEVENTEEN And TWICE Members’ Relationship Sparks Speculation With Viral Video",
-      "description": "The \"proof\" was in their actions!",
-      "url": "https://www.koreaboo.com/news/popular-seventeen-member-twice-members-relationship-sparks-speculation-viral-video/",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-13T12:30:40Z",
-      "collected_at": "2026-11-13T19:46:44Z",
-      "author": {
-        "name": "Koreaboo",
-        "handle": "koreaboo",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "twice"
-      ],
-      "matched_members": [],
-      "match_confidence": "medium",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "twice",
-          "alias": "TWICE",
-          "field": "title",
-          "score": 1.0
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.9083,
-        "views": 0,
-        "engagement": 3.9,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 6.3515,
-      "available": true
-    },
     {
       "id": "news:soompi:9f136284dc4f78ae",
       "platform": "news",
@@ -73,7 +21,7 @@
       "url": "https://www.soompi.com/article/1886736wpp/aespas-lemonade-becomes-their-12th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-13T06:21:08Z",
-      "collected_at": "2026-11-13T19:46:44Z",
+      "collected_at": "2026-11-14T06:32:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -103,7 +51,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.8428,
+        "recency": 0.7485,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -111,7 +59,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.8936,
+      "hot_score": 5.2338,
       "available": true
     },
     {
@@ -125,7 +73,7 @@
       "url": "https://www.soompi.com/article/1886133wpp/ive-riize-and-illit-top-circle-weekly-charts-a2o-earns-triple-crown",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T23:13:13Z",
-      "collected_at": "2026-11-13T19:46:44Z",
+      "collected_at": "2026-11-14T06:32:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -163,7 +111,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.6177,
+        "recency": 0.5655,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -171,7 +119,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.0025,
+      "hot_score": 4.5794,
       "available": true
     },
     {
@@ -185,7 +133,7 @@
       "url": "https://www.soompi.com/article/1886061wpp/watch-twices-jeongyeon-monsta-xs-joohoney-and-more-enjoy-a-friendship-filled-getaway-in-new-show-just-human-friends",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T12:12:40Z",
-      "collected_at": "2026-11-13T19:46:44Z",
+      "collected_at": "2026-11-14T06:32:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -224,7 +172,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5644,
+        "recency": 0.5205,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -232,7 +180,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.7237,
+      "hot_score": 4.3559,
       "available": true
     },
     {
@@ -246,7 +194,7 @@
       "url": "https://www.soompi.com/article/1885928wpp/blackpinks-jisoo-nct-and-babymonster-announced-for-coachella-2027-lineup",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T06:59:35Z",
-      "collected_at": "2026-11-13T19:46:44Z",
+      "collected_at": "2026-11-14T06:32:52Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -285,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5422,
+        "recency": 0.5015,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -293,7 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.538,
+      "hot_score": 4.1976,
       "available": true
     },
     {
@@ -307,7 +255,7 @@
       "url": "https://www.nme.com/news/music/newjeans-record-label-contract-reportedly-lacked-protections-for-minors-3975571",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T15:20:04Z",
-      "collected_at": "2026-11-13T19:46:44Z",
+      "collected_at": "2026-11-14T06:32:52Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -337,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.485,
+        "recency": 0.4522,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -345,7 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.3916,
+      "hot_score": 3.1622,
       "available": true
     },
     {
@@ -359,7 +307,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-13T19:46:44Z",
+      "collected_at": "2026-11-14T06:32:52Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -389,7 +337,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1542,
+        "recency": 0.1508,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -397,7 +345,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.0786,
+      "hot_score": 1.0543,
       "available": true
     },
     {
@@ -411,7 +359,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-13T19:46:44Z",
+      "collected_at": "2026-11-14T06:32:52Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -450,7 +398,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0542,
+        "recency": 0.0537,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -458,7 +406,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4534,
+      "hot_score": 0.4498,
       "available": true
     }
   ]
