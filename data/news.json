@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "news",
-  "generated_at": "2026-11-14T06:32:52Z",
+  "generated_at": "2026-11-14T18:10:48Z",
   "status": {
     "ok": true,
     "code": "ok",
@@ -10,6 +10,67 @@
     "previous_data_used": false
   },
   "items": [
+    {
+      "id": "news:koreaboo:1b31806bf02fd071",
+      "platform": "news",
+      "platform_item_id": "1b31806bf02fd071",
+      "source_type": "media",
+      "content_kind": "news",
+      "title": "aespa Winter’s “Couple Tattoo” With BTS’s Jungkook Becomes A Hot Topic After “2026 Melon Music Award” Appearance",
+      "description": "It was all about Winter's red carpet look.",
+      "url": "https://www.koreaboo.com/news/aespa-winter-couple-tattoo-melon-music-awards-bts-jungkook-dating/",
+      "thumbnail": "./public/placeholders/news.svg",
+      "published_at": "2026-11-14T17:25:24Z",
+      "collected_at": "2026-11-14T18:10:48Z",
+      "author": {
+        "name": "Koreaboo",
+        "handle": "koreaboo",
+        "avatar": ""
+      },
+      "metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "danmaku": 0
+      },
+      "duration": "",
+      "language": "en",
+      "matched_groups": [
+        "aespa"
+      ],
+      "matched_members": [
+        "winter"
+      ],
+      "match_confidence": "high",
+      "match_reason": [
+        {
+          "target_type": "group",
+          "target_id": "aespa",
+          "alias": "aespa",
+          "field": "title",
+          "score": 1.0
+        },
+        {
+          "target_type": "member",
+          "target_id": "winter",
+          "alias": "Winter",
+          "field": "title",
+          "score": 0.9
+        }
+      ],
+      "score_breakdown": {
+        "recency": 0.9863,
+        "views": 0,
+        "engagement": 5.7,
+        "source_weight": 0.55
+      },
+      "quality_flags": [
+        "media_source"
+      ],
+      "hot_score": 8.2546,
+      "available": true
+    },
     {
       "id": "news:soompi:9f136284dc4f78ae",
       "platform": "news",
@@ -21,7 +82,7 @@
       "url": "https://www.soompi.com/article/1886736wpp/aespas-lemonade-becomes-their-12th-mv-to-hit-100-million-views",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-13T06:21:08Z",
-      "collected_at": "2026-11-14T06:32:52Z",
+      "collected_at": "2026-11-14T18:10:48Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -51,7 +112,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.7485,
+        "recency": 0.6677,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -59,7 +120,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 5.2338,
+      "hot_score": 4.6692,
       "available": true
     },
     {
@@ -73,7 +134,7 @@
       "url": "https://www.soompi.com/article/1886133wpp/ive-riize-and-illit-top-circle-weekly-charts-a2o-earns-triple-crown",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T23:13:13Z",
-      "collected_at": "2026-11-14T06:32:52Z",
+      "collected_at": "2026-11-14T18:10:48Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -111,7 +172,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5655,
+        "recency": 0.5181,
         "views": 0,
         "engagement": 5.3,
         "source_weight": 0.55
@@ -119,7 +180,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.5794,
+      "hot_score": 4.1961,
       "available": true
     },
     {
@@ -133,7 +194,7 @@
       "url": "https://www.soompi.com/article/1886061wpp/watch-twices-jeongyeon-monsta-xs-joohoney-and-more-enjoy-a-friendship-filled-getaway-in-new-show-just-human-friends",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-11T12:12:40Z",
-      "collected_at": "2026-11-14T06:32:52Z",
+      "collected_at": "2026-11-14T18:10:48Z",
       "author": {
         "name": "Soompi",
         "handle": "soompi",
@@ -172,7 +233,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.5205,
+        "recency": 0.4801,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -180,68 +241,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 4.3559,
-      "available": true
-    },
-    {
-      "id": "news:soompi:12364ea55b705554",
-      "platform": "news",
-      "platform_item_id": "12364ea55b705554",
-      "source_type": "media",
-      "content_kind": "news",
-      "title": "BLACKPINK’s Jisoo, NCT, And BABYMONSTER Announced For Coachella 2027 Lineup",
-      "description": "The lineup for next year’s Coachella is out! On November 11, the famous U.S. music festival officially revealed its star-studded lineup for 2027, announcing Dua Lipa, Tame Impala, and SZA as headliners alongside Daddy Yankee. The lineup for 2027 includes BLACKPINK’s Jisoo in the Friday lineup for April 9 and 16, while NCT will take… Continue reading BLACKPINK’s Jisoo, NCT, And BABYMONSTER Announced For Coachella 2027 Lineup The post BLACKPINK’s Jisoo, NCT, And BABYMONSTER Announced For Coachella 2027 Lineup appeared first on Soompi .",
-      "url": "https://www.soompi.com/article/1885928wpp/blackpinks-jisoo-nct-and-babymonster-announced-for-coachella-2027-lineup",
-      "thumbnail": "./public/placeholders/news.svg",
-      "published_at": "2026-11-11T06:59:35Z",
-      "collected_at": "2026-11-14T06:32:52Z",
-      "author": {
-        "name": "Soompi",
-        "handle": "soompi",
-        "avatar": ""
-      },
-      "metrics": {
-        "views": 0,
-        "likes": 0,
-        "comments": 0,
-        "shares": 0,
-        "danmaku": 0
-      },
-      "duration": "",
-      "language": "en",
-      "matched_groups": [
-        "blackpink"
-      ],
-      "matched_members": [
-        "jisoo"
-      ],
-      "match_confidence": "high",
-      "match_reason": [
-        {
-          "target_type": "group",
-          "target_id": "blackpink",
-          "alias": "BLACKPINK",
-          "field": "title",
-          "score": 1.0
-        },
-        {
-          "target_type": "member",
-          "target_id": "jisoo",
-          "alias": "Jisoo",
-          "field": "title",
-          "score": 0.9
-        }
-      ],
-      "score_breakdown": {
-        "recency": 0.5015,
-        "views": 0,
-        "engagement": 5.7,
-        "source_weight": 0.55
-      },
-      "quality_flags": [
-        "media_source"
-      ],
-      "hot_score": 4.1976,
+      "hot_score": 4.0181,
       "available": true
     },
     {
@@ -255,7 +255,7 @@
       "url": "https://www.nme.com/news/music/newjeans-record-label-contract-reportedly-lacked-protections-for-minors-3975571",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-11-10T15:20:04Z",
-      "collected_at": "2026-11-14T06:32:52Z",
+      "collected_at": "2026-11-14T18:10:48Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -285,7 +285,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.4522,
+        "recency": 0.4214,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -293,7 +293,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 3.1622,
+      "hot_score": 2.9469,
       "available": true
     },
     {
@@ -307,7 +307,7 @@
       "url": "https://www.nme.com/features/music-interviews/illit-break-even-interview-radar-3974304",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-10-28T09:00:08Z",
-      "collected_at": "2026-11-14T06:32:52Z",
+      "collected_at": "2026-11-14T18:10:48Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -337,7 +337,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.1508,
+        "recency": 0.1472,
         "views": 0,
         "engagement": 3.9,
         "source_weight": 0.55
@@ -345,7 +345,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 1.0543,
+      "hot_score": 1.0292,
       "available": true
     },
     {
@@ -359,7 +359,7 @@
       "url": "https://www.nme.com/news/gaming-news/blackpink-lisa-playstation-collaboration-controller-ps5-merch-pre-order-3970148",
       "thumbnail": "./public/placeholders/news.svg",
       "published_at": "2026-09-22T10:45:36Z",
-      "collected_at": "2026-11-14T06:32:52Z",
+      "collected_at": "2026-11-14T18:10:48Z",
       "author": {
         "name": "NME K-pop",
         "handle": "nme-kpop",
@@ -398,7 +398,7 @@
         }
       ],
       "score_breakdown": {
-        "recency": 0.0537,
+        "recency": 0.0533,
         "views": 0,
         "engagement": 5.7,
         "source_weight": 0.55
@@ -406,7 +406,7 @@
       "quality_flags": [
         "media_source"
       ],
-      "hot_score": 0.4498,
+      "hot_score": 0.4459,
       "available": true
     }
   ]
