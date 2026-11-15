@@ -17,6 +17,11 @@ else:
 
 SOURCE_REPOSITORY = 'winterinabluu/kpop-pulse'
 SOURCE_WORKFLOW = '.github/workflows/pages-candidate.yml'
+SOURCE_EVENTS = {
+    SOURCE_WORKFLOW: {'workflow_dispatch'},
+    '.github/workflows/pages.yml': {'push', 'workflow_dispatch'},
+    '.github/workflows/update-data.yml': {'schedule', 'workflow_dispatch'},
+}
 ARTIFACT_NAME = 'pages-candidate'
 MAX_FILE_BYTES = 8 * 1024 * 1024
 MAX_SITE_BYTES = 32 * 1024 * 1024
@@ -172,7 +177,7 @@ def verify_bundle(bundle: Path, run: dict[str, Any], artifact: dict[str, Any], *
     require(str(run.get('id')) == manifest['source_run_id'] and run.get('run_attempt') == manifest['source_run_attempt'],
             'Run ID/attempt mismatch')
     require(run.get('head_sha') == manifest['source_sha'] and run.get('head_branch') == 'master', 'Run commit/ref mismatch')
-    require(run.get('event') == 'workflow_dispatch' and run.get('path') == SOURCE_WORKFLOW, 'Unexpected producer workflow/event')
+    require(run.get('event') in SOURCE_EVENTS.get(run.get('path'), set()), 'Unexpected producer workflow/event')
     require(run.get('status') == 'completed' and run.get('conclusion') == 'success', 'Producer did not complete successfully')
     run_created = timestamp(run.get('created_at')); run_completed = timestamp(run.get('updated_at'))
     require(run_created <= generated <= run_completed <= current, 'Candidate does not belong to this run lifetime')
