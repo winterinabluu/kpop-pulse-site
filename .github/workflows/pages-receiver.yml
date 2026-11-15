@@ -1,0 +1,116 @@
+# Reviewed template only: install after SOURCE_ARTIFACT_READ_TOKEN is ready.
+# Trusted verifiers go in .github/scripts/, never inside the received artifact.
+name: Validate or deploy ephemeral Pages candidate
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: Successful private pages-candidate workflow run ID
+        required: true
+        type: string
+      source_sha:
+        description: Exact reviewed 40-character private source commit
+        required: true
+        type: string
+      mode:
+        description: Validate only until migration checks are approved
+        type: choice
+        options: [validate, deploy]
+        default: validate
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ephemeral-pages-receiver
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: github.repository == 'winterinabluu/kpop-pulse-site' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout trusted receiver code
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.11"
+      - name: Fetch only trusted source identity metadata
+        id: source
+        env:
+          GH_TOKEN: ${{ secrets.SOURCE_ARTIFACT_READ_TOKEN }}
+          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+          SOURCE_SHA: ${{ inputs.source_sha }}
+        run: |
+          python - <<'PY'
+          import json, os, pathlib, re, subprocess
+          run_id, sha = os.environ['SOURCE_RUN_ID'], os.environ['SOURCE_SHA']
+          if not re.fullmatch(r'[1-9][0-9]*', run_id) or not re.fullmatch(r'[a-f0-9]{40}', sha):
+              raise SystemExit('Invalid source run ID or commit.')
+          if not os.environ.get('GH_TOKEN'):
+              raise SystemExit('SOURCE_ARTIFACT_READ_TOKEN must be configured in the public repository.')
+          def api(endpoint):
+              result = subprocess.run(['gh','api',endpoint],capture_output=True,text=True)
+              if result.returncode:
+                  raise SystemExit('Private metadata request failed; credential details were not logged.')
+              return json.loads(result.stdout)
+          run = api('repos/winterinabluu/kpop-pulse/actions/runs/' + run_id)
+          if (run.get('head_sha') != sha or run.get('head_branch') != 'master' or
+              run.get('path') != '.github/workflows/pages-candidate.yml' or
+              run.get('event') != 'workflow_dispatch' or run.get('status') != 'completed' or
+              run.get('conclusion') != 'success' or run.get('repository',{}).get('full_name') != 'winterinabluu/kpop-pulse'):
+              raise SystemExit('Source run was not the approved successful producer.')
+          artifacts = api('repos/winterinabluu/kpop-pulse/actions/runs/' + run_id + '/artifacts?per_page=100')
+          matches = [item for item in artifacts.get('artifacts',[]) if item.get('name') == 'pages-candidate']
+          if artifacts.get('total_count',0) > 100 or len(matches) != 1 or matches[0].get('expired') is not False:
+              raise SystemExit('Expected one nonexpired pages-candidate artifact.')
+          artifact = matches[0]
+          temp = pathlib.Path(os.environ['RUNNER_TEMP'])
+          (temp/'pages-source-run.json').write_text(json.dumps(run),encoding='utf-8')
+          (temp/'pages-source-artifact.json').write_text(json.dumps(artifact),encoding='utf-8')
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as output:
+              output.write('artifact_id=' + str(artifact['id']) + chr(10))
+          PY
+      - name: Download private candidate by exact artifact ID
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          github-token: ${{ secrets.SOURCE_ARTIFACT_READ_TOKEN }}
+          repository: winterinabluu/kpop-pulse
+          run-id: ${{ inputs.source_run_id }}
+          artifact-ids: ${{ steps.source.outputs.artifact_id }}
+          merge-multiple: true
+          path: ${{ runner.temp }}/pages-received
+      - name: Verify identity, expiry, inventory and disabled YouTube
+        env:
+          RECEIVED_BUNDLE: ${{ runner.temp }}/pages-received
+          RUN_METADATA: ${{ runner.temp }}/pages-source-run.json
+          ARTIFACT_METADATA: ${{ runner.temp }}/pages-source-artifact.json
+        run: |
+          python -B .github/scripts/verify_pages_candidate.py --bundle "$RECEIVED_BUNDLE" --run-metadata "$RUN_METADATA" --artifact-metadata "$ARTIFACT_METADATA"
+      - name: Prepare one-day GitHub Pages artifact
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: ${{ runner.temp }}/pages-received/site
+          retention-days: 1
+
+  deploy:
+    if: inputs.mode == 'deploy' && vars.EPHEMERAL_PAGES_APPROVED == 'true'
+    needs: verify
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Deploy already verified disabled artifact
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
