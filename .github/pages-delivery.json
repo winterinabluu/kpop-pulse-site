@@ -1,12 +1,12 @@
 {
-  "source_repository": "winterinabluu/kpop-pulse",
-  "generated_at": "2026-11-23T23:58:08Z",
-  "schema_version": 1,
-  "youtube_mode": "disabled",
-  "source_sha": "307a9f92158a4a7af778f8d08c57ff468698a823",
   "source_run_attempt": 1,
   "source_ref": "refs/heads/master",
-  "source_run_id": "45293188503",
-  "expires_at": "2026-11-24T23:58:08Z",
-  "artifact_id": "14876080083"
+  "generated_at": "2026-11-24T09:59:29Z",
+  "youtube_mode": "disabled",
+  "source_repository": "winterinabluu/kpop-pulse",
+  "expires_at": "2026-11-25T09:59:29Z",
+  "source_run_id": "45370323267",
+  "source_sha": "75c9510151a72626d530d5919244364a15c04473",
+  "schema_version": 1,
+  "artifact_id": "14908334001"
 }
